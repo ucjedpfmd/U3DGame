@@ -21,10 +21,12 @@ public class NPC
         //string str = "file:///E:/Project/U3D/GameRole/Assets/elements/unit/role/100001/role_100001.FBX";
         //WWW load = new WWW(str);
         //yield load;
-        body = MonoBehaviour.Instantiate(Resources.LoadAssetAtPath("Assets/prefabs/role_100001.prefab", typeof(GameObject))) as GameObject;
-        body.AddComponent<CapsuleCollider>();
-        CapsuleCollider cap = body.GetComponent<CapsuleCollider>();
-        cap.radius = 10;
+        //body = MonoBehaviour.Instantiate(Resources.LoadAssetAtPath("Assets/prefabs/role_100001.prefab", typeof(GameObject))) as GameObject;
+		GameObject sour = Resources.LoadAssetAtPath("Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX", typeof(GameObject)) as GameObject;
+		body = GameObject.Instantiate(sour) as GameObject;
+		//body.AddComponent<CapsuleCollider>();
+        //CapsuleCollider cap = body.GetComponent<CapsuleCollider>();
+        //cap.radius = 10;
         body.AddComponent("NPCBehaviour");
         
     }

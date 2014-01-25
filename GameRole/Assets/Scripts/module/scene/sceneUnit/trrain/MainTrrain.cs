@@ -7,6 +7,7 @@ public class MainTrrain
     public void init()
     {
         body = MonoBehaviour.Instantiate(Resources.LoadAssetAtPath("Assets/prefabs/trrain/TerrainMain.prefab", typeof(GameObject))) as GameObject;
+		body.name = "MainTrrain";
         //body = MonoBehaviour.Instantiate(Resources.LoadAssetAtPath("Assets/prefabs/trrain/TrrainNormal.prefab", typeof(GameObject))) as GameObject;
         //body = GameObject.CreatePrimitive(PrimitiveType.Cube);
 

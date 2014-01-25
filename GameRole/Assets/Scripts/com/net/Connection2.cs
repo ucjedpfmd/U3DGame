@@ -2,15 +2,19 @@
 using System.Collections;
 using System;
 using System.Threading;
-using System.Text;
 using System.Net;
 using System.Net.Sockets;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using DCLib.ByteHelper;
+using com;
+using proto;
+using com.net.manager;
 
 public class StateObject
 {
@@ -27,7 +31,7 @@ public class StateObject
 }
 
 
-class Connection2
+public class Connection2
 {
     /**
      * 当前连接所有状态
@@ -43,7 +47,6 @@ class Connection2
     public int state;
 
     private int id = 0x7000;
-    private static Dictionary<string, List<function>> listeners;
     public StateObject stateObj;
     public function handlerSuccess;
 
@@ -73,7 +76,6 @@ class Connection2
     private void init()
     {
         stateObj = new StateObject();
-        
         state = CLOSE;
     }
 
@@ -90,10 +92,9 @@ class Connection2
         Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         client.BeginConnect(ipPoint, new AsyncCallback(connectHandler), client);
         //bool isSucc = result.AsyncWaitHandle.WaitOne(5000,true);         
-        listeners = new Dictionary<string, List<function>>();
         // stateObj.workSocket.Connect(ipPoint);
-        connectDone.WaitOne();
-
+        //connectDone.WaitOne();
+        ConnMgr.init();
       }
 
     private void connectHandler(IAsyncResult ar)
@@ -111,7 +112,7 @@ class Connection2
             // Signal that the connection has been made.  
             stateObj.workSocket = client;
 
-            connectDone.Set();          
+           // connectDone.Set();          
             startHandshark();
             //Send(client, "0," + "fff");
             Receive(client);
@@ -158,7 +159,7 @@ class Connection2
             Socket client = stateObj.workSocket;
 
             int bytesRead = client.EndReceive(ar);
-
+			Debug.Log("ReceiveCallback：字节数：" + bytesRead);
             if (bytesRead > 0)
             {
                 byte[] byteData = new byte[bytesRead];
@@ -178,12 +179,20 @@ class Connection2
                         _voData = new ByteArray();
                         if (_voLength > 1)
                         { //排除空包
-							_voData.writeBytes(_dealingData.Buffer,_dealingData.Postion,_voLength - 2);
+							_voData.writeBytes(_dealingData.Buffer,_dealingData.Postion,_voLength-1);
 							_voData.Postion = 0;
                             if (_isZIP == 1)
                             {
+								string msg = "";
+								byte[] b = _dealingData.Buffer;
+								for (int j = 0; j < b.Length; j++)
+								{
+									msg += b[j] + ",";
+								}
+								Debug.Log("收到未压缩数据" + msg);
                                 _voData.Uncompress();
                             }
+
                             decodeData2(_voData);
                         }
                     }
@@ -228,16 +237,26 @@ class Connection2
         tmpByte.readUnsignedByte();
         tmpByte.readUnsignedByte();
         //			var voName:String = tmpByte.readUTF();
-        Debug.Log("收到数据" + tmpByte.ToString());
+
         int alias = tmpByte.readInt();
-        string voName = //ProtoAliasUtil.getClassNameByAlias(alias);
+        string voName = ProtoAliasUtil.getClassNameByAlias(alias);
         string classpackage = "proto" + "." + voName;
-        Types.GetType(
-        Message vo = Message.decode(tmpByte, VoClass);
-        typeof()
+		Debug.Log("收到协议" + classpackage);
+        Type t = Type.GetType(classpackage);
+        Message vo1 = (Message) Activator.CreateInstance(t);
+        Message vo = Message.decode(tmpByte, vo1);
+        ConnMgr.addResultData(vo.getMethodName(), vo);
     }
 
-    public void send(Message message)
+    public void sendMessage(Message vo)
+    {
+        if (state == CONNECTED)
+        {
+            send(vo);
+        }
+    }
+
+    private void send(Message message)
     {
         if (message == null)
         {
@@ -275,7 +294,7 @@ class Connection2
         stateObj.workSocket.BeginSend(sendByte2, 0, sendByte2.Length, SocketFlags.None, new AsyncCallback(SendCallback), stateObj.workSocket);
     }
 
-    public void Send(Socket client, string data)
+    private void Send(Socket client, string data)
     {
         byte[] byteData = Encoding.UTF8.GetBytes(data);
         client.BeginSend(byteData, 0, byteData.Length, SocketFlags.None, new AsyncCallback(SendCallback), client);

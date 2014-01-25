@@ -1,62 +1,88 @@
-using UnityEngine;
-using System.Collections;
+namespace module.scene.sceneUnit{
+    using UnityEngine;
+    using System.Collections;
+    using AssemblyCSharp;
+    using module.scene.sceneUnit.avatar;
+    using com.globals;
 
-public class MyRole {
-
-	// Use this for initialization
-	GameObject body;
-    private static MyRole instance;
-    public static MyRole getInstance()
+    public class MyRole : SceneUnit
     {
-        if (instance == null)
+
+        // Use this for initialization
+        private static MyRole instance;
+        public static MyRole getInstance()
         {
-            instance = new MyRole();
+            if (instance == null)
+            {
+                instance = new MyRole();
+            }
+            return instance;
         }
-        return instance;
-    }
-	void Awake() {
-		
-	}
-	
-	public void reset() {
-		initBody();
-	}
-	
-	void initBody() {
-		//string str = "file:///E:/Project/U3D/GameRole/Assets/elements/unit/role/100001/role_100001.FBX";
-		//WWW load = new WWW(str);
-		//yield load;
-       // GameObject sour = Resources.LoadAssetAtPath("Assets/prefabs/role/3rd Person Controller.prefab", typeof(GameObject)) as GameObject;
-        GameObject sour = Resources.LoadAssetAtPath("Assets/prefabs/role_100001.prefab", typeof(GameObject)) as GameObject;
-        body = GameObject.Instantiate(sour) as GameObject;
-        body.AddComponent("ThirdPersonCamera");
-        body.AddComponent("MyRoleBehaviour");
-        //body.transform.parent = xx;
-        body.GetComponent<ThirdPersonCamera>().cameraTransform = GlobalData.camera.transform;
-	}
 
-    public void play(string act, string dir=null)
-    {
-        body.animation.Play(act);
-    }
-	
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        public MyRole()
+        {
+			init();
+        }
 
-    public void resetPos(Vector3 pos)
-    {
-        Debug.Log(pos);
-        body.transform.position = pos;
+		override protected void init(){
+			myObj.name = "MyRole";
+			avatar = new RichAvatar();
+			avatar.setParent(myObj);
+			sceneType = SceneUnitType.ROLE_TYPE;
+		}
+
+        override public void reset(object value = null)
+        {
+            resetSkin(0, 0);
+        }
+
+        override public void resetSkin(int skinID, int sex)
+        {
+			avatar.resetSkin(skinID,sex);
+			if(isInit == false){
+				initScript();
+			}
+            
+        }
+
+		private void initScript(){
+			avatar.body.AddComponent("Controller");
+			avatar.body.AddComponent<CharacterController>();
+			SmoothFollow sf = GlobalData.camera.GetComponent("SmoothFollow") as SmoothFollow;
+			sf.distance = 6;
+			sf.height = 4;
+			sf.target = avatar.body.transform;
+			behaviour = avatar.body.AddComponent("Controller") as Controller;
+			behaviour.unitID = id;
+			collider = avatar.body.AddComponent<MeshCollider>();
+			isInit = true;
+		}
+
+        override public void play(string act, string dir = null)
+        {
+            avatar.body.animation.Play(act);
+        }
+
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        public Vector3 pos()
+        {
+			return myObj.transform.position;
+        }
+
+        public void runToPoint(Vector3 pointAft)
+        {
+            (behaviour as Controller).runToPoint(pointAft);
+        }
     }
 
-    public Vector3 pos()
-    {
-        return body.transform.position;
-    }
 }

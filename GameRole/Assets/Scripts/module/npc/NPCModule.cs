@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using module;
 
 class NPCModule : BaseModule 
 {
@@ -30,7 +31,7 @@ class NPCModule : BaseModule
         addMessageListener(ModuleCommand.OPEN_NPC_PANEL, openPanel);
     }
 
-    public void openPanel(params object[] arg)
+    public void openPanel(object arg)
     {
         if (panel == null)
         {

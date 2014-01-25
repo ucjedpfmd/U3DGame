@@ -1,0 +1,18 @@
+namespace proto {
+	public class m_mount_feed_tos : Message
+	{
+		public int type_id = 0;
+		public int num = 0;
+		public m_mount_feed_tos() {
+		}
+		public override string getMethodName() {
+			return "mount_feed";
+		}
+		public override string getClassName() {
+			return "m_mount_feed_tos";
+		}
+		public override string[][] getAttributes() {
+			return new string[][] {new string[] {"type_id", "int", "null"},new string[] {"num", "int", "null"}};
+		}
+	}
+}

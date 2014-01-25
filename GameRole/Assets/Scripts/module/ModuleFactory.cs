@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using module.scene.cases;
 
 class ModuleFactory
 {
@@ -9,5 +10,6 @@ class ModuleFactory
     {
         SceneModule.getInstance();
         NPCModule.getInstance();
+        MapCase.getInstance();
     }
 }

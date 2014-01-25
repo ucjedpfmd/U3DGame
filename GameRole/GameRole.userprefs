@@ -1,64 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="com" expanded="True">
-                  <Node name="globals" expanded="True" />
-                  <Node name="net" expanded="True" />
-                </Node>
-                <Node name="proto" expanded="True">
-                  <Node name="src" expanded="True">
-                    <Node name="com" expanded="True" />
-                    <Node name="flash" expanded="True">
-                      <Node name="utils" expanded="True">
-                        <Node name="ByteArray.cs" selected="True" />
-                      </Node>
-                    </Node>
-                    <Node name="proto" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-          <Node name="Assembly-UnityScript-firstpass" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Standard Assets" expanded="True">
-                <Node name="Character Controllers" expanded="True">
-                  <Node name="Sources" expanded="True">
-                    <Node name="Scripts" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>valueList</Value>
-          <Value>sourceByte</Value>
-          <Value>result</Value>
-          <Value>Math.Ceiling(i / 8)</Value>
-          <Value>Math.Ceiling(i)</Value>
-          <Value>Encoding.Unicode.GetBytes(value)</Value>
-        </State>
-      </Pad>
-    </Pads>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\module\scene\sceneUnit\avatar\SceneUnit.cs">
+    <Files>
+      <File FileName="Assets\Scripts\module\scene\view\SceneView.cs" Line="12" Column="27" />
+      <File FileName="Assets\Scripts\module\scene\sceneUnit\avatar\SceneUnit.cs" Line="13" Column="24" />
+      <File FileName="Assets\Scripts\module\scene\sceneUnit\baseUnit\avatar\IAvatar.cs" Line="19" Column="31" />
+      <File FileName="Assets\Scripts\module\scene\sceneUnit\baseUnit\avatar\MyAvatar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\module\scene\sceneUnit\baseUnit\avatar\RichAvatar.cs" Line="12" Column="24" />
+      <File FileName="Assets\Scripts\module\scene\sceneUnit\avatar\Monster.cs" Line="17" Column="11" />
+      <File FileName="Assets\Scripts\module\scene\sceneUnit\MyRole.cs" Line="31" Column="4" />
+      <File FileName="Assets\Scripts\module\scene\SceneModule.cs" Line="39" Column="23" />
+    </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="E:\Project\U3D\GameRole\Assets\Scripts\com\net\Connection2.cs" line="168" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Assets\Scripts\proto\src\flash\utils\ByteArray.cs" line="37" offsetX="782" offsetY="563" expression="BitConverter" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

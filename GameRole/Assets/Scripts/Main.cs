@@ -1,5 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using proto;
+using com.net;
+using com.net.manager;
+using com.globals;
+using com.encrypt;
 
 public class Main : MonoBehaviour
 {
@@ -7,14 +12,15 @@ public class Main : MonoBehaviour
     RaycastHit hit;
     void Awake()
     {
-        GlobalData.camera = gameObject;
-        //initScene();
+        GlobalData.initCamera(gameObject);        
+        initScene();
 		initConnect();
+        ModuleFactory.createModules();
     }
 
     private void initScene()
     {
-        ModuleFactory.createModules();
+        SceneModule.getInstance().init();
         //initView();
        
     }
@@ -43,8 +49,11 @@ public class Main : MonoBehaviour
 
     private void initConnect()
     {
+        //EncryptCSharp.startEncrypt();
         Connection2.getInstance().handlerSuccess = onConnectedServerSucc;
         Connection2.getInstance().startConnect(true);
+		ConnMgr.addSocketListener<m_auth_key_toc>(SocketCommand.AUTH_KEY, onAuthKey);
+		ConnMgr.addSocketListener<m_role_detail_toc>(SocketCommand.ROLE_DETAIL, onRoleDetail);
     }
 	
 	private void onConnectedServerSucc(params object[] arg){
@@ -57,7 +66,24 @@ public class Main : MonoBehaviour
 		vo.server_id=int.Parse(GameParameters.getInstance().serverID);
 		vo.agent_id=int.Parse(GameParameters.getInstance().agentID);
         vo.extra_params = GameParameters.getInstance().extraParams;
-        Connection2.getInstance().send(vo);
+        Connection2.getInstance().sendMessage(vo);
         //Connection2.getInstance().Send(Connection2.getInstance().stateObj.workSocket, "2,*," + "123" + "," + "进来了");
 	}
+
+    private void onAuthKey(m_auth_key_toc vo)
+    {
+		Debug.Log("onAuthKey");
+        if (vo.succ)
+        {
+            m_role_detail_tos vo1 = new m_role_detail_tos();
+            Connection2.getInstance().sendMessage(vo1);
+        }
+    }
+
+    private void onRoleDetail(m_role_detail_toc vo)
+    {
+        Debug.Log("有角色信息");
+        GlobalData.getInstance().user = vo.role_details;
+        Dispatcher.dispatch(ModuleCommand.START_UP_SCENE);
+    }
 }

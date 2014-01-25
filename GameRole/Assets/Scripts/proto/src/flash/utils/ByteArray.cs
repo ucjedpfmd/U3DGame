@@ -3,6 +3,10 @@ using System.IO;
 using System.IO.Compression;
 using System.Collections.Generic;
 using System.Text;
+using zlib;
+using UnityEngine;
+using ICSharpCode.SharpZipLib;
+using ICSharpCode.SharpZipLib.GZip;
 
 namespace DCLib.ByteHelper
 {
@@ -31,8 +35,13 @@ namespace DCLib.ByteHelper
 
         private void Init()
         {
-            m_writer = new BinaryWriter(m_Stream);
-            m_reader = new BinaryReader(m_Stream);
+			try{
+				m_writer = new BinaryWriter(m_Stream);
+				m_reader = new BinaryReader(m_Stream);
+			}catch(Exception e){
+				Debug.Log(e.ToString());
+			}
+            
         }
 
         public int Length
@@ -93,14 +102,12 @@ namespace DCLib.ByteHelper
 
         public int readInt()
         {
-			byte[] arr = BitConverter.GetBytes(m_reader.ReadInt32());
-            Array.Reverse(arr);
-            return BitConverter.ToInt32(arr,0);
+            return BitConverter.ToInt32(toSmallEndianArr(BitConverter.GetBytes(m_reader.ReadInt32())),0);
         }
 
         public short readShort()
         {
-            return m_reader.ReadInt16();
+            return BitConverter.ToInt16(toSmallEndianArr(BitConverter.GetBytes(m_reader.ReadInt16())), 0);
         }
 
         public byte readUnsignedByte()
@@ -110,17 +117,18 @@ namespace DCLib.ByteHelper
 
         public uint readUnsignedInt()
         {
-            return (uint)m_reader.ReadInt32();
+            return BitConverter.ToUInt32(toSmallEndianArr(BitConverter.GetBytes(m_reader.ReadInt32())), 0);
         }
 
         public ushort readUnsignedShort()
         {
-            return m_reader.ReadUInt16();
+            return BitConverter.ToUInt16(toSmallEndianArr(BitConverter.GetBytes(m_reader.ReadUInt16())), 0);
         }
 
         public string readUTF()
         {
-            return m_reader.ReadString();
+            short len = readShort();
+            return readUTFBytes((uint)len);
         }
 
         public string readUTFBytes(uint length)
@@ -132,6 +140,11 @@ namespace DCLib.ByteHelper
             string decodedString = utf8.GetString(encodedBytes, 0, encodedBytes.Length);
             return decodedString;
         }
+		
+		private byte[] toSmallEndianArr(byte[] arr){
+            Array.Reverse(arr);
+			return arr;
+		}
 
         public void writeBoolean(bool value)
         {
@@ -216,35 +229,37 @@ namespace DCLib.ByteHelper
         public void Compress()
         {
             byte[] buffer = m_Stream.GetBuffer();
-            DeflateStream deflateStream = new DeflateStream(m_Stream, CompressionMode.Compress, true);
-            deflateStream.Write(buffer, 0, buffer.Length);
-            deflateStream.Close();
+			ZOutputStream zs = new ZOutputStream(m_Stream);
+			zs.Write(buffer, 0, buffer.Length);
+			zs.Close();
             Init();
         }
 
         public void Uncompress()
         {
-            DeflateStream deflateStream = new DeflateStream(m_Stream, CompressionMode.Decompress, false);
+			//m_Stream.ReadByte();
+			//m_Stream.ReadByte();
+			//DeflateStream deflateStream = new DeflateStream(m_Stream, CompressionMode.Compress);
+          // ZCompressStream
             MemoryStream ms = new MemoryStream();
-            byte[] buffer = new byte[1024];
-            // Skip first two bytes
-            m_Stream.ReadByte();
-            m_Stream.ReadByte();
-            while (true)
-            {
-                int readCount = deflateStream.Read(buffer, 0, buffer.Length);
-                if (readCount > 0)
-                    ms.Write(buffer, 0, readCount);
-                else
-                    break;
-            }
-            deflateStream.Close();
-            m_Stream.Close();
-            m_Stream.Dispose();
-            m_Stream = ms;
-            m_Stream.Position = 0;
-            Init();
+            ZOutputStream zo = new ZOutputStream(ms);
+            zo.Write(m_Stream.GetBuffer(), 0,(int)m_Stream.Length);
+			ms.Seek(0,SeekOrigin.Begin);
+			//ZInputStream zs = new ZInputStream(m_Stream);
+			zo.finish();
+            //zo.Close();
+
+			m_Stream = ms;          
+			resetBinary();
         }
+
+		private void resetBinary()
+		{
+			m_writer.Close();
+			m_reader.Close();
+			Init();
+		}
+
 
         public void clear()
         {
