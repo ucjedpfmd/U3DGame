@@ -41,6 +41,9 @@
 
 		public void reset() {
 			Vector3 v3 = new Vector3(2992,0,-396);
+            v3 = TileUitls.getMeterByPixel(v3);
+            SceneDataManager.mapOffsetX = v3.x;
+            SceneDataManager.mapOffsetZ = v3.z;
 			midLayer.transform.position = v3;
 		}
 
@@ -166,6 +169,15 @@
 			unit.resetPos(enterPoint);
 			SceneUnitMgr.addUnit(unit);
 		}
+
+        public void removeUnit(double id, int type = SceneUnitType.ROLE_TYPE) {
+			SceneUnit unit = SceneUnitMgr.removeUnit(id);
+			if (unit != null) {
+				//清除追击目标
+                unit.remove();
+			}
+		}
+
 
         public void resetMyRolePos(Vector3 pos)
         {

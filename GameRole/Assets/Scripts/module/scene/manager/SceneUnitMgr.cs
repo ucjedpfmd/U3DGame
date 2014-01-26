@@ -37,6 +37,19 @@ namespace module.scene.manager{
             }
         }
 
+        public static SceneUnit removeUnit(double unit_id) {
+			SceneUnit tar = getUnit(unit_id);
+
+			if (_unitHash.ContainsKey(unit_id+"") == true) {
+                _unitHash.Remove(unit_id+"");
+			}
+			if (_monsterHash.ContainsKey(unit_id+"") == true) {
+                _monsterHash.Remove(unit_id + "");
+				monsterNUM -= 1;
+			}
+			return tar;
+		}
+
         public static SceneUnit getUnit(double unit_id)
         {
 			if (_unitHash.ContainsKey(unit_id.ToString()) == false)
@@ -46,6 +59,9 @@ namespace module.scene.manager{
             return _unitHash[unit_id.ToString()];
         }
 
+        public static Dictionary<string, SceneUnit> monsterHash {
+            get { return _monsterHash; }
+		}
     }
 }
 

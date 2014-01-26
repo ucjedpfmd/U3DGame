@@ -126,7 +126,7 @@ namespace module.scene.cases
 				//逐步初始化，一个一个来
                 int i;
 				for (i = 0; i < vo.roles.Length; i++) {
-					//roleEnter(vo.roles[i] as p_map_role);
+					roleEnter(vo.roles[i] as p_map_role);
 				}
 				for (i = 0; i < vo.monsters.Length; i++) {
 					monsterEnter(vo.monsters[i] as p_map_monster);
@@ -166,6 +166,22 @@ namespace module.scene.cases
 //				Alert.show(ErrorCode.getError(vo.err_code, vo.reason), "进入地图出错");
 			}
 			view.reset();
+		}
+
+		// enterType1、普通 2、冲锋,3复活，4，击退
+		private void roleEnter(p_map_role vo) {
+			if (vo.role_id == GlobalData.getInstance().user.base2.role_id) {
+				return; //有时候包含自己，是后台的bug
+			}
+			Role role = SceneUnitMgr.getUnit(vo.role_id) as Role;
+			if (role == null) {
+				role = UnitPool.getRole();
+				view.addUnit(role, vo.role_id,vo.pos, vo, PosUtil.getDir(vo.pos));
+			} else {
+                Vector3 v3 = TileUitls.getFlatCenterByPos(vo.pos);			
+                role.resetPos(v3);
+                role.reset(vo);
+			}
 		}
 
         private void monsterEnter(p_map_monster vo) {

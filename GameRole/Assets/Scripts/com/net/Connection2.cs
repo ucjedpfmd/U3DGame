@@ -159,7 +159,6 @@ public class Connection2
             Socket client = stateObj.workSocket;
 
             int bytesRead = client.EndReceive(ar);
-			Debug.Log("ReceiveCallback：字节数：" + bytesRead);
             if (bytesRead > 0)
             {
                 byte[] byteData = new byte[bytesRead];
@@ -183,13 +182,6 @@ public class Connection2
 							_voData.Postion = 0;
                             if (_isZIP == 1)
                             {
-								string msg = "";
-								byte[] b = _dealingData.Buffer;
-								for (int j = 0; j < b.Length; j++)
-								{
-									msg += b[j] + ",";
-								}
-								Debug.Log("收到未压缩数据" + msg);
                                 _voData.Uncompress();
                             }
 
@@ -284,13 +276,13 @@ public class Connection2
         byte[] sendByte2 = new byte[sendByte.Length];
         Array.Copy(sendByte.Buffer, 0, sendByte2, 0, sendByte.Length);
         //stateObj.workSocket.Send(sendByte2);
-        Debug.Log("SendDATA" + sendByte2.Length);
+        //Debug.Log("SendDATA" + sendByte2.Length);
         string msg = "";
         for (int i = 0; i < sendByte2.Length; i++)
         {
             msg += sendByte2[i] + ",";
         }
-        Debug.Log(msg);
+        //Debug.Log(msg);
         stateObj.workSocket.BeginSend(sendByte2, 0, sendByte2.Length, SocketFlags.None, new AsyncCallback(SendCallback), stateObj.workSocket);
     }
 

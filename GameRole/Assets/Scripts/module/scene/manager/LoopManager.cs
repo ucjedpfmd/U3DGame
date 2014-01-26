@@ -47,8 +47,13 @@ public class LoopManager : MonoBehaviour
 	}
 
 	private static void frameLoop() {
-		foreach (KeyValuePair<object, function> key in frameLoopDic) {
-			function f = key.Value;
+        if (frameLoopDic == null)
+        {
+            return;
+        }
+        var buffer = new List<object>(frameLoopDic.Keys);
+		foreach (var key in buffer) {
+			function f = frameLoopDic[key];
 			if (GameParameters.isDebug == true) {
 				f();
 			} else {

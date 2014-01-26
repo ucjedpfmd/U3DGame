@@ -9,7 +9,7 @@ namespace module.scene.manager
 	class UnitPool
 	{
         private static List<Monster> monsterPool = new List<Monster>();
-       // private static List<Role> rolePool = new List<Role>();
+        private static List<Role> rolePool = new List<Role>();
         //private static Monster[] petPool = new Monster[120];
 
 		private static MyRole myRole;
@@ -38,6 +38,30 @@ namespace module.scene.manager
 			if (monsterPool.Count < 120) {
 				monsterPool.Add(m);
 			}
+		}
+     
+		public static Role getRole() {
+			if (rolePool.Count > 0) {
+				Role m = rolePool.ElementAt(0);
+				rolePool.RemoveAt(0);
+                return m;
+			}
+			return new Role();
+		}
+
+        public static void disposeRole(Role m)
+        {
+            if (rolePool.Count < 160 && m is MyRole == false)
+            {
+                rolePool.Add(m);
+			}
+		}
+        public static List<Role> RolePool() {
+			return rolePool;
+		}
+
+		public static int RolePoolNum {
+            get{return rolePool.Count;}
 		}
 
 		public static List<Monster> MonsterPool() {

@@ -1,6 +1,6 @@
 ﻿namespace module.scene.tile
 {
-	class Pt
+	public class Pt
 	{
         public double x;
 		public double y;

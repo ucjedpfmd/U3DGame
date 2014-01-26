@@ -10,15 +10,17 @@
 namespace module.scene.sceneUnit.avatar{
     using System;
     using UnityEngine;
-    public class Monster : SceneUnit
+    using proto;
+    public class Monster : Animal
     {
+        private p_map_monster _pvo;
         public Monster()
         {
 			init();
         }
 
 		override protected void init(){
-			myObj.name = "Monster";
+            myObj.name = "Monster";
 			avatar = new RichAvatar();
 			avatar.setParent(myObj);
 			sceneType = SceneUnitType.MONSTER_TYPE;
@@ -26,6 +28,8 @@ namespace module.scene.sceneUnit.avatar{
 
         override public void reset(object value = null)
         {
+            _pvo = value as p_map_monster;
+            //myObj.name = "Monster" + _pvo.monster_id;
             initBody();
         }
 
@@ -35,10 +39,19 @@ namespace module.scene.sceneUnit.avatar{
             //body.AddComponent<CapsuleCollider>();
             //CapsuleCollider cap = body.GetComponent<CapsuleCollider>();
             //cap.radius = 10;
-            behaviour = avatar.body.AddComponent("MonsterBehaviour") as IAvatarBehaviour;
-            behaviour.unitID = id;
+            if (isInit == false)
+            {
+                myObj.AddComponent<CharacterController>();
+                collider = myObj.AddComponent<MeshCollider>();
+                LoopManager.addToFrame(this, loop);
+                isInit = true;
+            }       
+        }
 
-            collider = avatar.body.AddComponent<MeshCollider>();
+        public void runToPoint(Vector3 v3) {
+            point = v3;
+            myObj.transform.LookAt(new Vector3(point.x, myObj.transform.position.y, point.z));
+            SetGameAct(AvatarUtil.ACT_WALK);
         }
     }
 }

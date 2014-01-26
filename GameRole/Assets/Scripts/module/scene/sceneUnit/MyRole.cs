@@ -4,11 +4,12 @@ namespace module.scene.sceneUnit{
     using AssemblyCSharp;
     using module.scene.sceneUnit.avatar;
     using com.globals;
+    using proto;
 
-    public class MyRole : SceneUnit
+    public class MyRole : Role
     {
 
-        // Use this for initialization
+        private p_map_role _pvo;
         private static MyRole instance;
         public static MyRole getInstance()
         {
@@ -25,7 +26,7 @@ namespace module.scene.sceneUnit{
         }
 
 		override protected void init(){
-			myObj.name = "MyRole";
+            myObj.name = "MyRole";
 			avatar = new RichAvatar();
 			avatar.setParent(myObj);
 			sceneType = SceneUnitType.ROLE_TYPE;
@@ -33,6 +34,8 @@ namespace module.scene.sceneUnit{
 
         override public void reset(object value = null)
         {
+            _pvo = value as p_map_role;
+            //myObj.name = "MyRole" + _pvo.role_id;
             resetSkin(0, 0);
         }
 
@@ -41,20 +44,18 @@ namespace module.scene.sceneUnit{
 			avatar.resetSkin(skinID,sex);
 			if(isInit == false){
 				initScript();
+                LoopManager.addToFrame(this, loop);
 			}
             
         }
 
 		private void initScript(){
-			avatar.body.AddComponent("Controller");
-			avatar.body.AddComponent<CharacterController>();
+            myObj.AddComponent<CharacterController>();
 			SmoothFollow sf = GlobalData.camera.GetComponent("SmoothFollow") as SmoothFollow;
 			sf.distance = 6;
 			sf.height = 4;
 			sf.target = avatar.body.transform;
-			behaviour = avatar.body.AddComponent("Controller") as Controller;
-			behaviour.unitID = id;
-			collider = avatar.body.AddComponent<MeshCollider>();
+			collider = myObj.AddComponent<MeshCollider>();
 			isInit = true;
 		}
 
@@ -63,25 +64,38 @@ namespace module.scene.sceneUnit{
             avatar.body.animation.Play(act);
         }
 
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
         public Vector3 pos()
         {
 			return myObj.transform.position;
         }
 
-        public void runToPoint(Vector3 pointAft)
+        override public void runToPoint(Vector3 pointAft)
         {
-            (behaviour as Controller).runToPoint(pointAft);
+            //目前场景中只有地形
+            //其实应当在判断一下当前射线碰撞到的对象是否为地形。
+
+            //得到在3D世界中点击的坐标
+            pointAft.y = 1;
+            point = pointAft;
+
+            //设置主角面朝这个点，主角的X 与 Z轴不应当发生旋转，
+            //注解1
+            myObj.transform.LookAt(new Vector3(point.x, myObj.transform.position.y, point.z));
+
+            //用户是否连续点击按钮
+            if (Time.realtimeSinceStartup - time <= 0.2f)
+            {
+                //连续点击 进入奔跑状态
+                SetGameAct(AvatarUtil.ACT_RUN);
+            }
+            else
+            {
+                //点击一次只进入走路状态
+                SetGameAct(AvatarUtil.ACT_WALK);
+            }
+
+            //记录本地点击鼠标的时间
+            time = Time.realtimeSinceStartup;
         }
     }
 

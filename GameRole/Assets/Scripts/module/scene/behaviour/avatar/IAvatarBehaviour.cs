@@ -12,7 +12,56 @@ using UnityEngine;
 public class IAvatarBehaviour : MonoBehaviour
 {
 	public double unitID;
+    protected Vector3 point;
+    protected string curAct;
 	public IAvatarBehaviour ()
 	{
 	}
+
+    public virtual void runToPoint(Vector3 pointAft)
+    {
+
+    }
+
+    protected virtual void SetGameAct(string act)
+    {
+        switch (act)
+        {
+            case AvatarUtil.ACT_STAND:
+                //播放站立动画
+                point = transform.position;
+                animation.Play(AvatarUtil.ACT_STAND);
+                break;
+            case AvatarUtil.ACT_WALK:
+                //播放行走动画
+                animation.Play(AvatarUtil.ACT_WALK);
+                break;
+            case AvatarUtil.ACT_RUN:
+                //播放奔跑动画
+                animation.Play(AvatarUtil.ACT_WALK);
+                break;
+        }
+        curAct = act;
+    }
+
+    protected virtual void Move(float speed)
+    {
+
+        //注解2
+        //主角没到达目标点时，一直向该点移动
+        if (Mathf.Abs(Vector3.Distance(point, transform.position)) >= 1.3f)
+        {
+            //得到角色控制器组件
+            CharacterController controller = GetComponent<CharacterController>();
+            //注解3 限制移动
+            Vector3 v = Vector3.ClampMagnitude(point - transform.position, speed);
+            //可以理解为主角行走或奔跑了一步
+            controller.Move(v);
+        }
+        else
+        {
+            //到达目标时 继续保持站立状态。
+            SetGameAct(AvatarUtil.ACT_STAND);
+        }
+    }
 }

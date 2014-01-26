@@ -14,5 +14,25 @@ public class MonsterBehaviour : IAvatarBehaviour
 	public MonsterBehaviour ()
 	{
 	}
+
+    override public void runToPoint(Vector3 pointAft)
+    {
+        point = pointAft;
+        transform.LookAt(new Vector3(point.x, transform.position.y, point.z));
+        SetGameAct(AvatarUtil.ACT_WALK);
+    }
+
+    void FixedUpdate()
+    {
+        switch (curAct)
+        {
+            case AvatarUtil.ACT_STAND:
+
+                break;
+            case AvatarUtil.ACT_WALK:
+                Move(0.05f);
+                break;
+        }
+    }
 }
 

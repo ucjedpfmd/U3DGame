@@ -15,6 +15,8 @@ namespace module.scene.sceneUnit.avatar{
         public double id;
         public int sceneType;
 		public bool isInit;
+        protected int _status;
+
 		protected GameObject myObj;
         protected IAvatar avatar;
         protected IAvatarBehaviour behaviour;
@@ -26,6 +28,11 @@ namespace module.scene.sceneUnit.avatar{
 
 		protected virtual void init(){
 			
+		}
+
+        public int status {
+            get { return _status; }
+			set {_status = value;}
 		}
 
         public virtual void play(string act, string dir = null)
@@ -52,6 +59,10 @@ namespace module.scene.sceneUnit.avatar{
 		public void setParent(GameObject parent){
 			myObj.transform.parent = parent.transform;
 		}
+
+        public void remove() {
+            GameObject.Destroy(myObj);
+        }
     }
 
 }
