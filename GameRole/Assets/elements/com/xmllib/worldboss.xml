@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<boss id="11101301" name="朱厌魔君" path="zhuyanmojun" level="30" goodsLevel="3" refreshTime="每小时一次"  timetype="1"
+	     desc="魔界朱厌殿殿主，专毁仙盟，身上每一块仙盟令都昭示一个仙盟被其毁灭">
+		<goods typeid="11600019" isEquip="false" color="3"/>
+		
+	</boss>
+	<boss id="12101301" name="朱厌魔君" path="zhuyanmojun" level="30" goodsLevel="3" refreshTime="每小时一次"  timetype="1"
+	     desc="魔界朱厌殿殿主，专毁仙盟，身上每一块仙盟令都昭示一个仙盟被其毁灭">
+		<goods typeid="11600019" isEquip="false" color="3"/>
+		
+	</boss>
+	<boss id="13101301" name="朱厌魔君" path="zhuyanmojun" level="30" goodsLevel="3" refreshTime="每小时一次"  timetype="1"
+	     desc="魔界朱厌殿殿主，专毁仙盟，身上每一块仙盟令都昭示一个仙盟被其毁灭">
+		<goods typeid="11600019" isEquip="false" color="3"/>
+		
+	</boss>	
+	
+	
+	<boss id="10200301" name="匠魔傀儡" path="jiangmokuilei" level="40" goodsLevel="3" refreshTime="每3小时一次"  timetype="1"
+	     desc="春秋“匠祖”公输般花费十数年完成的傀儡巨人，被魔族装入蚩尤残魂改造，欲攻入人界帝都">
+		<goods typeid="11201019" isEquip="false" color="4"/>
+		<goods typeid="11400005" isEquip="false" color="2"/>
+		<goods typeid="11600002" isEquip="false" color="2"/>
+		<goods typeid="12100001" isEquip="false" color="4"/>
+		
+	</boss>
+	<boss id="10200302" name="飞翼獠牙虎" path="feiyiliaoyahu" level="50" goodsLevel="5" refreshTime="每日13、17、21点" timetype="0"
+	     desc="远古四凶兽之后，每日必啖数十人，且食人之前必百般玩弄，凶残尤甚其祖。">
+		<goods typeid="11301004" isEquip="false" color="4"/>
+		<goods typeid="11302004" isEquip="false" color="4"/>
+		<goods typeid="11303004" isEquip="false" color="4"/>
+		<goods typeid="11304004" isEquip="false" color="4"/>
+
+		<goods typeid="11201020" isEquip="false" color="4"/>
+		<goods typeid="11400005" isEquip="false" color="2"/>
+		<goods typeid="11600002" isEquip="false" color="2"/>
+		<goods typeid="12100001" isEquip="false" color="4"/>
+	</boss>
+	<boss id="10200303" name="赤晴尸乌" path="chiqingshiwu" level="60" goodsLevel="5" refreshTime="每日13、17、21点"  timetype="0"
+	     desc="上古驾驭日车的三足金乌，遭羿射杀坠入凡间，吸收蚩尤残魂而成赤睛尸乌，以袭击路人为乐。">
+		<goods typeid="11301004" isEquip="false" color="4"/>
+		<goods typeid="11302004" isEquip="false" color="4"/>
+		<goods typeid="11303004" isEquip="false" color="4"/>
+		<goods typeid="11304004" isEquip="false" color="4"/>
+
+		<goods typeid="11201020" isEquip="false" color="4"/>
+		<goods typeid="11400006" isEquip="false" color="3"/>
+		<goods typeid="12100001" isEquip="false" color="4"/>
+		<goods typeid="11100007" isEquip="false" color="3"/>
+		<goods typeid="11100011" isEquip="false" color="3"/>
+	</boss>
+
+	<boss id="11102311" name="赤晴尸乌分身" path="chiqingshiwufenshen" level="45" goodsLevel="4" refreshTime="每日12、16、20点"  timetype="0"
+	     desc="上古驾驭日车的三足金乌，死后吸收蚩尤残魂而成赤睛尸乌所化的分身，被分往四处猎食。">
+		<goods typeid="11301004" isEquip="false" color="4"/>
+		<goods typeid="11302004" isEquip="false" color="4"/>
+		<goods typeid="11303004" isEquip="false" color="4"/>
+		<goods typeid="11304004" isEquip="false" color="4"/>
+
+		<goods typeid="11201020" isEquip="false" color="4"/>
+		<goods typeid="11400005" isEquip="false" color="2"/>
+		<goods typeid="12100001" isEquip="false" color="4"/>
+		<goods typeid="11600002" isEquip="false" color="2"/>
+	</boss>
+	<boss id="12102311" name="赤晴尸乌分身" path="chiqingshiwufenshen" level="45" goodsLevel="4" refreshTime="每日12、16、20点"  timetype="0"
+	     desc="上古驾驭日车的三足金乌，死后吸收蚩尤残魂而成赤睛尸乌所化的分身，被分往四处猎食。">
+		<goods typeid="11301004" isEquip="false" color="4"/>
+		<goods typeid="11302004" isEquip="false" color="4"/>
+		<goods typeid="11303004" isEquip="false" color="4"/>
+		<goods typeid="11304004" isEquip="false" color="4"/>
+
+		<goods typeid="11201020" isEquip="false" color="4"/>
+		<goods typeid="11400005" isEquip="false" color="2"/>
+		<goods typeid="12100001" isEquip="false" color="4"/>
+		<goods typeid="11600002" isEquip="false" color="2"/>
+	</boss>
+	<boss id="13102311" name="赤晴尸乌分身" path="chiqingshiwufenshen" level="45" goodsLevel="4" refreshTime="每日12、16、20点"  timetype="0"
+	     desc="上古驾驭日车的三足金乌，死后吸收蚩尤残魂而成赤睛尸乌所化的分身，被分往四处猎食。">
+		<goods typeid="11301004" isEquip="false" color="4"/>
+		<goods typeid="11302004" isEquip="false" color="4"/>
+		<goods typeid="11303004" isEquip="false" color="4"/>
+		<goods typeid="11304004" isEquip="false" color="4"/>
+
+		<goods typeid="11201020" isEquip="false" color="4"/>
+		<goods typeid="11400005" isEquip="false" color="2"/>
+		<goods typeid="12100001" isEquip="false" color="4"/>
+		<goods typeid="11600002" isEquip="false" color="2"/>
+	
+	</boss>
+	
+
+	
+	
+	
+</root>

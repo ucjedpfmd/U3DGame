@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refine>
+<reinf>
+<!-- 强化套装属性 强化等级，全身最低颜色，属性加成-->
+	<suit lv='510' col='2' attr="15,120|11,1200"/>
+	<suit lv='510' col='3' attr="15,180|11,1800"/>
+	<suit lv='510' col='4' attr="15,240|11,2400"/>
+	<suit lv='510' col='5' attr="15,300|11,3000"/>
+	<suit lv='510' col='5' attr="15,360|11,3600"/>
+	
+	<suit lv='710' col='2' attr="15,240|11,2400" />
+	<suit lv='710' col='3' attr="15,360|11,3600" />
+	<suit lv='710' col='4' attr="15,480|11,4800" />
+	<suit lv='710' col='5' attr="15,600|11,6000" />
+	<suit lv='710' col='6' attr="15,720|11,7200"/>
+	
+	<suit lv='1010' col='2' attr="15,360|11,3600" />
+	<suit lv='1010' col='3' attr="15,600|11,6000" />
+	<suit lv='1010' col='4' attr="15,800|11,8000" />
+	<suit lv='1010' col='5' attr="15,1000|11,10000"/>
+	<suit lv='1010' col='6' attr="15,1200|11,12000"/>
+
+<!-- 强化材料的需求 材料颜色值，强化等级-->	
+	<match mLv='10201102' eLv='210' />
+	<match mLv='10201103' eLv='410' />
+	<match mLv='10201104' eLv='710' />
+	<match mLv='10201005' eLv='1010' />
+	
+<!-- 强化成功率/花费 强化等级，成功率 <301 100%成功-->	
+	<rate lv='1' value='10000'/>
+	<rate lv='2' value='10000'/>
+	<rate lv='3' value='7500'/>
+	<rate lv='4' value='4500'/>
+	<rate lv='5' value='2000'/>
+	<rate lv='6' value='1000'/>
+	<rate lv='7' value='1000'/>
+	<rate lv='8' value='1000'/>
+	<rate lv='9' value='1000'/>
+	<rate lv='10' value='1000'/>
+<!-- 强化增加属性 装备颜色，属性值（key-value）-->
+	<attr color='2' attr="15,6|16,6|13,6|14,6|11,120"/>
+	<attr color='3' attr="15,6|16,6|13,6|14,6|11,120"/>
+	<attr color='4' attr="15,6|16,6|13,6|14,6|11,120"/>
+	<attr color='5' attr="15,6|16,6|13,6|14,6|11,120"/>
+	<attr color='6' attr="15,6|16,6|13,6|14,6|11,120"/>
+</reinf>
+<extra vipLockCost='20'>
+<!-- 附魂增加属性 装备颜色，属性值加成，最大附魂条数，最大附魂星级-->
+	<attr eLv='2'  attr="15,18|16,18|13,24|14,24|11,360|12,144|22,20|23,8|31,5|36,5|37,5" maxNum='3' maxLv='2'/>
+	<attr eLv='3'  attr="15,18|16,18|13,24|14,24|11,360|12,144|22,20|23,8|31,5|36,5|37,5" maxNum='4' maxLv='3'/>
+	<attr eLv='4'  attr="15,18|16,18|13,24|14,24|11,360|12,144|22,20|23,8|31,5|36,5|37,5" maxNum='5' maxLv='5'/>
+	<attr eLv='5'  attr="15,18|16,18|13,24|14,24|11,360|12,144|22,20|23,8|31,5|36,5|37,5" maxNum='6' maxLv='7'/>
+	<attr eLv='6'  attr="15,18|16,18|13,24|14,24|11,360|12,144|22,20|23,8|31,5|36,5|37,5" maxNum='6' maxLv='10'/>
+
+	<!-- 附魂材料的需求 材料等级，装备等级-->	
+	<match mLv='10203101' eLv='2' />
+	<match mLv='10203102' eLv='3' />
+	<match mLv='10203103' eLv='4' />
+	<match mLv='10203104' eLv='5' />
+	<match mLv='10203005' eLv='6' />
+</extra>
+<quality>
+<!-- 品质，属性，成功率、幸运值 -->
+	<rate lv='1' attr = '0' value='2500' luck='4,2500,2500|2,5000,5000'/>
+	<rate lv='2' attr = '1000' value='2000' luck='5,2000,500|4,2500,2500|2,5000,5000'/>
+	<rate lv='3' attr = '3000' value='1000' luck='10,1000,1000|5,2000,500|4,2500,2500|2,5000,5000'/>
+	<rate lv='4' attr = '6000' value='500' luck='20,500,500|10,1000,1000|5,2000,500|4,2500,2500|2,5000,5000'/>
+	<rate lv='5' attr = '10000' value='' luck=''/>
+
+	<!-- 品质材料的需求 材料，装备-->
+	<match mLv='10202101' eLv='1' />
+	<match mLv='10202102' eLv='2' />
+	<match mLv='10202103' eLv='3' />
+	<match mLv='10202004' eLv='4' />
+</quality>
+<stone>
+<!-- 灵石可配置部位配置 职业，putWhere ，可镶嵌灵石-->
+    <categroy id="1" putWhere="1" stones="101,103,104,105,107,108"/>
+	<categroy id="1" putWhere="2" stones="101,103,104,105,107,108"/>
+	<categroy id="1" putWhere="3" stones="101,103,104,105,107,108"/>
+    <categroy id="1" putWhere="4" stones="101,103,104,105,107,108"/>
+	<categroy id="1" putWhere="5" stones="101,103,104,105,106,109"/>
+	<categroy id="1" putWhere="6" stones="101,103,104,105,106,109"/>
+	<categroy id="1" putWhere="7" stones="101,103,104,105,106,109"/>
+	<categroy id="1" putWhere="8" stones="101,103,104,105,107,108"/>
+	<categroy id="1" putWhere="9" stones="101,103,104,105,106,109"/>
+	<categroy id="1" putWhere="10" stones="101,103,104,105,106,109"/>
+    <categroy id="2" putWhere="1" stones="101,103,104,105,107,108"/>
+	<categroy id="2" putWhere="2" stones="101,103,104,105,107,108"/>
+	<categroy id="2" putWhere="3" stones="101,103,104,105,107,108"/>
+    <categroy id="2" putWhere="4" stones="101,103,104,105,107,108"/>
+	<categroy id="2" putWhere="5" stones="101,103,104,105,106,109"/>
+	<categroy id="2" putWhere="6" stones="101,103,104,105,106,109"/>
+	<categroy id="2" putWhere="7" stones="101,103,104,105,106,109"/>
+	<categroy id="2" putWhere="8" stones="101,103,104,105,107,108"/>
+	<categroy id="2" putWhere="9" stones="101,103,104,105,106,109"/>
+	<categroy id="2" putWhere="10" stones="101,103,104,105,106,109"/>
+    <categroy id="3" putWhere="1" stones="102,103,104,105,107,108"/>
+	<categroy id="3" putWhere="2" stones="102,103,104,105,107,108"/>
+	<categroy id="3" putWhere="3" stones="102,103,104,105,107,108"/>
+    <categroy id="3" putWhere="4" stones="102,103,104,105,107,108"/>
+	<categroy id="3" putWhere="5" stones="102,103,104,105,106,109"/>
+	<categroy id="3" putWhere="6" stones="102,103,104,105,106,109"/>
+	<categroy id="3" putWhere="7" stones="102,103,104,105,106,109"/>
+	<categroy id="3" putWhere="8" stones="102,103,104,105,107,108"/>
+	<categroy id="3" putWhere="9" stones="102,103,104,105,106,109"/>
+	<categroy id="3" putWhere="10" stones="102,103,104,105,106,109"/>
+    <categroy id="4" putWhere="1" stones="102,103,104,105,107,108"/>
+	<categroy id="4" putWhere="2" stones="102,103,104,105,107,108"/>
+	<categroy id="4" putWhere="3" stones="102,103,104,105,107,108"/>
+    <categroy id="4" putWhere="4" stones="102,103,104,105,107,108"/>
+	<categroy id="4" putWhere="5" stones="102,103,104,105,106,109"/>
+	<categroy id="4" putWhere="6" stones="102,103,104,105,106,109"/>
+	<categroy id="4" putWhere="7" stones="102,103,104,105,106,109"/>
+	<categroy id="4" putWhere="8" stones="102,103,104,105,107,108"/>
+	<categroy id="4" putWhere="9" stones="102,103,104,105,106,109"/>
+	<categroy id="4" putWhere="10" stones="102,103,104,105,106,109"/>
+	
+</stone> 
+</refine>

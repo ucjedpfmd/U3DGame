@@ -19,4 +19,22 @@ using System.Text;
         ////////////////状态
 		public const int NORMAL = 0; //正常
 		public const int DEAD = 100; //死亡
+
+        private static Dictionary<int, string> avatarResList;
+        public static string getAvatarFBXBySkinID(int skinID)
+        {
+            init();
+            return avatarResList[skinID];
+        }
+
+        private static void init()
+        {
+            if (avatarResList != null)
+            {
+                return;
+            }
+            avatarResList = new Dictionary<int, string>();
+            avatarResList[1] = "Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX";
+            avatarResList[2] = "Assets/elements/unit/role/100001/role_100001.FBX";
+        }
 	}

@@ -1,6 +1,7 @@
 ﻿
 using UnityEngine;
 using module.scene.utils;
+using System;
 namespace module.scene.tile
 {
 	class TileUitls
@@ -20,6 +21,22 @@ namespace module.scene.tile
             pixel.z = pixel.z * METER_SIZE;
             return pixel;
         }
+
+        public static Pt getIndexWithPt(float x,float z, Pt pt,float defaultTileSize=0) {
+			defaultTileSize = defaultTileSize == 0 ? TILE_SIZE : defaultTileSize;
+            defaultTileSize = getMeterByPixel(defaultTileSize);
+			pt = flatToIsoWithPt(x, z, pt);
+			pt.x = Math.Floor(pt.x / defaultTileSize);
+			pt.y = Math.Floor(pt.y / defaultTileSize);
+			pt.z = Math.Floor(pt.z / defaultTileSize);
+            return pt;
+		}
+        public static Pt flatToIsoWithPt(float px, float py, Pt pt = null) {
+			pt.x = py + px * .5;
+			pt.y = 0;
+			pt.z = py - px * .5;
+			return pt;
+		}
 
         public static Vector3 getFlatCenterByPos(int pos) {
             int tx = PosUtil.getTx(pos);

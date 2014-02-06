@@ -1,0 +1,166 @@
+﻿<root>
+<!-- NPC的配置只有后端有（后端配置npc_base.xml），为方便做一些功能（如NPC链接分条件显示），于是加一些仅前端用的配置数据-->
+	<!-- 注：0==false 1==ture -->
+	<!--扩展前端NPCVo
+		visible_type npc可见性->0无隐藏性 1等级 2时间段 3时间 4婚宴状态 0没有1还没开始2开始3已游行过 
+		5完成情缘任务次数 6情缘次数之间显示 7当天是否有人举办婚宴  8 是否处于拜堂状态
+		visible_value 与type对应
+		时间段格式："09/30/2013 00:00:00-10/30/2013 00:00:00",注意中间是有必要的空格的
+	-->
+	<npc_base npc_id="40000139"> <!--祝福仙子-->
+		<visible type="3" value="08:00-22:00" />
+		<visible type="7" value="1" />	
+	</npc_base>
+	<npc_base npc_id="40000144"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="7" value="1" />	
+		</npc_base>
+	<npc_base npc_id="40000145"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="7" value="1" />	
+		</npc_base>
+	<npc_base npc_id="40000146"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="7" value="1" />	
+		</npc_base>
+	<npc_base npc_id="40000147"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="7" value="1" />	
+		</npc_base>
+	<npc_base npc_id="40000148"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="7" value="1" />	
+		</npc_base>
+	<npc_base npc_id="40000149"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="7" value="1" />	
+		</npc_base>
+	<npc_base npc_id="40000150"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+		<visible type="7" value="1" />	
+	</npc_base>
+	<npc_base npc_id="40000151"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+			<visible type="4" value="2" />	
+	</npc_base>
+	<npc_base npc_id="40000152"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+		<visible type="4" value="2" />	
+	</npc_base>
+	<npc_base npc_id="40000153"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+		<visible type="4" value="2" />	
+	</npc_base>
+	<npc_base npc_id="40000154"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+		<visible type="4" value="2" />	
+	</npc_base>
+	<npc_base npc_id="40000155"> <!--祝福仙子-->
+			<visible type="3" value="08:00-22:00" />
+		<visible type="4" value="2" />	
+	</npc_base>
+	<npc_base npc_id="40000140"> <!--酒席-->
+		<visible type="3" value="18:01-22:00" />
+		<visible type="7" value="1" />	
+	</npc_base>
+	<npc_base npc_id="40000141"> <!--酒席-->
+		<visible type="3" value="18:01-22:00" />
+		<visible type="7" value="1" />	
+	</npc_base>
+	<npc_base npc_id="40000142"> <!--酒席-->
+		<visible type="3" value="18:01-22:00" />
+		<visible type="7" value="1" />	
+	</npc_base>
+	<npc_base npc_id="40000143">  <!--酒席-->
+		<visible type="3" value="18:01-22:00" />
+		<visible type="7" value="1" />	
+	</npc_base>	
+	<!--拜堂
+	-->
+	<npc_base npc_id="40000156">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000157">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000158">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000159">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000160">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000161">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000162">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000163">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000164">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000165">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000166">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000167">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000168">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>		
+	<npc_base npc_id="40000169">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>	
+	<npc_base npc_id="40000170">  <!--拜堂-->
+		<visible type="8" value="1" />	
+	</npc_base>		
+	<!--护展前端NpcLinkVO
+		visible_type 链接可见性->0无隐藏性 1等级 2时间段 3时间 4是否已婚 5是否是情缘任务发布者
+		visible_value 与type对应
+	-->
+	<link action_id="36"> 
+		<visible type="7" value="0"/>	
+	</link>
+	<link action_id="40"> 
+		<visible type="7" value="1"/>	
+	</link>
+	<link action_id="41"> 
+		<visible type="7" value="1"/>	
+	</link>
+	<link action_id="45"> <!--发布“装扮璇玑城”任务-->
+		<visible type="3" value="08:00-13:00"/>
+		<visible type="5" value="1"/>	
+	</link>
+	<link action_id="46"> <!--婚礼巡游-->
+		<visible type="3" value="13:01-18:00"/>
+		<visible type="5" value="1"/>	
+	</link>
+	<link action_id="47"> 
+		<visible type="3" value="08:00-22:00"/>
+		<visible type="5" value="0"/>	
+	</link>
+	<link action_id="49">  <!--大摆筵席-->
+		<visible type="3" value="18:01-22:00"/>
+		<visible type="5" value="1"/>	
+	</link>
+	<link action_id="52">  <!--大摆筵席-->
+		<visible type="2" value="10/17/2013 15:30:00-10/17/2013 16:00:00"/>	
+	</link>	
+	<link action_id="56"> <!--发布“装扮璇玑城”任务-->
+		<visible type="3" value="08:00-13:00"/>
+		<visible type="5" value="1"/>	
+	</link>	
+	<link action_id="57">  <!--大摆筵席-->
+		<visible type="3" value="18:01-22:00"/>
+		<visible type="5" value="1"/>	
+	</link>	
+	
+</root>

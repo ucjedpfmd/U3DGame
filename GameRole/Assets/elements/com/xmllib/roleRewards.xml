@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 新手奖励类的配置 前端 张子然 策划 马来-->
+
+<root>
+<!-- 在线奖励配置说明
+id 奖励等级，奖励序号
+time 时间/秒
+reward 奖励物品
+-->
+<online>
+	<item id="1" time="300"  reward="10104001,1"  hightRewards="10104001,1"/>
+	<item id="2" time="900"  reward="10103001,1" hightRewards="10103001,1"/>
+	<item id="3" time="1800" reward="11501103,1" hightRewards="11501103,1"/>
+	<item id="4" time="3600" reward="10203103,1"  hightRewards="10126001,5"/>
+</online>
+
+<!-- 等级礼包配置说明
+id 序号，以及前后端映射（注：最后一个是开启前面所有的才有）
+lv 奖励等级
+gold 奖励绑定元宝
+-->
+<level>
+	<item id="1" lv="10" gold="30"/>
+	<item id="2" lv="20" gold="40"/>
+	<item id="3" lv="30" gold="50"/>
+	<item id="4" lv="40" gold="60"/>
+	<item id="5" lv="50" gold="70"/>
+	<item id="6" lv="55" gold="80"/>
+	<item id="7" lv="60" gold="90"/>
+	<item id="8" lv="" gold="2014"/>
+</level>
+
+<!-- 新手登录大奖
+-->
+<login>
+	<item day="3" goods="10903001,1"/>
+	<item day="7" goods="10903001,2"/>
+	<item day="14" goods="10903001,4|10902021,1"/>
+</login>
+</root>

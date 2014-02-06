@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petTower>
+	<monsters>
+<!--仙灵幻境-->
+		<monster pet_id="10001001" name="低等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10002001" name="低等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10002002" name="低等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10003001" name="低等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10003002" name="低等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10003003" name="低等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10004001" name="低等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10004002" name="低等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10004003" name="低等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10004004" name="低等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10005001" name="中等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10005002" name="中等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10005003" name="中等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10005004" name="中等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10005005" name="中等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10006001" name="中等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10006002" name="中等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10006003" name="中等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10006004" name="中等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10006005" name="中等绿叶桂灵（法攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10007001" name="中等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10007002" name="中等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10007003" name="中等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10007004" name="中等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10007005" name="中等红叶桂灵（物攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10008001" name="中等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10008002" name="中等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10008003" name="中等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10008004" name="中等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10008005" name="中等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10009001" name="高等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10009002" name="高等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10009003" name="高等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10009004" name="高等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10009005" name="高等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10010001" name="鬼宝宝	     （法攻）"   type_id="40040030" skin_id="60000030" />
+		<monster pet_id="10010002" name="高等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10010003" name="高等绿叶桂灵（物攻）"   type_id="40020005" skin_id="60000005" />
+		<monster pet_id="10010004" name="高等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10010005" name="高等红叶桂灵（法攻）"   type_id="40020006" skin_id="60000006" />
+		<monster pet_id="10011001" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10011002" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10011003" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10011004" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10011005" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10012001" name="低等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10012002" name="低等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10012003" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10012004" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10012005" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10013001" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10013002" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10013003" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10013004" name="低等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10013005" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10014001" name="低等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10014002" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10014003" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10014004" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10014005" name="低等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10015001" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10015002" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10015003" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10015004" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10015005" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10016001" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10016002" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10016003" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10016004" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10016005" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10017001" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10017002" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10017003" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10017004" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10017005" name="中等花楹    （法攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10018001" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10018002" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10018003" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10018004" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10018005" name="中等小狐仙  （物攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10019001" name="高等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10019002" name="高等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10019003" name="高等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10019004" name="高等小狐仙  （法攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10019005" name="高等小狐仙  （法攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10020001" name="火云灵龙    （物攻）"   type_id="40040050" skin_id="60000050" />
+		<monster pet_id="10020002" name="高等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10020003" name="高等花楹    （物攻）"   type_id="40020007" skin_id="60000007" />
+		<monster pet_id="10020004" name="高等小狐仙  （法攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10020005" name="高等小狐仙  （法攻）"   type_id="40020008" skin_id="60000015" />
+		<monster pet_id="10021001" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10021002" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10021003" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10021004" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10021005" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10022001" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10022002" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10022003" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10022004" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10022005" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10023001" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10023002" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10023003" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10023004" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10023005" name="低等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10024001" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10024002" name="中等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10024003" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10024004" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10024005" name="中等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10025001" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10025002" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10025003" name="中等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10025004" name="中等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10025005" name="中等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10026001" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10026002" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10026003" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10026004" name="中等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10026005" name="中等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10027001" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10027002" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10027003" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10027004" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10027005" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10028001" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10028002" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10028003" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10028004" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10028005" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10029001" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10029002" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10029003" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10029004" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10029005" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10030001" name="天香蝶      （法攻）"   type_id="40040031" skin_id="60000031" />
+		<monster pet_id="10030002" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10030003" name="高等寒冰童子（物攻）"   type_id="40020011" skin_id="60000016" />
+		<monster pet_id="10030004" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10030005" name="高等枯叶小妖（法攻）"   type_id="40020012" skin_id="60000012" />
+		<monster pet_id="10031001" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10031002" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10031003" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10031004" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10031005" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10032001" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10032002" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10032003" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10032004" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10032005" name="低等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10033001" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10033002" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10033003" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10033004" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10033005" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10034001" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10034002" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10034003" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10034004" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10034005" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10035001" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10035002" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10035003" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10035004" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10035005" name="低等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10036001" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10036002" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10036003" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10036004" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10036005" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10037001" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10037002" name="中等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10037003" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10037004" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10037005" name="中等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10038001" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10038002" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10038003" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10038004" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10038005" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10039001" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10039002" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10039003" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10039004" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10039005" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10040001" name="剑灵蛇姬    （物攻）"   type_id="40050033" skin_id="60000033" />
+		<monster pet_id="10040002" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10040003" name="高等灵宝宝  （法攻）"   type_id="40030047" skin_id="60000047" />
+		<monster pet_id="10040004" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10040005" name="高等小幽灵  （法攻）"   type_id="40040019" skin_id="60000019" />
+		<monster pet_id="10041001" name="低等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10041002" name="低等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10041003" name="低等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10041004" name="低等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10041005" name="低等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10042001" name="低等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10042002" name="低等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10042003" name="低等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10042004" name="低等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10042005" name="低等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10043001" name="低等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10043002" name="低等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10043003" name="低等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10043004" name="低等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10043005" name="低等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10044001" name="中等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10044002" name="中等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10044003" name="中等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10044004" name="中等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10044005" name="中等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10045001" name="中等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10045002" name="中等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10045003" name="中等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10045004" name="中等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10045005" name="中等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10046001" name="中等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10046002" name="中等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10046003" name="中等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10046004" name="中等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10046005" name="中等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10047001" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10047002" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10047003" name="高等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10047004" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10047005" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10048001" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10048002" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10048003" name="高等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10048004" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10048005" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10049001" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10049002" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10049003" name="高等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10049004" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10049005" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10050001" name="帝企鹅      （法攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10050002" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10050003" name="高等青鸢    （法攻）"   type_id="40020021" skin_id="60000021" />
+		<monster pet_id="10050004" name="高等胖嘟嘟  （物攻）"   type_id="40030028" skin_id="60000028" />
+		<monster pet_id="10050005" name="高等通天鼠  （物攻）"   type_id="40030017" skin_id="60000017" />
+		<monster pet_id="10051001" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10051002" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10051003" name="低等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10051004" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10051005" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10052001" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10052002" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10052003" name="低等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10052004" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10052005" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10053001" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10053002" name="低等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10053003" name="低等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10053004" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10053005" name="低等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10054001" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10054002" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10054003" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10054004" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10054005" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10055001" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10055002" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10055003" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10055004" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10055005" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10056001" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10056002" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10056003" name="中等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10056004" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10056005" name="中等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10057001" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10057002" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10057003" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10057004" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10057005" name="高等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10058001" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10058002" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10058003" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10058004" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10058005" name="高等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10059001" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10059002" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10059003" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10059004" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10059005" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10060001" name="百灵猴      （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10060002" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10060003" name="高等瓜瓜猴  （物攻）"   type_id="40040048" skin_id="60000048" />
+		<monster pet_id="10060004" name="高等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10060005" name="高等闹春猴  （物攻）"   type_id="40020044" skin_id="60000044" />
+		<monster pet_id="10061001" name="低等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10061002" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10061003" name="低等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10061004" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10061005" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10062001" name="低等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10062002" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10062003" name="低等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10062004" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10062005" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10063001" name="低等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10063002" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10063003" name="低等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10063004" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10063005" name="低等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10064001" name="中等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10064002" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10064003" name="中等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10064004" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10064005" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10065001" name="中等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10065002" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10065003" name="中等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10065004" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10065005" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10066001" name="中等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10066002" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10066003" name="中等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10066004" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10066005" name="中等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10067001" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10067002" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10067003" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10067004" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10067005" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10068001" name="高等六角雪灵（物攻）"   type_id="0030024," skin_id="60000053" />
+		<monster pet_id="10068002" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10068003" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10068004" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10068005" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10069001" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10069002" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10069003" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10069004" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10069005" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10070001" name="醉猫熊      （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10070002" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10070003" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10070004" name="高等六角雪灵（物攻）"   type_id="40030024" skin_id="60000053" />
+		<monster pet_id="10070005" name="高等小熊猫  （物攻）"   type_id="40020045" skin_id="60000045" />
+		<monster pet_id="10071001" name="低等叶灵    （法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10071002" name="低等叶灵    （法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10071003" name="低等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10071004" name="低等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10071005" name="低等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10072001" name="低等叶灵    （法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10072002" name="低等叶灵    （法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10072003" name="低等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10072004" name="低等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10072005" name="低等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10073001" name="低等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10073002" name="低等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10073003" name="低等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10073004" name="低等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10073005" name="低等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10074001" name="中等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10074002" name="中等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10074003" name="中等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10074004" name="中等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10074005" name="中等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10075001" name="中等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10075002" name="中等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10075003" name="中等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10075004" name="中等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10075005" name="中等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10076001" name="中等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10076002" name="中等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10076003" name="中等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10076004" name="中等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10076005" name="中等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10077001" name="高等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10077002" name="高等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10077003" name="高等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10077004" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10077005" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10078001" name="高等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10078002" name="高等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10078003" name="高等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10078004" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10078005" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10079001" name="高等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10079002" name="高等叶灵（    法攻）"   type_id="40020010" skin_id="60000010" />
+		<monster pet_id="10079003" name="高等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10079004" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10079005" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10080001" name="金翅应龙（    物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10080002" name="高等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10080003" name="高等蛋蛋鸟  （物攻）"   type_id="40040049" skin_id="60000049" />
+		<monster pet_id="10080004" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10080005" name="高等花仙子  （法攻）"   type_id="40030018" skin_id="60000018" />
+		<monster pet_id="10081001" name="低等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10081002" name="低等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10081003" name="低等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10081004" name="低等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10081005" name="低等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10082001" name="低等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10082002" name="低等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10082003" name="低等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10082004" name="低等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10082005" name="低等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10083001" name="低等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10083002" name="低等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10083003" name="低等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10083004" name="低等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10083005" name="低等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10084001" name="中等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10084002" name="中等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10084003" name="中等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10084004" name="中等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10084005" name="中等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10085001" name="中等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10085002" name="中等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10085003" name="中等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10085004" name="中等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10085005" name="中等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10086001" name="中等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10086002" name="中等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10086003" name="中等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10086004" name="中等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10086005" name="中等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10087001" name="高等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10087002" name="高等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10087003" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10087004" name="高等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10087005" name="高等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10088001" name="高等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10088002" name="高等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10088003" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10088004" name="高等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10088005" name="高等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10089001" name="高等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10089002" name="高等小火妖  （物攻）"   type_id="40020004" skin_id="60000052" />
+		<monster pet_id="10089003" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10089004" name="高等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10089005" name="高等小花妖  （法攻）"   type_id="40030029" skin_id="60000029" />
+		<monster pet_id="10090001" name="焚天神龙（    法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10090002" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10090003" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10090004" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10090005" name="高等乖乖龙  （物攻）"   type_id="40040032" skin_id="60000032" />
+		<monster pet_id="10091001" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10091002" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10091003" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10091004" name="低等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10091005" name="低等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10092001" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10092002" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10092003" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10092004" name="低等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10092005" name="低等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10093001" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10093002" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10093003" name="低等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10093004" name="低等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10093005" name="低等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10094001" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10094002" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10094003" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10094004" name="中等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10094005" name="中等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10095001" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10095002" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10095003" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10095004" name="中等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10095005" name="中等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10096001" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10096002" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10096003" name="中等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10096004" name="中等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10096005" name="中等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10097001" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10097002" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10097003" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10097004" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10097005" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10098001" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10098002" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10098003" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10098004" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10098005" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10099001" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10099002" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10099003" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10099004" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10099005" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10100001" name="雷霆天狮（    法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10100002" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10100003" name="高等竖睛虎  （物攻）"   type_id="40030022" skin_id="60000022" />
+		<monster pet_id="10100004" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10100005" name="高等琉璃虎  （物攻）"   type_id="40040026" skin_id="60000026" />
+		<monster pet_id="10101001" name="低等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10101002" name="低等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10101003" name="低等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10101004" name="低等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10101005" name="低等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10102001" name="低等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10102002" name="低等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10102003" name="低等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10102004" name="低等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10102005" name="低等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10103001" name="低等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10103002" name="低等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10103003" name="低等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10103004" name="低等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10103005" name="低等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10104001" name="中等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10104002" name="中等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10104003" name="中等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10104004" name="中等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10104005" name="中等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10105001" name="中等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10105002" name="中等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10105003" name="中等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10105004" name="中等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10105005" name="中等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10106001" name="中等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10106002" name="中等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10106003" name="中等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10106004" name="中等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10106005" name="中等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10107001" name="高等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10107002" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10107003" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10107004" name="高等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10107005" name="高等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10108001" name="高等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10108002" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10108003" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10108004" name="高等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10108005" name="高等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10109001" name="高等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10109002" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10109003" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10109004" name="高等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10109005" name="高等风狸（    物攻）"   type_id="40030014" skin_id="60000014" />
+		<monster pet_id="10110001" name="女娲幻影（    法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10110002" name="高等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10110003" name="高等小冰灵  （法攻）"   type_id="40030016" skin_id="60000055" />
+		<monster pet_id="10110004" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10110005" name="高等小地精  （物攻）"   type_id="40020009" skin_id="60000009" />
+		<monster pet_id="10111001" name="低等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10111002" name="低等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10111003" name="低等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10111004" name="低等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10111005" name="低等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10112001" name="低等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10112002" name="低等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10112003" name="低等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10112004" name="低等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10112005" name="低等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10113001" name="低等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10113002" name="低等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10113003" name="低等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10113004" name="低等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10113005" name="低等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10114001" name="中等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10114002" name="中等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10114003" name="中等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10114004" name="中等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10114005" name="中等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10115001" name="中等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10115002" name="中等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10115003" name="中等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10115004" name="中等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10115005" name="中等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10116001" name="中等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10116002" name="中等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10116003" name="中等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10116004" name="中等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10116005" name="中等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10117001" name="高等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10117002" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10117003" name="高等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10117004" name="高等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10117005" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10118001" name="高等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10118002" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10118003" name="高等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10118004" name="高等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10118005" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10119001" name="高等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10119002" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10119003" name="高等百灵猴  （物攻）"   type_id="40050038" skin_id="60000038" />
+		<monster pet_id="10119004" name="高等帝企鹅  （物攻）"   type_id="40050037" skin_id="60000037" />
+		<monster pet_id="10119005" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10120001" name="混沌（法攻        ）"   type_id="40060042" skin_id="60000042" />
+		<monster pet_id="10120002" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10120003" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10120004" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10120005" name="高等醉猫熊  （物攻）"   type_id="40050036" skin_id="60000036" />
+		<monster pet_id="10121001" name="低等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10121002" name="低等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10121003" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10121004" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10121005" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10122001" name="低等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10122002" name="低等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10122003" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10122004" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10122005" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10123001" name="低等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10123002" name="低等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10123003" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10123004" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10123005" name="低等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10124001" name="中等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10124002" name="中等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10124003" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10124004" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10124005" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10125001" name="中等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10125002" name="中等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10125003" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10125004" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10125005" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10126001" name="中等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10126002" name="中等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10126003" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10126004" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10126005" name="中等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10127001" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10127002" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10127003" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10127004" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10127005" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10128001" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10128002" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10128003" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10128004" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10128005" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10129001" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10129002" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10129003" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10129004" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10129005" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10130001" name="饕餮（物攻        ）"   type_id="40060043" skin_id="60000043" />
+		<monster pet_id="10130002" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10130003" name="高等木人瓦力（法攻）"   type_id="40030046" skin_id="60000046" />
+		<monster pet_id="10130004" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10130005" name="高等木人傀儡（物攻）"   type_id="40030020" skin_id="60000020" />
+		<monster pet_id="10131001" name="低等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10131002" name="低等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10131003" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10131004" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10131005" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10132001" name="低等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10132002" name="低等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10132003" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10132004" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10132005" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10133001" name="低等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10133002" name="低等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10133003" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10133004" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10133005" name="低等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10134001" name="中等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10134002" name="中等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10134003" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10134004" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10134005" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10135001" name="中等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10135002" name="中等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10135003" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10135004" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10135005" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10136001" name="中等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10136002" name="中等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10136003" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10136004" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10136005" name="中等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10137001" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10137002" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10137003" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10137004" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10137005" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10138001" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10138002" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10138003" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10138004" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10138005" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10139001" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10139002" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10139003" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10139004" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10139005" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10140001" name="傲狠（物攻        ）"   type_id="40060040" skin_id="60000040" />
+		<monster pet_id="10140002" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10140003" name="高等金翅应龙（物攻）"   type_id="40050034" skin_id="60000034" />
+		<monster pet_id="10140004" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10140005" name="高等焚天神龙（法攻）"   type_id="40050035" skin_id="60000035" />
+		<monster pet_id="10141001" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10141002" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10141003" name="低等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10141004" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10141005" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10142001" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10142002" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10142003" name="低等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10142004" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10142005" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10143001" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10143002" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10143003" name="低等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10143004" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10143005" name="低等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10144001" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10144002" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10144003" name="中等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10144004" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10144005" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10145001" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10145002" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10145003" name="中等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10145004" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10145005" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10146001" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10146002" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10146003" name="中等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10146004" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10146005" name="中等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10147001" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10147002" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10147003" name="高等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10147004" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10147005" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10148001" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10148002" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10148003" name="高等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10148004" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10148005" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10149001" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10149002" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10149003" name="高等女娲幻影（法攻）"   type_id="40050051" skin_id="60000051" />
+		<monster pet_id="10149004" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10149005" name="高等雷霆天狮（法攻）"   type_id="40050001" skin_id="60000001" />
+		<monster pet_id="10150001" name="饕餮（物攻        ）"   type_id="40060043" skin_id="60000043" />
+		<monster pet_id="10150002" name="混沌（法攻        ）"   type_id="40060042" skin_id="60000042" />
+		<monster pet_id="10150003" name="傲狠（物攻        ）"   type_id="40060040" skin_id="60000040" />
+		<monster pet_id="10150004" name="穷奇（法攻        ）"   type_id="40060041" skin_id="60000041" />
+		<monster pet_id="10150005" name="穷奇（物攻        ）"   type_id="40060041" skin_id="60000041" />
+	
+	<!--幻兽天镜-->
+		<monster pet_id="21001001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,3"/>
+		<monster pet_id="21001002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,3"/>
+		<monster pet_id="21001003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,3"/>
+		<monster pet_id="21001004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,5"/>
+		<monster pet_id="21001005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,5"/>
+		<monster pet_id="21002001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,2"/>
+		<monster pet_id="21002002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,2"/>
+		<monster pet_id="21002003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,2"/>
+		<monster pet_id="21002004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,10"/>
+		<monster pet_id="21002005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,10"/>
+		<monster pet_id="21003001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,2"/>
+		<monster pet_id="21003002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,2"/>
+		<monster pet_id="21003003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,2"/>
+		<monster pet_id="21003004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,10"/>
+		<monster pet_id="21003005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,10"/>
+		<monster pet_id="21004001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,3"/>
+		<monster pet_id="21004002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,3"/>
+		<monster pet_id="21004003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,3"/>
+		<monster pet_id="21004004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,5"/>
+		<monster pet_id="21004005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,5"/>
+		<monster pet_id="21005001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,2"/>
+		<monster pet_id="21005002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,2"/>
+		<monster pet_id="21005003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,2"/>
+		<monster pet_id="21005004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,10"/>
+		<monster pet_id="21005005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,10"/>
+		<monster pet_id="21006001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,2"/>
+		<monster pet_id="21006002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,2"/>
+		<monster pet_id="21006003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,2"/>
+		<monster pet_id="21006004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,10"/>
+		<monster pet_id="21006005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,10"/>
+		<monster pet_id="21007001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,3"/>
+		<monster pet_id="21007002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,3"/>
+		<monster pet_id="21007003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,3"/>
+		<monster pet_id="21007004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,5"/>
+		<monster pet_id="21007005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,5"/>
+		<monster pet_id="21008001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,2"/>
+		<monster pet_id="21008002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,2"/>
+		<monster pet_id="21008003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,2"/>
+		<monster pet_id="21008004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,10"/>
+		<monster pet_id="21008005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,10"/>
+		<monster pet_id="21009001" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,2"/>
+		<monster pet_id="21009002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,2"/>
+		<monster pet_id="21009003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="21009004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,10"/>
+		<monster pet_id="21009005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,10"/>
+		<monster pet_id="21010001" name="仙灵·蛋蛋鸟（物攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,19" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21010002" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,15"/>
+		<monster pet_id="21010003" name="仙灵·小幽灵（物攻）"   type_id="40040019" skin_id="60000019" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21010004" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,19"/>
+		<monster pet_id="21010005" name="仙灵·灵宝宝（法攻）"   type_id="40030047" skin_id="60000047" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,19"/>
+		<monster pet_id="21010006" name="召唤·小狐仙（物攻）"   type_id="40020008" skin_id="60000015" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,8"/>
+		<monster pet_id="21011001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,13"/>
+		<monster pet_id="21011002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,13"/>
+		<monster pet_id="21011003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,1"/>
+		<monster pet_id="21011004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,1"/>
+		<monster pet_id="21011005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,1"/>
+		<monster pet_id="21012001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,7"/>
+		<monster pet_id="21012002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,7"/>
+		<monster pet_id="21012003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="21012004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,15"/>
+		<monster pet_id="21012005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,15"/>
+		<monster pet_id="21013001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,7"/>
+		<monster pet_id="21013002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,7"/>
+		<monster pet_id="21013003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,15"/>
+		<monster pet_id="21013004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="21013005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21014001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,13"/>
+		<monster pet_id="21014002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,13"/>
+		<monster pet_id="21014003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,1"/>
+		<monster pet_id="21014004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,1"/>
+		<monster pet_id="21014005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,1"/>
+		<monster pet_id="21015001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,7"/>
+		<monster pet_id="21015002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,7"/>
+		<monster pet_id="21015003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,15"/>
+		<monster pet_id="21015004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="21015005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21016001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,7"/>
+		<monster pet_id="21016002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,7"/>
+		<monster pet_id="21016003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21016004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,15"/>
+		<monster pet_id="21016005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,15"/>
+		<monster pet_id="21017001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,13"/>
+		<monster pet_id="21017002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,13"/>
+		<monster pet_id="21017003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,1"/>
+		<monster pet_id="21017004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,1"/>
+		<monster pet_id="21017005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,1"/>
+		<monster pet_id="21018001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,7"/>
+		<monster pet_id="21018002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,7"/>
+		<monster pet_id="21018003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,15"/>
+		<monster pet_id="21018004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,15"/>
+		<monster pet_id="21018005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="21019001" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,7"/>
+		<monster pet_id="21019002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,7"/>
+		<monster pet_id="21019003" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="21019004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21019005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,15"/>
+		<monster pet_id="21020001" name="仙灵·剑灵蛇姬（法攻）" type_id="40050033" skin_id="60000033" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,1" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21020002" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21020003" name="仙灵·六角雪灵（物攻）" type_id="40030024" skin_id="60000053" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21020004" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,1"/>
+		<monster pet_id="21020005" name="仙灵·小熊猫（法攻）"   type_id="40020045" skin_id="60000045" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,1"/>
+		<monster pet_id="21020006" name="召唤·寒冰童子（法攻）" type_id="40020011" skin_id="60000016" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,4"/>
+		<monster pet_id="21021001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,4"/>
+		<monster pet_id="21021002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,4"/>
+		<monster pet_id="21021003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,4"/>
+		<monster pet_id="21021004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,13"/>
+		<monster pet_id="21021005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,13"/>
+		<monster pet_id="21022001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,8"/>
+		<monster pet_id="21022002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21022003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21022004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21022005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21023001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,8"/>
+		<monster pet_id="21023002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21023003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21023004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21023005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21024001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,4"/>
+		<monster pet_id="21024002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,4"/>
+		<monster pet_id="21024003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,4"/>
+		<monster pet_id="21024004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,13"/>
+		<monster pet_id="21024005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,13"/>
+		<monster pet_id="21025001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,8"/>
+		<monster pet_id="21025002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21025003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,8"/>
+		<monster pet_id="21025004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,6"/>
+		<monster pet_id="21025005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21026001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21026002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,8"/>
+		<monster pet_id="21026003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,8"/>
+		<monster pet_id="21026004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21026005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21027001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,4"/>
+		<monster pet_id="21027002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="21027003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,4"/>
+		<monster pet_id="21027004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,13"/>
+		<monster pet_id="21027005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,13"/>
+		<monster pet_id="21028001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21028002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21028003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,8"/>
+		<monster pet_id="21028004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21028005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21029001" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21029002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,8"/>
+		<monster pet_id="21029003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,8"/>
+		<monster pet_id="21029004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21029005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,6"/>
+		<monster pet_id="21030001" name="仙灵·帝企鹅（物攻）"   type_id="40050037" skin_id="60000037" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,19" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21030002" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,19"/>
+		<monster pet_id="21030003" name="仙灵·枯叶小妖（物攻）" type_id="40020012" skin_id="60000012" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,19"/>
+		<monster pet_id="21030004" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,11"/>
+		<monster pet_id="21030005" name="仙灵·绿叶桂灵（法攻）" type_id="40020005" skin_id="60000005" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,11"/>
+		<monster pet_id="21030006" name="召唤·花楹（物攻）" 	type_id="40020007" skin_id="60000007" level="60"  attack_type = "1"  embattle_info="p_pet_embattle_info|7,9"/>
+		<monster pet_id="21031001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,15"/>
+		<monster pet_id="21031002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,15"/>
+		<monster pet_id="21031003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,17"/>
+		<monster pet_id="21031004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,17"/>
+		<monster pet_id="21031005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,17"/>
+		<monster pet_id="21032001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,16"/>
+		<monster pet_id="21032002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,16"/>
+		<monster pet_id="21032003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,9"/>
+		<monster pet_id="21032004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,9"/>
+		<monster pet_id="21032005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,9"/>
+		<monster pet_id="21033001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,16"/>
+		<monster pet_id="21033002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,16"/>
+		<monster pet_id="21033003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,9"/>
+		<monster pet_id="21033004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,9"/>
+		<monster pet_id="21033005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,9"/>
+		<monster pet_id="21034001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,15"/>
+		<monster pet_id="21034002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21034003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,17"/>
+		<monster pet_id="21034004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,17"/>
+		<monster pet_id="21034005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,17"/>
+		<monster pet_id="21035001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,16"/>
+		<monster pet_id="21035002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,16"/>
+		<monster pet_id="21035003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,9"/>
+		<monster pet_id="21035004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,9"/>
+		<monster pet_id="21035005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,9"/>
+		<monster pet_id="21036001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,16"/>
+		<monster pet_id="21036002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,16"/>
+		<monster pet_id="21036003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,9"/>
+		<monster pet_id="21036004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,9"/>
+		<monster pet_id="21036005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,9"/>
+		<monster pet_id="21037001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,15"/>
+		<monster pet_id="21037002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="21037003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,17"/>
+		<monster pet_id="21037004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,17"/>
+		<monster pet_id="21037005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,17"/>
+		<monster pet_id="21038001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,16"/>
+		<monster pet_id="21038002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,16"/>
+		<monster pet_id="21038003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,9"/>
+		<monster pet_id="21038004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,9"/>
+		<monster pet_id="21038005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,9"/>
+		<monster pet_id="21039001" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,16"/>
+		<monster pet_id="21039002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,16"/>
+		<monster pet_id="21039003" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,9"/>
+		<monster pet_id="21039004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,9"/>
+		<monster pet_id="21039005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,9"/>
+		<monster pet_id="21040001" name="仙灵·醉猫熊（法攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,6" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21040002" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,3"/>
+		<monster pet_id="21040003" name="仙灵·胖嘟嘟（物攻）"   type_id="40030028" skin_id="60000028" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,3"/>
+		<monster pet_id="21040004" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,5"/>
+		<monster pet_id="21040005" name="仙灵·通天鼠（法攻）"   type_id="40030017" skin_id="60000017" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,5"/>
+		<monster pet_id="21040006" name="召唤·青鸢（法攻）" 	type_id="40020021" skin_id="60000021" level="60"  attack_type = "2"  embattle_info="p_pet_embattle_info|7,19"/>
+		<monster pet_id="21041001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,19"/>
+		<monster pet_id="21041002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,19"/>
+		<monster pet_id="21041003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,19"/>
+		<monster pet_id="21041004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,1"/>
+		<monster pet_id="21041005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,1"/>
+		<monster pet_id="21042001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,8"/>
+		<monster pet_id="21042002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21042003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21042004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,4"/>
+		<monster pet_id="21042005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,4"/>
+		<monster pet_id="21043001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,8"/>
+		<monster pet_id="21043002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,8"/>
+		<monster pet_id="21043003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21043004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="21043005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,4"/>
+		<monster pet_id="21044001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,19"/>
+		<monster pet_id="21044002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,19"/>
+		<monster pet_id="21044003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,19"/>
+		<monster pet_id="21044004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,1"/>
+		<monster pet_id="21044005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,1"/>
+		<monster pet_id="21045001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21045002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,8"/>
+		<monster pet_id="21045003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,8"/>
+		<monster pet_id="21045004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,4"/>
+		<monster pet_id="21045005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,4"/>
+		<monster pet_id="21046001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21046002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21046003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21046004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,4"/>
+		<monster pet_id="21046005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,4"/>
+		<monster pet_id="21047001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,19"/>
+		<monster pet_id="21047002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,19"/>
+		<monster pet_id="21047003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,19"/>
+		<monster pet_id="21047004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,1"/>
+		<monster pet_id="21047005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,1"/>
+		<monster pet_id="21048001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21048002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,8"/>
+		<monster pet_id="21048003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,8"/>
+		<monster pet_id="21048004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,4"/>
+		<monster pet_id="21048005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,4"/>
+		<monster pet_id="21049001" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,8"/>
+		<monster pet_id="21049002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21049003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,8"/>
+		<monster pet_id="21049004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,4"/>
+		<monster pet_id="21049005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,4"/>
+		<monster pet_id="21050001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,8" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21050002" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,19"/>
+		<monster pet_id="21050003" name="仙灵·瓜瓜猴（物攻）"   type_id="40040048" skin_id="60000048" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,19"/>
+		<monster pet_id="21050004" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,9"/>
+		<monster pet_id="21050005" name="仙灵·闹春猴（法攻）"   type_id="40020044" skin_id="60000044" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,9"/>
+		<monster pet_id="21050006" name="召唤·木人瓦力（物攻）" type_id="40030046" skin_id="60000046" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,4"/>
+		<monster pet_id="21051001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,7"/>
+		<monster pet_id="21051002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,7"/>
+		<monster pet_id="21051003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,13"/>
+		<monster pet_id="21051004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,10"/>
+		<monster pet_id="21051005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,10"/>
+		<monster pet_id="21052001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21052002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21052003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="21052004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,6"/>
+		<monster pet_id="21052005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21053001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21053002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21053003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="21053004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21053005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21054001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,7"/>
+		<monster pet_id="21054002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,7"/>
+		<monster pet_id="21054003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,13"/>
+		<monster pet_id="21054004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,10"/>
+		<monster pet_id="21054005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,10"/>
+		<monster pet_id="21055001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21055002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,6"/>
+		<monster pet_id="21055003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21055004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21055005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="21056001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,6"/>
+		<monster pet_id="21056002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21056003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21056004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21056005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21057001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,7"/>
+		<monster pet_id="21057002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,7"/>
+		<monster pet_id="21057003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,13"/>
+		<monster pet_id="21057004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,10"/>
+		<monster pet_id="21057005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,10"/>
+		<monster pet_id="21058001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21058002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="21058003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,6"/>
+		<monster pet_id="21058004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21058005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21059001" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21059002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="21059003" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21059004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21059005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21060001" name="仙灵·雷霆天狮（法攻）" type_id="40050001" skin_id="60000001" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,15" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21060002" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21060003" name="仙灵·竖睛虎（物攻）"   type_id="40030022" skin_id="60000022" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21060004" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="21060005" name="仙灵·琉璃虎（法攻）"   type_id="40040026" skin_id="60000026" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,12"/>
+		<monster pet_id="21060006" name="召唤·小火妖（物攻）"   type_id="40020004" skin_id="60000052" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,16"/>
+		<monster pet_id="21060007" name="召唤·小冰灵（法攻）"   type_id="40030016" skin_id="60000055" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,11"/>
+		<monster pet_id="21061001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,19"/>
+		<monster pet_id="21061002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,19"/>
+		<monster pet_id="21061003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,19"/>
+		<monster pet_id="21061004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,11"/>
+		<monster pet_id="21061005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,11"/>
+		<monster pet_id="21062001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21062002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21062003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="21062004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,8"/>
+		<monster pet_id="21062005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21063001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21063002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21063003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21063004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21063005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21064001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,19"/>
+		<monster pet_id="21064002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,19"/>
+		<monster pet_id="21064003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,19"/>
+		<monster pet_id="21064004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,11"/>
+		<monster pet_id="21064005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,11"/>
+		<monster pet_id="21065001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21065002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21065003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,6"/>
+		<monster pet_id="21065004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21065005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,8"/>
+		<monster pet_id="21066001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21066002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21066003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21066004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,8"/>
+		<monster pet_id="21066005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,8"/>
+		<monster pet_id="21067001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,19"/>
+		<monster pet_id="21067002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,19"/>
+		<monster pet_id="21067003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,19"/>
+		<monster pet_id="21067004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,11"/>
+		<monster pet_id="21067005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,11"/>
+		<monster pet_id="21068001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,6"/>
+		<monster pet_id="21068002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,6"/>
+		<monster pet_id="21068003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,6"/>
+		<monster pet_id="21068004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,8"/>
+		<monster pet_id="21068005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,8"/>
+		<monster pet_id="21069001" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,6"/>
+		<monster pet_id="21069002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,6"/>
+		<monster pet_id="21069003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,6"/>
+		<monster pet_id="21069004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,8"/>
+		<monster pet_id="21069005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,8"/>
+		<monster pet_id="21070001" name="仙灵·傲狠（物攻）"   	type_id="40060040" skin_id="60000040" level="60"  attack_type = "1"  embattle_info="p_pet_embattle_info|5,16" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21070002" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,16"/>
+		<monster pet_id="21070003" name="仙灵·醉猫熊（物攻）"   type_id="40050036" skin_id="60000036" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,16"/>
+		<monster pet_id="21070004" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,19"/>
+		<monster pet_id="21070005" name="仙灵·蛋蛋鸟（法攻）"   type_id="40040049" skin_id="60000049" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,19"/>
+		<monster pet_id="21070006" name="召唤·小花妖（物攻）" 	type_id="40030029" skin_id="60000029" level="60"  attack_type = "1"  embattle_info="p_pet_embattle_info|7,17"/>
+		<monster pet_id="21070007" name="召唤·琉璃虎（物攻）" 	type_id="40040026" skin_id="60000026" level="60"  attack_type = "1"  embattle_info="p_pet_embattle_info|8,18"/>
+		<monster pet_id="21070008" name="召唤·风狸（法攻）" 	type_id="40030014" skin_id="60000014" level="60"  attack_type = "2"  embattle_info="p_pet_embattle_info|9,11"/>
+		<monster pet_id="21071001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21071002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,15"/>
+		<monster pet_id="21071003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,1"/>
+		<monster pet_id="21071004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,1"/>
+		<monster pet_id="21071005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,1"/>
+		<monster pet_id="21072001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|9,16"/>
+		<monster pet_id="21072002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,16"/>
+		<monster pet_id="21072003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|7,12"/>
+		<monster pet_id="21072004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,12"/>
+		<monster pet_id="21072005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,12"/>
+		<monster pet_id="21073001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,16"/>
+		<monster pet_id="21073002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,16"/>
+		<monster pet_id="21073003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,12"/>
+		<monster pet_id="21073004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,12"/>
+		<monster pet_id="21073005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,12"/>
+		<monster pet_id="21074001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,15"/>
+		<monster pet_id="21074002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,15"/>
+		<monster pet_id="21074003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,1"/>
+		<monster pet_id="21074004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|6,1"/>
+		<monster pet_id="21074005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,1"/>
+		<monster pet_id="21075001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,16"/>
+		<monster pet_id="21075002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,16"/>
+		<monster pet_id="21075003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,12"/>
+		<monster pet_id="21075004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,12"/>
+		<monster pet_id="21075005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,12"/>
+		<monster pet_id="21076001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,16"/>
+		<monster pet_id="21076002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,16"/>
+		<monster pet_id="21076003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,12"/>
+		<monster pet_id="21076004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,12"/>
+		<monster pet_id="21076005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="21077001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|1,15"/>
+		<monster pet_id="21077002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|3,15"/>
+		<monster pet_id="21077003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,1"/>
+		<monster pet_id="21077004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|4,1"/>
+		<monster pet_id="21077005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,1"/>
+		<monster pet_id="21078001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|7,16"/>
+		<monster pet_id="21078002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|8,16"/>
+		<monster pet_id="21078003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,12"/>
+		<monster pet_id="21078004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="21078005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|1,12"/>
+		<monster pet_id="21079001" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|2,16"/>
+		<monster pet_id="21079002" name="仙灵·金翅应龙（物攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,16"/>
+		<monster pet_id="21079003" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|5,12"/>
+		<monster pet_id="21079004" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,12"/>
+		<monster pet_id="21079005" name="仙灵·焚天神龙（法攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,12"/>
+		<monster pet_id="21080001" name="仙灵·穷奇（法攻）"   	type_id="40060041" skin_id="60000041" level="60"  attack_type = "2"  embattle_info="p_pet_embattle_info|5,1" sayStr="召唤：仙灵助阵！"/>
+		<monster pet_id="21080002" name="仙灵·混沌（物攻）"   	type_id="40060042" skin_id="60000042" level="60"  attack_type = "1"  embattle_info="p_pet_embattle_info|1,1"/>
+		<monster pet_id="21080003" name="仙灵·混沌（物攻）"   	type_id="40060042" skin_id="60000042" level="60"  attack_type = "1"  embattle_info="p_pet_embattle_info|3,1"/>
+		<monster pet_id="21080004" name="仙灵·饕餮（法攻）"   	type_id="40060043" skin_id="60000043" level="60"  attack_type = "2"  embattle_info="p_pet_embattle_info|7,11"/>
+		<monster pet_id="21080005" name="仙灵·饕餮（法攻）"   	type_id="40060043" skin_id="60000043" level="60"  attack_type = "2"  embattle_info="p_pet_embattle_info|9,11"/>
+		<monster pet_id="21080006" name="召唤·雷霆天狮（物攻）" type_id="40050001" skin_id="60000001" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|4,12"/>
+		<monster pet_id="21080007" name="召唤·焚天神龙（物攻）" type_id="40050035" skin_id="60000035" level="60" attack_type = "1"  embattle_info="p_pet_embattle_info|6,15"/>
+		<monster pet_id="21080008" name="召唤·女娲幻影（法攻）" type_id="40050051" skin_id="60000051" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|2,14"/>
+		<monster pet_id="21080009" name="召唤·金翅应龙（法攻）" type_id="40050034" skin_id="60000034" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,9"/>
+
+		<monster pet_id="22001001" name="雾月仙灵（法攻）" type_id="40050055" skin_id="60000057" level="60"       attack_type = "2"  embattle_info="p_pet_embattle_info|5,15"/>
+		<monster pet_id="22001002" name="仙灵·蛋蛋鸟（物攻）" type_id="40040049" skin_id="60000049" level="60"   attack_type = "1"  embattle_info="p_pet_embattle_info|1,8"/>
+		<monster pet_id="22001003" name="仙灵·蛋蛋鸟（物攻）" type_id="40040049" skin_id="60000049" level="60"   attack_type = "1"  embattle_info="p_pet_embattle_info|7,8"/>
+		<monster pet_id="22001004" name="仙灵·剑灵蛇姬（法攻）" type_id="40050033" skin_id="60000033" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|8,17"/>
+		<monster pet_id="22001005" name="仙灵·剑灵蛇姬（法攻）" type_id="40050033" skin_id="60000033" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|9,17"/>
+		<monster pet_id="22001006" name="仙灵·剑灵蛇姬（法攻）" type_id="40050033" skin_id="60000033" level="60" attack_type = "2"  embattle_info="p_pet_embattle_info|3,17"/>
+		<monster pet_id="22001007" name="召唤（物攻）" type_id="40050001" skin_id="60000001" level="60"           attack_type = "1"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="22001008" name="召唤（物攻）" type_id="40050001" skin_id="60000001" level="60"           attack_type = "1"  embattle_info="p_pet_embattle_info|5,6"/>
+		<monster pet_id="22001009" name="召唤（物攻）" type_id="40050001" skin_id="60000001" level="60"           attack_type = "1"  embattle_info="p_pet_embattle_info|5,6"/>
+
+		<monster pet_id="22002001" name="特殊关2（法攻）" type_id="40060043" skin_id="60000043" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002002" name="特殊关2（法攻）" type_id="40060043" skin_id="60000043" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002003" name="特殊关2（法攻）" type_id="40060043" skin_id="60000043" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002004" name="特殊关2（法攻）" type_id="40060043" skin_id="60000043" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002005" name="特殊关2（法攻）" type_id="40060043" skin_id="60000043" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002006" name="特殊关2（法攻）" type_id="40060043" skin_id="60000043" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002007" name="召唤（法攻）" type_id="40060043" skin_id="60000043" level="60"           attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002008" name="召唤（法攻）" type_id="40060043" skin_id="60000043" level="60"           attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+		<monster pet_id="22002009" name="召唤（法攻）" type_id="40060043" skin_id="60000043" level="60"           attack_type = "2"  embattle_info="p_pet_embattle_info|2,12"/>
+
+		<monster pet_id="22003001" name="特殊关3（物攻）" type_id="40020005" skin_id="60000005" level="60"        attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003002" name="特殊关3（物攻）" type_id="40020005" skin_id="60000005" level="60"        attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003003" name="特殊关3（物攻）" type_id="40020005" skin_id="60000005" level="60"        attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003004" name="特殊关3（物攻）" type_id="40020005" skin_id="60000005" level="60"        attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003005" name="特殊关3（物攻）" type_id="40020005" skin_id="60000005" level="60"        attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003006" name="特殊关3（物攻）" type_id="40020005" skin_id="60000005" level="60"        attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003007" name="召唤（物攻）" type_id="40020005" skin_id="60000005" level="60"           attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003008" name="召唤（物攻）" type_id="40020005" skin_id="60000005" level="60"           attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+		<monster pet_id="22003009" name="召唤（物攻）" type_id="40020005" skin_id="60000005" level="60"           attack_type = "1"  embattle_info="p_pet_embattle_info|5,4"/>
+
+		<monster pet_id="22004001" name="特殊关4（法攻）" type_id="40050001" skin_id="60000001" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004002" name="特殊关4（法攻）" type_id="40050001" skin_id="60000001" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004003" name="特殊关4（法攻）" type_id="40050001" skin_id="60000001" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004004" name="特殊关4（法攻）" type_id="40050001" skin_id="60000001" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004005" name="特殊关4（法攻）" type_id="40050001" skin_id="60000001" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004006" name="特殊关4（法攻）" type_id="40050001" skin_id="60000001" level="60"        attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004007" name="召唤（法攻）" type_id="40050001" skin_id="60000001" level="60"           attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004008" name="召唤（法攻）" type_id="40050001" skin_id="60000001" level="60"           attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+		<monster pet_id="22004009" name="召唤（法攻）" type_id="40050001" skin_id="60000001" level="60"           attack_type = "2"  embattle_info="p_pet_embattle_info|9,2"/>
+
+	</monsters>	
+<!--barriers maxBarrier=塔的类型；后面的编号，第一位=塔的类型（10=幻兽天境、21=仙灵幻境、22=仙灵幻境特殊关卡） -->
+	<barriers maxBarrier="21080">
+<!--barrier id=每关ID；5位编号，前两位（10=幻兽天境、21=仙灵幻境、22=仙灵幻境特殊关卡）；后3位（关数，如001，002，…，120） ；</barrier>（有道具就用这个标签，没道具就用/>结尾）-->
+		<barrier id="21001" pet_id_list="21001001,21001002,21001003,21001004,21001005" barrierStr="仙灵幻境第1关"		exp="170"  		roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21002" pet_id_list="21002001,21002002,21002003,21002004,21002005" barrierStr="仙灵幻境第2关"		exp="340"  		roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21003" pet_id_list="21003001,21003002,21003003,21003004,21003005" barrierStr="仙灵幻境第3关"		exp="510"  		roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21004" pet_id_list="21004001,21004002,21004003,21004004,21004005" barrierStr="仙灵幻境第4关"		exp="680"  		roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21005" pet_id_list="21005001,21005002,21005003,21005004,21005005" barrierStr="仙灵幻境第5关"		exp="850"  		roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21006" pet_id_list="21006001,21006002,21006003,21006004,21006005" barrierStr="仙灵幻境第6关"		exp="1020"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21007" pet_id_list="21007001,21007002,21007003,21007004,21007005" barrierStr="仙灵幻境第7关"		exp="1190"  	roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21008" pet_id_list="21008001,21008002,21008003,21008004,21008005" barrierStr="仙灵幻境第8关"		exp="1360"  	roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21009" pet_id_list="21009001,21009002,21009003,21009004,21009005" barrierStr="仙灵幻境第9关"		exp="1530"  	roleExp="6000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21010" pet_id_list="21010001,21010002,21010003,21010004,21010005" barrierStr="仙灵幻境第10关"		exp="1700"  	roleExp="6000"	newPetCount="5" > 		<item id="11714032"  num="1"/> </barrier> 
+		<barrier id="21011" pet_id_list="21011001,21011002,21011003,21011004,21011005" barrierStr="仙灵幻境第11关"		exp="1870"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21012" pet_id_list="21012001,21012002,21012003,21012004,21012005" barrierStr="仙灵幻境第12关"		exp="2040"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21013" pet_id_list="21013001,21013002,21013003,21013004,21013005" barrierStr="仙灵幻境第13关"		exp="2210"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21014" pet_id_list="21014001,21014002,21014003,21014004,21014005" barrierStr="仙灵幻境第14关"		exp="2380"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21015" pet_id_list="21015001,21015002,21015003,21015004,21015005" barrierStr="仙灵幻境第15关"		exp="2550"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21016" pet_id_list="21016001,21016002,21016003,21016004,21016005" barrierStr="仙灵幻境第16关"		exp="2720"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21017" pet_id_list="21017001,21017002,21017003,21017004,21017005" barrierStr="仙灵幻境第17关"		exp="2890"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21018" pet_id_list="21018001,21018002,21018003,21018004,21018005" barrierStr="仙灵幻境第18关"		exp="3060"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21019" pet_id_list="21019001,21019002,21019003,21019004,21019005" barrierStr="仙灵幻境第19关"		exp="3230"  	roleExp="6000"	newPetCount="6" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21020" pet_id_list="21020001,21020002,21020003,21020004,21020005" barrierStr="仙灵幻境第20关"		exp="3400"  	roleExp="6000"	newPetCount="5" > 		<item id="11714032"  num="1"/> </barrier> 
+		<barrier id="21021" pet_id_list="21021001,21021002,21021003,21021004,21021005" barrierStr="仙灵幻境第21关"		exp="3570"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21022" pet_id_list="21022001,21022002,21022003,21022004,21022005" barrierStr="仙灵幻境第22关"		exp="3740"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21023" pet_id_list="21023001,21023002,21023003,21023004,21023005" barrierStr="仙灵幻境第23关"		exp="3910"  	roleExp="6000"	newPetCount="15" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21024" pet_id_list="21024001,21024002,21024003,21024004,21024005" barrierStr="仙灵幻境第24关"		exp="4080"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21025" pet_id_list="21025001,21025002,21025003,21025004,21025005" barrierStr="仙灵幻境第25关"		exp="4250"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21026" pet_id_list="21026001,21026002,21026003,21026004,21026005" barrierStr="仙灵幻境第26关"		exp="4420"  	roleExp="6000"	newPetCount="15" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21027" pet_id_list="21027001,21027002,21027003,21027004,21027005" barrierStr="仙灵幻境第27关"		exp="4590"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21028" pet_id_list="21028001,21028002,21028003,21028004,21028005" barrierStr="仙灵幻境第28关"		exp="4760"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21029" pet_id_list="21029001,21029002,21029003,21029004,21029005" barrierStr="仙灵幻境第29关"		exp="4930"  	roleExp="6000"	newPetCount="7" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21030" pet_id_list="21030001,21030002,21030003,21030004,21030005" barrierStr="仙灵幻境第30关"		exp="5100"  	roleExp="6000"	newPetCount="5" > 		<item id="11714033"  num="1"/> </barrier> 
+		<barrier id="21031" pet_id_list="21031001,21031002,21031003,21031004,21031005" barrierStr="仙灵幻境第31关"		exp="5270"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21032" pet_id_list="21032001,21032002,21032003,21032004,21032005" barrierStr="仙灵幻境第32关"		exp="5440"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21033" pet_id_list="21033001,21033002,21033003,21033004,21033005" barrierStr="仙灵幻境第33关"		exp="5610"  	roleExp="6000"	newPetCount="15" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21034" pet_id_list="21034001,21034002,21034003,21034004,21034005" barrierStr="仙灵幻境第34关"		exp="5780"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21035" pet_id_list="21035001,21035002,21035003,21035004,21035005" barrierStr="仙灵幻境第35关"		exp="5950"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21036" pet_id_list="21036001,21036002,21036003,21036004,21036005" barrierStr="仙灵幻境第36关"		exp="6120"  	roleExp="6000"	newPetCount="15" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21037" pet_id_list="21037001,21037002,21037003,21037004,21037005" barrierStr="仙灵幻境第37关"		exp="6290"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21038" pet_id_list="21038001,21038002,21038003,21038004,21038005" barrierStr="仙灵幻境第38关"		exp="6460"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21039" pet_id_list="21039001,21039002,21039003,21039004,21039005" barrierStr="仙灵幻境第39关"		exp="6630"  	roleExp="6000"	newPetCount="8" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21040" pet_id_list="21040001,21040002,21040003,21040004,21040005" barrierStr="仙灵幻境第40关"		exp="6800"  	roleExp="6000"	newPetCount="5" > 		<item id="11714033"  num="1"/> </barrier> 
+		<barrier id="21041" pet_id_list="21041001,21041002,21041003,21041004,21041005" barrierStr="仙灵幻境第41关"		exp="6970"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21042" pet_id_list="21042001,21042002,21042003,21042004,21042005" barrierStr="仙灵幻境第42关"		exp="7140"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21043" pet_id_list="21043001,21043002,21043003,21043004,21043005" barrierStr="仙灵幻境第43关"		exp="7310"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21044" pet_id_list="21044001,21044002,21044003,21044004,21044005" barrierStr="仙灵幻境第44关"		exp="7480"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21045" pet_id_list="21045001,21045002,21045003,21045004,21045005" barrierStr="仙灵幻境第45关"		exp="7650"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21046" pet_id_list="21046001,21046002,21046003,21046004,21046005" barrierStr="仙灵幻境第46关"		exp="7820"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21047" pet_id_list="21047001,21047002,21047003,21047004,21047005" barrierStr="仙灵幻境第47关"		exp="7990"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21048" pet_id_list="21048001,21048002,21048003,21048004,21048005" barrierStr="仙灵幻境第48关"		exp="8160"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21049" pet_id_list="21049001,21049002,21049003,21049004,21049005" barrierStr="仙灵幻境第49关"		exp="8330"  	roleExp="6000"	newPetCount="9" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21050" pet_id_list="21050001,21050002,21050003,21050004,21050005" barrierStr="仙灵幻境第50关"		exp="8500"  	roleExp="6000"	newPetCount="5" > 		<item id="11714034"  num="1"/> </barrier> 
+		<barrier id="21051" pet_id_list="21051001,21051002,21051003,21051004,21051005" barrierStr="仙灵幻境第51关"		exp="8670"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21052" pet_id_list="21052001,21052002,21052003,21052004,21052005" barrierStr="仙灵幻境第52关"		exp="8840"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21053" pet_id_list="21053001,21053002,21053003,21053004,21053005" barrierStr="仙灵幻境第53关"		exp="9010"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21054" pet_id_list="21054001,21054002,21054003,21054004,21054005" barrierStr="仙灵幻境第54关"		exp="9180"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21055" pet_id_list="21055001,21055002,21055003,21055004,21055005" barrierStr="仙灵幻境第55关"		exp="9350"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21056" pet_id_list="21056001,21056002,21056003,21056004,21056005" barrierStr="仙灵幻境第56关"		exp="9520"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21057" pet_id_list="21057001,21057002,21057003,21057004,21057005" barrierStr="仙灵幻境第57关"		exp="9690"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21058" pet_id_list="21058001,21058002,21058003,21058004,21058005" barrierStr="仙灵幻境第58关"		exp="9860"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21059" pet_id_list="21059001,21059002,21059003,21059004,21059005" barrierStr="仙灵幻境第59关"		exp="10030"  	roleExp="6000"	newPetCount="10" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21060" pet_id_list="21060001,21060002,21060003,21060004,21060005" barrierStr="仙灵幻境第60关"		exp="10200"  	roleExp="6000"	newPetCount="5" > 		<item id="11714034"  num="1"/> </barrier> 
+		<barrier id="21061" pet_id_list="21061001,21061002,21061003,21061004,21061005" barrierStr="仙灵幻境第61关"		exp="10370"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21062" pet_id_list="21062001,21062002,21062003,21062004,21062005" barrierStr="仙灵幻境第62关"		exp="10540"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21063" pet_id_list="21063001,21063002,21063003,21063004,21063005" barrierStr="仙灵幻境第63关"		exp="10710"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21064" pet_id_list="21064001,21064002,21064003,21064004,21064005" barrierStr="仙灵幻境第64关"		exp="10880"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21065" pet_id_list="21065001,21065002,21065003,21065004,21065005" barrierStr="仙灵幻境第65关"		exp="11050"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21066" pet_id_list="21066001,21066002,21066003,21066004,21066005" barrierStr="仙灵幻境第66关"		exp="11220"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21067" pet_id_list="21067001,21067002,21067003,21067004,21067005" barrierStr="仙灵幻境第67关"		exp="11390"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21068" pet_id_list="21068001,21068002,21068003,21068004,21068005" barrierStr="仙灵幻境第68关"		exp="11560"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21069" pet_id_list="21069001,21069002,21069003,21069004,21069005" barrierStr="仙灵幻境第69关"		exp="11730"  	roleExp="6000"	newPetCount="11" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21070" pet_id_list="21070001,21070002,21070003,21070004,21070005" barrierStr="仙灵幻境第70关"		exp="11900"  	roleExp="6000"	newPetCount="5" > 		<item id="11714035"  num="1"/> </barrier> 
+		<barrier id="21071" pet_id_list="21071001,21071002,21071003,21071004,21071005" barrierStr="仙灵幻境第71关"		exp="12070"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21072" pet_id_list="21072001,21072002,21072003,21072004,21072005" barrierStr="仙灵幻境第72关"		exp="12240"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21073" pet_id_list="21073001,21073002,21073003,21073004,21073005" barrierStr="仙灵幻境第73关"		exp="12410"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21074" pet_id_list="21074001,21074002,21074003,21074004,21074005" barrierStr="仙灵幻境第74关"		exp="12580"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21075" pet_id_list="21075001,21075002,21075003,21075004,21075005" barrierStr="仙灵幻境第75关"		exp="12750"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21076" pet_id_list="21076001,21076002,21076003,21076004,21076005" barrierStr="仙灵幻境第76关"		exp="12920"  	roleExp="6000"	newPetCount="20" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21077" pet_id_list="21077001,21077002,21077003,21077004,21077005" barrierStr="仙灵幻境第77关"		exp="13090"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21078" pet_id_list="21078001,21078002,21078003,21078004,21078005" barrierStr="仙灵幻境第78关"		exp="13260"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21079" pet_id_list="21079001,21079002,21079003,21079004,21079005" barrierStr="仙灵幻境第79关"		exp="13430"  	roleExp="6000"	newPetCount="12" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="21080" pet_id_list="21080001,21080002,21080003,21080004,21080005" barrierStr="仙灵幻境第80关"		exp="13600"  	roleExp="6000"	newPetCount="5" > 		<item id="11714036"  num="1"/> </barrier> 
+
+		<barrier id="22001" pet_id_list="22001002,22001003,22001004,22001005,22001006" barrierStr="仙灵幻境万毒宫"		exp="3400"  	roleExp="6000"	newPetCount="30" > 		<item id="11714038"  num="1"/> </barrier> 
+		<barrier id="22002" pet_id_list="22002001,22002002,22002003,22002004,22002005" barrierStr="第2关"		exp="800"  	roleExp="2000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="22003" pet_id_list="22003001,22003002,22003003,22003004,22003005" barrierStr="第3关"		exp="800"  	roleExp="2000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+		<barrier id="22004" pet_id_list="22004001,22004002,22004003,22004004,22004005" barrierStr="第4关"		exp="800"  	roleExp="2000"	newPetCount="5" > 		<item id="10120005"  num="1"/> </barrier> 
+
+	</barriers>
+	<icons maxIcon="8">
+		<icon id="1" name="毒域征服者" color="2" intro="1-10关全3星通关" prop="11,500" />
+		<icon id="2" name="毒域之王" color="2" intro="11-20关全3星通关" prop="1000,50|13,33|14,33" />
+		<icon id="3" name="冰域征服者" color="3" intro="21-30关全3星通关" prop="11,1167" />
+		<icon id="4" name="冰域之王" color="3" intro="31-40关全3星通关" prop="1000,117|13,78|14,78" />
+		<icon id="5" name="雷域征服者" color="4" intro="41-50关全3星通关" prop="11,1833" />
+		<icon id="6" name="雷域之王" color="4" intro="51-60关全3星通关" prop="1000,183|13,122|14,122" />
+		<icon id="7" name="火域征服者" color="5" intro="61-70关全3星通关" prop="11,2500" />
+		<icon id="8" name="火域之王" color="5" intro="71-80关全3星通关" prop="1000,250|13,167|14,167" />
+	</icons>
+</petTower>

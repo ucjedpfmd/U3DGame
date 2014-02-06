@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookKitchen>
+
+
+	 <skillLv lv="1" exp="1111110"/>
+	 <skillLv lv="1" exp="2111110"/>
+	 
+	 <!--type  1为个人  2为仙盟 3为活动    opType指开启方式类型 1等级获得 2商店购买 3仙盟菜谱 4活动菜谱  -->
+	 <cookBooks>
+	 <book id="61012001" type="1" material="63014001|24,64014005|2"  opType="1"  needLv="1"/>
+	 <book id="61012002" type="1" material="63014001|12,64014010|2,65014001|12"  opType="2"  needLv="1"/>
+	 <book id="61012003" type="1" material="63014005|24,64014004|2"  opType="1"  needLv="5"/>
+	 <book id="61012004" type="1" material="63014005|15,64014011|2,65014002|9"  opType="2"  needLv="1"/>
+	 <book id="61012005" type="1" material="63014010|24,64014008|2"  opType="1"  needLv="9"/>
+	 <book id="61012006" type="1" material="63014010|10,64014009|2,65034002|14"  opType="2"  needLv="1"/>	 
+	 <book id="61012007" type="1" material="63014011|24,64014012|2"  opType="1"  needLv="13"/>
+	 <book id="61012008" type="1" material="63014011|9,64014006|2,65014005|15"  opType="2"  needLv="1"/>
+	 <book id="61013009" type="1" material="63014012|14,64014014|2,65014004|12"  opType="2"  needLv="1"/>
+	 <book id="61013010" type="1" material="63014006|11,64014007|2,65034001|13"  opType="2"  needLv="1"/>
+	 <book id="61013011" type="1" material="63014003|13,64014013|2,65034004|11"  opType="2"  needLv="1"/>
+	 <book id="61013012" type="1" material="63014008|10,64014003|2,65014003|14"  opType="2"  needLv="1"/>
+	 
+
+ 
+	 
+	 
+	 
+	 </cookBooks>
+	 
+	 <!--厨房道具ID 8位：ABCDEFGH :A为6 B为菜谱 厨具 蔬菜 调料 肉类：CD为大类中小类 E:为颜色 FGH常规顺序号    这里的ID是CD三位-->
+	 <cookTools>
+	 <tool id="01" str="墙壁"/>
+	 <tool id="02" str="地板"/>
+	 <tool id="03" str="货架"/>	 
+	 <tool id="04" str="炉子"/>
+	 <tool id="05" str="锅盖"/>	 
+	 <tool id="06" str="勺子"/>
+	 <tool id="07" str="铲子"/>	 
+	 <tool id="08" str="筷子"/>
+	 <tool id="09" str="饭碗"/>	 
+	 <tool id="10" str="菜刀"/>
+	 <tool id="11" str="罐子"/>
+	 <tool id="12" str="台子"/>	 
+	 <tool id="13" str="砧板"/>
+	 <tool id="14" str="菜台"/>	 
+	 <tool id="15" str="水坛"/>
+	 <tool id="16" str="壁柜"/>	 
+	 <tool id="17" str="支架"/>
+	 <tool id="18" str="牌匾"/>	 
+	 <tool id="19" str="喵喵"/>		 
+	                     
+	 
+	 
+	 </cookTools>
+	 
+	 <cookToolAtt>
+	 <tool id="62012001" bigType="01"  attKey="1" attValue="50" typeStr="墙壁" />
+	 <tool id="62022001" bigType="02"  attKey="1" attValue="50" typeStr="地板" />
+	 <tool id="62032001" bigType="03"  attKey="1" attValue="50" typeStr="货架" />
+	 <tool id="62042001" bigType="04"  attKey="1" attValue="50" typeStr="炉子" />
+	 <tool id="62052001" bigType="05"  attKey="1" attValue="50" typeStr="锅盖" />
+	 <tool id="62062001" bigType="06"  attKey="1" attValue="50" typeStr="勺子" />
+	 <tool id="62072001" bigType="07"  attKey="1" attValue="50" typeStr="铲子" />
+	 <tool id="62082001" bigType="08"  attKey="1" attValue="50" typeStr="筷子" />
+	 <tool id="62092001" bigType="09"  attKey="2" attValue="50" typeStr="饭碗" />
+	 <tool id="62102001" bigType="10"  attKey="2" attValue="50" typeStr="菜刀" />
+	 <tool id="62112001" bigType="11"  attKey="2" attValue="50" typeStr="罐子" />
+	 <tool id="62122001" bigType="12"  attKey="2" attValue="50" typeStr="台子" />
+	 <tool id="62132001" bigType="13"  attKey="2" attValue="50" typeStr="砧板" />
+	 <tool id="62142001" bigType="14"  attKey="2" attValue="50" typeStr="菜台" />
+	 <tool id="62152001" bigType="15"  attKey="3" attValue="50" typeStr="水坛" />
+	 <tool id="62162001" bigType="16"  attKey="3" attValue="50" typeStr="壁柜" />
+	 <tool id="62172001" bigType="17"  attKey="3" attValue="50" typeStr="支架" />
+	 <tool id="62182001" bigType="18"  attKey="3" attValue="50" typeStr="牌匾" />
+	 <tool id="62192001" bigType="19"  attKey="3" attValue="50" typeStr="喵喵" />
+	 </cookToolAtt>
+	 
+</cookKitchen>

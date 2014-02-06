@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marryGuide>
+       <explain startTime="08:00" endTime="13:00" HostLeft="publish" HostRight="fire" GuestLeft="get" GuestRight="fire" index="0">
+          <txt strHost="1.每次发布可获得800情缘值"				 	strGuest="1.当举办者发布任务后，玩家就可领取“装扮璇玑城”任务，每天每人限完成3次"/>
+          <txt strHost="2.任务每被完成1次，额外获得50点祝福值" 	strGuest=""/>
+          <txt strHost="3.任务每被完成10次，额外获得100点情缘值" 	strGuest="2.完成1次任务可获得500点祝福值"/>
+   </explain>
+       <explain startTime="13:01" endTime="18:00"  HostLeft="parade" HostRight="fire" GuestLeft="test" GuestRight="bless" index="1">
+          <txt strHost="1.进行婚宴巡游，可获得大量情缘值奖励；" strGuest="1.当举办者进行婚宴巡游时，玩家可以对他们进行“默契度考验”与“祝福”"/>
+          <txt strHost="2.每次举办宴席可以举行一次婚宴巡游；" strGuest="2.成功提出“默契度考验”后，获得300点祝福值"/>
+          <txt strHost="3.婚宴巡游期间其他玩家提出“默契度考验”，举办者需要回答一致，可获50点情缘值奖励" strGuest="3.每次“祝福”可获得150点祝福值"/>
+   </explain>
+      <explain  startTime="18:01" endTime="22:00"  HostLeft="join" HostRight="fire" GuestLeft="eat" GuestRight="fire" index="2">
+          <txt strHost="1.每次大摆筵席可获得500情缘值"  strGuest="1.当举办者开始大摆筵席后，可前往享用宴席"/>
+          <txt strHost=""  strGuest=""/>
+          <txt strHost="2.宴席每被享用1次，额外获得25点祝福值"  strGuest="2.享用宴席可获得大量祝福值"/>
+   </explain>
+       <explain  startTime="" endTime=""  HostLeft="gotoMarry" HostRight="fire" GuestLeft="" GuestRight="fire" index="3">
+          <txt strHost="1.婚宴举办当天可以随时进行拜堂" strGuest="1.婚宴举办当天可以随时进行拜堂"/>
+          <txt strHost="" strGuest=""/>
+          <txt strHost="2.一对仙侣在结缘期间只可进行一次拜堂"  strGuest="2.一对仙侣在结缘期间只可进行一次拜堂"/>
+       </explain>
+</marryGuide>

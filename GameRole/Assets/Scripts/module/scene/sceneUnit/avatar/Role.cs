@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using proto;
 using UnityEngine;
+using module.scene.tile;
+using module.scene.manager;
 
 namespace module.scene.sceneUnit.avatar
 {
@@ -30,7 +32,7 @@ namespace module.scene.sceneUnit.avatar
 
         private void initBody()
         {
-			avatar.resetSkin(0,0);
+			avatar.resetSkin(2,0);
             if (isInit == false)
             {
                 myObj.AddComponent<CharacterController>();
@@ -44,6 +46,16 @@ namespace module.scene.sceneUnit.avatar
             point = v3;
             myObj.transform.LookAt(new Vector3(point.x, myObj.transform.position.y, point.z));
             SetGameAct(AvatarUtil.ACT_WALK);
+        }
+
+        public void runToPath(object[] path)
+        {
+            int lastPos = (int)path[path.Length-1];
+            point = TileUitls.getFlatCenterByPosWithVertor3(lastPos, point);
+            point.y = 1;
+            point.x = point.x + SceneDataManager.mapOffsetX;
+            point.z = point.z + SceneDataManager.mapOffsetZ;
+            runToPoint(point);
         }
     }
 }

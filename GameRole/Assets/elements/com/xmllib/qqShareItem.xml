@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qqShareItem>
+<Items>
+	<item id="1" name="default"  url="com/assets/qq/share/ljxz.png"/>
+	<item id="13301" name="成就"  url="com/assets/qq/share/achievement/achievement.png"/>
+	<item id="11105" name="礼包"  url="com/assets/qq/share/gift.png"/>
+	<item id="12300" name="仙宠"  url="com/assets/qq/share/pet/pet.png"/>
+	<item id="10106" name="羽翼"  url="com/assets/qq/share/wing/wing.png"/>
+	<item id="10105" name="时装"  url="com/assets/qq/share/ljxz.png"/>
+    <item id="11401" name="仙尊"  url="com/assets/qq/share/vip3"/>
+	<item id="10118005" name="花样年华（男）"  url="com/assets/qq/share/fashion/10118005.png"/>
+	<item id="10118006" name="花样年华（女）"  url="com/assets/qq/share/fashion/10118006.png"/>
+	<item id="10118025" name="刹那芳华（男）"  url="com/assets/qq/share/fashion/10118025.png"/>
+	<item id="10118026" name="刹那芳华（女）"  url="com/assets/qq/share/fashion/10118026.png"/>
+	<item id="10404003" name="御龙行形象卡"  url="com/assets/qq/share/mount/10404003.png"/>
+	<item id="10404018" name="七彩灵鹿形象卡"  url="com/assets/qq/share/mount/10404018.png"/>
+</Items>
+<share>
+	<dialogs>
+	<dialog id="1" type="分享任务">
+	<item content="春天我在#六界仙尊#种下了一个萝莉，等到秋天，我收获了一堆御姐！大家都来了，你还不来么？" />
+	<item content="#六界仙尊#沉鱼落雁，仙女下凡。让我领略到了天地也为之失色的唯美画面。一切震撼，尽在《六界仙尊》。" />
+	<item content="#六界仙尊#多少相思，才能换来相逢。多少险阻，才能换来拥抱。要经过何等的艰难，才能再与你在一起。无论怎样，我都在《六界仙尊》里等你。" />
+	<item content="#六界仙尊#修真炼元，伏魔降妖，战遍天下，成就神话！进入《六界仙尊》，让你体验不一样的畅快人生！" />
+	<item content="#六界仙尊#什么，什么？极品紫装、无敌萌宠、超炫坐骑统统免费送了？还等什么，快跟我一起来玩《六界仙尊》吧！" />
+	<item content="#六界仙尊#史上最多萌妹子的游戏，浪漫的邂逅，婚礼的殿堂，一世的情缘……《六界仙尊》，有你想要的一切！" />
+	<itemQQGame content="#六界仙尊#嘻嘻！我在玩全球最火最萌的游戏哦！快来一起玩吧！" />
+	</dialog>
+	<dialog id="2" type="仙宠">
+	<item content="#六界仙尊#我新激活的仙宠|petname超级厉害哦！不要羡慕我，我永远是个传说！不服气的来《六界仙尊》切磋切磋，等着你哦！" />
+	<item content="#六界仙尊#哇！我激活了一只超可爱的|petname哦！看我把他培养成全服第一仙宠！哈哈哈，不要羡慕我，你也可以的！"/>
+	<item content="#六界仙尊#我用召唤符开出了一只|petname，哎哟，不仅长得帅气，还很能打哦！你也快来《六界仙尊》打一只带回家吧！" />
+	<itemQQGame content="#六界仙尊#哈！我又收藏到了新的萌宠。是什么？来玩你就知道！" />
+	</dialog>
+	<dialog id="3" type="坐骑">
+	<item content="#六界仙尊#哈哈哈，传说中的极品坐骑“|mountname“免费赠送啦！我已经领取了，你还在等什么呢？"/>
+	<item content="#六界仙尊#哇哈哈O(∩_∩)O，我骑上了传送中的坐骑“|mountname”！街上的妹子都在回头看我呢，简直帅呆啦！不要羡慕，你也可以的哦！"/>
+	<item content="#六界仙尊#哈哈哈，骑上传送中的坐骑“|mountname”，我体验到了飞一般的感觉！看，它跑得多快，你能追上我吗？"/>
+	<itemQQGame content="#六界仙尊#哇，领了好酷坐骑，买菜大妈在偷看我啦！你快来看" />
+	</dialog>
+	<dialog id="4" type="成就">
+	<item content="#六界仙尊#我今天达成了|achieveName的成就，登上了新的高峰哦！哈哈哈，你要跟我一决高下吗？那就快来比一比吧！" />
+	<item content="#六界仙尊#哈哈哈，我的成就榜上又增加了一个新成就|achieveName哦！快来比一比，看谁达到的成就多吧！" />
+	<item content="#六界仙尊#哈哈哈，今天我轻轻松松就达成了|achieveName的成就，系统送给了我一大堆元宝，真是爽呆了！你还等什么，快来跟我一起玩吧！" />
+	<item content="#六界仙尊#今天我终于达成了|achieveName的成就，不仅惊呆了小伙伴们，更引来一群妹子疯狂围观，简直爽呆了！你还等什么，快来跟我一起玩吧！" />
+	<itemQQGame content="#六界仙尊#哭了，终于获得新的成就徽章啦！快来一起游街庆祝！" />
+	</dialog>
+	<dialog id="5" type="羽翼">
+	<item content="#六界仙尊#我今天达成了|wingname的成就，登上了新的高峰哦！哈哈哈，你要跟我一决高下吗？那就快来比一比吧！" />
+	<item content="#六界仙尊#哈哈哈，我的成就榜上又增加了一个新成就|wingname哦！快来比一比，看谁达到的成就多吧！" />
+	<item content="#六界仙尊#哈哈哈，今天我轻轻松松就达成了|wingname的成就，系统送给了我一大堆元宝，真是爽呆了！你还等什么，快来跟我一起玩吧！" />
+	<item content="#六界仙尊#今天我终于达成了|wingname的成就，不仅惊呆了小伙伴们，更引来一群妹子疯狂围观，简直爽呆了！你还等什么，快来跟我一起玩吧！" />
+	<itemQQGame content="#六界仙尊#哭了，终于获得新的羽翼了！快来一起游街庆祝！" />
+	</dialog>
+	<dialog id="6" type="时装">
+	<item content="#六界仙尊#我今天达成了|fashionname的成就，登上了新的高峰哦！哈哈哈，你要跟我一决高下吗？那就快来比一比吧！" />
+	<item content="#六界仙尊#哈哈哈，我的成就榜上又增加了一个新成就|fashionnamee哦！快来比一比，看谁达到的成就多吧！" />
+	<item content="#六界仙尊#哈哈哈，今天我轻轻松松就达成了|fashionname的成就，系统送给了我一大堆元宝，真是爽呆了！你还等什么，快来跟我一起玩吧！" />
+	<item content="#六界仙尊#今天我终于达成了|fashionname的成就，不仅惊呆了小伙伴们，更引来一群妹子疯狂围观，简直爽呆了！你还等什么，快来跟我一起玩吧！" />
+	<itemQQGame content="#六界仙尊#哭了，终于获得新的时装了！快来一起游街庆祝！" />
+	</dialog>
+	<dialog id="7" type="激活码礼包">
+	<item content="我在#六界仙尊#领取了极品的紫色仙宠，我要把它培养到全服第一，大家都来吧！" />
+	<item content="我在#六界仙尊#领取了价值1688元宝的礼包，你还在等什么，无限福利尽在《六界仙尊》！" />
+	<itemQQGame content="#六界仙尊#领礼包啦！轻轻松松拿了好多奖励。快别吃亏来拿啊！" />
+	</dialog>
+	</dialogs>
+	<summary content="高富帅，白富美陪你一起游戏，无尽快乐尽在《六界仙尊》"/>
+</share>
+</qqShareItem>

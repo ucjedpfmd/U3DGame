@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<suits>
+<!-- 套装属性 套装ID 件数 加成属性-->
+<suit id="101" piece="2" attr="31,30" /> 
+<suit id="101" piece="4" attr="37,30" /> 
+<suit id="101" piece="6" attr="15,60" /> 
+<suit id="101" piece="8" attr="13,40" /> 
+<suit id="101" piece="10" attr="14,40" /> 
+
+<suit id="201" piece="2" attr="31,30" /> 
+<suit id="201" piece="4" attr="37,30" /> 
+<suit id="201" piece="6" attr="15,60" /> 
+<suit id="201" piece="8" attr="13,40" /> 
+<suit id="201" piece="10" attr="14,40" /> 
+
+<suit id="301" piece="2" attr="31,30" /> 
+<suit id="301" piece="4" attr="37,30" /> 
+<suit id="301" piece="6" attr="16,60" /> 
+<suit id="301" piece="8" attr="14,40" /> 
+<suit id="301" piece="10" attr="13,40" /> 
+
+<suit id="401" piece="2" attr="31,30" /> 
+<suit id="401" piece="4" attr="37,30" /> 
+<suit id="401" piece="6" attr="16,60" /> 
+<suit id="401" piece="8" attr="14,40" /> 
+<suit id="401" piece="10" attr="13,40" /> 
+
+<suit id="102" piece="2" attr="36,60" /> 
+<suit id="102" piece="4" attr="38,60" /> 
+<suit id="102" piece="6" attr="15,90" /> 
+<suit id="102" piece="8" attr="13,60" /> 
+<suit id="102" piece="10" attr="14,60" /> 
+
+<suit id="202" piece="2" attr="36,60" /> 
+<suit id="202" piece="4" attr="38,60" /> 
+<suit id="202" piece="6" attr="15,90" /> 
+<suit id="202" piece="8" attr="13,60" /> 
+<suit id="202" piece="10" attr="14,60" /> 
+
+<suit id="302" piece="2" attr="36,60" /> 
+<suit id="302" piece="4" attr="38,60" /> 
+<suit id="302" piece="6" attr="16,90" /> 
+<suit id="302" piece="8" attr="14,60" /> 
+<suit id="302" piece="10" attr="13,60" /> 
+
+<suit id="402" piece="2" attr="36,60" /> 
+<suit id="402" piece="4" attr="38,60" /> 
+<suit id="402" piece="6" attr="16,90" /> 
+<suit id="402" piece="8" attr="14,60" /> 
+<suit id="402" piece="10" attr="13,60" /> 
+
+<suit id="103" piece="2" attr="31,90" /> 
+<suit id="103" piece="4" attr="37,90" /> 
+<suit id="103" piece="6" attr="15,120" /> 
+<suit id="103" piece="8" attr="13,80" /> 
+<suit id="103" piece="10" attr="14,80" /> 
+
+<suit id="203" piece="2" attr="31,90" /> 
+<suit id="203" piece="4" attr="37,90" /> 
+<suit id="203" piece="6" attr="15,120" /> 
+<suit id="203" piece="8" attr="13,80" /> 
+<suit id="203" piece="10" attr="14,80" /> 
+
+<suit id="303" piece="2" attr="31,90" /> 
+<suit id="303" piece="4" attr="37,90" /> 
+<suit id="303" piece="6" attr="16,120" /> 
+<suit id="303" piece="8" attr="14,80" /> 
+<suit id="303" piece="10" attr="13,80" /> 
+
+<suit id="403" piece="2" attr="31,90" /> 
+<suit id="403" piece="4" attr="37,90" /> 
+<suit id="403" piece="6" attr="16,120" /> 
+<suit id="403" piece="8" attr="14,80" /> 
+<suit id="403" piece="10" attr="13,80" /> 
+
+<suit id="104" piece="2" attr="31,165" /> 
+<suit id="104" piece="4" attr="37,165" /> 
+<suit id="104" piece="6" attr="15,195" /> 
+<suit id="104" piece="8" attr="13,130" /> 
+<suit id="104" piece="10" attr="14,130" /> 
+
+<suit id="204" piece="2" attr="31,165" /> 
+<suit id="204" piece="4" attr="37,165" /> 
+<suit id="204" piece="6" attr="15,195" /> 
+<suit id="204" piece="8" attr="13,130" /> 
+<suit id="204" piece="10" attr="14,130" /> 
+
+<suit id="304" piece="2" attr="31,165" /> 
+<suit id="304" piece="4" attr="37,165" /> 
+<suit id="304" piece="6" attr="16,195" /> 
+<suit id="304" piece="8" attr="14,130" /> 
+<suit id="304" piece="10" attr="13,130" /> 
+
+<suit id="404" piece="2" attr="31,165" /> 
+<suit id="404" piece="4" attr="37,165" /> 
+<suit id="404" piece="6" attr="16,195" /> 
+<suit id="404" piece="8" attr="14,130" /> 
+<suit id="404" piece="10" attr="13,130" /> 
+
+<suit id="105" piece="2" attr="36,120" /> 
+<suit id="105" piece="4" attr="38,120" /> 
+<suit id="105" piece="6" attr="15,150" /> 
+<suit id="105" piece="8" attr="13,100" /> 
+<suit id="105" piece="10" attr="14,100" /> 
+
+<suit id="205" piece="2" attr="36,120" /> 
+<suit id="205" piece="4" attr="38,120" /> 
+<suit id="205" piece="6" attr="15,150" /> 
+<suit id="205" piece="8" attr="13,100" /> 
+<suit id="205" piece="10" attr="14,100" /> 
+
+<suit id="305" piece="2" attr="36,120" /> 
+<suit id="305" piece="4" attr="38,120" /> 
+<suit id="305" piece="6" attr="16,150" /> 
+<suit id="305" piece="8" attr="14,100" /> 
+<suit id="305" piece="10" attr="13,100" /> 
+
+<suit id="405" piece="2" attr="36,120" /> 
+<suit id="405" piece="4" attr="38,120" /> 
+<suit id="405" piece="6" attr="16,150" /> 
+<suit id="405" piece="8" attr="14,100" /> 
+<suit id="405" piece="10" attr="13,100" /> 
+
+<suit id="106" piece="2" attr="31,150" /> 
+<suit id="106" piece="4" attr="37,150" /> 
+<suit id="106" piece="6" attr="15,180" /> 
+<suit id="106" piece="8" attr="13,120" /> 
+<suit id="106" piece="10" attr="14,120" /> 
+
+<suit id="206" piece="2" attr="31,150" /> 
+<suit id="206" piece="4" attr="37,150" /> 
+<suit id="206" piece="6" attr="15,180" /> 
+<suit id="206" piece="8" attr="13,120" /> 
+<suit id="206" piece="10" attr="14,120" /> 
+
+<suit id="306" piece="2" attr="31,150" /> 
+<suit id="306" piece="4" attr="37,150" /> 
+<suit id="306" piece="6" attr="16,180" /> 
+<suit id="306" piece="8" attr="14,120" /> 
+<suit id="306" piece="10" attr="13,120" /> 
+
+<suit id="406" piece="2" attr="31,150" /> 
+<suit id="406" piece="4" attr="37,150" /> 
+<suit id="406" piece="6" attr="16,180" /> 
+<suit id="406" piece="8" attr="14,120" /> 
+<suit id="406" piece="10" attr="13,120" /> 
+
+<suit id="107" piece="2" attr="36,195" /> 
+<suit id="107" piece="4" attr="38,195" /> 
+<suit id="107" piece="6" attr="15,225" /> 
+<suit id="107" piece="8" attr="13,150" /> 
+<suit id="107" piece="10" attr="14,150" /> 
+
+<suit id="207" piece="2" attr="36,195" /> 
+<suit id="207" piece="4" attr="38,195" /> 
+<suit id="207" piece="6" attr="15,225" /> 
+<suit id="207" piece="8" attr="13,150" /> 
+<suit id="207" piece="10" attr="14,150" /> 
+
+<suit id="307" piece="2" attr="36,195" /> 
+<suit id="307" piece="4" attr="38,195" /> 
+<suit id="307" piece="6" attr="16,225" /> 
+<suit id="307" piece="8" attr="14,150" /> 
+<suit id="307" piece="10" attr="13,150" /> 
+
+<suit id="407" piece="2" attr="36,195" /> 
+<suit id="407" piece="4" attr="38,195" /> 
+<suit id="407" piece="6" attr="16,225" /> 
+<suit id="407" piece="8" attr="14,150" /> 
+<suit id="407" piece="10" attr="13,150" /> 
+
+<suit id="108" piece="2" attr="31,210" /> 
+<suit id="108" piece="4" attr="37,210" /> 
+<suit id="108" piece="6" attr="15,240" /> 
+<suit id="108" piece="8" attr="13,160" /> 
+<suit id="108" piece="10" attr="14,160" /> 
+
+<suit id="208" piece="2" attr="31,210" /> 
+<suit id="208" piece="4" attr="37,210" /> 
+<suit id="208" piece="6" attr="15,240" /> 
+<suit id="208" piece="8" attr="13,160" /> 
+<suit id="208" piece="10" attr="14,160" /> 
+
+<suit id="308" piece="2" attr="31,210" /> 
+<suit id="308" piece="4" attr="37,210" /> 
+<suit id="308" piece="6" attr="16,240" /> 
+<suit id="308" piece="8" attr="14,160" /> 
+<suit id="308" piece="10" attr="13,160" /> 
+
+<suit id="408" piece="2" attr="31,210" /> 
+<suit id="408" piece="4" attr="37,210" /> 
+<suit id="408" piece="6" attr="16,240" /> 
+<suit id="408" piece="8" attr="14,160" /> 
+<suit id="408" piece="10" attr="13,160" /> 
+
+<suit id="109" piece="2" attr="31,180" /> 
+<suit id="109" piece="4" attr="37,180" /> 
+<suit id="109" piece="6" attr="15,210" /> 
+<suit id="109" piece="8" attr="13,140" /> 
+<suit id="109" piece="10" attr="14,140" /> 
+
+<suit id="209" piece="2" attr="31,180" /> 
+<suit id="209" piece="4" attr="37,180" /> 
+<suit id="209" piece="6" attr="15,210" /> 
+<suit id="209" piece="8" attr="13,140" /> 
+<suit id="209" piece="10" attr="14,140" /> 
+
+<suit id="309" piece="2" attr="31,180" /> 
+<suit id="309" piece="4" attr="37,180" /> 
+<suit id="309" piece="6" attr="16,210" /> 
+<suit id="309" piece="8" attr="14,140" /> 
+<suit id="309" piece="10" attr="13,140" /> 
+
+<suit id="409" piece="2" attr="31,180" /> 
+<suit id="409" piece="4" attr="37,180" /> 
+<suit id="409" piece="6" attr="16,210" /> 
+<suit id="409" piece="8" attr="14,140" /> 
+<suit id="409" piece="10" attr="13,140" /> 
+
+<suit id="110" piece="2" attr="31,210" /> 
+<suit id="110" piece="4" attr="37,210" /> 
+<suit id="110" piece="6" attr="15,240" /> 
+<suit id="110" piece="8" attr="13,160" /> 
+<suit id="110" piece="10" attr="14,160" /> 
+
+<suit id="210" piece="2" attr="31,210" /> 
+<suit id="210" piece="4" attr="37,210" /> 
+<suit id="210" piece="6" attr="15,240" /> 
+<suit id="210" piece="8" attr="13,160" /> 
+<suit id="210" piece="10" attr="14,160" /> 
+
+<suit id="310" piece="2" attr="31,210" /> 
+<suit id="310" piece="4" attr="37,210" /> 
+<suit id="310" piece="6" attr="16,240" /> 
+<suit id="310" piece="8" attr="14,160" /> 
+<suit id="310" piece="10" attr="13,160" /> 
+
+<suit id="410" piece="2" attr="31,210" /> 
+<suit id="410" piece="4" attr="37,210" /> 
+<suit id="410" piece="6" attr="16,240" /> 
+<suit id="410" piece="8" attr="14,160" /> 
+<suit id="410" piece="10" attr="13,160" /> 
+
+<suit id="111" piece="2" attr="36,300" /> 
+<suit id="111" piece="4" attr="38,300" /> 
+<suit id="111" piece="6" attr="15,360" /> 
+<suit id="111" piece="8" attr="13,240" /> 
+<suit id="111" piece="10" attr="14,240" /> 
+
+<suit id="211" piece="2" attr="36,300" /> 
+<suit id="211" piece="4" attr="38,300" /> 
+<suit id="211" piece="6" attr="15,360" /> 
+<suit id="211" piece="8" attr="13,240" /> 
+<suit id="211" piece="10" attr="14,240" /> 
+
+<suit id="311" piece="2" attr="36,300" /> 
+<suit id="311" piece="4" attr="38,300" /> 
+<suit id="311" piece="6" attr="16,360" /> 
+<suit id="311" piece="8" attr="14,240" /> 
+<suit id="311" piece="10" attr="13,240" /> 
+
+<suit id="411" piece="2" attr="36,300" /> 
+<suit id="411" piece="4" attr="38,300" /> 
+<suit id="411" piece="6" attr="16,360" /> 
+<suit id="411" piece="8" attr="14,240" /> 
+<suit id="411" piece="10" attr="13,240" /> 
+
+<suit id="112" piece="2" attr="31,420" /> 
+<suit id="112" piece="4" attr="37,420" /> 
+<suit id="112" piece="6" attr="15,480" /> 
+<suit id="112" piece="8" attr="13,320" /> 
+<suit id="112" piece="10" attr="14,320" /> 
+
+<suit id="212" piece="2" attr="31,420" /> 
+<suit id="212" piece="4" attr="37,420" /> 
+<suit id="212" piece="6" attr="15,480" /> 
+<suit id="212" piece="8" attr="13,320" /> 
+<suit id="212" piece="10" attr="14,320" /> 
+
+<suit id="312" piece="2" attr="31,420" /> 
+<suit id="312" piece="4" attr="37,420" /> 
+<suit id="312" piece="6" attr="16,480" /> 
+<suit id="312" piece="8" attr="14,320" /> 
+<suit id="312" piece="10" attr="13,320" /> 
+
+<suit id="412" piece="2" attr="31,420" /> 
+<suit id="412" piece="4" attr="37,420" /> 
+<suit id="412" piece="6" attr="16,480" /> 
+<suit id="412" piece="8" attr="14,320" /> 
+<suit id="412" piece="10" attr="13,320" /> 
+
+<suit id="113" piece="2" attr="31,540" /> 
+<suit id="113" piece="4" attr="37,540" /> 
+<suit id="113" piece="6" attr="15,600" /> 
+<suit id="113" piece="8" attr="13,400" /> 
+<suit id="113" piece="10" attr="14,400" /> 
+            
+<suit id="213" piece="2" attr="31,540" /> 
+<suit id="213" piece="4" attr="37,540" /> 
+<suit id="213" piece="6" attr="15,600" /> 
+<suit id="213" piece="8" attr="13,400" /> 
+<suit id="213" piece="10" attr="14,400" /> 
+            
+<suit id="313" piece="2" attr="31,540" /> 
+<suit id="313" piece="4" attr="37,540" /> 
+<suit id="313" piece="6" attr="16,600" /> 
+<suit id="313" piece="8" attr="14,400" /> 
+<suit id="313" piece="10" attr="13,400" /> 
+            
+<suit id="413" piece="2" attr="31,540" /> 
+<suit id="413" piece="4" attr="37,540" /> 
+<suit id="413" piece="6" attr="16,600" /> 
+<suit id="413" piece="8" attr="14,400" /> 
+<suit id="413" piece="10" attr="13,400" /> 
+</suits>

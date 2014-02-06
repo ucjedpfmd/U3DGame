@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<petFamilyWars>
+	<petFamilyWar type="1"><!--普通奖励（周日到周一）-->
+		<rewards type="1"> <!--个人奖励-->		
+			<reward type="1"> <!--个人奖励-->		
+				<item rankID="1" title="&lt;font color='#ffea00'&gt;第一名&lt;/font&gt;" typeID="10903001,1"/>
+				<item rankID="3" title="第三名" typeID="10903001,1"/>
+				<item rankID="6" title="第六名" typeID="10903001,1"/>
+				<item rankID="9" title="第九名" typeID="10903001,1"/>
+			</reward>
+			<reward type="2"> <!--报名奖励-->	
+				<item rankID="1" title="报名参与" typeID="10117002,1"/>
+			</reward>
+		</rewards>
+		<rewards type="2">	<!--仙盟奖励-->		
+			<reward type="1">
+				<item rankID="1" title="&lt;font color='#ffea00'&gt;第一名&lt;/font&gt;" typeID="10903001,5"/>
+				<item rankID="2" title="第二名" typeID="10903001,3"/>
+				<item rankID="3" title="第三名" typeID="10903001,1"/>
+			</reward>
+			<reward type="2"> 
+				<item rankID="1" title="报名参与" typeID="10117002,10"/>
+			</reward>
+		</rewards>
+	</petFamilyWar>
+	<petFamilyWar type="2"><!--特殊奖励-->
+		<rewards type="1"> <!--个人奖励-->		
+			<reward type="1"> <!--个人奖励-->		
+				<item rankID="1" title="&lt;font color='#ffea00'&gt;第一名&lt;/font&gt;" typeID="10902021,1|10903001,3"/>
+				<item rankID="2" title="第二名" typeID="10903001,4"/>
+				<item rankID="3" title="第三名" typeID="10903001,3"/>
+				<item rankID="4" title="第四～六名" typeID="10903001,2"/>
+				<item rankID="5" title="第七～十名" typeID="10903001,1"/>
+			</reward>
+			<reward type="2"> <!--报名奖励-->	
+				<item rankID="1" title="报名参与" typeID="10117002,1"/>
+			</reward>
+		</rewards>
+		<rewards type="2">	<!--仙盟奖励-->		
+			<reward type="1">
+				<item rankID="1" title="&lt;font color='#ffea00'&gt;第一名&lt;/font&gt;" typeID="10903001,5"/>
+				<item rankID="2" title="第二名" typeID="10903001,3"/>
+				<item rankID="3" title="第三名" typeID="10903001,1"/>
+			</reward>
+			<reward type="2"> 
+				<item rankID="1" title="报名参与" typeID="10117002,10"/>
+			</reward>
+		</rewards>
+	</petFamilyWar>
+</petFamilyWars>

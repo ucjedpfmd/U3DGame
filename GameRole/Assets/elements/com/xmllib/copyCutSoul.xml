@@ -1,0 +1,10 @@
+﻿<root>
+	<skills>		
+		<skill id="10700091" upGradeNeedValue="300,3000,12300,31800,60300,105000,171000,241800,324900" upGradeNeedItem="1,1,1,1,1,1,1,1,1"/>
+		<skill id="10700090" upGradeNeedValue="300,3000,12300,31800,60300,105000,171000,241800,324900" upGradeNeedItem="1,1,1,1,1,1,1,1,1"/>
+		<skill id="10700092" upGradeNeedValue="300,3000,12300,31800,60300,105000,171000,241800,324900" upGradeNeedItem="1,1,1,1,1,1,1,1,1"/>
+		<skill id="10700093" upGradeNeedValue="300,3000,12300,31800,60300,105000,171000,241800,324900" upGradeNeedItem="1,1,1,1,1,1,1,1,1"/>
+	</skills>
+</root>
+
+

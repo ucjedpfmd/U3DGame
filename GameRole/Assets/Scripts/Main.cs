@@ -5,17 +5,20 @@ using com.net;
 using com.net.manager;
 using com.globals;
 using com.encrypt;
+using com.loader.manager;
+using module;
+using com.loader.item;
+using com.loader;
+using System.Xml;
 
 public class Main : MonoBehaviour
 {
-    bool flagMove;
-    RaycastHit hit;
+
+    private BatchLoaderMgr batchLoaderMgr;
     void Awake()
     {
-        GlobalData.initCamera(gameObject);        
-        initScene();
-		initConnect();
-        ModuleFactory.createModules();
+		GlobalData.initCamera(gameObject);
+        initConnect();
     }
 
     private void initScene()
@@ -49,6 +52,7 @@ public class Main : MonoBehaviour
 
     private void initConnect()
     {
+		LoopManager.init();
         //EncryptCSharp.startEncrypt();
         Connection2.getInstance().handlerSuccess = onConnectedServerSucc;
         Connection2.getInstance().startConnect(true);
@@ -75,10 +79,66 @@ public class Main : MonoBehaviour
 		Debug.Log("onAuthKey");
         if (vo.succ)
         {
-            m_role_detail_tos vo1 = new m_role_detail_tos();
-            Connection2.getInstance().sendMessage(vo1);
+            analyseConfig();
+            
         }
     }
+
+    private void analyseConfig()
+    {
+        batchLoaderMgr = new BatchLoaderMgr();
+        Dispatcher.register(ModuleCommand.BATCH_ITEM_COMPLETE, onBatchItemComplete);
+        Dispatcher.register(ModuleCommand.BATCH_COMPLETE, onBatchAllComplete);
+        batchLoaderMgr.add(GameConfig.XML_LIB_URL, "游戏配置");
+        batchLoaderMgr.load();
+    }
+
+    private void onBatchItemComplete(params object[] arg)
+    {       
+        FileData item = arg[0] as FileData;
+        Debug.Log("onBatchItemComplete：" + item.url);
+        if (item.type == FileData.SWF)
+        {
+            
+        }
+        else
+        {
+            if (item.type == FileData.IMAGE)
+            {
+                
+            }
+            else
+            {
+                if (item.type == FileData.MAP)
+                {
+                    //WorldManager.parseMcmBag(e.data);
+                }
+                else
+                {
+                    ResourcePool.add(item.url, item.content);
+                }
+            }
+        }
+        initGameData(item.url, item.data);
+    }
+
+    private void onBatchAllComplete(params object[] arg)
+    {
+        initScene();
+        ModuleFactory.createModules();
+
+        m_role_detail_tos vo1 = new m_role_detail_tos();
+        Connection2.getInstance().sendMessage(vo1);
+    }
+
+    private void initGameData(string url, object data) {
+        if (url == GameConfig.XML_LIB_URL)
+        {
+            CommonLocator.parseXMLFile();
+            XmlDocument xml = CommonLocator.getXML("cosplay.xml");
+        }
+	}
+
 
     private void onRoleDetail(m_role_detail_toc vo)
     {

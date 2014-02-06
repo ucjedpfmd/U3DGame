@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using module.scene.sceneUnit;
+using com.net.manager;
+using module;
 
 public class NPCBehaviour : MonoBehaviour
 {

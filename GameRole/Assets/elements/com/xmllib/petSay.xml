@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <born>
+	<word id="1" data="主人！！我们是去打怪……还是去打酱油？" addName="no"/>
+    </born>
+    <littleBlood>
+	<word id="2" data="主人，我挂了之后，记得再把我召唤出来~!" addName="no"/>
+    </littleBlood>
+	
+    <step1>
+	<word id="3" data="天破啦，天破啦，主人快去补天啊~！！" addName="no"/>
+	<word id="4" data="主人，仙宠界里面传说，只有你能拯救世界耶~" addName="no"/>
+	<word id="5" data="主人，你不去修炼吗？" addName="no"/>
+	<word id="6" data="嗷嗷~" addName="no"/>
+	<word id="7" data="主人，听说你刺破了天穹，这是真的吗？" addName="no"/>
+	<word id="8" data="？谁敢说我不萌，我咬死他~！" addName="no"/>
+	<word id="9" data="你今天梦境天阶了吗？" addName="yes" />
+	<word id="10" data="哇，老大，刚那个钻石vip，亮瞎了我的眼睛~" addName="no"/>
+	<word id="30" data="按Z键可以挂机打怪~轻松愉快~" addName="no"/>
+	<word id="31" data="按T键可以骑上帅帅的坐骑哦！" addName="no"/>
+	<word id="32" data="周围人多挡住NPC时，对准P键按下去吧" addName="no"/>
+	<word id="35" data="寒魄法阵又快失去力量啦，主人快去护送寒冰！" addName="no"/>
+    </step1>
+
+	<step2>
+	<word id="11" data="天哪，我又变帅了！" addName="no"/>
+	<word id="12" data="主人，你给我起名“很帅”，你就是很帅的主人啦！" addName="no"/>
+	<word id="13" data="女娲神殿里可以得到很高的经验奖励，你今天去了没？" addName="no"/>
+	<word id="14" data="哇，主人，那个人是钻石VIP，好厉害的样子！" addName="no"/>
+	<word id="15" data="周围人多挡住NPC时，对准P键按下去吧~！" addName="no"/>
+	<word id="16" data="天破啦，天破啦，主人快去补天啊~！！" addName="no"/>
+	<word id="17" data="仙界都说红尘炼心，主人你也要多修炼吖" addName="no"/>
+	<word id="18" data="女娲娘娘有很多装备哦，主人你怎么不去换？" addName="no"/>
+	<word id="19" data="听说摘星碎片，能变成超厉害的仙珠呢！" addName="no"/>
+	<word id="20" data="今天心情不好……我要杀怪！" addName="no"/>
+	<word id="21" data="只有三年时间，主人你怎么还不抓紧补天？" addName="no"/>
+	<word id="22" data="我不随便卖萌，你呢？" addName="no"/>
+	<word id="33" data="缺银子了，去炼金洞看看呗" addName="no"/>
+	<word id="34" data="女娲娘娘好危险，你去神殿帮忙吖！" addName="no"/>
+	<word id="23" data="主人，你不强化装备，怎么斩妖除魔？？" addName="no"/>
+	</step2>
+	
+	<step3>	
+	<word id="24" data="今天你傲视六界了吗？" addName="no"/>
+	<word id="25" data="仙盟有什么活动？人家也想参加呢~" addName="no"/>
+	<word id="26" data="女娲娘娘好危险，你去神殿帮忙吖！~" addName="no"/>
+	<word id="27" data="仙界都说红尘炼心，主人你也要多修炼吖~" addName="no"/>
+	<word id="28" data="我感到身强力壮~" addName="no"/>
+	<word id="29" data="？谁敢说我不萌，我咬死他~！" addName="no"/>
+	</step3>
+</root>

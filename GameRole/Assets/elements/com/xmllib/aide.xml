@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aide>
+	<!-- 小助手配置 前端 张子然 策划 吴桂鑫-->
+	<!-- 帮助目录1 -->
+  <main name="我要变强" >
+    <item intro="五星变强之路"  star="5">
+      <!--  标题                              星级      连接              等级       是否推荐（0不推荐/1推荐）
+      <term text="【,装备强化#11701,】,img#xianchongc.png" star="4" link="强化#10601" needLv="19" showLv="30" recommend="0"/> -->
+      <term text="【元神修炼】" star="3" link="修炼#10103" needLv="10" showLv="0" recommend="0"/>
+      <term text="【仙宠兽魂】" star="5" link="猎魂#10403" needLv="10" showLv="10" recommend="1"/>	  
+      <term text="【装备收集】" star="4" link="参与#11501" needLv="19" showLv="30" recommend="0"/>
+      <term text="【仙宠收集】" star="4" link="参与#40000105" needLv="19" showLv="30" recommend="0"/>
+	  
+   <!--     <term text="【,装备强化#11701,】" star="4" link="强化#10601" needLv="19" showLv="30" recommend="0"/>
+      <term text="【装备附魂】(19级可参与)：" star="4" link="附魂#10602" showLv="30" recommend="0"/>
+      <term text="【灵石镶嵌】(19级可参与)：" star="4" link="镶嵌#10603" showLv="30" recommend="0"/>-->
+
+    </item>
+    <item intro="四星变强之路"  star="4">
+
+      <term text="【仙宠附身】" star="4" link="附身#10405" needLv="10" showLv="0" recommend="0"/>
+	  <term text="【装备附魂】" star="4" link="附魂#10602" needLv="19" showLv="30" recommend="0"/>	  
+      <term text="【灵石镶嵌】" star="4" link="镶嵌#10603" needLv="19" showLv="30" recommend="0"/>	  
+	  
+    <!--       <term text="【仙宠训练】：" star="4" link="训练#10407" showLv="0" recommend="0"/>
+      <term text="【百 灵 园】：" star="4" link="前往#40000105,传送#40000105" showLv="0" recommend="0" />
+      <term text="【幻兽天境】：" star="4" link="前往#40000123,传送#40000123" showLv="0" recommend="0" /> -->
+    </item>
+    <item intro="三星变强之路"  star="3">	
+	  <term text="【装备强化】" star="4" link="强化#10601" needLv="19" showLv="30" recommend="0"/>
+      <term text="【仙宠训练】" star="4" link="训练#10407" needLv="19" showLv="0" recommend="0"/>	
+      <term text="【时装收集】" star="4" link="详情#10105" needLv="19" showLv="30" recommend="0"/>
+      <term text="【仙珠进阶】" star="4" link="详情#10102" needLv="19" showLv="30" recommend="0"/>	  
+      <term text="【坐骑提升】" star="4" link="详情#10502" needLv="19" showLv="30" recommend="0"/>	 	  
+    </item>	
+  </main>
+	<main name="升级指南" >
+    <item intro="火速升级"  star="5">
+			<term text="【主线任务】" star="5" link="详情#12102" needLv="19" showLv="0" recommend="0"/>
+			<term text="【女娲神殿】" star="5" link="前往#40000106,传送#40000106" needLv="41" showLv="10" recommend="0"/>					
+	   <!--    		<term text="【支线任务】：" star="4" link="详情#12102" showLv="0" recommend="0"/>
+			<term text="【诛 魔 令】(36级可参与)：" star="5" link="前往#40000109,传送#40000109" showLv="10" recommend="0"/>
+			<term text="【百炼成仙】(35级可参与)：" star="5" link="前往#40000119,传送#40000119" showLv="10" recommend="0"/>
+			<term text="【六界降妖】(36级可参与)：" star="5" link="详情#11705" showLv="10" />		 -->	
+		</item>
+		<item intro="高效升级"  star="4">
+ 		<term text="【支线任务】" star="4" link="详情#12102" needLv="1" showLv="0" recommend="0"/>
+		<term text="【补天石系列】" star="5" link="前往#40000115,传送#40000115" needLv="30" showLv="10" recommend="0"/>	
+		<term text="【九幽迷城系列】" star="5" link="前往#40000128,传送#40000128" needLv="30" showLv="10" recommend="0"/>				
+		<term text="【诛 魔 令】" star="5" link="前往#40000109,传送#40000109"  needLv="36" showLv="10" recommend="0"/>
+		<term text="【百炼成仙】" star="5" link="前往#40000119,传送#40000119"  needLv="36" showLv="10" recommend="0"/>
+		<term text="【六界降妖】" star="5" link="详情#11705" needLv="36"  showLv="10" />			
+		</item>
+		<item intro="快速升级"  star="3">
+			<term text="【VIP挂机】" star="5" link="详情#11401,进入#140700"  needLv="30" showLv="10" recommend="0"/>	
+		</item>
+	</main>
+	<main name="赚钱宝典" >
+		<item intro="赚钱最快，每天必做"  star="5">
+			<term text="【冰火炼金洞】" star="5" link="前往#40000126,传送#40000126" needLv="30" showLv="0" recommend="0"/>
+			<term text="【富甲天下】" star="5" link="前往#40000129,传送#40000129" needLv="30" showLv="0" recommend="0"/>
+			<term text="【智力答题】" star="4" link="详情#11102" needLv="20" showLv="0" recommend="0"/>
+			<term text="【天降横财】" star="5" link="详情#11102" needLv="10" showLv="0" recommend="0"/>
+		</item>
+	</main>
+	
+	<!-- 帮助目录2 树级结构 -->
+	<type name="仙宠篇" tag="pet" >
+		<sub name="仙宠获得" id="1" tag="pet_get"/>		
+		<sub name="基础信息" id="2" tag="pet_info"/>	
+		<sub name="仙宠兽魂" id="5"	 tag="pet_hunt"/>	
+		<sub name="仙宠技能" id="6"	 tag="pet_skill"/>
+		<sub name="仙宠附身" id="4" tag="pet_devote"/>	
+		<sub name="仙宠融合" id="7" tag="pet_merge"/>		
+		<sub name="仙宠训练" id="3" tag="pet_train"/>
+	</type>
+	<type name="角色篇" tag="role" >
+		<sub name="关于红名" id="8" tag="pk"/>	
+		<sub name="和平模式保护" id="9" tag="peace_buff"/>	
+		<sub name="关于转职" id="19" tag="transfer_category"/>			
+<!--		<sub name="关于战斗力" id="10" tag="about_z"/>		-->		
+	</type>	
+	<type name="情缘篇" tag="marry" >
+		<sub name="结为仙侣" id="10" tag="marry_marry"/>	
+		<sub name="浪漫小屋" id="11" tag="marry_house"/>	
+		<sub name="恋爱飞行" id="12" tag="marry_race"/>	
+		<sub name="关于婚宴" id="13" tag="marry_about"/>	
+		<sub name="仙侣技能" id="14" tag="marry_skill"/>	
+		<sub name="关于离婚" id="15" tag="marry_divorce"/>
+		<sub name="情缘值获得" id="16" tag="marry_qing_yuan"/>		
+		<sub name="甜蜜度获得" id="17" tag="marry_tian_mi"/>		
+		<sub name="亲密度获得" id="18" tag="marry_qin_mi"/>		
+		</type>		
+	
+<!--	<type name="游戏攻略篇" tag="game" >
+		<sub name="装备替换" id="11" tag="game_equip"/>
+		<sub name="副本介绍" id="12" tag="game_fb"/>	
+		<sub name="快速变强" id="13" tag="game_strong"/>		
+		<sub name="道具推荐" id="14" tag="game_general"/>				
+		<sub name="关于战斗力" id="10" tag="about_z"/>		
+	</type>	-->		
+
+
+	<!-- 树子项内容
+		标签 注：颜色值需去色值文档里取规范色值
+		type 
+		p普通文本内容，首行缩进 t普通文本标题，左对齐 #文本#颜色值00FF00#加粗（1）#链接（101001）# 作用区域以逗号隔开  
+		img普通图片资源（居中排版,请使用photoshop去掉透明区） 建议,图片保存命名以tree.@name +"_" + term.@id方便分类以及查找 name#宽#高
+		特别注意：排版以配置的顺序排版，每个标签之间间距固定
+	-->
+	<treeItem id="1" name="关于仙宠获得" >
+		<item type="t" value="☆★☆#F5CB38,仙宠获得#F5CB38#1,☆★☆#F5CB38"/>	
+		<item type="p" value="你可以通过,百灵园#00FF00#1#11103#,，,幻兽天境#00FF00#1#11601#,，,六界寻宝#00FF00#1#11701#,，,仙宠盟战#00FF00#1#11602#,，,好友邀请#00FF00#1#10802#,，,护送寒冰#00FF00#1#11102#,获得仙宠哦~"/>	
+		<item type="p" value=" "/>	
+		<item type="p" value=",【百灵园】#FDF454#1,"/>
+		<item type="p" value="据传自从上一次仙界大战之后，天穹出现了一条裂痕，天地间灵气紊乱，百灵园的不少仙宠丧失心性，只有将天穹补好，让天地间灵气恢复秩序，百灵园才能重现往日的和平。"/>
+		<item type="p" value="进入条件：,等级达到30级#FDEAB9#1,"/>	
+		<item type="p" value="参与次数：,每日3次#FDEAB9#1,"/>	
+		<item type="p" value="副本奖励：,品质为1-3星级的仙宠#FDEAB9#1,"/>	
+		<item type="p" value=" "/>	
+		<item type="p" value=",【幻兽天境】#FDF454#1,"/>	
+		<item type="p" value="上古时候，为了阻止幻兽伤人，嫘祖曾用金蚕丝织成了一座幻兽天境，供幻兽生活，幻兽天赋神技，仙宠与之对战可增加技能经验哦，当然，为了防止幻兽逃离天境，造成混乱，因此开启需要一定的条件，目前只有幻兽天女掌握着这种开启天境的独门仙术。"/>
+		<item type="p" value="进入等级：,达到27级#FDEAB9#1,"/>
+		<item type="p" value="进入道具：,玉梭、银梭或者金梭#FDEAB9#1,（富甲天下、仙盟贡献兑换获得）"/>
+		<item type="p" value="参与次数：,每日3次#FDEAB9#1,"/>	
+		<item type="p" value="副本奖励：,品质为1-4星级的仙宠，仙宠技能经验#FDEAB9#1,"/>			
+		<item type="p" value=" "/>	
+		<item type="p" value=",【六界寻宝】#FDF454#1,"/>
+		<item type="p" value="我们所在的这个六界中拥有无数的灵宝，璇玑城的苏雪手上拥有大量的藏宝图，苏雪担心过多的宝物会带来六界的大劫难，因此每天每人仅可从其手中获得10次寻宝机会，但璇玑城能人异士聚集，想获得更多的藏宝图，可以去找城主慕容青了解情况。"/>
+		<item type="p" value="开启等级：,等级达到20级#FDEAB9#1,"/>
+		<item type="p" value="参与 NPC：,苏雪#FDEAB9#1,"/>		
+		<item type="p" value="参与次数：,每日10次，藏宝图额外增加寻宝次数#FDEAB9#1,"/>	
+		<item type="p" value="奖励：,品质为1-4星级的仙宠，元宝，铜钱#FDEAB9#1,"/>				
+		<item type="p" value=" "/>	
+		<item type="p" value=",【仙宠盟战】#FDF454#1,"/>
+		<item type="p" value="仙宠盟战每晚8:45准时开启，你可以在仙盟界面提前报名，同时每周六将会有超级大战，获得至高荣誉！"/>	
+		<item type="p" value="参与条件：,加入仙盟并报名#FDEAB9#1,"/>	
+		<item type="p" value="活动时间：,每晚8:45，可提前报名#FDEAB9#1,"/>	
+		<item type="p" value="特殊时间：,每星期六晚8:45，可提前报名#FDEAB9#1,"/>			
+		<item type="p" value="奖励：,品质为5星级的仙宠，极品道具，专属称号#FDEAB9#1,"/>			
+		<item type="p" value=" "/>	
+		<item type="p" value=",【护送寒冰】#FDF454#1,"/>
+		<item type="p" value="晶晶为了镇压蚩尤残魂和青牛王，利用寒晶冰魄法阵，几乎耗尽了全身法力，如果无持续的魔力融入，将会魂飞魄散，同时放出蚩尤残魂和青牛王，而寒晶冰魄法阵是北冥沧海冰尊用千年冰魄所设，千年冰魄就是法阵的本源，如果将冰魄融入法阵，应该就能恢复法阵的力量。为了天下苍生，去护送寒冰吧！"/>	
+		<item type="p" value="开启等级：,等级达到34级#FDEAB9#1,"/>	
+		<item type="p" value="参与次数：,每天3次#FDEAB9#1,"/>		
+		<item type="p" value="奖励：,海量经验，仙宠小冰灵#FDEAB9#1,"/>				
+	</treeItem>
+	
+	<treeItem id="2" name="关于仙宠能力" >
+		<item type="t" value="【仙宠能力】#FDF454#1"/>	
+		<item type="p" value="影响仙宠能力的方面包括：仙宠等级，仙宠品质，仙宠资质，仙宠兽魂，仙宠技能，仙宠初始属性。"/>	
+		<item type="t" value="【仙宠等级】#FDF454#1"/>
+		<item type="p" value="仙宠等级越高获得的属性加成与能力越多，仙宠等级直接决定仙宠可拥有的兽魂数量。"/>
+		<item type="t" value="【仙宠兽魂】#FDF454#1"/>
+		<item type="p" value="仙宠兽魂对于仙宠自身能力的加成有明显的作用，仙友可以通过,猎魂#00FF00#1#10403,获得兽魂，猎魂需要消耗“灵气”，仙友每天可以免费获得一次灵气值，同时，在,仙盟摇钱树与黄金沙滩浴#00FF00#1#10705,均可获得海量灵气。"/>
+		<item type="p" value="仙宠兽魂分为绿蓝紫橙金5个品级，品级越好，对于仙宠能力的提升越明显。"/>
+		<item type="p" value="猎魂过程中有可能获得兽魂碎片，兽魂碎片可在,角色（C）-兑换界面#00FF00#1#12003,兑换橙色与金色的兽魂。"/>		
+		<item type="t" value="【仙宠品质】#FDF454#1"/>
+		<item type="p" value="仙宠品质对于仙宠升级时获得的属性值有决定性的影响，品质越高每升一级获得的属性值加成越高，同时，仙宠品质越高，所拥有的天赋技能就越稀有。"/>
+		<item type="t" value="【仙宠技能】#FDF454#1"/>
+		<item type="p" value="仙宠技能分为三类 ，第一类是对于人物属性加成的仙宠技能 ，这类技能一般出现在仙宠品质为1.2星的仙宠身上，第二类是对于仙宠自身属性加成的技能，这类技能一般出现在仙宠品质为3.4星的仙宠身上，第三类是收益类技能，可以获得道具，元宝，经验等；品质为5星的仙宠，其仙宠技能都是特殊的，对于人物或者仙宠自身都有强力帮助。"/>
+		<item type="p" value="仙宠技能有效状态也分为三类，第一类是出战有效的仙宠技能，一般是加成仙宠自身属性的，第二类是仙宠出战或附身均有效的技能，一般是加成人物属性的，最后一种是任意状态都有效的技能，主要是收益类技能。"/>
+		<item type="p" value="每个仙宠技能都分为10个等级，仙友可以通过,幻兽天境#00FF00#1#11601,获得仙宠技能经验。"/>
+		<item type="t" value="【仙宠初始属性】#FDF454#1"/>
+		<item type="p" value="每一只仙宠都有自身的初始属性值的高低，初始属性值越高，升级获得的属性加成就越多，当然，品质越高的仙宠初始最低属性值就越高。"/>
+		<item type="p" value=",小提示：就算是同一种仙宠也是具有不同的初始值哦~#05CDFF#,"/>
+		</treeItem>
+	
+	<treeItem id="3" name="关于仙宠训练" >
+		<item type="t" value="【仙宠训练步骤】#FDF454#1"/>
+		<item type="p" value="仙宠训练三步走，让你轻松拥有高等级仙宠！"/>		
+		<item type="p" value="第一步：打开,仙宠训练#00FF00#1#10407#,界面，选中需要训练的仙宠，这时界面右边训练框就会出现仙宠的形象。"/>
+		<item type="p" value="第二步：点击仙宠形象框内右下方的训练按钮，获得海量仙宠经验。"/>
+		<item type="p" value="第三步：等待冷却时间消失，可再次训练。当然也可利用加速来消除冷却时间。"/>		
+		<item type="img" value="xianchongc.png#262#274"/>	
+	</treeItem>
+	
+	<treeItem id="4" name="关于仙宠附身" >
+		<item type="t" value="【仙宠附身界面】#FDF454#1"/>
+		<item type="p" value="仙宠附身，让你轻松获得高属性加成！"/>
+		<item type="p" value="打开,仙宠附身#00FF00#1#10405#,界面，选中需要进行附身的仙宠，在附身界面下方可以看到仙宠附身后给予仙友提升的属性值。"/>
+		<item type="p" value="点击界面右下方的附身按钮，马上获得属性加成！"/>
+		<item type="p" value=",小小提示：你最多可附身4只仙宠，仙宠资质越高，属性转化为自己属性的转化率越大哦~#05CDFF#,"/>		
+		<item type="img" value="xianchonga.png#230#207"/>	
+	</treeItem>
+	<treeItem id="5" name="关于仙宠兽魂" >
+		<item type="t" value="【仙宠猎魂】#FDF454#1"/>
+		<item type="p" value="你可以通过仙宠,猎魂#00FF00#1#10403,来获得仙宠兽魂，仙宠兽魂分为绿蓝紫橙金5个品级，品级越高，增加的属性值就越多，拥有兽魂，可是仙宠强力的必备条件哦~下面就让我来告诉你猎魂要注意的事吧~~"/>
+		<item type="p" value=" "/>	
+		<item type="p" value=",[灵气]#FDEAB9#1,：灵气是猎魂的保证，每次进行猎魂相关操作都需要花费灵气~灵气可以通过仙盟黄金沙滩，摇钱树等仙盟活动获得，也可直接增加（每天第一次免费哦）！"/>	
+		<item type="p" value=" "/>	
+		<item type="p" value=",[NPC 头像]#FDEAB9#1,：界面下方有一排NPC头像，你可以点击NPC头像来获得兽魂，当然，越靠后的NPC获得高级兽魂的机会就越大。需要消耗一定的灵气。"/>
+		<item type="p" value=" "/>	
+		<item type="p" value=",[高级猎魂]#FDEAB9#1,：高级猎魂是猎魂中的一个比较特殊的存在，使用,高级猎魂#00FF00#1#10403,，可以直接获得兽魂碎片,或者紫色以上的兽魂，更有机会直接开启顶级兽魂，当然，需要花费一定的元宝。"/>
+		<item type="p" value=" "/>	
+		<item type="p" value=",[一键猎魂]#FDEAB9#1,：点击一键猎魂，自动进行猎魂操作，当猎魂背包满了或者灵气不足后停止。属于较为轻松的操作。单纯的进行多次猎魂操作，获得的兽魂不做任何处理。"/>			
+		<item type="p" value=" "/>	
+		<item type="p" value=",[超级猎魂]#FDEAB9#1,：点击超级猎魂，自动进行猎魂操作，自动将蓝色以下兽魂凝聚成经验，紫色以上兽魂方至背包，直至灵气不足或者兽魂背包满后停止，适合超大量猎魂时使用。"/>	
+		<item type="p" value=" "/>	
+		<item type="p" value=",[凝聚经验]#FDEAB9#1,：使用凝聚经验，自动吞噬蓝色以下的兽魂获得经验，经验可以用于提升兽魂等级。点击凝聚经验时，自动出售没用的“破碎之魂”，吞噬绿色与蓝色兽魂转化为经验，将紫色以上兽魂放入兽魂背包。"/>			
+		<item type="p" value=" "/>		
+		<item type="t" value="【仙宠兽魂】#FDF454#1"/>		
+		<item type="p" value=",[兽魂使用]#FDEAB9#1,：打开仙宠,兽魂#00FF00#1#10402,界面，选择需要装备的兽魂，双击或者拖动就可装备上了。"/>			
+		<item type="p" value=" "/>			
+		<item type="p" value=",[兽魂吞噬]#FDEAB9#1,：你可以手动进行兽魂吞噬，选中需要吞噬的目标，拖动到需要保留的兽魂处即可吞噬，也可以直接拖动到经验瓶内转化为兽魂经验。当然，低阶兽魂是无法吞噬高阶兽魂的，例如绿色兽魂是无法吞噬蓝色兽魂的，而是会被反吞噬。"/>			
+		<item type="p" value=" "/>	
+		<item type="p" value=",[兽魂锁定]#FDEAB9#1,：点击界面上的锁定按钮，然后选择需要锁定的兽魂，该兽魂将被锁定，不可被其他兽魂吞噬。"/>			
+		<item type="p" value=" "/>			
+		</treeItem>
+	<treeItem id="6" name="关于仙宠技能" >
+		<item type="t" value="【技能获得】#FDF454#1"/>		
+		<item type="p" value="仙宠技能的获得只能依靠天赋仙宠的自身携带（详情请看,仙宠获得#1#,），当获得仙宠召唤符时，使用后如果仙宠资质大于1000，那么仙宠就会拥有天赋技能，每一只仙宠的天赋技能都是不一样的，可以通过仙宠融合来获得其他仙宠的天赋技能（仙宠融合处详细介绍）。"/>			
+		<item type="p" value=" "/>	
+		<item type="t" value="【技能升级】#FDF454#1"/>		
+		<item type="p" value="通过参与,幻兽天境#00FF00#1#11601#,，可以获得海量的仙宠技能经验，打开,仙宠技能#00FF00#1#10404#,界面，选择需要升级的宠物,点击界面下方的升级按钮，再选择要升级的技能，点击界面右下方的升级按钮，便可升级仙宠技能了。"/>			
+		<item type="p" value=" "/>	
+		<item type="t" value="【技能封印】#FDF454#1"/>		
+		<item type="p" value="双击宠物的技能，就可以出现封印提示，使用封印符对其进行封印便可将技能放入技能仓库中，暂时储存或者转移给别的仙宠使用。"/>			
+		<item type="p" value=" "/>
+		<item type="t" value="【技能遗忘】#FDF454#1"/>		
+		<item type="p" value="点击仙宠技能界面上的遗忘按钮，然后选中需要遗忘的技能，便可将技能遗忘，技能遗忘后会根据技能等级获得技能经验。"/>			
+		<item type="p" value=" "/>	
+		<item type="t" value="【技能组合推荐】#FDF454#1"/>		
+		<item type="p" value="当仙宠用于附身时，建议使用附身类技能，这样将可以最大程度的发挥仙宠以及仙宠技能的作用。"/>			
+		<item type="p" value="当仙宠用于出战或参与幻兽天境或仙宠盟战时，建议使用出战类技能，这样将可以最大程度的发挥仙宠以及仙宠技能的作用，通过更高层次的关卡。"/>	
+		<item type="p" value="对于修行，进宝，招财，其各自技能的冷却时间是独立存在的，因此如果每一只仙宠都拥有这些技能的话，收益将达到最大化。"/>	
+		<item type="p" value=" "/>				
+		</treeItem>	
+	<treeItem id="7" name="关于仙宠融合" >
+		<item type="t" value="【融合步骤】#FDF454#1"/>
+		<item type="p" value="第一步：打开,仙宠融合#00FF00#1#10406#,界面，在界面上方选择需要用来融合的仙宠A与仙宠B。"/>
+		<item type="p" value="第二步：选择融合后的仙宠属性，物攻或法攻。接着选择融合后的形象。"/>
+		<item type="p" value="第三步：点击融合获得融合仙宠，新的仙宠将继承融合时两只仙宠的最优属性。如果仙宠技能有重复的，将会相互融合，增加经验值。如果仙宠技能不同，将会全部获得。"/>		
+		<item type="p" value=" "/>
+		<item type="t" value="【融合好处】#FDF454#1"/>
+		<item type="p" value="融合后，新的仙宠将拥有旧的仙宠的最优属性，可以说是整合了两只仙宠的所有优势于一身。同时，随着融合，仙宠的技能将会更多，能力将越强。"/>
+		<item type="img" value="xianchongd.png#164#200"/>	
+		</treeItem>	
+		
+	<treeItem id="8" name="关于红名" >
+		<item type="t" value="【PK状态切换】#FDF454#1"/>
+		<item type="p" value="PK状态分为：和平模式、善恶模式、仙盟模式、队伍模式以及全体模式。你可以点击界面左上方角色头像下的状态按钮，任意切换PK状态。"/>		
+		<item type="p" value=" "/>
+		<item type="p" value=",[和平模式]#FDEAB9#1,属于不主动PK模式，在此状态下，只可以对灰名玩家造成伤害，且击杀后自身不会增加PK值；当然，如果其他玩家先对你进行攻击，那么你将处于防守反击模式，击杀对方后也不会增加PK值。"/>	
+		<item type="p" value=" "/>
+		<item type="p" value=",[善恶模式]#FDEAB9#1,属于警恶惩奸模式，在此状态下，可以对红名、灰名玩家造成伤害，且击杀后自身不会增加PK值。"/>	
+		<item type="p" value=" "/>
+		<item type="p" value=",[仙盟模式]#FDEAB9#1,属于团体模式，在此状态下，你可以对非自身仙盟的玩家造成伤害，如果对方不是红名或灰名玩家，击杀后将会增加PK值，当然，在世界boss洞中，将会自动切换为仙盟模式，击杀玩家后不会增加PK值。"/>			
+		<item type="p" value=" "/>
+    <item type="p" value=",[好友模式]#FDEAB9#1,属于团体模式，只能在本服区域中选择此模式，在此状态下，你可以对非好友玩家造成伤害，如果对方不是红名或灰名玩家，击杀后将会增加PK值。"/>
+    <item type="p" value=" "/>
+		<item type="p" value=",[队伍模式]#FDEAB9#1,属于团体模式，在此状态下，你可以对非队友造成伤害，如果对方不是红名或灰名玩家，击杀后将会增加PK值。"/>	
+		<item type="p" value=" "/>
+    <item type="p" value=",[本服模式]#FDEAB9#1,属于团体模式，只能在跨服区域中选择此模式，在此模式下，你可以对非本服玩家造成伤害，在跨服区域中击杀任意玩家将不会增加PK值，但会增加杀戮值。"/>
+    <item type="p" value=" "/>
+		<item type="p" value=",[全体模式]#FDEAB9#1,属于杀戮模式，在此状态下，你可以对任何人造成伤害，如果对方不是红名或灰名玩家，击杀后将会增加PK值。"/>
+		<item type="p" value=" "/>
+		<item type="p" value=",小提示：无论在任何状态下，击杀灰名或者红名玩家将不会增加任何PK值~#05CDFF#,"/>		
+		<item type="p" value=" "/>
+		<item type="t" value="【名字颜色】#FDF454#1"/>
+		<item type="p" value="名字颜色共有三种，分为黄名，灰名以及红名。"/>
+		<item type="p" value=" "/>		
+		<item type="p" value=",[黄名]#FDEAB9#1,表示该玩家身上无任何PK值，将其击杀后会增加PK值。"/>
+		<item type="p" value=" "/>
+		<item type="p" value=",[灰名]#FDEAB9#1,表示该玩家处于主动PK状态，将其击杀后不会增加PK值。"/>
+		<item type="p" value=" "/>	
+		<item type="p" value=",[红名]#FDEAB9#1,表示该玩家身上背负一定数量的PK值，将其击杀后不会增加PK值。"/>		
+		<item type="p" value=" "/>		
+		<item type="t" value="【红名惩罚】#FDF454#1"/>
+		<item type="p" value=",[铜钱掉落惩罚]#FDEAB9#1,：当身上有PK值处于红名状态时，被击杀后则损失背包2%-3%不绑定铜钱。"/>
+		<item type="p" value=" "/>		
+		<item type="p" value=",[道具掉落惩罚]#FDEAB9#1,：当身上有PK值处于红名状态时，被击杀后则有10%的几率掉落身上不绑定的道具。"/>
+		<item type="p" value=" "/>		
+		<item type="p" value=",[死亡掉落惩罚]#FDEAB9#1,：当身上有PK值处于红名状态时，被击杀后则会获得一个死亡虚弱减益状态，全属性降低20%，持续5分钟。"/>
+		<item type="p" value=" "/>	
+		<item type="t" value="【红名消除】#FDF454#1"/>
+		<item type="p" value="第一种：自然消除，在线每10分钟将会减少1点PK值。"/>
+		<item type="p" value="第二种：道具消除，使用【清心丸】、【除孽丹】和【渡厄丹】可以一次性减少PK值。"/>
+		<item type="p" value=" "/>			
+		</treeItem>		
+		
+		
+		<treeItem id="19" name="关于转职" >
+		<item type="t" value="【转职条件】#FDF454#1"/>
+		<item type="p" value="角色等级≥45"/>
+		<item type="p" value="转职时间：每周一"/>
+		<item type="p" value="转职费用：2000不绑定元宝"/>
+		<item type="p" value="可转职业：所有"/>
+		<item type="t" value="【转职变化】#FDF454#1"/>
+		<item type="p" value="已穿戴的装备将会自动转换为转职后的职业装备，所有属性均会保留。"/>
+		<item type="p" value="转职后装备上的灵石攻击属性也会相应的进行转换。"/>		
+		<item type="p" value="背包及仓库的装备将不会转换。"/>		
+		<item type="p" value="所有相关的技能，均会自动转换为转职后相关属性技能。"/>			
+		<item type="p" value=" "/>		
+		</treeItem>			
+		
+		
+		
+		<treeItem id="9" name="和平模式保护" >
+		<item type="t" value="【女娲守护】#FDF454#1"/>
+		<item type="p" value="女娲守护持续效果为3小时，在女娲守护状态下，你不会受到其他玩家的攻击，当然你也不可以攻击其他玩家，除非你主动切换PK状态后，女娲守护状态将会消失，你将会受到其他玩家的攻击，同时可以攻击其他玩家。"/>
+		<item type="p" value=" "/>
+		<item type="t" value="【领取条件】#FDF454#1"/>
+		<item type="p" value="领取女娲守护的首要条件是PK值为0，PK值消除的方法有两种，一是自然消除，每十分钟可减少1点PK值，二是道具清除，使用【清心丸】可以一次性减少10点PK值。"/>
+		<item type="p" value="如果你的PK值为0，然后次要条件就是你的PK模式必须为和平模式，只有在和平模式下才可领取女娲守护状态。"/>		
+		<item type="p" value="最后，就是每天只可以领取一次女娲守护。"/>		
+		<item type="p" value=" "/>
+		<item type="t" value="【女娲守护的好处】#FDF454#1"/>
+		<item type="p" value="在女娲守护的情况下，你就可以放心的在野外地图做任务，打怪，甚至是打坐，都不用担心被杀了。"/>
+		<item type="p" value=" "/>		
+		</treeItem>	
+			
+		<treeItem id="10" name="结为仙侣" >
+		<item type="t" value="【仙侣条件】#FDF454#1"/>
+		<item type="p" value="双方均为单身且为异性"/>
+		<item type="p" value="双方等级均≥45级"/>
+		<item type="p" value="双方亲密度≥999"/>
+		<item type="p" value="达到上述条件后，就可以组队去寻找,月老#00FF00#1#40000134#,缔结情缘，成功结缘将花费18不绑定元宝"/>
+		<item type="p" value=""/>
+		<item type="t" value="【仙侣共有】#FDF454#1"/>
+		<item type="p" value=",[情缘值]#FDEAB9#1,结为仙侣后，仙侣之间的亲密度折算替换成情缘值，情缘值可累积成情缘等级。情缘值可通过举办婚宴，恋爱飞行，喂养金蟾，仙盟任务提星，组队副本、打BOSS等方式获得。"/>
+		<item type="p" value=""/>
+		<item type="p" value=",[情缘等级]#FDEAB9#1,累积情缘值可自动提升情缘等级，不同的情缘等级对应不同的情缘称号。情缘等级越高，仙侣组队经验加成越高，浪漫小屋、仙侣技能的等级上限越高。"/>
+		<item type="p" value=""/>	
+		<item type="p" value=",[甜蜜度]#FDEAB9#1,仙侣之间拥有共同的甜蜜度属性。甜蜜度可用于小屋升级，仙侣技能升级，小屋家具饰品强化等。甜蜜度可通过送花，婚宴中仙侣互动、宾客互动等方式增加。"/>		
+		<item type="p" value=""/>		
+		<item type="p" value=",[浪漫小屋]#FDEAB9#1,仙侣之间共同拥有一座浪漫小屋，小屋中可装扮家具和饰品，培养家具和强化饰品可增加出战仙宠的属性。更换出战仙宠，不影响这些属性。"/>
+		<item type="p" value=""/>
+		<item type="p" value=",[仙侣技能]#FDEAB9#1,仙侣之间共同拥有一套仙侣技能，双方共同管理和升级。仙侣技能组队生效，可大幅增加双方的基础属性。"/>
+		<item type="p" value=" "/>		
+		</treeItem>		
+		
+		<treeItem id="11" name="浪漫小屋" >
+		<item type="t" value="【属性加成】#FDF454#1"/>
+		<item type="p" value="小屋可增加出战仙宠的属性，小屋里面家具与装饰品的豪华度越高，属性的加成就越多。"/>
+		<item type="p" value=""/>
+		<item type="t" value="【家具与装饰品】#FDF454#1"/>
+		<item type="p" value=",[分类和作用]#FDEAB9#1,"/>
+		<item type="p" value="家具共有8种，分别为床、桌子、茶几、沙发、衣柜、浴缸、窗户、观景窗；"/>	
+		<item type="p" value="装饰品共6种，分别为椅子、挂画、香炉、台灯、屏风、盆栽；"/>	
+		<item type="p" value="家具主要增加小屋出战仙宠属性的转化率；"/>	
+		<item type="p" value="装饰品主要增加小屋出战仙宠的属性。"/>	
+		<item type="p" value=""/>
+		<item type="p" value=",[豪华度]#FDEAB9#1,"/>		
+		<item type="p" value="家具的培养主要是通过培养材料来提升豪华度；"/>		
+		<item type="p" value="装饰品的强化主要是通过消耗甜蜜度来提升豪华度。"/>		
+		<item type="p" value=""/>
+		<item type="t" value="【小屋参观】#FDF454#1"/>
+		<item type="p" value="参观其他人的小屋可以获得甜蜜度奖励；"/>	
+		<item type="p" value="自己的小屋被别人参观可以获得人气值，人气值会进行周排名，获得周奖励；当然，豪华度越高的小屋，在好友的排序里就会越靠前，越容易被参观哦~"/>	
+		<item type="p" value=""/>		
+		</treeItem>	
+	
+	
+	<treeItem id="12" name="恋爱飞行" >
+		<item type="t" value="【参与规则】#FDF454#1"/>
+		<item type="p" value="要求：男女双方组队参与"/>
+		<item type="p" value="时间：每天21:40开始"/>		
+		<item type="p" value=""/>
+		<item type="t" value="【玩法介绍】#FDF454#1"/>
+		<item type="p" value=",[分类和作用]#FDEAB9#1,"/>
+		<item type="p" value="活动报名后玩家等待活动开始；"/>	
+		<item type="p" value="活动开始后玩家将会集体从起点出发，经过各个指定点后，到达终点；飞行途中将会有各种加速道具或技能掉落，合理的使用道具以及加速，是保证活动收益的最佳方法；"/>	
+		<item type="p" value="活动过程中的技能分为增益和减益两种；增益类技能主要作用在自己身上，防止别人干扰及加速，减益类技能主要作用在别人身上，干扰别人的活动节奏。"/>	
+		<item type="p" value=""/>
+		<item type="t" value="【活动奖励】#FDF454#1"/>
+		<item type="p" value=",[仙侣奖励]#FDEAB9#1,根据仙侣榜排名进行奖励，获得一定的情缘值、甜蜜度、家具培养道具奖励；"/>
+		<item type="p" value=",[非仙侣奖励]#FDEAB9#1,根据情侣榜排名进行奖励，获得一定的亲密度。"/>
+		<item type="p" value=""/>		
+		</treeItem>	
+		
+		<treeItem id="13" name="关于婚宴" >
+		<item type="t" value="【婚宴竞拍】#FDF454#1"/>
+		<item type="p" value="每天0:00-21:00为婚宴竞拍时间，仙侣们可以找,月老#00FF00#1#40000134#,参与竞拍。竞拍费用均为不绑定元宝。"/>
+		<item type="p" value="每天21:00竞拍结束，价高者获得成功。竞拍成功者获得次日的婚宴举办权；竞拍失败者，退还竞拍费用。"/>	
+		<item type="p" value="竞拍结束时，如果竞拍价格达到一定值，系统将以邮件形式额外赠送竞拍成功者婚宴相关的奖励，例如时装、任务次数等。"/>			
+		<item type="p" value="双方成为仙侣期间，可以多次举办婚宴。"/>	
+		<item type="p" value=""/>
+		<item type="t" value="【流程介绍】#FDF454#1"/>
+		<item type="p" value=",[装扮璇玑城]#FDEAB9#1,"/>
+		<item type="p" value="当天举办婚宴的仙侣可以在8:00-13:00时间内，找,红娘#00FF00#1#40000137#,发布装扮璇玑城的任务。每次发布可提供20次的装扮璇玑城任务，供其他玩家接取。"/>	
+		<item type="p" value="非婚宴举办者每天有3次机会接取装扮璇玑城的任务，只要有任务次数，随时都可以领取。完成任务后获得大量祝福值。"/>	
+		<item type="p" value="装扮璇玑城任务被完成越多次，婚宴举办者可获得越多的情缘值。当任务完成度达到一定次数时，璇玑城将会出现崭新的装扮！"/>	
+		<item type="p" value=""/>
+		<item type="p" value=",[婚宴巡游]#FDEAB9#1,"/>
+		<item type="p" value="当天举办婚宴的仙侣可以在13:01-18:00时间内，找,红娘#00FF00#1#40000137#,进行婚宴巡游。每次举办婚宴可获得一次巡游机会，每次巡游持续5分钟。"/>	
+		<item type="p" value="巡游过程中，其他玩家对举办婚宴的仙侣进行祝福和“默契度大考验”，可以获得祝福值。祝福值可在角色-兑换界面兑换各种道具。"/>	
+		<item type="p" value="“默契度大考验”，检验仙侣间的真爱：被考验的仙侣需回答相应的题目，答对就可以获得情缘值，答错则没有任何奖励。"/>	
+		<item type="p" value=""/>
+		<item type="p" value=",[大摆筵席]#FDEAB9#1,"/>
+		<item type="p" value="当天举办婚宴的仙侣可以在18:01-22:00时间内，找,红娘#00FF00#1#40000137#,大摆筵席。在此期间，举办仙侣可以邀请其他玩家来享用筵席，共证情缘。"/>	
+		<item type="p" value="享用筵席可以获得祝福值，同时为举办婚宴的仙侣增加情缘值。每张筵席有一定的享用次数，当享用完毕后，举办仙侣可继续增加筵席的享用次数。"/>	
+		<item type="p" value=""/>	
+		<item type="t" value="【婚宴奖励】#FDF454#1"/>
+		<item type="p" value=",[情缘值]#FDEAB9#1,只有举办宴会的仙侣可以获得情缘值奖励，通过放烟花、发布璇玑城装扮任务、默契度考验以及大摆筵席获得，当装扮璇玑城任务达到指定个数或者大摆筵席被享用次数达到固定值时，还可额外获得情缘值奖励；"/>
+		<item type="p" value=",[祝福值]#FDEAB9#1,祝福值是非宴会玩家获得；通过完成装扮璇玑城任务、享用酒席、放烟花、祝福、考验举办仙侣等操作获得。"/>			
+		<item type="p" value=""/>		
+		</treeItem>		
+		
+		<treeItem id="14" name="仙侣技能" >
+		<item type="t" value="【技能分类】#FDF454#1"/>
+		<item type="p" value="仙侣技能主要分为两大类：第一类是夫妻双修，通过夫妻双修来获得经验；第二类是被动增加人物属性，只要夫妻组队且处于同一张地图内，就可以获得足够多的属性加成；"/>
+		<item type="p" value=""/>
+		<item type="t" value="【技能升级】#FDF454#1"/>
+		<item type="p" value="仙侣技能的升级需要达到一定的情缘等级，同时消耗一定的甜蜜度即可升级；"/>
+		<item type="p" value=""/>		
+		</treeItem>				
+
+		<treeItem id="15" name="关于离婚" >
+		<item type="t" value="【财产公证】#FDF454#1"/>
+		<item type="p" value="双方结为仙侣后，就可以去找,飞燕仙子#00FF00#1#40000138#,进行财产公证了，财产公证是保证双方利益的事情，可以避免不必要的纠纷，财产公证的范围包括浪漫小屋、仙侣技能、情缘值、甜蜜度；当感情破裂时，财产公证的作用就体现出来了；"/>
+		<item type="p" value=""/>
+		<item type="t" value="【离婚后遗症】#FDF454#1"/>
+		<item type="p" value="双方同意离婚后，会按照财产公证的方式分配，同时好友度变成999。离婚后会处于离异状态，维持7天，7天后可再次结缘。"/>
+		<item type="p" value="强制离婚：如果对方不同意或不在线，可通过强制离婚来脱离关系。强制离婚的仙友需交付一定的费用。"/>
+		<item type="p" value="离异状态：离婚后将会处于离异状态，该状态持续7天，该状态下，无法进行结缘。（离婚需三思）"/>		
+		<item type="p" value=""/>		
+		</treeItem>	
+
+		<treeItem id="16" name="情缘值获得" >
+		<item type="t" value="【情缘值获得方式汇总】#FDF454#1"/>
+		<item type="p" value="成为仙侣后，双方喂养金蟾可获得情缘值"/>
+		<item type="p" value="成为仙侣后，仙盟任务相互提星可获得情缘值"/>
+		<item type="p" value="成为仙侣后，参与恋爱飞行活动可获得大量情缘值"/>
+		<item type="p" value="成为仙侣后，举办婚宴可获得大量情缘值，举办婚宴期间，举办者燃放烟花可获得50点情缘值。"/>
+		<item type="p" value=""/>		
+		<item type="t" value="【婚宴之装扮璇玑城】#FDF454#1"/>
+		<item type="p" value="举办者每次发布璇玑城任务，可获得800情缘值。"/>
+		<item type="p" value="任务每完成1次，完成者可获得500点祝福值。"/>	
+		<item type="p" value="任务每被完成1次，举办者可额外获得50点祝福值。"/>
+		<item type="p" value="任务每被完成10次，举办者可额外获得100点情缘值。"/>
+		<item type="p" value=""/>	
+		<item type="t" value="【婚宴之巡游】#FDF454#1"/>
+		<item type="p" value="举办者每答对默契度考验一次，则可获得50点情缘值。"/>
+		<item type="p" value="其他玩家提出默契考验，则可获得300点祝福值。"/>	
+		<item type="p" value="其他玩家每一次祝福，则可获得150点祝福值。"/>
+		<item type="p" value=""/>			
+		<item type="t" value="【婚宴之大摆宴席】#FDF454#1"/>
+		<item type="p" value="举办者每次发布宴席，可获得500情缘值。"/>
+		<item type="p" value="宴席被享用10次，举办者可额外获得100点情缘值。"/>	
+		<item type="p" value="其他玩家享用宴席，可获得大量祝福值，每天可享用45次。"/>
+		<item type="p" value=""/>					
+		<item type="p" value="更多获得方式敬请期待~"/>		
+		</treeItem>	
+
+		<treeItem id="17" name="甜蜜度获得" >
+		<item type="t" value="【甜蜜度获得方式汇总】#FDF454#1"/>
+		<item type="p" value="成为仙侣后，参与恋爱飞行活动可以获得大量甜蜜度"/>
+		<item type="p" value="参观其他玩家小屋，可以获得甜蜜度"/>
+		<item type="p" value="赠送仙侣玫瑰花，可以获得甜蜜度"/>
+		<item type="p" value="更多获得方式敬请期待~"/>
+		<item type="p" value=""/>		
+		</treeItem>	
+
+		<treeItem id="18" name="亲密度获得" >
+		<item type="t" value="【亲密度获得方式汇总】#FDF454#1"/>		
+		<item type="p" value="非仙侣双方参与恋爱飞行可获得大量亲密度"/>
+		<item type="p" value="非仙侣双方喂养金蟾可获得亲密度"/>
+		<item type="p" value="非仙侣双方仙盟任务相互提星可获得亲密度"/>
+		<item type="p" value="非仙侣双方赠送鲜花可获得亲密度"/>
+		<item type="p" value="更多获得方式敬请期待~"/>		
+		</treeItem>			
+<!--		<treeItem id="10" name="关于战斗力" >
+		<item type="t" value="【战斗力】#FDF454#1"/>
+		<item type="p" value="战斗力是衡量你实力的重要指标，是综合实力的表现，但是却不能代表最终的实力，毕竟战斗力只是一个从整体角度出发来衡量的指标，各种提高实力的方法所获得战斗力也有可能不一样，所以，在追求战斗力的同时也要保证实力的同步提升。"/>
+		<item type="p" value=" "/>
+		<item type="t" value="【提升战斗力】#FDF454#1"/>
+		<item type="p" value="战斗力的提升方法有很多种：基础属性提升、时装提升、坐骑提升、羽翼提升、装备提升以及附身提升。"/>	
+		<item type="p" value=" "/>
+		<item type="t" value="【装备篇】#FDF454#1"/>
+		<item type="p" value="每一件装备都有战斗力值，决定装备战斗力提升的有强化，附魂，灵石以及品质。"/>		
+		<item type="p" value=",[强化]#FDEAB9#1,"/>		
+		<item type="p" value="强化共分为10级10星，每1星提升的战斗力值跟装备颜色有关，强化等级的提升需要用到强化材料，低级的强化材料可以通过九幽迷城副本获得，高级的强化材料则可以通过低级的强化材料合成获得。"/>		
+		<item type="p" value="强化具有一定的成功率，强化等级越高，强化的成功率就会越低。"/>		
+		<item type="p" value="强化是可以进行转移的，只要是同部位的装备，就可以由低级装备转移给高级装备了，因此不用担心强化低级装备造成资源的浪费。"/>		
+		<item type="p" value=" "/>
+		<item type="p" value=",[附魂]#FDEAB9#1,"/>		
+		<item type="p" value="强化共分为10级10星，每1星提升的战斗力值跟装备颜色有关，强化等级的提升需要用到强化材料，低级的强化材料可以通过九幽迷城副本获得，高级的强化材料则可以通过低级的强化材料合成获得。"/>		
+		<item type="p" value="强化具有一定的成功率，强化等级越高，强化的成功率就会越低。"/>		
+		<item type="p" value="强化是可以进行转移的，只要是同部位的装备，就可以由低级装备转移给高级装备了，因此不用担心强化低级装备造成资源的浪费。"/>		
+		<item type="p" value=" "/>				
+		</treeItem>	
+		
+		<treeItem id="11" name="装备替换" >
+		<item type="p" value="游戏里面的装备大体可以分为两种，兑换装和副本装，兑换装主要是在角色-兑换界面，利用补天石碎片进行兑换，兑换装为蓝色装备，属性相对较低；而副本装的获得途径主要是回魂仙梦以及问道天阶副本；"/>
+		<item type="p" value=" "/>		
+		<item type="t" value="[40级套装]#FDF454#1"/>
+		<item type="p" value="兑换套装：潇湘套装"/>
+		<item type="p" value="兑换界面：角色-兑换"/>		
+		<item type="p" value="所需材料：补天石碎片×15"/>
+		
+		<item type="p" value=" "/>
+		<item type="t" value="【副本掉落】#FDF454#1"/>
+		<item type="p" value="领取女娲守护的首要条件是PK值为0，PK值消除的方法有两种，一是自然消除，每十分钟可减少1点PK值，二是道具清除，使用【清心丸】可以一次性减少10点PK值。"/>
+		<item type="p" value="如果你的PK值为0，然后次要条件就是你的PK模式必须为和平模式，只有在和平模式下才可领取女娲守护状态。"/>		
+		<item type="p" value="最后，就是每天只可以领取一次女娲守护。"/>		
+		<item type="p" value=" "/>
+		<item type="t" value="【女娲守护的好处】#FDF454#1"/>
+		<item type="p" value="在女娲守护的情况下，你就可以放心的在野外地图做任务，打怪，甚至是打坐,再也不用担心挂机被杀了。"/>
+		<item type="p" value=" "/>		
+		</treeItem>	-->
+		
+</aide>

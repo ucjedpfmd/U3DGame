@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<levelGuide>
+	<item level='38' lvTitle='40级预告' icon='level_guide_star' title='送元宝' info='等级礼包，40级再送#color_ffd700_60元宝#大奖'/>
+	<item level='38' lvTitle='40级预告' icon='level_guide_star' title='换装备' info='极品武器，装备武器#item_31040802#'/>
+	<item level='38' lvTitle='40级预告' icon='level_guide_star' title='新玩法' info='玩法副本，更多新奇有趣#link_11103_ffd700_新玩法#'/>
+	<item level='38' lvTitle='40级预告' icon='level_guide_star' title='轩辕鼎' info='紫色装备，马上炼制'/>
+	
+	<item level='50' lvTitle='50级开启' icon='level_guide_star' title='多倍掉落' info='1次副本，多次收益'/>
+	
+	<item level='60' lvTitle='60级开启' icon='level_guide_star' title='天天爱烹饪' info='前往#10701#'/>
+	
+		
+</levelGuide>

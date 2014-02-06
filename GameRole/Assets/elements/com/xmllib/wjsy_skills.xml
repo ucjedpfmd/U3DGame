@@ -1,0 +1,11 @@
+﻿<!--id表示序号，name是技能名称，desc是技能描述，url是存放的文件名 -->
+<wjsy_skills>
+<item id="0" name="攻击强化" desc="增加攻击" url="11212001.png"  isActive="false"/>
+<item id="1" name="防御强化" desc="增加防御" url="11111001.png"  isActive="false"/>
+<item id="2" name="命中强化" desc="增加命中" url="16000010.png"  isActive="false" />
+<item id="3" name="闪避强化" desc="增加闪避" url="16000005.png"  isActive="false" />
+<item id="4" name="重击强化" desc="增加重击" url="16000022.png"  isActive="false" />
+<item id="5" name="结界强化" desc="增加结界防御" url="16000004.png"  isActive="false" />
+<item id="6" name="焚天灭地" desc="对自身周围6*6最多5个单位造成伤害" url="13212001.png"  isActive="true" />
+<item id="7" name="天降甘霖" desc="瞬间恢复自身生命" url="13111001.png"  isActive="true" />
+</wjsy_skills>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sawlu>
+<time value="每周一、三、五20:00-20:30"/>
+<info><![CDATA[1、达到本层击杀目标数量将自动跳转至下一层，最高15层
+2、战场结算时，根据停留楼层额外奖励战场积分
+   额外积分=层数×150
+3、层数越高，道具奖励和战场积分越丰厚
+   击杀玩家可获得积分=目标损失积分+1
+   死亡玩家将损失积分=层数-1
+   15层有宝箱奖励，需采集获得奖励（可被打断）
+4、每次战场结算时，最多只能获得4000点积分
+5、选择复活点复活有概率返回上一层，原地复活则不会降层
+6、每次升层或降层时，均有5秒的初始保护时间]]>
+</info>
+
+<floor id="1" rewards="" floor_score="150"  goal="2"/>
+<floor id="2" rewards="" floor_score="300"  goal="4"/>
+<floor id="3" rewards="" floor_score="450"  goal="4"/>
+<floor id="4" rewards="" floor_score="600"  goal="4"/>
+<floor id="5" rewards="" floor_score="750"  goal="4"/>
+<floor id="6" rewards="" floor_score="900"  goal="4"/>
+<floor id="7" rewards="" floor_score="1050"  goal="4"/>
+<floor id="8" rewards="" floor_score="1200"  goal="4"/>
+<floor id="9" rewards="" floor_score="1350"  goal="6"/>
+<floor id="10" rewards="" floor_score="1500"  goal="6"/>
+<floor id="11" rewards="" floor_score="1650"  goal="6"/>
+<floor id="12" rewards="" floor_score="1800"  goal="8"/>
+<floor id="13" rewards="" floor_score="1950" goal="8"/>
+<floor id="14" rewards="" floor_score="2100"  goal="8"/>
+<floor id="15" rewards="10903001,1|10305001,1|10201007,1|10201006,1" floor_score="2250" goal=""/>
+</sawlu>

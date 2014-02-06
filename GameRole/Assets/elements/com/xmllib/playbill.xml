@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+<play id = "14"  type="竞技" day="0,1,2,3,4,5,6"（周日-周六） startHour="19" startMinute="25"   endHour="19"  endMinute="55" content="横扫千军" event="2"（1是寻路npc，2是打开界面，3是寻路到坐标） npcID=""（npc和地图id如有国家区别，则第二位为0，自动判断玩家国家） mapID="" tx="" ty=""/>
+ -->
+<playbill>
+<play id = "2"  type="副本" day="0,1,2,3,4,5,6" startHour="11" startMinute="0"   endHour="12"  endMinute="0" content="讨伐2倍" event="1" npcID="11100001" mapID="10100" tx="112" ty="51"/>
+<play id = "3"  type="活动" day="0,1,2,3,4,5,6" startHour="14" startMinute="30"   endHour="15"  endMinute="0" content="国探" event="1" npcID="11100001" mapID="10100" tx="115" ty="58"/>
+<play id = "4"  type="活动" day="0,1,2,3,4,5,6" startHour="19" startMinute="0"   endHour="19"  endMinute="40" content="国运" event="1" npcID="11100001" mapID="10100" tx="110" ty="36"/>
+<play id = "5"  type="副本" day="0,1,2,3,4,5,6" startHour="19" startMinute="30"   endHour="20"  endMinute="30" content="讨伐2倍" event="1" npcID="11100001" mapID="10100" tx="112" ty="51"/>
+
+<play id = "10"  type="活动" day="2,4,6" startHour="13" startMinute="0"   endHour="13"  endMinute="30" content="1.5倍篝火" event="3" npcID="" mapID="10100" tx="112" ty="47"/>
+<play id = "11"  type="活动" day="0,1,3,5" startHour="13" startMinute="0"   endHour="13"  endMinute="30" content="大明宝藏" event="1" npcID="11100001" mapID="10100" tx="112" ty="51"/>
+<play id = "12"  type="竞技" day="6" startHour="20" startMinute="30"   endHour="21"  endMinute="30" content="王座争霸" event="2" npcID="" mapID="" tx="" ty=""/>
+<play id = "13"  type="竞技" day="2,4,6" startHour="21" startMinute="5"   endHour="21"  endMinute="35" content="宗族战" event="2" npcID="" mapID="" tx="" ty=""/>
+<play id = "14"  type="竞技" day="0,1,3,5" startHour="21" startMinute="00"   endHour="21"  endMinute="30" content="横扫千军" event="2" npcID="" mapID="" tx="" ty=""/>
+
+</playbill>

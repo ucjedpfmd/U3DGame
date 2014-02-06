@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<root>
+<!--凡是阶数大于6的要配置isShop="1"，要不会报错的。isShop="1" 表示商城永久出售 isShop="2"表示黄钻坐骑  isShop="3"表示商城限购 isShop="4"表示仙盟战获得 isShop="5"活动形象
+isShop="6"蓝钻形象     黄钻、蓝钻、会员这些可能会在不同平台出现的坐骑需要放在配置的最后面            -->
+  <equip id="10404001" name="金乌羽"   preview="20001" isShop="0" step="0" getWay="坐骑进阶到0阶"/>
+  
+  <equip id="10404011" name="霓光仙鱼" preview="20011" isShop="0" step="1" getWay="坐骑进阶到1阶"/>
+
+  <equip id="10404009" name="迅影灵狐" preview="20009" isShop="0" step="2" getWay="坐骑进阶到2阶"/>
+
+  <equip id="10404015" name="蛋蛋鸟" preview="20015" isShop="0" step="3" getWay="坐骑进阶到3阶"/>
+  
+  <equip id="10404013" name="紫电魔狼"   preview="20013" isShop="0" step="4" getWay="坐骑进阶到4阶"/>	
+	
+  <equip id="10404010" name="九幽蝎王" preview="20010" isShop="0" step="5" getWay="坐骑进阶到5阶"/>
+  
+  <equip id="10404014" name="紫虹噬日兽"   preview="20014" isShop="0" step="6" getWay="坐骑进阶到6阶"/>	  
+
+  <equip id="10404008" name="独角兽"     preview="20008" isShop="3" step="12" getWay="商城限时抢购"/>
+ 
+  <equip id="10404016" name="撼地神牛"   preview="20016" isShop="4" step="14" getWay="仙盟战第一（7天）"/> 
+ 
+  <equip id="10404017" name="青鸾"   	 preview="20017" isShop="5" step="15"  getWay="活动赠送"/> 
+
+  <equip id="10404020" name="御宅熊猫"   preview="20020" isShop="5" step="18"  getWay="活动获得"/>  
+  
+  <equip id="10404021" name="泡泡龙"   preview="20021" isShop="5" step="19"  getWay="商城限时抢购"/>  
+
+  <equip id="10404022" name="星际飞船"   preview="20022" isShop="5" step="20"  getWay="活动赠送"/>  
+
+  <equip id="10404023" name="驯鹿雪橇"   preview="20023" isShop="5" step="21"  getWay="商城限时抢购"/>  
+   
+  <equip id="10404024" name="飞天灵猫"   preview="20024" isShop="5" step="22"  getWay="活动获得"/>  
+
+  <equip id="10404025" name="六界神龙"   preview="20025" isShop="3" step="23"  getWay="商城限时抢购"/> 
+  
+  <equip id="10404026" name="幽灵马（蓝）"   preview="20026" isShop="3" step="24"  getWay="商城限时抢购"/> 
+  
+  <equip id="10404027" name="幽灵马（粉）"   preview="20027" isShop="3" step="25"  getWay="商城限时抢购"/> 
+  
+   <equip id="10404003" name="御龙行"   	 preview="20003" isShop="2" step="13"  getWay="成为黄钻"/>
+
+  <equip id="10404018" name="七彩灵鹿"   preview="20018" isShop="6" step="16"  getWay="成为蓝钻"/>
+
+  <equip id="10404019" name="神尾妖狸"   preview="20019" isShop="7" step="17"  getWay="成为会员"/>
+</root>

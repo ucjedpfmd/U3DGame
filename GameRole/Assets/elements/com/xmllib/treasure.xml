@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<treasure>
+	<!--每张地图的信息 id从1开始（与游戏地图id无关）name对应地图名-->
+	<map id="1" name="东篱村"/>
+	<map id="2" name="落日谷"/>
+	<map id="3" name="璇玑城"/>
+	<map id="4" name="仙踪岛"/>
+	<map id="5" name="幻雪域"/>
+	<map id="6" name="灵镜湖"/>
+	<map id="7" name="昆仑墟"/>
+	<map id="8" name="星月阁"/>
+	<map id="9" name="炎魔窟"/>
+	<map id="10" name="风渡林"/>
+	<!--特殊事件的信息 id从1开始 maps对应事件顺序点击的地图 reward为奖励道具typeID-->
+	<event id="1" maps="10,2,9" reward="10902013"/>
+	<event id="2" maps="9,1,8" reward="10301049"/>
+	<event id="3" maps="8,5,6" reward="10301027"/>
+	<event id="4" maps="7,9,4" reward="10301028"/>
+	<event id="5" maps="6,2,10" reward="10301015"/>
+	<event id="6" maps="5,3,1" reward="10301029"/>
+	<event id="7" maps="4,6,5" reward="10301021"/>
+	<event id="8" maps="3,8,7" reward="10301012"/>
+    <event id="9" maps="2,4,3" reward="10301045"/>
+	<event id="10" maps="1,10,7" reward="10301044"/>
+	<!-- 这个是所有可获得的道具id，用于做老虎机特效-->
+	<reward ids="11201001,11201002,11201003,11201004,11202001,11202002,11202001,11202001,11401004"/>
+</treasure>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<weaponTips>
+<weaponTip putwhere="81" content="装备后增加仙宠攻击力\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="82" content="装备后增加仙宠攻击力\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="83" content="装备后增加仙宠防御力\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="84" content="装备后增加仙宠防御力\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="85" content="装备后增加仙宠命中\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="86" content="装备后增加仙宠生命值\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="87" content="装备后增加仙宠暴击\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="88" content="装备后增加仙宠韧性\n可通过仙灵幻境等方式获得"/>
+<weaponTip putwhere="89" content="装备后增加仙宠闪避\n可通过仙灵幻境等方式获得"/>
+</weaponTips>
+
+<level>
+<item level="0"  exp="0" />
+<item level="1"  exp="1527" />
+<item level="2"  exp="3055" />
+<item level="3"  exp="6109" />
+<item level="4"  exp="12219" />
+<item level="5"  exp="24438" />
+<item level="6"  exp="48876" />
+<item level="7"  exp="97752" />
+<item level="8"  exp="195503" />
+<item level="9"  exp="391007" />
+<item level="10" exp="782014" />
+</level>
+
+<refine>
+<item putwhere="81"  code="15"  >
+<levels level="1"  value="250" />
+<levels level="2"  value="595" />
+<levels level="3"  value="1035" />
+<levels level="4"  value="1570" />
+<levels level="5"  value="2200" />
+<levels level="6"  value="2925" />
+<levels level="7"  value="3745" />
+<levels level="8"  value="4660" />
+<levels level="9"  value="5670" />
+<levels level="10" value="6775" />
+</item>
+<item putwhere="82"  code="16"  >
+<levels level="1"  value="250" />
+<levels level="2"  value="595" />
+<levels level="3"  value="1035" />
+<levels level="4"  value="1570" />
+<levels level="5"  value="2200" />
+<levels level="6"  value="2925" />
+<levels level="7"  value="3745" />
+<levels level="8"  value="4660" />
+<levels level="9"  value="5670" />
+<levels level="10" value="6775" />
+</item>
+<item putwhere="83"  code="13"  >
+<levels level="1"  value="165" />
+<levels level="2"  value="395" />
+<levels level="3"  value="685" />
+<levels level="4"  value="1040" />
+<levels level="5"  value="1460" />
+<levels level="6"  value="1940" />
+<levels level="7"  value="2485" />
+<levels level="8"  value="3095" />
+<levels level="9"  value="3765" />
+<levels level="10" value="4500" />
+</item>
+<item putwhere="84"  code="14"  >
+<levels level="1"  value="165" />
+<levels level="2"  value="395" />
+<levels level="3"  value="685" />
+<levels level="4"  value="1040" />
+<levels level="5"  value="1460" />
+<levels level="6"  value="1940" />
+<levels level="7"  value="2485" />
+<levels level="8"  value="3095" />
+<levels level="9"  value="3765" />
+<levels level="10" value="4500" />
+</item>
+<item putwhere="85"  code="36"  >
+<levels level="1"  value="50" />
+<levels level="2"  value="120" />
+<levels level="3"  value="210" />
+<levels level="4"  value="320" />
+<levels level="5"  value="445" />
+<levels level="6"  value="595" />
+<levels level="7"  value="760" />
+<levels level="8"  value="945" />
+<levels level="9"  value="1150" />
+<levels level="10" value="1375" />
+</item>
+<item putwhere="86"  code="11"  >
+<levels level="1"  value="2500" />
+<levels level="2"  value="5950" />
+<levels level="3"  value="10350" />
+<levels level="4"  value="15700" />
+<levels level="5"  value="22000" />
+<levels level="6"  value="29250" />
+<levels level="7"  value="37450" />
+<levels level="8"  value="46600" />
+<levels level="9"  value="56700" />
+<levels level="10" value="67750" />
+</item>
+<item putwhere="87"  code="37"  >
+<levels level="1"  value="50" />
+<levels level="2"  value="120" />
+<levels level="3"  value="210" />
+<levels level="4"  value="320" />
+<levels level="5"  value="445" />
+<levels level="6"  value="595" />
+<levels level="7"  value="760" />
+<levels level="8"  value="945" />
+<levels level="9"  value="1150" />
+<levels level="10" value="1375" />
+</item>
+<item putwhere="88"  code="38"  >
+<levels level="1"  value="50" />
+<levels level="2"  value="120" />
+<levels level="3"  value="210" />
+<levels level="4"  value="320" />
+<levels level="5"  value="445" />
+<levels level="6"  value="595" />
+<levels level="7"  value="760" />
+<levels level="8"  value="945" />
+<levels level="9"  value="1150" />
+<levels level="10" value="1375" />
+</item>
+<item putwhere="89"  code="31"  >
+<levels level="1"  value="50" />
+<levels level="2"  value="120" />
+<levels level="3"  value="210" />
+<levels level="4"  value="320" />
+<levels level="5"  value="445" />
+<levels level="6"  value="595" />
+<levels level="7"  value="760" />
+<levels level="8"  value="945" />
+<levels level="9"  value="1150" />
+<levels level="10" value="1375" />
+</item>
+
+</refine>
+
+<extra>
+<item code="15" type="1" green="26"  blue="52"  purple="78"   orange="104"   gold="135" />
+<item code="16" type="1" green="26"  blue="52"  purple="78"   orange="104"   gold="135" />
+<item code="13" type="1" green="17"  blue="34"  purple="51"   orange="68"    gold="90" />
+<item code="14" type="1" green="17"  blue="34"  purple="51"   orange="68"    gold="90" />
+<item code="36" type="1" green="13"  blue="26"  purple="39"   orange="52"    gold="69" />
+<item code="11" type="1" green="260" blue="520" purple="780"  orange="1040"  gold="1350" />
+<item code="37" type="1" green="13"  blue="26"  purple="39"   orange="52"    gold="69" />
+<item code="38" type="1" green="13"  blue="26"  purple="39"   orange="52"    gold="69" />
+<item code="31" type="1" green="13"  blue="26"  purple="39"   orange="52"    gold="69" />
+
+<item code="15" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="16" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="13" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="14" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="36" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="11" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="37" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="38" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+<item code="31" type="2" green="800"  blue="1600"  purple="2400"   orange="3200"    gold="4500" />
+
+</extra>
+
+</root>

@@ -1,0 +1,18 @@
+﻿<copyTeams>
+    <!-- exp表示经验的星级，分1-5星；type为1表示单人，2表示组队；reward id为奖励id -->
+	<copyTeam id="60500" npcID="10000107" minRoleLv="1" maxRoleLv="100" exp="3" type="1" >
+		<reward id="10103001" num="1"/>
+	</copyTeam>
+	<copyTeam id="60400" npcID="10100107" minRoleLv="5" maxRoleLv="100" exp="3" type="1" >
+		<reward id="10103001" num="1"/>
+	</copyTeam>
+	<copyTeam id="60000" npcID="40000105" minRoleLv="5" maxRoleLv="100" exp="3" type="1" >
+		<reward id="10103001" num="1"/>
+	</copyTeam>
+	<copyTeam id="80001" npcID="40000107" minRoleLv="5" maxRoleLv="100" exp="3" type="1" >
+		<reward id="10103001" num="1"/>
+	</copyTeam>
+	<copyTeam id="81001" npcID="40400115" minRoleLv="5" maxRoleLv="100" exp="3" type="1" >
+		<reward id="10103001" num="1"/>
+	</copyTeam>
+</copyTeams>

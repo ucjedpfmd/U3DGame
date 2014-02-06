@@ -1,0 +1,483 @@
+<task level="10">
+	<id1>1432</id1>
+	<id2>1477</id2>
+	<id3>1522</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">投奔汤和（10级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到横涧山投奔汤和</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:技能大师<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：1000 绑定银子：50文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="11">
+	<id1>1435</id1>
+	<id2>1480</id2>
+	<id3>1525</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">第二把武器（11级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟刘伯温领取第二把武器。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:刘伯温<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：1000 绑定银子：60文</FONT>]]></attr_award>
+	<prop_award>
+	<prop id="30010101" num="1" />
+	<prop id="30010101" num="1" />
+	<prop id="30010101" num="1" />
+	<prop id="30010101" num="1" />
+	</prop_award>
+</task>	
+<task level="12">
+	<id1>1438</id1>
+	<id2>1483</id2>
+	<id3>1528</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">动之以情（12级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">找到横涧山事务官，让他对横涧山水匪动之以情晓之以理。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:汤和<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：1200 绑定银子：70文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="13">
+	<id1>1442</id1>
+	<id2>1487</id2>
+	<id3>1532</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">查探底细（13级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">向横涧山事务官查询土匪的底细。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:汤和<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：2000 绑定银子：80文</FONT>]]></attr_award>
+	<prop_award>
+	<prop id="30010101" num="1" />
+	<prop id="30010101" num="1" />
+	</prop_award>
+</task>	
+<task level="14">
+	<id1>1446</id1>
+	<id2>1491</id2>
+	<id3>1536</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">小有名气（14级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">和汤和对话。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:汤和<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：2500 绑定银子：80文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="15">
+	<id1>1451</id1>
+	<id2>1496</id2>
+	<id3>1541</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">第一道考题（15级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">选择正确答案。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:横涧山事务官<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：2600 绑定银子：80文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="16">
+	<id1>1457</id1>
+	<id2>1502</id2>
+	<id3>1547</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">困境（16级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">找到徐达，告诉他目前义军的困境。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:常遇春<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：3200 绑定银子：80文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="17">
+	<id1>1463</id1>
+	<id2>1508</id2>
+	<id3>1553</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">常遇春的打算（17级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到徐达处询问刘伯温的情况。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:常遇春<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：3500 绑定银子：90文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="18">
+	<id1>1469</id1>
+	<id2>1514</id2>
+	<id3>1559</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">慷慨激昂（18级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">将汤和的慷慨陈词转告刘伯温。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:汤和<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：3700 绑定银子：80文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="19">
+	<id1>1567</id1>
+	<id2>1573</id2>
+	<id3>1579</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">嗜酒的朱文正（19级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">和朱文正对话。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:朱文正<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：4500 绑定银子：80文</FONT>]]></attr_award>
+	<prop_award>
+	<prop id="11100001" num="5" />
+	</prop_award>
+</task>	
+<task level="20">
+	<id1>99</id1>
+	<id2>167</id2>
+	<id3>236</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">知会朱文正（20级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">找到朱文正，告诉他洪都城外的敌情。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:洪都守卫<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：3500 绑定银子：120文</FONT>]]></attr_award>
+	<prop_award><prop id="11100001" num="2" /></prop_award>
+</task>	
+<task level="21">
+	<id1>104</id1>
+	<id2>172</id2>
+	<id3>241</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">义商沈万三（21级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">去京城找到沈万三借取战船后，回朱文正处复命。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:朱文正<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：3800 绑定银子：140文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="22">
+	<id1>109</id1>
+	<id2>177</id2>
+	<id3>246</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">大好人张士诚（22级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">找京城的车夫了解一下张士诚的为人后，回复徐达。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:徐达<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：3800 绑定银子：155文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="23">
+	<id1>114</id1>
+	<id2>182</id2>
+	<id3>251</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">徐达的心事（23级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到横涧山跟刘伯温商量如何处置朱文正后，回复徐达。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:徐达<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：4000 绑定银子：160文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="24">
+	<id1>118</id1>
+	<id2>186</id2>
+	<id3>255</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">战前的准备（24级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">去常遇春处，跟他商量对付张士诚的作战计划后，到徐达处领取奖励。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:徐达<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：6200 绑定银子：180文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="29">
+	<id1>299</id1>
+	<id2>343</id2>
+	<id3>387</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">王保保（29级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟常遇春对话，了解王保保其人其事。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:常遇春<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：1000 绑定银子：100文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="30">
+	<id1>304</id1>
+	<id2>348</id2>
+	<id3>392</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">北伐的开始（30级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到横涧山找刘伯温商量出兵路线后回复徐达。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:徐达<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：7500 绑定银子：400文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="31">
+	<id1>308</id1>
+	<id2>352</id2>
+	<id3>396</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">夺取战船（31级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到杏花岭杀死通州元军，获得10艘战船，交给冯胜。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：8500 绑定银子：380文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="32">
+	<id1>311</id1>
+	<id2>355</id2>
+	<id3>399</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">坚固的大都（32级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到冯胜处向他请示攻打大都的战略。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:傅友德<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：8200 绑定银子：380文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="33">
+	<id1>314</id1>
+	<id2>358</id2>
+	<id3>402</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">任命书（33级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">将任命书交给武官后，回复冯胜。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：8500 绑定银子：420文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="34">
+	<id1>317</id1>
+	<id2>361</id2>
+	<id3>405</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">蒙古骑兵（34级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">去傅友德处，向他了解蒙古骑兵的战斗力。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：9500 绑定银子：400文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="35">
+	<id1>321</id1>
+	<id2>365</id2>
+	<id3>409</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">泽州的胜利（35级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到徐达处，告知他汤和贸然出兵的情况。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:傅友德<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：9500 绑定银子：440文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="36">
+	<id1>327</id1>
+	<id2>371</id2>
+	<id3>415</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">捷报频频（36级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟冯胜对话，向他了解目前的状况。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：5000 绑定银子：120文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="37">
+	<id1>332</id1>
+	<id2>376</id2>
+	<id3>420</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">王保保的围攻（37级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到冯胜处，通知他布置好军队，准备跟王保保大干一场。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:徐达<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：13000 绑定银子：450文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="38">
+	<id1>338</id1>
+	<id2>382</id2>
+	<id3>426</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">败者未必为寇（38级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟冯胜对话，向他了解败者未必为寇的道理。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：8000 绑定银子：150文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="48">
+	<id1>584</id1>
+	<id2>595</id2>
+	<id3>606</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">郁闷的冯胜（48级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到徐达处，告诉他冯胜想要出兵沙漠的愿望后，回复冯胜。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：25000 绑定银子：1250文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="49">
+	<id1>588</id1>
+	<id2>599</id2>
+	<id3>610</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">六战六胜（49级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">将战利品送到张居正处。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：26000 绑定银子：1450文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="50">
+	<id1>591</id1>
+	<id2>602</id2>
+	<id3>613</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">班师回朝（50级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到冯胜处，向他请示是否班师回朝。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:傅友德<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：28000 绑定银子：1500文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="51">
+	<id1>747</id1>
+	<id2>776</id2>
+	<id3>805</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">不祥的预感（51级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到边城找到蓝玉，告知他徐达的作战命令。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:徐达<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：22000 绑定银子：600文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="52">
+	<id1>750</id1>
+	<id2>779</id2>
+	<id3>808</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">遗憾（52级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟蓝玉对话，向他了解王保保病死漠北的事。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：8000 绑定银子：1650文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="53">
+	<id1>754</id1>
+	<id2>783</id2>
+	<id3>812</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">出兵路线（53级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到边城找到蓝玉，让他组织军队攻打庆州。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：25000 绑定银子：1750文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="54">
+	<id1>758</id1>
+	<id2>787</id2>
+	<id3>816</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">佯降（54级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到京城找到冯胜，将纳哈出投降的消息告诉他后，回复蓝玉。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：26000 绑定银子：1800文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="55">
+	<id1>762</id1>
+	<id2>791</id2>
+	<id3>820</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">蒙族习惯（55级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟蓝玉对话，向他介绍蒙族的风俗习惯。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：10000 绑定银子：1900文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="56">
+	<id1>766</id1>
+	<id2>795</id2>
+	<id3>824</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">京城胜景（56级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到京城找张居正了解京城的繁华景象。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：35000 绑定银子：2000文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="57">
+	<id1>770</id1>
+	<id2>799</id2>
+	<id3>828</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">再次出征（57级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到京城找到冯胜，取得帅印后送到边城给蓝玉。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：38000 绑定银子：2150文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="66">
+	<id1>957</id1>
+	<id2>968</id2>
+	<id3>979</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">四等人制（66级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟蓝玉对话，向他了解元朝的四等人制度。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：10000 绑定银子：3300文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="67">
+	<id1>961</id1>
+	<id2>972</id2>
+	<id3>983</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">口供（67级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到大漠杀死鞑靼守卫，获得1份口供，交给柳升。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:柳升<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：70000 绑定银子：3550文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="68">
+	<id1>965</id1>
+	<id2>976</id2>
+	<id3>987</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">预备，跑（68级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">打败鞑靼守卫，获得20封计划书，交给柳升。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:柳升<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：80000 绑定银子：3800文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="73">
+	<id1>1063</id1>
+	<id2>1071</id2>
+	<id3>1079</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">查探动向（73级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到大漠通知柳升，密切留意瓦拉军的动向。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:蓝玉<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：80000 绑定银子：5500文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="74">
+	<id1>1067</id1>
+	<id2>1075</id2>
+	<id3>1083</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">抉择（74级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">跟柳升对话，向他了解接下来的作战计划。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:柳升<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：10000 绑定银子：2000文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="78">
+	<id1>1129</id1>
+	<id2>1142</id2>
+	<id3>1155</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">再见陈圆圆（78级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到太平村找到陈圆圆，请她到京城献舞。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:冯胜<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：100000 绑定银子：6450文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="79">
+	<id1>1133</id1>
+	<id2>1146</id2>
+	<id3>1159</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">搜集松节油（79级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">去安南打败安南巡逻兵，搜集20个松节油，交给张辅。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:张辅<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：120000 绑定银子：6650文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>	
+<task level="80">
+	<id1>1138</id1>
+	<id2>1151</id2>
+	<id3>1164</id3>
+	<type>1</type>
+	<title><![CDATA[<FONT COLOR="#FFFFFF">驻扎（80级可接）</FONT>]]></title>
+	<desc><![CDATA[<FONT COLOR="#F6F5CD">到开封杂货铺老板娘王青翘处借一些松脂，交给张辅。</FONT>]]></desc>
+	<target><![CDATA[<FONT COLOR="#FFF799">起始NPC:张辅<BR />结束NPC:</FONT>]]></target>
+	<attr_award><![CDATA[<FONT COLOR="#FFF799">玩家经验：130000 绑定银子：6850文</FONT>]]></attr_award>
+	<prop_award></prop_award>
+</task>

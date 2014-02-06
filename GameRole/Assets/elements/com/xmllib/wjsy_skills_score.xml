@@ -1,0 +1,105 @@
+﻿<wjsy_skills_score>
+<skill id="1">
+  <item level="1" score="40" effect="150" />
+  <item level="2" score="80" effect="300" />
+  <item level="3" score="120" effect="450" />
+  <item level="4" score="160" effect="600" />
+  <item level="5" score="200" effect="750" />
+  <item level="6" score="240" effect="900" />
+  <item level="7" score="280" effect="1050" />
+  <item level="8" score="320" effect="1200" />
+  <item level="9" score="360" effect="1350" />
+  <item level="10" score="400" effect="1500" />
+</skill>
+
+<skill id="2">
+  <item level="1" score="40" effect="100" />
+  <item level="2" score="80" effect="200" />
+  <item level="3" score="120" effect="300" />
+  <item level="4" score="160" effect="400" />
+  <item level="5" score="200" effect="500" />
+  <item level="6" score="240" effect="600" />
+  <item level="7" score="280" effect="700" />
+  <item level="8" score="320" effect="800" />
+  <item level="9" score="360" effect="900" />
+  <item level="10" score="400" effect="1000" />
+</skill>
+
+<skill id="3">
+  <item level="1" score="40" effect="200" />
+  <item level="2" score="80" effect="400" />
+  <item level="3" score="120" effect="600" />
+  <item level="4" score="160" effect="800" />
+  <item level="5" score="200" effect="1000" />
+  <item level="6" score="240" effect="1200" />
+  <item level="7" score="280" effect="1400" />
+  <item level="8" score="320" effect="1600" />
+  <item level="9" score="360" effect="1800" />
+  <item level="10" score="400" effect="2000" />
+</skill>
+
+<skill id="4">
+  <item level="1" score="40" effect="200" />
+  <item level="2" score="80" effect="400" />
+  <item level="3" score="120" effect="600" />
+  <item level="4" score="160" effect="800" />
+  <item level="5" score="200" effect="1000" />
+  <item level="6" score="240" effect="1200" />
+  <item level="7" score="280" effect="1400" />
+  <item level="8" score="320" effect="1600" />
+  <item level="9" score="360" effect="1800" />
+  <item level="10" score="400" effect="2000" />
+</skill>
+
+<skill id="5">
+  <item level="1" score="40" effect="300" />
+  <item level="2" score="80" effect="600" />
+  <item level="3" score="120" effect="900" />
+  <item level="4" score="160" effect="1200" />
+  <item level="5" score="200" effect="1500" />
+  <item level="6" score="240" effect="1800" />
+  <item level="7" score="280" effect="2100" />
+  <item level="8" score="320" effect="2400" />
+  <item level="9" score="360" effect="2700" />
+  <item level="10" score="400" effect="3000" />
+</skill>
+
+<skill id="6">
+  <item level="1" score="40" effect="400" />
+  <item level="2" score="80" effect="800" />
+  <item level="3" score="120" effect="1200" />
+  <item level="4" score="160" effect="1600" />
+  <item level="5" score="200" effect="2000" />
+  <item level="6" score="240" effect="2400" />
+  <item level="7" score="280" effect="2800" />
+  <item level="8" score="320" effect="3200" />
+  <item level="9" score="360" effect="3600" />
+  <item level="10" score="400" effect="4000" />
+</skill>
+
+<skill id="7">
+  <item level="1" score="40" effect="1000" />
+  <item level="2" score="80" effect="2000" />
+  <item level="3" score="120" effect="3000" />
+  <item level="4" score="160" effect="4000" />
+  <item level="5" score="200" effect="5000" />
+  <item level="6" score="240" effect="6000" />
+  <item level="7" score="280" effect="7000" />
+  <item level="8" score="320" effect="8000" />
+  <item level="9" score="360" effect="9000" />
+  <item level="10" score="400" effect="10000" />
+</skill>
+
+<skill id="8">
+  <item level="1" score="40" effect="1000" />
+  <item level="2" score="80" effect="2000" />
+  <item level="3" score="120" effect="3000" />
+  <item level="4" score="160" effect="4000" />
+  <item level="5" score="200" effect="5000" />
+  <item level="6" score="240" effect="6000" />
+  <item level="7" score="280" effect="7000" />
+  <item level="8" score="320" effect="8000" />
+  <item level="9" score="360" effect="9000" />
+  <item level="10" score="400" effect="10000" />
+</skill>
+</wjsy_skills_score>

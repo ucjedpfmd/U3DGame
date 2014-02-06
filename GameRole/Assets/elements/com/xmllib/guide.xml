@@ -1,0 +1,83 @@
+﻿<guide>
+	<refine><!-- 指定的强化，转移的装备  -->
+		<reinf typeID="31000102"/>
+		<divert typeID="31000102"/>
+	</refine>
+	<showTips><!-- 需要弹出道具使用提示的任务 isCheckPack：是否检查背包道具是否满足条件（例子：missionID为31040807 当为这个引导时，检查背包所有装备是否比身上的装备好）-->
+		<showTip missionID="11007" state="3" itemID="31000102" skillID="" type="3" />
+		<showTip missionID="11021" state="3" itemID="31000107" skillID="" type="3" />
+		<showTip missionID="11018" state="3" itemID="10301052" skillID="" type="1" /><!-- 获得小火妖 -->
+		<showTip missionID="11028" state="3" itemID="10301053" skillID="" type="1" /><!-- 获得小冰灵 -->
+		<showTip missionID="10007" state="3" itemID="10301005" skillID="" type="1" /><!-- 获得绿叶桂灵 -->
+		<showTip missionID="10115" state="3" itemID="11101004" skillID="" type="1" /><!-- 获得VIP卡 -->
+		<showTip missionID="10042" state="3" itemID="10404001" skillID="" type="1" /><!-- 获得坐骑金乌羽 -->
+		<showTip missionID="10025" state="3" itemID="31010402,31010401,31010403,31010405,31010404" skillID="" type="3" />
+		<showTip missionID="10074" state="3" itemID="31010407,31010408,31010409,31010406,31010410" skillID="" type="3" />
+		<showTip missionID="10119001" state="1" itemID="10119001" skillID="" type="1" />
+		<showTip missionID="10119002" state="1" itemID="10119002" skillID="" type="1" />
+		<showTip missionID="10119003" state="1" itemID="10119003" skillID="" type="1" />
+		<showTip missionID="10119004" state="1" itemID="10119004" skillID="" type="1" />
+		<showTip missionID="10119005" state="1" itemID="10119005" skillID="" type="1" />
+		<showTip missionID="10119006" state="1" itemID="10119006" skillID="" type="1" />
+		<showTip missionID="10119007" state="1" itemID="10119007" skillID="" type="1" />
+		<showTip missionID="10119008" state="1" itemID="10119008" skillID="" type="1" />
+		
+		<showTip missionID="10301005" state="1" itemID="10301005" skillID="" type="1" />
+		<showTip missionID="10301007" state="1" itemID="10301007" skillID="" type="1" />
+		<showTip missionID="10301006" state="1" itemID="10301006" skillID="" type="1" />
+		<showTip missionID="10301008" state="1" itemID="10301008" skillID="" type="1" />
+		<showTip missionID="10301004" state="1" itemID="10301004" skillID="" type="1" />
+		<showTip missionID="10301009" state="1" itemID="10301009" skillID="" type="1" />
+		<showTip missionID="10301018" state="1" itemID="10301018" skillID="" type="1" />
+		<showTip missionID="10301024" state="1" itemID="10301024" skillID="" type="1" />
+		<showTip missionID="10301020" state="1" itemID="10301020" skillID="" type="1" />
+		<showTip missionID="10301019" state="1" itemID="10301019" skillID="" type="1" />
+		<showTip missionID="10301048" state="1" itemID="10301048" skillID="" type="1" />		
+
+		<showTip missionID="10118001" state="1" itemID="10118001" skillID="" type="1" />
+		<showTip missionID="10118002" state="1" itemID="10118002" skillID="" type="1" />
+		<showTip missionID="10118005" state="1" itemID="10118005" skillID="" type="1" />
+		<showTip missionID="10118006" state="1" itemID="10118006" skillID="" type="1" />
+		<showTip missionID="10118017" state="1" itemID="10118017" skillID="" type="1" />
+		<showTip missionID="10118018" state="1" itemID="10118018" skillID="" type="1" />
+		<showTip missionID="10118019" state="1" itemID="10118019" skillID="" type="1" />
+		<showTip missionID="10118020" state="1" itemID="10118020" skillID="" type="1" />
+		<showTip missionID="10118025" state="1" itemID="10118025" skillID="" type="1" />
+		<showTip missionID="10118026" state="1" itemID="10118026" skillID="" type="1" />
+		<showTip missionID="31040807" state="1" itemID="11710001" skillID="" type="1" isCheckPack="1" />
+		<showTip missionID="32040807" state="1" itemID="11710006" skillID="" type="1" isCheckPack="1" />
+		<showTip missionID="33040807" state="1" itemID="11710011" skillID="" type="1" isCheckPack="1" />
+		<showTip missionID="34040807" state="1" itemID="11710016" skillID="" type="1" isCheckPack="1" />
+		<showTip missionID="31040802" state="1" itemID="31040802" skillID="" type="3" /><!--40级送的紫武器-->
+		
+		
+		<!-- 下面的是技能 -->
+		<showTip missionID="11011" state="1" itemID="10100001,10200001,10300001,10400001" skillID="10100001,10200001,10300001,10400001" type="10" />
+		<showTip missionID="11020" state="3" itemID="10701002,10702002,10703002,10704002" skillID="10100002,10200002,10300002,10400002" type="10" />
+		<showTip missionID="10003" state="3" itemID="10701006,10702003,10703003,10704003" skillID="10100007,10200003,10300003,10400003" type="10" />
+		<showTip missionID="10021" state="3" itemID="10701005,10702004,10703005,10704005" skillID="10100005,10200004,10300005,10400005" type="10" />
+		<showTip missionID="10050" state="3" itemID="10701004,10702005,10703004,10704004" skillID="10100004,10200005,10300004,10400004" type="10" />
+		<showTip missionID="10090" state="3" itemID="10701012,10702012,10703012,10704012" skillID="10100006,10200006,10300006,10400006" type="10" />
+	</showTips>
+	<transfers><!-- 下面为传送，state为当前任务状态 -->	
+		<transfer missionID="11025" state="1" />
+		<transfer missionID="11030" state="3" />
+		<transfer missionID="10013" state="3" />
+		<transfer missionID="10025" state="3" />
+		<transfer missionID="10028" state="3" />
+		<transfer missionID="10030" state="3" />
+		<transfer missionID="10044" state="3" />
+		<transfer missionID="10056" state="3" />
+		<transfer missionID="10073" state="3" />
+		<transfer missionID="10078" state="3" />
+		<transfer missionID="10089" state="3" />
+		<transfer missionID="10153" state="3" />		
+		<transfer missionID="10157" state="3" />
+		<transfer missionID="10183" state="1" />
+		<transfer missionID="10185" state="3" />
+		<transfer missionID="10208" state="1" />
+		<transfer missionID="10217" state="3" />
+		<transfer missionID="10220" state="3" />		
+		
+	</transfers>
+</guide>

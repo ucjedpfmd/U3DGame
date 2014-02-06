@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation>
+	<!-- 动画过程-->
+	<!-- status,1:可提交；2：非二次对话的接受任务；3：完成任务-->
+	<!-- 开启命令：-->
+	<!--GUIDE_ANIMATION_START-->
+	<!-- isShowBlack 是否需要黑屏-->
+	<animations>
+		<animation id="11004" status="1" >
+		<!--事件1：打晕徐长天-->
+			<item event="10020001" trigger="1" offsetTime="0" />
+			<item event="10090001" trigger="1" offsetTime="100" />
+			<item event="10020002" trigger="1" offsetTime="0" />
+			<item event="10030001" trigger="1" offsetTime="100" />
+			<item event="10010001" trigger="1" offsetTime="2500" />
+			<item event="10010002" trigger="2" offsetTime="0"/>
+			<item event="10030002" trigger="3" offsetTime="0" />
+			<item event="10030003" trigger="3" offsetTime="0" />
+			<item event="10070001" trigger="3" offsetTime="1200" />
+			<item event="10060001" trigger="3" offsetTime="2200" />
+			<item event="10070002" trigger="3" offsetTime="2500" />
+			<item event="10110001" trigger="3" offsetTime="3500" />
+			<item event="10100001" trigger="3" offsetTime="5000" />
+			<item event="10130002" trigger="3" offsetTime="7000" />			
+		</animation>
+		<!--<animation id="60500" status="2">
+		事件2：蚩尤魔窟2
+			<item event="10090002" trigger="1" offsetTime="0" />
+			<item event="10020003" trigger="1" offsetTime="0" />
+			<item event="10020004" trigger="1" offsetTime="0" />
+			<item event="10020005" trigger="1" offsetTime="0" />
+			<item event="10010003" trigger="1" offsetTime="1000" />
+			<item event="10120001" trigger="1" offsetTime="1500" />
+			<item event="10120002" trigger="1" offsetTime="4299" />
+			<item event="10060002" trigger="1" offsetTime="4300" />
+			<item event="10130001" trigger="1" offsetTime="6000" />
+		</animation>-->	
+		<animation id="60500" status="1">
+		<!--事件3：蚩尤魔窟1-->
+			<item event="10020006" trigger="1" offsetTime="0" />
+			<item event="10020007" trigger="1" offsetTime="0" />
+			<item event="10020008" trigger="1" offsetTime="0" />
+			<item event="10020009" trigger="1" offsetTime="0" />
+			<item event="10020010" trigger="1" offsetTime="0" />
+			<item event="10020011" trigger="1" offsetTime="0" />
+			<item event="10090003" trigger="1" offsetTime="0" />
+			<item event="10010004" trigger="1" offsetTime="0" />
+			<item event="10010005" trigger="2" offsetTime="0" />
+			<item event="10030004" trigger="3" offsetTime="0" />
+			<item event="10090004" trigger="3" offsetTime="0" />
+			<item event="10030005" trigger="3" offsetTime="400" />
+			<item event="10050001" trigger="3" offsetTime="1500" />
+			<item event="10030006" trigger="3" offsetTime="2100" />
+			<item event="10030007" trigger="3" offsetTime="2150" />
+			<item event="10030008" trigger="3" offsetTime="2200" />
+			<item event="10060003" trigger="3" offsetTime="2400" />
+			<item event="10060004" trigger="3" offsetTime="2450" />
+			<item event="10060005" trigger="3" offsetTime="2500" />
+			<item event="10010006" trigger="3" offsetTime="3500" />
+			<item event="10120003" trigger="3" offsetTime="4800" />
+			<item event="10010007" trigger="3" offsetTime="6800" />
+			<item event="10090005" trigger="4" offsetTime="0" />
+			<item event="10010008" trigger="4" offsetTime="600" />
+			<item event="10120003" trigger="4" offsetTime="1100" />
+			<item event="10090006" trigger="4" offsetTime="3100" />
+			<item event="10020013" trigger="4" offsetTime="4300" />
+			<item event="10020012" trigger="4" offsetTime="4300" />
+			<item event="10020014" trigger="4" offsetTime="4300" />
+			<item event="10070003" trigger="4" offsetTime="4301" />
+			<item event="10070004" trigger="4" offsetTime="4301" />
+			<item event="10070005" trigger="4" offsetTime="4301" />
+			<item event="10040001" trigger="4" offsetTime="5500" />
+			<item event="10040002" trigger="4" offsetTime="5500" />
+			<item event="10030009" trigger="4" offsetTime="5900" />
+			<item event="10010009" trigger="4" offsetTime="6500" />
+			<item event="10010010" trigger="5" offsetTime="0" />
+			<item event="10040003" trigger="6" offsetTime="0" />
+			<item event="10130001" trigger="6" offsetTime="700" />
+		</animation>
+		<animation id="11014" status="2">
+		<!--事件4：落日谷1-->
+			<item event="10090007" trigger="1" offsetTime="0" />
+			<item event="10020015" trigger="1" offsetTime="0" />
+			<item event="10020016" trigger="1" offsetTime="0" />
+			<item event="10020017" trigger="1" offsetTime="0" />
+			<item event="10020018" trigger="1" offsetTime="0" />
+			<item event="10020019" trigger="1" offsetTime="0" />
+			<item event="10020020" trigger="1" offsetTime="0" />
+			<item event="10020021" trigger="1" offsetTime="0" />
+			<item event="10020022" trigger="1" offsetTime="0" />
+			<item event="10020023" trigger="1" offsetTime="0" />
+			<item event="10010011" trigger="1" offsetTime="1000"/>
+			<item event="10050002" trigger="2" offsetTime="1" />
+			<item event="10070040" trigger="2" offsetTime="1" />
+			<item event="10070006" trigger="2" offsetTime="600" />
+			<item event="10120008" trigger="2" offsetTime="800" />
+			<item event="10060006" trigger="2" offsetTime="1350" />
+			<item event="10060007" trigger="2" offsetTime="1350" />
+			<item event="10060008" trigger="2" offsetTime="1350" />
+			<item event="10060009" trigger="2" offsetTime="1350" />
+			<item event="10060010" trigger="2" offsetTime="1350" />
+			<item event="10060011" trigger="2" offsetTime="1350" />
+			<item event="10060012" trigger="2" offsetTime="1350" />
+			<item event="10070007" trigger="2" offsetTime="1350" />
+			<item event="10070008" trigger="2" offsetTime="1350" />
+			<item event="10070009" trigger="2" offsetTime="1350" />
+			<item event="10070010" trigger="2" offsetTime="1350" />
+			<item event="10070011" trigger="2" offsetTime="1350" />
+			<item event="10070012" trigger="2" offsetTime="1350" />
+			<item event="10070013" trigger="2" offsetTime="1350" />
+			<item event="10030010" trigger="2" offsetTime="2000" />
+			<item event="10090008" trigger="2" offsetTime="2000" />
+			<item event="10010012" trigger="2" offsetTime="3000" />
+			<item event="10050003" trigger="3" offsetTime="0" />
+			<item event="10120003" trigger="3" offsetTime="400" />
+			<item event="10010013" trigger="3" offsetTime="0" />
+			<item event="10020024" trigger="3" offsetTime="600" />
+			<item event="10070014" trigger="3" offsetTime="601" />
+			<item event="10030011" trigger="4" offsetTime="0" />
+			<item event="10070015" trigger="4" offsetTime="50" />
+			<item event="10120004" trigger="4" offsetTime="100" />
+			<item event="10120005" trigger="4" offsetTime="100" />
+			<item event="10120006" trigger="4" offsetTime="2000" />
+			<item event="10010014" trigger="4" offsetTime="2000" />
+			<item event="10070016" trigger="4" offsetTime="2000" />
+			<item event="10120007" trigger="4" offsetTime="2100" />
+			<item event="10060013" trigger="4" offsetTime="2500" />
+			<item event="10070017" trigger="4" offsetTime="2500" />
+			<item event="10010015" trigger="5" offsetTime="0" />
+			<item event="10050003" trigger="5" offsetTime="0" />
+			<item event="10120003" trigger="5" offsetTime="400" />
+			<item event="10020025" trigger="5" offsetTime="400" />
+			<item event="10020026" trigger="5" offsetTime="400" />
+			<item event="10020027" trigger="5" offsetTime="400" />
+			<item event="10020028" trigger="5" offsetTime="400" />
+			<item event="10020029" trigger="5" offsetTime="400" />
+			<item event="10020030" trigger="5" offsetTime="400" />
+			<item event="10070018" trigger="5" offsetTime="400" />
+			<item event="10070019" trigger="5" offsetTime="400" />
+			<item event="10070020" trigger="5" offsetTime="400" />
+			<item event="10070021" trigger="5" offsetTime="400" />
+			<item event="10070022" trigger="5" offsetTime="400" />
+			<item event="10070023" trigger="5" offsetTime="400" />
+			<item event="10010016" trigger="6" offsetTime="0" />
+			<item event="10010017" trigger="7" offsetTime="0" />
+			<item event="10050002" trigger="8" offsetTime="0" />
+			<item event="10070024" trigger="8" offsetTime="100" />
+			<item event="10070025" trigger="8" offsetTime="200" />
+			<item event="10070026" trigger="8" offsetTime="300" />
+			<item event="10070027" trigger="8" offsetTime="400" />
+			<item event="10120003" trigger="8" offsetTime="600" />
+			<item event="10070028" trigger="8" offsetTime="600" />
+			<item event="10070029" trigger="8" offsetTime="600" />
+			<item event="10070030" trigger="8" offsetTime="600" />
+			<item event="10070031" trigger="8" offsetTime="600" />
+			<item event="10070032" trigger="8" offsetTime="600" />
+			<item event="10070033" trigger="8" offsetTime="600" />
+			<item event="10070034" trigger="8" offsetTime="1000" />
+			<item event="10070035" trigger="8" offsetTime="1000" />
+			<item event="10070036" trigger="8" offsetTime="1000" />
+			<item event="10070037" trigger="8" offsetTime="1000" />
+			<item event="10070038" trigger="8" offsetTime="1000" />
+			<item event="10070039" trigger="8" offsetTime="1000" />
+			<item event="10060014" trigger="8" offsetTime="1000" />
+			<item event="10060015" trigger="8" offsetTime="1000" />
+			<item event="10060016" trigger="8" offsetTime="1000" />
+			<item event="10060017" trigger="8" offsetTime="1000" />
+			<item event="10060018" trigger="8" offsetTime="1000" />
+			<item event="10060019" trigger="8" offsetTime="1000" />
+			<item event="10010018" trigger="8" offsetTime="2000" />
+			<item event="10010019" trigger="9" offsetTime="0" />
+			<item event="10110002" trigger="10" offsetTime="0" />
+			<item event="10130002" trigger="10" offsetTime="3000" />
+		</animation>
+		<animation id="11015" status="3">
+		<!--事件5：落日谷2-->
+			<item event="10090009" trigger="1" offsetTime="0" />
+			<item event="10020031" trigger="1" offsetTime="0" />
+			<item event="10020032" trigger="1" offsetTime="0" />
+			<item event="10020033" trigger="1" offsetTime="0" />
+			<item event="10010020" trigger="1" offsetTime="0" />
+			<item event="10010021" trigger="2" offsetTime="0" />
+			<item event="10010022" trigger="3" offsetTime="0" />
+			<item event="10010023" trigger="4" offsetTime="0" />
+			<item event="10010024" trigger="5" offsetTime="0" />
+			<item event="10040004" trigger="5" offsetTime="0" />
+			<item event="10030012" trigger="6" offsetTime="0" />
+			<item event="10040005" trigger="6" offsetTime="0" />
+			<item event="10010025" trigger="6" offsetTime="0" />
+			<item event="10130001" trigger="7" offsetTime="0" />
+		</animation>
+		<animation id="60400" status="1">
+		<!--事件6：烈焰青牛巢穴-->
+			<item event="10090010" trigger="1" offsetTime="0" />
+			<item event="10020034" trigger="1" offsetTime="0" />
+			<item event="10020035" trigger="1" offsetTime="0" />
+			<item event="10020036" trigger="1" offsetTime="0" />
+			<item event="10010026" trigger="1" offsetTime="1000" />
+			<item event="10010027" trigger="2" offsetTime="0" />
+			<item event="10040008" trigger="2" offsetTime="0" />
+			<item event="10040006" trigger="2" offsetTime="800" />
+			<item event="10040007" trigger="2" offsetTime="800" />
+			<item event="10050004" trigger="3" offsetTime="0" />
+			<item event="10070041" trigger="3" offsetTime="500" />
+			<item event="10010028" trigger="3" offsetTime="2000" />
+			<item event="10010029" trigger="4" offsetTime="0" />
+			<item event="10010030" trigger="5" offsetTime="0" />
+			<item event="10040009" trigger="5" offsetTime="600" />
+			<item event="10040010" trigger="5" offsetTime="600" />
+			<item event="10010031" trigger="6" offsetTime="0" />
+			<item event="10130001" trigger="7" offsetTime="500" />
+		</animation>
+		<animation id="61100" status="2">
+		<!--事件7：九幽·胡青丘出场-->
+			<item event="10090011" trigger="1" offsetTime="0" />
+			<item event="10020037" trigger="1" offsetTime="0" />
+			<item event="10020038" trigger="1" offsetTime="0" />
+			<item event="10010032" trigger="1" offsetTime="0" />
+			<item event="10010033" trigger="2" offsetTime="0" />
+			<item event="10040011" trigger="3" offsetTime="0" />
+			<item event="10040012" trigger="3" offsetTime="0" />
+			<item event="10020039" trigger="3" offsetTime="0" />
+			<item event="10010034" trigger="3" offsetTime="0" />
+			<item event="10030013" trigger="4" offsetTime="0" />
+			<item event="10010035" trigger="4" offsetTime="0" />
+			<item event="10010036" trigger="5" offsetTime="0" />
+			<item event="10010037" trigger="6" offsetTime="0" />
+			<item event="10010038" trigger="7" offsetTime="0" />
+			<item event="10010039" trigger="8" offsetTime="0" />
+			<item event="10030014" trigger="9" offsetTime="0" />
+			<item event="10010040" trigger="9" offsetTime="0" />
+			<item event="10010041" trigger="10" offsetTime="0" />
+			<item event="10010042" trigger="11" offsetTime="0" />
+			<item event="10130001" trigger="12" offsetTime="0" />
+		</animation>
+		<animation id="11028" status="1">
+		<!--事件8：冰块产出冰灵-->
+			<item event="10020040" trigger="1" offsetTime="0" />
+			<item event="10090012" trigger="1" offsetTime="1" />
+			<item event="10020041" trigger="1" offsetTime="0" />
+			<item event="10020042" trigger="1" offsetTime="0" />
+			<item event="10020043" trigger="1" offsetTime="0" />
+			<item event="10120009" trigger="1" offsetTime="0" />
+			<item event="10040005" trigger="1" offsetTime="1000" />
+			<item event="10040013" trigger="1" offsetTime="1000" />
+			<item event="10010043" trigger="1" offsetTime="2000" />
+			<item event="10010044" trigger="2" offsetTime="0" />
+			<item event="10120010" trigger="3" offsetTime="0" />
+			<item event="10070042" trigger="3" offsetTime="0" />
+			<item event="10060020" trigger="3" offsetTime="200" />
+			<item event="10020044" trigger="3" offsetTime="300" />
+			<item event="10010045" trigger="3" offsetTime="3000" />
+			<item event="10130001" trigger="4" offsetTime="1000" />
+		</animation>
+		<animation id="10102" status="3">
+		<!--事件9：混元VS道玄-->
+       		<item event="10090013" trigger="1" offsetTime="0" />
+			<item event="10020045" trigger="1" offsetTime="0" />
+			<item event="10020046" trigger="1" offsetTime="0" />
+			<item event="10020047" trigger="1" offsetTime="2000" />
+			<item event="10070043" trigger="1" offsetTime="1000" />
+			<item event="10070044" trigger="1" offsetTime="1000" />
+       		<item event="10010046" trigger="1" offsetTime="2500" />
+       		<item event="10010047" trigger="2" offsetTime="0" />
+			<item event="10010048" trigger="3" offsetTime="0" />
+			<item event="10050005" trigger="4" offsetTime="0" />
+			<item event="10070045" trigger="4" offsetTime="600" />
+			<item event="10120008" trigger="4" offsetTime="1100" />
+			<item event="10010049" trigger="4" offsetTime="2000" />
+			<item event="10050006" trigger="5" offsetTime="0" />
+			<item event="10070046" trigger="5" offsetTime="600" />
+			<item event="10120003" trigger="5" offsetTime="600" />
+			<item event="10030015" trigger="5" offsetTime="700" />
+			<item event="10120011" trigger="5" offsetTime="1000" />
+			<item event="10010050" trigger="5" offsetTime="1000" />
+			<item event="10040014" trigger="6" offsetTime="0" />
+			<item event="10010051" trigger="6" offsetTime="0" />
+			<item event="10030016" trigger="7" offsetTime="0" />
+			<item event="10060021" trigger="7" offsetTime="2000" />
+			<item event="10010052" trigger="7" offsetTime="1000" />
+			<item event="10120012" trigger="8" offsetTime="0" />
+			<item event="10060022" trigger="8" offsetTime="300" />
+			<item event="10020048" trigger="8" offsetTime="200" />
+			<item event="10010053" trigger="8" offsetTime="700" />
+			<item event="10030017" trigger="8" offsetTime="700" />
+			<item event="10130001" trigger="8" offsetTime="1500" />
+		</animation>
+		<animation id="10114" status="3">
+		<!--事件10：假天书被抢-->
+       		<item event="10090014" trigger="1" offsetTime="0" />
+			<item event="10020049" trigger="1" offsetTime="0" />
+			<item event="10020050" trigger="1" offsetTime="0" />
+			<item event="10020051" trigger="1" offsetTime="0" />
+			<item event="10020052" trigger="1" offsetTime="0" />
+			<item event="10070055" trigger="1" offsetTime="0" />
+			<item event="10070056" trigger="1" offsetTime="0" />
+			<item event="10070057" trigger="1" offsetTime="0" />
+			<item event="10070058" trigger="1" offsetTime="0" />
+			<item event="10070059" trigger="1" offsetTime="500" />			
+			<item event="10070060" trigger="1" offsetTime="800" />
+			<item event="10010054" trigger="1" offsetTime="1500" />
+			<item event="10070061" trigger="2" offsetTime="0" />
+			<item event="10080001" trigger="2" offsetTime="300" />
+			<item event="10020053" trigger="2" offsetTime="1300" />
+			<item event="10070047" trigger="2" offsetTime="1000" />
+			<item event="10070048" trigger="2" offsetTime="1000" />
+			<item event="10010055" trigger="2" offsetTime="3000" />
+			<item event="10010056" trigger="3" offsetTime="0" />
+			<item event="10030018" trigger="4" offsetTime="0" />
+			<item event="10050006" trigger="4" offsetTime="0" />
+			<item event="10010057" trigger="4" offsetTime="0" />
+			<item event="10070049" trigger="4" offsetTime="500" />
+			<item event="10070050" trigger="4" offsetTime="550" />
+			<item event="10070051" trigger="4" offsetTime="600" />
+			<item event="10070052" trigger="4" offsetTime="650" />
+			<item event="10030019" trigger="4" offsetTime="500" />
+			<item event="10030020" trigger="4" offsetTime="550" />
+			<item event="10030021" trigger="4" offsetTime="600" />
+			<item event="10030022" trigger="4" offsetTime="650" />
+			<item event="10120013" trigger="4" offsetTime="1000" />
+			<item event="10020054" trigger="4" offsetTime="1500" />
+			<item event="10060023" trigger="4" offsetTime="1600" />
+			<item event="10030023" trigger="4" offsetTime="2300" />
+			<item event="10030024" trigger="4" offsetTime="2000" />
+			<item event="10030025" trigger="4" offsetTime="2000" />
+			<item event="10040015" trigger="4" offsetTime="2610" />
+			<item event="10040016" trigger="4" offsetTime="2610" />
+			<item event="10040017" trigger="4" offsetTime="2610" />
+			<item event="10010058" trigger="4" offsetTime="3000" />
+			<item event="10070053" trigger="5" offsetTime="0" />
+			<item event="10070054" trigger="5" offsetTime="0" />
+			<item event="10060021" trigger="5" offsetTime="1100" />
+			<item event="10110004" trigger="5" offsetTime="2100" />
+			<item event="10100003" trigger="5" offsetTime="3600" />
+			<item event="10130002" trigger="5" offsetTime="5600" />
+		</animation>
+	</animations>
+	
+	<!-- 事件类型（对话，出生，移动，站立，动作，死亡，特效播放，特效结束，视点移动，传送，黑屏，震动，结束）-->
+	<eventTypes>
+		<!-- 对话-->
+		<dialogs type="1001" makeFun="makeDialog" vo="AnimaEventDialogVO">
+			<!--事件1：打晕徐长天-->
+			<dialog id="1" npcID="50000008" content="我要杀光你们！             " nextTrigger="2" hasNext="1"/>
+			<dialog id="2" npcID="0" content="又是一个发狂的，你还是睡一会儿吧！          " nextTrigger="3" hasNext="0" />
+			<!--事件2：蚩尤魔窟2-->
+			<dialog id="3" npcID="50000001" content="原来是你，难怪……" nextTrigger="0" hasNext="0" />
+			<!--事件3：蚩尤魔窟1-->
+			<dialog id="4" npcID="50000023" content="前面有不少妖魔，一定要小心行事！" nextTrigger="2" hasNext="1" />
+			<dialog id="5" npcID="0" content="没关系，看我的！" nextTrigger="3" hasNext="0" />
+			<dialog id="6" npcID="50000001" content="&lt;font size='36'&gt;是谁打扰本尊休息！&lt;/font&gt;" nextTrigger="0" hasNext="1" />
+			<dialog id="7" npcID="0" content="好恐怖的魔力！这是……蚩尤……！？" nextTrigger="4" hasNext="1" />
+			<dialog id="8" npcID="50000001" content="&lt;font size='36'&gt;卑微的凡人，受死吧！&lt;/font&gt;" nextTrigger="0" hasNext="0" />
+			<dialog id="9" npcID="50000023" content="这里的戾气不断召来妖魔，后面的敌人交给我，你快去消灭蚩尤！" nextTrigger="5" hasNext="1" />
+			<dialog id="10" npcID="0" content="好！" nextTrigger="6" hasNext="1" />
+			<!--事件4：落日谷1-->
+			<dialog id="11" npcID="50000011" content="既然你们这群妖孽执意要为恶，我就不跟你们客气了。" nextTrigger="2" hasNext="0" />
+			<dialog id="12" npcID="50000011" content="怎么样？还要死不悔改吗？" nextTrigger="3" hasNext="1" />
+			<dialog id="13" npcID="50000002" content="哼！少装模作样，明年的今天就是你的忌日！" nextTrigger="4" hasNext="0" />
+			<dialog id="14" npcID="50000011" content="不自量力！" nextTrigger="5" hasNext="1" />
+			<dialog id="15" npcID="50000002" content="&lt;font size='36'&gt;可恶！&lt;/font&gt;" nextTrigger="6" hasNext="1" />
+			<dialog id="16" npcID="50000002" content="我今天就跟你拼了！" nextTrigger="7" hasNext="1" />
+			<dialog id="17" npcID="50000011" content="既然你执迷不悟，就别怪我斩尽杀绝了！" nextTrigger="8" hasNext="0" />
+			<dialog id="18" npcID="50000002" content="一招就把我的手下给……？" nextTrigger="9" hasNext="1" />
+			<dialog id="19" npcID="50000002" content="哞……今天我就放你一马，下次碰上我的时候就是你的死期了！" nextTrigger="10" hasNext="0" />
+			<!--事件5：落日谷2-->
+			<dialog id="20" npcID="50000011" content="你我既然有缘，我就教你抓只仙宠吧，我刚在落日谷的东边发现一只火妖……" nextTrigger="2" hasNext="1" />
+			<dialog id="21" npcID="50000003" content="你的意思是让[name]抓一只妖来当仙宠？这种事我绝不允许！" nextTrigger="3" hasNext="1" />
+			<dialog id="22" npcID="50000011" content="唉，你怎么还跟你的那些师叔师伯一样迂腐？为圣者，只辨善恶，不分仙魔。" nextTrigger="4" hasNext="1" />
+			<dialog id="23" npcID="0" content="前辈说的有道理，只要妖怪心地善良，我们跟妖怪一起应该也没关系吧？" nextTrigger="5" hasNext="1" />
+			<dialog id="24" npcID="50000003" content="哼！你们说的都有道理，就我无理取闹了！" nextTrigger="6" hasNext="1" />
+			<dialog id="25" npcID="0" content="玉墨，你怎么了……" nextTrigger="7" hasNext="0" />
+			<!--事件6：烈焰青牛巢穴-->
+			<dialog id="26" npcID="50000023" content="烈焰青牛王能从老酒鬼手上逃走必然不是等闲之辈，你千万要小心！" nextTrigger="2" hasNext="1" />
+			<dialog id="27" npcID="50000028" content="主人不用担心，看我的！" nextTrigger="3" hasNext="0" />
+			<dialog id="28" npcID="0" content="这是……？" nextTrigger="4" hasNext="1" />
+			<dialog id="29" npcID="50000028" content="这是我的技能，可以帮主人抵御法术攻击！" nextTrigger="5" hasNext="1" />
+			<dialog id="30" npcID="0" content="想不到你还有这种能力，真好！玉墨，这次让我一个人对付那头牛吧！" nextTrigger="6" hasNext="1" />
+			<dialog id="31" npcID="50000023" content="……好吧……" nextTrigger="7" hasNext="1" />			
+			<!--事件7：九幽·胡青丘出场-->
+			<dialog id="32" npcID="0" content="没想到九幽迷城的妖怪还真不弱，可惜对手是我！" nextTrigger="2" hasNext="1" />
+			<dialog id="33" npcID="50000023" content="别大意，还没完呢！" nextTrigger="3" hasNext="1" />
+			<dialog id="34" npcID="0" content="嗯，好像来了一只很强的妖！" nextTrigger="4" hasNext="1" />
+			<dialog id="35" npcID="40000113" content="[name]，想不到我们会在这里见面，看来我跟你的孽缘未尽啊。" nextTrigger="5" hasNext="1" />
+			<dialog id="36" npcID="0" content="你认识我？不，你是狐妖，难道你就是……" nextTrigger="6" hasNext="1" />
+			<dialog id="37" npcID="40000113" content="嗯？哈哈哈！不认识我胡青丘了？看你被刚刚的废物弄得这么狼狈，那个传闻大概是真的了！" nextTrigger="7" hasNext="1" />
+			<dialog id="38" npcID="0" content="什么传言？" nextTrigger="8" hasNext="1" />
+			<dialog id="39" npcID="40000113" content="16年前神魔大战之后我也受了重伤，潜伏到一处隐秘之地疗伤，静养6年伤势才得以痊愈，没想到九幽迷城已被一群妖魔占据，我的妹妹也不知所踪。" nextTrigger="9" hasNext="1" />
+			<dialog id="40" npcID="40000113" content="于是我潜伏在此10年，想知道那群妖魔的幕后主使以及他们的目的。如今虽然我把为首的妖魔斩杀殆尽，但始终还是查不出是谁主使以及他们的目的。" nextTrigger="10" hasNext="1" />
+			<dialog id="41" npcID="0" content="哼，答非所问，只顾着自说自话，真不愧是胡青青的哥哥！" nextTrigger="11" hasNext="1" />
+			<dialog id="42" npcID="40000113" content="你见过青青，她还活着？哈哈哈！[name]，看来我又欠你一份人情，快带我去青青那里，立即，马上！" nextTrigger="12" hasNext="1" />
+			<!--事件8：冰块产出冰灵-->
+			<dialog id="43" npcID="0" content="那个冰块里面好像有点什么……" nextTrigger="2" hasNext="1" />
+			<dialog id="44" npcID="10000108" content="不用担心，我们安静地看着就可以了。" nextTrigger="3" hasNext="1" />
+			<dialog id="45" npcID="0" content="哇，冰块里面冒出了个小东西！" nextTrigger="4" hasNext="1" />
+			<!--事件9：混元VS道玄-->
+			<dialog id="46" npcID="70000004" content="混元天尊，想不到你就是幕后主使！不过能在背后操纵这些门派的除你以外确实也没有别人了。" nextTrigger="2" hasNext="1" />
+			<dialog id="47" npcID="70000006" content="哼，虽然你昆仑世代与本尊为敌，但本尊念你修为得来不易，若你献出天书，本尊可绕你一命！" nextTrigger="3" hasNext="1" />
+			<dialog id="48" npcID="70000004" content="做梦！" nextTrigger="4" hasNext="1" />
+			<dialog id="49" npcID="70000006" content="你以为这点攻击还能伤到本尊？既然你一心求死，本尊就成全你！" nextTrigger="5" hasNext="1" />
+			<dialog id="50" npcID="70000005" content="唔……可恶……" nextTrigger="6" hasNext="1" />
+			<dialog id="51" npcID="70000006" content="哼，你们就等着本尊把天书从这小小的昆仑山里翻出来吧！" nextTrigger="7" hasNext="1" />
+			<dialog id="52" npcID="70000005" content="别跑……唔……" nextTrigger="8" hasNext="1" />
+			<dialog id="53" npcID="0" content="&lt;font size='36'&gt;师尊！                 &lt;/font&gt;" nextTrigger="0" hasNext="0" />
+			<!--事件10：假天书被抢-->
+			<dialog id="54" npcID="50000037" content="天书怎么会在这里…………！？大家小心！！" nextTrigger="2" hasNext="1" />
+			<dialog id="55" npcID="70000006" content="踏破铁鞋无觅处，想不到天书就在这里！" nextTrigger="3" hasNext="1" />
+			<dialog id="56" npcID="50000036" content="可恶！怎么可能让你拿到天书！" nextTrigger="4" hasNext="1" />
+			<dialog id="57" npcID="70000006" content="找死！                 " nextTrigger="0" hasNext="0" />
+			<dialog id="58" npcID="70000006" content="天书已经到手，本尊没空招呼你们。谁再挡我，立斩不赦！" nextTrigger="5" hasNext="1" />
+		</dialogs>
+
+		<!-- 出生-->
+		<borns type="1002" makeFun="makeBorn" vo="AnimaEventBornVO">
+			<!--事件1：打晕徐长天-->
+			<born id="1" avatarID="0" pos="68,57" dir="1" />
+			<born id="2" avatarID="1" pos="69,40" dir="5" />
+			<!--事件2：蚩尤魔窟2-->
+			<born id="3" avatarID="0" pos="22,9" dir="1" />
+			<born id="4" avatarID="2" pos="21,10" dir="1" />
+			<born id="5" avatarID="3" pos="21,5" dir="5" />
+			<!--事件3：蚩尤魔窟1-->			
+			<born id="6" avatarID="2" pos="3,15" dir="3" />
+			<born id="7" avatarID="0" pos="5,16" dir="3" />
+			<born id="8" avatarID="4" pos="12,16" dir="7" />
+			<born id="9" avatarID="5" pos="12,17" dir="7" />
+			<born id="10" avatarID="6" pos="12,18" dir="7" />
+			<born id="11" avatarID="3" pos="21,5" dir="5" />
+			<born id="12" avatarID="7" pos="1,14" dir="3" />
+			<born id="13" avatarID="8" pos="3,16" dir="3" />
+			<born id="14" avatarID="9" pos="4,14" dir="3" />
+			<!--事件4：落日谷1-->
+			<born id="15" avatarID="10" pos="34,73" dir="3" />
+			<born id="16" avatarID="11" pos="36,73" dir="3" />
+			<born id="17" avatarID="12" pos="34,75" dir="3" />
+			<born id="18" avatarID="13" pos="36,75" dir="3" />
+			<born id="19" avatarID="14" pos="38,75" dir="3" />
+			<born id="20" avatarID="15" pos="36,77" dir="3" />
+			<born id="21" avatarID="16" pos="38,77" dir="3" />
+			<born id="22" avatarID="18" pos="41,76" dir="7" />
+			<born id="23" avatarID="17" pos="29,73" dir="3" />
+			<born id="24" avatarID="19" pos="39,71" dir="6" />
+			<born id="25" avatarID="21" pos="32,76" dir="2" />
+			<born id="26" avatarID="22" pos="35,77" dir="1" />
+			<born id="27" avatarID="23" pos="31,73" dir="3" />
+			<born id="28" avatarID="24" pos="34,71" dir="5" />
+			<born id="29" avatarID="25" pos="38,75" dir="7" />
+			<born id="30" avatarID="26" pos="37,72" dir="6" />
+			<!--事件5：落日谷2-->
+			<born id="31" avatarID="39" pos="55,76" dir="5" />
+			<born id="32" avatarID="0" pos="55,80" dir="1" />
+			<born id="33" avatarID="2" pos="58,80" dir="1" />
+			<!--事件6：烈焰青牛巢穴-->
+			<born id="34" avatarID="0" pos="6,33" dir="2" />
+			<born id="35" avatarID="20" pos="6,35" dir="2" />
+			<born id="36" avatarID="2" pos="4,32" dir="2" />
+			<!--事件7：九幽·胡青丘出场-->
+			<born id="37" avatarID="0" pos="100,8" dir="7" />
+			<born id="38" avatarID="2" pos="98,8" dir="3" />
+			<born id="39" avatarID="28" pos="108,1" dir="6" />
+			<!--事件8：冰块产出冰灵-->
+			<born id="40" avatarID="0" pos="41,7" dir="1" />
+			<born id="41" avatarID="2" pos="43,5" dir="7" />
+			<born id="42" avatarID="30" pos="40,4" dir="4" />
+			<born id="43" avatarID="31" pos="43,7" dir="4" />
+			<born id="44" avatarID="32" pos="43,7" dir="4" />
+			<!--事件9：混元VS道玄-->
+			<born id="45" avatarID="0" pos="39,40" dir="7" />
+			<born id="46" avatarID="35" pos="34,41" dir="7" />
+			<born id="47" avatarID="36" pos="29,41" dir="3" />
+			<born id="48" avatarID="37" pos="35,41" dir="7" />
+			<!--事件10：假天书被抢-->
+			<born id="49" avatarID="0" pos="38,64" dir="0" />
+			<born id="50" avatarID="34" pos="39,62" dir="7" />
+			<born id="51" avatarID="33" pos="39,60" dir="7" />
+			<born id="52" avatarID="2" pos="38,58" dir="6" />
+			<born id="53" avatarID="36" pos="33,60" dir="3" />
+			<born id="54" avatarID="38" pos="42,62" dir="7" />
+		</borns>
+		
+		<!-- 移动  mod：1跑到动作，2冲锋，3平移-->
+		<moves type="1003" makeFun="makeMove" vo="AnimaEventMoveVO">
+			<!--事件1：打晕徐长天-->
+			<move id="1" avatarID="1" mode="1" targetPos="71,49" endDir="5" time="2400" />
+			<move id="2" avatarID="1" mode="1" targetPos="70,52" endDir="5" time="1200" />
+			<move id="3" avatarID="0" mode="1" targetPos="70,54" endDir="1" time="1200" />
+			<!--事件3：蚩尤魔窟1-->
+			<move id="4" avatarID="0" mode="1" targetPos="11,17" endDir="3" time="1500" />
+			<move id="5" avatarID="2" mode="1" targetPos="9,16" endDir="3" time="1500" />
+			<move id="6" avatarID="4" mode="3" targetPos="13,15" endDir="6" time="300" />
+			<move id="7" avatarID="5" mode="3" targetPos="13,17" endDir="6" time="300" />
+			<move id="8" avatarID="6" mode="3" targetPos="13,19" endDir="7" time="300" />
+			<move id="9" avatarID="2" mode="3" targetPos="7,16" endDir="7" time="500" />
+			<!--事件4：落日谷1-->
+			<move id="10" avatarID="18" mode="1" targetPos="34,74" endDir="7" time="3000" />
+			<move id="11" avatarID="19" mode="3" targetPos="36,72" endDir="6" time="100" />
+			<!--事件5：落日谷2-->
+			<move id="12" avatarID="2" mode="1" targetPos="70,80" endDir="3" time="4000" />
+			<!--事件7：九幽·胡青丘出场-->
+			<move id="13" avatarID="28" mode="1" targetPos="104,4" endDir="6" time="6000" />
+			<move id="14" avatarID="28" mode="1" targetPos="101,7" endDir="6" time="6000" />
+			<!--事件9：混元VS道玄-->
+			<move id="15" avatarID="35" mode="3" targetPos="35,41" endDir="7" time="600" />
+			<move id="16" avatarID="36" mode="1" targetPos="15,41" endDir="7" time="1500" />
+			<move id="17" avatarID="0" mode="1" targetPos="36,41" endDir="7" time="1000" />
+			<!--事件10：假天书被抢-->
+			<move id="18" avatarID="34" mode="1" targetPos="37,62" endDir="7" time="500" />
+			<move id="19" avatarID="34" mode="3" targetPos="38,62" endDir="7" time="50" />
+			<move id="20" avatarID="34" mode="3" targetPos="39,62" endDir="7" time="50" />
+			<move id="21" avatarID="34" mode="3" targetPos="40,62" endDir="7" time="50" />
+			<move id="22" avatarID="34" mode="3" targetPos="42,62" endDir="7" time="50" />
+			<move id="23" avatarID="0" mode="1" targetPos="41,63" endDir="7" time="600" />
+			<move id="24" avatarID="2" mode="1" targetPos="41,61" endDir="7" time="500" />
+			<move id="25" avatarID="33" mode="2" targetPos="37,61" endDir="7" time="600" />
+		</moves>
+		
+		<!-- 站立-->
+		<stands type="1004" makeFun="makeStand" vo="AnimaEventStandVO">
+			<!--事件3：蚩尤魔窟1-->
+			<stand id="1" avatarID="0" endDir="7" />
+			<stand id="2" avatarID="2" endDir="7" />
+			<stand id="3" avatarID="0" endDir="3" />
+			<!--事件5：落日谷2-->
+			<stand id="4" avatarID="2" endDir="3" />
+			<stand id="5" avatarID="0" endDir="3" />
+			<!--事件6：烈焰青牛巢穴-->
+			<stand id="6" avatarID="2" endDir="4" />
+			<stand id="7" avatarID="0" endDir="5" />
+			<stand id="8" avatarID="20" endDir="1" />
+			<stand id="9" avatarID="2" endDir="3" />
+			<stand id="10" avatarID="0" endDir="7" />
+			<!--事件7：九幽·胡青丘出场-->
+			<stand id="11" avatarID="0" endDir="2" />
+			<stand id="12" avatarID="2" endDir="2" />
+			<!--事件8：冰块产出冰灵-->
+			<stand id="13" avatarID="2" endDir="5" />
+			<!--事件9：混元VS道玄-->
+			<stand id="14" avatarID="36" endDir="7" />
+			<!--事件10：假天书被抢-->
+			<stand id="15" avatarID="0" endDir="7" />
+			<stand id="16" avatarID="2" endDir="7" />
+			<stand id="17" avatarID="33" endDir="7" />
+			
+		</stands>
+		
+		<!-- 动作-->
+		<actions type="1005" makeFun="makeAction" vo="AnimaEventActionVO">
+			<!--事件3：蚩尤魔窟1-->
+			<action id="1" avatarID="0" actionID="attack" dir="3" />
+			<!--事件4：落日谷1-->
+			<action id="2" avatarID="18" actionID="attack" dir="7" />
+			<action id="3" avatarID="17" actionID="attack" dir="3" />
+			<!--事件6：烈焰青牛巢穴-->
+			<action id="4" avatarID="20" actionID="attack" dir="1" />
+			<!--事件9：混元VS道玄-->
+			<action id="5" avatarID="35" actionID="attack" dir="7" />
+			<action id="6" avatarID="36" actionID="attack" dir="3" />
+			
+		</actions>
+		
+		<!-- 死亡-->
+		<dies type="1006" makeFun="makeDie" vo="AnimaEventDieVO">
+			<!--事件1：打晕徐长天-->
+			<die id="1" avatarID="1" isQuick="0" />
+			<!--事件2：蚩尤魔窟2-->
+			<die id="2" avatarID="3" isQuick="0" />
+			<!--事件2：蚩尤魔窟2-->
+			<die id="3" avatarID="4" isQuick="0" />
+			<die id="4" avatarID="5" isQuick="0" />
+			<die id="5" avatarID="6" isQuick="0" />
+			<!--事件4：落日谷1-->
+			<die id="6" avatarID="10" isQuick="1" />
+			<die id="7" avatarID="11" isQuick="1" />
+			<die id="8" avatarID="12" isQuick="1" />
+			<die id="9" avatarID="13" isQuick="1" />
+			<die id="10" avatarID="14" isQuick="1" />
+			<die id="11" avatarID="15" isQuick="1" />
+			<die id="12" avatarID="16" isQuick="1" />
+			<die id="13" avatarID="19" isQuick="1" />
+			<die id="14" avatarID="21" isQuick="1" />
+			<die id="15" avatarID="22" isQuick="1" />
+			<die id="16" avatarID="23" isQuick="1" />
+			<die id="17" avatarID="24" isQuick="1" />
+			<die id="18" avatarID="25" isQuick="1" />
+			<die id="19" avatarID="26" isQuick="1" />
+			<!--事件8：冰块产出冰灵-->
+			<die id="20" avatarID="31" isQuick="1" />
+			<!--事件9：混元VS道玄-->
+			<die id="21" avatarID="36" isQuick="1" />
+			<die id="22" avatarID="35" isQuick="1" />
+			<!--事件10：假天书被抢-->
+			<die id="23" avatarID="34" isQuick="1" />
+		</dies>
+		
+		<!-- 特效播放-->
+		<effects type="1007" makeFun="makeEffect" vo="AnimaEventEffectVO">
+			<!--事件1：打晕徐长天-->
+			<effect id="1" effectID="1" type="1" formPos="1" formOffsetPos="" targetPos="" isTop="1" playTime="3" flyTime="" />
+			<effect id="2" effectID="2" type="2" formPos="1" formOffsetPos="65,5" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<!--事件3：蚩尤魔窟1-->		
+			<effect id="3" effectID="4" type="1" formPos="1,14" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="4" effectID="4" type="1" formPos="3,16" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="5" effectID="4" type="1" formPos="4,14" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<!--事件4：落日谷1-->
+			<effect id="6" effectID="5" type="1" formPos="35,74" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="7" effectID="3" type="1" formPos="34,73" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="8" effectID="3" type="1" formPos="36,73" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="9" effectID="3" type="1" formPos="34,75" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="10" effectID="3" type="1" formPos="36,75" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="11" effectID="3" type="1" formPos="38,75" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="12" effectID="3" type="1" formPos="36,77" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="13" effectID="3" type="1" formPos="38,77" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="14" effectID="4" type="1" formPos="39,71" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="15" effectID="6" type="1" formPos="18" formOffsetPos="" targetPos="" isTop="1" playTime="2" flyTime="" />
+			<effect id="16" effectID="7" type="1" formPos="36,72" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="17" effectID="3" type="1" formPos="36,72" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />			
+			<effect id="18" effectID="4" type="1" formPos="35,77" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="19" effectID="4" type="1" formPos="31,73" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="20" effectID="4" type="1" formPos="34,71" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="21" effectID="4" type="1" formPos="38,75" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="22" effectID="4" type="1" formPos="37,72" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="23" effectID="4" type="1" formPos="32,76" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="24" effectID="8" type="1" formPos="34,74" formOffsetPos="50,-60" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="25" effectID="8" type="1" formPos="34,74" formOffsetPos="114,20" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="26" effectID="8" type="1" formPos="34,74" formOffsetPos="27,52" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="27" effectID="8" type="1" formPos="34,74" formOffsetPos="-70,-24" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="28" effectID="8" type="1" formPos="34,74" formOffsetPos="145,-90" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="29" effectID="8" type="1" formPos="34,74" formOffsetPos="210,24" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="30" effectID="8" type="1" formPos="34,74" formOffsetPos="112,102" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="31" effectID="8" type="1" formPos="34,74" formOffsetPos="-100,84" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="32" effectID="8" type="1" formPos="34,74" formOffsetPos="-137,3" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="33" effectID="8" type="1" formPos="34,74" formOffsetPos="-95,-110" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="34" effectID="3" type="1" formPos="35,77" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="35" effectID="3" type="1" formPos="31,73" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="36" effectID="3" type="1" formPos="34,71" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="37" effectID="3" type="1" formPos="38,75" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="38" effectID="3" type="1" formPos="37,72" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="39" effectID="3" type="1" formPos="32,76" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="40" effectID="9" type="1" formPos="18" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="41" effectID="10" type="1" formPos="0" formOffsetPos="" targetPos="" isTop="1" playTime="2" flyTime="" />
+			<!--事件8：冰块产出冰灵-->
+			<effect id="42" effectID="12" type="1" formPos="43,7" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<!--事件9：混元VS道玄-->
+			<effect id="43" effectID="18" type="1" formPos="29,41" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="44" effectID="19" type="1" formPos="29,41" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="45" effectID="20" type="1" formPos="29,41" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="46" effectID="21" type="1" formPos="34,41" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<!--事件10：假天书被抢-->
+			<effect id="47" effectID="18" type="1" formPos="33,60" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="48" effectID="19" type="1" formPos="33,60" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="49" effectID="22" type="1" formPos="37,62" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="50" effectID="22" type="1" formPos="38,62" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="51" effectID="22" type="1" formPos="39,62" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="52" effectID="22" type="1" formPos="40,62" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="53" effectID="23" type="1" formPos="33,60" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="54" effectID="24" type="1" formPos="33,60" formOffsetPos="" targetPos="" isTop="1" playTime="1" flyTime="" />
+			<effect id="55" effectID="17" type="1" formPos="34,61" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="600" />
+			<effect id="56" effectID="16" type="1" formPos="32,59" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="600" />
+			<effect id="57" effectID="15" type="1" formPos="32,61" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="600" />
+			<effect id="58" effectID="25" type="1" formPos="34,59" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="600" />
+			<effect id="59" effectID="12" type="1" formPos="33,60" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="" />
+			<effect id="60" effectID="14" type="2" formPos="33,60" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="" />
+			<effect id="61" effectID="26" type="2" formPos="33,60" formOffsetPos="" targetPos="33,60" isTop="1" playTime="1" flyTime="" />
+		</effects>
+		
+		<!-- 特效结束-->
+		<effectEnds type="1008" makeFun="makeEffectEnd" vo="AnimaEventEffectEndVO">
+		<!--事件10：假天书被抢-->
+			<effectEnd id="1" endID="60" />
+		</effectEnds>
+		
+		<!-- 视点移动-->
+		<cameraMoves type="1009" makeFun="makeCameraMove" vo="AnimaEventCameraMoveVO">
+			<!--事件1：打晕徐长天-->
+			<cameraMove id="1" targetPos="71,57" time="800" easeType="1" />
+			<!--事件2：蚩尤魔窟2-->
+			<cameraMove id="2" targetPos="23,9" time="1" easeType="1" />
+			<!--事件3：蚩尤魔窟1-->
+			<cameraMove id="3" targetPos="5,16" time="1" easeType="1" />
+			<cameraMove id="4" targetPos="11,17" time="1500" easeType="1" />
+			<cameraMove id="5" targetPos="21,5" time="1000" easeType="1" />
+			<cameraMove id="6" targetPos="11,17" time="1000" easeType="1" />
+			<!--事件4：落日谷1-->
+			<cameraMove id="7" targetPos="41,75" time="1000" easeType="1" />
+			<cameraMove id="8" targetPos="34,74" time="2000" easeType="1" />
+			<!--事件5：落日谷2-->
+			<cameraMove id="9" targetPos="55,80" time="1" easeType="1" />
+			<!--事件6：烈焰青牛巢穴-->
+			<cameraMove id="10" targetPos="6,33" time="1" easeType="1" />
+			<!--事件7：九幽·胡青丘出场-->
+			<cameraMove id="11" targetPos="100,8" time="1" easeType="1" />
+			<!--事件8：冰块产出冰灵-->
+			<cameraMove id="12" targetPos="43,7" time="1" easeType="1" />
+			<!--事件9：混元VS道玄-->
+			<cameraMove id="13" targetPos="33,41" time="1" easeType="1" />
+			<!--事件10：假天书被抢-->
+			<cameraMove id="14" targetPos="38,61" time="1" easeType="1" />
+		</cameraMoves>
+		
+		<!-- 角色传送-->
+		<transfers type="1010" makeFun="makeTransfer" vo="AnimaEventTransferVO">
+			<!--事件1：打晕徐长天-->
+			<transfer id="1" targetPos="10000106" />
+			<!--事件4：落日谷1-->
+			<transfer id="2" targetPos="10100102" />	
+			<!--事件10：假天书被抢-->
+			<transfer id="3" targetPos="40300126" />			
+		</transfers>
+		<!-- 黑屏-->
+		<blackGrounds type="1011" makeFun="makeBlackGround" vo="AnimaEventBlackGroundVO">
+			<!--事件1：打晕徐长天-->
+			<blackGround id="1" content="喂徐长天吃下凝神草，一段时间后……" time="2000" />
+			<!--事件4：落日谷1-->
+			<blackGround id="2" content="烈焰青牛王逃窜而去，落日谷回复平静……" time="3000" />
+			<!--事件9：混元VS道玄-->
+			<blackGround id="3" content="道玄伤重昏迷……" time="3200" />
+			<!--事件10：假天书被抢-->
+			<blackGround id="4" content="混元天尊扬长而去……" time="2000" />
+		</blackGrounds>
+		
+		<!-- 震动-->
+		<shakes type="1012" makeFun="makeShake" vo="AnimaEventShakeVO">
+			<!--事件2：蚩尤魔窟2-->
+			<shake id="1" targetID="3" type="0" dir="x,5|x,-5|y,5|y,-5" time="200" />
+			<shake id="2" targetID="3" type="1" dir="" time="1" />
+			<!--事件3：蚩尤魔窟1-->
+			<shake id="3" targetID="999999" type="1" dir="y,5|y,-10|y,10|y,-10|y,10|y,-10|y,10|y,-10|y,10|y,-10|y,10|y,-10|y,10|y,-10|y,10|y,-10|y,5" time="150" />
+			<!--事件4：落日谷1-->
+			<shake id="4" targetID="999999" type="1" dir="x,5|x,-10|x,10|x,-10|x,10|x,-10|x,10|x,-10|x,10|x,-10|x,10|x,-10|x,10|x,-10|x,10|x,-10|x,5" time="100" />
+			<shake id="5" targetID="19" type="0" dir="x,10|x,-10" time="100" />
+			<shake id="6" targetID="19" type="1" dir="x,0|x,-0" time="1" />
+			<shake id="7" targetID="999999" type="1" dir="y,20|y,-20|y,20|y,-20" time="75" />
+			<shake id="8" targetID="999999" type="1" dir="x,5|x,-5|y,5|y,-5|x,5|x,-5|y,5|y,-5|x,5|x,-5|y,5|y,-5|x,5|x,-5|y,5|y,-5" time="200" />
+			<!--事件8：冰块产出冰灵-->
+			<shake id="9" targetID="31" type="0" dir="x,5|x,-10|x,5|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0" time="1000" />
+			<shake id="10" targetID="31" type="1" dir="" time="75" />
+			<!--事件9：混元VS道玄-->
+			<shake id="11" targetID="35" type="0" dir="x,5|x,-10|x,5|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0|x,0" time="1000" />
+			<shake id="12" targetID="35" type="1" dir="x,5|x,-10|x,5" time="300" />
+			<!--事件10：假天书被抢-->
+			<shake id="13" targetID="34" type="1" dir="x,5|x,-10|x,5|x,5|x,-10|x,5" time="600" />
+		</shakes>
+		
+		<!-- 结束-->
+		<ends type="1013" makeFun="makeEnd" vo="AnimaEventEndVO">
+			<!--立即完成缩放-->
+			<end id="1" isShowBlack="1" />
+			<!--显示缩放过程-->
+			<end id="2" isShowBlack="0" />
+		</ends>
+
+	</eventTypes>
+	
+	<!-- 特效资源-->
+	<resourcesEffect>
+		<!--锤子-->
+		<resource effectID="1" effectName="hammer.swf"/>
+		<!--晕眩-->
+		<resource effectID="2" effectName="dizzy.swf"/>
+		<!--怪物死亡一缕烟-->
+		<resource effectID="3" effectName="monster_dead.swf" action="die" />
+		<!--召唤-->
+		<resource effectID="4" effectName="intoEffect.swf"/>		
+		<!--雷霆万钧（电网）-->
+		<resource effectID="5" effectName="leitingwanjun.swf"/>
+		<!--震天逆雷（保护网）-->
+		<resource effectID="6" effectName="zhentiannilei.swf"/>
+		<!--天雷破_攻击-->
+		<resource effectID="7" effectName="tianleipo_hurt.swf"/>
+		<!--炼狱爆炎-->
+		<resource effectID="8" effectName="lian_yu_bao_yan_hurt.swf"/>
+		<!--天雷破_施放-->
+		<resource effectID="9" effectName="tianleipo.swf"/>
+		<!--护盾环绕-->
+		<resource effectID="10" effectName="huangsejing.swf"/>
+		<!--橙色冰块-->
+		<resource effectID="11" effectName="chengsebingkuai.swf"/>
+		<!--扩散光球-->
+		<resource effectID="12" effectName="guangqiu.swf"/>		
+		<!--四色球汇聚天书-->
+		<resource effectID="13" effectName="tianshu2.swf"/>
+		<!--天书-->
+		<resource effectID="14" effectName="tianshu.swf"/>
+		<!--蓝光球-->
+		<resource effectID="15" effectName="lingliqiu_lan.swf"/>
+		<!--青光球-->
+		<resource effectID="16" effectName="lingliqiu_qing.swf"/>
+		<!--紫光球-->
+		<resource effectID="17" effectName="lingliqiu_zi.swf"/>
+		<!--传送法阵：come_下层-->
+		<resource effectID="18" effectName="fazhen_come_down.swf"/>
+		<!--传送法阵：come_上层-->
+		<resource effectID="19" effectName="fazhen_come_up.swf"/>
+		<!--太极五雷轰-->
+		<resource effectID="20" effectName="taiyiwuleihong.swf"/>
+		<!--炎龙灭杀-->
+		<resource effectID="21" effectName="yanlongmiesha.swf"/>
+		<!--霜嚎箭-->
+		<resource effectID="22" effectName="zhu_xian_jian.swf"/>
+		<!--传送法阵：go_下层-->
+		<resource effectID="23" effectName="fazhen_go_down.swf"/>
+		<!--传送法阵：go_上层-->
+		<resource effectID="24" effectName="fazhen_go_up.swf"/>
+		<!--绿光球-->
+		<resource effectID="25" effectName="lingliqiu_lv.swf"/>
+		<!--消失-->
+		<resource effectID="26" effectName="xiaoshi.swf"/>
+	</resourcesEffect>
+	
+	<!-- 人物资源-->
+	<resourcesAvatar>
+		<!--主角-->
+		<resource avatarID="0" type="1" skinID="" typeID="" stand="" move="" after="" action1="" action2=""/> 
+		<!--徐长天-->
+		<resource avatarID="1" type="1" skinID="" typeID="50000008" stand="" move="" after="" action1="" action2=""/>
+		<!--玉墨-->
+		<resource avatarID="2" type="2" skinID="200000040" typeID="81001105" stand="" move="" after="" action1="" action2=""/>
+		<!--蚩尤-->
+		<resource avatarID="3" type="2" skinID="10000006" typeID="60500701" stand="" move="" after="" action1="" action2=""/>
+		<!--魔艳女-->
+		<resource avatarID="4" type="2" skinID="10000001" typeID="60500102" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="5" type="2" skinID="10000001" typeID="60500102" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="6" type="2" skinID="10000001" typeID="60500102" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="7" type="2" skinID="10000001" typeID="60500102" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="8" type="2" skinID="10000001" typeID="60500102" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="9" type="2" skinID="10000001" typeID="60500102" stand="" move="" after="" action1="" action2=""/>
+		<!--巡逻狐妖-->
+		<resource avatarID="10" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="11" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="12" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="13" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="14" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="15" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="16" type="2" skinID="80000002" typeID="80000002" stand="" move="" after="" action1="" action2=""/>
+		<!--烈焰青牛王：仅右下/左下；仅站立/攻击-->
+		<resource avatarID="17" type="2" skinID="80000001" typeID="80000001" stand="" move="" after="" action1="" action2=""/>
+		<!--酒剑仙战斗：仅右上/左上-->
+		<resource avatarID="18" type="1" skinID="" typeID="70000001" stand="" move="" after="" action1="" action2=""/>
+		<!--守穴牛妖：仅右/左；仅站立-->
+		<resource avatarID="19" type="2" skinID="80000003" typeID="80000003" stand="" move="" after="" action1="" action2=""/>
+		<!--小火妖-->
+		<resource avatarID="20" type="2" skinID="60000052" typeID="60000101" stand="" move="" after="" action1="" action2=""/>
+		<!--巨象妖：仅站立-->
+		<resource avatarID="21" type="2" skinID="80000004" typeID="80000004" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="22" type="2" skinID="80000004" typeID="80000004" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="23" type="2" skinID="80000004" typeID="80000004" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="24" type="2" skinID="80000004" typeID="80000004" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="25" type="2" skinID="80000004" typeID="80000004" stand="" move="" after="" action1="" action2=""/>
+		<resource avatarID="26" type="2" skinID="80000004" typeID="80000004" stand="" move="" after="" action1="" action2=""/>	
+		<!--兽人虎-->
+		<resource avatarID="27" type="2" skinID="10000065" typeID="81001701" stand="" move="" after="" action1="" action2=""/>
+		<!--胡青丘-->
+		<resource avatarID="28" type="1" skinID="" typeID="70000003" stand="" move="" after="" action1="" action2=""/>
+		<!--胡青丘冲锋-->
+		<resource avatarID="29" type="1" skinID="" typeID="50000030" stand="" move="" after="" action1="" action2=""/>
+		<!--晶晶-->
+		<resource avatarID="30" type="1" skinID="" typeID="50000032" stand="" move="" after="" action1="" action2=""/>
+		<!--橙色冰块-->
+		<resource avatarID="31" type="1" skinID="" typeID="50000031" stand="" move="" after="" action1="" action2=""/>
+		<!--冰灵-->
+		<resource avatarID="32" type="2" skinID="80000005" typeID="80000005" stand="" move="" after="" action1="" action2=""/>
+		<!--玄凛-->
+		<resource avatarID="33" type="1" skinID="" typeID="50000037" stand="" move="" after="" action1="" action2=""/>
+		<!--玄烈-->
+		<resource avatarID="34" type="1" skinID="" typeID="50000036" stand="" move="" after="" action1="" action2=""/>
+		<!--道玄-->
+		<resource avatarID="35" type="1" skinID="" typeID="70000004  " stand="" move="" after="" action1="" action2=""/>
+		<!--混元天尊-->
+		<resource avatarID="36" type="1" skinID="" typeID="70000006" stand="" move="" after="" action1="" action2=""/>
+		<!--道玄倒地-->
+		<resource avatarID="37" type="1" skinID="" typeID="50000041" stand="" move="" after="" action1="" action2=""/>
+		<!--玄烈倒地-->
+		<resource avatarID="38" type="1" skinID="" typeID="50000042" stand="" move="" after="" action1="" action2=""/>
+		<!--酒剑仙休闲：仅右下/左下-->
+		<resource avatarID="39" type="1" skinID="" typeID="70000002" stand="" move="" after="" action1="" action2=""/>
+	</resourcesAvatar>
+</animation>

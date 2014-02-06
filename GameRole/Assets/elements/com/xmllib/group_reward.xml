@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+模版
+<groups>
+	<group id="mission的big group id"> 
+	<reward min_lv="阶段最小等级" max_lv =“阶段最大等级”> 
+	<add type="奖励类型" val="奖励"/>
+	<add type="奖励类型2" val="奖励2"/>   
+	<prop_group do_times="做几次有奖励" > <p_mission_prop prop_id="奖励物品" prop_type="1" prop_num="1" bind="false"/></prop_group>
+	<prop_group do_times="做几次有奖励2" > <p_mission_prop prop_id="奖励物品2" prop_type="1" prop_num="1" bind（是否绑定）="false"/></prop_group>	
+	</reward>
+	
+	<reward min_lv="阶段最小等级2" max_lv =“阶段最大等级2”> 
+	<add type="奖励类型" val="奖励"/>
+	<add type="奖励类型2" val="奖励2"/>   
+	<prop_group do_times="做几次有奖励" > <p_mission_prop prop_id="奖励物品" prop_type="1" prop_num="1" bind="false"/></prop_group>
+	<prop_group do_times="做几次有奖励2" > <p_mission_prop prop_id="奖励物品2" prop_type="1" prop_num="1" bind="false"/></prop_group>	
+	</reward>	
+</group>
+		add Type 是加的类型，exp是经验，silver_bind是绑定铜钱，加不同类型则写不同的add标签
+		add Value 格式为"Times,Val1 | Times,Val2 | ...",表示第几次加Val
+		prop  do_times做到第几次给道具奖励，（特别注意：：：mission_data里面的prop_reward_formula属性一定要给正确了，不然不会发奖的）
+-->
+	
+<groups> <!-- 诛魔令任务 -->
+<group id="1001">
+    <reward min_lv="30"  max_lv="39"> 
+	<add type="exp" val="1,2880|2,5760|3,11520|4,23040"/>
+	</reward>
+	
+	<reward min_lv="40"  max_lv="49"> 
+	<add type="exp" val="1,4320|2,8640|3,17280|4,34560"/>
+    </reward>
+
+	<reward min_lv="50"  max_lv="59"> 
+	<add type="exp" val="1,6480|2,12960|3,25920|4,51840"/>
+    </reward>
+	
+	<reward min_lv="60"  max_lv="69"> 
+	<add type="exp" val="1,9720|2,19440|3,38880|4,77760"/>
+    </reward>
+	
+	<reward min_lv="70"  max_lv="79"> 
+	<add type="exp" val="1,14580|2,29160|3,58320|4,116640"/>
+    </reward>
+	
+	<reward min_lv="80"  max_lv="400"> 
+	<add type="exp" val="1,19440|2,38880|3,77760|4,155520"/>
+    </reward>
+</group>
+
+	<group id="1002"> 
+  <reward min_lv="30"  max_lv="35"> <add type="exp" val="0,10|1,1000|2,2300"/><add type="silver_bind" val="0,1200|1,1000|2,2300"/> <prop_group do_times="2" ><p_mission_prop prop_id="10103001" prop_type="1" prop_num="1" bind="false"/></prop_group></reward>
+  <reward min_lv="36"  max_lv="40"> <add type="exp" val="0,11|1,1000|2,2300"/><add type="silver_bind" val="0,1200|1,1000|2,2300"/> <prop_group do_times="2" ><p_mission_prop prop_id="10103001" prop_type="1" prop_num="1" bind="false"/></prop_group></reward>
+  <reward min_lv="41"  max_lv="50"> <add type="silver_bind" val="0,10|1,1000|2,2300"/> <prop_group do_times="2" ><p_mission_prop prop_id="10103001" prop_type="1" prop_num="1" bind="false"/></prop_group></reward>
+  <reward min_lv="51"  max_lv="52">  <prop_group do_times="2" ><p_mission_prop prop_id="10103001" prop_type="1" prop_num="1" bind="false"/></prop_group></reward>
+  	
+</group>
+	<group id="2001"> <!-- 仙盟任务 -->
+	<reward min_lv="30"  max_lv="39">
+	<add type="exp" val="1,10000|2,20000|3,30000|4,40000|5,50000"/>
+	<add type="family_contribute" val="1,10|2,20|3,30|4,40|5,50"/>	
+    <add type="family_exp" val="1,10|2,20|3,30|4,40|5,50"/>
+    </reward>
+	
+	<reward min_lv="40"  max_lv="49"> 
+	<add type="exp" val="1,12500|2,25000|3,37500|4,50000|5,62500"/>
+	<add type="family_contribute" val="1,10|2,20|3,30|4,40|5,50"/>	
+	<add type="family_exp" val="1,10|2,20|3,30|4,40|5,50"/>
+	</reward>
+	
+	<reward min_lv="50"  max_lv="59"> 
+	<add type="exp" val="1,15000|2,30000|3,45000|4,60000|5,75000"/>
+	<add type="family_contribute" val="1,10|2,20|3,30|4,40|5,50"/>	
+	<add type="family_exp" val="1,10|2,20|3,30|4,40|5,50"/>
+    </reward>
+
+	<reward min_lv="60"  max_lv="69"> 
+	<add type="exp" val="1,17500|2,35000|3,52500|4,70000|5,87500"/>
+	<add type="family_contribute" val="1,10|2,20|3,30|4,40|5,50"/>	
+	<add type="family_exp" val="1,10|2,20|3,30|4,40|5,50"/>
+    </reward>
+	
+	<reward min_lv="70"  max_lv="79"> 
+	<add type="exp" val="1,20000|2,40000|3,60000|4,80000|5,100000"/>
+	<add type="family_contribute" val="1,10|2,20|3,30|4,40|5,50"/>	
+	<add type="family_exp" val="1,10|2,20|3,30|4,40|5,50"/>
+    </reward>
+	
+	<reward min_lv="80"  max_lv="100"> 
+	<add type="exp" val="1,30000|2,50000|3,70000|4,90000|5,110000"/>
+	<add type="family_contribute" val="1,10|2,20|3,30|4,40|5,50"/>	
+	<add type="family_exp" val="1,10|2,20|3,30|4,40|5,50"/>
+    </reward>
+	</group>
+	
+	<group id="2010"> <!-- 烹饪任务 -->
+	<reward min_lv="60"  max_lv="100">
+	<!-- 烹饪任务 经验奖励留空
+	<add type="cook_exp" val="1,10000|2,20000|3,30000|4,40000|5,50000"/>
+	-->
+	<prop_group do_times="1" ><p_mission_prop prop_id="10126001" prop_type="1" prop_num="5" bind="true"/></prop_group>
+    </reward>
+	</group>	
+	
+	<group id="3001"> <!-- 百炼成仙 -->
+ 	<reward min_lv="22"  max_lv="25"> <add type="exp" val="1,1296|2,2592|3,3888|4,5184|5,6480|6,7776|7,9072|8,10368|9,11664|10,12960"/><add type="silver_bind" val="0,0"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>									
+									</reward>
+	<reward min_lv="30"  max_lv="39"> <add type="exp" val="1,1296|2,2592|3,3888|4,5184|5,6480|6,7776|7,9072|8,10368|9,11664|10,12960|11,1296|12,2592|13,3888|14,5184|15,6480|16,7776|17,9072|18,10368|19,11664|20,12960|21,1296|22,2592|23,3888|24,5184|25,6480|26,7776|27,9072|28,10368|29,11664|30,12960|31,1296|32,2592|33,3888|34,5184|35,6480|36,7776|37,9072|38,10368|39,11664|40,12960|41,1296|42,2592|43,3888|44,5184|45,6480|46,7776|47,9072|48,10368|49,11664|50,12960|51,1296|52,2592|53,3888|54,5184|55,6480|56,7776|57,9072|58,10368|59,11664|60,12960|61,1296|62,2592|63,3888|64,5184|65,6480|66,7776|67,9072|68,10368|69,11664|70,12960|71,1296|72,2592|73,3888|74,5184|75,6480|76,7776|77,9072|78,10368|79,11664|80,12960|81,1296|82,2592|83,3888|84,5184|85,6480|86,7776|87,9072|88,10368|89,11664|90,12960|91,1296|92,2592|93,3888|94,5184|95,6480|96,7776|97,9072|98,10368|99,11664|100,12960"/><add type="silver_bind" val="0,0"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="40" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="50" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="60" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="70" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="80" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="90" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="100" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>									
+									</reward>
+									
+	<reward min_lv="40"  max_lv="49"> <add type="exp" val="1,1296|2,2592|3,3888|4,5184|5,6480|6,7776|7,9072|8,10368|9,11664|10,12960|11,1296|12,2592|13,3888|14,5184|15,6480|16,7776|17,9072|18,10368|19,11664|20,12960|21,1296|22,2592|23,3888|24,5184|25,6480|26,7776|27,9072|28,10368|29,11664|30,12960|31,1296|32,2592|33,3888|34,5184|35,6480|36,7776|37,9072|38,10368|39,11664|40,12960|41,1296|42,2592|43,3888|44,5184|45,6480|46,7776|47,9072|48,10368|49,11664|50,12960|51,1296|52,2592|53,3888|54,5184|55,6480|56,7776|57,9072|58,10368|59,11664|60,12960|61,1296|62,2592|63,3888|64,5184|65,6480|66,7776|67,9072|68,10368|69,11664|70,12960|71,1296|72,2592|73,3888|74,5184|75,6480|76,7776|77,9072|78,10368|79,11664|80,12960|81,1296|82,2592|83,3888|84,5184|85,6480|86,7776|87,9072|88,10368|89,11664|90,12960|91,1296|92,2592|93,3888|94,5184|95,6480|96,7776|97,9072|98,10368|99,11664|100,12960"/><add type="silver_bind" val="0,0"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="40" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="50" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="60" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="70" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="80" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="90" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="100" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>									
+									</reward>
+									
+	<reward min_lv="50"  max_lv="59"> <add type="exp" val="1,2592|2,5184|3,7776|4,10368|5,12960|6,15552|7,18144|8,20736|9,23328|10,25920|11,2592|12,5184|13,7776|14,10368|15,12960|16,15552|17,18144|18,20736|19,23328|20,25920|21,2592|22,5184|23,7776|24,10368|25,12960|26,15552|27,18144|28,20736|29,23328|30,25920|31,2592|32,5184|33,7776|34,10368|35,12960|36,15552|37,18144|38,20736|39,23328|40,25920|41,2592|42,5184|43,7776|44,10368|45,12960|46,15552|47,18144|48,20736|49,23328|50,25920|51,2592|52,5184|53,7776|54,10368|55,12960|56,15552|57,18144|58,20736|59,23328|60,25920|61,2592|62,5184|63,7776|64,10368|65,12960|66,15552|67,18144|68,20736|69,23328|70,25920|71,2592|72,5184|73,7776|74,10368|75,12960|76,15552|77,18144|78,20736|79,23328|80,25920|81,2592|82,5184|83,7776|84,10368|85,12960|86,15552|87,18144|88,20736|89,23328|90,25920|91,2592|92,5184|93,7776|94,10368|95,12960|96,15552|97,18144|98,20736|99,23328|100,25920"/><add type="silver_bind" val="0,0"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="40" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="50" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="60" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="70" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="80" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="90" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="100" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>									
+									</reward>	
+	<reward min_lv="60"  max_lv="79"> <add type="exp" val="1,2592|2,5184|3,7776|4,10368|5,12960|6,15552|7,18144|8,20736|9,23328|10,25920|11,2592|12,5184|13,7776|14,10368|15,12960|16,15552|17,18144|18,20736|19,23328|20,25920|21,2592|22,5184|23,7776|24,10368|25,12960|26,15552|27,18144|28,20736|29,23328|30,25920|31,2592|32,5184|33,7776|34,10368|35,12960|36,15552|37,18144|38,20736|39,23328|40,25920|41,2592|42,5184|43,7776|44,10368|45,12960|46,15552|47,18144|48,20736|49,23328|50,25920|51,2592|52,5184|53,7776|54,10368|55,12960|56,15552|57,18144|58,20736|59,23328|60,25920|61,2592|62,5184|63,7776|64,10368|65,12960|66,15552|67,18144|68,20736|69,23328|70,25920|71,2592|72,5184|73,7776|74,10368|75,12960|76,15552|77,18144|78,20736|79,23328|80,25920|81,2592|82,5184|83,7776|84,10368|85,12960|86,15552|87,18144|88,20736|89,23328|90,25920|91,2592|92,5184|93,7776|94,10368|95,12960|96,15552|97,18144|98,20736|99,23328|100,25920"/><add type="silver_bind" val="0,0"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="40" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="50" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="60" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="70" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="80" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="90" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="100" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>									
+									</reward>											
+	<reward min_lv="80"  max_lv="100"> <add type="exp" val="1,3888|2,7776|3,11664|4,15552|5,19440|6,23328|7,27216|8,31104|9,34992|10,38880|11,3888|12,7776|13,11664|14,15552|15,19440|16,23328|17,27216|18,31104|19,34992|20,38880|21,3888|22,7776|23,11664|24,15552|25,19440|26,23328|27,27216|28,31104|29,34992|30,38880|31,3888|32,7776|33,11664|34,15552|35,19440|36,23328|37,27216|38,31104|39,34992|40,38880|41,3888|42,7776|43,11664|44,15552|45,19440|46,23328|47,27216|48,31104|49,34992|50,38880|51,3888|52,7776|53,11664|54,15552|55,19440|56,23328|57,27216|58,31104|59,34992|60,38880|61,3888|62,7776|63,11664|64,15552|65,19440|66,23328|67,27216|68,31104|69,34992|70,38880|71,3888|72,7776|73,11664|74,15552|75,19440|76,23328|77,27216|78,31104|79,34992|80,38880|81,3888|82,7776|83,11664|84,15552|85,19440|86,23328|87,27216|88,31104|89,34992|90,38880|91,3888|92,7776|93,11664|94,15552|95,19440|96,23328|97,27216|98,31104|99,34992|100,38880"/><add type="silver_bind" val="0,0"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="40" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="50" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="60" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="70" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="80" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="90" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="100" ><p_mission_prop prop_id="11401004" prop_type="1" prop_num="1" bind="true"/></prop_group>									
+									</reward>											
+  	</group>
+	<group id="4001"> <!-- 富甲天下 -->
+	<reward min_lv="32"  max_lv="39"> <add type="exp" val="0,0"/><add type="silver_bind" val="0,3000"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>								
+									</reward>
+	<reward min_lv="40"  max_lv="49"> <add type="exp" val="0,0"/><add type="silver_bind" val="0,3000"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>								
+									</reward>
+	<reward min_lv="50"  max_lv="59"> <add type="exp" val="0,0"/><add type="silver_bind" val="0,3000"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>						
+									</reward>
+	<reward min_lv="60"  max_lv="100"> <add type="exp" val="0,0"/><add type="silver_bind" val="0,3000"/>
+									<prop_group do_times="10" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="20" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>
+									<prop_group do_times="30" ><p_mission_prop prop_id="11601101" prop_type="1" prop_num="1" bind="true"/></prop_group>						
+									</reward>
+  	</group>	
+	
+	<group id="5001"> <!-- 六界降妖 -->
+		<reward min_lv="36"  max_lv="39"> <add type="exp" val="1,4608|2,9216|3,13824|4,18432|5,23040"/><add type="silver_bind" val="1,400|2,400|3,400|4,400|5,400"/> 
+</reward>
+		<reward min_lv="40"  max_lv="49"> <add type="exp" val="1,6912|2,13824|3,20736|4,27648|5,34560"/><add type="silver_bind" val="1,400|2,400|3,400|4,400|5,400"/> 
+</reward>
+		<reward min_lv="50"  max_lv="59"> <add type="exp" val="1,10368|2,20736|3,31104|4,41472|5,51840"/><add type="silver_bind" val="1,400|2,400|3,400|4,400|5,400"/> 
+</reward>
+		<reward min_lv="60"  max_lv="69"> <add type="exp" val="1,15552|2,31104|3,46656|4,62208|5,77760"/><add type="silver_bind" val="1,400|2,400|3,400|4,400|5,400"/> 
+</reward>
+		<reward min_lv="70"  max_lv="79"> <add type="exp" val="1,23328|2,46656|3,69984|4,93312|5,116640"/><add type="silver_bind" val="1,400|2,400|3,400|4,400|5,400"/> 
+</reward>
+		<reward min_lv="80"  max_lv="90"> <add type="exp" val="1,31104|2,62208|3,93312|4,124416|5,155520"/><add type="silver_bind" val="1,400|2,400|3,400|4,400|5,400"/> 
+</reward>
+	</group>
+	
+	<group id="7001"> <!-- 降魔试炼篇 -->
+		<reward min_lv="35"  max_lv="100"> <add type="exp" val="0,30000"/>
+</reward>
+	</group>
+	
+	<group id="9001"> 
+		<reward min_lv="54"  max_lv="54"> <add type="exp" val="0,0"/><add type="silver_bind" val="0,0"/> 
+</reward>
+	</group>
+	
+	<group id="9100"> 
+		<reward min_lv="54"  max_lv="54"> <add type="exp" val="0,0"/><add type="silver_bind" val="0,0"/> 
+</reward>
+	</group>
+	</groups>

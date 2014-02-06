@@ -16,8 +16,7 @@ using proto;
         {
             camera = tarCamera;
             camera.AddComponent("SmoothFollow");
-            LoopManager.init();
-            initMouse();
+		    initMouse();
         }
 
         private static void initMouse()
@@ -42,6 +41,10 @@ using proto;
 		public p_role_data user {
             get{return _user;}
             set{_user = value;}
+		}
+
+        public double getRoleID() {
+			return user.attr.role_id;
 		}
     }
 

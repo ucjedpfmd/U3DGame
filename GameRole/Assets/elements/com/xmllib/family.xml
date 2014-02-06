@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 仙盟前端配置 前端 张子然 策划 黄春越
+包含仙盟信息，仙盟职位，仙盟捐献，仙盟boss，仙盟树的配置信息
+-->
+<family>
+	<max_level value="7"/>
+	<!-- info面板的图标配置
+	-->
+	<info_icon id="1" name="仙盟任务" rewards="仙盟贡献、仙盟经验、角色经验" openTime="全天" info="每日可完成一次仙盟任务，是快速提高仙盟等级的途径之一！"/>
+	<info_icon id="2" name="摇钱树" rewards="元宝、灵气值、沙滩浴道具" openTime="全天" info="浇水的次数越多，摇钱时获得的奖励就越好！"/>
+	<info_icon id="3" name="仙宠漫步" rewards="大量仙宠经验" openTime="全天" info="和盟友一起漫步还可以进行摸摸、问好操作获得更多仙宠经验！"/>
+	<info_icon id="4" name="仙盟捐献" rewards="仙盟贡献" openTime="全天" info="仙盟贡献决定了仙盟中的地位，地位越高，每日领取的福利就越多！"/>
+	<info_icon id="5" name="仙盟商城" rewards="道具、神宠宝盒" openTime="全天" info="仙盟商城部分道具在其他地方是无法购买的！"/>
+	<info_icon id="6" name="仙盟BOSS" rewards="护腕、护手装备碎片" openTime="全天" info="盟主和副盟主可以召唤仙盟boss"/>
+	<info_icon id="7" name="仙宠盟战" rewards="神宠宝盒、仙宠技能经验" openTime="20:30-20:44为报名时间|n20:45为仙宠盟战开始时间" info="仙宠盟战可以提前报名哦！"/>
+	<info_icon id="8" name="仙盟战" rewards="撼地神牛、战场积分" openTime="每周日19:00-19:50为报名时间|n每周日19:50-20:40正式开启" info="仙盟战分为小组赛和八强赛，第一名的仙盟可以获得独特坐骑！"/>
+	<info_icon id="9" name="天天爱烹饪" rewards="灵气、仙宠技能经验、厨神令、稀有道具" openTime="全天" info="包含一系列休闲玩法，奖励相当的丰厚哦。"/>
+	
+	
+	<!--基本信息
+		walfare 基本灵气福利
+	-->
+	<info lv="1" maxMembs="30" officer="1,1|2,2|10,1|20,2|30,4|41,5" walfare="300000" exp="9000" shake="1" shakeCast="120" water="3" waterCast="30000" waterRewards="45000"/>
+	<info lv="2" maxMembs="32" officer="1,1|2,2|10,1|20,2|30,4|41,6" walfare="330000" exp="32000" shake="2" shakeCast="60" water="3" waterCast="30000" waterRewards="50000"/>
+	<info lv="3" maxMembs="34" officer="1,1|2,2|10,1|20,2|30,5|41,6" walfare="360000" exp="68000" shake="3" shakeCast="40" water="3" waterCast="30000" waterRewards="55000"/>
+	<info lv="4" maxMembs="36" officer="1,1|2,2|10,1|20,3|30,5|41,6" walfare="390000" exp="144000" shake="4" shakeCast="30" water="3" waterCast="30000" waterRewards="60000"/>
+	<info lv="5" maxMembs="38" officer="1,1|2,2|10,2|20,3|30,5|41,6" walfare="420000" exp="304000" shake="5" shakeCast="24" water="3" waterCast="30000" waterRewards="65000"/>
+	<info lv="6" maxMembs="40" officer="1,1|2,2|10,2|20,4|30,5|41,6" walfare="450000" exp="10000000" shake="6" shakeCast="20" water="3" waterCast="30000" waterRewards="70000"/>
+	<info lv="7" maxMembs="42" officer="1,1|2,2|10,2|20,4|30,5|41,6" walfare="480000" exp="99999999" shake="7" shakeCast="17" water="3" waterCast="30000" waterRewards="75000"/>
+
+	<!--位信息
+		walfareRate 是万分比（总= （1+walfareRate）* info.walfare）
+	-->
+	<officer id="1" name="盟主" walfareRate="6000" />
+	<officer id="2" name="副盟主" walfareRate="5000" />
+	<officer id="10" name="法王" walfareRate="4000"/>
+	<officer id="11" name="天薇法王" walfareRate="4000" />
+	<officer id="12" name="紫薇法王" walfareRate="4000" />
+	<officer id="20" name="护法" walfareRate="3000" />
+	<officer id="21" name="青龙护法" walfareRate="3000" />
+	<officer id="22" name="白虎护法" walfareRate="3000" />
+	<officer id="23" name="朱雀护法" walfareRate="3000" />
+	<officer id="24" name="玄武护法" walfareRate="3000" />
+	<officer id="30" name="堂主" walfareRate="2000" />
+	<officer id="31" name="乌金堂主" walfareRate="2000" />
+	<officer id="32" name="青木堂主" walfareRate="2000" />
+	<officer id="33" name="玄水堂主" walfareRate="2000" />
+	<officer id="34" name="赤火堂主" walfareRate="2000" />
+	<officer id="35" name="黄土堂主" walfareRate="2000" />
+	<officer id="41" name="精英" walfareRate="1000" />
+	
+	<!--以下是捐献信息 
+		castType 消费类型 0是元宝1是铜钱
+	-->
+	<donate time="1" contribution="50" castType="1" cast="25000"/>
+	<donate time="2" contribution="50" castType="0" cast="5"/>
+	<donate time="3" contribution="50" castType="0" cast="10"/>
+	<donate time="4" contribution="50" castType="0" cast="15"/>
+	<donate time="5" contribution="50" castType="0" cast="20"/>
+	<donate time="6" contribution="50" castType="0" cast="25"/>
+	<donate time="7" contribution="50" castType="0" cast="30"/>
+	<donate time="8" contribution="50" castType="0" cast="35"/>
+	<donate time="9" contribution="50" castType="0" cast="40"/>
+	
+	<!--仙盟boss 
+		openCondi=开启条件（前端以字符串显示，不作为判断条件）
+		totalTime=可召唤次数/天
+		starLv=星级 
+		goods=掉落物品预览
+	-->
+	<boss boss_id="50200701" lv="1" name="雷翼鬼王"  openCondi="仙盟1级|1个成员40级以上" totalTime="1" starLv="1" desc="相传曾是仙界雷神，因叛变被当时的仙帝打入鬼界，后杀死看管他的鬼王，取代了他的位置。" x="12" y="30" goods="11714007"/>
+	<boss boss_id="50200702" lv="2" name="火焰金刚"  openCondi="仙盟2级|1个成员50级以上" totalTime="1" starLv="2" desc="黄泉的四大金刚之一，镇守着黄泉的东南入口，力大无穷，口喷烈焰能焚万物。"  x="12" y="30" goods="11714007,11714008"/>
+	<boss boss_id="50200703" lv="3" name="烈焰法王"  openCondi="仙盟3级|1个成员60级以上" totalTime="1" starLv="3" desc="相传曾是蚩尤身边的一员大将，神魔大战之中陨落进入鬼界，后来竟成为了鬼界的一方法王。"  x="12" y="30" goods="11714007,11714008,11714009"/>
+	<boss boss_id="50200704" lv="4" name="幽海龙王"  openCondi="仙盟4级|1个成员70级以上" totalTime="1" starLv="4" desc="相传乃东海龙王死后所化，占据黄泉东部，平时行事隐秘，只知其法力高强，鲜有人敌。"  x="12" y="30" goods="11714007,11714008,11714009,11714010"/>
+	<boss boss_id="50200705" lv="5" name="妖冥护法"  openCondi="仙盟5级|1个成员80级以上" totalTime="1" starLv="5" desc="黄泉的四大护法之一，骑紫焰金狮，持阔口长刀，为人残暴凶狠，鬼见鬼怕。"  x="12" y="30" goods="11714007,11714008,11714009,11714010,11714011"/>
+
+	<!--仙盟活动面板 -->	
+	<activity id="1" name="仙宠漫步" openTime="全天" expStar="4" goodsStar="0" linqiStar="0" contriStar="0" linkName="寻路" link="40000122"/>
+	<activity id="2" name="仙盟摇钱树" openTime="全天" expStar="0" goodsStar="3" linqiStar="3" contriStar="0" linkName="参与" link="10707"/>
+	<activity id="3" name="仙盟宠物战" openTime="20:45-21:00" expStar="5" goodsStar="4" linqiStar="0" contriStar="0" linkName="参与" link="11602"/>
+	<activity id="4" name="仙盟任务" openTime="全天" expStar="3" goodsStar="0" linqiStar="0" contriStar="3" linkName="参与" link="10706"/>
+	<activity id="5" name="仙盟战" openTime="周日19:50-20:40" expStar="0" goodsStar="0" linqiStar="0" contriStar="5" linkName="参与" link="11504"/>
+	<activity id="6" name="天天爱烹饪" openTime="全天" expStar="4" goodsStar="4" linqiStar="4" contriStar="0" linkName="参与" link="17001"/>
+	<!--仙盟树信息 -->
+	<tree waterTime="00:00-17:49" shakeTime="17:50-23:59">
+		<color value="2" min="0" max="20"/>
+		<color value="3" min="21" max="40"/>
+		<color value="4" min="41" max="60"/>
+		<color value="5" min="61" max="80"/>
+		<color value="6" min="81" max="100000"/>
+	</tree>
+	
+<inNotice>
+<![CDATA[<font color="#ffd050">升级：</font> <br>每天完成百炼成仙任务，守卫女娲副本等<br><font color="#ffd050">装备：</font><br>回魂仙梦，世界boss，仙盟boss可以获得极品装备]]>
+</inNotice>
+<outNotice>
+<![CDATA[加入仙盟，参与仙盟活动可以获得大量灵气、道具奖励<br>灵气可用于仙宠猎魂，用于增加属性]]>
+</outNotice>
+<newNotice>
+<![CDATA[1、欢迎大家加入新手之家仙盟的大家庭，加入仙盟后可以参与“仙盟任务”和“仙盟摇钱树”活动。完成活动可以赚钱大量经验值，灵气，仙盟贡献度。<br>2、创建自己的仙盟或者加入其它玩家创建的仙盟可以参与“仙宠盟战”、“仙盟boss”等活动，还可以拥有更高仙盟职位，领取丰厚仙盟福利！<br><font color="#ff0000">3、请大家早日寻找自己的组织，五天后将自动退出新手之家，届时若还没有自己的组织则不能参与仙盟相关的活动啦。</font>]]>
+</newNotice>
+</family>

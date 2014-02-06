@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<playguidetips>
+	<playguidetip missionid="4180" typeid="" itemid="11100001" buttonlabel="开始召唤" desc="使用宠物召唤符" show="点击召唤" callbackfunc="showpetskillpanel" funcarg="11100001"/>
+	<playguidetip missionid="4181" typeid="" itemid="11100001" buttonlabel="开始召唤" desc="使用宠物召唤符" show="点击召唤" callbackfunc="showpetskillpanel" funcarg="11100001"/>
+	<playguidetip missionid="4182" typeid="" itemid="11100001" buttonlabel="开始召唤" desc="使用宠物召唤符" show="点击召唤" callbackfunc="showpetskillpanel" funcarg="11100001"/>
+
+	<playguidetip missionid="4051" typeid="" itemid="11100001" buttonlabel="开始使用" desc="使用VIP体验卡，享受至尊服务" show="点击使用" callbackfunc="autoUseItem" funcarg="11100001"/>
+	<playguidetip missionid="4052" typeid="" itemid="11100001" buttonlabel="开始使用" desc="使用VIP体验卡，享受至尊服务" show="点击使用" callbackfunc="autoUseItem" funcarg="11100001"/>
+	<playguidetip missionid="4053" typeid="" itemid="11100001" buttonlabel="开始使用" desc="使用VIP体验卡，享受至尊服务" show="点击使用" callbackfunc="autoUseItem" funcarg="11100001"/>
+
+	<playguidetip missionid="1986" typeid="" itemid="11100001" buttonlabel="开始使用" desc="使用高级经验符，打怪升级快人一步" show="点击使用" callbackfunc="autoUseItem" funcarg="11100001"/>
+	<playguidetip missionid="1987" typeid="" itemid="11100001" buttonlabel="开始使用" desc="使用高级经验符，打怪升级快人一步" show="点击使用" callbackfunc="autoUseItem" funcarg="11100001"/>
+	<playguidetip missionid="1988" typeid="" itemid="11100001" buttonlabel="开始使用" desc="使用高级经验符，打怪升级快人一步" show="点击使用" callbackfunc="autoUseItem" funcarg="11100001"/>
+</playguidetips>

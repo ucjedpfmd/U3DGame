@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FBScoreShop>
+   <deal id="1" name="荣誉积分兑换" show_type="1" refgoodsid="0:【荣誉积分】:2:0" requestGoodTip="">
+
+	    <deal_item id = "1101" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">100【荣誉积分】，兑换1个【冰火灵石礼包】</font>]]></description>
+            <need_items id="0" type="1" number="100" bind="1" color="4" quality="1" name="【荣誉积分】"/>
+            <award_items id="12400063" type="1" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+		
+    </deal>
+	
+   <deal id="2" name="采集积分兑换" show_type="1" refgoodsid="0:【采集积分】:2:0" requestGoodTip="">
+	    <deal_item id = "2101" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">100【采集积分】，兑换1个【一级命中石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="22000001" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2102" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级物攻石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21000007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2103" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级力量石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21400007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2104" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级法攻石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21100007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2105" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级智力石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21600007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2106" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级物防石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21200007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2107" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级法防石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21300007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2108" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级敏捷石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21500007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2109" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级体质石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21800007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+
+	    <deal_item id = "2110" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50【采集积分】，兑换1个【一级精神石】</font>]]></description>
+            <need_items id="0" type="1" number="50" bind="1" color="4" quality="1" name="【采集积分】"/>
+            <award_items id="21700007" type="2" number="1" bind="1" color="1" quality="1" power="0"/>
+        </deal_item>
+    </deal>
+  
+
+</FBScoreShop>

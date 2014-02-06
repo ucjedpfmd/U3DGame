@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<collects>
+<!-- <collect   采集点ID            采集物名称     propID是没用的       采集物形状    采集后播放的特效  采集条名字 是否需要采集条 采集特效（有采集条则此项为空）/> -->	
+    <collect typeID="10000020" name="我是采集的" skinID="long_dan" effectName="caiji" barTitle="" needBar="0" collectingEffect="jia_ming_zhong" canMove="0"/>	
+    <collect typeID="20000020" name="我是采集的" skinID="long_dan" effectName="caiji" barTitle="" needBar="0" collectingEffect="jia_ming_zhong" canMove="0"/>		
+    <collect typeID="30000020" name="我是采集的" skinID="long_dan" effectName="caiji" barTitle="" needBar="0" collectingEffect="jia_ming_zhong" canMove="0"/>		
+	
+    <collect typeID="10000201" name="凝神草" skinID="ning_shen_cao" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>	
+    <collect typeID="20000201" name="凝神草" skinID="ning_shen_cao" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>		
+    <collect typeID="30000201" name="凝神草" skinID="ning_shen_cao" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>		
+
+	<collect typeID="10100201" name="木头" skinID="yu_xing_gen" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>	
+    <collect typeID="20100201" name="木头" skinID="yu_xing_gen" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>		
+    <collect typeID="30100201" name="木头" skinID="yu_xing_gen" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>		
+
+	<collect typeID="40000201" name="大铜钱" skinID="datongqian" effectName="" barTitle="" needBar="1" collectingEffect="" canMove="1">	
+		<reward type="1" typeID="11201002" content="" />
+		<reward type="1" typeID="11201003" content="" />
+		<reward type="1" typeID="11201004" content="" />
+		<reward type="1" typeID="11201001" content="" />
+	</collect>
+	<collect typeID="40000202" name="大元宝" skinID="dayuanbao" effectName="" barTitle="" needBar="1" collectingEffect="" canMove="1">	
+		<reward type="1" typeID="11202002" content="" />
+		<reward type="1" typeID="11202003" content="" />
+		<reward type="1" typeID="11202004" content="" />
+		<reward type="1" typeID="11202001" content="" />
+	</collect>
+	<collect typeID="40000203" name="大宝箱" skinID="dabaoxiang" effectName="" barTitle="" needBar="1" collectingEffect="" canMove="1">
+		<reward type="1" typeID="11401004" content="" />
+		<reward type="1" typeID="10902025" content="" />
+		<reward type="1" typeID="10902026" content="" />
+		<reward type="1" typeID="10902027" content="" />
+		<reward type="1" typeID="11202003" content="" />
+		<reward type="1" typeID="11201004" content="" />
+	</collect>
+	<collect typeID="40000204" name="装扮材料" skinID="zhuangban" effectName="" barTitle="装扮中……" needBar="0" collectingEffect="yanhuasmall" canMove="0"/>
+
+	<collect typeID="40000205" name="圣诞袜" skinID="shengdanwa" effectName="" barTitle="圣诞快乐....." needBar="1" collectingEffect="" canMove="1">
+		<reward type="1" typeID="11805019" content="" />
+		<reward type="1" typeID="11401004" content="" />
+		<reward type="1" typeID="11808001" content="" />
+		<reward type="1" typeID="10117003" content="" />
+		<reward type="1" typeID="10501001" content="" />
+		<reward type="1" typeID="10304001" content="" />
+		<reward type="1" typeID="10309001" content="" />
+		<reward type="1" typeID="10201006" content="" />
+		<reward type="1" typeID="10201108" content="" />
+		<reward type="1" typeID="10119010" content="" />
+	</collect>
+	<collect typeID="40000206" name="花灯仙子" skinID="huadengxianzi" effectName="" barTitle="" needBar="0" collectingEffect="" canMove="1"/>
+	<collect typeID="40000207" name="红包" skinID="hongbao" effectName="" barTitle="恭喜发财....." needBar="1" collectingEffect="" canMove="1">
+		<reward type="1" typeID="10401001" content="" />
+		<reward type="1" typeID="10304001" content="" />
+		<reward type="1" typeID="11808001" content="" />
+		<reward type="1" typeID="11501103" content="" />
+		<reward type="1" typeID="10501001" content="" />
+		<reward type="1" typeID="10117002" content="" />
+		<reward type="1" typeID="11805024" content="" />
+		<reward type="1" typeID="10309004" content="" />
+		<reward type="1" typeID="10201006" content="" />
+		<reward type="1" typeID="10119010" content="" />
+	</collect>
+	<collect typeID="40100201" name="落崖草" skinID="long_gu_cao" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40100202" name="狼尾草" skinID="chong_ye_lian" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40100203" name="灵石矿" skinID="ling_shi_kuang" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40100204" name="诛仙草" skinID="zhu_mu_teng" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40100205" name="雾灵芝" skinID="xue_ling_zhi" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+
+	<collect typeID="40200201" name="魔窟冰晶" skinID="bing_ci_xian_jing" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40200202" name="魔窟火晶" skinID="dao_huo_jing" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40200203" name="魔窟火莲" skinID="huo_bao_zi" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40200204" name="赤火玄毒阵阵眼" skinID="" effectName="" barTitle="破阵中……" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40200205" name="赤狱神坛" skinID="" effectName="" barTitle="解除禁锢中……" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	
+	
+	<collect typeID="40300201" name="辉月魂石" skinID="ling_shi_kuang" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40300202" name="冥华紫晶" skinID="you_ming_zi_jing" effectName="" barTitle="" needBar="0" collectingEffect="mieshenlei_hurt" canMove="0"/>
+		
+	<collect typeID="40400201" name="桃树根" skinID="" effectName="" barTitle="封印中……" needBar="0" collectingEffect="hurt_embattle_lingzhidakai" canMove="0"/>			
+    <collect typeID="40400202" name="桃树根" skinID="" effectName="" barTitle="封印中……" needBar="0" collectingEffect="hurt_embattle_lingzhidakai" canMove="0"/>	
+	<collect typeID="40400203" name="雪灵芝" skinID="xue_ling_zhi" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>			
+    <collect typeID="40400204" name="望月葵" skinID="wang_yue_kui" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>	
+	<collect typeID="40400205" name="幽谷草" skinID="xian_ling_cao" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>			
+    <collect typeID="40400206" name="聚凤螺" skinID="ju_feng_luo" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>		
+	
+	<collect typeID="40500201" name="追风逐月阵" skinID="long_dan" effectName="" barTitle="" needBar="0" collectingEffect="dizzy" canMove="0"/>	
+
+	<collect typeID="40600201" name="冰帝螺" skinID="ju_feng_luo" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0" tipEmpty=""/>
+	<collect typeID="40600202" name="冰帝葵" skinID="wang_yue_kui" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0" tipEmpty=""/>
+
+	<collect typeID="40600203" name="冰帝魂石" skinID="you_ming_zi_jing" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0" tipEmpty=""/>
+	
+	<collect typeID="40800201" name="太虚杏根" skinID="yu_xing_gen" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40800202" name="太虚水莲" skinID="chong_ye_lian" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="40800203" name="太虚朱藤" skinID="zhu_mu_teng" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	
+	<collect typeID="43000201" name="鬼域蓝晶" skinID="ling_shi_kuang" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="43000202" name="聚魂冥石" skinID="you_ming_zi_jing" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+	<collect typeID="43000203" name="幽冥火晶" skinID="dao_huo_jing" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="0"/>
+
+
+	<collect typeID="50500201" name="宝箱" skinID="dabaoxiang" effectName="" barTitle="" needBar="1" collectingEffect="" canMove="1">
+		<reward type="1" typeID="10903001" content="" />
+		<reward type="1" typeID="10305001" content="" />
+		<reward type="1" typeID="10201007" content="" />
+		<reward type="1" typeID="10201006" content="" />
+	</collect>
+
+	<collect typeID="50100201" name="聚灵枝" skinID="julingzhi" effectName="" barTitle="" needBar="1" collectingEffect="" canMove="1">
+		<reward type="2" typeID="22010001" content="" />
+		<reward type="2" typeID="23640001" content="" />
+		<reward type="2" typeID="21640001" content="" />
+	</collect>
+
+  <collect typeID="50501201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50502201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50503201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50504201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50505201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50506201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50507201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50508201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50509201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50510201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50511201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50512201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50513201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50514201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  <collect typeID="50515201" name="金宝箱" skinID="jin_bao_xiang" effectName="" barTitle="采集中……" needBar="1" collectingEffect="jin_bao_xiang" canMove="1">
+    <reward type="1" typeID="10902317" content="" />
+  </collect>
+  
+	<collect typeID="61300201" name=" " skinID="" effectName="" barTitle="" needBar="1" collectingEffect="lvsejing" canMove="0"/>		
+	
+	<collect typeID="50300201" name="紫微血晶" skinID="xue_jing" effectName="" barTitle="" needBar="0" collectingEffect="zhiwucaiji" canMove="1"/>
+
+
+
+	<collect typeID="70000101" name="后羿战魂" skinID="diyitao" effectName="" barTitle="吸收战魂中……" needBar="1" collectingEffect="warSoulBall" canMove="0" color="2" />
+	<collect typeID="70000102" name="刑天战魂" skinID="diertao" effectName="" barTitle="吸收战魂中……" needBar="1" collectingEffect="warSoulBall" canMove="0" color="3" />
+	<collect typeID="70000103" name="轩辕战魂" skinID="disantao" effectName="" barTitle="吸收战魂中……" needBar="1" collectingEffect="warSoulBall" canMove="0" color="4" />
+
+</collects>
+
+	
+
+<pos>
+	<!-- <collect mapID="10000" name="凝神草（采）" x="42" y="72"/> -->		
+	<collect mapID="50300" name="紫微血晶" x="11" y="29"/>
+	<collect mapID="50300" name="紫微血晶" x="77" y="42"/>
+	<collect mapID="50300" name="紫微血晶" x="50" y="95"/>
+</pos>
+
+</root>

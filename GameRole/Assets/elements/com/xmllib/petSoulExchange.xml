@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FBScoreShop>
+   <deal id="1" name="紫色兽魂兑换" show_type="1" refgoodsid="0:【兽魂积分】:3:0" requestGoodTip=""> 
+	<deal_item id = "1201" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【残暴之力】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="1" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1202" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【阴柔之力】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="2" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1203" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">300【兽魂积分】，兑换1个【刀枪不入】</font>]]></description>
+            <need_items id="0" type="1" number="300" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="3" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1204" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">300【兽魂积分】，兑换1个【牢不可破】</font>]]></description>
+            <need_items id="0" type="1" number="300" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="4" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1205" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">300【兽魂积分】，兑换1个【长生不死】</font>]]></description>
+            <need_items id="0" type="1" number="300" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="5" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1206" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【百步穿杨】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="6" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1207" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">300【兽魂积分】，兑换1个【梯云一纵】</font>]]></description>
+            <need_items id="0" type="1" number="300" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="7" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1208" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【虚空一击】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="8" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1209" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">300【兽魂积分】，兑换1个【无我之境】</font>]]></description>
+            <need_items id="0" type="1" number="300" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="9" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1210" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【飞刃血爪】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="10" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1211" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【魔音绕梁】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="11" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1212" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【横扫千军】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="12" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1213" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【霸气无双】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="13" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1214" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【横扫无间】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="14" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>
+	
+	<deal_item id = "1215" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">400【兽魂积分】，兑换1个【霎时无双】</font>]]></description>
+            <need_items id="0" type="1" number="400" bind="1" color="4" quality="1" name="【兽魂积分】"/>
+            <award_items id="15" type="2" number="1" bind="1" color="4" quality="1" power="0" exp="120"/>
+        </deal_item>	
+    </deal>
+    
+     <deal id="2" name="橙色兽魂兑换" show_type="1" refgoodsid="0:【兽魂积分】:3:0" requestGoodTip="">
+	<deal_item id = "1216" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【残暴之力】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="1" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1217" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【阴柔之力】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="2" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1218" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1000【兽魂积分】，兑换1个【刀枪不入】</font>]]></description>
+            <need_items id="0" type="1" number="1000" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="3" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1219" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1000【兽魂积分】，兑换1个【牢不可破】</font>]]></description>
+            <need_items id="0" type="1" number="1000" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="4" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1220" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1000【兽魂积分】，兑换1个【长生不死】</font>]]></description>
+            <need_items id="0" type="1" number="1000" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="5" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1221" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【百步穿杨】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="6" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1222" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1000【兽魂积分】，兑换1个【梯云一纵】</font>]]></description>
+            <need_items id="0" type="1" number="1000" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="7" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1223" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【虚空一击】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="8" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1224" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1000【兽魂积分】，兑换1个【无我之境】</font>]]></description>
+            <need_items id="0" type="1" number="1000" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="9" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1225" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1100【兽魂积分】，兑换1个【飞刃血爪】</font>]]></description>
+            <need_items id="0" type="1" number="1100" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="10" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1226" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1100【兽魂积分】，兑换1个【魔音绕梁】</font>]]></description>
+            <need_items id="0" type="1" number="1100" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="11" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1227" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【横扫千军】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="12" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1228" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【霸气无双】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="13" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1229" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【横扫无间】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="14" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+	
+	<deal_item id = "1230" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">1200【兽魂积分】，兑换1个【霎时无双】</font>]]></description>
+            <need_items id="0" type="1" number="1200" bind="1" color="5" quality="1" name="【兽魂积分】"/>
+            <award_items id="15" type="2" number="1" bind="1" color="5" quality="1" power="0" exp="240"/>
+        </deal_item>
+     </deal>
+     
+     <deal id="3" name="金色兽魂兑换" show_type="1" refgoodsid="0:【兽魂积分】:3:0" requestGoodTip="">
+	<deal_item id = "1231" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【残暴之力】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="1" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>   
+	
+	<deal_item id = "1232" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【阴柔之力】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="2" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1233" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3000【兽魂积分】，兑换1个【刀枪不入】</font>]]></description>
+            <need_items id="0" type="1" number="3000" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="3" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1234" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3000【兽魂积分】，兑换1个【牢不可破】</font>]]></description>
+            <need_items id="0" type="1" number="3000" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="4" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1235" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3000【兽魂积分】，兑换1个【长生不死】</font>]]></description>
+            <need_items id="0" type="1" number="3000" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="5" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1236" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【百步穿杨】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="6" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1237" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3000【兽魂积分】，兑换1个【梯云一纵】</font>]]></description>
+            <need_items id="0" type="1" number="3000" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="7" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1238" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【虚空一击】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="8" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1239" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3000【兽魂积分】，兑换1个【无我之境】</font>]]></description>
+            <need_items id="0" type="1" number="3000" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="9" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1240" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【飞刃血爪】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="10" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1241" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【魔音绕梁】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="11" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1242" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【横扫千军】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="12" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1243" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【霸气无双】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="13" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1244" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【横扫无间】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="14" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+	
+	<deal_item id = "1245" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="5" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">3600【兽魂积分】，兑换1个【霎时无双】</font>]]></description>
+            <need_items id="0" type="1" number="3600" bind="1" color="6" quality="1" name="【兽魂积分】"/>
+            <award_items id="15" type="2" number="1" bind="1" color="6" quality="1" power="0" exp="480"/>
+        </deal_item>
+     </deal>
+</FBScoreShop>

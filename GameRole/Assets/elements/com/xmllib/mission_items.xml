@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datalist>
+	<mission id="3002" >
+		<goods id="30010101" color="4" quality="2" />
+		<goods id="30010101" color="4" quality="2" />
+	</mission>
+	<mission id="3001" >
+		<goods id="30010101" color="4" quality="2" />
+		<goods id="30010101" color="4" quality="2" />
+	</mission>
+	<mission id="2016" >
+		<goods id="30010101" color="4" quality="2" />
+		<goods id="30010101" color="4" quality="2" />
+	</mission>
+</datalist>

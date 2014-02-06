@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookBoss>
+	<boss boss_id="101" lv="1" name="红豆胖雪人"  openCondi="仙盟探索1级" totalTime="1" starLv="2" desc="厨神手下的贪吃兽之一，性格胆小谨慎。可如果遇到美食，那就另当别论了。"  x="12" y="30" goods="11714007,11714008"/>
+	<boss boss_id="102" lv="2" name="莲子雪蛤妖"  openCondi="仙盟探索2级且已击杀过红豆胖雪人" totalTime="1" starLv="3" desc="厨神手下的贪吃兽之一，相传乃饕餮之后，巨爱美食，吃遍天下无敌手。"  x="12" y="30" goods="11714007,11714008,11714009"/>
+	<boss boss_id="103" lv="3" name="西米吞天吼"  openCondi="仙盟探索3级且已击杀过莲子雪蛤妖" totalTime="1" starLv="4" desc="厨神手下的贪吃兽之一，能吞万物。但它非常挑食，只有美食才会下口。"  x="12" y="30" goods="11714007,11714008,11714009,11714010"/>
+	<boss boss_id="104" lv="4" name="香芋紫蛟龙"  openCondi="仙盟探索4级且已击杀过西米吞天吼" totalTime="1" starLv="5" desc="厨神手下的贪吃兽之一，本是龙王却因贪吃误了布雨，而被罚去厨神手下当差。"  x="12" y="30" goods="11714007,11714008,11714009,11714010,11714011"/>
+
+	<hurtEvent id="1" str="击杀boss"/>
+	<hurtEvent id="2" str="boss血量低于50%"/>
+	
+<accidents>
+	<accident type="1" str="攻击两次" >
+	<item id="101" content="在仙盟成员的助威下士气高涨，又站了起来！"/>
+	<item id="102" content="信厨神，死后原地复活！又发起了攻击"/>
+	<item id="103" content="居然发起了第二次攻击，小伙伴们都惊呆了"/>
+	<item id="104" content="为了食材越战越勇，再次冲向BOSS"/>
+	</accident>
+	<accident type="2"  str="无法攻击" >
+	<item id="201" content="被BOSS的美食诱惑了，这一轮忘记了攻击！"/>
+	<item id="202" content="的仙宠饿了，暂时离开战场找吃的去了"/>
+	<item id="203" content="的仙宠吃撑了，暂时动不了了"/>
+	<item id="204" content="偷吃了仙宠们的食物，仙宠生气罢战了"/>
+	</accident>
+</accidents>
+
+	<cookbook id="1" name="仙盟菜谱1" condition="需击杀红豆胖雪人"/>
+	<cookbook id="2" name="仙盟菜谱2" condition="需击杀莲子雪蛤妖"/>
+	<cookbook id="3" name="仙盟菜谱3" condition="需击杀西米吞天吼"/>
+	<cookbook id="4" name="仙盟菜谱4" condition="需击杀香芋紫蛟龙"/>	
+	
+	<familyLv lv="0" exp="0"/>
+	<familyLv lv="1" exp="9000"/>
+	<familyLv lv="2" exp="32000"/>
+	<familyLv lv="3" exp="68000"/>
+	<familyLv lv="4" exp="144000"/>
+
+	
+</cookBoss>

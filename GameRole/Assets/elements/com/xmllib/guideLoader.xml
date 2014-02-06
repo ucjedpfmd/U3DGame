@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<guideLoaders>
+	<!--type:1：功能的预加载 2：单独文件的预加载-->
+	<!--trigger: 哪个任务的哪个状态下-->
+	<!--linkID: 功能对于的唯一ID target：功能的子项（暂时剧情动画使用到）-->
+	<guideLoader type="1">
+	</guideLoader>
+	<guideLoader type="2">
+		<loader trigger="11001_1">
+			<item linkID="" target="unit/role/100_attack.swf" sex = "1" />
+			<item linkID="" target="unit/role/200_attack.swf" sex = "2" />
+		</loader>
+		<loader trigger="11002_1">
+			<!--<item linkID="" target="unit/effect/zhiwucaiji.swf"/>-->
+			<item linkID="" target="unit/effect/hammer.swf"/>
+			<item linkID="" target="unit/role/50000008.swf"/>
+			<item linkID="" target="unit/role/50000008_die.swf"/>
+		</loader>
+		<loader trigger="11005_1">
+			<item linkID="" target="unit/npc/bust/10059001.png"/>
+			<item linkID="" target="unit/monster/10000006.swf"/>
+		</loader>
+		<loader trigger="11006_1">
+			<item linkID="" target="unit/role/50000011.swf" />
+			<item linkID="" target="unit/role/50000011_attack.swf" />
+		</loader>
+		<loader trigger="11007_1">
+			<item linkID="" target="unit/effect/leitingwanjun.swf" />
+		</loader>
+		<loader trigger="11011_1">
+			<item linkID="" target="unit/effect/zhentiannilei.swf" />
+			<item linkID="" target="unit/effect/lian_yu_bao_yan_hurt.swf" />
+		</loader>
+		<loader trigger="11012_1">
+			<item linkID="" target="unit/monster/10000005.swf" />
+			<item linkID="" target="unit/monster/10000005_attack.swf" />
+			<item linkID="" target="unit/monster/10000002.swf" />
+		</loader>
+		<loader trigger="11013_1">
+			<item linkID="" target="unit/monster/10000038.swf" />
+			<item linkID="" target="unit/monster/10000041.swf" />
+		</loader>
+		<loader trigger="11016_1">
+			<item linkID="" target="unit/monster/60000052_attack.swf" />
+			<item linkID="" target="unit/effect/embattle_wangkang.swf" />
+		</loader>
+		<loader trigger="11019_1">
+			<item linkID="" target="com/assets/skills/10100002.png" type="10" />
+		</loader>
+		<loader trigger="11020_1">
+			<item linkID="" target="unit/mounts/sliding_man.swf" sex = "1" />
+			<item linkID="" target="unit/mounts/sliding_woman.swf" sex = "2" />
+			<item linkID="" target="unit/mounts/sliding.swf" />
+		</loader>
+		<loader trigger="11021_1">
+			<item linkID="" target="unit/effect/chengsebingkuai.swf" />
+		</loader>
+	</guideLoader>
+</guideLoaders>

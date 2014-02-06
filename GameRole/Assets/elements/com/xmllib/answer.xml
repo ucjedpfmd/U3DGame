@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<answer>
+
+<!--奖励说明 -->
+<reward id="1" title="排名" sortId="1" name="第一名" reward="11201001,10"/>
+<reward id="1" title="排名" sortId="2" name="第二名" reward="11201001,8"/>
+<reward id="1" title="排名" sortId="3" name="第三名" reward="11201001,5"/>
+<reward id="1" title="排名" sortId="4" name="第四至十名" reward="11201001,3"/>
+
+<reward id="2" title="幸运奖" sortId="1" name="幸运奖" reward="11202001,5"/>
+
+<reward id="3" title="积分奖" sortId="1" name="积分奖励" reward="积分越高铜钱奖励越高"/>
+
+</answer>

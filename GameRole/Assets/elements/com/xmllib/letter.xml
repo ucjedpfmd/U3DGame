@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<letter>
+    <b id = "10000"><title><![CDATA[~str]]></title>
+                <text><![CDATA[~str]]></text></b>
+    <b id = "10001"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[~str]]></text></b>
+    <b id = "10001"><title><![CDATA[GM信件]]></title>
+                <text><![CDATA[~str]]></text></b>
+    <b id = "20501"><title><![CDATA[灵石转移返还]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>        灵石转移返还的灵石，请查收<br/>]]></text></b>
+    <b id = "21101"><title><![CDATA[时装过期通知]]></title>
+                <text><![CDATA[亲，你的~str已过期，将时装强化到8星可让有效期到永久]]></text></b>
+    <b id = "22101"><title><![CDATA[仙灵幻境掉落]]></title>
+                <text><![CDATA[由于您的背包已满，仙灵幻境掉落物品以信件形式发放，请点击“提取附件”按钮领取到背包]]></text></b>
+    <b id = "22102"><title><![CDATA[幻兽天境霸主挑战战报]]></title>
+                <text><![CDATA[玩家[<font color='#86ff05'><a href='event:popEvent#~num'><u>~str</u></a></font>]挑战您幻兽天境第~num层的霸主地位，挑战结果为~str，您的霸主地位未被撼动；<a href='event:emBattleWar#~num'><u><font color='#86ff05'>查看战报</font></u></a><br/><br/>你可以将战报发送至世界频道，<a href='event:emBattleSend#~num#~str#~str#~str'><u><font color='#86ff05'>点击发送</font></u></a>]]></text></b>
+    <b id = "22103"><title><![CDATA[幻兽天境霸主挑战战报]]></title>
+                <text><![CDATA[玩家[<font color='#86ff05'><a href='event:popEvent#~num'><u>~str</u></a></font>]挑战您幻兽天境第~num层的霸主地位，挑战结果为~str，您的霸主地位已经失去；<a href='event:emBattleWar#~num'><u><font color='#86ff05'>查看战报</font></u></a><br/><br/>你可以将战报发送至世界频道，<a href='event:emBattleSend#~num#~str#~str#~str'><u><font color='#86ff05'>点击发送</font></u></a><br/>ps：您可以在幻兽天境中进行挑战重获霸主地位]]></text></b>
+    <b id = "22104"><title><![CDATA[幻兽天境掉落]]></title>
+                <text><![CDATA[由于您的背包已满，幻兽天境掉落物品以信件形式发放，请点击“提取附件”按钮领取到背包]]></text></b>
+    <b id = "22801"><title><![CDATA[仙尊到期通知]]></title>
+                <text><![CDATA[亲爱的仙友，您的仙尊已到期，相应仙尊福利将无法再使用，我们诚邀您再次回到仙尊家族。<br /><a href='event:link#11401'><u><font color='#86FF05'>点击续费</font></u></a>]]></text></b>
+    <b id = "23101"><title><![CDATA[来自腾讯的小礼物]]></title>
+                <text><![CDATA[感谢您对本游戏的支持，特赠送您一些小礼物，请查收！]]></text></b>
+    <b id = "23102"><title><![CDATA[任务集市礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您完成了<font color='#86FF05'>【~str】</font>，系统奖励已通过该信件发放，请点击“提取附件”按钮提取！]]></text></b>
+    <b id = "23192"><title><![CDATA[蓝钻礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您开通/续费蓝钻包月服务，奖励已通过该信件发放，请点击“提取附件”按钮提取！<br/>奖励规则：<br/>单笔开通>=12个月，赠送蓝钻极致礼包：游戏币1500+蓝钻包月大礼包×1 <br/>单笔开通>=6个月，赠送蓝钻奢华礼包：游戏币700+蓝钻包月大礼包×1 <br/>单笔开通>=1个月，赠送蓝钻豪华礼包：游戏币100+蓝钻包月大礼包×1]]></text></b>
+    <b id = "23103"><title><![CDATA[蓝钻礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您开通/续费蓝钻包月服务，系统奖励已通过该信件发放，请点击“提取附件”按钮提取！]]></text></b>
+    <b id = "23104"><title><![CDATA[黄钻礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您开通/续费黄钻包月服务，奖励已通过该信件发放，请点击“提取附件”按钮提取！<br/>奖励规则：<br/>单笔开通>=12个月，赠送黄钻极致礼包：游戏币1500+黄钻包月大礼包×1 <br/>单笔开通>=6个月，赠送黄钻奢华礼包：游戏币700+黄钻包月大礼包×1 <br/>单笔开通>=1个月，赠送黄钻豪华礼包：游戏币100+黄钻包月大礼包×1]]></text></b>
+    <b id = "23105"><title><![CDATA[黄钻礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您开通/续费黄钻包月服务，系统奖励已通过该信件发放，请点击“提取附件”按钮提取！]]></text></b>
+    <b id = "23106"><title><![CDATA[粉钻礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您开通/续费粉钻包月服务，奖励已通过该信件发放，请点击“提取附件”按钮提取！<br/>奖励规则：<br/>单笔开通>=12个月，赠送粉钻极致礼包：游戏币1500+粉钻包月大礼包×1 <br/>单笔开通>=6个月，赠送粉钻奢华礼包：游戏币700+粉钻包月大礼包×1 <br/>单笔开通>=1个月，赠送粉钻豪华礼包：游戏币100+粉钻包月大礼包×1]]></text></b>
+    <b id = "23107"><title><![CDATA[粉钻礼包]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    感谢您开通/续费粉钻包月服务，系统奖励已通过该信件发放，请点击“提取附件”按钮提取！]]></text></b>
+    <b id = "23201"><title><![CDATA[角色死亡通知]]></title>
+                <text><![CDATA[<font color='#FF0000'>你被</font><font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font><font color='#FF0000'>玩家击杀！</font><a href='event:link#10112,~num'><font color='#86ff05'><u>战斗力对比</u></font></a><br/>温馨提示：PK值为0的玩家每天可前往<a href='event:gotoNpc#40000120'><font color='#86ff05'><u>林青儿</u></font></a>处领取“女娲守护”，获得3个小时PK保护，保护期间不会受到玩家攻击喔  <a href='event:link#12409'><font color='#86ff05'><u>详情点击</u></font></a>]]></text></b>
+    <b id = "23401"><title><![CDATA[任务奖励]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>        你的背包已满，现在将任务获得的奖励通过信件的形式发送给你，请注意查收，同时请注意背包使用情况。<br/>]]></text></b>
+    <b id = "24101"><title><![CDATA[充值成功通知]]></title>
+                <text><![CDATA[尊敬的 ~str: <br/>   你通过充值获得 ~num 元宝]]></text></b>
+    <b id = "24102"><title><![CDATA[首次消费礼包]]></title>
+                <text><![CDATA[亲爱的[~str]：<br/>      您好！恭喜您在本服进行第一次消费，您可以点击右上角的“首次消费”图标领取价值1888元宝的【首次消费大礼包】1个。 <br/><br/> <a href='event:link#11801'><u><font color='#FFFF00'>点此进入，领取礼包！</font></u></a><br/><p align='right'>《~str》 运营团队<\p><br/><p align='right'>~num年~num月~num日<\p><p align='left'><\p>]]></text></b>
+    <b id = "25301"><title><![CDATA[成就排行榜通知]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    非常遗憾，您成就第一的尊贵荣誉被[<font color='#FFFF00'>~str</font>]抢走了，赶快完成新成就，超越他吧!<a href='event:link#13302'><u><font color='#00FF00'>查看详情</font></u></a><font color='#a59772'>]]></text></b>
+    <b id = "25302"><title><![CDATA[成就奖励]]></title>
+                <text><![CDATA[通过成就获得道具]]></text></b>
+    <b id = "25501"><title><![CDATA[寻宝奖励]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>     这是你在【六界寻宝】获得的宝贝，由于你背包已满，先通过邮件发送奖品，请注意查收！同时请清理背包，以免造成不必要的损失！  ]]></text></b>
+    <b id = "26001"><title><![CDATA[奴隶市场通知]]></title>
+                <text><![CDATA[你被奴役的时间已过期，系统自动将你释放了，详情请点击<a href='event:link#12702'><u><font color='#86ff05'>奴隶市场</font></u></a>查看]]></text></b>
+    <b id = "26002"><title><![CDATA[奴隶市场通知]]></title>
+                <text><![CDATA[你的奴隶主<font color='#fdeab9'>~str</font>将你释放了，详情请点击<a href='event:link#12702'><u><font color='#86ff05'>奴隶市场</font></u></a>查看]]></text></b>
+    <b id = "26003"><title><![CDATA[奴隶市场通知]]></title>
+                <text><![CDATA[你被抓捕了，成为了<font color='#fdeab9'>~str</font>的奴隶，详情请点击<a href='event:link#12702'><u><font color='#86ff05'>奴隶市场</font></u></a>查看]]></text></b>
+    <b id = "26004"><title><![CDATA[奴隶市场通知]]></title>
+                <text><![CDATA[你的奴隶被<font color='#fdeab9'>~str</font>抢走了，详情请点击<a href='event:link#12702'><u><font color='#86ff05'>奴隶市场</font></u></a>查看]]></text></b>
+    <b id = "26005"><title><![CDATA[奴隶市场通知]]></title>
+                <text><![CDATA[你被盟友<font color='#fdeab9'>~str</font>从奴隶主的手中解救了，重回自由身，详情请点击<a href='event:link#12702'><u><font color='#86ff05'>奴隶市场</font></u></a>查看]]></text></b>
+    <b id = "27001"><title><![CDATA[回魂仙梦自动扫关掉落]]></title>
+                <text><![CDATA[回魂仙梦自动扫关第~num-~num关奖励已通过该信件发放，请点击“提取附件”按钮提取！（该信件只保存7天）]]></text></b>
+    <b id = "27601"><title><![CDATA[偶遇财神奖励]]></title>
+                <text><![CDATA[由于您的背包已满，偶遇财神的奖励通过信件发放，请查收]]></text></b>
+    <b id = "27701"><title><![CDATA[安全锁开启通知]]></title>
+                <text><![CDATA[    您的安全锁功能已开启，请点击主界面右上方安全锁图标设置安全码进行保护！<a href='event:link#13601'><font color='#86ff05'><u>设置安全码</u></font></a>]]></text></b>
+    <b id = "28201"><title><![CDATA[好友请求奖励]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>仙友</font>]：<br/>      您的请求得到了[<font color='#FFFF00'>~str</font>]响应，奖励在此，请查收。<br/>]]></text></b>
+    <b id = "28401"><title><![CDATA[炼石补天奖励]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>       恭喜本服炼石补天积累的补天石碎片数量达到150000，所有人获得3次奖励机会，请<a href='event:link#14001'><u><font color='#00FF00'>前往领取</font></u></a><br/>]]></text></b>
+    <b id = "28402"><title><![CDATA[炼石补天奖励]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>        你的背包已满，现在将炼石补天获得的奖励通过信件的形式发送给你，请注意查收，同时请注意背包使用情况。<br/>]]></text></b>
+    <b id = "28501"><title><![CDATA[虚天盒子奖励]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>        你的背包已满，现在将虚天盒子抽奖获得的奖励通过信件的形式发送给你，请注意查收，同时请注意背包使用情况。<br/>]]></text></b>
+    <b id = "28701"><title><![CDATA[切水果小游戏奖励]]></title>
+                <text><![CDATA[你刀法娴熟，在切水果小游戏中勇夺高分，获得珍贵奖励]]></text></b>
+    <b id = "28702"><title><![CDATA[小游戏排行奖励]]></title>
+                <text><![CDATA[恭喜您在本周的小游戏排行版中位列前3，系统奖励已通过信件发放。]]></text></b>
+    <b id = "28703"><title><![CDATA[收益结算]]></title>
+                <text><![CDATA[    你在天天爱烹饪的捕鱼达人小游戏过程中离线，已为你结算收益，本次获得仙币：~str，<a href='event:fish'><u><font color='#00FF00'>提取</font></u></a>。]]></text></b>
+    <b id = "40401"><title><![CDATA[采集物掉落]]></title>
+                <text><![CDATA[由于您的背包已满，您采集的~str通过邮件发还给您，请注意查收！]]></text></b>
+    <b id = "40601"><title><![CDATA[世界BOSS掉落]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>    你在参与诛灭[~str]时，由于背包已满，无法即时获取奖励，现为你补发<a href='event:itemType#~num'><u>~str</u></a>。]]></text></b>
+    <b id = "40701"><title><![CDATA[~str掉落遗失]]></title>
+                <text><![CDATA[    由于您在~str未能及时拾取掉落道具，现以信件附件形式送回给您，请点击“提取附件”按钮领取到背包<br/><br/><font color='#fdeab9'>温馨提示：<br/>    道具掉落的一分钟内有归属保护。<br/>    副本结束时，如果有归属的道具未被拾取，道具会已信件形式发送。</font>]]></text></b>
+    <b id = "40702"><title><![CDATA[厨神令快速完成掉落]]></title>
+                <text><![CDATA[厨神令快速完成奖励已通过该信件发放，请点击“提取附件”按钮提取！（该信件只保存7天）]]></text></b>
+    <b id = "40801"><title><![CDATA[凤鸣棋谷宝箱掉落]]></title>
+                <text><![CDATA[凤鸣棋谷宝箱掉落宝物以信件发放，请点击“提取附件”按钮领取到背包]]></text></b>
+    <b id = "40901"><title><![CDATA[天绝斗法王者奖励]]></title>
+                <text><![CDATA[恭喜您成为本次天绝斗法周六冠军，特赠送王者的标志--黄金圣甲 ]]></text></b>
+    <b id = "40902"><title><![CDATA[天绝斗法参与奖励]]></title>
+                <text><![CDATA[感谢你在天绝斗法活动中积极斗法，特奖励 ~str，请注意查收！]]></text></b>
+    <b id = "41001"><title><![CDATA[修罗战场参与奖励]]></title>
+                <text><![CDATA[鉴于你在修罗战场中表现不凡，特奖励 ~str，请注意查收！  ]]></text></b>
+    <b id = "41011"><title><![CDATA[破碎星空活动奖励]]></title>
+                <text><![CDATA[神功盖世的你成功守住了紫微之魂，特奖励~str×1，请注意查收！]]></text></b>
+    <b id = "41012"><title><![CDATA[破碎星空活动奖励]]></title>
+                <text><![CDATA[感谢你参与破碎星空活动，特奖励~str×1，请注意查收！]]></text></b>
+    <b id = "50001"><title><![CDATA[好友改名通知]]></title>
+                <text><![CDATA[你的好友~str正式改名为~str！]]></text></b>
+    <b id = "50002"><title><![CDATA[仇人改名通知]]></title>
+                <text><![CDATA[你的仇人~str正式改名为~str！]]></text></b>
+    <b id = "50301"><title><![CDATA[退出仙盟通知]]></title>
+                <text><![CDATA[亲爱的[~str]：<br/>      你已经退出~str仙盟，请先退出仙宠盟战自动报名，并重新进行报名。<a href='event:link#11602'><font color='#86FF05'><u>我要报名</u></font></a>]]></text></b>
+    <b id = "50302"><title><![CDATA[仙宠盟战幸运奖励]]></title>
+                <text><![CDATA[     恭喜你成为周六仙宠盟战幸运奖获奖者！特奖励 ~str ×1，请注意查收！]]></text></b>
+    <b id = "50311"><title><![CDATA[仙宠盟战奖励]]></title>
+                <text><![CDATA[     恭喜你在仙宠盟战中荣获第1名，系统特奖励~str，点击<a href='event:link#11603'><u><font color='#86ff05'>查看战报</font></u></a>！（第1、3、6、9名可获大奖）<br/><a><font color='#fff000'>    （每周六仙宠盟战，奖励更丰厚！前10名均有大奖！更有幸运奖大放送！幸运奖将在所有参与的玩家中，随机抽取一名并奖励【神宠宝盒】1个！<a href='event:link#11604'><u><font color='#86ff05'>查看详细信息</font></u></a>第1、2、3名更可分别获《御宠帝尊》、《御宠霸主》、《御宠新星》王者称号！）</font></a>]]></text></b>
+    <b id = "50312"><title><![CDATA[仙宠盟战奖励]]></title>
+                <text><![CDATA[     你在仙宠盟战中遭遇强敌，止步于第~num名，系统特奖励~str，点击<a href='event:link#11603'><u><font color='#86ff05'>查看战报</font></u></a>！（第1、3、6、9名可获大奖）<br/><a><font color='#fff000'>    （每周六仙宠盟战，奖励更丰厚！前10名均有大奖！更有幸运奖大放送！幸运奖将在所有参与的玩家中，随机抽取一名并奖励【神宠宝盒】1个！<a href='event:link#11604'><u><font color='#86ff05'>查看详细信息</font></u></a> 第1、2、3名更可分别获《御宠帝尊》、《御宠霸主》、《御宠新星》王者称号！）</font></a>]]></text></b>
+    <b id = "50321"><title><![CDATA[仙盟战至尊奖励]]></title>
+                <text><![CDATA[恭喜你所在的仙盟成为仙盟战至尊仙盟，荣获第一！特奖励~str×1！]]></text></b>
+    <b id = "50322"><title><![CDATA[仙盟战小组赛胜者奖励]]></title>
+                <text><![CDATA[恭喜你所在的仙盟在仙盟战小组赛中胜出，特奖励~str，请注意查收！]]></text></b>
+    <b id = "50401"><title><![CDATA[仙盟改名通知]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>仙友</font>]：<br/>    恭喜您所在的仙盟已正式改名为[<font color='#FFFF00'>~str</font>]~str!<br/>]]></text></b>
+    <b id = "50402"><title><![CDATA[仙盟QQ群绑定通知]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    恭喜您首次为[<font color='#FFFF00'>~str</font>]绑定QQ群，系统已自动发放奖励：~num仙盟经验，您可以在仙盟面板中查看。<br/>]]></text></b>
+    <b id = "50403"><title><![CDATA[仙盟系统通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>     你已经与~str仙盟脱离关系，请联系盟主或继续<a href='event:link#10701'><font color='#86FF05'><u>申请加入</u></font></a>其他仙盟！]]></text></b>
+    <b id = "50404"><title><![CDATA[仙盟合并通知]]></title>
+                <text><![CDATA[仙盟[~str]与仙盟[~str]正式合并为仙盟[~str]，如此强强联合，谁能与之争锋！]]></text></b>
+    <b id = "50411"><title><![CDATA[新手之家]]></title>
+                <text><![CDATA[    亲爱的[~str]，五天过去了，您是否在这里过的还愉快呢？加入仙盟不但能接触更多功能，玩法，还可以认识更多的朋友。新手之家仙盟祝您早日找到自己的组织，认识更多的朋友。<font color='#FFFF00'>由于您加入新手之家仙盟的时间已经超过5天，您已经退出了新手之家仙盟，您可以加入其它仙盟。</font>]]></text></b>
+    <b id = "50412"><title><![CDATA[新手之家]]></title>
+                <text><![CDATA[    亲爱的[~str]，欢迎加入新手之家仙盟的大家庭，加入仙盟后可以参与“仙盟任务”和“仙盟摇钱树”活动。完成活动可以赚钱大量经验值，灵气，仙盟贡献度。创建自己的仙盟或者加入其它玩家创建的仙盟可以参与“仙宠盟战”、“仙盟boss”等活动，还可以拥有更高仙盟职位，领取丰厚仙盟福利！<font color='#FFFF00'>请大家早日寻找自己的组织，五天后将自动退出新手之家，届时若还没有自己的组织则不能参与仙盟相关的活动啦。</font>]]></text></b>
+    <b id = "50413"><title><![CDATA[新手之家]]></title>
+                <text><![CDATA[    亲爱的[~str]，您加入了[~str]仙盟，从此展开新的旅途，新手之家仙盟祝您在新的组织中开心快乐，宏图大展。]]></text></b>
+    <b id = "50421"><title><![CDATA[仙盟仓库]]></title>
+                <text><![CDATA[]]></text></b>
+    <b id = "50701"><title><![CDATA[解除情缘关系通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>   <font color='#fdeab9'>~str</font>已与您解除关系，并按公证分配共同财产，慢慢修仙路，再觅良缘吧。<br/>   情缘值：~str：~num  ~str：~num<br/>   甜蜜度：~str：~num  ~str：~num<br/>   浪漫小屋豪华度：~str：~num  ~str：~num<br/>   情缘技能：<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>]]></text></b>
+    <b id = "50702"><title><![CDATA[解除情缘关系通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>   <font color='#fdeab9'>~str</font>已与您解除关系，财产全部归你，慢慢修仙路，再觅良缘吧。<br/>   情缘值：~str：~num  ~str：~num<br/>   甜蜜度：~str：~num  ~str：~num<br/>   浪漫小屋豪华度：~str：~num  ~str：~num<br/>   情缘技能：<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>]]></text></b>
+    <b id = "50703"><title><![CDATA[解除情缘关系通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>   <font color='#fdeab9'>~str</font>已与您解除关系，财产全部归对方，慢慢修仙路，再觅良缘吧。<br/>   情缘值：~str：~num  ~str：~num<br/>   甜蜜度：~str：~num  ~str：~num<br/>   浪漫小屋豪华度：~str：~num  ~str：~num<br/>   情缘技能：<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>]]></text></b>
+    <b id = "50704"><title><![CDATA[强制解除情缘关系通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>   <font color='#fdeab9'>~str</font>已强制与您解除关系，并按公证分配共同财产，慢慢修仙路，再觅良缘吧。<br/>   情缘值：~str：~num  ~str：~num<br/>   甜蜜度：~str：~num  ~str：~num<br/>   浪漫小屋豪华度：~str：~num  ~str：~num<br/>   情缘技能：<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>]]></text></b>
+    <b id = "50705"><title><![CDATA[强制解除情缘关系通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>   <font color='#fdeab9'>~str</font>已强制与您解除关系，财产全部归你，慢慢修仙路，再觅良缘吧。<br/>   情缘值：~str：~num  ~str：~num<br/>   甜蜜度：~str：~num  ~str：~num<br/>   浪漫小屋豪华度：~str：~num  ~str：~num<br/>   情缘技能：<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>]]></text></b>
+    <b id = "50706"><title><![CDATA[强制解除情缘关系通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>   <font color='#fdeab9'>~str</font>已强制与您解除关系，财产全部归对方，慢慢修仙路，再觅良缘吧。<br/>   情缘值：~str：~num  ~str：~num<br/>   甜蜜度：~str：~num  ~str：~num<br/>   浪漫小屋豪华度：~str：~num  ~str：~num<br/>   情缘技能：<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>       ~str：~str：~num  ~str：~num<br/>]]></text></b>
+    <b id = "50707"><title><![CDATA[情缘财产公证通知]]></title>
+                <text><![CDATA[亲爱的玩家：<br/>    恭喜您与<font color='#fdeab9'>~str</font>结为仙侣，由于你们有冻结的财产，结缘后取两人中最高那份进行覆盖：<br/>    情缘值：~num （~str：~num  ~str：~num）<br/>    甜蜜度：~num （~str：~num  ~str：~num）<br/>    浪漫小屋豪华度：~num （~str：~num  ~str：~num）<br/>    情缘技能：<br/>        ~str~num级（~str：~num  ~str：~num）<br/>        ~str~num级（~str：~num  ~str：~num）<br/>        ~str~num级（~str：~num  ~str：~num）<br/>        ~str~num级（~str：~num  ~str：~num）<br/>        ~str~num级（~str：~num  ~str：~num）<br/>]]></text></b>
+    <b id = "50708"><title><![CDATA[婚宴竞拍结果通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>    今日婚宴竞拍结束，由[~str]竞拍获得，明天的婚宴将由[~str]&[~str]举行，让我们一起祝福他们吧！]]></text></b>
+    <b id = "50709"><title><![CDATA[成功竞拍婚宴通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>     恭喜你获得~str 婚宴举办资格，婚宴共分为3个阶段:<br/>     8:00—13:00<br/>     装扮璇玑城，让璇玑城充满浪漫;<br/>     13:01—18:00<br/>     婚宴巡游，每次婚宴可举办一次，时长为5分钟;<br/>     18:01—22:00<br/>     大摆筵席，让其他玩家一起来分享这份快乐!]]></text></b>
+    <b id = "50710"><title><![CDATA[成功竞拍婚宴通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>    恭喜你获得~str的婚宴举办资格，请做好准备，祝一生一世！你的竞拍价格为：~num,<br/>当拍卖价格≥350元宝时，赠送婚宴巡游一次；<br/>当拍卖价格≥350元宝时，赠送结婚时装一套；<br/>当拍卖价格≥520元宝时，继续赠送璇玑城装扮一次;<br/>当拍卖价格≥799元宝时，再赠送大摆筵席两次。]]></text></b>
+    <b id = "50711"><title><![CDATA[婚宴竞拍通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>    已有人在婚宴竞拍中出价比你更高，返还婚宴竞拍金额：~num元宝。<a href='event:link#13201'><u><font color='#00FF00'>继续竞拍</font></u></a>]]></text></b>
+    <b id = "51101"><title><![CDATA[仙侣活动奖励]]></title>
+                <text><![CDATA[恭喜您在恋爱飞行活动或获得了第~num名的好成绩，由于活动结束后您没有正常的领取奖励，系统已将情缘值、甜蜜度自动添加，道具也已通过附件发放，请注意查收。]]></text></b>
+    <b id = "51102"><title><![CDATA[仙侣活动奖励]]></title>
+                <text><![CDATA[恭喜您在恋爱飞行活动或获得了第~num名的好成绩，由于活动结束后您没有正常的领取奖励，系统已将亲密度自动添加。<br/>温馨提示：成为仙侣可以获得海量奖励，快快向你心仪的ta表白吧~~<a href='event:link#12410'><font color='#86FF05'><u>我要结婚</u></font></a>]]></text></b>
+    <b id = "51401"><title><![CDATA[市场售出物品通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>    您在市场已经成功售出~str，获得~str，<a href='event:link#10902'><u><font color='#00FF00'>前往提取</font></u></a>。<br/><br/><br/><br/><br/><br/><font color='#a59772'>提示：网络卡时，到账可能会有所延迟，请稍候查收</font>]]></text></b>
+    <b id = "51501"><title><![CDATA[寒冰排行榜通知]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    太厉害啦！您居然获得昨日护送寒冰第一的“六界快送”尊贵荣誉！ <a href='event:link#11202,15002'><u><font color='#00FF00'>查看详情</font></u></a><br/><br/><br/><br/><br/><br/><font color='#a59772'>]]></text></b>
+    <b id = "51502"><title><![CDATA[寒冰排行榜通知]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>    非常遗憾，您寒冰第一的尊贵荣誉被[<font color='#FFFF00'>~str</font>]抢走了，赶快来超越他吧!<a href='event:link#11202,15002'><u><font color='#00FF00'>查看详情</font></u></a><br/><br/><br/><br/><br/><br/><font color='#a59772'>]]></text></b>
+    <b id = "51503"><title><![CDATA[护送寒冰奖励]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>     恭喜您完成~str护送寒冰任务，获得寒冰精灵的额外嘉奖！]]></text></b>
+    <b id = "51701"><title><![CDATA[答题奖励]]></title>
+                <text><![CDATA[你获得了本周答题的状元奖]]></text></b>
+    <b id = "51702"><title><![CDATA[答题奖励]]></title>
+                <text><![CDATA[你本次答题前十名，获得了文曲星奖励]]></text></b>
+    <b id = "51703"><title><![CDATA[答题奖励]]></title>
+                <text><![CDATA[你获得了本次答题的幸运奖]]></text></b>
+    <b id = "51704"><title><![CDATA[答题奖励]]></title>
+                <text><![CDATA[你本次答题第~num名，获得了额外大奖]]></text></b>
+    <b id = "51705"><title><![CDATA[答题活动特殊奖励]]></title>
+                <text><![CDATA[你获得了本次答题活动的特殊奖]]></text></b>
+    <b id = "51706"><title><![CDATA[答题结果通知]]></title>
+                <text><![CDATA[亲爱的仙友：<br/>    您在答题活动中得到积分：~num,获得~num铜钱]]></text></b>
+    <b id = "52401"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[获得道具，请领取附件。]]></text></b>
+    <b id = "52402"><title><![CDATA[食材交换]]></title>
+                <text><![CDATA[你与好友[~str]完成了一次食材交换，交换如下：<br/>失去[~str]<br/>获得[~str].]]></text></b>
+    <b id = "52403"><title><![CDATA[货柜空间不足]]></title>
+                <text><![CDATA[<br/>你的货柜空间不足，剩余交换食材通过信件发送，请注意接收~<br/>[~str]]]></text></b>
+    <b id = "52404"><title><![CDATA[烹饪小游戏获得]]></title>
+                <text><![CDATA[<br/>你玩小游戏中途突然掉线或货架满，获得奖励通过信件发送，请注意接收~<br/>[~str]]]></text></b>
+    <b id = "52405"><title><![CDATA[烹饪偶遇事件获得]]></title>
+                <text><![CDATA[<br/>见证:怦然心动的遇见.<br/>[~str]]]></text></b>
+    <b id = "52406"><title><![CDATA[烹饪拾取事件获得]]></title>
+                <text><![CDATA[<br/>仙盟成员助你完成了拾取事件，你获得:[~str]]]></text></b>
+    <b id = "52407"><title><![CDATA[烹饪帮助事件获得]]></title>
+                <text><![CDATA[<br/>恭喜你完成了帮助事件，获得:<br/>[~str]]]></text></b>
+    <b id = "52408"><title><![CDATA[烹饪成功]]></title>
+                <text><![CDATA[<br/>恭喜您烹饪成功，请及时提取您的美食。]]></text></b>
+    <b id = "52409"><title><![CDATA[礼包福利]]></title>
+                <text><![CDATA[<br/>恭喜您开启礼包成功，请查看您的货架。<br/>[~str]]]></text></b>
+    <b id = "52410"><title><![CDATA[烹饪拾取事件获得]]></title>
+                <text><![CDATA[<br/>完成拾取事件，你获得:<br/>[~str]]]></text></b>
+    <b id = "52411"><title><![CDATA[烹饪拾取事件获得]]></title>
+                <text><![CDATA[<br/>盟外人员助你完成了拾取事件，你获得:[~str]]]></text></b>
+    <b id = "52501"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[经过仙盟成员的不懈努力，食材BOSS被成功击杀，你获得了珍贵食材]]></text></b>
+    <b id = "52502"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[你成功完成了对食材BOSS的最后一击，获得了珍贵食材]]></text></b>
+    <b id = "52503"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[你的奋力一击使食材BOSS血量低于50%，获得了珍贵食材]]></text></b>
+    <b id = "60001"><title><![CDATA[仙盟合并通知]]></title>
+                <text><![CDATA[由于您的仙盟与其他仙盟重名，系统已处理您仙盟的名字，同时赠予您一次仙盟改名的机会，请注意查收【仙盟改名卡】。]]></text></b>
+    <b id = "60002"><title><![CDATA[合服好友更新通知]]></title>
+                <text><![CDATA[  您的部分跨服好友即将与你合为同一个服，但由于您的好友名单已达上限，所以这些跨服好友将无法转化为本服好友，且会被删除，名单如下：~str。请合服后自行处理。]]></text></b>
+    <b id = "60003"><title><![CDATA[合服仇人更新通知]]></title>
+                <text><![CDATA[  您的部分跨服仇人即将与你合为同一个服，但由于您的仇人名单已达上限，所以这些跨服仇人将无法转化为本服仇人，且会被删除，名单如下：~str。请合服后自行处理。]]></text></b>
+    <b id = "60201"><title><![CDATA[發放獎勵]]></title>
+                <text><![CDATA[    感謝您對本遊戲的支持，獎勵已經發放，請查收！]]></text></b>
+    <b id = "60301"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[系统赠送了你 ~num个 [~str]元宝，原因为:~str。GM赠送。]]></text></b>
+    <b id = "60302"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[系统赠送了你 ~num枚 [~str] 铜钱，原因为:~str。GM赠送。]]></text></b>
+    <b id = "60303"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[系统扣除了你 ~num个 [~str] 元宝，原因为:~str。GM扣除。]]></text></b>
+    <b id = "60304"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[系统扣除了你 ~num枚 [~str] 铜钱，原因为:~str。GM扣除。]]></text></b>
+    <b id = "60305"><title><![CDATA[系统信件]]></title>
+                <text><![CDATA[亲爱的[<font color='#FFFF00'>~str</font>]：<br/>      您好！<br/>      感谢您对我们的支持，系统赠送【~str】×~num给您，请领取附件。]]></text></b>
+    <b id = "60306"><title><![CDATA[你问我答奖励获得]]></title>
+                <text><![CDATA[由于您的背包已满，您在你问我答中获得奖励，通过邮件发送给您，请注意查收！]]></text></b>
+</letter>

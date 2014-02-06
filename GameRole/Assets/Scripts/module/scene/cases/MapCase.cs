@@ -42,7 +42,7 @@ namespace module.scene.cases
 
         override protected void initListeners() {
 			addSocketListener<m_map_enter_toc>(SocketCommand.MAP_ENTER, onEnter); //人物进地图
-            //addSocketListener(SocketCommand.MAP_ENTER, onEnter);
+            addSocketListener<m_map_slice_enter_toc>(SocketCommand.MAP_SLICE_ENTER, onSliceEnter); //跨Slice
             addSocketListener<m_map_change_map_toc>(SocketCommand.MAP_CHANGE_MAP, onChangMap); //请求进地图返回
 
             ////////////////////////
@@ -104,7 +104,7 @@ namespace module.scene.cases
 
         protected void onEnter(m_map_enter_toc vo)
         {
-//			GameTracer.traces("=========onEnter" + vo.map_id);
+			Debug.Log("=========onEnter" + vo.map_id);
 			if (SceneDataManager.isGaming == false) {
 				return; //地图没切换完毕，忽略此消息
 			}
@@ -167,6 +167,30 @@ namespace module.scene.cases
 			}
 			view.reset();
 		}
+
+        private void onSliceEnter(m_map_slice_enter_toc vo)
+        {
+            if (SceneDataManager.isGaming == false) {
+				return;
+			}
+			/////////////////下面是退出的单位///////////////////////////
+            int i = 0;
+			for (i = 0; i < vo.del_roles.Length; i++) { //排除自己
+				if ((double)vo.del_roles[i] != GlobalData.getInstance().user.base2.role_id) {
+                    view.removeUnit((double)vo.del_roles[i]);
+				}
+			}
+			for (i = 0; i < vo.del_monsters.Length; i++) {
+                view.removeUnit((double)vo.del_monsters[i], SceneUnitType.MONSTER_TYPE);
+			}
+			/////////////////下面是进入的单位///////////////////////////
+			for (i = 0; i < vo.roles.Length; i++) {
+				roleEnter(vo.roles[i] as p_map_role);
+			}
+			for (i = 0; i < vo.monsters.Length; i++) {
+				monsterEnter(vo.monsters[i] as p_map_monster);
+			}
+        }
 
 		// enterType1、普通 2、冲锋,3复活，4，击退
 		private void roleEnter(p_map_role vo) {

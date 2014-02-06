@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<broadcast>
+	<b id = "20001"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>开启~str，幸运地获得了~str。<a href='event:link#12601'><font color='#86FF05'><u>【我要参加】</u></font></a>。]]></msg></b>
+	<b id = "20002"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>化身雪神，洒下漫天雪绒花，现在找他组队有惊喜哦]]></msg></b>
+	<b id = "20401"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在<a href='event:link#11001'><font color='#00FF00'><u>商城</u></font></a>抢购了<a href='event:itemType#~num'><u>~str</u></a>，现只剩下<font color='#00FF00'>~num</font>个，大家赶紧抢购！<a href='event:quickbuy#~num,~num'><font color='#00FF00'><u>【我也要抢】</u></font></a>]]></msg></b>
+	<b id = "20501"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>将~str强化到~num级~num星，已经无人匹敌了！<a href='event:link#10601'><font color='#86FF05'><u>【我要强化】</u></font></a>]]></msg></b>
+	<b id = "20502"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>炼制了~str，实力再进一步！<a href='event:link#10609'><font color='#86FF05'><u>【我也要炼制】</u></font></a>]]></msg></b>
+	<b id = "20503"><msg><![CDATA[真厉害， <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在~str附魂中刷出了~num级的属性，装备属性得到极大提升，<a href='event:link#10602'><font color='#86FF05'><u>【我也要附魂】</u></font></a>]]></msg></b>
+	<b id = "21201"><msg><![CDATA[翼神下凡，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>将~str提升到~str境界！]]></msg></b>
+	<b id = "21601"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>获得了资质为<font color='#FF9600'>~num</font>的仙宠<a href='event:pet_info:~num'><u>~str</u></a>，谁能与之争锋!]]></msg></b>
+	<b id = "21901"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>的仙宠在使用招财技能时，获得了<font color='#ec00ec'>~num元宝</font>，运气真好啊！]]></msg></b>
+	<b id = "21902"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>的仙宠在使用进宝技能时，获得了~str，运气真好啊！]]></msg></b>
+	<b id = "22001"><msg><![CDATA[哇！恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>成功猎到橙色兽魂<a href='event:showPetSoul#~num,~num'><u>~str</u></a>  <a href='event:link#10403'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "22002"><msg><![CDATA[哇！恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>成功兑换兽魂<a href='event:showPetSoul#~num,~num'><u>~str</u></a>  <a href='event:link#10104'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "22101"><msg><![CDATA[哇，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>Lv~num战胜幻兽天境第<font color='#ed21ff'>~num</font>关霸主<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>Lv~num，成为该关新霸主，一段传奇就此开始！<a href='event:link#11601'><font color='#86FF05'><u>【我要闯关】</u></font></a>]]></msg></b>
+	<b id = "22102"><msg><![CDATA[哇，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>Lv~num成功霸占幻兽天境第<font color='#ed21ff'>~num</font>关，霸者降临，万人敬仰！<a href='event:link#11601'><font color='#86FF05'><u>【我要闯关】</u></font></a>]]></msg></b>
+	<b id = "22103"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在幻兽天境中获得仙宠~str，运气真好啊！<a href='event:link#11601'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "22104"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在幻兽天境中闯过第~num关获得仙宠~str，运气真好啊！<a href='event:link#11601'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "22801"><msg><![CDATA[天降异象，众仙膜拜，原来是<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>晋升为~str，无限特权，尽在其手！<a href='event:link#11401'><font color='#86FF05'><u>【成为仙尊】</u></font></a>]]></msg></b>
+	<b id = "22802"><msg><![CDATA[尊贵的~str<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>领取了每日仙尊福利：~num绑定元宝！<a href='event:link#11401'><font color='#86FF05'><u>【成为仙尊】</u></font></a>]]></msg></b>
+	<b id = "22803"><msg><![CDATA[尊贵的~str<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>领取了每周六的仙尊福利：~num绑定铜钱！<a href='event:link#11401'><font color='#86FF05'><u>【成为仙尊】</u></font></a>]]></msg></b>
+	<b id = "23701"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>完成点梦成金任务，获得10倍的元宝奖励，<a href='event:link#~num'><font color='#86ff05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "23702"><msg><![CDATA[逆天了，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在点梦成金任务中，获得了~num倍的元宝奖励，<a href='event:link#~num'><font color='#86ff05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "24001"><msg><![CDATA[哇,<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>每日完成度达到了<font color='#ed21ff'>11</font>，获得了~str、<font color='#ed21ff'>4绑定元宝</font>。 <a href='event:link#11101'><font color='#86FF05'><u>【查看完成度】</u></font></a>]]></msg></b>
+	<b id = "24101"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>开启<a href='event:itemType#~num'><font color='#FF00FC'><u>~str</u></font></a>，免费获得了~str ，真是赚到了！<a href='event:link#11801'><font color='#00ff00'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "24601"><msg><![CDATA[哇， <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>人品大爆发！从神宠宝盒中开到稀世珍品~str]]></msg></b>
+	<b id = "24602"><msg><![CDATA[哇！玩家【<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>】开启龙虎榜元宝礼包，获得~str ，一秒变土豪！<a href='event:link#15002'><font color='#86ff05'><u>【马上参与】</u></font></a>]]></msg></b>
+	<b id = "25501"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>竟然在六界寻宝中获得了~str，运气太好了！<a href='event:link#11701'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "25601"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在神秘商店中兑换了~str，实力突飞猛进！<a href='event:link#11702'><font color='#86FF05'><u>【我要兑换】</u></font></a>]]></msg></b>
+	<b id = "25901"><msg><![CDATA[哇，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在玄天秘境中探险时获得~str ，运气实在太好了！<a href='event:link#12801'><font color='#86ff05'><u>【我要探险】</u></font></a>]]></msg></b>
+	<b id = "26101"><msg><![CDATA[哇！神秘人物向<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>赠送了~str，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>好幸福啊！]]></msg></b>
+	<b id = "26111"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>9朵粉玫瑰，花香犹如春风的吟唱]]></msg></b>
+	<b id = "26112"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>9朵粉玫瑰，春花烂漫挂枝头，好不美妙！(*^__^*)]]></msg></b>
+	<b id = "26113"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>9朵粉玫瑰，表达了一份暖暖的关怀！]]></msg></b>
+	<b id = "26114"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>9朵粉玫瑰，愿鲜花带给TA每天好心情！ ]]></msg></b>
+	<b id = "26121"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>99朵漂亮的粉玫瑰，落英缤纷，好浪漫呀o(≧v≦)o]]></msg></b>
+	<b id = "26122"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>99朵漂亮的粉玫瑰，花海犹如倾诉不尽的浪漫情怀！]]></msg></b>
+	<b id = "26123"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>99朵漂亮的粉玫瑰，祝TA幸福快乐每一天！]]></msg></b>
+	<b id = "26124"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>99朵漂亮的粉玫瑰，深情地诉说无尽的爱！]]></msg></b>
+	<b id = "26131"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>999朵芬芳的粉玫瑰，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>就像收到了整个春天，好幸福\(≧▽≦)/]]></msg></b>
+	<b id = "26132"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>999朵粉玫瑰，他们的爱充满了粉玫瑰般幸福的回忆]]></msg></b>
+	<b id = "26133"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>999朵高贵的粉玫瑰，许下了天长地久爱的誓言！]]></msg></b>
+	<b id = "26134"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>999朵浪漫的粉玫瑰，愿用一生，执子之手，与子偕老]]></msg></b>
+	<b id = "26135"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>送给<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>999朵纯爱粉玫瑰，对TA的爱意从春到夏，从秋到冬！]]></msg></b>
+	<b id = "27001"><msg><![CDATA[哇， <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦扫关中获得~str，真是羡慕啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "27002"><msg><![CDATA[哇，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>第一个闯过回魂仙梦第<font color='#ed21ff'>~num</font>层，实力已经前无古人，后无来者了吗！？<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "28101"><msg><![CDATA[我们的老朋友<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>回家啦！赶紧来欢迎他回来吧！ <a href='event:link#11901,~num,~str'><font color='#86FF05'><u>送TA花</u></font></a>  <a href='event:link#13703,~num'><font color='#86FF05'><u>欢迎TA</u></font></a>]]></msg></b>
+	<b id = "28401"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在炼石补天中作出了巨大贡献，特奖励~str  <a href='event:link#14001'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "28402"><msg><![CDATA[恭喜本服炼石补天积累的补天石碎片数量达到150000，所有人获得3次奖励机会，请<a href='event:link#14001'><u><font color='#00FF00'>前往领取</font></u></a>]]></msg></b>
+	<b id = "28201"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>成为了游戏达人！八折消费优惠以及更多特权，尽在游戏达人！马上成为<a href='event:link#11802'><font color='#86FF05'><u>游戏达人</u></font></a>！]]></msg></b>
+	<b id = "40601"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>率先达到~num级，为本区顺利开启~num级世界BOSS[~str]！众生膜拜啊！]]></msg></b>
+	<b id = "40602"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>对[~str]造成了大量伤害！获得了<a href='event:itemType#~num'><u>~str</u></a>！]]></msg></b>
+	<b id = "40603"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>一马当先，对[~str]造成首次伤害！获得了<a href='event:itemType#~num'><u>~str</u></a>！当真英勇无双！]]></msg></b>
+	<b id = "40604"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>奋勇一击，一举击杀了[~str]！获得了<a href='event:itemType#~num'><u>~str</u></a>！当真霸气外漏！]]></msg></b>
+	<b id = "40611"><msg><![CDATA[凶残的[紫羽玄风虎]再现人间！请各路诸神大仙火速前往玄风洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40612"><msg><![CDATA[凶残的[赤炎金猊兽]再现人间！请各路诸神大仙火速前往赤炎洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40613"><msg><![CDATA[凶残的[火云金睛猿]再现人间！请各路诸神大仙火速前往火云洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40621"><msg><![CDATA[凶残的[碧睛虎王]再现人间！请各路诸神大仙火速前往碧睛洞讨伐！ <a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40622"><msg><![CDATA[凶残的[勾魂蛇姬]再现人间！请各路诸神大仙火速前往盘蛇洞讨伐！ <a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40623"><msg><![CDATA[凶残的[执法魔君]再现人间！请各路诸神大仙火速前往修魔洞讨伐！ <a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40631"><msg><![CDATA[凶残的[狂刀鬼影]再现人间！请各路诸神大仙火速前往鬼影洞讨伐！ <a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40632"><msg><![CDATA[凶残的[锤天魔狼]再现人间！请各路诸神大仙火速前往天魔洞讨伐！ <a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40633"><msg><![CDATA[凶残的[千手妖君]再现人间！请各路诸神大仙火速前往千手洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40641"><msg><![CDATA[凶残的[玄武魔君]再现人间！请各路诸神大仙火速前往玄武洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40642"><msg><![CDATA[凶残的[青冥鬼王]再现人间！请各路诸神大仙火速前往青冥洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40643"><msg><![CDATA[凶残的[疾风影魔]再现人间！请各路诸神大仙火速前往疾风洞讨伐！<a href='event:gotoPos#~num#~num#~num'><u><font color='#86FF05'>寻路</font></u></a>]]></msg></b>
+	<b id = "40701"><msg><![CDATA[天降横财活动将在~num分钟后开始，夺宝大军已经集结在璇玑城了，<a href='event:link#11704'><font color='#86FF05'><u>【快来参加吧】</u></font></a>！]]></msg></b>
+	<b id = "40702"><msg><![CDATA[天降横财已在璇玑城开始了，晚来就吃亏了！<a href='event:link#11704'><font color='#86FF05'><u>【快来参加吧】</u></font></a>！]]></msg></b>
+	<b id = "40703"><msg><![CDATA[本次天降横财活动已结束！下次活动开始时间为下午~num:~num~num]]></msg></b>
+	<b id = "40704"><msg><![CDATA[本次天降横财活动已结束！下次活动开始时间为明天中午~num:~num~num]]></msg></b>
+	<b id = "40705"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在天降横财活动中获得~str，运气无人可比！<a href='event:link#11102'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40706"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>盖世神功，力压群雄之下夺得第15层宝箱奖励，获得~str]]></msg></b>
+	<b id = "40707"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在圣诞老人活动中，打开了圣诞袜，得到~str！<a href='event:link#11708'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40712"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 20关boss：万年树妖，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40714"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 40关boss：青蛟龙王，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40715"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 50关boss：胡青丘，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40716"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 60关boss：虎狮族族长雷霸，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40717"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 70关boss：天书之幽冥鬼王，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40718"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 80关boss：天书之伏羲化身，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40719"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在回魂仙梦副本中击败第 90关boss：千影金乌王，获得~str，运气真好啊！<a href='event:link#11501'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40721"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶副本中击杀了boss：洪荒水灵兽，获得~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40722"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶副本中击杀了boss：八眼妖君，获得~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40723"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶副本中击杀了boss：烬斧牛魔王，获得~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40724"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶副本中击杀了boss：灭世焚岩兽，获得~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40731"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶之巅副本中击杀了boss：蚀骨蛇姬，掉落了~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40732"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶之巅副本中击杀了boss：熔火之王，掉落了~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40733"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶之巅副本中击杀了boss：天煞魔皇，掉落了~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40734"><msg><![CDATA[哇！ <font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>所在的队伍在问道天阶之巅副本中击杀了boss：生命之源主，掉落了~str！<a href='event:link#11103'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "40741"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>带领的队伍配合默契，实力超群，成功守住女娲神殿（精英），获得海量经验！<a href='event:gotoNpc#40000106'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "40742"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>实力超群，一夫当关，成功守住女娲神殿（精英），获得海量经验！<a href='event:gotoNpc#40000106'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "40743"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>实力超群，一夫当关，成功守住女娲神殿（普通），获得海量经验！<a href='event:gotoNpc#40000106'><font color='#86FF05'><u>【我要参加】</u></font></a>]]></msg></b>
+	<b id = "40751"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>的棋力登峰造极，一举拿下~num分，更是创造了~num连击，留名于<a href='event:gotoNpc#40000131'><font color='#86FF05'><u>凤鸣棋谷</u></font></a>中！流芳百世！]]></msg></b>
+	<b id = "40761"><msg><![CDATA[圣诞老人~num分钟后将出现在璇玑城派送礼物，想要圣诞礼物的做好准备喔！<a href='event:link#11708'><font color='#86FF05'><u>【快来参加吧】</u></font></a>！]]></msg></b>
+	<b id = "40762"><msg><![CDATA[圣诞老人已经出现在璇玑城，开始派送圣诞礼物了喔！<a href='event:link#11708'><font color='#86FF05'><u>【快来参加吧】</u></font></a>！]]></msg></b>
+	<b id = "40763"><msg><![CDATA[本次圣诞老人活动已经结束！]]></msg></b>
+	<b id = "40901"><msg><![CDATA[天绝斗法活动正式开始！参与即可获得海量奖励，请大家火速<a href='event:link#11502'><font color='#86FF05'><u>前往参与</u></font></a>]]></msg></b>
+	<b id = "40902"><msg><![CDATA[天绝斗法活动还有~num分钟开始，参与即可获得海量奖励，请做好战斗准备！]]></msg></b>
+	<b id = "40903"><msg><![CDATA[<p align = 'center'>☆----☆----☆----☆----☆----☆</p><p align = 'center'><font size='16'>至尊战神，谁与争锋！</font></p><font color='#FFFF00'><font size='24'><u><p align = 'center'><a href='event:popEvent#~num'><u>~str</u></a></p></u></font></font><p align = 'center'><font size='16'>在本次天绝斗法中勇夺第一！</font></p><p align = 'center'>☆----☆----☆----☆----☆----☆</p>]]></msg></b>
+	<b id = "40904"><msg><![CDATA[<font size='16'>至尊战神，谁与争锋！</font><font size='26' face='simsun' color='#FFFF00'>~str</font><font size='16'>在本次天绝斗法中勇夺第一！</font>]]></msg></b>
+	<b id = "40911"><msg><![CDATA[<font color='#33FF00'>~str</font>击杀了炎尊，冰帝全体成员获得~num点战场积分奖励！]]></msg></b>
+	<b id = "40912"><msg><![CDATA[<font color='#33FF00'>~str</font>击杀了冰帝，炎尊全体成员获得~num点战场积分奖励！]]></msg></b>
+	<b id = "41001"><msg><![CDATA[修罗战场活动正式开始！参与即可获得海量奖励，请大家火速<a href='event:link#11503'><font color='#86FF05'><u>【前往参与】</u></font></a>]]></msg></b>
+	<b id = "41002"><msg><![CDATA[修罗战场活动还有~num分钟开始，参与即可获得海量奖励，请做好战斗准备！]]></msg></b>
+	<b id = "41003"><msg><![CDATA[<p align = 'center'>☆----☆----☆----☆----☆----☆</p><p align = 'center'><font size='16'>至尊战神，谁与争锋！</font></p><font color='#FFFF00'><font size='24'><u><p align = 'center'><a href='event:popEvent#~num'><u>~str</u></a></p></u></font></font><p align = 'center'><font size='16'>在本次修罗战场中勇夺第一！</font></p><p align = 'center'>☆----☆----☆----☆----☆----☆</p>]]></msg></b>
+	<b id = "41004"><msg><![CDATA[<font size='16'>至尊战神，谁与争锋！</font><font size='24' face='simsun' color='#FFFF00'>~str</font><font size='16'>在本次修罗战场中勇夺第一！</font>]]></msg></b>
+	<b id = "41005"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>力破千军，率先进入了修罗战场第~num层]]></msg></b>
+	<b id = "41201"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>带领的队伍合作无间，成功守护斩魂殿，获得海量经验 <a href='event:gotoNpc#40000135'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "41202"><msg><![CDATA[哇！<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>锐不可当，仅凭一人之力成功守护斩魂殿，获得海量经验！<a href='event:gotoNpc#40000135'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "50101"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>创建了~num级仙盟<font color='#aff373'>~str</font>，欢迎大家加入。<a href='event:joinFamily#~num'><font color='#86FF05'><u>【申请加入】</u></font></a>]]></msg></b>
+	<b id = "50102"><msg><![CDATA[号外！号外！仙盟[~str]与仙盟[~str]正式合并为仙盟[~str]！]]></msg></b>
+	<b id = "50301"><msg><![CDATA[仙宠盟战现在开始报名！参加仙宠战有机会获得最强的<a href='event:link#12305'><font color='#FFEA05'><u>金色仙宠</u></font></a>，切勿错过！<a href='event:link#11602'><font color='#86FF05'><u>【点此报名】</u></font></a>]]></msg></b>
+	<b id = "50302"><msg><![CDATA[仙宠盟战正式开始！<a href='event:link#11602'><font color='#86FF05'><u>点此观看</u></font></a>]]></msg></b>
+	<b id = "50303"><msg><![CDATA[--☆----☆----☆----☆----☆----☆--<br/><p align = 'center'>仙宠盖世，宇内无敌！<\p><br/><p align = 'center'><font color='#5ca9ff'>~str</font>的<font color='#5ca9ff'>~str</font></p><p align = 'center'>在本次仙宠战中勇夺第一！<\p><br/><p align = 'center'>----------------------------------------<\p>]]></msg></b>
+	<b id = "50304"><msg><![CDATA[仙宠盖世，宇内无敌！<font color='#5ca9ff'>~str</font>的<font color='#5ca9ff'>~str</font>在本次仙宠战中勇夺第一！]]></msg></b>
+	<b id = "50305"><msg><![CDATA[盟商城-活动精品已经增加新的精品，大家可<a href='event:link#10708'><font color='#86FF05'><u>【前往兑换】</u></font></a>。]]></msg></b>
+	<b id = "50311"><msg><![CDATA[本次仙盟战活动已开始接受报名了！活动将会在~num分钟后正式开始！请做好战斗准备！<a href='event:link#11504'><font color='#86FF05'><u>【报名参与】</u></font></a>]]></msg></b>
+	<b id = "50312"><msg><![CDATA[仙盟战活动正式开始！为荣誉而战！请已报名的玩家火速<a href='event:link#11504'><font color='#86FF05'><u>【前往参与】</u></font></a>!]]></msg></b>
+	<b id = "50328"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]、[~str]、[~str]、[~str]、[~str]、[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50327"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]、[~str]、[~str]、[~str]、[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50326"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]、[~str]、[~str]、[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50325"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]、[~str]、[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50324"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]、[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50323"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50322"><msg><![CDATA[  <p align = 'center'>恭喜[~str]、[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50321"><msg><![CDATA[  <p align = 'center'>恭喜[~str]仙盟顺利晋级仙盟战八强赛，恭喜他们！</p>]]></msg></b>
+	<b id = "50331"><msg><![CDATA[<p align = 'center'>☆----☆----☆----☆----☆----☆</p><p align = 'center'><font size='16'>仙盟战圆满结束！恭喜</font></p><font color='#FFFF00'><font size='26'><u><p align = 'center'><u><a href='event:link#10703,1,~str'><u>[~str]</u></font></a></u></p></u></font></font><p align = 'center'><font size='16'>仙盟成为至尊仙盟！</font></p><p align = 'center'>☆----☆----☆----☆----☆----☆</p>]]></msg></b>
+	<b id = "50332"><msg><![CDATA[<font size='16'>仙盟战圆满结束！恭喜</font><font size='26' face='simsun' color='#FFFF00'>[~str]</font><font size='16'>仙盟成为至尊仙盟！</font>]]></msg></b>
+	<b id = "50333"><msg><![CDATA[破碎星空活动正式开始！参与即可获得80级金装碎片、强化保护符碎片等丰厚奖励，请大家火速<a href='event:link#11505'><font color='#86FF05'><u>前往参与</u></font></a>！]]></msg></b>
+	<b id = "50334"><msg><![CDATA[破碎星空活动还有~num分钟开始，参与即可获得80级金装碎片、强化保护符碎片等丰厚奖励，请做好战斗准备！]]></msg></b>
+	<b id = "50335"><msg><![CDATA[<a href='event:popEvent#~num'><u>~str</u></a>神功盖世，成功守住紫微之魂，特奖励紫微之魂礼包！]]></msg></b>
+	<b id = "50336"><msg><![CDATA[<font size='16'><[~str]神功盖世，成功守住紫微之魂，特奖励紫微之魂礼包！</font>]]></msg></b>
+	<b id = "50701"><msg><![CDATA[恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>与<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>结为仙侣，从此相伴修仙，共筑爱巢，真是羡煞旁人啊！]]></msg></b>
+	<b id = "51001"><msg><![CDATA[璇玑城装扮度达到~num，额外奖励婚宴举办者情缘值+100]]></msg></b>
+	<b id = "51002"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>对<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>进行了祝福，祝愿百年好合，白头偕老！<a href='event:link#13202'><font color='#86ff05'><u>【我要祝福】</u></font></a>]]></msg></b>
+	<b id = "51003"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>在璇玑城发布了“装扮璇玑城”任务，需要你的帮助。<a href='event:gotoNpc#40000137'><font color='#86FF05'><u>【马上参与】</u></font></a>]]></msg></b>
+	<b id = "51004"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>在璇玑城大摆筵席，广邀仙友享用，数量有限，马上前往享用吧！<a href='event:gotoNpc#40000142'><font color='#86FF05'><u>【马上参与】</u></font></a>]]></msg></b>
+	<b id = "51005"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>本次回答一致，默契度好高，掌声!鲜花！！！！<a href='event:link#99802'><font color='#86ff05'><u>【再次考验】</u></font></a>]]></msg></b>
+	<b id = "51006"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>本次回答不一致，还需要多多培养默契度啊，让我们期待他们下一次表现吧。<a href='event:link#99802'><font color='#86ff05'><u>【再次考验】</u></font></a>]]></msg></b>
+	<b id = "51007"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>婚宴巡游已经开始！（点击角色或祝福仙子可以对他们进行“默契大考验“）。<a href='event:weddingTrace'><font color='#86ff05'><u>【我要围观】</u></font></a>]]></msg></b>
+	<b id = "51008"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>正在璇玑城大摆筵席，让我们一起参与筵席并祝福他们吧！<a href='event:gotoNpc#40000141'><font color='#86FF05'><u>【马上参与】</u></font></a>]]></msg></b>
+	<b id = "51101"><msg><![CDATA[恋爱飞行活动还有~num分钟开始，男女组队参加即可获得海量奖励，快快组起你心仪的ta吧~~<a href='event:link#13001'><font color='#86FF05'><u>我要参加</u></font></a>]]></msg></b>
+	<b id = "51102"><msg><![CDATA[恋爱飞行活动正式开始！参与即可获得海量奖励，请大家火速<a href='event:link#13001'><font color='#86FF05'><u>前往参与</u></font></a>！]]></msg></b>
+	<b id = "51103"><msg><![CDATA[恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>在恋爱飞行中获得<font color='#fff000'>第1名</font>，心有灵犀，比翼双飞~~（仙侣参与活动可获更高奖励）！<a href='event:link#13001'><font color='#86FF05'><u>【前往参与】</u></font></a>！]]></msg></b>
+	<b id = "51104"><msg><![CDATA[恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>在恋爱飞行中获得<font color='#fff000'>第2名</font>，合作无间，羡煞旁人~~（仙侣参与活动可获更高奖励）！<a href='event:link#13001'><font color='#86FF05'><u>【前往参与】</u></font></a>！]]></msg></b>
+	<b id = "51105"><msg><![CDATA[恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>&<font color='#5ca9ff'><a href='event:popEvent#~num'>~str</a></font>在恋爱飞行中获得<font color='#fff000'>第3名</font>，默契合作，甜蜜温馨~~（仙侣参与活动可获更高奖励）！<a href='event:link#13001'><font color='#86FF05'><u>【前往参与】</u></font></a>！]]></msg></b>
+	<b id = "51201"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>领取了每日喂养金蟾奖励：~num绑定铜钱，~num绑定元宝！<a href='event:link#10801'><u><font color='#86FF05'>【喂养金蟾】</font></u></a>]]></msg></b>
+	<b id = "51401"><msg><![CDATA[市场出现了最新的珍品，大家可前往选购。<a href='event:link#10901'><font color='#86FF05'><u>【前往】</u></font></a>]]></msg></b>
+	<b id = "51501"><msg><![CDATA[哇!<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>成功将护送寒冰任务刷新至橙色，完成任务后将获得海量奖励！]]></msg></b>
+	<b id = "51601"><msg><![CDATA[黄金沙滩活动已经开始啦，参加即可获得海量灵气，快来参与吧！<a href='event:link#10709'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "51602"><msg><![CDATA[黄金沙滩活动还有~num分钟就开始啦，参加即可获得海量灵气，大家快快做好准备！<a href='event:link#10709'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "51701"><msg><![CDATA[<br/>======本次智力答题已放榜======<br/>~str<br/>~str<br/>~str<br/>~str<br/>===========================]]></msg></b>
+	<b id = "51702"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>才高十斗，在答题中拔得头筹，尽显不世才华，引得万千少男少女疯狂围观！]]></msg></b>
+	<b id = "51703"><msg><![CDATA[恭喜<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在今天的智力答题中获得幸运奖，奖励50元宝！]]></msg></b>
+	<b id = "51901"><msg><![CDATA[哇，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在消费感恩大回馈活动中，领取了珍品~str，<a href='event:link#12601'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "25301"><msg><![CDATA[哇，<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>完成了<a href='event:achieve#~num,0,0'><u><font color='#FF9600' size='12'>【~str】</font></u></a>的成就，引得少男少女疯狂围观，简直帅呆了！]]></msg></b>
+	<b id = "25302"><msg><![CDATA[膜拜，膜拜！大神<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>完成了<a href='event:achieve#~num,0,0'><u><font color='#FFEA05' size='12'>【~str】</font></u></a>的成就，获得~num元宝的奖励，求PK，求超越！]]></msg></b>
+	<b id = "52001"><msg><![CDATA[号外！号外！~str正式改名为~str，从此开启一段新的传奇人生！]]></msg></b>
+	<b id = "52101"><msg><![CDATA[~str]]></msg></b>
+	<b id = "52201"><msg><![CDATA[号外！号外！[~str]仙盟正式改名为[~str]!]]></msg></b>
+	<b id = "52401"><msg><![CDATA[<font color='#5ca9ff'><a href='event:popEvent#~num'><u>~str</u></a></font>在云游商城中购买了珍贵的<font color='#aff373'>~str</font>!<a href='event:link#17005'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "52501"><msg><![CDATA[你问我答题活动已经在璇玑城开始了， 快来参与吧<a href='event:link#11709'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "52502"><msg><![CDATA[你问我答活动分将在璇玑城开启，奖励多多!！<a href='event:link#11709'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "52503"><msg><![CDATA[~str鸿运当头，在你问我答中获得【~str】!<a href='event:link#11709'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "52601"><msg><![CDATA[新年红包活动已经在璇玑城开始了， 快来参与吧<a href='event:link#11710'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+	<b id = "52602"><msg><![CDATA[新年红包活动分将在璇玑城开启，奖励多多!！<a href='event:link#11710'><font color='#86FF05'><u>【我要参与】</u></font></a>]]></msg></b>
+</broadcast>

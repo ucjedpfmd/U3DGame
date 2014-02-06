@@ -1,20 +1,28 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\module\scene\manager\UnitPool.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\com\loader\manager\BatchLoaderMgr.cs">
     <Files>
-      <File FileName="Assets\Scripts\module\scene\cases\MapCase.cs" Line="10" Column="81" />
-      <File FileName="Assets\Scripts\module\scene\cases\MonsterCase.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\module\scene\utils\AvatarCreate.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\module\scene\sceneUnit\MyRole.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\module\scene\view\SceneView.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\com\utils\MouseUtil.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\module\scene\sceneUnit\avatar\Monster.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\module\scene\sceneUnit\avatar\Animal.cs" Line="72" Column="90" />
-      <File FileName="Assets\Scripts\module\scene\manager\UnitPool.cs" Line="36" Column="3" />
+      <File FileName="Assets\Scripts\module\scene\behaviour\avatar\NPCBehaviour.cs" Line="13" Column="2" />
+      <File FileName="Assets\Scripts\Main.cs" Line="121" Column="43" />
+      <File FileName="Assets\Scripts\com\loader\manager\BatchLoaderMgr.cs" Line="50" Column="6" />
+      <File FileName="Assets\Scripts\module\scene\manager\LoopManager.cs" Line="35" Column="25" />
+      <File FileName="Assets\Scripts\com\net\manager\ConnMgr.cs" Line="39" Column="17" />
+      <File FileName="Assets\Scripts\com\globals\GlobalData.cs" Line="19" Column="3" />
+      <File FileName="Assets\Scripts\com\loader\item\FileData.cs" Line="31" Column="67" />
+      <File FileName="Assets\Scripts\com\loader\CommonLocator.cs" Line="11" Column="32" />
+      <File FileName="Assets\Scripts\com\loader\item\FileLoader.cs" Line="32" Column="36" />
+      <File FileName="Assets\Scripts\com\globals\GameParameters.cs" Line="20" Column="58" />
+      <File FileName="Assets\Scripts\com\loader\manager\ResourcePool.cs" Line="14" Column="1" />
+      <File FileName="Assets\Scripts\com\net\manager\Dispatcher.cs" Line="66" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\QcUsers\Win7\Administrator\Documents\GitHub\U3DGame\GameRole\Assets\Scripts\com\loader\CommonLocator.cs" line="13" />
+      <Breakpoint file="D:\QcUsers\Win7\Administrator\Documents\GitHub\U3DGame\GameRole\Assets\Scripts\Main.cs" line="99" />
+      <Breakpoint file="D:\QcUsers\Win7\Administrator\Documents\GitHub\U3DGame\GameRole\Assets\Scripts\com\loader\manager\ResourcePool.cs" line="14" />
+      <Breakpoint file="D:\QcUsers\Win7\Administrator\Documents\GitHub\U3DGame\GameRole\Assets\Scripts\com\loader\manager\BatchLoaderMgr.cs" line="52" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

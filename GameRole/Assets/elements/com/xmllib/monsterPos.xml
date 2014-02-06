@@ -1,0 +1,759 @@
+﻿<?xml  version="1.0" encoding="UTF-8"?>
+<monsterPos>
+    <map  id="10000" name="东篱村">
+	  <monster typeid = "10000101"  x="40" y="72" name = "发狂的村民" level = "3" rarity="1"></monster>
+    </map>
+		
+    <map  id="60500" name="蚩尤魔窟">
+	  <monster typeid = "60500701"  x="21" y="5" name = "蚩尤" level = "5" rarity="3"> </monster>
+    </map>
+	
+    <map  id="60400" name="烈焰青牛巢穴">
+	  <monster typeid = "60400701"  x="40" y="8" name = "烈焰青牛" level = "10" rarity="3"> </monster>
+    </map>
+    
+     <map  id="40400" name="仙踪岛">
+	  <monster typeid = "40400101"  x="61" y="96" name = "灵虚鱼" level = "15" rarity="1"> </monster>
+ 	  <monster typeid = "40400104"  x="58" y="26" name = "灵妖狐" level = "15" rarity="1"> </monster>  
+  	  <monster typeid = "40400107"  x="115" y="60" name = "桃树妖" level = "20" rarity="1"> </monster>  
+  	  <monster typeid = "40400108"  x="11" y="55" name = "飞天雪女" level = "35" rarity="1"> </monster>  	  
+  	  <monster typeid = "40400109"  x="73" y="18" name = "白面松妖" level = "35" rarity="1"> </monster>  	  
+   </map>  
+    
+    
+     <map  id="40100" name="灵镜湖">
+	  <monster typeid = "40100101"  x="34" y="80" name = "追风狼" level = "24" rarity="1"> </monster>
+ 	  <monster typeid = "40100102"  x="96" y="56" name = "逐月狼" level = "24" rarity="1"> </monster>
+ 	  <monster typeid = "40100103"  x="75" y="33" name = "枯叶妖" level = "24" rarity="1"> </monster>  
+  	  <monster typeid = "40100104"  x="54" y="35" name = "噬灵狼" level = "26" rarity="1"> </monster>  
+ 	  <monster typeid = "40100105"  x="59" y="52" name = "红莲灵玉鲛" level = "28" rarity="1"> </monster>  
+  	  <monster typeid = "40100106"  x="46" y="58" name = "豹爪灵风鱼" level = "28" rarity="1"> </monster> 
+  	  <monster typeid = "40100107"  x="34" y="28" name = "追魂狼" level = "26" rarity="1"> </monster>
+ 	  <monster typeid = "40100108"  x="19" y="16" name = "巨象妖" level = "28" rarity="1"> </monster>  
+  	  <monster typeid = "40100109"  x="10" y="38" name = "松风怪" level = "28" rarity="1"> </monster>  
+ 	  <monster typeid = "40100110"  x="46" y="12" name = "血牙花" level = "26" rarity="1"> </monster>  
+   </map>  
+
+      <map  id="40200" name="炎魔窟">
+	  <monster typeid = "40200101"  x="17" y="59" 	name = "叶妖幻影" level = "52" rarity="1"> </monster>
+ 	  <monster typeid = "40200102"  x="40" y="58"	name = "火炎兽"   level = "52"  rarity="1"> </monster>
+ 	  <monster typeid = "40200103"  x="43" y="93" 	name = "圣鳞狂蛇" level = "54" rarity="1"> </monster>  
+ 	  <monster typeid = "40200104"  x="88" y="73" 	name = "飞天魔女" level = "54" rarity="1"> </monster>  
+ 	  <monster typeid = "40200105"  x="76" y="49" 	name = "蓝焰火灵" level = "56" rarity="1"> </monster>  
+ 	  <monster typeid = "40200106"  x="60" y="28" 	name = "炼狱火灵" level = "56" rarity="1"> </monster>  
+  	  <monster typeid = "40200107"  x="96" y="112"  name = "炼狱青狼" level = "58" rarity="1"> </monster>
+ 	  <monster typeid = "40200108"  x="127" y="99"  name = "炼狱魔虎" level = "58" rarity="1"> </monster>  
+  	  <monster typeid = "40200109"  x="137" y="67"  name = "巨力魔兵" level = "60" rarity="1"> </monster>  
+ 	  <monster typeid = "40200110"  x="114" y="39"  name = "金甲魔兵" level = "60" rarity="1"> </monster>  
+ 	  <monster typeid = "40200401"  x="90" y="8"  name = "祝融" level = "60" rarity="2"> </monster>  
+
+	  </map>  
+   
+     <map  id="40300" name="昆仑墟">
+	  <monster typeid = "40300101"  x="55" y="12" name = "琉璃宫弟子" level = "30" rarity="1"> </monster>
+ 	  <monster typeid = "40300402"  x="74" y="25" name = "琉璃宫精英" level = "30" rarity="1"> </monster>
+ 	  <monster typeid = "40300103"  x="60" y="35" name = "冰河谷弟子" level = "32" rarity="1"> </monster>  
+  	  <monster typeid = "40300104"  x="51" y="64" name = "绿色机关人" level = "32" rarity="1"> </monster>  
+ 	  <monster typeid = "40300105"  x="84" y="87" name = "黄色机关人" level = "36" rarity="1"> </monster>  
+  	  <monster typeid = "40300106"  x="73" y="60" name = "蓝色机关人" level = "34" rarity="1"> </monster> 
+  	  <monster typeid = "40300107"  x="103" y="66" name = "红色机关人" level = "34" rarity="1"> </monster>
+ 	  <monster typeid = "40300108"  x="54" y="99" name = "绝清宫散仙" level = "38" rarity="1"> </monster>  
+  	  <monster typeid = "40300409"  x="30" y="94" name = "冰河谷精英" level = "36" rarity="1"> </monster>  
+ 	  <monster typeid = "40300410"  x="16" y="87" name = "冰河谷长老" level = "38" rarity="1"> </monster>  
+   </map>  
+ 
+     <map  id="40500" name="星月阁">
+	  <monster typeid = "40500101"  x="40" y="53" name = "魔门散修" level = "30" rarity="1"> </monster>
+ 	  <monster typeid = "40500102"  x="6" y="43" name = "千魔散人" level = "30" rarity="1"> </monster>
+ 	  <monster typeid = "40500103"  x="24" y="2" name = "千魔散人幻影" level = "30" rarity="1"> </monster>  
+   </map>  
+
+     <map  id="40600" name="幻雪域">
+	  <monster typeid = "40600101"  x="31" y="31" name = "魔化雪狐妖" level = "40" rarity="1"> </monster>
+ 	  <monster typeid = "40600109"  x="110" y="28" name = "暗夜分身" level = "50" rarity="1"> </monster>
+ 	  <monster typeid = "40600107"  x="124" y="55" name = "金角魔龙" level = "49" rarity="1"> </monster>  
+ 	  <monster typeid = "40600106"  x="118" y="81" name = "雪域魔虎" level = "48" rarity="1"> </monster>  
+ 	  <monster typeid = "40600104"  x="96" y="97" name = "魔化雪狐" level = "47" rarity="1"> </monster>  
+ 	  <monster typeid = "40600105"  x="88" y="82" name = "裂地牛妖" level = "46" rarity="1"> </monster>  
+ 	  <monster typeid = "40600102"  x="78" y="46" name = "玄火牛妖" level = "44" rarity="1"> </monster>  
+ 	  <monster typeid = "40600103"  x="53" y="88" name = "守阵仙灵" level = "42" rarity="1"> </monster>
+	  <monster typeid = "40600708"  x="114" y="37" name = "玄火赤牛王" level = "50" rarity="1"> </monster>  
+	  <monster typeid = "40600410"  x="71" y="11" name = "烛阴" level = "50" rarity="1"> </monster>  	  
+   </map>  
+   
+       <map  id="40700" name="仙尊挂机地图">
+	  <monster typeid = "40700101"  x="10" y="38" 	name = "追风狼" level = "35" rarity="1"> </monster>
+ 	  <monster typeid = "40700102"  x="19" y="22"	name = "逐月狼" level = "35" rarity="1"> </monster>
+ 	  <monster typeid = "40700103"  x="38" y="7" 	name = "枯叶妖" level = "40" rarity="1"> </monster>  
+ 	  <monster typeid = "40700104"  x="74" y="32" 	name = "噬灵狼" level = "40" rarity="1"> </monster>  
+ 	  <monster typeid = "40700105"  x="87" y="71" 	name = "红莲灵玉鲛" level = "45" rarity="1"> </monster>  
+ 	  <monster typeid = "40700106"  x="44" y="84" 	name = "豹爪灵风鱼" level = "45" rarity="1"> </monster>  
+ 	  <monster typeid = "40700107"  x="42" y="56" 	name = "追魂狼" level = "50" rarity="1"> </monster>  
+ 	  <monster typeid = "40700108"  x="61" y="50" 	name = "巨象妖" level = "50" rarity="1"> </monster>
+	  <monster typeid = "40700109"  x="34" y="28" 	name = "松风怪" level = "55" rarity="1"> </monster>  
+	  <monster typeid = "40700110"  x="51" y="32" 	name = "血牙花" level = "55" rarity="1"> </monster>  
+	  </map>  
+	
+       <map  id="40800" name="太虚境">
+	  <monster typeid = "40800101"  x="4" y="63" 	name = "焚天魔修" level = "62" rarity="1"> </monster>
+ 	  <monster typeid = "40800102"  x="19" y="65"	name = "焚天魔女" level = "64" rarity="1"> </monster>
+ 	  <monster typeid = "40800103"  x="64" y="111" 	name = "食人花" level = "66" rarity="1"> </monster>  
+ 	  <monster typeid = "40800104"  x="52" y="65" 	name = "迷魂童子" level = "66" rarity="1"> </monster>  
+ 	  <monster typeid = "40800105"  x="92" y="52" 	name = "蛮荒玄龟" level = "68" rarity="1"> </monster>  
+ 	  <monster typeid = "40800106"  x="52" y="27" 	name = "太虚祭司" level = "70" rarity="1"> </monster>  
+	  </map>
+
+
+  <map  id="43000" name="阎罗殿">
+    <monster typeid = "43000101"  x="41" y="21" 	name = "噬魂鬼灵" level = "72" rarity="1"> </monster>
+    <monster typeid = "43000102"  x="10" y="53"	    name = "勾魂鬼姬" level = "74" rarity="1"> </monster>
+    <monster typeid = "43000103"  x="51" y="62" 	name = "烈焰鬼兵" level = "76" rarity="1"> </monster>
+    <monster typeid = "43000104"  x="93" y="74" 	name = "炼狱青牛" level = "78" rarity="1"> </monster>
+    <monster typeid = "43000105"  x="80" y="106" 	name = "炼狱狂狮" level = "80" rarity="1"> </monster>
+  </map>
+
+  <map  id="40900" name="高级挂机区">
+	  <monster typeid = "40900101"  x="11" y="38" 	name = "水之妖灵" level = "60" rarity="1"> </monster>
+ 	  <monster typeid = "40900102"  x="23" y="18"	name = "火之元灵" level = "60" rarity="1"> </monster>
+ 	  <monster typeid = "40900103"  x="44" y="8" 	name = "风之魔灵" level = "65" rarity="1"> </monster>  
+ 	  <monster typeid = "40900104"  x="36" y="77" 	name = "暗之邪灵" level = "65" rarity="1"> </monster>  
+ 	  <monster typeid = "40900105"  x="44" y="56" 	name = "焱翼妖龙" level = "70" rarity="1"> </monster>  
+ 	  <monster typeid = "40900106"  x="63" y="44" 	name = "天妖山将" level = "70" rarity="1"> </monster>
+ 	  <monster typeid = "40900107"  x="68" y="24" 	name = "天魔术士" level = "75" rarity="1"> </monster>  
+ 	  <monster typeid = "40900108"  x="81" y="39" 	name = "天魔战士" level = "75" rarity="1"> </monster>  
+ 	  <monster typeid = "40900109"  x="92" y="61" 	name = "蓝翼妖鸾" level = "80" rarity="1"> </monster>  
+ 	  <monster typeid = "40900110"  x="81" y="82" 	name = "堕落妖凤" level = "80" rarity="1"> </monster>	  
+	  </map>  	  
+	  
+     <map  id="50000" name="天绝斗法">
+	  <monster typeid = "50000701"  x="76" y="11" name = "炎尊" level = "0" rarity="3"> </monster>
+ 	  <monster typeid = "50000702"  x="6" y="71" name = "冰帝" level = "0" rarity="3"> </monster>
+   </map>  
+
+       <map  id="50300" name="破碎星空">
+	  <monster typeid = "0"  x="28" y="56" name = "天妖•紫焰妖兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "0"  x="59" y="65" name = "天妖•紫焰妖兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "0"  x="42" y="35" name = "天妖•紫焰妖兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "0"  x="44" y="50" name = "天妖•紫微妖王" level = "0" rarity="3"> </monster>
+   </map>  
+   
+     <map  id="60000" name="百灵园">
+	  <monster typeid = "0"  x="47" y="44" name = "仙宠聚集区域" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "0"  x="32" y="30" name = "仙宠聚集区域" level = "0" rarity="1"> </monster>
+	  <monster typeid = "0"  x="24" y="14" name = "仙宠聚集区域" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "0"  x="10" y="13" name = "仙宠聚集区域" level = "0" rarity="1"> </monster>  
+   </map>  
+
+
+     <map  id="60200" name="冰火炼金洞">
+	  <monster typeid = "60200101"  x="38" y="31" name = "金灿灿的小宝箱" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "60200101"  x="23" y="15" name = "金灿灿的小宝箱" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "60200102"  x="4" y="10" name = "沉甸甸的大宝箱" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="60300" name="女娲神殿">
+	  <monster typeid = "60300163"  x="3" y="9" name = "魔物来袭点" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "60300163"  x="17" y="3" name = "魔物来袭点" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "60300163"  x="32" y="8" name = "魔物来袭点" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "60300101"  x="21" y="46" name = "林青儿" level = "0" rarity="1"> </monster>  
+   </map>  
+
+     <map  id="61000" name="女娲神殿">
+ 	  <monster typeid = "61000163"  x="17" y="3" name = "魔物来袭点" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "61000101"  x="21" y="46" name = "林青儿" level = "0" rarity="1"> </monster>  
+   </map>  
+
+     <map  id="61300" name="斩魂殿">
+ 	  <monster typeid = "61300151"  x="8" y="41" name = "魔物来袭点" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "61300151"  x="3" y="30" name = "魔物来袭点" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "61300151"  x="10" y="20" name = "魔物来袭点" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "61300201"  x="41" y="32" name = "女娲" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300401"  x="23" y="5" name = "怪物偷袭点" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300310"  x="47" y="45" name = "碧落潭任务点" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300202"  x="28" y="20" name = "妖麟洞任务点" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300203"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300204"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300205"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300206"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300207"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300208"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300209"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300210"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300211"  x="28" y="20" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300801"  x="31" y="54" name = "魔王寨任务点" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300802"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300803"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300804"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300805"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300806"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300807"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300808"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300809"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "61300810"  x="31" y="54" name = "" level = "0" rarity="1"> </monster>  
+
+   </map>  
+	<map  id="70100" name="混沌之塔1层">
+ 	  <monster typeid = "70100101"  x="15" y="61"  name = "炽焰·月蛇" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70100102"  x="53" y="13"  name = "冰龙·人鱼" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70100103"  x="122" y="82" name = "青木·白面" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70100104"  x="88" y="133" name = "坤阳·黄衣" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70101" name="混沌之塔2层">
+ 	  <monster typeid = "70101101"  x="15" y="61"  name = "炽焰·月蛇" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70101102"  x="53" y="13"  name = "冰龙·人鱼" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70101103"  x="122" y="82" name = "青木·白面" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70101104"  x="88" y="133" name = "坤阳·黄衣" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70102" name="混沌之塔3层">
+ 	  <monster typeid = "70102101"  x="15" y="61"  name = "炽焰·月蛇" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70102102"  x="53" y="13"  name = "冰龙·人鱼" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70102103"  x="122" y="82" name = "青木·白面" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70102104"  x="88" y="133" name = "坤阳·黄衣" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70103" name="混沌之塔4层">
+ 	  <monster typeid = "70103101"  x="15" y="61"  name = "炽焰·月蛇" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70103102"  x="53" y="13"  name = "冰龙·人鱼" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70103103"  x="122" y="82" name = "青木·白面" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70103104"  x="88" y="133" name = "坤阳·黄衣" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70104" name="混沌之塔5层">
+ 	  <monster typeid = "70104101"  x="15" y="61"  name = "炽焰·月蛇" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70104102"  x="53" y="13"  name = "冰龙·人鱼" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70104103"  x="122" y="82" name = "青木·白面" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70104104"  x="88" y="133" name = "坤阳·黄衣" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70105" name="混沌之塔6层">
+ 	  <monster typeid = "70105101"  x="15" y="61"  name = "炽焰·火灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70105102"  x="53" y="13"  name = "冰龙·水灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70105103"  x="122" y="82" name = "青木·玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70105104"  x="88" y="133" name = "坤阳·巨刀" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70106" name="混沌之塔7层">
+ 	  <monster typeid = "70106101"  x="15" y="61"  name = "炽焰·火灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70106102"  x="53" y="13"  name = "冰龙·水灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70106103"  x="122" y="82" name = "青木·玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70106104"  x="88" y="133" name = "坤阳·巨刀" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70107" name="混沌之塔8层">
+ 	  <monster typeid = "70107101"  x="15" y="61"  name = "炽焰·火灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70107102"  x="53" y="13"  name = "冰龙·水灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70107103"  x="122" y="82" name = "青木·玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70107104"  x="88" y="133" name = "坤阳·巨刀" level = "0" rarity="1"> </monster>  
+	</map>  
+	<map  id="70108" name="混沌之塔9层">
+ 	  <monster typeid = "70108101"  x="15" y="61"  name = "炽焰·火灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70108102"  x="53" y="13"  name = "冰龙·水灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70108103"  x="122" y="82" name = "青木·玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70108104"  x="88" y="133" name = "坤阳·巨刀" level = "0" rarity="1"> </monster>  
+	</map>  
+   	<map  id="70109" name="混沌之塔10层">
+ 	  <monster typeid = "70109101"  x="15" y="61"  name = "炽焰·火灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70109102"  x="53" y="13"  name = "冰龙·水灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70109103"  x="122" y="82" name = "青木·玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70109104"  x="88" y="133" name = "坤阳·巨刀" level = "0" rarity="1"> </monster>  
+	</map>  
+   	<map  id="70110" name="混沌之塔11层">
+ 	  <monster typeid = "70110101"  x="15" y="61"  name = "炽焰·青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70110102"  x="53" y="13"  name = "冰龙·飞天" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70110103"  x="122" y="82" name = "青木·血牙" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70110104"  x="88" y="133" name = "坤阳·金甲" level = "0" rarity="1"> </monster>  
+	</map>  
+   	<map  id="70111" name="混沌之塔12层">
+ 	  <monster typeid = "70111101"  x="15" y="61"  name = "炽焰·青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70111102"  x="53" y="13"  name = "冰龙·飞天" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70111103"  x="122" y="82" name = "青木·血牙" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70111104"  x="88" y="133" name = "坤阳·金甲" level = "0" rarity="1"> </monster>  
+	</map>  
+   	<map  id="70112" name="混沌之塔13层">
+ 	  <monster typeid = "70112101"  x="15" y="61"  name = "炽焰·青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70112102"  x="53" y="13"  name = "冰龙·飞天" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70112103"  x="122" y="82" name = "青木·血牙" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70112104"  x="88" y="133" name = "坤阳·金甲" level = "0" rarity="1"> </monster>  
+	</map>  
+   	<map  id="70113" name="混沌之塔14层">
+ 	  <monster typeid = "70113101"  x="15" y="61"  name = "炽焰·青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70113102"  x="53" y="13"  name = "冰龙·飞天" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70113103"  x="122" y="82" name = "青木·血牙" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70113104"  x="88" y="133" name = "坤阳·金甲" level = "0" rarity="1"> </monster>  
+	</map>  
+   	<map  id="70114" name="混沌之塔15层">
+ 	  <monster typeid = "70114101"  x="15" y="61"  name = "炽焰·青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70114102"  x="53" y="13"  name = "冰龙·飞天" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70114103"  x="122" y="82" name = "青木·血牙" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "70114104"  x="88" y="133" name = "坤阳·金甲" level = "0" rarity="1"> </monster>  
+	</map>  
+   
+   
+   
+     <map  id="80001" name="幽冥水府">
+	  <monster typeid = "80001101"  x="43" y="46" name = "幽冥水灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80001402"  x="43" y="37" name = "幽冥藻龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80001103"  x="32" y="29" name = "幽冥鱼" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80001106"  x="29" y="15" name = "幽冥海妖" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "80001701"  x="8" y="7" name = "幽冥海王" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="80002" name="昆仑山">
+	  <monster typeid = "80002701"  x="8" y="8" name = "风雷阁灭绝长老" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="80003" name="凌天宫">
+	  <monster typeid = "80003101"  x="16" y="53" name = "巨力护卫" level = "" rarity="1"> </monster>
+ 	  <monster typeid = "80003102"  x="27" y="66" name = "天香侍女" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80003104"  x="58" y="40" name = "摩羯护卫" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80003105"  x="40" y="32" name = "金甲护卫" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80003401"  x="44" y="67" name = "麒麟仙君" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "80003402"  x="66" y="54" name = "朱雀仙君" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "80003403"  x="27" y="31" name = "玄武仙君" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "80003701"  x="26" y="14" name = "天煞真君" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="80004" name="烛龙岭">
+	  <monster typeid = "80004101"  x="46" y="61" name = "暗影守卫" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80004102"  x="48" y="49" name = "狂暴牛妖" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80004103"  x="40" y="35" name = "暗影护卫" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "80004101"  x="21" y="37" name = "暗影守卫" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "80004401"  x="12" y="26" name = "浴火重明鸟" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "80004701"  x="15" y="6" name = "烛龙" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="81001" name="雪域">
+	  <monster typeid = "81001101"  x="10" y="95" name = "雪狐" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81001401"  x="25" y="84" name = "狼人" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "81001103"  x="39" y="64" name = "极地鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81001104"  x="56" y="57" name = "堕落护卫" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81001402"  x="67" y="44" name = "狼人精英" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "81001106"  x="81" y="24" name = "白虎" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81001701"  x="101" y="4" name = "兽人虎" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="81002" name="雷阵">
+	  <monster typeid = "81002101"  x="21" y="99" name = "堕落雷灵" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81002401"  x="47" y="69" name = "堕落雷将军" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "81002102"  x="66" y="48" name = "堕落雷鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81002103"  x="84" y="32" name = "堕落雷狼骑" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81002402"  x="94" y="20" name = "堕落雷骨" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "81002701"  x="105" y="8" name = "雷狮骑统领" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="81003" name="火海">
+	  <monster typeid = "81003101"  x="12" y="90" name = "冥火护卫" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81003104"  x="22" y="91" name = "冥火女妖" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81003401"  x="32" y="74" name = "冥火夜啼鸟" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "81003102"  x="47" y="61" name = "冥火元灵" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81003402"  x="66" y="45" name = "冥火麒麟兽" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "81003103"  x="96" y="17" name = "冥火雷狮" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81003701"  x="106" y="2" name = "冥火金睛猿王" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="81004" name="炼狱">
+	  <monster typeid = "81004101"  x="25" y="90" name = "炼狱妖狐" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81004102"  x="49" y="53" name = "炼狱刺客" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81004103"  x="54" y="58" name = "炼狱火牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81004104"  x="58" y="62" name = "炼狱岩蛇" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81004401"  x="83" y="32" name = "炼狱魅惑妖姬" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "81004402"  x="92" y="18" name = "炼狱噬魂鬼将" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "81004701"  x="100" y="8" name = "炼狱白发魔君" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="81005" name="雪域">
+	  <monster typeid = "81005101"  x="10" y="95" name = "雪狐" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81005401"  x="25" y="84" name = "狼人" level = "0" rarity="2"> </monster>
+ 	  <monster typeid = "81005103"  x="39" y="64" name = "极地鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "81005104"  x="56" y="57" name = "堕落护卫" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81005402"  x="67" y="44" name = "狼人精英" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "81005106"  x="81" y="24" name = "白虎" level = "0" rarity="1"> </monster>  
+ 	  <monster typeid = "81005701"  x="101" y="4" name = "兽人虎" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="82001" name="风渡林">
+	  <monster typeid = "82001101"  x="12" y="78" name = "玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82001102"  x="26" y="75" name = "青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82001104"  x="29" y="56" name = "长鸣鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82001401"  x="38" y="40" name = "剑齿雪虎" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "82001701"  x="77" y="14" name = "镜月雷龙" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="82002" name="风渡林">
+	  <monster typeid = "82002101"  x="12" y="78" name = "玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82002102"  x="26" y="75" name = "青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82002104"  x="29" y="56" name = "长鸣鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82002401"  x="38" y="40" name = "剑齿雪虎" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "82002701"  x="77" y="14" name = "镜月雷龙" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="82003" name="风渡林">
+	  <monster typeid = "82003101"  x="12" y="78" name = "玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82003102"  x="26" y="75" name = "青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82003104"  x="29" y="56" name = "长鸣鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82003401"  x="38" y="40" name = "剑齿雪虎" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "82003701"  x="77" y="14" name = "镜月雷龙" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="82004" name="风渡林">
+	  <monster typeid = "82004101"  x="12" y="78" name = "玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82004102"  x="26" y="75" name = "青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82004104"  x="29" y="56" name = "长鸣鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82004401"  x="38" y="40" name = "剑齿雪虎" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "82004701"  x="77" y="14" name = "镜月雷龙" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="82005" name="风渡林">
+	  <monster typeid = "82005101"  x="12" y="78" name = "玄龟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82005102"  x="26" y="75" name = "青牛" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82005104"  x="29" y="56" name = "长鸣鸟" level = "0" rarity="1"> </monster>
+ 	  <monster typeid = "82005401"  x="38" y="40" name = "剑齿雪虎" level = "0" rarity="2"> </monster>  
+ 	  <monster typeid = "82005701"  x="77" y="14" name = "镜月雷龙" level = "0" rarity="3"> </monster>  
+   </map>  
+
+     <map  id="90001" name="第1关:北门之乱">
+	  <monster typeid = "90001101"  x="10" y="9" name = "白面狐妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90002" name="第2关:众仙发狂">
+	  <monster typeid = "90001102"  x="13" y="13" name = "发狂的仙人" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90003" name="第3关:天香蝶后">
+	  <monster typeid = "90003701"  x="7" y="7" name = "天香蝶后" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90004" name="第4关:天阴童子">
+	  <monster typeid = "90004401"  x="14" y="8" name = "天阴童子" level = "0" rarity="2"> </monster>
+   </map>  
+
+     <map  id="90005" name="第5关:击退共工">
+	  <monster typeid = "90005701"  x="1" y="6" name = "共工" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90006" name="第6关:岩蛇拦路">
+	  <monster typeid = "90006101"  x="7" y="9" name = "岩蛇" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90007" name="第7关:天绝阵法">
+	  <monster typeid = "90007401"  x="9" y="13" name = "百媚狐妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90008" name="第8关:力敌青丘">
+	  <monster typeid = "90008701"  x="12" y="8" name = "胡青丘" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90009" name="第9关:魅惑魔女">
+	  <monster typeid = "90009101"  x="8" y="11" name = "魅惑魔女" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90010" name="第10关:斗魔破天">
+	  <monster typeid = "90010701"  x="21" y="9" name = "蚩尤" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90011" name="第11关:妖魔作乱">
+	  <monster typeid = "90011101"  x="9" y="9" name = "剧毒花妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90012" name="第12关:刀下救人">
+	  <monster typeid = "90012101"  x="17" y="12" name = "剧毒木妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90013" name="第13关:怒斩树妖">
+	  <monster typeid = "90013101"  x="14" y="15" name = "剧毒树妖" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90014" name="第14关:横扫叶妖">
+	  <monster typeid = "90014101"  x="8" y="13" name = "剧毒叶妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90015" name="第15关:打入巢穴">
+	  <monster typeid = "90015101"  x="11" y="7" name = "剧毒蝶妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90016" name="第16关:剧毒妖将">
+	  <monster typeid = "90016101"  x="11" y="14" name = "剧毒木妖" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90016701"  x="10" y="9" name = "剧毒妖将" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90017" name="第17关:巡逻花妖">
+	  <monster typeid = "90017101"  x="9" y="12" name = "巡逻花妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90018" name="第18关:拦路蝶妖">
+	  <monster typeid = "90018101"  x="25" y="24" name = "拦路蝶妖" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90018101"  x="15" y="19" name = "拦路蝶妖" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90018101"  x="9" y="7" name = "拦路蝶妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90019" name="第19关:搜寻妖王">
+	  <monster typeid = "90019101"  x="10" y="9" name = "瘴毒松妖" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90020" name="第20关:万年树妖">
+	  <monster typeid = "90020101"  x="18" y="13" name = "万年树妖" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90021" name="第21关:试炼之路">
+	  <monster typeid = "90021101"  x="13" y="13" name = "混世散人" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90022" name="第22关:混世魔灵">
+	  <monster typeid = "90022101"  x="5" y="10" name = "混世魔灵" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90023" name="第23关:混世修罗">
+	  <monster typeid = "90023101"  x="10" y="10" name = "混世魔灵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90023701"  x="9" y="3" name = "混世修罗" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90024" name="第24关:混世魔兵">
+	  <monster typeid = "90024101"  x="17" y="13" name = "混世魔兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90024101"  x="12" y="9" name = "混世魔兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90024101"  x="5" y="5" name = "混世魔兵" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90025" name="第25关:混世刀客">
+	  <monster typeid = "90025101"  x="3" y="18" name = "混世刀客" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90025101"  x="15" y="20" name = "混世刀客" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90025101"  x="15" y="7" name = "混世刀客" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90026" name="第26关:混世魔将">
+	  <monster typeid = "90026701"  x="9" y="11" name = "混世魔将" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90027" name="第27关:混世魔女">
+	  <monster typeid = "90027101"  x="11" y="15" name = "混世魔女" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90028" name="第28关:混世魔修">
+	  <monster typeid = "90028101"  x="8" y="12" name = "混世魔修" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90029" name="第29关:混世魔姬">
+	  <monster typeid = "90029701"  x="18" y="11" name = "混世魔姬" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90030" name="第30关:混世魔皇">
+	  <monster typeid = "90030701"  x="7" y="7" name = "混世魔皇" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90031" name="第31关:又兴风浪">
+	  <monster typeid = "90031101"  x="11" y="9" name = "蛟鱼" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90032" name="第32关:斩杀蛟蛇">
+	  <monster typeid = "90032101"  x="13" y="10" name = "蛟蛇" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90033" name="第33关:赤蛟龙王">
+	  <monster typeid = "90033701"  x="5" y="9" name = "赤蛟龙王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90034" name="第34关:拦路虾兵">
+	  <monster typeid = "90034101"  x="17" y="16" name = "虾兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90034101"  x="13" y="9" name = "虾兵" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90034101"  x="6" y="4" name = "虾兵" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90035" name="第35关:蛟鱼侍女">
+	  <monster typeid = "90035101"  x="7" y="8" name = "蛟鱼侍女" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90036" name="第36关:弱水麒麟">
+	  <monster typeid = "90036701"  x="8" y="5" name = "弱水麒麟" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90037" name="第37关:迷魂蚌精">
+	  <monster typeid = "90037101"  x="15" y="14" name = "迷魂蚌精" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90038" name="第38关:噬魂灵龟">
+	  <monster typeid = "90038101"  x="13" y="33" name = "噬魂灵龟" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90038101"  x="12" y="21" name = "噬魂灵龟" level = "0" rarity="1"> </monster>
+	  <monster typeid = "90038101"  x="13" y="10" name = "噬魂灵龟" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90039" name="第39关:青蛟护法">
+	  <monster typeid = "90039701"  x="9" y="10" name = "青蛟护法" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90040" name="第40关:青蛟龙王">
+	  <monster typeid = "90040701"  x="7" y="7" name = "青蛟龙王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90041" name="第41关:神秘结界">
+	  <monster typeid = "90041101"  x="19" y="11" name = "虎狮族喽啰" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90042" name="第42关:虎狮喽啰">
+	  <monster typeid = "90042101"  x="16" y="10" name = "虎狮族喽啰" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90043" name="第43关:精英雷力">
+	  <monster typeid = "90043701"  x="22" y="12" name = "虎狮族精英雷力" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90044" name="第44关:虎狮小妖">
+	  <monster typeid = "90044101"  x="15" y="10" name = "虎狮族小妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90045" name="第45关:斩杀小妖">
+	  <monster typeid = "90045101"  x="12" y="10" name = "虎狮族小妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90046" name="第46关:力敌雷武">
+	  <monster typeid = "90046701"  x="8" y="7" name = "虎狮族精英雷武" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90047" name="第47关:虎狮密探">
+	  <monster typeid = "90047101"  x="9" y="11" name = "虎狮族密探" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90048" name="第48关:寻找阵眼">
+	  <monster typeid = "90048101"  x="11" y="7" name = "虎狮族密探" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90049" name="第49关:大战雷宵">
+	  <monster typeid = "90049701"  x="12" y="6" name = "虎狮族护法雷霄" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90050" name="第50关:两虎相争">
+	  <monster typeid = "90050701"  x="3" y="10" name = "胡青丘" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90051" name="第51关:虎狮护卫">
+	  <monster typeid = "90051101"  x="13" y="16" name = "虎狮族护卫" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90052" name="第52关:一路追击">
+	  <monster typeid = "90052101"  x="17" y="16" name = "虎狮族护卫" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90053" name="第53关:合战雷高">
+	  <monster typeid = "90053701"  x="9" y="8" name = "虎狮族护卫长雷高" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90054" name="第54关:虎狮阴谋">
+	  <monster typeid = "90054101"  x="12" y="15" name = "虎狮族弟子" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90055" name="第55关:青丘之计">
+	  <monster typeid = "90055101"  x="13" y="15" name = "虎狮族弟子" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90056" name="第56关:护法雷虎">
+	  <monster typeid = "90056701"  x="8" y="8" name = "虎狮族护法雷虎" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90057" name="第57关:虎狮高手">
+	  <monster typeid = "90057101"  x="8" y="11" name = "虎狮族高手" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90058" name="第58关:横扫虎狮">
+	  <monster typeid = "90058101"  x="8" y="11" name = "虎狮族高手" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90059" name="第59关:长老雷清">
+	  <monster typeid = "90059701"  x="21" y="1" name = "虎狮族长老雷清" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90060" name="第60关:力战雷霸">
+	  <monster typeid = "90060701"  x="15" y="7" name = "虎狮族族长雷霸" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90061" name="第61关:红玉虾妖">
+	  <monster typeid = "90061101"  x="10" y="9" name = "天书之红玉虾妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90062" name="第62关:紫鳞鱼妖">
+	  <monster typeid = "90062101"  x="10" y="9" name = "天书之紫鳞鱼妖" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90063" name="第63关:蛇尾妖王">
+	  <monster typeid = "90063101"  x="17" y="16" name = "天书之红玉虾妖" level = "0" rarity="3"> </monster>
+	  <monster typeid = "90063102"  x="16" y="11" name = "天书之紫鳞鱼妖" level = "0" rarity="3"> </monster>
+	  <monster typeid = "90063701"  x="15" y="6" name = "天书之蛇尾妖王" level = "0" rarity="3"> </monster>	  
+   </map>  
+
+     <map  id="90064" name="第64关:蒙面刀魔">
+	  <monster typeid = "90064101"  x="5" y="6" name = "天书之蒙面刀魔" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90065" name="第65关:清音魔女">
+	  <monster typeid = "90065101"  x="11" y="23" name = "天书之清音魔女" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90066" name="第66关:月夜魔皇">
+	  <monster typeid = "90066701"  x="12" y="11" name = "月夜魔皇" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90067" name="第67关:蓝灵鬼火">
+	  <monster typeid = "90067101"  x="9" y="14" name = "天书之蓝灵鬼火" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90068" name="第68关:骷髅恶鬼">
+	  <monster typeid = "90068101"  x="10" y="9" name = "天书之骷髅恶鬼" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90069" name="第69关:魔焰鬼王">
+	  <monster typeid = "90069701"  x="10" y="9" name = "天书之魔焰鬼王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90070" name="第70关:幽冥鬼王">
+	  <monster typeid = "90070701"  x="12" y="10" name = "天书之幽冥鬼王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90071" name="第71关:祈天道士">
+	  <monster typeid = "90071101"  x="20" y="14" name = "天书之祈天道士" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90072" name="第72关:蒙面刀客">
+	  <monster typeid = "90072101"  x="14" y="13" name = "天书之蒙面刀客" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90073" name="第73关:永恒人王">
+	  <monster typeid = "90073701"  x="10" y="9" name = "天书之永恒人王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90074" name="第74关:飞天仙子">
+	  <monster typeid = "90074101"  x="18" y="13" name = "天书之飞天仙子" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90075" name="第75关:沉默童子">
+	  <monster typeid = "90075101"  x="6" y="11" name = "天书之沉默童子" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90076" name="第76关:镇宫天王">
+	  <monster typeid = "90076701"  x="8" y="5" name = "天书之镇宫天王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90077" name="第77关:烈焰神牛">
+	  <monster typeid = "90077101"  x="10" y="21" name = "天书之烈焰神牛" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90078" name="第78关:诸天神女">
+	  <monster typeid = "90078101"  x="9" y="12" name = "天书之诸天神女" level = "0" rarity="1"> </monster>
+   </map>  
+
+     <map  id="90079" name="第79关:护天神王">
+	  <monster typeid = "90079701"  x="11" y="8" name = "天书之护天神王" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="90080" name="第80关:伏羲化身">
+	  <monster typeid = "90080701"  x="5" y="5" name = "天书之伏羲化身" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="91001" name="问道天阶">
+	  <monster typeid = "91001701"  x="42" y="60" name = "洪荒水灵兽" level = "0" rarity="3"> </monster>
+	  <monster typeid = "91001702"  x="8" y="45" name = "八目妖君" level = "0" rarity="3"> </monster>
+	  <monster typeid = "91001703"  x="17" y="24" name = "烬斧牛魔王" level = "0" rarity="3"> </monster>
+	  <monster typeid = "91001704"  x="29" y="5" name = "灭世焚岩兽" level = "0" rarity="3"> </monster>
+   </map>  
+
+     <map  id="91002" name="问道天阶之巅">
+	  <monster typeid = "91002701"  x="51" y="64" name = "蚀骨蛇姬" level = "0" rarity="3"> </monster>
+	  <monster typeid = "91002702"  x="38" y="36" name = "熔火之王" level = "0" rarity="3"> </monster>
+	  <monster typeid = "91002703"  x="14" y="41" name = "天煞魔皇" level = "0" rarity="3"> </monster>
+	  <monster typeid = "91002704"  x="9" y="11" name = "生命之源主" level = "0" rarity="3"> </monster>
+   </map>  
+
+
+
+</monsterPos>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<petSouls unitExp='0,20,40,60,360,1000' sellPrice="5400,6000,12000,18000,24000,33750">
+<petSoul id="40110001" name="破碎之魂" level="1" pathName="canbaozhili" exp="0" desc="灰色兽魂" attrType="" value=""/>
+<petSoul id="40150000" name="兽魂碎片" level="1" pathName="wuwozhijing" exp="0" desc="兽魂碎片" attrType="" value=""/>
+
+<petSoul id="40120001" name="残暴之力" level="1" pathName="canbaozhili" exp="120" desc="仙宠物攻+" attrType="15" value="200"/>
+<petSoul id="40120001" name="残暴之力" level="2" pathName="canbaozhili" exp="240" desc="仙宠物攻+" attrType="15" value="400"/>
+<petSoul id="40120001" name="残暴之力" level="3" pathName="canbaozhili" exp="480" desc="仙宠物攻+" attrType="15" value="600"/>
+<petSoul id="40120001" name="残暴之力" level="4" pathName="canbaozhili" exp="960" desc="仙宠物攻+" attrType="15" value="800"/>
+<petSoul id="40120001" name="残暴之力" level="5" pathName="canbaozhili" exp="1920" desc="仙宠物攻+" attrType="15" value="1000"/>
+<petSoul id="40120001" name="残暴之力" level="6" pathName="canbaozhili" exp="3840" desc="仙宠物攻+" attrType="15" value="1200"/>
+<petSoul id="40120001" name="残暴之力" level="7" pathName="canbaozhili" exp="7680" desc="仙宠物攻+" attrType="15" value="1400"/>
+<petSoul id="40120001" name="残暴之力" level="8" pathName="canbaozhili" exp="15360" desc="仙宠物攻+" attrType="15" value="1600"/>
+<petSoul id="40120001" name="残暴之力" level="9" pathName="canbaozhili" exp="30720" desc="仙宠物攻+" attrType="15" value="1800"/>
+<petSoul id="40120001" name="残暴之力" level="10" pathName="canbaozhili" exp="0" desc="仙宠物攻+" attrType="15" value="2000"/>
+
+<petSoul id="40120002" name="阴柔之力" level="1" pathName="yinrouzhili" exp="120" desc="仙宠法攻+" attrType="16" value="200"/>
+<petSoul id="40120002" name="阴柔之力" level="2" pathName="yinrouzhili" exp="240" desc="仙宠法攻+" attrType="16" value="400"/>
+<petSoul id="40120002" name="阴柔之力" level="3" pathName="yinrouzhili" exp="480" desc="仙宠法攻+" attrType="16" value="600"/>
+<petSoul id="40120002" name="阴柔之力" level="4" pathName="yinrouzhili" exp="960" desc="仙宠法攻+" attrType="16" value="800"/>
+<petSoul id="40120002" name="阴柔之力" level="5" pathName="yinrouzhili" exp="1920" desc="仙宠法攻+" attrType="16" value="1000"/>
+<petSoul id="40120002" name="阴柔之力" level="6" pathName="yinrouzhili" exp="3840" desc="仙宠法攻+" attrType="16" value="1200"/>
+<petSoul id="40120002" name="阴柔之力" level="7" pathName="yinrouzhili" exp="7680" desc="仙宠法攻+" attrType="16" value="1400"/>
+<petSoul id="40120002" name="阴柔之力" level="8" pathName="yinrouzhili" exp="15360" desc="仙宠法攻+" attrType="16" value="1600"/>
+<petSoul id="40120002" name="阴柔之力" level="9" pathName="yinrouzhili" exp="30720" desc="仙宠法攻+" attrType="16" value="1800"/>
+<petSoul id="40120002" name="阴柔之力" level="10" pathName="yinrouzhili" exp="0" desc="仙宠法攻+" attrType="16" value="2000"/>
+
+<petSoul id="40120003" name="刀枪不入" level="1" pathName="daoqiangburu" exp="120" desc="仙宠物防+" attrType="13" value="133"/>
+<petSoul id="40120003" name="刀枪不入" level="2" pathName="daoqiangburu" exp="240" desc="仙宠物防+" attrType="13" value="267"/>
+<petSoul id="40120003" name="刀枪不入" level="3" pathName="daoqiangburu" exp="480" desc="仙宠物防+" attrType="13" value="400"/>
+<petSoul id="40120003" name="刀枪不入" level="4" pathName="daoqiangburu" exp="960" desc="仙宠物防+" attrType="13" value="533"/>
+<petSoul id="40120003" name="刀枪不入" level="5" pathName="daoqiangburu" exp="1920" desc="仙宠物防+" attrType="13" value="667"/>
+<petSoul id="40120003" name="刀枪不入" level="6" pathName="daoqiangburu" exp="3840" desc="仙宠物防+" attrType="13" value="800"/>
+<petSoul id="40120003" name="刀枪不入" level="7" pathName="daoqiangburu" exp="7680" desc="仙宠物防+" attrType="13" value="933"/>
+<petSoul id="40120003" name="刀枪不入" level="8" pathName="daoqiangburu" exp="15360" desc="仙宠物防+" attrType="13" value="1067"/>
+<petSoul id="40120003" name="刀枪不入" level="9" pathName="daoqiangburu" exp="30720" desc="仙宠物防+" attrType="13" value="1200"/>
+<petSoul id="40120003" name="刀枪不入" level="10" pathName="daoqiangburu" exp="0" desc="仙宠物防+" attrType="13" value="1333"/>
+
+<petSoul id="40120004" name="牢不可破" level="1" pathName="laobukepo" exp="120" desc="仙宠法防+" attrType="14" value="133"/>
+<petSoul id="40120004" name="牢不可破" level="2" pathName="laobukepo" exp="240" desc="仙宠法防+" attrType="14" value="267"/>
+<petSoul id="40120004" name="牢不可破" level="3" pathName="laobukepo" exp="480" desc="仙宠法防+" attrType="14" value="400"/>
+<petSoul id="40120004" name="牢不可破" level="4" pathName="laobukepo" exp="960" desc="仙宠法防+" attrType="14" value="533"/>
+<petSoul id="40120004" name="牢不可破" level="5" pathName="laobukepo" exp="1920" desc="仙宠法防+" attrType="14" value="667"/>
+<petSoul id="40120004" name="牢不可破" level="6" pathName="laobukepo" exp="3840" desc="仙宠法防+" attrType="14" value="800"/>
+<petSoul id="40120004" name="牢不可破" level="7" pathName="laobukepo" exp="7680" desc="仙宠法防+" attrType="14" value="933"/>
+<petSoul id="40120004" name="牢不可破" level="8" pathName="laobukepo" exp="15360" desc="仙宠法防+" attrType="14" value="1067"/>
+<petSoul id="40120004" name="牢不可破" level="9" pathName="laobukepo" exp="30720" desc="仙宠法防+" attrType="14" value="1200"/>
+<petSoul id="40120004" name="牢不可破" level="10" pathName="laobukepo" exp="0" desc="仙宠法防+" attrType="14" value="1333"/>
+
+<petSoul id="40120005" name="百步穿杨" level="1"    pathName="changshengbusi"  	exp="120" desc="仙宠命中+" attrType="36" value="40"/>
+<petSoul id="40120005" name="百步穿杨" level="2"    pathName="changshengbusi"  	exp="240" desc="仙宠命中+" attrType="36" value="60"/>
+<petSoul id="40120005" name="百步穿杨" level="3"    pathName="changshengbusi"  exp="480" desc="仙宠命中+" attrType="36" value="80"/>
+<petSoul id="40120005" name="百步穿杨" level="4"    pathName="changshengbusi"  exp="960" desc="仙宠命中+" attrType="36" value="100"/>
+<petSoul id="40120005" name="百步穿杨" level="5"    pathName="changshengbusi"  exp="1920" desc="仙宠命中+" attrType="36" value="120"/>
+<petSoul id="40120005" name="百步穿杨" level="6"    pathName="changshengbusi"  exp="3840" desc="仙宠命中+" attrType="36" value="140"/>
+<petSoul id="40120005" name="百步穿杨" level="7"    pathName="changshengbusi"  exp="7680" desc="仙宠命中+" attrType="36" value="160"/>
+<petSoul id="40120005" name="百步穿杨" level="8"    pathName="changshengbusi"  exp="15360" desc="仙宠命中+" attrType="36" value="180"/>
+<petSoul id="40120005" name="百步穿杨" level="9"    pathName="changshengbusi"  exp="30720" desc="仙宠命中+" attrType="36" value="200"/>
+<petSoul id="40120005" name="百步穿杨" level="10"    pathName="changshengbusi"  exp="0" desc="仙宠命中+" attrType="36" value="220"/>
+
+<petSoul id="40120006" name="长生不死" level="1"  pathName="baibuchuanyang"  exp="120" desc="仙宠生命值+" attrType="11" value="2000"/>
+<petSoul id="40120006" name="长生不死" level="2"  pathName="baibuchuanyang"  exp="240" desc="仙宠生命值+" attrType="11" value="4000"/>
+<petSoul id="40120006" name="长生不死" level="3"  pathName="baibuchuanyang"  exp="480" desc="仙宠生命值+" attrType="11" value="6000"/>
+<petSoul id="40120006" name="长生不死" level="4"  pathName="baibuchuanyang"  exp="960" desc="仙宠生命值+" attrType="11" value="8000"/>
+<petSoul id="40120006" name="长生不死" level="5"  pathName="baibuchuanyang"  exp="1920" desc="仙宠生命值+" attrType="11" value="10000"/>
+<petSoul id="40120006" name="长生不死" level="6"  pathName="baibuchuanyang"  exp="3840" desc="仙宠生命值+" attrType="11" value="12000"/>
+<petSoul id="40120006" name="长生不死" level="7"  pathName="baibuchuanyang"  exp="7680" desc="仙宠生命值+" attrType="11" value="14000"/>
+<petSoul id="40120006" name="长生不死" level="8"  pathName="baibuchuanyang"  exp="15360" desc="仙宠生命值+" attrType="11" value="16000"/>
+<petSoul id="40120006" name="长生不死" level="9"  pathName="baibuchuanyang"  exp="30720" desc="仙宠生命值+" attrType="11" value="18000"/>
+<petSoul id="40120006" name="长生不死" level="10"  pathName="baibuchuanyang"  exp="0" desc="仙宠生命值+" attrType="11" value="20000"/>
+
+<petSoul id="40120007" name="虚空一击" level="1"  pathName="tiyunyizong"    exp="120" desc="仙宠暴击+" attrType="37" value="40"/>
+<petSoul id="40120007" name="虚空一击" level="2"  pathName="tiyunyizong"    exp="240" desc="仙宠暴击+" attrType="37" value="60"/>
+<petSoul id="40120007" name="虚空一击" level="3"  pathName="tiyunyizong"    exp="480" desc="仙宠暴击+" attrType="37" value="80"/>
+<petSoul id="40120007" name="虚空一击" level="4"  pathName="tiyunyizong"    exp="960" desc="仙宠暴击+" attrType="37" value="100"/>
+<petSoul id="40120007" name="虚空一击" level="5"  pathName="tiyunyizong"    exp="1920" desc="仙宠暴击+" attrType="37" value="120"/>
+<petSoul id="40120007" name="虚空一击" level="6"  pathName="tiyunyizong"    exp="3840" desc="仙宠暴击+" attrType="37" value="140"/>
+<petSoul id="40120007" name="虚空一击" level="7"  pathName="tiyunyizong"    exp="7680" desc="仙宠暴击+" attrType="37" value="160"/>
+<petSoul id="40120007" name="虚空一击" level="8"  pathName="tiyunyizong"    exp="15360" desc="仙宠暴击+" attrType="37" value="180"/>
+<petSoul id="40120007" name="虚空一击" level="9"  pathName="tiyunyizong"    exp="30720" desc="仙宠暴击+" attrType="37" value="200"/>
+<petSoul id="40120007" name="虚空一击" level="10"  pathName="tiyunyizong"    exp="0" desc="仙宠暴击+" attrType="37" value="220"/>
+                                                                          
+<petSoul id="40120008" name="无我之境" level="1"  pathName="xukongyiji"       exp="120" desc="仙宠韧性+" attrType="38" value="40"/>
+<petSoul id="40120008" name="无我之境" level="2"  pathName="xukongyiji"       exp="240" desc="仙宠韧性+" attrType="38" value="60"/>
+<petSoul id="40120008" name="无我之境" level="3"  pathName="xukongyiji"       exp="480" desc="仙宠韧性+" attrType="38" value="80"/>
+<petSoul id="40120008" name="无我之境" level="4"  pathName="xukongyiji"       exp="960" desc="仙宠韧性+" attrType="38" value="100"/>
+<petSoul id="40120008" name="无我之境" level="5"  pathName="xukongyiji"       exp="1920" desc="仙宠韧性+" attrType="38" value="120"/>
+<petSoul id="40120008" name="无我之境" level="6"  pathName="xukongyiji"       exp="3840" desc="仙宠韧性+" attrType="38" value="140"/>
+<petSoul id="40120008" name="无我之境" level="7"  pathName="xukongyiji"       exp="7680" desc="仙宠韧性+" attrType="38" value="160"/>
+<petSoul id="40120008" name="无我之境" level="8"  pathName="xukongyiji"       exp="15360" desc="仙宠韧性+" attrType="38" value="180"/>
+<petSoul id="40120008" name="无我之境" level="9"  pathName="xukongyiji"       exp="30720" desc="仙宠韧性+" attrType="38" value="200"/>
+<petSoul id="40120008" name="无我之境" level="10"  pathName="xukongyiji"       exp="0" desc="仙宠韧性+" attrType="38" value="220"/>
+                                                                          
+<petSoul id="40120009" name="梯云一纵" level="1"  pathName="feirenxuezhua"     exp="120" desc="仙宠闪避+" attrType="31" value="40"/>
+<petSoul id="40120009" name="梯云一纵" level="2"  pathName="feirenxuezhua"     exp="240" desc="仙宠闪避+" attrType="31" value="60"/>
+<petSoul id="40120009" name="梯云一纵" level="3"  pathName="feirenxuezhua"     exp="480" desc="仙宠闪避+" attrType="31" value="80"/>
+<petSoul id="40120009" name="梯云一纵" level="4"  pathName="feirenxuezhua"     exp="960" desc="仙宠闪避+" attrType="31" value="100"/>
+<petSoul id="40120009" name="梯云一纵" level="5"  pathName="feirenxuezhua"     exp="1920" desc="仙宠闪避+" attrType="31" value="120"/>
+<petSoul id="40120009" name="梯云一纵" level="6"  pathName="feirenxuezhua"     exp="3840" desc="仙宠闪避+" attrType="31" value="140"/>
+<petSoul id="40120009" name="梯云一纵" level="7"  pathName="feirenxuezhua"     exp="7680" desc="仙宠闪避+" attrType="31" value="160"/>
+<petSoul id="40120009" name="梯云一纵" level="8"  pathName="feirenxuezhua"     exp="15360" desc="仙宠闪避+" attrType="31" value="180"/>
+<petSoul id="40120009" name="梯云一纵" level="9"  pathName="feirenxuezhua"     exp="30720" desc="仙宠闪避+" attrType="31" value="200"/>
+<petSoul id="40120009" name="梯云一纵" level="10"  pathName="feirenxuezhua"     exp="0" desc="仙宠闪避+" attrType="31" value="220"/>
+
+<petSoul id="40130001" name="残暴之力" level="1" pathName="canbaozhili"  exp="240" desc="仙宠物攻+" attrType="15" value="400"/>
+<petSoul id="40130001" name="残暴之力" level="2" pathName="canbaozhili"  exp="480" desc="仙宠物攻+" attrType="15" value="800"/>
+<petSoul id="40130001" name="残暴之力" level="3" pathName="canbaozhili"  exp="960" desc="仙宠物攻+" attrType="15" value="1200"/>
+<petSoul id="40130001" name="残暴之力" level="4" pathName="canbaozhili"  exp="1920" desc="仙宠物攻+" attrType="15" value="1600"/>
+<petSoul id="40130001" name="残暴之力" level="5" pathName="canbaozhili"  exp="3840" desc="仙宠物攻+" attrType="15" value="2000"/>
+<petSoul id="40130001" name="残暴之力" level="6" pathName="canbaozhili"  exp="7680" desc="仙宠物攻+" attrType="15" value="2400"/>
+<petSoul id="40130001" name="残暴之力" level="7" pathName="canbaozhili"  exp="15360" desc="仙宠物攻+" attrType="15" value="2800"/>
+<petSoul id="40130001" name="残暴之力" level="8" pathName="canbaozhili"  exp="30720" desc="仙宠物攻+" attrType="15" value="3200"/>
+<petSoul id="40130001" name="残暴之力" level="9" pathName="canbaozhili"  exp="61440" desc="仙宠物攻+" attrType="15" value="3600"/>
+<petSoul id="40130001" name="残暴之力" level="10" pathName="canbaozhili"  exp="0" desc="仙宠物攻+" attrType="15" value="4000"/>
+                                               
+<petSoul id="40130002" name="阴柔之力" level="1" pathName="yinrouzhili" exp="240" desc="仙宠法攻+" attrType="16" value="400"/>
+<petSoul id="40130002" name="阴柔之力" level="2" pathName="yinrouzhili" exp="480" desc="仙宠法攻+" attrType="16" value="800"/>
+<petSoul id="40130002" name="阴柔之力" level="3" pathName="yinrouzhili" exp="960" desc="仙宠法攻+" attrType="16" value="1200"/>
+<petSoul id="40130002" name="阴柔之力" level="4" pathName="yinrouzhili" exp="1920" desc="仙宠法攻+" attrType="16" value="1600"/>
+<petSoul id="40130002" name="阴柔之力" level="5" pathName="yinrouzhili" exp="3840" desc="仙宠法攻+" attrType="16" value="2000"/>
+<petSoul id="40130002" name="阴柔之力" level="6" pathName="yinrouzhili" exp="7680" desc="仙宠法攻+" attrType="16" value="2400"/>
+<petSoul id="40130002" name="阴柔之力" level="7" pathName="yinrouzhili" exp="15360" desc="仙宠法攻+" attrType="16" value="2800"/>
+<petSoul id="40130002" name="阴柔之力" level="8" pathName="yinrouzhili" exp="30720" desc="仙宠法攻+" attrType="16" value="3200"/>
+<petSoul id="40130002" name="阴柔之力" level="9" pathName="yinrouzhili" exp="61440" desc="仙宠法攻+" attrType="16" value="3600"/>
+<petSoul id="40130002" name="阴柔之力" level="10" pathName="yinrouzhili" exp="0" desc="仙宠法攻+" attrType="16" value="4000"/>
+
+<petSoul id="40130003" name="刀枪不入" level="1" pathName="daoqiangburu" exp="240" desc="仙宠物防+" attrType="13" value="267"/>
+<petSoul id="40130003" name="刀枪不入" level="2" pathName="daoqiangburu" exp="480" desc="仙宠物防+" attrType="13" value="533"/>
+<petSoul id="40130003" name="刀枪不入" level="3" pathName="daoqiangburu" exp="960" desc="仙宠物防+" attrType="13" value="800"/>
+<petSoul id="40130003" name="刀枪不入" level="4" pathName="daoqiangburu" exp="1920" desc="仙宠物防+" attrType="13" value="1067"/>
+<petSoul id="40130003" name="刀枪不入" level="5" pathName="daoqiangburu" exp="3840" desc="仙宠物防+" attrType="13" value="1333"/>
+<petSoul id="40130003" name="刀枪不入" level="6" pathName="daoqiangburu" exp="7680" desc="仙宠物防+" attrType="13" value="1600"/>
+<petSoul id="40130003" name="刀枪不入" level="7" pathName="daoqiangburu" exp="15360" desc="仙宠物防+" attrType="13" value="1867"/>
+<petSoul id="40130003" name="刀枪不入" level="8" pathName="daoqiangburu" exp="30720" desc="仙宠物防+" attrType="13" value="2133"/>
+<petSoul id="40130003" name="刀枪不入" level="9" pathName="daoqiangburu" exp="61440" desc="仙宠物防+" attrType="13" value="2400"/>
+<petSoul id="40130003" name="刀枪不入" level="10" pathName="daoqiangburu" exp="0" desc="仙宠物防+" attrType="13" value="2667"/>
+
+<petSoul id="40130004" name="牢不可破" level="1" pathName="laobukepo" exp="240" desc="仙宠法防+" attrType="14" value="267"/>
+<petSoul id="40130004" name="牢不可破" level="2" pathName="laobukepo" exp="480" desc="仙宠法防+" attrType="14" value="533"/>
+<petSoul id="40130004" name="牢不可破" level="3" pathName="laobukepo" exp="960" desc="仙宠法防+" attrType="14" value="800"/>
+<petSoul id="40130004" name="牢不可破" level="4" pathName="laobukepo" exp="1920" desc="仙宠法防+" attrType="14" value="1067"/>
+<petSoul id="40130004" name="牢不可破" level="5" pathName="laobukepo" exp="3840" desc="仙宠法防+" attrType="14" value="1333"/>
+<petSoul id="40130004" name="牢不可破" level="6" pathName="laobukepo" exp="7680" desc="仙宠法防+" attrType="14" value="1600"/>
+<petSoul id="40130004" name="牢不可破" level="7" pathName="laobukepo" exp="15360" desc="仙宠法防+" attrType="14" value="1867"/>
+<petSoul id="40130004" name="牢不可破" level="8" pathName="laobukepo" exp="30720" desc="仙宠法防+" attrType="14" value="2133"/>
+<petSoul id="40130004" name="牢不可破" level="9" pathName="laobukepo" exp="61440" desc="仙宠法防+" attrType="14" value="2400"/>
+<petSoul id="40130004" name="牢不可破" level="10" pathName="laobukepo" exp="0" desc="仙宠法防+" attrType="14" value="2667"/>
+
+<petSoul id="40130005" name="百步穿杨" level="1"    pathName="changshengbusi"  exp="240" desc="仙宠命中+" attrType="36" value="80"/>
+<petSoul id="40130005" name="百步穿杨" level="2"    pathName="changshengbusi"  exp="480" desc="仙宠命中+" attrType="36" value="120"/>
+<petSoul id="40130005" name="百步穿杨" level="3"    pathName="changshengbusi"  exp="960" desc="仙宠命中+" attrType="36" value="160"/>
+<petSoul id="40130005" name="百步穿杨" level="4"    pathName="changshengbusi"  exp="1920" desc="仙宠命中+" attrType="36" value="200"/>
+<petSoul id="40130005" name="百步穿杨" level="5"    pathName="changshengbusi"  exp="3840" desc="仙宠命中+" attrType="36" value="240"/>
+<petSoul id="40130005" name="百步穿杨" level="6"    pathName="changshengbusi"  exp="7680" desc="仙宠命中+" attrType="36" value="280"/>
+<petSoul id="40130005" name="百步穿杨" level="7"    pathName="changshengbusi"  exp="15360" desc="仙宠命中+" attrType="36" value="320"/>
+<petSoul id="40130005" name="百步穿杨" level="8"    pathName="changshengbusi"  exp="30720" desc="仙宠命中+" attrType="36" value="360"/>
+<petSoul id="40130005" name="百步穿杨" level="9"    pathName="changshengbusi"  exp="61440" desc="仙宠命中+" attrType="36" value="400"/>
+<petSoul id="40130005" name="百步穿杨" level="10"    pathName="changshengbusi"  exp="0" desc="仙宠命中+" attrType="36" value="440"/>
+                                                    
+<petSoul id="40130006" name="长生不死"	 level="1"  pathName="baibuchuanyang"     exp="240" desc="仙宠生命值+" attrType="11" value="4000"/>
+<petSoul id="40130006" name="长生不死" level="2"  pathName="baibuchuanyang"     exp="480" desc="仙宠生命值+" attrType="11" value="8000"/>
+<petSoul id="40130006" name="长生不死" level="3"  pathName="baibuchuanyang"     exp="960" desc="仙宠生命值+" attrType="11" value="12000"/>
+<petSoul id="40130006" name="长生不死" level="4"  pathName="baibuchuanyang"     exp="1920" desc="仙宠生命值+" attrType="11" value="16000"/>
+<petSoul id="40130006" name="长生不死" level="5"  pathName="baibuchuanyang"     exp="3840" desc="仙宠生命值+" attrType="11" value="20000"/>
+<petSoul id="40130006" name="长生不死" level="6"  pathName="baibuchuanyang"     exp="7680" desc="仙宠生命值+" attrType="11" value="24000"/>
+<petSoul id="40130006" name="长生不死" level="7"  pathName="baibuchuanyang"     exp="15360" desc="仙宠生命值+" attrType="11" value="28000"/>
+<petSoul id="40130006" name="长生不死" level="8"  pathName="baibuchuanyang"     exp="30720" desc="仙宠生命值+" attrType="11" value="32000"/>
+<petSoul id="40130006" name="长生不死" level="9"  pathName="baibuchuanyang"     exp="61440" desc="仙宠生命值+" attrType="11" value="36000"/>
+<petSoul id="40130006" name="长生不死" level="10"  pathName="baibuchuanyang"     exp="0" desc="仙宠生命值+" attrType="11" value="40000"/>
+                                                    
+<petSoul id="40130007" name="虚空一击" level="1"  pathName="tiyunyizong"   exp="240" desc="仙宠暴击+" attrType="37" value="80"/>
+<petSoul id="40130007" name="虚空一击" level="2"  pathName="tiyunyizong"   exp="480" desc="仙宠暴击+" attrType="37" value="120"/>
+<petSoul id="40130007" name="虚空一击" level="3"  pathName="tiyunyizong"   exp="960" desc="仙宠暴击+" attrType="37" value="160"/>
+<petSoul id="40130007" name="虚空一击" level="4"  pathName="tiyunyizong"   exp="1920" desc="仙宠暴击+" attrType="37" value="200"/>
+<petSoul id="40130007" name="虚空一击" level="5"  pathName="tiyunyizong"   exp="3840" desc="仙宠暴击+" attrType="37" value="240"/>
+<petSoul id="40130007" name="虚空一击" level="6"  pathName="tiyunyizong"   exp="7680" desc="仙宠暴击+" attrType="37" value="280"/>
+<petSoul id="40130007" name="虚空一击" level="7"  pathName="tiyunyizong"   exp="15360" desc="仙宠暴击+" attrType="37" value="320"/>
+<petSoul id="40130007" name="虚空一击" level="8"  pathName="tiyunyizong"   exp="30720" desc="仙宠暴击+" attrType="37" value="360"/>
+<petSoul id="40130007" name="虚空一击" level="9"  pathName="tiyunyizong"   exp="61440" desc="仙宠暴击+" attrType="37" value="400"/>
+<petSoul id="40130007" name="虚空一击" level="10"  pathName="tiyunyizong" exp="0" desc="仙宠暴击+" attrType="37" value="440"/>
+                                                    
+<petSoul id="40130008" name="无我之境" level="1"  pathName="xukongyiji"     exp="240" desc="仙宠韧性+" attrType="38" value="80"/>
+<petSoul id="40130008" name="无我之境" level="2"  pathName="xukongyiji"    exp="480" desc="仙宠韧性+" attrType="38" value="120"/>
+<petSoul id="40130008" name="无我之境" level="3"  pathName="xukongyiji"     exp="960" desc="仙宠韧性+" attrType="38" value="160"/>
+<petSoul id="40130008" name="无我之境" level="4"  pathName="xukongyiji"     exp="1920" desc="仙宠韧性+" attrType="38" value="200"/>
+<petSoul id="40130008" name="无我之境" level="5"  pathName="xukongyiji"      exp="3840" desc="仙宠韧性+" attrType="38" value="240"/>
+<petSoul id="40130008" name="无我之境" level="6"  pathName="xukongyiji"       exp="7680" desc="仙宠韧性+" attrType="38" value="280"/>
+<petSoul id="40130008" name="无我之境" level="7"  pathName="xukongyiji"    exp="15360" desc="仙宠韧性+" attrType="38" value="320"/>
+<petSoul id="40130008" name="无我之境" level="8"  pathName="xukongyiji"       exp="30720" desc="仙宠韧性+" attrType="38" value="360"/>
+<petSoul id="40130008" name="无我之境" level="9"  pathName="xukongyiji"    exp="61440" desc="仙宠韧性+" attrType="38" value="400"/>
+<petSoul id="40130008" name="无我之境" level="10"  pathName="xukongyiji"    exp="0" desc="仙宠韧性+" attrType="38" value="440"/>
+                                                    
+<petSoul id="40130009" name="梯云一纵" level="1"   pathName="feirenxuezhua"       exp="240" desc="仙宠闪避+" attrType="31" value="80"/>
+<petSoul id="40130009" name="梯云一纵" level="2"   pathName="feirenxuezhua"       exp="480" desc="仙宠闪避+" attrType="31" value="120"/>
+<petSoul id="40130009" name="梯云一纵" level="3"   pathName="feirenxuezhua"       exp="960" desc="仙宠闪避+" attrType="31" value="160"/>
+<petSoul id="40130009" name="梯云一纵" level="4"   pathName="feirenxuezhua"       exp="1920" desc="仙宠闪避+" attrType="31" value="200"/>
+<petSoul id="40130009" name="梯云一纵" level="5"   pathName="feirenxuezhua"       exp="3840" desc="仙宠闪避+" attrType="31" value="240"/>
+<petSoul id="40130009" name="梯云一纵" level="6"   pathName="feirenxuezhua"       exp="7680" desc="仙宠闪避+" attrType="31" value="280"/>
+<petSoul id="40130009" name="梯云一纵" level="7"   pathName="feirenxuezhua"       exp="15360" desc="仙宠闪避+" attrType="31" value="320"/>
+<petSoul id="40130009" name="梯云一纵" level="8"   pathName="feirenxuezhua"       exp="30720" desc="仙宠闪避+" attrType="31" value="360"/>
+<petSoul id="40130009" name="梯云一纵" level="9"   pathName="feirenxuezhua"       exp="61440" desc="仙宠闪避+" attrType="31" value="400"/>
+<petSoul id="40130009" name="梯云一纵" level="10"   pathName="feirenxuezhua"       exp="0" desc="仙宠闪避+" attrType="31" value="440"/>
+                                                
+<petSoul id="40140001" name="残暴之力" level="1"  pathName="canbaozhili"  exp="480" desc="仙宠物攻+" attrType="15" value="600"/>
+<petSoul id="40140001" name="残暴之力" level="2"  pathName="canbaozhili"  exp="960" desc="仙宠物攻+" attrType="15" value="1200"/>
+<petSoul id="40140001" name="残暴之力" level="3"  pathName="canbaozhili"  exp="1920" desc="仙宠物攻+" attrType="15" value="1800"/>
+<petSoul id="40140001" name="残暴之力" level="4"  pathName="canbaozhili"  exp="3840" desc="仙宠物攻+" attrType="15" value="2400"/>
+<petSoul id="40140001" name="残暴之力" level="5"  pathName="canbaozhili"  exp="7680" desc="仙宠物攻+" attrType="15" value="3000"/>
+<petSoul id="40140001" name="残暴之力" level="6"  pathName="canbaozhili"  exp="15360" desc="仙宠物攻+" attrType="15" value="3600"/>
+<petSoul id="40140001" name="残暴之力" level="7"  pathName="canbaozhili"  exp="30720" desc="仙宠物攻+" attrType="15" value="4200"/>
+<petSoul id="40140001" name="残暴之力" level="8"  pathName="canbaozhili"  exp="61440" desc="仙宠物攻+" attrType="15" value="4800"/>
+<petSoul id="40140001" name="残暴之力" level="9"  pathName="canbaozhili"  exp="122880" desc="仙宠物攻+" attrType="15" value="5400"/>
+<petSoul id="40140001" name="残暴之力" level="10"  pathName="canbaozhili"  exp="0" desc="仙宠物攻+" attrType="15" value="6000"/>
+                                                  
+<petSoul id="40140002" name="阴柔之力" level="1" pathName="yinrouzhili"   exp="480" desc="仙宠法攻+" attrType="16" value="600"/>
+<petSoul id="40140002" name="阴柔之力" level="2" pathName="yinrouzhili"   exp="960" desc="仙宠法攻+" attrType="16" value="1200"/>
+<petSoul id="40140002" name="阴柔之力" level="3" pathName="yinrouzhili"   exp="1920" desc="仙宠法攻+" attrType="16" value="1800"/>
+<petSoul id="40140002" name="阴柔之力" level="4" pathName="yinrouzhili"   exp="3840" desc="仙宠法攻+" attrType="16" value="2400"/>
+<petSoul id="40140002" name="阴柔之力" level="5" pathName="yinrouzhili"   exp="7680" desc="仙宠法攻+" attrType="16" value="3000"/>
+<petSoul id="40140002" name="阴柔之力" level="6" pathName="yinrouzhili"   exp="15360" desc="仙宠法攻+" attrType="16" value="3600"/>
+<petSoul id="40140002" name="阴柔之力" level="7" pathName="yinrouzhili"   exp="30720" desc="仙宠法攻+" attrType="16" value="4200"/>
+<petSoul id="40140002" name="阴柔之力" level="8" pathName="yinrouzhili"   exp="61440" desc="仙宠法攻+" attrType="16" value="4800"/>
+<petSoul id="40140002" name="阴柔之力" level="9" pathName="yinrouzhili"   exp="122880" desc="仙宠法攻+" attrType="16" value="5400"/>
+<petSoul id="40140002" name="阴柔之力" level="10"  pathName="yinrouzhili"  exp="0" desc="仙宠法攻+" attrType="16" value="6000"/>
+
+<petSoul id="40140003" name="刀枪不入" level="1" pathName="daoqiangburu" exp="480" desc="仙宠物防+" attrType="13" value="400"/>
+<petSoul id="40140003" name="刀枪不入" level="2" pathName="daoqiangburu" exp="960" desc="仙宠物防+" attrType="13" value="800"/>
+<petSoul id="40140003" name="刀枪不入" level="3" pathName="daoqiangburu" exp="1920" desc="仙宠物防+" attrType="13" value="1200"/>
+<petSoul id="40140003" name="刀枪不入" level="4" pathName="daoqiangburu" exp="3840" desc="仙宠物防+" attrType="13" value="1600"/>
+<petSoul id="40140003" name="刀枪不入" level="5" pathName="daoqiangburu" exp="7680" desc="仙宠物防+" attrType="13" value="2000"/>
+<petSoul id="40140003" name="刀枪不入" level="6" pathName="daoqiangburu" exp="15360" desc="仙宠物防+" attrType="13" value="2400"/>
+<petSoul id="40140003" name="刀枪不入" level="7" pathName="daoqiangburu" exp="30720" desc="仙宠物防+" attrType="13" value="2800"/>
+<petSoul id="40140003" name="刀枪不入" level="8" pathName="daoqiangburu" exp="61440" desc="仙宠物防+" attrType="13" value="3200"/>
+<petSoul id="40140003" name="刀枪不入" level="9" pathName="daoqiangburu" exp="122880" desc="仙宠物防+" attrType="13" value="3600"/>
+<petSoul id="40140003" name="刀枪不入" level="10" pathName="daoqiangburu" exp="0" desc="仙宠物防+" attrType="13" value="4000"/>
+
+<petSoul id="40140004" name="牢不可破" level="1" pathName="laobukepo" exp="480" desc="仙宠法防+" attrType="14" value="400"/>
+<petSoul id="40140004" name="牢不可破" level="2" pathName="laobukepo" exp="960" desc="仙宠法防+" attrType="14" value="800"/>
+<petSoul id="40140004" name="牢不可破" level="3" pathName="laobukepo" exp="1920" desc="仙宠法防+" attrType="14" value="1200"/>
+<petSoul id="40140004" name="牢不可破" level="4" pathName="laobukepo" exp="3840" desc="仙宠法防+" attrType="14" value="1600"/>
+<petSoul id="40140004" name="牢不可破" level="5" pathName="laobukepo" exp="7680" desc="仙宠法防+" attrType="14" value="2000"/>
+<petSoul id="40140004" name="牢不可破" level="6" pathName="laobukepo" exp="15360" desc="仙宠法防+" attrType="14" value="2400"/>
+<petSoul id="40140004" name="牢不可破" level="7" pathName="laobukepo" exp="30720" desc="仙宠法防+" attrType="14" value="2800"/>
+<petSoul id="40140004" name="牢不可破" level="8" pathName="laobukepo" exp="61440" desc="仙宠法防+" attrType="14" value="3200"/>
+<petSoul id="40140004" name="牢不可破" level="9" pathName="laobukepo" exp="122880" desc="仙宠法防+" attrType="14" value="3600"/>
+<petSoul id="40140004" name="牢不可破" level="10" pathName="laobukepo" exp="0" desc="仙宠法防+" attrType="14" value="4000"/>
+
+<petSoul id="40140005" name="百步穿杨" level="1"   pathName="changshengbusi" exp="480" desc="仙宠命中+" attrType="36" value="120"/>
+<petSoul id="40140005" name="百步穿杨" level="2"   pathName="changshengbusi" exp="960" desc="仙宠命中+" attrType="36" value="240"/>
+<petSoul id="40140005" name="百步穿杨" level="3"   pathName="changshengbusi" exp="1920" desc="仙宠命中+" attrType="36" value="360"/>
+<petSoul id="40140005" name="百步穿杨" level="4"   pathName="changshengbusi" exp="3840" desc="仙宠命中+" attrType="36" value="480"/>
+<petSoul id="40140005" name="百步穿杨" level="5"   pathName="changshengbusi" exp="7680" desc="仙宠命中+" attrType="36" value="600"/>
+<petSoul id="40140005" name="百步穿杨" level="6"   pathName="changshengbusi" exp="15360" desc="仙宠命中+" attrType="36" value="720"/>
+<petSoul id="40140005" name="百步穿杨" level="7"   pathName="changshengbusi" exp="30720" desc="仙宠命中+" attrType="36" value="840"/>
+<petSoul id="40140005" name="百步穿杨" level="8"   pathName="changshengbusi" exp="61440" desc="仙宠命中+" attrType="36" value="960"/>
+<petSoul id="40140005" name="百步穿杨" level="9"   pathName="changshengbusi" exp="122880" desc="仙宠命中+" attrType="36" value="1080"/>
+<petSoul id="40140005" name="百步穿杨" level="10"   pathName="changshengbusi" exp="0" desc="仙宠命中+" attrType="36" value="1200"/>
+                                                      
+<petSoul id="40140006" name="长生不死" level="1"      pathName="baibuchuanyang"  exp="480" desc="仙宠生命值+" attrType="11" value="6000"/>
+<petSoul id="40140006" name="长生不死" level="2"      pathName="baibuchuanyang"  exp="960" desc="仙宠生命值+" attrType="11" value="12000"/>
+<petSoul id="40140006" name="长生不死" level="3"      pathName="baibuchuanyang"  exp="1920" desc="仙宠生命值+" attrType="11" value="18000"/>
+<petSoul id="40140006" name="长生不死" level="4"      pathName="baibuchuanyang"  exp="3840" desc="仙宠生命值+" attrType="11" value="24000"/>
+<petSoul id="40140006" name="长生不死" level="5"      pathName="baibuchuanyang"  exp="7680" desc="仙宠生命值+" attrType="11" value="30000"/>
+<petSoul id="40140006" name="长生不死" level="6"      pathName="baibuchuanyang"  exp="15360" desc="仙宠生命值+" attrType="11" value="36000"/>
+<petSoul id="40140006" name="长生不死" level="7"      pathName="baibuchuanyang"  exp="30720" desc="仙宠生命值+" attrType="11" value="42000"/>
+<petSoul id="40140006" name="长生不死" level="8"      pathName="baibuchuanyang"  exp="61440" desc="仙宠生命值+" attrType="11" value="48000"/>
+<petSoul id="40140006" name="长生不死" level="9"      pathName="baibuchuanyang"  exp="122880" desc="仙宠生命值+" attrType="11" value="54000"/>
+<petSoul id="40140006" name="长生不死" level="10"      pathName="baibuchuanyang" exp="0" desc="仙宠生命值+" attrType="11" value="60000"/>
+                                                      
+<petSoul id="40140007" name="虚空一击" level="1"      pathName="tiyunyizong"     exp="480" desc="仙宠暴击+" attrType="37" value="120"/>
+<petSoul id="40140007" name="虚空一击" level="2"      pathName="tiyunyizong"     exp="960" desc="仙宠暴击+" attrType="37" value="240"/>
+<petSoul id="40140007" name="虚空一击" level="3"      pathName="tiyunyizong"     exp="1920" desc="仙宠暴击+" attrType="37" value="360"/>
+<petSoul id="40140007" name="虚空一击" level="4"      pathName="tiyunyizong"     exp="3840" desc="仙宠暴击+" attrType="37" value="480"/>
+<petSoul id="40140007" name="虚空一击" level="5"      pathName="tiyunyizong"     exp="7680" desc="仙宠暴击+" attrType="37" value="600"/>
+<petSoul id="40140007" name="虚空一击" level="6"      pathName="tiyunyizong"     exp="15360" desc="仙宠暴击+" attrType="37" value="720"/>
+<petSoul id="40140007" name="虚空一击" level="7"      pathName="tiyunyizong"     exp="30720" desc="仙宠暴击+" attrType="37" value="840"/>
+<petSoul id="40140007" name="虚空一击" level="8"      pathName="tiyunyizong"     exp="61440" desc="仙宠暴击+" attrType="37" value="960"/>
+<petSoul id="40140007" name="虚空一击" level="9"      pathName="tiyunyizong"     exp="122880" desc="仙宠暴击+" attrType="37" value="1080"/>
+<petSoul id="40140007" name="虚空一击" level="10"      pathName="tiyunyizong"    exp="0" desc="仙宠暴击+" attrType="37" value="1200"/>
+                                                      
+<petSoul id="40140008" name="无我之境" level="1"      pathName="xukongyiji"      exp="480" desc="仙宠韧性+" attrType="38" value="120"/>
+<petSoul id="40140008" name="无我之境" level="2"      pathName="xukongyiji"      exp="960" desc="仙宠韧性+" attrType="38" value="240"/>
+<petSoul id="40140008" name="无我之境" level="3"      pathName="xukongyiji"      exp="1920" desc="仙宠韧性+" attrType="38" value="360"/>
+<petSoul id="40140008" name="无我之境" level="4"      pathName="xukongyiji"      exp="3840" desc="仙宠韧性+" attrType="38" value="480"/>
+<petSoul id="40140008" name="无我之境" level="5"      pathName="xukongyiji"      exp="7680" desc="仙宠韧性+" attrType="38" value="600"/>
+<petSoul id="40140008" name="无我之境" level="6"      pathName="xukongyiji"      exp="15360" desc="仙宠韧性+" attrType="38" value="720"/>
+<petSoul id="40140008" name="无我之境" level="7"      pathName="xukongyiji"      exp="30720" desc="仙宠韧性+" attrType="38" value="840"/>
+<petSoul id="40140008" name="无我之境" level="8"      pathName="xukongyiji"      exp="61440" desc="仙宠韧性+" attrType="38" value="960"/>
+<petSoul id="40140008" name="无我之境" level="9"      pathName="xukongyiji"      exp="122880" desc="仙宠韧性+" attrType="38" value="1080"/>
+<petSoul id="40140008" name="无我之境" level="10"      pathName="xukongyiji"      exp="0" desc="仙宠韧性+" attrType="38" value="1200"/>
+                                                      
+<petSoul id="40140009" name="梯云一纵" level="1"      pathName="feirenxuezhua"   exp="480" desc="仙宠闪避+" attrType="31" value="120"/>
+<petSoul id="40140009" name="梯云一纵" level="2"      pathName="feirenxuezhua"   exp="960" desc="仙宠闪避+" attrType="31" value="240"/>
+<petSoul id="40140009" name="梯云一纵" level="3"      pathName="feirenxuezhua"   exp="1920" desc="仙宠闪避+" attrType="31" value="360"/>
+<petSoul id="40140009" name="梯云一纵" level="4"      pathName="feirenxuezhua"   exp="3840" desc="仙宠闪避+" attrType="31" value="480"/>
+<petSoul id="40140009" name="梯云一纵" level="5"      pathName="feirenxuezhua"   exp="7680" desc="仙宠闪避+" attrType="31" value="600"/>
+<petSoul id="40140009" name="梯云一纵" level="6"      pathName="feirenxuezhua"   exp="15360" desc="仙宠闪避+" attrType="31" value="720"/>
+<petSoul id="40140009" name="梯云一纵" level="7"      pathName="feirenxuezhua"   exp="30720" desc="仙宠闪避+" attrType="31" value="840"/>
+<petSoul id="40140009" name="梯云一纵" level="8"      pathName="feirenxuezhua"   exp="61440" desc="仙宠闪避+" attrType="31" value="960"/>
+<petSoul id="40140009" name="梯云一纵" level="9"      pathName="feirenxuezhua"   exp="122880" desc="仙宠闪避+" attrType="31" value="1080"/>
+<petSoul id="40140009" name="梯云一纵" level="10"      pathName="feirenxuezhua"   exp="0" desc="仙宠闪避+" attrType="31" value="1200"/>
+                                                  
+<petSoul id="40150001" name="残暴之力" level="1"   pathName="canbaozhili"     exp="960" desc="仙宠物攻+" attrType="15" value="1000"/>
+<petSoul id="40150001" name="残暴之力" level="2"   pathName="canbaozhili"     exp="1920" desc="仙宠物攻+" attrType="15" value="2000"/>
+<petSoul id="40150001" name="残暴之力" level="3"   pathName="canbaozhili"     exp="3840" desc="仙宠物攻+" attrType="15" value="3000"/>
+<petSoul id="40150001" name="残暴之力" level="4"   pathName="canbaozhili"     exp="7680" desc="仙宠物攻+" attrType="15" value="4000"/>
+<petSoul id="40150001" name="残暴之力" level="5"   pathName="canbaozhili"     exp="15360" desc="仙宠物攻+" attrType="15" value="5000"/>
+<petSoul id="40150001" name="残暴之力" level="6"   pathName="canbaozhili"     exp="30720" desc="仙宠物攻+" attrType="15" value="6000"/>
+<petSoul id="40150001" name="残暴之力" level="7"   pathName="canbaozhili"     exp="61440" desc="仙宠物攻+" attrType="15" value="7000"/>
+<petSoul id="40150001" name="残暴之力" level="8"   pathName="canbaozhili"     exp="122880" desc="仙宠物攻+" attrType="15" value="8000"/>
+<petSoul id="40150001" name="残暴之力" level="9"   pathName="canbaozhili"     exp="245760" desc="仙宠物攻+" attrType="15" value="9000"/>
+<petSoul id="40150001" name="残暴之力" level="10"   pathName="canbaozhili"     exp="0" desc="仙宠物攻+" attrType="15" value="10000"/>
+                                                      
+<petSoul id="40150002" name="阴柔之力" level="1"   pathName="yinrouzhili"      exp="960" desc="仙宠法攻+" attrType="16" value="1000"/>
+<petSoul id="40150002" name="阴柔之力" level="2"   pathName="yinrouzhili"      exp="1920" desc="仙宠法攻+" attrType="16" value="2000"/>
+<petSoul id="40150002" name="阴柔之力" level="3"   pathName="yinrouzhili"      exp="3840" desc="仙宠法攻+" attrType="16" value="3000"/>
+<petSoul id="40150002" name="阴柔之力" level="4"   pathName="yinrouzhili"      exp="7680" desc="仙宠法攻+" attrType="16" value="4000"/>
+<petSoul id="40150002" name="阴柔之力" level="5"   pathName="yinrouzhili"      exp="15360" desc="仙宠法攻+" attrType="16" value="5000"/>
+<petSoul id="40150002" name="阴柔之力" level="6"   pathName="yinrouzhili"      exp="30720" desc="仙宠法攻+" attrType="16" value="6000"/>
+<petSoul id="40150002" name="阴柔之力" level="7"   pathName="yinrouzhili"      exp="61440" desc="仙宠法攻+" attrType="16" value="7000"/>
+<petSoul id="40150002" name="阴柔之力" level="8"   pathName="yinrouzhili"      exp="122880" desc="仙宠法攻+" attrType="16" value="8000"/>
+<petSoul id="40150002" name="阴柔之力" level="9"   pathName="yinrouzhili"      exp="245760" desc="仙宠法攻+" attrType="16" value="9000"/>
+<petSoul id="40150002" name="阴柔之力" level="10"   pathName="yinrouzhili"      exp="0" desc="仙宠法攻+" attrType="16" value="10000"/>
+
+<petSoul id="40150003" name="刀枪不入" level="1" pathName="daoqiangburu" exp="960" desc="仙宠物防+" attrType="13" value="667"/>
+<petSoul id="40150003" name="刀枪不入" level="2" pathName="daoqiangburu" exp="1920" desc="仙宠物防+" attrType="13" value="1333"/>
+<petSoul id="40150003" name="刀枪不入" level="3" pathName="daoqiangburu" exp="3840" desc="仙宠物防+" attrType="13" value="2000"/>
+<petSoul id="40150003" name="刀枪不入" level="4" pathName="daoqiangburu" exp="7680" desc="仙宠物防+" attrType="13" value="2667"/>
+<petSoul id="40150003" name="刀枪不入" level="5" pathName="daoqiangburu" exp="15360" desc="仙宠物防+" attrType="13" value="3333"/>
+<petSoul id="40150003" name="刀枪不入" level="6" pathName="daoqiangburu" exp="30720" desc="仙宠物防+" attrType="13" value="4000"/>
+<petSoul id="40150003" name="刀枪不入" level="7" pathName="daoqiangburu" exp="61440" desc="仙宠物防+" attrType="13" value="4667"/>
+<petSoul id="40150003" name="刀枪不入" level="8" pathName="daoqiangburu" exp="122880" desc="仙宠物防+" attrType="13" value="5333"/>
+<petSoul id="40150003" name="刀枪不入" level="9" pathName="daoqiangburu" exp="245760" desc="仙宠物防+" attrType="13" value="6000"/>
+<petSoul id="40150003" name="刀枪不入" level="10" pathName="daoqiangburu" exp="0" desc="仙宠物防+" attrType="13" value="6667"/>
+
+<petSoul id="40150004" name="牢不可破" level="1" pathName="laobukepo" exp="960" desc="仙宠法防+" attrType="14" value="667"/>
+<petSoul id="40150004" name="牢不可破" level="2" pathName="laobukepo" exp="1920" desc="仙宠法防+" attrType="14" value="1333"/>
+<petSoul id="40150004" name="牢不可破" level="3" pathName="laobukepo" exp="3840" desc="仙宠法防+" attrType="14" value="2000"/>
+<petSoul id="40150004" name="牢不可破" level="4" pathName="laobukepo" exp="7680" desc="仙宠法防+" attrType="14" value="2667"/>
+<petSoul id="40150004" name="牢不可破" level="5" pathName="laobukepo" exp="15360" desc="仙宠法防+" attrType="14" value="3333"/>
+<petSoul id="40150004" name="牢不可破" level="6" pathName="laobukepo" exp="30720" desc="仙宠法防+" attrType="14" value="4000"/>
+<petSoul id="40150004" name="牢不可破" level="7" pathName="laobukepo" exp="61440" desc="仙宠法防+" attrType="14" value="4667"/>
+<petSoul id="40150004" name="牢不可破" level="8" pathName="laobukepo" exp="122880" desc="仙宠法防+" attrType="14" value="5333"/>
+<petSoul id="40150004" name="牢不可破" level="9" pathName="laobukepo" exp="245760" desc="仙宠法防+" attrType="14" value="6000"/>
+<petSoul id="40150004" name="牢不可破" level="10" pathName="laobukepo" exp="0" desc="仙宠法防+" attrType="14" value="6667"/>
+
+<petSoul id="40150005" name="百步穿杨" level="1"  pathName="changshengbusi"  exp="960" desc="仙宠命中+" attrType="36" value="200"/>
+<petSoul id="40150005" name="百步穿杨" level="2"  pathName="changshengbusi"  exp="1920" desc="仙宠命中+" attrType="36" value="400"/>
+<petSoul id="40150005" name="百步穿杨" level="3"  pathName="changshengbusi"  exp="3840" desc="仙宠命中+" attrType="36" value="600"/>
+<petSoul id="40150005" name="百步穿杨" level="4"  pathName="changshengbusi"  exp="7680" desc="仙宠命中+" attrType="36" value="800"/>
+<petSoul id="40150005" name="百步穿杨" level="5"  pathName="changshengbusi"  exp="15360" desc="仙宠命中+" attrType="36" value="1000"/>
+<petSoul id="40150005" name="百步穿杨" level="6"  pathName="changshengbusi"  exp="30720" desc="仙宠命中+" attrType="36" value="1200"/>
+<petSoul id="40150005" name="百步穿杨" level="7"  pathName="changshengbusi"  exp="61440" desc="仙宠命中+" attrType="36" value="1400"/>
+<petSoul id="40150005" name="百步穿杨" level="8"  pathName="changshengbusi"  exp="122880" desc="仙宠命中+" attrType="36" value="1600"/>
+<petSoul id="40150005" name="百步穿杨" level="9"  pathName="changshengbusi"  exp="245760" desc="仙宠命中+" attrType="36" value="1800"/>
+<petSoul id="40150005" name="百步穿杨" level="10"  pathName="changshengbusi"  exp="0" desc="仙宠命中+" attrType="36" value="2000"/>
+                                                    
+<petSoul id="40150006" name="长生不死" level="1"     pathName="baibuchuanyang"   exp="960" desc="仙宠生命+" attrType="11" value="10000"/>
+<petSoul id="40150006" name="长生不死" level="2"     pathName="baibuchuanyang"   exp="1920" desc="仙宠生命+" attrType="11" value="20000"/>
+<petSoul id="40150006" name="长生不死" level="3"     pathName="baibuchuanyang"   exp="3840" desc="仙宠生命+" attrType="11" value="30000"/>
+<petSoul id="40150006" name="长生不死" level="4"     pathName="baibuchuanyang"   exp="7680" desc="仙宠生命+" attrType="11" value="40000"/>
+<petSoul id="40150006" name="长生不死" level="5"     pathName="baibuchuanyang"   exp="15360" desc="仙宠生命+" attrType="11" value="50000"/>
+<petSoul id="40150006" name="长生不死" level="6"     pathName="baibuchuanyang"   exp="30720" desc="仙宠生命+" attrType="11" value="60000"/>
+<petSoul id="40150006" name="长生不死" level="7"     pathName="baibuchuanyang"   exp="61440" desc="仙宠生命+" attrType="11" value="70000"/>
+<petSoul id="40150006" name="长生不死" level="8"     pathName="baibuchuanyang"   exp="122880" desc="仙宠生命+" attrType="11" value="80000"/>
+<petSoul id="40150006" name="长生不死" level="9"     pathName="baibuchuanyang"   exp="245760" desc="仙宠生命+" attrType="11" value="90000"/>
+<petSoul id="40150006" name="长生不死" level="10"     pathName="baibuchuanyang"   exp="0" desc="仙宠生命+" attrType="11" value="100000"/>
+                                                   
+<petSoul id="40150007" name="虚空一击" level="1"     pathName="tiyunyizong"      exp="960" desc="仙宠暴击+" attrType="37" value="200"/>
+<petSoul id="40150007" name="虚空一击" level="2"     pathName="tiyunyizong"      exp="1920" desc="仙宠暴击+" attrType="37" value="400"/>
+<petSoul id="40150007" name="虚空一击" level="3"     pathName="tiyunyizong"      exp="3840" desc="仙宠暴击+" attrType="37" value="600"/>
+<petSoul id="40150007" name="虚空一击" level="4"     pathName="tiyunyizong"      exp="7680" desc="仙宠暴击+" attrType="37" value="800"/>
+<petSoul id="40150007" name="虚空一击" level="5"     pathName="tiyunyizong"      exp="15360" desc="仙宠暴击+" attrType="37" value="1000"/>
+<petSoul id="40150007" name="虚空一击" level="6"     pathName="tiyunyizong"      exp="30720" desc="仙宠暴击+" attrType="37" value="1200"/>
+<petSoul id="40150007" name="虚空一击" level="7"     pathName="tiyunyizong"      exp="61440" desc="仙宠暴击+" attrType="37" value="1400"/>
+<petSoul id="40150007" name="虚空一击" level="8"     pathName="tiyunyizong"      exp="122880" desc="仙宠暴击+" attrType="37" value="1600"/>
+<petSoul id="40150007" name="虚空一击" level="9"     pathName="tiyunyizong"      exp="245760" desc="仙宠暴击+" attrType="37" value="1800"/>
+<petSoul id="40150007" name="虚空一击" level="10"     pathName="tiyunyizong"      exp="0" desc="仙宠暴击+" attrType="37" value="2000"/>
+                                                   
+<petSoul id="40150008" name="无我之境" level="1"     pathName="xukongyiji"       exp="960" 		desc="仙宠韧性+" attrType="38" value="200"/>
+<petSoul id="40150008" name="无我之境" level="2"     pathName="xukongyiji"       exp="1920" 	desc="仙宠韧性+" attrType="38" value="400"/>
+<petSoul id="40150008" name="无我之境" level="3"     pathName="xukongyiji"       exp="3840" 	desc="仙宠韧性+" attrType="38" value="600"/>
+<petSoul id="40150008" name="无我之境" level="4"     pathName="xukongyiji"       exp="7680" 	desc="仙宠韧性+" attrType="38" value="800"/>
+<petSoul id="40150008" name="无我之境" level="5"     pathName="xukongyiji"       exp="15360" 	desc="仙宠韧性+" attrType="38" value="1000"/>
+<petSoul id="40150008" name="无我之境" level="6"     pathName="xukongyiji"       exp="30720" 	desc="仙宠韧性+" attrType="38" value="1200"/>
+<petSoul id="40150008" name="无我之境" level="7"     pathName="xukongyiji"       exp="61440" 	desc="仙宠韧性+" attrType="38" value="1400"/>
+<petSoul id="40150008" name="无我之境" level="8"     pathName="xukongyiji"       exp="122880" 	desc="仙宠韧性+" attrType="38" value="1600"/>
+<petSoul id="40150008" name="无我之境" level="9"     pathName="xukongyiji"       exp="245760" 	desc="仙宠韧性+" attrType="38" value="1800"/>
+<petSoul id="40150008" name="无我之境" level="10"     pathName="xukongyiji"       exp="0" 		desc="仙宠韧性+" attrType="38" value="2000"/>
+                                                   
+<petSoul id="40150009" name="梯云一纵" level="1"     pathName="feirenxuezhua"    exp="960" 	desc="仙宠闪避+" attrType="31"  value="200"/>
+<petSoul id="40150009" name="梯云一纵" level="2"     pathName="feirenxuezhua"    exp="1920" 	desc="仙宠闪避+" attrType="31"  value="400"/>
+<petSoul id="40150009" name="梯云一纵" level="3"     pathName="feirenxuezhua"    exp="3840" 	desc="仙宠闪避+" attrType="31"  value="600"/>
+<petSoul id="40150009" name="梯云一纵" level="4"     pathName="feirenxuezhua"    exp="7680" 	desc="仙宠闪避+" attrType="31"  value="800"/>
+<petSoul id="40150009" name="梯云一纵" level="5"     pathName="feirenxuezhua"    exp="15360" 	desc="仙宠闪避+" attrType="31"  value="1000"/>
+<petSoul id="40150009" name="梯云一纵" level="6"     pathName="feirenxuezhua"    exp="30720" 	desc="仙宠闪避+" attrType="31"  value="1200"/>
+<petSoul id="40150009" name="梯云一纵" level="7"     pathName="feirenxuezhua"    exp="61440" 	desc="仙宠闪避+" attrType="31"  value="1400"/>
+<petSoul id="40150009" name="梯云一纵" level="8"     pathName="feirenxuezhua"    exp="122880" desc="仙宠闪避+" attrType="31"  value="1600"/>
+<petSoul id="40150009" name="梯云一纵" level="9"     pathName="feirenxuezhua"    exp="245760" desc="仙宠闪避+" attrType="31"  value="1800"/>
+<petSoul id="40150009" name="梯云一纵" level="10"     pathName="feirenxuezhua"    exp="0" 	desc="仙宠闪避+" attrType="31"  value="2000"/>
+
+<petSoul id="40160001" name="残暴之力" level="1"   pathName="canbaozhili"  exp="1920" 	desc="仙宠物攻+" attrType="15" value="1500"/>
+<petSoul id="40160001" name="残暴之力" level="2"   pathName="canbaozhili"  exp="3840" 	desc="仙宠物攻+" attrType="15" value="3000"/>
+<petSoul id="40160001" name="残暴之力" level="3"   pathName="canbaozhili"  exp="7680" 	desc="仙宠物攻+" attrType="15" value="4500"/>
+<petSoul id="40160001" name="残暴之力" level="4"   pathName="canbaozhili"  exp="15360" 	desc="仙宠物攻+" attrType="15" value="6000"/>
+<petSoul id="40160001" name="残暴之力" level="5"   pathName="canbaozhili"  exp="30720" 	desc="仙宠物攻+" attrType="15" value="7500"/>
+<petSoul id="40160001" name="残暴之力" level="6"   pathName="canbaozhili"  exp="61440" 	desc="仙宠物攻+" attrType="15" value="9000"/>
+<petSoul id="40160001" name="残暴之力" level="7"   pathName="canbaozhili"  exp="122880" 	desc="仙宠物攻+" attrType="15" value="10500"/>
+<petSoul id="40160001" name="残暴之力" level="8"   pathName="canbaozhili"  exp="245760" 	desc="仙宠物攻+" attrType="15" value="12000"/>
+<petSoul id="40160001" name="残暴之力" level="9"   pathName="canbaozhili"  exp="491520" 	desc="仙宠物攻+" attrType="15" value="13500"/>
+<petSoul id="40160001" name="残暴之力" level="10"   pathName="canbaozhili" exp="0" 		desc="仙宠物攻+" attrType="15" value="15000"/>
+                                                                        
+<petSoul id="40160002" name="阴柔之力" level="1"   pathName="yinrouzhili"  exp="1920" 	desc="仙宠法攻+" attrType="16" value="1500"/>
+<petSoul id="40160002" name="阴柔之力" level="2"   pathName="yinrouzhili"  exp="3840" 	desc="仙宠法攻+" attrType="16" value="3000"/>
+<petSoul id="40160002" name="阴柔之力" level="3"   pathName="yinrouzhili"  exp="7680" 	desc="仙宠法攻+" attrType="16" value="4500"/>
+<petSoul id="40160002" name="阴柔之力" level="4"   pathName="yinrouzhili"  exp="15360" 	desc="仙宠法攻+" attrType="16" value="6000"/>
+<petSoul id="40160002" name="阴柔之力" level="5"   pathName="yinrouzhili"  exp="30720" 	desc="仙宠法攻+" attrType="16" value="7500"/>
+<petSoul id="40160002" name="阴柔之力" level="6"   pathName="yinrouzhili"  exp="61440" 	desc="仙宠法攻+" attrType="16" value="9000"/>
+<petSoul id="40160002" name="阴柔之力" level="7"   pathName="yinrouzhili"  exp="122880" 	desc="仙宠法攻+" attrType="16" value="10500"/>
+<petSoul id="40160002" name="阴柔之力" level="8"   pathName="yinrouzhili"  exp="245760" 	desc="仙宠法攻+" attrType="16" value="12000"/>
+<petSoul id="40160002" name="阴柔之力" level="9"   pathName="yinrouzhili"  exp="491520" 	desc="仙宠法攻+" attrType="16" value="13500"/>
+<petSoul id="40160002" name="阴柔之力" level="10"   pathName="yinrouzhili" exp="0" 		desc="仙宠法攻+" attrType="16" value="15000"/>
+
+<petSoul id="40160003" name="刀枪不入" level="1" pathName="daoqiangburu"  exp="1920" 	desc="仙宠物防+" attrType="13" 			value="1000"/>
+<petSoul id="40160003" name="刀枪不入" level="2" pathName="daoqiangburu"  exp="3840" 	desc="仙宠物防+" attrType="13" 			value="2000"/>
+<petSoul id="40160003" name="刀枪不入" level="3" pathName="daoqiangburu"  exp="7680" 	desc="仙宠物防+" attrType="13" 			value="3000"/>
+<petSoul id="40160003" name="刀枪不入" level="4" pathName="daoqiangburu"  exp="15360" 	desc="仙宠物防+" attrType="13" 		value="4000"/>
+<petSoul id="40160003" name="刀枪不入" level="5" pathName="daoqiangburu"  exp="30720" 	desc="仙宠物防+" attrType="13" 		value="5000"/>
+<petSoul id="40160003" name="刀枪不入" level="6" pathName="daoqiangburu"  exp="61440" 	desc="仙宠物防+" attrType="13" 		value="6000"/>
+<petSoul id="40160003" name="刀枪不入" level="7" pathName="daoqiangburu"  exp="122880" 	desc="仙宠物防+" attrType="13" 		value="7000"/>
+<petSoul id="40160003" name="刀枪不入" level="8" pathName="daoqiangburu"  exp="245760" 	 desc="仙宠物防+" attrType="13" 	value="8000"/>
+<petSoul id="40160003" name="刀枪不入" level="9" pathName="daoqiangburu"  exp="491520" 		desc="仙宠物防+" attrType="13" 	value="9000"/>
+<petSoul id="40160003" name="刀枪不入" level="10" pathName="daoqiangburu" exp="0" 		desc="仙宠物防+" attrType="13" 		value="10000"/>
+
+<petSoul id="40160004" name="牢不可破" level="1" pathName="laobukepo"  exp="1920" 	desc="仙宠法防+" attrType="14" 	value="1000"/>
+<petSoul id="40160004" name="牢不可破" level="2" pathName="laobukepo"  exp="3840" 	desc="仙宠法防+" attrType="14" 	value="2000"/>
+<petSoul id="40160004" name="牢不可破" level="3" pathName="laobukepo"  exp="7680" 	desc="仙宠法防+" attrType="14" 	value="3000"/>
+<petSoul id="40160004" name="牢不可破" level="4" pathName="laobukepo"  exp="15360" 	desc="仙宠法防+" attrType="14" 	value="4000"/>
+<petSoul id="40160004" name="牢不可破" level="5" pathName="laobukepo"  exp="30720" 	desc="仙宠法防+" attrType="14" 	value="5000"/>
+<petSoul id="40160004" name="牢不可破" level="6" pathName="laobukepo"  exp="61440" 	desc="仙宠法防+" attrType="14" 	value="6000"/>
+<petSoul id="40160004" name="牢不可破" level="7" pathName="laobukepo"  exp="122880"	desc="仙宠法防+" attrType="14" 	value="7000"/>
+<petSoul id="40160004" name="牢不可破" level="8" pathName="laobukepo"  exp="245760" desc="仙宠法防+" attrType="14"	value="8000"/>
+<petSoul id="40160004" name="牢不可破" level="9" pathName="laobukepo"  exp="491520" desc="仙宠法防+" attrType="14" 	value="9000"/>
+<petSoul id="40160004" name="牢不可破" level="10" pathName="laobukepo" exp="0" 		desc="仙宠法防+" attrType="14" 		value="10000"/>
+
+<petSoul id="40160005" name="百步穿杨" level="1" pathName="changshengbusi" exp="1920" 	desc="仙宠命中+" attrType="36" value="300"/>
+<petSoul id="40160005" name="百步穿杨" level="2" pathName="changshengbusi" exp="3840" 	desc="仙宠命中+" attrType="36" value="600"/>
+<petSoul id="40160005" name="百步穿杨" level="3" pathName="changshengbusi" exp="7680" 	desc="仙宠命中+" attrType="36" value="900"/>
+<petSoul id="40160005" name="百步穿杨" level="4" pathName="changshengbusi" exp="15360"	desc="仙宠命中+" attrType="36" value="1200"/>
+<petSoul id="40160005" name="百步穿杨" level="5" pathName="changshengbusi" exp="30720"	desc="仙宠命中+" attrType="36" value="1500"/>
+<petSoul id="40160005" name="百步穿杨" level="6" pathName="changshengbusi" exp="61440"	desc="仙宠命中+" attrType="36" value="1800"/>
+<petSoul id="40160005" name="百步穿杨" level="7" pathName="changshengbusi" exp="122880"	desc="仙宠命中+" attrType="36" value="2100"/>
+<petSoul id="40160005" name="百步穿杨" level="8" pathName="changshengbusi" exp="245760"	 desc="仙宠命中+" attrType="36" value="2400"/>
+<petSoul id="40160005" name="百步穿杨" level="9" pathName="changshengbusi" exp="491520" 	desc="仙宠命中+" attrType="36" value="2700"/>
+<petSoul id="40160005" name="百步穿杨" level="10" pathName="changshengbusi" exp="0" 		desc="仙宠命中+" attrType="36" value="3000"/>
+                                                  
+<petSoul id="40160006" name="长生不死" level="1"  pathName="baibuchuanyang"  exp="1920" 	desc="仙宠生命+" attrType="11" value="15000"/>
+<petSoul id="40160006" name="长生不死" level="2"  pathName="baibuchuanyang"  exp="3840" 	 desc="仙宠生命+" attrType="11" value="30000"/>
+<petSoul id="40160006" name="长生不死" level="3"  pathName="baibuchuanyang"  exp="7680" 	desc="仙宠生命+" attrType="11" value="45000"/>
+<petSoul id="40160006" name="长生不死" level="4"  pathName="baibuchuanyang"  exp="15360"	desc="仙宠生命+" attrType="11" value="60000"/>
+<petSoul id="40160006" name="长生不死" level="5"  pathName="baibuchuanyang"  exp="30720"	 desc="仙宠生命+" attrType="11" value="75000"/>
+<petSoul id="40160006" name="长生不死" level="6"  pathName="baibuchuanyang"  exp="61440"	 desc="仙宠生命+" attrType="11" value="90000"/>
+<petSoul id="40160006" name="长生不死" level="7"  pathName="baibuchuanyang"  exp="122880"	desc="仙宠生命+" attrType="11" value="105000"/>
+<petSoul id="40160006" name="长生不死" level="8"  pathName="baibuchuanyang"  exp="245760"	 desc="仙宠生命+" attrType="11" value="120000"/>
+<petSoul id="40160006" name="长生不死" level="9"  pathName="baibuchuanyang"  exp="491520" 	 desc="仙宠生命+" attrType="11" value="135000"/>
+<petSoul id="40160006" name="长生不死" level="10"  pathName="baibuchuanyang"   exp="0" 		desc="仙宠生命+" attrType="11" value="150000"/>
+                                                 
+<petSoul id="40160007" name="虚空一击" level="1"  pathName="tiyunyizong"   exp="1920" 	desc="仙宠暴击+" attrType="37"  value="300"/>
+<petSoul id="40160007" name="虚空一击" level="2"  pathName="tiyunyizong"   exp="3840" 	desc="仙宠暴击+" attrType="37"  value="600"/>
+<petSoul id="40160007" name="虚空一击" level="3"  pathName="tiyunyizong"   exp="7680" 	desc="仙宠暴击+" attrType="37"  value="900"/>
+<petSoul id="40160007" name="虚空一击" level="4"  pathName="tiyunyizong"   exp="15360"	desc="仙宠暴击+" attrType="37"  value="1200"/>
+<petSoul id="40160007" name="虚空一击" level="5"  pathName="tiyunyizong"   exp="30720"	desc="仙宠暴击+" attrType="37"  value="1500"/>
+<petSoul id="40160007" name="虚空一击" level="6"  pathName="tiyunyizong"   exp="61440"	desc="仙宠暴击+" attrType="37"  value="1800"/>
+<petSoul id="40160007" name="虚空一击" level="7"  pathName="tiyunyizong"   exp="122880"	desc="仙宠暴击+" attrType="37"  value="2100"/>
+<petSoul id="40160007" name="虚空一击" level="8"  pathName="tiyunyizong"   exp="245760"	desc="仙宠暴击+" attrType="37"  value="2400"/>
+<petSoul id="40160007" name="虚空一击" level="9"  pathName="tiyunyizong"   exp="491520" 	desc="仙宠暴击+" attrType="37"  value="2700"/>
+<petSoul id="40160007" name="虚空一击" level="10"  pathName="tiyunyizong"   exp="0" 		desc="仙宠暴击+" attrType="37"  value="3000"/>
+                                                 
+<petSoul id="40160008" name="无我之境" level="1"  pathName="xukongyiji"    exp="1920" 	desc="仙宠韧性+" attrType="38"  value="300"/>
+<petSoul id="40160008" name="无我之境" level="2"  pathName="xukongyiji"    exp="3840" 	desc="仙宠韧性+" attrType="38"  value="600"/>
+<petSoul id="40160008" name="无我之境" level="3"  pathName="xukongyiji"    exp="7680" 	desc="仙宠韧性+" attrType="38"  value="900"/>
+<petSoul id="40160008" name="无我之境" level="4"  pathName="xukongyiji"    exp="15360"	desc="仙宠韧性+" attrType="38"  value="1200"/>
+<petSoul id="40160008" name="无我之境" level="5"  pathName="xukongyiji"    exp="30720"	desc="仙宠韧性+" attrType="38"  value="1500"/>
+<petSoul id="40160008" name="无我之境" level="6"  pathName="xukongyiji"    exp="61440"	desc="仙宠韧性+" attrType="38"  value="1800"/>
+<petSoul id="40160008" name="无我之境" level="7"  pathName="xukongyiji"    exp="122880"	desc="仙宠韧性+" attrType="38"  value="2100"/>
+<petSoul id="40160008" name="无我之境" level="8"  pathName="xukongyiji"    exp="245760"	desc="仙宠韧性+" attrType="38"  value="2400"/>
+<petSoul id="40160008" name="无我之境" level="9"  pathName="xukongyiji"    exp="491520" 	desc="仙宠韧性+" attrType="38"  value="2700"/>
+<petSoul id="40160008" name="无我之境" level="10"  pathName="xukongyiji"    exp="0" 		desc="仙宠韧性+" attrType="38"  value="3000"/>
+                                                 
+<petSoul id="40160009" name="梯云一纵" level="1"  pathName="feirenxuezhua" exp="1920" 	desc="仙宠闪避+" attrType="31" value="300"/>
+<petSoul id="40160009" name="梯云一纵" level="2"  pathName="feirenxuezhua" exp="3840" 	desc="仙宠闪避+" attrType="31" value="600"/>
+<petSoul id="40160009" name="梯云一纵" level="3"  pathName="feirenxuezhua" exp="7680" 	desc="仙宠闪避+" attrType="31" value="900"/>
+<petSoul id="40160009" name="梯云一纵" level="4"  pathName="feirenxuezhua" exp="15360"	desc="仙宠闪避+" attrType="31" value="1200"/>
+<petSoul id="40160009" name="梯云一纵" level="5"  pathName="feirenxuezhua" exp="30720"	desc="仙宠闪避+" attrType="31" value="1500"/>
+<petSoul id="40160009" name="梯云一纵" level="6"  pathName="feirenxuezhua" exp="61440"	desc="仙宠闪避+" attrType="31" value="1800"/>
+<petSoul id="40160009" name="梯云一纵" level="7"  pathName="feirenxuezhua" exp="122880"	desc="仙宠闪避+" attrType="31" value="2100"/>
+<petSoul id="40160009" name="梯云一纵" level="8"  pathName="feirenxuezhua" exp="245760"	desc="仙宠闪避+" attrType="31" value="2400"/>
+<petSoul id="40160009" name="梯云一纵" level="9"  pathName="feirenxuezhua" exp="491520" 	desc="仙宠闪避+" attrType="31" value="2700"/>
+<petSoul id="40160009" name="梯云一纵" level="10"  pathName="feirenxuezhua" exp="0" 		desc="仙宠闪避+" attrType="31" value="3000"/>
+	
+</petSouls>
+<huntCosts max="5">
+<huntCost id="1" name="低级摄魂" pathName="lowLevel" cost="1,8000"/>
+<huntCost id="2" name="初级摄魂" pathName="junior" cost="1,10000"/>
+<huntCost id="3" name="中级摄魂" pathName="midLevel" cost="1,20000"/>
+<huntCost id="4" name="高级摄魂" pathName="highLevel" cost="1,40000|2,200"/>
+<huntCost id="5" name="顶级摄魂" pathName="topLevel" cost="1,60000"/>
+</huntCosts>
+</root>

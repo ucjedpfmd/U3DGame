@@ -1,0 +1,85 @@
+<loveHouse>
+	<upgrades maxLv="8"><!--numFurnitrue:家具数量 numDecoration:饰品数量 maxReinf：最大强化 maxVisit:最大可参观人数 marryLv情缘等级 costSweet甜蜜度-->
+		<upgrade lv="1" numFurnitrue="3" numJewe="6" maxReinf="10" maxVisit="3" minLoveLv="1" maxLoveLv="1" costSweet="">
+			<addItem type="10" typeID="10010100,10020100,10040100" />
+			<addItem type="20" typeID="20020100,20020200,20020300,20030100,20050100,20050200" />
+		</upgrade>
+		<upgrade lv="2" numFurnitrue="4" numJewe="8" maxReinf="20" maxVisit="4" minLoveLv="10" maxLoveLv="19" costSweet="10000">
+			<addItem type="10" typeID="10030100" />
+			<addItem type="20" typeID="20070100,20070200" />
+		</upgrade>
+		<upgrade lv="3" numFurnitrue="5" numJewe="10" maxReinf="30" maxVisit="5" minLoveLv="20" maxLoveLv="29" costSweet="20000">
+			<addItem type="10" typeID="10070100" />
+			<addItem type="20" typeID="20080100,20080200" />
+		</upgrade>
+		<upgrade lv="4" numFurnitrue="6" numJewe="12" maxReinf="40" maxVisit="6" minLoveLv="30" maxLoveLv="39" costSweet="35000">
+			<addItem type="10" typeID="10070200" />
+			<addItem type="20" typeID="20080300,20080400" />
+		</upgrade>
+		<upgrade lv="5" numFurnitrue="7" numJewe="14" maxReinf="50" maxVisit="7" minLoveLv="40" maxLoveLv="49" costSweet="65000">
+			<addItem type="10" typeID="10050100" />
+			<addItem type="20" typeID="20060100,20060200" />
+		</upgrade>
+		<upgrade lv="6" numFurnitrue="8" numJewe="16" maxReinf="60" maxVisit="8" minLoveLv="50" maxLoveLv="59" costSweet="95000">
+			<addItem type="10" typeID="10060100" />
+			<addItem type="20" typeID="20060300,20060400" />
+		</upgrade>
+		<upgrade lv="7" numFurnitrue="9" numJewe="18" maxReinf="70" maxVisit="9" minLoveLv="60" maxLoveLv="69" costSweet="135000">
+			<addItem type="10" typeID="10080100" />
+			<addItem type="20" typeID="20040100,20040200" />
+		</upgrade>
+		<upgrade lv="8" numFurnitrue="10" numJewe="20" maxReinf="80" maxVisit="10" minLoveLv="70" maxLoveLv="70" costSweet="180000">
+			<addItem type="10" typeID="10080300" />
+			<addItem type="20" typeID="20010100,20010200" />
+		</upgrade>
+	</upgrades>
+	<levels>
+		<item type="1" value="10010100,10020100,10040100,20020100,20020200,20020300,20030100,20050100,20050200"/>
+		<item type="2" value="3,20070100|6,20070200|10,10030100|13,20080100|16,20080200|20,10070100|23,20080300|26,20080400|30,10070200|33,20060100|36,20060200|40,10050100|43,20060300|46,20060400|50,10060100|53,20040100|56,20040200|60,10080100|63,20010100|66,20010200|70,10080300"/>
+	</levels>
+	<styles max="6">
+		<style id="1" typeID="11802026" name="中国古典" cost="0" isClose= "" luxury="500" openLv="1" desc="来自中国古典风的家居风格，全部家居饰品由上等楠木打造而成，大方而不失风情。" />
+		<style id="2" typeID="11802035" name="琳琅天境" cost="0" isClose= "" luxury="500" openLv="5" desc="琳琅天上的华丽风格，全部家具都由仙界神秘材料打造，让人宛若置身天境" />
+		<style id="3" typeID="11802029" name="未知风格" cost="0" isClose= "1" luxury="800" openLv="70" desc="更多风格敬请期待哦" />
+	</styles>
+	
+	<furnitures>
+	<!--typeID: ab:01:家具 02:饰品 cd:家具大类 ef:家具小类
+		家具大类：床是1， 浴缸2， 衣柜（多宝阁）3， 桌子4, 茶几5 香案6, 沙发7， 观景窗8
+		饰品大类：1.香炉 2.围栏 3.挂画 4.屏风 5.大盆景 6.小盆景 7.花瓶 8.灯笼
+		dir 1:向左 -1：向右
+		floor 1:1层，2:2层，3：墙 4：护栏
+	-->
+		<furniture typeID="10010100" resource="10010100" itemID="1,30000051|2,30100051" pt="4,5" maxNum="1" dir="1" floor="1,2" useSmall="1" />
+		<furniture typeID="10020100" resource="10020100" itemID="1,30000056|2,30100056" pt="2,2" maxNum="1" dir="-1" floor="1,2" />
+		<furniture typeID="10030100" resource="10030100" itemID="1,30000055|2,30100055" pt="1,2" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="10040100" resource="10040100" itemID="1,30000052|2,30100052" pt="2,2" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="10050100" resource="10050100" itemID="1,30000053|2,30100053" pt="2,2" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="10060100" resource="10060100" itemID="1,30000074|2,30100074" pt="1,3" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="10070100" resource="10070100" itemID="1,30000054|2,30100054" pt="2,4" maxNum="2" dir="1" floor="1,2" />
+		<furniture typeID="10070200" resource="10070100" itemID="1,30000054|2,30100054" pt="2,4" maxNum="2" dir="1" floor="1,2" />
+		<furniture typeID="10080100" resource="10080100" itemID="1,30000057|2,30100057" pt="2,2" maxNum="3" dir="-1" floor="3" />
+		<furniture typeID="10080300" resource="10080300" itemID="1,30000058|2,30100058" pt="2,2" maxNum="3" dir="-1" floor="3" />
+	                                                                                       
+		<furniture typeID="20010100" resource="20010100" itemID="1,30000075|2,30100075" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20010200" resource="20010100" itemID="1,30000075|2,30100075" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20020100" resource="20020100" itemID="1,30000071|2,30100071" pt="3,4" maxNum="1" dir="1" floor="4" />
+		<furniture typeID="20020200" resource="20020200" itemID="1,30000072|2,30100072" pt="7,5" maxNum="1" dir="1" floor="4" useSmall="1" />
+		<furniture typeID="20020300" resource="20020300" itemID="1,30000073|2,30100073" pt="1,6" maxNum="1" dir="1" floor="4" />
+		<furniture typeID="20030100" resource="20030100" itemID="1,30000062|2,30100062" pt="1,1" maxNum="2" dir="1" floor="3" />
+		<furniture typeID="20040100" resource="20040100" itemID="1,30000065|2,30100065" pt="1,3" maxNum="1" dir="-1" floor="1,2" />
+		<furniture typeID="20040200" resource="20040200" itemID="1,30010065|2,30110065" pt="1,3" maxNum="1" dir="-1" floor="1,2" />
+		<furniture typeID="20050100" resource="20050100" itemID="1,30000066|2,30100066" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20050200" resource="20050100" itemID="1,30000066|2,30100066" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20060100" resource="20060100" itemID="1,30010066|2,30110066" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20060200" resource="20060100" itemID="1,30010066|2,30110066" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20060300" resource="20060100" itemID="1,30010066|2,30110066" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20060400" resource="20060100" itemID="1,30010066|2,30110066" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20070100" resource="20070100" itemID="1,30000076|2,30100076" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20070200" resource="20070100" itemID="1,30000076|2,30100076" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20080100" resource="20080100" itemID="1,30000064|2,30100064" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20080200" resource="20080100" itemID="1,30000064|2,30100064" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20080300" resource="20080100" itemID="1,30000064|2,30100064" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+		<furniture typeID="20080400" resource="20080100" itemID="1,30000064|2,30100064" pt="1,1" maxNum="1" dir="1" floor="1,2" />
+	</furnitures>
+</loveHouse>

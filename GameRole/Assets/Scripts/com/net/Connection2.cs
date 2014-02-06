@@ -157,8 +157,9 @@ public class Connection2
         {
             StateObject stateObj = (StateObject)ar.AsyncState;
             Socket client = stateObj.workSocket;
-
+            
             int bytesRead = client.EndReceive(ar);
+            //Debug.Log("收到字节数：" + bytesRead);
             if (bytesRead > 0)
             {
                 byte[] byteData = new byte[bytesRead];
@@ -232,8 +233,13 @@ public class Connection2
 
         int alias = tmpByte.readInt();
         string voName = ProtoAliasUtil.getClassNameByAlias(alias);
+        if (voName == null)
+        {
+            Debug.Log("收到不存在的协议号" + alias);
+            return;
+        }
         string classpackage = "proto" + "." + voName;
-		Debug.Log("收到协议" + classpackage);
+        Debug.Log("收到协议名" + classpackage);
         Type t = Type.GetType(classpackage);
         Message vo1 = (Message) Activator.CreateInstance(t);
         Message vo = Message.decode(tmpByte, vo1);
@@ -254,6 +260,7 @@ public class Connection2
         {
             return;
         }
+        Debug.Log("发送协议 " + message.getClassName());
         int packetHeader;
         byte id;
         ByteArray dataByte = new ByteArray();
@@ -300,7 +307,7 @@ public class Connection2
             Socket client = (Socket)ar.AsyncState;
             // Complete sending the data to the remote device.     
             int bytesSent = client.EndSend(ar);
-            Debug.Log("Sent "+bytesSent+" bytes to server.");
+           // Debug.Log("Sent "+bytesSent+" bytes to server.");
             // Signal that all bytes have been sent.     
         }
         catch (Exception e)

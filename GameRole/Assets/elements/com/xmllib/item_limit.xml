@@ -1,0 +1,29 @@
+<items>
+<!--
+	<item id="19901001">
+		<state tate="1" action="0" info="该道具还未开启使用，圣诞节开启有惊喜哦" link="" link_id=""/>
+		<state tate="4" action="1" info="" link="" link_id="2"/>
+	</item>
+-->
+	<item id="19901002">
+		<state type="1" action="0" info="该道具还未开启使用，元旦当天开启有惊喜哦" link="" link_id=""/>
+	</item>
+
+	<item id="11001025">
+		<state type="4" action="1" info="活动兑换界面" link="兑换" link_id="12099"/>
+	</item>
+	
+	<item id="10902521">
+		<state type="1" action="0" info="该道具还未开启使用，春节期间开启有惊喜哦" link="" link_id=""/>
+	</item>
+	<item id="10902526">
+		<state type="1" action="0" info="该道具已过期，不可使用" link="" link_id=""/>
+	</item>
+	<item id="10902527">
+		<state type="1" action="0" info="该道具已过期，不可使用" link="" link_id=""/>
+	</item>
+	<item id="11001030">
+		<state type="4" action="1" info="活动兑换界面" link="兑换" link_id="12099"/>
+	</item>
+	
+</items>

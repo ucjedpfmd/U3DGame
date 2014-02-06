@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- animas是各个等级升级需要的灵气值，contributions是各个等级升级需要的贡献，
+ items="10021|1,100022|2"  ‘|’前面是itemid，后面是所需数量 
+ <buildings>
+	<building id="1" name="炼丹房" contributions="96,158,30,40,50,60,70,80,90,100" >
+	   <building id=建筑流水号 
+	   name="炼丹房"建筑名称 
+	   contributions="96,158,30,40,50,60,70,80,90,100"升级建筑需要消耗的仙盟繁荣度
+		<skill buildId="1" name="丹药精通" id="1" animas="100,2,3,4,5"/>
+		  <skill buildId="1"归属的建筑 
+		  name="丹药精通"技能名称 id="1"技能的流水号 
+		  animas="100,2,3,4,5"升级该技能需要消耗的灵气 
+		<formula buildId="1" name="火炎丹" id="1" lv=" " skillLv="1" buildLv="1" desc="这是一枚神奇的小药丸" contributions="100" animas="100" item0= "11100002" item1="11100001|2"/>
+		  <formula buildId="1"归属的建筑 
+		  name="火炎丹"配方的名称 
+		  id="1"配方流水号 
+		  skillLv="1"学习,制造需要的技能等级 
+		  buildLv="1"学习,制造的建筑等级
+		  desc="这是一枚神奇的小药丸"配方学习面板的描述
+		  contributions="100"学习消耗的个人贡献
+		  animas="100"制造消耗的灵气
+          item0= "11100002"产物的物品ID	
+		  item1="11100001|2"制造需要的材料和个数
+	</building>-->
+<buildings>
+	<building id="1" name="炼丹房" contributions="120,264,720,1404,2520,4400,7360,17280,30000,42000" >
+		<skill buildId="1" name="丹药精通" id="1" animas="500,500,500,500,500,500"/>
+		
+	   <!-- <formula buildId="1" name="一品朝元丹" id="1" lv="1" skillLv="1" buildLv="1" desc="恢复生命值2000" contributions="200" animas="100" item0= "11100002" item1="11500059|50,11100002|1"/>
+		<formula buildId="1" name="二品朝元丹" id="1" lv="2" skillLv="2" buildLv="3" desc="恢复生命值3000" contributions="400" animas="100" item0= "11100002" item1="11500059|50,11100002|1"/>
+		<formula buildId="1" name="三品朝元丹" id="1" lv="3" skillLv="3" buildLv="5" desc="恢复生命值4000" contributions="600" animas="100" item0= "11100002" item1="11500059|50,11100002|1"/>
+		<formula buildId="1" name="四品朝元丹" id="1" lv="4" skillLv="4" buildLv="7" desc="恢复生命值5000" contributions="800" animas="100" item0= "11100002" item1="11500059|50,11100002|1"/>
+		<formula buildId="1" name="五品朝元丹" id="1" lv="5" skillLv="5" buildLv="9" desc="恢复生命值6000" contributions="1000" animas="100" item0= "11100002" item1="11500059|50,11100002|1"/>
+		-->
+		<formula buildId="1" name="一品御火丹" id="3" lv="1" skillLv="1" buildLv="1" desc="火抗+100" contributions="300" animas="200" item0= "11100020" item1="11500059|50,11500060|10"/>
+		<formula buildId="1" name="二品御火丹" id="3" lv="2" skillLv="2" buildLv="3" desc="火抗+200" contributions="600" animas="400" item0= "11100024" item1="11500059|50,11500060|20"/>
+		<formula buildId="1" name="三品御火丹" id="3" lv="3" skillLv="3" buildLv="5" desc="火抗+300" contributions="900" animas="600" item0= "11100028" item1="11500059|50,11500060|30"/>
+		<formula buildId="1" name="四品御火丹" id="3" lv="4" skillLv="4" buildLv="7" desc="火抗+400" contributions="1200" animas="800" item0= "11100032" item1="11500059|50,11500060|40"/>
+		<formula buildId="1" name="五品御火丹" id="3" lv="5" skillLv="5" buildLv="9" desc="火抗+500" contributions="1500" animas="1000" item0= "11100036" item1="11500059|50,11500060|50"/>
+		<formula buildId="1" name="一品凝霜丹" id="4" lv="1" skillLv="1" buildLv="2" desc="冰抗+100" contributions="300" animas="200" item0= "11100021" item1="11500059|50,11500061|10"/>
+		<formula buildId="1" name="二品凝霜丹" id="4" lv="2" skillLv="2" buildLv="4" desc="冰抗+200" contributions="600" animas="400" item0= "11100025" item1="11500059|50,11500061|20"/>
+		<formula buildId="1" name="三品凝霜丹" id="4" lv="3" skillLv="3" buildLv="6" desc="冰抗+300" contributions="900" animas="600" item0= "11100029" item1="11500059|50,11500061|30"/>
+		<formula buildId="1" name="四品凝霜丹" id="4" lv="4" skillLv="4" buildLv="8" desc="冰抗+400" contributions="1200" animas="800" item0= "11100033" item1="11500059|50,11500061|40"/>
+		<formula buildId="1" name="五品凝霜丹" id="4" lv="5" skillLv="5" buildLv="10" desc="冰抗+500" contributions="1500" animas="1000" item0= "11100037" item1="11500059|50,11500061|50"/>
+		<formula buildId="1" name="一品避毒丹" id="5" lv="1" skillLv="1" buildLv="1" desc="毒抗+100" contributions="300" animas="200" item0= "11100022" item1="11500059|50,11500062|10"/>
+		<formula buildId="1" name="二品避毒丹" id="5" lv="2" skillLv="2" buildLv="3" desc="毒抗+200" contributions="600" animas="400" item0= "11100026" item1="11500059|50,11500062|20"/>
+		<formula buildId="1" name="三品避毒丹" id="5" lv="3" skillLv="3" buildLv="5" desc="毒抗+300" contributions="900" animas="600" item0= "11100030" item1="11500059|50,11500062|30"/>
+		<formula buildId="1" name="四品避毒丹" id="5" lv="4" skillLv="4" buildLv="7" desc="毒抗+400" contributions="1200" animas="800" item0= "11100034" item1="11500059|50,11500062|40"/>
+		<formula buildId="1" name="五品避毒丹" id="5" lv="5" skillLv="5" buildLv="9" desc="毒抗+500" contributions="1500" animas="1000" item0= "11100038" item1="11500059|50,11500062|50"/>
+		<formula buildId="1" name="一品避雷丹" id="6" lv="1" skillLv="1" buildLv="2" desc="晕抗+100" contributions="300" animas="200" item0= "11100023" item1="11500059|50,11500063|10"/>
+		<formula buildId="1" name="二品避雷丹" id="6" lv="2" skillLv="2" buildLv="4" desc="晕抗+200" contributions="600" animas="400" item0= "11100027" item1="11500059|50,11500063|20"/>
+		<formula buildId="1" name="三品避雷丹" id="6" lv="3" skillLv="3" buildLv="6" desc="晕抗+300" contributions="900" animas="600" item0= "11100031" item1="11500059|50,11500063|30"/>
+		<formula buildId="1" name="四品避雷丹" id="6" lv="4" skillLv="4" buildLv="8" desc="晕抗+400" contributions="1200" animas="800" item0= "11100035" item1="11500059|50,11500063|40"/>
+		<formula buildId="1" name="五品避雷丹" id="6" lv="5" skillLv="5" buildLv="10" desc="晕抗+500" contributions="1500" animas="1000" item0= "11100039" item1="11500059|50,11500063|50"/>
+	</building>
+	<building id="2" name="仙泉" contributions="120,264,720,1404,2520,4400,7360,17280,30000,42000" >
+	</building>
+</buildings>

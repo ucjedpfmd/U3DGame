@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FBScoreShop>
+	<deal id="3" name="技能卷兑换" show_type="1" refgoodsid="11402029:【宠物技能卷】:1:-1" requestGoodTip="">
+	    <deal_item id = "10001" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50个【中阶宠物技能卷】，兑换1个【中阶飞爪】</font>]]></description>
+            <need_items id="11402029" type="1" number="50" bind="1" color="3" quality="1"/>
+            <award_items id="11402013" type="1" number="1" bind="1" color="3" quality="1" power="5"/>
+        </deal_item>
+
+        <deal_item id = "10002" seq="2" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50个【中阶宠物技能卷】，兑换1个【中阶魔音】</font>]]></description>
+            <need_items id="11402029" type="1" number="50" bind="1" color="3" quality="1"/>
+            <award_items id="11402014" type="1" number="1" bind="1" color="3" quality="1" power="5"/>
+        </deal_item>
+			    
+	<deal_item id = "10003" seq="3" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50个【中阶宠物技能卷】，兑换1个【中阶横扫】</font>]]></description>
+            <need_items id="11402029" type="1" number="50" bind="1" color="3" quality="1"/>
+            <award_items id="11402015" type="1" number="1" bind="1" color="3" quality="1" power="5"/>
+        </deal_item>
+
+	<deal_item id = "10004" seq="4" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">50个【中阶宠物技能卷】，兑换1个【中阶无双】</font>]]></description>
+            <need_items id="11402029" type="1" number="50" bind="1" color="3" quality="1"/>
+            <award_items id="11402016" type="1" number="1" bind="1" color="3" quality="1" power="5"/>
+        </deal_item>
+   </deal>
+</FBScoreShop>

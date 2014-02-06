@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sceneEffects>
+    <map map_id="11001">
+	     <item tx="54" ty="77" url="han_bing_fa_zhen.swf"></item>
+	</map>
+	<map map_id="12001">
+	     <item tx="54" ty="77" url="han_bing_fa_zhen.swf"></item>
+	</map>
+	<map map_id="13001">
+	     <item tx="54" ty="77" url="han_bing_fa_zhen.swf"></item>
+	</map>
+</sceneEffects>

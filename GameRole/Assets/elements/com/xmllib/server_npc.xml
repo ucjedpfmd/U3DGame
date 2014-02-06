@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<servernpcs>
+
+<!--女娲神殿战斗NPC-->
+<servernpc typeid = "51101011"  skinid="100094"  path ="100094.png"  level = "1" />
+<servernpc typeid = "51101012"  skinid="100091"  path ="100091.png"  level = "1" />
+<servernpc typeid = "51101013"  skinid="100092"  path ="100092.png"  level = "1" />
+<servernpc typeid = "51101014"  skinid="100093"  path ="100093.png"  level = "1" />
+
+<servernpc typeid = "51101301"  skinid="23074"  path ="23074.png"  level = "30" sayWord="我一箭飞羽，命中世间一切丑陋！"/>
+<servernpc typeid = "51101302"  skinid="23075"  path ="23075.png"  level = "30" sayWord="我一把狂刀，斩尽天下祸事魔物！"/>
+<servernpc typeid = "51101303"  skinid="23076"  path ="23076.png"  level = "30" sayWord="我一扇舞天，冲破凡尘无尽罪恶！"/>
+<servernpc typeid = "51101304"  skinid="12035"  path ="12035.png"  level = "30" sayWord="我一意冰凝，净化俗世所有污秽！"/>
+<servernpc typeid = "51101401"  skinid="23074"  path ="23074.png"  level = "40" sayWord="我一箭飞羽，命中世间一切丑陋！"/>
+<servernpc typeid = "51101402"  skinid="23075"  path ="23075.png"  level = "40" sayWord="我一把狂刀，斩尽天下祸事魔物！"/>
+<servernpc typeid = "51101403"  skinid="23076"  path ="23076.png"  level = "40" sayWord="我一扇舞天，冲破凡尘无尽罪恶！"/>
+<servernpc typeid = "51101404"  skinid="12035"  path ="12035.png"  level = "40" sayWord="我一意冰凝，净化俗世所有污秽！"/>
+<servernpc typeid = "51101501"  skinid="23074"  path ="23074.png"  level = "50" sayWord="我一箭飞羽，命中世间一切丑陋！"/>
+<servernpc typeid = "51101502"  skinid="23075"  path ="23075.png"  level = "50" sayWord="我一把狂刀，斩尽天下祸事魔物！"/>
+<servernpc typeid = "51101503"  skinid="23076"  path ="23076.png"  level = "50" sayWord="我一扇舞天，冲破凡尘无尽罪恶！"/>
+<servernpc typeid = "51101504"  skinid="12035"  path ="12035.png"  level = "50" sayWord="我一意冰凝，净化俗世所有污秽！"/>
+<servernpc typeid = "51101601"  skinid="23074"  path ="23074.png"  level = "60" sayWord="我一箭飞羽，命中世间一切丑陋！"/>
+<servernpc typeid = "51101602"  skinid="23075"  path ="23075.png"  level = "60" sayWord="我一把狂刀，斩尽天下祸事魔物！"/>
+<servernpc typeid = "51101603"  skinid="23076"  path ="23076.png"  level = "60" sayWord="我一扇舞天，冲破凡尘无尽罪恶！"/>
+<servernpc typeid = "51101604"  skinid="12035"  path ="12035.png"  level = "60" sayWord="我一意冰凝，净化俗世所有污秽！"/>
+<servernpc typeid = "51101701"  skinid="23074"  path ="23074.png"  level = "70" sayWord="我一箭飞羽，命中世间一切丑陋！"/>
+<servernpc typeid = "51101702"  skinid="23075"  path ="23075.png"  level = "70" sayWord="我一把狂刀，斩尽天下祸事魔物！"/>
+<servernpc typeid = "51101703"  skinid="23076"  path ="23076.png"  level = "70" sayWord="我一扇舞天，冲破凡尘无尽罪恶！"/>
+<servernpc typeid = "51101704"  skinid="12035"  path ="12035.png"  level = "70" sayWord="我一意冰凝，净化俗世所有污秽！"/>
+<servernpc typeid = "51101801"  skinid="23074"  path ="23074.png"  level = "80" sayWord="我一箭飞羽，命中世间一切丑陋！"/>
+<servernpc typeid = "51101802"  skinid="23075"  path ="23075.png"  level = "80" sayWord="我一把狂刀，斩尽天下祸事魔物！"/>
+<servernpc typeid = "51101803"  skinid="23076"  path ="23076.png"  level = "80" sayWord="我一扇舞天，冲破凡尘无尽罪恶！"/>
+<servernpc typeid = "51101804"  skinid="12035"  path ="12035.png"  level = "80" sayWord="我一意冰凝，净化俗世所有污秽！"/>
+
+<servernpc typeid = "51101300"  skinid="100090"  path ="100090.png"  level = "30" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101400"  skinid="100090"  path ="100090.png"  level = "40" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101500"  skinid="100090"  path ="100090.png"  level = "50" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101600"  skinid="100090"  path ="100090.png"  level = "60" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101700"  skinid="100090"  path ="100090.png"  level = "70" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101800"  skinid="100090"  path ="100090.png"  level = "80" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101305"  skinid="100090"  path ="100090.png"  level = "30" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101405"  skinid="100090"  path ="100090.png"  level = "40" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101505"  skinid="100090"  path ="100090.png"  level = "50" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101605"  skinid="100090"  path ="100090.png"  level = "60" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101705"  skinid="100090"  path ="100090.png"  level = "70" sayWord="我必定竭尽所能，守卫神殿！"/>
+<servernpc typeid = "51101805"  skinid="100090"  path ="100090.png"  level = "80" sayWord="我必定竭尽所能，守卫神殿！"/>
+
+<!--傲视六界战斗NPC-->
+<servernpc typeid = "50506501"  skinid="10110"  path ="10110.png"  level = "50" sayWord="我乃仙界有为道人，让我助你一臂之力！"/>
+<servernpc typeid = "50503421"  skinid="10044"  path ="10044.png"  level = "42" sayWord="魔物哪里逃！"/>
+
+<servernpc typeid = "51301101"  skinid="51301101"  path ="51301101.png"  level = "50" sayWord="靠近我可以增加命中"/>
+<servernpc typeid = "51301102"  skinid="51301102"  path ="51301102.png"  level = "50" sayWord="靠近我可以增加防御"/>
+<servernpc typeid = "51301103"  skinid="51301103"  path ="51301103.png"  level = "50" sayWord="靠近我可以无视魔物防御"/>
+
+<servernpc typeid = "50401101"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401102"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401103"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401104"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401111"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401112"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401113"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401114"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401121"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401122"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401123"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+<servernpc typeid = "50401124"  skinid="23074"  path ="23074.png"  level = "100" sayWord=""/>
+
+<servernpc typeid = "11100001"  skinid="10135"  path ="10135.png"  level = "100" sayWord="妖魔逆袭，大家快守卫帝都"/>
+<servernpc typeid = "12100001"  skinid="10135"  path ="10135.png"  level = "100" sayWord="妖魔逆袭，大家快守卫帝都"/>
+<servernpc typeid = "13100001"  skinid="10135"  path ="10135.png"  level = "100" sayWord="妖魔逆袭，大家快守卫帝都"/>
+
+<servernpc typeid = "51705101"  skinid="10135"  path ="10135.png"  level = "50" />
+<servernpc typeid = "51705102"  skinid="10135"  path ="10135.png"  level = "50" />
+<servernpc typeid = "51705103"  skinid="10135"  path ="10135.png"  level = "50" />
+<servernpc typeid = "51705104"  skinid="10135"  path ="10135.png"  level = "50" />
+<servernpc typeid = "51705105"  skinid="10135"  path ="10135.png"  level = "50" />
+
+<servernpc typeid = "51710105"  skinid="10135"  path ="10135.png"  level = "50" />
+
+<!--跨服战场NPC-->
+<servernpc typeid = "61111101"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111102"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111103"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111104"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111105"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111106"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111107"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111108"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111109"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "61111110"  skinid="33041"  path ="33041.png"  level = "200" />
+
+<servernpc typeid = "62201101"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201102"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201103"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201104"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201105"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201106"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201107"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201108"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201109"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "62201110"  skinid="33041"  path ="33041.png"  level = "200" />
+
+<servernpc typeid = "64101101"  skinid="10043"  path ="10043.jpg"  level = "100" />
+<servernpc typeid = "64102101"  skinid="10043"  path ="10043.jpg"  level = "100" />
+<servernpc typeid = "64102201"  skinid="10043"  path ="10043.jpg"  level = "100" />
+<servernpc typeid = "64103202"  skinid="10043"  path ="10043.jpg"  level = "100" />
+
+<servernpc typeid = "51901401"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901402"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901403"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901404"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901405"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901406"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901407"  skinid="10000"  path ="10000.png"  level = "200" />
+<servernpc typeid = "51901408"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901409"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901410"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901411"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901412"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901413"  skinid="23074"  path ="23074.png"  level = "200" />
+<servernpc typeid = "51901414"  skinid="10000"  path ="10000.png"  level = "200" />
+
+
+</servernpcs>

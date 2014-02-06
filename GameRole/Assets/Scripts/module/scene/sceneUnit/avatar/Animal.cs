@@ -64,7 +64,7 @@ namespace module.scene.sceneUnit.avatar
         {
             float dis = Mathf.Abs(Vector3.Distance(point, myObj.transform.position));
             //主角没到达目标点时，一直向该点移动
-            if (dis >= 0.3f)
+            if (dis >= 1.0f)
             {
                 //得到角色控制器组件
                 CharacterController controller = myObj.GetComponent<CharacterController>();
@@ -80,6 +80,16 @@ namespace module.scene.sceneUnit.avatar
                 SetGameAct(AvatarUtil.ACT_STAND);
                 Debug.Log("怪物：" + id + "当前位置：" + myObj.transform.position.ToString());
             }
+        }
+
+        public virtual void attack(string act, int dir) {
+            this.play(act, dir);
+		}
+
+        override public void remove()
+        {
+            SetGameAct(AvatarUtil.ACT_STAND);
+            base.remove();
         }
     }
 }

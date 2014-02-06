@@ -11,6 +11,7 @@ class ModuleFactory
         SceneModule.getInstance();
         NPCModule.getInstance();
         MapCase.getInstance();
-        MonsterCase.getInstance();
+        //MonsterCase.getInstance();
+        MoveCase.getInstance();
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<evil maxReleaseNum="5" maxAcceptNum="5">
+	<item id="11501101" color="1">
+		<exp minLv="20" maxLv="29" exp="1800"/>
+		<exp minLv="30" maxLv="39" exp="2880"/>
+		<exp minLv="40" maxLv="49" exp="4320"/>
+		<exp minLv="50" maxLv="59" exp="6480"/>
+		<exp minLv="60" maxLv="69" exp="9720"/>
+		<exp minLv="70" maxLv="79" exp="14580"/>
+		<exp minLv="80" maxLv="200" exp="19440"/>
+	</item>
+	<item id="11501102" color="2">
+		<exp minLv="20" maxLv="29" exp="3800"/>
+		<exp minLv="30" maxLv="39" exp="5760"/>
+		<exp minLv="40" maxLv="49" exp="8640"/>
+		<exp minLv="50" maxLv="59" exp="12960"/>
+		<exp minLv="60" maxLv="69" exp="19440"/>
+		<exp minLv="70" maxLv="79" exp="29160"/>
+		<exp minLv="80" maxLv="200" exp="38880"/>
+	</item>
+	<item id="11501103" color="3">
+		<exp minLv="20" maxLv="29" exp="7000"/>
+		<exp minLv="30" maxLv="39" exp="11520"/>
+		<exp minLv="40" maxLv="49" exp="17280"/>
+		<exp minLv="50" maxLv="59" exp="25920"/>
+		<exp minLv="60" maxLv="69" exp="38880"/>
+		<exp minLv="70" maxLv="79" exp="58320"/>
+		<exp minLv="80" maxLv="200" exp="77760"/>
+	</item>
+	<item id="11501004" color="4">
+		<exp minLv="20" maxLv="29" exp="15000"/>
+		<exp minLv="30" maxLv="39" exp="23040"/>
+		<exp minLv="40" maxLv="49" exp="34560"/>
+		<exp minLv="50" maxLv="59" exp="51840"/>
+		<exp minLv="60" maxLv="69" exp="77760"/>
+		<exp minLv="70" maxLv="79" exp="116640"/>
+		<exp minLv="80" maxLv="200" exp="155520"/>
+	</item>
+</evil>

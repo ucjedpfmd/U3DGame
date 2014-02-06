@@ -1,0 +1,1175 @@
+<root>
+  <effect id="1" name="战士普通攻击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="8" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="2" name="射手普通攻击" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zhu_xian_jian_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="3" name="舞天普通攻击" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="lei_ting_jue_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="6"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="4" name="冰凝普通攻击" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="xuan_tian_zhang_fly" type="arrow" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="6"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="5" name="怪物法术远程" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="guai_wu_yuan_cheng" type="arrow" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_middle" delay="8"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="6" name="宠物外功远程" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="5" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="7" name="宠物内功远程攻击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="81" name="怪物外力近战攻击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="91" name="怪物外力远程攻击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="16" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="101" name="怪物内力近战攻击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="12" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="111" name="怪物内力远程攻击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="12" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100001" name="烈火斩" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="lieyanzhan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100002" name="炼狱爆炎" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="lian_yu_bao_yan" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+      <item id="lian_yu_bao_yan_hurt" type="around" target="scene" speed="0" hasDir="false" layerType="bottom" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100003" name="红莲斩" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="honglianzhan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+      <item id="honglianzhan" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100004" name="炎龙灭杀" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="yanlongmiesha" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100005" name="龙炎斩" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="13" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="longyanzhan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100007" name="爆裂斩" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="baoliezhan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100008" name="真炎护体" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zhenyanhuti" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="zhenyanhuti_last" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="20"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100009" name="红莲附体" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="honglianfuti" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100010" name="天炎灭地斩" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="tianyanmiedizhan" type="normal" target="scene" speed="0" hasDir="true" layerType="top" posType="src_bottom" delay="2"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100011" name="炽火爆炎闪" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="baoyanshan1_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+      <item id="baoyanshan2_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="bottom" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10100012" name="涅槃真火诀" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zhenhuojue" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10200001" name="玄冰箭" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="xuan_bing_jian_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="xuan_bing_jian_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200002" name="冰霜箭雨" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="bing_shuang_jian_yu" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="bingshuangjianyu_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="bing_shuang_jian_yu_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200003" name="连珠冰箭" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="lianzhubingjian_fly_2" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="3"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="lianzhubingjian_hurt" type="normal" target="scene" speed="0" hasDir="true" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200004" name="诛仙冰矢" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zhuxianbingshi_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="zhuxianbingshi_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200005" name="天命冰箭" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="tianmingbingjian" type="normal" target="scene" speed="0" hasDir="false" layerType="bottom" posType="src_bottom" delay="0"/>
+      <item id="tianmingbingjian_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="tianmingbingjian_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200007" name="霜嚎箭" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="shuanghaojian" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="shuanghaojian_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="shuanghaojian_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200008" name="凛冽霜寒" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="13" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="linlieshuanghan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10200009" name="漫天风霜" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="mantianfengshuang" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="mantianfengshuang_last" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="20"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10200010" name="冰魄噬魂箭" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="shihunjian" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="shihunjian_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="shihunjian_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10200011" name="翔天玄冰阵" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects/>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300001" name="紫心雷" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zixinlei_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="8"/>
+      <item id="zixinlei" type="normal" target="src" speed="0" hasDir="true" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="zixinlei_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10300002" name="九天雷爆" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zixinlei_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="7"/>
+      <item id="jiutianleibao" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="2" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="jiutianleibao_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10300003" name="雷霆万钧" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="9" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="leitingwanjun" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300004" name="爆雷天降" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="lei_ting_jue" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="baoleitianjiang_hurt" type="normal" target="scene" speed="10" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300005" name="天雷破" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="12" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="tianleipo" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="tianleipo_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300007" name="雷撼九州" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="leihanjiuzhou_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="10"/>
+      <item id="leihanjiuzhou" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="leihanjiuzhou_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300008" name="电闪雷鸣" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="dianshanleiming" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+      <item id="dianshanleiming_hurt" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+      <item id="dianshanleiming_last1" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="25"/>
+      <item id="dianshanleiming_last2" type="normal" target="dest" speed="4" hasDir="false" layerType="top" posType="dest_bottom" delay="25"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300009" name="震天逆雷" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zhentiannilei" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300010" name="乾罡灭神雷" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="mieshenlei_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300011" name="太乙五雷轰" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="taiyiwuleihong" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10300012" name="仙陨天雷诀" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="tianleijue" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+      <item id="tianleijue_last" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="20"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400001" name="幻花诀" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="xuan_tian_zhang_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="8"/>
+      <item id="huanhuajue" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="4" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="huanhuajue_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10400002" name="漫天飞花" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="xuan_tian_zhang_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="7"/>
+      <item id="mantianfeihua" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="mantianfeihua_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10400003" name="落花无情" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="xuan_tian_zhang_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="7"/>
+      <item id="luohuawuqing" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="3" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="luohuawuqing_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10400004" name="情花七毒" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="18" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="qinghuaqidu" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+      <item id="qinghuaqidu_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400005" name="仙柳飞枝" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="xianliufeizhi_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="7"/>
+      <item id="xianliufeizhi" type="normal" target="src" speed="0" hasDir="false" layerType="bottom" posType="src_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects>
+      <item id="xianliufeizhi_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </arrowEndEffects>
+  </effect>
+  <effect id="10400007" name="鬼舞枯藤" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="22" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="guiwukuteng_last" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="30"/>
+      <item id="guiwukuteng" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+      <item id="guiwukuteng_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400008" name="幻花千重" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="12" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="luoyingqianchong" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+      <item id="luoyingqianchong_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="20"/>
+      <item id="luoyingqianchong_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="8"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400009" name="枯木逢春" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="no" target="dest" delay="5"/>
+    </actions>
+    <effects>
+      <item id="kumufengchun_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="30"/>
+      <item id="kumufengchun" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+      <item id="kumufengchun_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+      <item id="kumufengchun_last" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="30"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400010" name="叶舞轮回咒" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="lunhuizhou" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="5"/>
+      <item id="lunhuizhou_last1" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="7"/>
+      <item id="lunhuizhou_last2" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400011" name="仙灵树缚葬" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="26" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="shufuzang_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10400012" name="雾月幻花诀" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="feihuajue" type="normal" target="src" speed="0" hasDir="false" layerType="bottom" posType="src_bottom" delay="6"/>
+      <item id="feihuajue_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="8"/>
+      <item id="feihuajue_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="20"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10500001" name="冰雨流星" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="false"/>
+    </actions>
+    <effects>
+      <item id="xianzhu1" type="luan" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10500002" name="冰雨流星2" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="false"/>
+    </actions>
+    <effects>
+      <item id="xianzhu1" type="luan" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10500003" name="圣光之盾" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="foguangpuzhao" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="foguangpuzhao_last" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="20"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10500004" name="冰封" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="feipunuchao" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10610045" name="强击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="fei_zhua" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10610046" name="风袭" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="fei_zhua" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10630013" name="断空击" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="duan_kongji" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10630014" name="裂地破" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="lie_dipo" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700001" name="第二个副本火柱" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="8" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="lian_yu_bao_yan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700002" name="玉墨技能" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="6" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="lei_ting_jue" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="baoleitianjiang_hurt" type="normal" target="scene" speed="10" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700003" name="玉墨技能2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="mieshenlei_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700004" name="玉墨加血" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="kumufengchun_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="30"/>
+      <item id="kumufengchun" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+      <item id="kumufengchun_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700005" name="怪物定身" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="0" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="leihanjiuzhou_last" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="22"/>
+      <item id="leihanjiuzhou" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="leihanjiuzhou_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="10"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700006" name="怪物冲锋" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="14" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="baoliezhan_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="14"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700010" name="2秒冰箭" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="jianyuliuxing" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700011" name="m3冰" isNormal="1">
+    <actions>
+      <item type="hurt" target="dest" delay="5" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="guaiwu_suibingyiji" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700012" name="m8冰" isNormal="1">
+    <actions>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="guaiwu_bingxuehantian" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700013" name="天雷怪物版" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="mieshenlei_hurt" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700014" name="大毒怪物版" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="qinghuaqidu" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="qinghuaqidu_hurt" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="5"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700015" name="怪物2格" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700016" name="怪物3格" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700017" name="怪物4格" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700018" name="怪物5格" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700019" name="怪物6格" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700020" name="怪物7格" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700021" name="怪物2格2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700022" name="怪物3格2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700023" name="怪物4格2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700024" name="怪物5格2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700025" name="怪物6格2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700026" name="怪物7格2" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="7" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700027" name="怪物灼烧" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="guaiwu_zhuoshao" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700028" name="怪物灼烧2" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="guaiwu_zhuoshao" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700029" name="陨石" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="8" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="xianzhu1" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700030" name="1格群攻" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="8" hurtEffect="true"/>
+    </actions>
+    <effects/>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700031" name="4格群攻" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="guaiwu_huoqungong" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700032" name="怪物10格" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zixinlei_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700033" name="怪物10格2" isNormal="1">
+    <actions>
+      <item type="attack_arrow" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="zixinlei_fly" type="arrow" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_high" delay="18"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700090" name="防御水晶" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="jianyuliuxing" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700091" name="攻击水晶" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="guaiwu_huoqungong" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700092" name="辅助水晶" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="jianyuliuxing" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="10700093" name="无敌" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="jianyuliuxing" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="11100001" name="冰封蔓延" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="yuyi_bing" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="11100002" name="五毒噬骨" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+      <item type="hurt" target="dest" delay="10" hurtEffect="true"/>
+    </actions>
+    <effects>
+      <item id="yuyi_du" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+      <item id="yuyi_duhurt" type="normal" target="dest" speed="4" hasDir="false" layerType="top" posType="dest_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="11100003" name="无尽滚雷" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="yuyi_lei" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="11100004" name="涅槃之火" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="yuyi_huo" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+  <effect id="11100005" name="神羽圣力" isNormal="1">
+    <actions>
+      <item type="attack_casting" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="yuyi_quan" type="normal" target="src" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="0"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+    <effect id="10700034" name="玉墨加buff" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="kumufengchun_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="30"/>
+      <item id="kumufengchun" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+      <item id="kumufengchun_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect>
+   <effect id="10700035" name="蚩尤4格攻击" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="chiyou_zhuazi" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect> 
+  <effect id="10700036" name="蚩尤4格攻击" isNormal="1">
+    <actions/>
+    <effects>
+      <item id="chiyou_zhuazi" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="7"/>
+    </effects>
+    <arrowEndActions>
+      <item type="hurt" target="dest" delay="1" hurtEffect="true"/>
+    </arrowEndActions>
+    <arrowEndEffects/>
+  </effect>
+     <effect id="10700037" name="玉墨加buff" isNormal="1">
+    <actions>
+      <item type="attack" target="src" delay="0"/>
+    </actions>
+    <effects>
+      <item id="kumufengchun_last" type="normal" target="dest" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="30"/>
+      <item id="kumufengchun" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="src_bottom" delay="6"/>
+      <item id="kumufengchun_hurt" type="normal" target="scene" speed="0" hasDir="false" layerType="top" posType="dest_bottom" delay="6"/>
+    </effects>
+    <arrowEndActions/>
+    <arrowEndEffects/>
+  </effect> 
+  
+  
+  
+</root>

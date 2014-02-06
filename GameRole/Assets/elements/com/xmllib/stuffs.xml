@@ -1,0 +1,247 @@
+﻿<root>
+<!--装扮璇玑城
+visible_type 可见性
+->0无隐藏性 1等级 2任务 3时间 4婚宴状态 0没有1还没开始2开始3已游行过 5完成情缘任务次数 6情缘次数之间显示
+->7（婚宴马车）8（婚宴寒冰仙子）
+-->	
+	<stuff stuff_id="40000901" url="taoxinsmall" name="" map_id="40000" can_find_path="0"  has_shadow="1" >  <visible type="6" value="5-9" /> </stuff>
+	<stuff stuff_id="40000902" url="40000902" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="5" /> </stuff>
+	<stuff stuff_id="40000903" url="40000903" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="5" /> </stuff>	
+	<stuff stuff_id="40000998" url="taoxinmid" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="6" value="10-19" /></stuff>	
+	<stuff stuff_id="40000999" url="taoxin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="20" />	 </stuff>
+	<stuff stuff_id="40000904" url="paibian" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="20" />	</stuff>
+	<stuff stuff_id="40000900" url="hunche" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="7" value="1" />	</stuff>	
+	<stuff stuff_id="40000905" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="22" />	 <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000898" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="22" /> <visible type="4" value="2" />	</stuff>
+	<stuff stuff_id="40000906" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="1" />  <visible type="4" value="1,3" /> </stuff>	
+	<stuff stuff_id="40000897" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="1" /> <visible type="4" value="2" /> </stuff>	
+	<stuff stuff_id="40000907" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="24" />	 <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000896" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="24" /> <visible type="4" value="2" />	</stuff>
+	<stuff stuff_id="40000908" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="2" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000895" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="2" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000909" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="26" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000894" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="26" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000910" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="4" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000893" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="4" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000911" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="28" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000889" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="28" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000912" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="6" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000888" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="6" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000913" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="30" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000887" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="30" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000914" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="8" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000886" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="8" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000915" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="32" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000892" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="32" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000916" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="10" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000891" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="10" />   <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000917" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="34" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000890" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="34" />   <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000918" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="12" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000885" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="12" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000919" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="36" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000884" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="36" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000920" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="14" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000883" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="14" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000921" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="38" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000882" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="38" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000922" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="16" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000881" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="16" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000923" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="40" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000880" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="40" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000924" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="18" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000879" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="18" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000925" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="42" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000878" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="42" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000926" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="20" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000877" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="20" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000927" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="44" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000876" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="44" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000928" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="102" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000875" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="102" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000929" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="46" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000874" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="46" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000930" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="104" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000873" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="104" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000931" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="48" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000872" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="48" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000932" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="106" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000933" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="50" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000871" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="106" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000870" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="50" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000934" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="108" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000935" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="52" /> <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000869" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="108" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000868" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="52" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000936" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="120" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000866" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="120" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000937" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="54" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000938" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="122" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000865" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="54" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000864" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="122" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000939" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="56" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000940" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="124" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000941" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="58" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000863" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="56" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000862" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="124" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000861" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="58" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000942" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="126" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000860" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="126" />  <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000943" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="60" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000944" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="128" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000859" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="60" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000858" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="128" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000945" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="62" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000946" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="130" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000856" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="62" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000857" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="130" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000947" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="64" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000948" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="132" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000854" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="64" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000855" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="132" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000949" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="66" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000950" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="134" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000951" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="68" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000853" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="66" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000852" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="134" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000851" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="68" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000952" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="136" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000953" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="70" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000850" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="136" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000849" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="70" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000954" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="138" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000955" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="72" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000956" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="140" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000848" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="138" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000847" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="72" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000846" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="140" /> <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000957" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="74" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000958" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="142" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000845" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="74" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000844" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="142" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000959" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="76" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000839" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="76" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000960" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="144" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000838" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="144" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000961" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="78" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000837" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="78" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000962" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="146" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000836" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="146" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000963" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="80" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000964" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="148" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000965" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="82" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000966" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="148" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000841" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="80" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000840" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="150" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000843" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="82" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000842" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="150" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000967" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="84" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000968" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="152" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000834" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="84" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000835" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="152" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000969" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="86" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000970" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="154" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000971" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="88" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000833" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="86" />   <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000832" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="154" />   <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000831" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="88" />   <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000972" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="156" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000973" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="90" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000974" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="158" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000830" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="156" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000829" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="90" />   <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000828" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="158" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000975" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="92" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000827" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="92" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000976" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="160" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000977" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="94" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000978" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="162" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000979" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="96" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000826" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="160" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000825" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="94" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000824" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="162" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000823" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="96" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000980" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="146" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000981" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="98" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000982" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="166" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000983" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="100" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000821" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="164" /> <visible type="4" value="2" />   </stuff>
+	<stuff stuff_id="40000822" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="98" />  <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000819" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="166" /> <visible type="4" value="2" />   </stuff>
+	<stuff stuff_id="40000820" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="100" />  <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000984" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="168" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000985" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="170" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000986" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="172" />  <visible type="4" value="1,3" /> </stuff>
+	<stuff stuff_id="40000987" url="yanhua" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="174" /> <visible type="4" value="1,3" />  </stuff>
+	<stuff stuff_id="40000817" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="168" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000818" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="170" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000816" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="172" />  <visible type="4" value="2" /> </stuff>
+	<stuff stuff_id="40000815" url="yanhua_bao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="174" /> <visible type="4" value="2" />  </stuff>
+	<stuff stuff_id="40000814" url="xiaoniao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="5" />  </stuff>
+	<stuff stuff_id="40000813" url="xiaoniao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="5" />  </stuff>
+	<stuff stuff_id="40000812" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="1" />  </stuff>
+	<stuff stuff_id="40000811" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="3" />  </stuff>
+	<stuff stuff_id="40000810" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="5" />  </stuff>
+	<stuff stuff_id="40000809" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="7" />  </stuff>
+	<stuff stuff_id="40000808" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="2" />  </stuff>
+	<stuff stuff_id="40000807" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="4" />  </stuff>
+	<stuff stuff_id="40000806" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="6" />  </stuff>
+	<stuff stuff_id="40000805" url="aixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="8" />  </stuff>
+	<stuff stuff_id="40000804" url="taoxinsmall" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="6" value="22-34" />  </stuff>
+	<stuff stuff_id="40000803" url="taoxinmid" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="6" value="35-44" />  </stuff>
+	<stuff stuff_id="40000802" url="taoxin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="45" />  </stuff>
+	<stuff stuff_id="40000801" url="40000902" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="12" />  </stuff>
+	<stuff stuff_id="40000800" url="40000903" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="17" />  </stuff>
+	<stuff stuff_id="40000799" url="xiaoniao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="5" />  </stuff>
+	<stuff stuff_id="40000798" url="xiaoniao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="10" />  </stuff>
+	<stuff stuff_id="40000797" url="taoxinmid" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="20" />  </stuff>
+	<stuff stuff_id="40000796" url="taoxinmid" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="25" />  </stuff>
+	<stuff stuff_id="40000795" url="taoxinmid" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="30" />  </stuff>
+	<stuff stuff_id="40000794" url="taoxinmid" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="35" />  </stuff>
+	<stuff stuff_id="40000793" url="taoxin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="45" />  </stuff>
+	<stuff stuff_id="40000792" url="xiaoniao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="40" />  </stuff>
+	<stuff stuff_id="40000791" url="xiaoniao" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="39" />  </stuff>
+	<stuff stuff_id="40000790" url="flyaixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="21" />  </stuff>
+	<stuff stuff_id="40000789" url="flyaixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="22" />  </stuff>
+	<stuff stuff_id="40000788" url="flyaixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="23" />  </stuff>
+	<stuff stuff_id="40000787" url="flyaixin" name="" map_id="40000" can_find_path="0"  has_shadow="1" > <visible type="5" value="24" />  </stuff>
+	<!--圣诞特效
+	<stuff stuff_id="40000786" url="sdsding" name="" map_id="40000" can_find_path="0"  has_shadow="0" > <visible type="0" />  </stuff>
+	<stuff stuff_id="40000785" url="sdsdi" name="" map_id="40000" can_find_path="0"  has_shadow="0" > <visible type="0" />  </stuff>
+	-->
+    <stuff stuff_id="40000784" url="chunjie" name="" map_id="40000" can_find_path="0"  has_shadow="0" > <visible type="0" />  </stuff>
+	
+<!--装扮璇玑城
+visible_type 可见性
+->0无隐藏性 1等级 2任务 3时间 4婚宴状态 0没有1还没开始2开始3已游行过 5完成情缘任务次数 6情缘次数之间显示
+->7（婚宴马车）8（婚宴寒冰仙子）
+-->	
+	
+	
+	<stuff stuff_id="60500901" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500902" url="moku_lizi2" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500903" url="moku_bing" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500904" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500905" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500906" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500907" url="moku_lizi2" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500908" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500909" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500910" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500911" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+	<stuff stuff_id="60500912" url="moku_lizi" name="" map_id="60500" can_find_path="0"  has_shadow="0" > <visible type="0"  />  </stuff>
+
+<!--装扮璇玑城
+visible_type 可见性
+->0无隐藏性 1等级 2任务 3时间 4婚宴状态 0没有1还没开始2开始3已游行过 5完成情缘任务次数 6情缘次数之间显示
+->7（婚宴马车）8（婚宴寒冰仙子）9年夜饭
+-->	
+
+	
+	<stuff stuff_id="50200901" url="nianyefan" name="" map_id="50200" can_find_path="0"  has_shadow="0" > <visible type="9"  />  </stuff>
+	<stuff stuff_id="50200902" url="nianyefan" name="" map_id="50200" can_find_path="0"  has_shadow="0" > <visible type="9"  />  </stuff>
+	<stuff stuff_id="50200903" url="nianyefan" name="" map_id="50200" can_find_path="0"  has_shadow="0" > <visible type="9"  />  </stuff>
+	<stuff stuff_id="50200904" url="nianyefan" name="" map_id="50200" can_find_path="0"  has_shadow="0" > <visible type="9"  />  </stuff>
+
+	
+	</root>

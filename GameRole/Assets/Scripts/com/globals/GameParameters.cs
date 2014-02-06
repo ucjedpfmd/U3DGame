@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 class GameParameters
 {
@@ -16,6 +17,8 @@ class GameParameters
     public string serverID = "1";
 	public string agentID = "0";
     public string extraParams = ""; // 额外参数
+
+	public string resourceHost = Application.dataPath + "/elements/";
 
     private static GameParameters _instance;
 

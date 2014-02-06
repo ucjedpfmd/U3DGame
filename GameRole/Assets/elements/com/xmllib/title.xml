@@ -1,0 +1,171 @@
+﻿<titles>
+	<!--id 用于在聊天中显示时分组和排序的序列号-->
+	<!--type 场景角色头顶的，用不用图片，假设0不用图片，　1是用图片的-->
+	<!--chatType 是否显示在聊天频道，0表示不显示，1表示显示-->
+	<!--color 称号的色值（白#E4FBFD，绿#66ff33，蓝#2ec6ff，紫#df4bff，橙#ff9600-->
+	<!--url 场景图片路径，留空表示没有-->	
+	<!--mark 分别对应不同的符号-->
+	<!--chatName 在聊天频道显示的名称-->
+     
+	<title id="1" name="六界仙尊真好玩" chatName="" type="0" chatType="0" color="#66ff33" url="" mark=""  info="进入游戏马上拥有"  validity="永久"  sex="0" category="5" />
+	<title id="999999" name="不显示称号" chatName="" type="0" chatType="0" color="#E4FBFD" url="" mark="" info="使用后不显示称号"  validity="永久"  sex="" category="" />	
+	<title id="900000" name="新手指导员" chatName="★新手指导员★" type="1" chatType="1" color="#66ff33" url="xinshouzhidaoyuan" mark="" info=""  validity=""  sex="" category="" />	
+	<title id="900001" name="天下第一美" chatName="★天下第一美★" type="1" chatType="1" color="#df4bff" url="tianxia_diyimei" mark="" info=""  validity=""  sex="" category="" />		
+	<title id="900002" name="天下第一帅" chatName="★天下第一帅★" type="1" chatType="1" color="#df4bff" url="tianxia_diyishuai" mark="" info=""  validity=""  sex="" category="" />			
+	<title id="110101" name="四象仙尊" chatName="★四象仙尊★" type="1" chatType="1" color="#2ec6ff" url="sixiang_xianzun" mark="" info="成为四象仙尊"  validity="四象仙尊有效期内"  sex="0" category="5" />
+	<title id="110102" name="五灵仙尊" chatName="★五灵仙尊★" type="1" chatType="1" color="#df4bff" url="wuling_xianzun" mark="" info="成为五灵仙尊"  validity="五灵仙尊有效期内"  sex="0" category="5" />
+	<title id="110103" name="六界仙尊" chatName="★六界仙尊★" type="1" chatType="1" color="#ff9600" url="liujie_xianzun" mark="" info="成为六界仙尊"  validity="六界仙尊有效期内"  sex="0" category="5" />
+	<title id="120001" name="" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="拥有仙侣"  validity="拥有仙侣期间"  sex="0" category="5" />		<!--情缘自定义称号-->
+
+	<title id="131001" name="我负责赚钱养家" chatName="0" type="1" chatType="0" color="#ff9600" url="yangjia" mark="" info="七夕活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />		
+	<title id="132001" name="我负责貌美如花" chatName="0" type="1" chatType="0" color="#ff9600" url="ruhua" mark="" info="七夕活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+  <title id="131101" name="我爱老婆小三一边闪" chatName="0" type="1" chatType="0" color="#ff9600" url="lovewife" mark="" info="国庆活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />
+  <title id="132101" name="老公爱我红杏不出墙" chatName="0" type="1" chatType="0" color="#ff9600" url="husbandlove" mark="" info="国庆活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+  <title id="131102" name="愿得一人心" chatName="0" type="1" chatType="0" color="#ff9600" url="131102" mark="" info="光棍节活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />
+  <title id="132102" name="白首不相离" chatName="0" type="1" chatType="0" color="#ff9600" url="132102" mark="" info="光棍节活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+  <title id="131103" name="执子之手" chatName="0" type="1" chatType="0" color="#ff9600" url="131103" mark="" info="圣诞节活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />
+  <title id="132103" name="与子偕老" chatName="0" type="1" chatType="0" color="#ff9600" url="132103" mark="" info="圣诞节活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+  <title id="131104" name="眷卿三世" chatName="0" type="1" chatType="0" color="#ff9600" url="131104" mark="" info="元旦节活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />
+  <title id="132104" name="伴君三生" chatName="0" type="1" chatType="0" color="#ff9600" url="132104" mark="" info="元旦节活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+  <title id="131105" name="莫失莫忘" chatName="0" type="1" chatType="0" color="#ff9600" url="131105" mark="" info="春节活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />
+  <title id="132105" name="不离不弃" chatName="0" type="1" chatType="0" color="#ff9600" url="132105" mark="" info="春节活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+  <title id="131106" name="左手画情" chatName="0" type="1" chatType="0" color="#ff9600" url="131106" mark="" info="情人节活动婚宴竞拍成功者"  validity="永久"  sex="1" category="5" />
+  <title id="132106" name="右手写爱" chatName="0" type="1" chatType="0" color="#ff9600" url="132106" mark="" info="情人节活动婚宴竞拍成功者"  validity="永久"  sex="2" category="5" />
+
+
+  <title id="140101" name="傲视六界" chatName="★傲视六界★" type="1" chatType="1" color="#ff9600" url="aoshi_liujie" mark="" info="本服战力排行榜第一名"  validity="战力排行第一名期间"  sex="0" category="5" />
+	<title id="140102" name="独孤求败" chatName="" 			type="0" chatType="0" color="#df4bff" url="" mark="" info="本服战力排行榜第2-10名"  validity="战力排行第2-10名期间"  sex="0" category="5" />
+	<title id="140103" name="威名远扬" chatName="" 			type="0" chatType="0" color="#2ec6ff" url="" mark="" info="本服战力排行榜第11-50名"  validity="战力排行第11-50名期间"  sex="0" category="5" />
+
+	<title id="150101" name="狂战苍穹" chatName="★狂战苍穹★" type="1" chatType="1" color="#ff9600" url="kuangzhan_cangqiong" mark="" info="本服狂战等级第一名"  validity="狂战等级第一名期间"  sex="0" category="1" />
+	<title id="150102" name="烈日仙宗" chatName="" 			type="0" chatType="0" color="#df4bff" url="" mark="" info="本服狂战等级第2-10名"  validity="狂战等级第2-10名期间"  sex="0" category="1" />		
+	<title id="150103" name="狂战玄仙" chatName="" 			type="0" chatType="0" color="#2ec6ff" url="" mark="" info="本服狂战等级第11-50名"  validity="狂战等级第11-50名期间"  sex="0" category="1" />
+
+                                                                                         
+	<title id="150201" name="飞羽蔽日" chatName="★飞羽蔽日★" type="1" chatType="1" color="#ff9600" url="feiyu_biri" mark="" info="本服飞羽等级第一名"  validity="飞羽等级第一名期间"  sex="0" category="2" />
+	<title id="150202" name="飞虹仙宗" chatName="" 			type="0" chatType="0" color="#df4bff" url="" mark="" info="本服飞羽等级第2-10名"  validity="飞羽等级第2-10名期间"  sex="0" category="2" />		
+	<title id="150203" name="飞羽玄仙" chatName="" 			type="0" chatType="0" color="#2ec6ff" url="" mark="" info="本服飞羽等级第11-50名"  validity="飞羽等级第11-50名期间"  sex="0" category="2" />
+
+                                                                                         
+	<title id="150301" name="扇舞九天" chatName="★扇舞九天★" type="1" chatType="1" color="#ff9600" url="shanwu_jiutian" mark="" info="本服舞天等级第一名"  validity="舞天等级第一名期间"  sex="0" category="3" />
+	<title id="150302" name="昊天仙宗" chatName="" 			type="0" chatType="0" color="#df4bff" url="" mark="" info="本服舞天等级第2-10名"  validity="舞天等级第2-10名期间"  sex="0" category="3" />		
+	<title id="150303" name="舞天玄仙" chatName="" 			type="0" chatType="0" color="#2ec6ff" url="" mark="" info="本服舞天等级第11-50名"  validity="舞天等级第11-50名期间"  sex="0" category="3" />
+
+                                                                                         
+	<title id="150401" name="碧落星空" chatName="★碧落星空★" type="1" chatType="1" color="#ff9600" url="biluo_xingkong" mark="" info="本服碧落等级第一名"  validity="碧落等级第一名期间"  sex="0" category="4" />
+	<title id="150402" name="九幽仙宗" chatName="" 			type="0" chatType="0" color="#df4bff" url="" mark="" info="本服碧落等级第2-10名"  validity="碧落等级第2-10名期间"  sex="0" category="4" />		
+	<title id="150403" name="碧落玄仙" chatName="" 			type="0" chatType="0" color="#2ec6ff" url="" mark="" info="本服碧落等级第11-50名"  validity="碧落等级第11-50名期间"  sex="0" category="4" />
+
+                                                                                         
+	                                                                                     
+	<title id="160104" name="鲜花王子" chatName="☆鲜花王子☆" type="1" chatType="1" color="#ff9600" url="xianhua_wangzi" mark="" info="昨日鲜花榜第一名"  validity="昨日鲜花榜第一期间"  sex="1" category="5" />
+	<title id="160105" name="鲜花公子" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="昨日鲜花榜第2-3名"  validity="昨日鲜花榜第2-3期间"  sex="1" category="5" />
+	<title id="160106" name="鲜花使者" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="昨日鲜花榜第4-10名"  validity="昨日鲜花榜第4-10期间"  sex="1" category="5" />
+	
+	<title id="160101" name="鲜花宝贝" chatName="☆鲜花宝贝☆" type="1" chatType="1" color="#ff9600" url="xianhua_baobei" mark="" info="昨日鲜花榜第一名"  validity="昨日鲜花榜第一期间"  sex="" category="" />
+	<title id="160102" name="鲜花佳人" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="昨日鲜花榜第2-3名"  validity="昨日鲜花榜第2-3期间"  sex="2" category="5" />
+	<title id="160103" name="鲜花丽人" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="昨日鲜花榜第4-10名"  validity="昨日鲜花榜第4-10期间"  sex="2" category="5" />
+
+	<title id="160204" name="六界情尊" chatName="☆六界情尊☆" type="1" chatType="1" color="#ff9600" url="liujie_qingzun" mark="" info="鲜花排行榜百花谱第一名"  validity="百花谱第一名期间"  sex="1" category="5" />	
+	<title id="160205" name="百花情圣" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="鲜花排行榜百花谱第2-3名"  validity="百花谱第2-3名期间"  sex="1" category="5" />
+	<title id="160206" name="白马王子" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="鲜花排行榜百花谱第4-10名"  validity="百花谱第4-10名期间"  sex="1" category="5" />
+	
+	<title id="160201" name="六界萌主" chatName="☆六界萌主☆" type="1" chatType="1" color="#ff9600" url="liujie_mengzhu" mark="" info="鲜花排行榜百花谱第一名"  validity="百花谱第一名期间"  sex="" category="" />	
+	<title id="160202" name="百花公主" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="鲜花排行榜百花谱第2-3名"  validity="百花谱第2-3名期间"  sex="2" category="5" />
+	<title id="160203" name="鲜花郡主" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="鲜花排行榜百花谱第4-10名"  validity="百花谱第4-10名期间"  sex="2" category="5" />
+	
+	<title id="170101" name="护花公子" chatName="☆护花公子☆" type="1" chatType="1" color="#ff9600" url="huhua_gongzi" mark="" info="昨日送花榜第一名"  validity="昨日送花榜第一期间"  sex="1" category="5" />
+	<title id="170102" name="护花情人" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="昨日送花榜第2-3名"  validity="昨日送花榜第2-3期间"  sex="1" category="5" />	
+	<title id="170103" name="护花使者" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="昨日送花榜第4-10名"  validity="昨日送花榜第4-10期间"  sex="1" category="5" />
+	
+	<title id="170104" name="护花宝贝" chatName="☆护花宝贝☆" type="1" chatType="1" color="#ff9600" url="huhua_baobei" mark="" info="昨日送花榜第一名"  validity="昨日送花榜第一期间"  sex="2" category="5" />
+	<title id="170105" name="护花佳人" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="昨日送花榜第2-3名"  validity="昨日送花榜第2-3期间"  sex="2" category="5" />	
+	<title id="170106" name="护花丽人" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="昨日送花榜第4-10名"  validity="昨日送花榜第4-10期间"  sex="2" category="5" />
+	
+	<title id="170201" name="至尊情圣" chatName="☆至尊情圣☆" type="1" chatType="1" color="#ff9600" url="zhizun_qingsheng" mark="" info="鲜花排行榜送花谱第一名"  validity="送花谱第一名期间"  sex="1" category="5" />	
+	<title id="170202" name="多情公子" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="鲜花排行榜送花谱第2-3名"  validity="送花谱第2-3名期间"  sex="1" category="5" />
+	<title id="170203" name="鲜花情人" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="鲜花排行榜送花谱第4-10名"  validity="送花谱第4-10名期间"  sex="1" category="5" />
+	
+	<title id="170204" name="浪漫女神" chatName="☆浪漫女神☆" type="1" chatType="1" color="#ff9600" url="langman_nvshen" mark="" info="鲜花排行榜送花谱第一名"  validity="送花谱第一名期间"  sex="2" category="5" />	
+	<title id="170205" name="多情仙子" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="鲜花排行榜送花谱第2-3名"  validity="送花谱第2-3名期间"  sex="2" category="5" />
+	<title id="170206" name="多情佳人" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="鲜花排行榜送花谱第4-10名"  validity="送花谱第4-10名期间"  sex="2" category="5" />
+
+	<title id="180101" name="天绝战神" chatName="★天绝战神★" type="1" chatType="1" color="#ff9600" url="tianjue_zhanshen" mark="" info="每周六天绝战场第一名"  validity="每周六更新"  sex="0" category="5" />
+	<title id="180102" name="天绝武圣" chatName="" type="1" chatType="0" color="#df4bff" url="tianjue_wusheng" mark="" info="每周六天绝战场第二名"  validity="每周六更新"  sex="0" category="5" />	
+	<title id="180103" name="天绝霸主" chatName="" type="1" chatType="0" color="#2ec6ff" url="tianjue_bazhu" mark="" info="每周六天绝战场第三名"  validity="每周六更新"  sex="0" category="5" />
+	
+	<title id="190101" name="御宠帝尊" chatName="★御宠帝尊★" type="1" chatType="1" color="#ff9600" url="yuchongdizun" mark="" info="每周六仙宠盟战第一名"  validity="每周六更新"  sex="0" category="5" />	
+	<title id="190102" name="御宠霸主" chatName="" type="1" chatType="0" color="#df4bff" url="yuchong_bazhu" mark="" info="每周六仙宠盟战第二名"  validity="每周六更新"  sex="0" category="5" />
+	<title id="190103" name="御宠新星" chatName="" type="1" chatType="0" color="#2ec6ff" url="yuchong_xinxing" mark="" info="每周六仙宠盟战第三名"  validity="每周六更新"  sex="0" category="5" />
+
+	<title id="200101" name="元神-炼气" chatName="" type="1" chatType="0" color="#66ff33" url="animaCross1" mark="" info="所有元神修炼达到4级"  validity="拥有下一级元神称号之前"  sex="0" category="5" />	
+	<title id="200102" name="元神-筑基" chatName="" type="1" chatType="0" color="#66ff33" url="animaCross2" mark="" info="所有元神修炼达到6级"  validity="拥有下一级元神称号之前"  sex="0" category="5" />
+	<title id="200103" name="元神-结丹" chatName="" type="1" chatType="0" color="#2ec6ff" url="animaCross3" mark="" info="所有元神修炼达到8级"  validity="拥有下一级元神称号之前"  sex="0" category="5" />
+	<title id="200104" name="元神-元婴" chatName="" type="1" chatType="0" color="#2ec6ff" url="animaCross4" mark="" info="所有元神修炼达到10级"  validity="拥有下一级元神称号之前"  sex="0" category="5" />	
+	<title id="200106" name="元神-炼虚" chatName="" type="1" chatType="0" color="#df4bff" url="animaCross6" mark="" info="所有元神修炼达到12级"  validity="拥有下一级元神称号之前"  sex="0" category="5" />
+	<title id="200107" name="元神-大乘" chatName="" type="1" chatType="0" color="#ff9600" url="animaCross7" mark="" info="所有元神修炼达到14级"  validity="拥有下一级元神称号之前"  sex="0" category="5" />	
+	<title id="200108" name="元神-飞仙" chatName="" type="1" chatType="0" color="#ff9600" url="animaCross8" mark="" info="所有元神修炼达到16级"  validity="永久"  sex="0" category="5" />
+	
+	
+	<title id="210101" name="初出茅庐" chatName="" type="0" chatType="0" color="#66ff33" url="" mark="" info="仙宠切磋中达到20胜场且历史胜率达到30%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210102" name="小有成就" chatName="" type="0" chatType="0" color="#66ff33" url="" mark="" info="仙宠切磋中达到40胜场且历史胜率达到35%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210103" name="游刃有余" chatName="" type="0" chatType="0" color="#66ff33" url="" mark="" info="仙宠切磋中达到80胜场且历史胜率达到40%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210104" name="大显身手" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="仙宠切磋中达到160胜场且历史胜率达到45%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210105" name="锋芒毕露" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="仙宠切磋中达到320胜场且历史胜率达到50%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210106" name="力压群雄" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="仙宠切磋中达到640胜场且历史胜率达到55%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210107" name="战撼云霄" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="仙宠切磋中达到1280胜场且历史胜率达到60%"  validity="拥有下一级切磋称号之前"  sex="0" category="5" />
+	<title id="210108" name="斗宠之王" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="仙宠切磋中达到2560胜场且历史胜率达到65%"  validity="永久"  sex="0" category="5" />
+	
+
+	<title id="220101" name="相敬如宾" chatName="" type="0" chatType="0" color="#66ff33" url="" mark="" info="情缘等级达到10级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	<title id="220102" name="如胶似漆" chatName="" type="0" chatType="0" color="#66ff33" url="" mark="" info="情缘等级达到20级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	<title id="220103" name="举案齐眉" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="情缘等级达到30级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	<title id="220104" name="比翼双飞" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="情缘等级达到40级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	<title id="220105" name="相濡以沫" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="情缘等级达到50级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	<title id="220106" name="情比金坚" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="情缘等级达到60级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	<title id="220107" name="天作之合" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="情缘等级达到70级"  validity="拥有下一级情缘称号之前"  sex="0" category="5" />
+	
+	<title id="230101" name="土财主" chatName="" type="1" chatType="0" color="#ff9600" url="tucaizhu" mark="" info="累积点金积累元宝达到50000"  validity="永久"  sex="0" category="5" />
+	<title id="230202" name="高考状元" chatName="" type="1" chatType="0" color="#ff9600" url="gaokaozhuangyuan" mark="" info="连续5次答题第一名"  validity="永久"  sex="0" category="5" />
+	<title id="230303" name="真神降临" chatName="" type="1" chatType="0" color="#ff9600" url="zhenshenjianglin" mark="" info="拥有九对羽翼"  validity="永久"  sex="0" category="5" />
+	<!--<title id="230404" name="百灵园长" chatName="" type="1" chatType="0" color="#ff9600" url="bailingyuanzhang" mark="" info=""  validity=""  sex="0" category="5" />-->
+	<title id="230505" name="追风少年" chatName="" type="1" chatType="0" color="#ff9600" url="zhuifengshaonian" mark="" info="角色等级达到100"  validity="永久"  sex="0" category="5" />
+	<title id="230606" name="幻兽至尊" chatName="" type="1" chatType="0" color="#ff9600" url="huanshouzhizun" mark="" info="完胜通关幻兽天境150层"  validity="永久"  sex="0" category="5" />
+	<title id="230707" name="修罗战神" chatName="" type="1" chatType="0" color="#ff9600" url="xiuluozhanshen" mark="" info="连续10次上到修罗战场15层"  validity="永久"  sex="0" category="5" />
+	<title id="230808" name="仙梦至尊" chatName="" type="1" chatType="0" color="#ff9600" url="xianmengzhizun" mark="" info="3星通关回魂仙梦80关"  validity="永久"  sex="0" category="5" />
+	<title id="230909" name="绝代风华" chatName="" type="1" chatType="0" color="#ff9600" url="juedaifenghua" mark="" info="拥有10套永久性时装"  validity="永久"  sex="0" category="5" />
+
+	<title id="240101" name="功成名就" chatName="" type="1" chatType="0" color="#ff9600" url="gongchengmingjiu" mark="" info="成就排行榜第一名"  validity="成就排行榜第一名期间"  sex="0" category="5" />
+
+	<title id="250101" name="混沌至尊" chatName="★混沌至尊★" type="1" chatType="1" color="#ff9600" url="hundunzhizun" mark="" info="跨服战力榜第一名"  validity="跨服战力榜第一名期间"  sex="0" category="5" />
+	<title id="250102" name="混沌霸主" chatName="★混沌霸主★" type="1" chatType="1" color="#df4bff" url="hundunbazhu" mark="" info="跨服战力榜第2-10名"  validity="跨服战力榜第2-10名期间"  sex="0" category="5" />
+	<title id="250103" name="威震虚天" chatName="★威震虚天★" type="1" chatType="1" color="#df4bff" url="weizhenxutian" mark="" info="跨服战力榜第11-50名"  validity="跨服战力榜第11-50名期间"  sex="0" category="5" />
+
+	<title id="260101" name="六界快送" chatName="" type="1" chatType="0" color="#ff9600" url="liujiekuaisong" mark="" info="昨日护送寒冰第一名"  validity="护送寒冰第一名期间"  sex="0" category="5" />
+
+	<title id="270101" name="荣耀回归" chatName="" type="1" chatType="0" color="#df4bff" url="rongyaohuigui" mark="" info="玩家荣耀回归获得"  validity="7天"  sex="0" category="5" />
+
+	<title id="280101" name="分享达人" chatName="" type="1" chatType="0" color="#df4bff" url="280101" mark="" info="论坛官网分享活动获得"  validity="永久"  sex="0" category="5" />
+
+	<!--id 用于在聊天中显示时分组和排序的序列号-->
+	<!--type 场景角色头顶的，用不用图片，假设0不用图片，　1是用图片的-->
+	<!--chatType 是否显示在聊天频道，0表示不显示，1表示显示-->
+	<!--color 称号的色值（白#E4FBFD，绿#66ff33，蓝#2ec6ff，紫#df4bff，橙#ff9600-->
+	<!--url 场景图片路径，留空表示没有-->	
+	<!--mark 分别对应不同的符号-->
+	<!--chatName 在聊天频道显示的名称-->	
+	
+<!--	<title id="290101" name="义薄云天" chatName="" type="1" chatType="1" color="#ff9600" url="yibo_yuntian" mark="" info="义气排行榜总榜第一"  validity="永久"  sex="0" category="5" />
+	<title id="290102" name="侠肝义胆" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="义气排行榜总榜第2-10名"  validity="永久"  sex="0" category="5" />
+	<title id="290103" name="急公好义" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="义气排行榜总榜第11-50名"  validity="永久"  sex="0" category="5" />-->
+
+	<title id="290201" name="仁义君子" chatName="" type="1" chatType="1" color="#ff9600" url="renyi_junzi" mark="" info="义气排行榜上周榜第一名"  validity="义气排行榜上周榜第一名期间"  sex="0" category="5" />
+	<title id="290202" name="古道热肠" chatName="" type="0" chatType="0" color="#df4bff" url="" mark="" info="义气排行榜上周榜第2-10名"  validity="义气排行榜上周榜第2-10名期间"  sex="0" category="5" />
+	<title id="290203" name="助人为乐" chatName="" type="0" chatType="0" color="#2ec6ff" url="" mark="" info="义气排行榜上周榜第11-50名"  validity="义气排行榜上周榜第2-10名期间"  sex="0" category="5" />
+
+	<title id="300101" name="雪孩子" chatName="" type="1" chatType="0" color="#df4bff" url="300101" mark="" info="圣诞节活动获得"  validity="永久"  sex="0" category="5" />
+	<title id="310101" name="马上有钱" chatName="" type="1" chatType="0" color="#df4bff" url="310101" mark="" info="春节活动获得"  validity="永久"  sex="0" category="5" />
+
+	<title id="320101" name="六界厨神" chatName="" type="1" chatType="0" color="#ff9600" url="liujiechushen" mark="" info="爱烹饪亲自寻找积分第一名"  validity="爱烹饪亲自寻找积分第一名期间"  sex="0" category="5" />
+	
+</titles>

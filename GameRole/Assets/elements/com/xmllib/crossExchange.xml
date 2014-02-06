@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FBScoreShop>
+   <deal id="1" name="混沌积分兑换" show_type="1" refgoodsid="0:【混沌积分】:4:0" requestGoodTip="">
+
+	    <deal_item id = "8001" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+        <description><![CDATA[<font color="#F6F5CD">100【混沌战场积分】，兑换1个【冰火灵石礼包】</font>]]></description>
+            <need_items id="0" type="1" number="100" bind="1" color="4" quality="1" name="【混沌积分】"/>
+            <award_items id="12400063" type="1" number="1" bind="1" color="4" quality="1" power="0"/>
+        </deal_item>
+	
+    </deal>
+</FBScoreShop>

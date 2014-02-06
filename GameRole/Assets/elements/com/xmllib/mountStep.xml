@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<level maxLevel="80">
+
+<item level="1" defen="25" exp="2400" />
+<item level="2" defen="50" exp="4800" />
+<item level="3" defen="75" exp="9600" />
+<item level="4" defen="100" exp="12000" />
+<item level="5" defen="125" exp="14000" />
+<item level="6" defen="150" exp="24000" />
+<item level="7" defen="175" exp="26400" />
+<item level="8" defen="200" exp="28800" />
+<item level="9" defen="225" exp="31200" />
+<item level="10" defen="250" exp="33600" />
+<item level="11" defen="275" exp="36000" />
+<item level="12" defen="300" exp="38400" />
+<item level="13" defen="325" exp="40800" />
+<item level="14" defen="350" exp="43200" />
+<item level="15" defen="375" exp="45600" />
+<item level="16" defen="400" exp="67200" />
+<item level="17" defen="425" exp="86400" />
+<item level="18" defen="450" exp="105600" />
+<item level="19" defen="475" exp="124800" />
+<item level="20" defen="500" exp="144000" />
+<item level="21" defen="525" exp="163200" />
+<item level="22" defen="550" exp="182400" />
+<item level="23" defen="575" exp="201600" />
+<item level="24" defen="600" exp="220800" />
+<item level="25" defen="625" exp="278400" />
+<item level="26" defen="650" exp="336000" />
+<item level="27" defen="675" exp="393600" />
+<item level="28" defen="700" exp="451200" />
+<item level="29" defen="725" exp="508800" />
+<item level="30" defen="750" exp="566400" />
+<item level="31" defen="775" exp="624000" />
+<item level="32" defen="800" exp="681600" />
+<item level="33" defen="825" exp="739200" />
+<item level="34" defen="850" exp="796800" />
+<item level="35" defen="875" exp="854400" />
+<item level="36" defen="900" exp="912000" />
+<item level="37" defen="925" exp="960000" />
+<item level="38" defen="950" exp="1104000" />
+<item level="39" defen="975" exp="1248000" />
+<item level="40" defen="1000" exp="1392000" />
+<item level="41" defen="1025" exp="1536000" />
+<item level="42" defen="1050" exp="1680000" />
+<item level="43" defen="1075" exp="1824000" />
+<item level="44" defen="1100" exp="1968000" />
+<item level="45" defen="1125" exp="2112000" />
+<item level="46" defen="1150" exp="2256000" />
+<item level="47" defen="1175" exp="2400000" />
+<item level="48" defen="1200" exp="2544000" />
+<item level="49" defen="1225" exp="2688000" />
+<item level="50" defen="1250" exp="2832000" />
+<item level="51" defen="1275" exp="2976000" />
+<item level="52" defen="1300" exp="3120000" />
+<item level="53" defen="1325" exp="3264000" />
+<item level="54" defen="1350" exp="3408000" />
+<item level="55" defen="1375" exp="3552000" />
+<item level="56" defen="1400" exp="3696000" />
+<item level="57" defen="1425" exp="3840000" />
+<item level="58" defen="1450" exp="3984000" />
+<item level="59" defen="1475" exp="4128000" />
+<item level="60" defen="1500" exp="4272000" />
+<item level="61" defen="1525" exp="4416000" />
+<item level="62" defen="1550" exp="4560000" />
+<item level="63" defen="1575" exp="4704000" />
+<item level="64" defen="1600" exp="4848000" />
+<item level="65" defen="1625" exp="4992000" />
+<item level="66" defen="1650" exp="5136000" />
+<item level="67" defen="1675" exp="5280000" />
+<item level="68" defen="1700" exp="5424000" />
+<item level="69" defen="1725" exp="5568000" />
+<item level="70" defen="1750" exp="5712000" />
+<item level="71" defen="1775" exp="5856000" />
+<item level="72" defen="1800" exp="6000000" />
+<item level="73" defen="1825" exp="6144000" />
+<item level="74" defen="1850" exp="6288000" />
+<item level="75" defen="1875" exp="6432000" />
+<item level="76" defen="1900" exp="6576000" />
+<item level="77" defen="1925" exp="6720000" />
+<item level="78" defen="1950" exp="6864000" />
+<item level="79" defen="1975" exp="7008000" />
+<item level="80" defen="2000" exp="0" />
+</level>
+
+
+
+<step maxStep="6">
+<item step="0" level_limit="0" defen="32" dead_attack="0" hit_rate="0" dodge="0" move_speed="30" max_bless="10" typeId="10402101,1"/>
+<item step="1" level_limit="20" defen="64" dead_attack="10" hit_rate="10" dodge="10" move_speed="35" max_bless="15" typeId="10402101,2"/>
+<item step="2" level_limit="30" defen="128" dead_attack="30" hit_rate="30" dodge="30" move_speed="40" max_bless="20" typeId="10402102,1"/>
+<item step="3" level_limit="40" defen="256" dead_attack="60" hit_rate="60" dodge="60" move_speed="45" max_bless="85" typeId="10402102,2"/>
+<item step="4" level_limit="50" defen="512" dead_attack="100" hit_rate="100" dodge="100" move_speed="50" max_bless="140" typeId="10402003,1"/>
+<item step="5" level_limit="60" defen="1024" dead_attack="150" hit_rate="150" dodge="150" move_speed="55" max_bless="275" typeId="10402003,2"/>
+<item step="6" level_limit="70" defen="2048" dead_attack="210" hit_rate="210" dodge="210" move_speed="60" max_bless="0" typeId="10402003,1"/>
+</step>
+
+
+
+<reinf maxReinf="40">
+<item level="0" defen_percent="0" exp="900" />
+<item level="1" defen_percent="1" exp="1000" />
+<item level="2" defen_percent="2" exp="1200" />
+<item level="3" defen_percent="3" exp="1300" />
+<item level="4" defen_percent="4" exp="1400" />
+<item level="5" defen_percent="5" exp="1500" />
+<item level="6" defen_percent="6" exp="1600" />
+<item level="7" defen_percent="7" exp="1700" />
+<item level="8" defen_percent="8" exp="1800" />
+<item level="9" defen_percent="9" exp="1900" />
+<item level="10" defen_percent="10" exp="3000" />
+<item level="11" defen_percent="11" exp="4000" />
+<item level="12" defen_percent="12" exp="5000" />
+<item level="13" defen_percent="13" exp="6000" />
+<item level="14" defen_percent="14" exp="7000" />
+<item level="15" defen_percent="15" exp="8000" />
+<item level="16" defen_percent="16" exp="9000" />
+<item level="17" defen_percent="17" exp="10000" />
+<item level="18" defen_percent="18" exp="11000" />
+<item level="19" defen_percent="19" exp="12000" />
+<item level="20" defen_percent="20" exp="13500" />
+<item level="21" defen_percent="22" exp="16500" />
+<item level="22" defen_percent="24" exp="19500" />
+<item level="23" defen_percent="26" exp="22500" />
+<item level="24" defen_percent="28" exp="25500" />
+<item level="25" defen_percent="30" exp="28500" />
+<item level="26" defen_percent="32" exp="31500" />
+<item level="27" defen_percent="34" exp="34500" />
+<item level="28" defen_percent="36" exp="37500" />
+<item level="29" defen_percent="38" exp="40500" />
+<item level="30" defen_percent="40" exp="45000" />
+<item level="31" defen_percent="44" exp="59000" />
+<item level="32" defen_percent="48" exp="73000" />
+<item level="33" defen_percent="52" exp="87000" />
+<item level="34" defen_percent="56" exp="101000" />
+<item level="35" defen_percent="60" exp="115000" />
+<item level="36" defen_percent="64" exp="129000" />
+<item level="37" defen_percent="68" exp="143000" />
+<item level="38" defen_percent="72" exp="157000" />
+<item level="39" defen_percent="76" exp="171000" />
+<item level="40" defen_percent="80" exp="0" />
+</reinf>
+
+
+
+<reinf_grade>
+<item grade="0" level="0" defen="0" grade_name="" />
+<item grade="1" level="10" defen="120" grade_name="一档" />
+<item grade="2" level="20" defen="200" grade_name="二档" />
+<item grade="3" level="30" defen="360" grade_name="三档" />
+<item grade="4" level="40" defen="680" grade_name="四档" />
+</reinf_grade>
+
+
+</root>

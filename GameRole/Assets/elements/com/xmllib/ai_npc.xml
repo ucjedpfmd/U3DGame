@@ -1,0 +1,32 @@
+<ai_npcs>
+	<npcs>
+		<npc npcID="70000102">		
+			<item type="1001" condition="" interval="0" trigger="100" sayList="100101" />
+			<item type="2001" condition="1,1" interval="30" trigger="70" sayList="200101" />
+		</npc>
+		<npc npcID="70000103">
+			<item type="1001" condition="" interval="0" trigger="100" sayList="100101" />
+			<item type="2001" condition="1,1" interval="30" trigger="70" sayList="200101" />
+		</npc>
+		<npc npcID="70000104">
+			<item type="1001" condition="" interval="0" trigger="100" sayList="100101" />
+			<item type="2001" condition="1,1" interval="30" trigger="70" sayList="200101" />
+		</npc>
+		<npc npcID="70000105">
+			<item type="1001" condition="" interval="0" trigger="100" sayList="100101" />
+			<item type="2001" condition="1,1" interval="30" trigger="70" sayList="200101" />
+		</npc>
+		<npc npcID="70000106">
+			<item type="1001" condition="" interval="0" trigger="100" sayList="100101" />
+			<item type="2001" condition="1,1" interval="30" trigger="70" sayList="200101" />
+		</npc>
+		<npc npcID="70000107">
+			<item type="1001" condition="" interval="0" trigger="100" sayList="100101" />
+			<item type="2001" condition="1,1" interval="30" trigger="70" sayList="200101" />
+		</npc>
+	</npcs>
+	<sayStrs>
+		<sayStr id="100101"><![CDATA[对面那货{0}给本大爷揍一顿]]></sayStr>
+		<sayStr id="200101"><![CDATA[HEELO{0}我是你大爷]]></sayStr>
+	</sayStrs>
+</ai_npcs>

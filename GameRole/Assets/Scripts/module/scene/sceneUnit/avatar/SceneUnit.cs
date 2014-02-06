@@ -10,6 +10,8 @@
 namespace module.scene.sceneUnit.avatar{
     using System;
     using UnityEngine;
+    using module.scene.utils;
+using module.scene.tile;
 	public class SceneUnit
     {
         public double id;
@@ -35,7 +37,7 @@ namespace module.scene.sceneUnit.avatar{
 			set {_status = value;}
 		}
 
-        public virtual void play(string act, string dir = null)
+        public virtual void play(string act, int dir = -1)
         {
             avatar.body.animation.Play();
         }
@@ -45,10 +47,35 @@ namespace module.scene.sceneUnit.avatar{
 
         }
 
+        protected Pt _index = new Pt();
+        public Pt index
+        {		
+			get {
+                _index = TileUitls.getIndexWithPt(this.x, this.y, _index);
+                return _index;
+                }
+		}
+
+        public int pos
+        {
+            get {
+                return PosUtil.getPos((int)index.x, (int)index.y, curDir, (int)index.z); 
+                }
+        }
+
         public virtual void resetPos(Vector3 pos)
         {
 			pos.y = 1;
 			myObj.transform.position = pos;
+        }
+
+        public virtual float x
+        {
+            get {return myObj.transform.position.x;}
+        }
+        public virtual float y
+        {
+            get { return myObj.transform.position.y; }
         }
 
         public virtual void resetSkin(int skinID, int sex)
@@ -56,11 +83,16 @@ namespace module.scene.sceneUnit.avatar{
 
         }
 
+        public int curDir
+        {
+            get { return MoveMathUtil.getDir(myObj.transform.rotation.y); }
+        }
+
 		public void setParent(GameObject parent){
 			myObj.transform.parent = parent.transform;
 		}
 
-        public void remove() {
+        public virtual void remove() {
             GameObject.Destroy(myObj);
         }
     }

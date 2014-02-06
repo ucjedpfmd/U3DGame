@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<buffs>
+<buff id="22120011" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120012" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120013" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120014" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120015" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120016" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120017" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120018" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120019" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120020" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120021" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120022" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120023" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120024" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120025" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120026" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120027" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120028" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120029" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="22120030" name="炎龙灭杀" description="防御降低15%，持续5秒" icon="10100004.png"/> 
+<buff id="25520011" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520012" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520013" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520014" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520015" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520016" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520017" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520018" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520019" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520020" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520021" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520022" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520023" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520024" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520025" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520026" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520027" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520028" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520029" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25520030" name="龙炎斩" description="速度降低20%，持续6秒" icon="10100005.png"/> 
+<buff id="25100011" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100012" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100013" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100014" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100015" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100016" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100017" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100018" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100019" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100020" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100021" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100022" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100023" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100024" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100025" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100026" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100027" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100028" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100029" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="25100030" name="爆裂斩" description="眩晕2秒" icon="10100007.png"/> 
+<buff id="24700011" name="真炎护体" description="反弹伤害150给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700012" name="真炎护体" description="反弹伤害300给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700013" name="真炎护体" description="反弹伤害450给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700014" name="真炎护体" description="反弹伤害600给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700015" name="真炎护体" description="反弹伤害750给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700016" name="真炎护体" description="反弹伤害900给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700017" name="真炎护体" description="反弹伤害1050给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700018" name="真炎护体" description="反弹伤害1200给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700019" name="真炎护体" description="反弹伤害1350给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700020" name="真炎护体" description="反弹伤害1500给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700021" name="真炎护体" description="反弹伤害1650给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700022" name="真炎护体" description="反弹伤害1800给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700023" name="真炎护体" description="反弹伤害1950给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700024" name="真炎护体" description="反弹伤害2100给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700025" name="真炎护体" description="反弹伤害2250给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700026" name="真炎护体" description="反弹伤害2400给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700027" name="真炎护体" description="反弹伤害2550给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700028" name="真炎护体" description="反弹伤害2700给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700029" name="真炎护体" description="反弹伤害2850给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="24700030" name="真炎护体" description="反弹伤害3000给攻击者，持续7秒" icon="10100008.png" buffer="unit/effect/zhenyanhuti_last.swf"/> 
+<buff id="23600019" name="真炎护体" description="受到的伤害降低60%，持续7秒" icon="10100008.png"/> 
+<buff id="25300011" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300012" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300013" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300014" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300015" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300016" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300017" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300018" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300019" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300020" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300021" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300022" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300023" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300024" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300025" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300026" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300027" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300028" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300029" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25300030" name="雷撼九州" description="定身3秒" icon="10300007.png"  buffer="unit/effect/leihanjiuzhou_last.swf"/> 
+<buff id="25100031" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100032" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100033" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100034" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100035" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100036" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100037" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100038" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100039" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100040" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100041" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100042" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100043" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100044" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100045" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100046" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100047" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100048" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100049" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25100050" name="鬼舞枯藤" description="眩晕3秒" icon="10400007.png" buffer="unit/effect/guiwukuteng_last.swf"/> 
+<buff id="25500011" name="凛冽霜寒" description="速度降低32%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500012" name="凛冽霜寒" description="速度降低34%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500013" name="凛冽霜寒" description="速度降低36%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500014" name="凛冽霜寒" description="速度降低38%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500015" name="凛冽霜寒" description="速度降低40%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500016" name="凛冽霜寒" description="速度降低42%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500017" name="凛冽霜寒" description="速度降低44%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500018" name="凛冽霜寒" description="速度降低46%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500019" name="凛冽霜寒" description="速度降低48%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500020" name="凛冽霜寒" description="速度降低50%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500021" name="凛冽霜寒" description="速度降低52%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500022" name="凛冽霜寒" description="速度降低54%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500023" name="凛冽霜寒" description="速度降低56%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500024" name="凛冽霜寒" description="速度降低58%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500025" name="凛冽霜寒" description="速度降低60%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500026" name="凛冽霜寒" description="速度降低62%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500027" name="凛冽霜寒" description="速度降低64%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500028" name="凛冽霜寒" description="速度降低66%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500029" name="凛冽霜寒" description="速度降低68%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="25500030" name="凛冽霜寒" description="速度降低70%，持续7秒" icon="10200008.png" buffer="unit/effect/linlieshuanghan_last.swf" /> 
+<buff id="23000011" name="凛冽霜寒" description="承受伤害提高10.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000012" name="凛冽霜寒" description="承受伤害提高11%，持续7秒" icon="10200008.png"/> 
+<buff id="23000013" name="凛冽霜寒" description="承受伤害提高11.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000014" name="凛冽霜寒" description="承受伤害提高12%，持续7秒" icon="10200008.png"/> 
+<buff id="23000015" name="凛冽霜寒" description="承受伤害提高12.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000016" name="凛冽霜寒" description="承受伤害提高13%，持续7秒" icon="10200008.png"/> 
+<buff id="23000017" name="凛冽霜寒" description="承受伤害提高13.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000018" name="凛冽霜寒" description="承受伤害提高14%，持续7秒" icon="10200008.png"/> 
+<buff id="23000019" name="凛冽霜寒" description="承受伤害提高14.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000020" name="凛冽霜寒" description="承受伤害提高15%，持续7秒" icon="10200008.png"/> 
+<buff id="23000021" name="凛冽霜寒" description="承受伤害提高15.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000022" name="凛冽霜寒" description="承受伤害提高16%，持续7秒" icon="10200008.png"/> 
+<buff id="23000023" name="凛冽霜寒" description="承受伤害提高16.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000024" name="凛冽霜寒" description="承受伤害提高17%，持续7秒" icon="10200008.png"/> 
+<buff id="23000025" name="凛冽霜寒" description="承受伤害提高17.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000026" name="凛冽霜寒" description="承受伤害提高18%，持续7秒" icon="10200008.png"/> 
+<buff id="23000027" name="凛冽霜寒" description="承受伤害提高18.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000028" name="凛冽霜寒" description="承受伤害提高19%，持续7秒" icon="10200008.png"/> 
+<buff id="23000029" name="凛冽霜寒" description="承受伤害提高19.5%，持续7秒" icon="10200008.png"/> 
+<buff id="23000030" name="凛冽霜寒" description="承受伤害提高20%，持续7秒" icon="10200008.png"/> 
+
+<buff id="23010011" name="炎龙魄" description="下一次攻击伤害提高23%，持续5秒" icon="10100006.png"/> 
+<buff id="23010012" name="炎龙魄" description="下一次攻击伤害提高26%，持续5秒" icon="10100006.png"/> 
+<buff id="23010013" name="炎龙魄" description="下一次攻击伤害提高29%，持续5秒" icon="10100006.png"/> 
+<buff id="23010014" name="炎龙魄" description="下一次攻击伤害提高32%，持续5秒" icon="10100006.png"/> 
+<buff id="23010015" name="炎龙魄" description="下一次攻击伤害提高35%，持续5秒" icon="10100006.png"/> 
+<buff id="23010016" name="炎龙魄" description="下一次攻击伤害提高38%，持续5秒" icon="10100006.png"/> 
+<buff id="23010017" name="炎龙魄" description="下一次攻击伤害提高41%，持续5秒" icon="10100006.png"/> 
+<buff id="23010018" name="炎龙魄" description="下一次攻击伤害提高44%，持续5秒" icon="10100006.png"/> 
+<buff id="23010019" name="炎龙魄" description="下一次攻击伤害提高47%，持续5秒" icon="10100006.png"/> 
+<buff id="23010020" name="炎龙魄" description="下一次攻击伤害提高50%，持续5秒" icon="10100006.png"/> 
+<buff id="23010021" name="炎龙魄" description="下一次攻击伤害提高53%，持续5秒" icon="10100006.png"/> 
+<buff id="23010022" name="炎龙魄" description="下一次攻击伤害提高56%，持续5秒" icon="10100006.png"/> 
+<buff id="23010023" name="炎龙魄" description="下一次攻击伤害提高59%，持续5秒" icon="10100006.png"/> 
+<buff id="23010024" name="炎龙魄" description="下一次攻击伤害提高62%，持续5秒" icon="10100006.png"/> 
+<buff id="23010025" name="炎龙魄" description="下一次攻击伤害提高65%，持续5秒" icon="10100006.png"/> 
+<buff id="23010026" name="炎龙魄" description="下一次攻击伤害提高68%，持续5秒" icon="10100006.png"/> 
+<buff id="23010027" name="炎龙魄" description="下一次攻击伤害提高71%，持续5秒" icon="10100006.png"/> 
+<buff id="23010028" name="炎龙魄" description="下一次攻击伤害提高74%，持续5秒" icon="10100006.png"/> 
+<buff id="23010029" name="炎龙魄" description="下一次攻击伤害提高77%，持续5秒" icon="10100006.png"/> 
+<buff id="23010030" name="炎龙魄" description="下一次攻击伤害提高80%，持续5秒" icon="10100006.png"/> 
+
+<buff id="23600020" name="炎龙魄" description="伤害降低90%，持续3秒" icon="10100006.png"/> 
+
+<buff id="23010031" name="叶舞轮回咒" description="下三次攻击伤害将提高50%,持续12秒" icon="10400010.png"/> 
+
+<buff id="24210011" name="电闪雷鸣" description="增加1600点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210012" name="电闪雷鸣" description="增加1700点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210013" name="电闪雷鸣" description="增加1800点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210014" name="电闪雷鸣" description="增加1900点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210015" name="电闪雷鸣" description="增加2000点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210016" name="电闪雷鸣" description="增加2100点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210017" name="电闪雷鸣" description="增加2200点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210018" name="电闪雷鸣" description="增加2300点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210019" name="电闪雷鸣" description="增加2400点暴击值，持续9秒"  icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210020" name="电闪雷鸣" description="增加2500点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210021" name="电闪雷鸣" description="增加2600点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210022" name="电闪雷鸣" description="增加2700点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210023" name="电闪雷鸣" description="增加2800点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210024" name="电闪雷鸣" description="增加2900点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210025" name="电闪雷鸣" description="增加3000点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210026" name="电闪雷鸣" description="增加3100点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210027" name="电闪雷鸣" description="增加3200点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210028" name="电闪雷鸣" description="增加3300点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210029" name="电闪雷鸣" description="增加3400点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24210030" name="电闪雷鸣" description="增加3500点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last1.swf"/> 
+<buff id="24100011" name="电闪雷鸣" description="降低1600点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100012" name="电闪雷鸣" description="降低1700点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100013" name="电闪雷鸣" description="降低1800点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100014" name="电闪雷鸣" description="降低1900点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100015" name="电闪雷鸣" description="降低2000点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100016" name="电闪雷鸣" description="降低2100点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100017" name="电闪雷鸣" description="降低2200点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100018" name="电闪雷鸣" description="降低2300点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100019" name="电闪雷鸣" description="降低2400点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100020" name="电闪雷鸣" description="降低2500点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100021" name="电闪雷鸣" description="降低2600点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100022" name="电闪雷鸣" description="降低2700点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100023" name="电闪雷鸣" description="降低2800点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100024" name="电闪雷鸣" description="降低2900点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100025" name="电闪雷鸣" description="降低3000点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100026" name="电闪雷鸣" description="降低3100点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100027" name="电闪雷鸣" description="降低3200点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100028" name="电闪雷鸣" description="降低3300点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100029" name="电闪雷鸣" description="降低3400点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24100030" name="电闪雷鸣" description="降低3500点暴击值，持续9秒" icon="10300008.png" buffer="unit/effect/dianshanleiming_last2.swf"/> 
+<buff id="24500011" name="落英千重" description="2秒内无法击中目标"  icon="10400008.png"  buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500012" name="落英千重" description="2秒内无法击中目标"  icon="10400008.png"  buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500013" name="落英千重" description="2秒内无法击中目标"  icon="10400008.png"  buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500014" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500015" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500016" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500017" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500018" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500019" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500020" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500021" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500022" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500023" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500024" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500025" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500026" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500027" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500028" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500029" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="24500030" name="落英千重" description="2秒内无法击中目标" icon="10400008.png" buffer="unit/effect/luoyingqianchong_last.swf" /> 
+<buff id="21600011" name="红莲附体" description="每次受到伤害回复8%+500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600012" name="红莲附体" description="每次受到伤害回复8%+1000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600013" name="红莲附体" description="每次受到伤害回复8%+1500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600014" name="红莲附体" description="每次受到伤害回复8%+2000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600015" name="红莲附体" description="每次受到伤害回复8%+2500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600016" name="红莲附体" description="每次受到伤害回复8%+3000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600017" name="红莲附体" description="每次受到伤害回复8%+3500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600018" name="红莲附体" description="每次受到伤害回复8%+4000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600019" name="红莲附体" description="每次受到伤害回复8%+4500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600020" name="红莲附体" description="每次受到伤害回复8%+5000生命上限，持续4秒"   icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600021" name="红莲附体" description="每次受到伤害回复8%+5500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600022" name="红莲附体" description="每次受到伤害回复8%+6000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600023" name="红莲附体" description="每次受到伤害回复8%+6500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600024" name="红莲附体" description="每次受到伤害回复8%+7000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600025" name="红莲附体" description="每次受到伤害回复8%+7500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600026" name="红莲附体" description="每次受到伤害回复8%+8000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600027" name="红莲附体" description="每次受到伤害回复8%+8500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600028" name="红莲附体" description="每次受到伤害回复8%+9000生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600029" name="红莲附体" description="每次受到伤害回复8%+9500生命上限，持续4秒" icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="21600030" name="红莲附体" description="每次受到伤害回复8%+10000生命上限，持续4秒"   icon="10100009.png" buffer="unit/effect/honglianfuti_last.swf"/> 
+<buff id="23810031" name="漫天风霜" description="闪避提高1150，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810032" name="漫天风霜" description="闪避提高1300，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810033" name="漫天风霜" description="闪避提高1450，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810034" name="漫天风霜" description="闪避提高1600，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810035" name="漫天风霜" description="闪避提高1750，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810036" name="漫天风霜" description="闪避提高1900，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810037" name="漫天风霜" description="闪避提高2050，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810038" name="漫天风霜" description="闪避提高2200，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810039" name="漫天风霜" description="闪避提高2350，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810040" name="漫天风霜" description="闪避提高2500，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810041" name="漫天风霜" description="闪避提高2650，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810042" name="漫天风霜" description="闪避提高2800，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810043" name="漫天风霜" description="闪避提高2950，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810044" name="漫天风霜" description="闪避提高3100，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810045" name="漫天风霜" description="闪避提高3250，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810046" name="漫天风霜" description="闪避提高3400，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810047" name="漫天风霜" description="闪避提高3550，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810048" name="漫天风霜" description="闪避提高3700，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810049" name="漫天风霜" description="闪避提高3850，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="23810050" name="漫天风霜" description="闪避提高4000，持续8秒" icon="10200009.png" buffer="unit/effect/mantianfengshuang_last.swf" /> 
+<buff id="28200011" name="震天逆雷" description="可抵挡1次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200012" name="震天逆雷" description="可抵挡2次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200013" name="震天逆雷" description="可抵挡3次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200014" name="震天逆雷" description="可抵挡4次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200015" name="震天逆雷" description="可抵挡5次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200016" name="震天逆雷" description="可抵挡6次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200017" name="震天逆雷" description="可抵挡7次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200018" name="震天逆雷" description="可抵挡8次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200019" name="震天逆雷" description="可抵挡9次伤害，持续7秒"  icon="10300009.png"  buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200020" name="震天逆雷" description="可抵挡10次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200021" name="震天逆雷" description="可抵挡11次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200022" name="震天逆雷" description="可抵挡12次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200023" name="震天逆雷" description="可抵挡13次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200024" name="震天逆雷" description="可抵挡14次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200025" name="震天逆雷" description="可抵挡15次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200026" name="震天逆雷" description="可抵挡16次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200027" name="震天逆雷" description="可抵挡17次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200028" name="震天逆雷" description="可抵挡18次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200029" name="震天逆雷" description="可抵挡19次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="28200030" name="震天逆雷" description="可抵挡20次伤害，持续7秒" icon="10300009.png" buffer="unit/effect/zhentiannilei.swf"  /> 
+<buff id="23500031" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500032" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500033" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500034" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500035" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500036" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500037" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500038" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500039" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500040" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500041" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500042" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500043" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500044" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500045" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500046" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500047" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500048" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500049" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="23500050" name="冰魄噬魂" description="受到伤害加深5%，持续10秒" icon="10200010.png"/> 
+<buff id="22800011" name="乾罡灭神" description="攻击伤害提升11%，持续7秒" icon="10300010.png"/> 
+<buff id="22800012" name="乾罡灭神" description="攻击伤害提升12%，持续7秒" icon="10300010.png"/> 
+<buff id="22800013" name="乾罡灭神" description="攻击伤害提升13%，持续7秒" icon="10300010.png"/> 
+<buff id="22800014" name="乾罡灭神" description="攻击伤害提升14%，持续7秒" icon="10300010.png"/> 
+<buff id="22800015" name="乾罡灭神" description="攻击伤害提升15%，持续7秒" icon="10300010.png"/> 
+<buff id="22800016" name="乾罡灭神" description="攻击伤害提升16%，持续7秒" icon="10300010.png"/> 
+<buff id="22800017" name="乾罡灭神" description="攻击伤害提升17%，持续7秒" icon="10300010.png"/> 
+<buff id="22800018" name="乾罡灭神" description="攻击伤害提升18%，持续7秒" icon="10300010.png"/> 
+<buff id="22800019" name="乾罡灭神" description="攻击伤害提升19%，持续7秒" icon="10300010.png"/> 
+<buff id="22800020" name="乾罡灭神" description="攻击伤害提升20%，持续7秒" icon="10300010.png"/> 
+<buff id="22800021" name="乾罡灭神" description="攻击伤害提升21%，持续7秒" icon="10300010.png"/> 
+<buff id="22800022" name="乾罡灭神" description="攻击伤害提升22%，持续7秒" icon="10300010.png"/> 
+<buff id="22800023" name="乾罡灭神" description="攻击伤害提升23%，持续7秒" icon="10300010.png"/> 
+<buff id="22800024" name="乾罡灭神" description="攻击伤害提升24%，持续7秒" icon="10300010.png"/> 
+<buff id="22800025" name="乾罡灭神" description="攻击伤害提升25%，持续7秒" icon="10300010.png"/> 
+<buff id="22800026" name="乾罡灭神" description="攻击伤害提升26%，持续7秒" icon="10300010.png"/> 
+<buff id="22800027" name="乾罡灭神" description="攻击伤害提升27%，持续7秒" icon="10300010.png"/> 
+<buff id="22800028" name="乾罡灭神" description="攻击伤害提升28%，持续7秒" icon="10300010.png"/> 
+<buff id="22800029" name="乾罡灭神" description="攻击伤害提升29%，持续7秒" icon="10300010.png"/> 
+<buff id="22800030" name="乾罡灭神" description="攻击伤害提升30%，持续7秒" icon="10300010.png"/> 
+<buff id="27900011" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900012" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900013" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900014" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900015" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900016" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900017" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900018" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900019" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900020" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900021" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900022" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900023" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900024" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900025" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900026" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900027" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900028" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900029" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="27900030" name="叶舞轮回咒" description="使攻击自身的敌方每两秒受到自身2%法攻值的伤害" icon="10400010.png" buffer="unit/effect/lunhuizhou_last.swf" /> 
+<buff id="25100051" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100052" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100053" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100054" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100055" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100056" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100057" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100058" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100059" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100060" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100061" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100062" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100063" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100064" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100065" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100066" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100067" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100068" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100069" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25100070" name="炽火爆炎闪" description="眩晕4秒" icon="10100011.png"/> 
+<buff id="25530011" name="翔天玄冰阵" description="速度降低32%，并受到施法者攻击的5.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530012" name="翔天玄冰阵" description="速度降低34%，并受到施法者攻击的6%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530013" name="翔天玄冰阵" description="速度降低36%，并受到施法者攻击的6.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530014" name="翔天玄冰阵" description="速度降低38%，并受到施法者攻击的7%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530015" name="翔天玄冰阵" description="速度降低40%，并受到施法者攻击的7.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530016" name="翔天玄冰阵" description="速度降低42%，并受到施法者攻击的8%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530017" name="翔天玄冰阵" description="速度降低44%，并受到施法者攻击的8.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530018" name="翔天玄冰阵" description="速度降低46%，并受到施法者攻击的9%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530019" name="翔天玄冰阵" description="速度降低48%，并受到施法者攻击的9.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530020" name="翔天玄冰阵" description="速度降低50%，并受到施法者攻击的10%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530021" name="翔天玄冰阵" description="速度降低52%，并受到施法者攻击的10.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530022" name="翔天玄冰阵" description="速度降低54%，并受到施法者攻击的11%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530023" name="翔天玄冰阵" description="速度降低56%，并受到施法者攻击的11.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530024" name="翔天玄冰阵" description="速度降低58%，并受到施法者攻击的12%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530025" name="翔天玄冰阵" description="速度降低60%，并受到施法者攻击的12.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530026" name="翔天玄冰阵" description="速度降低62%，并受到施法者攻击的13%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530027" name="翔天玄冰阵" description="速度降低64%，并受到施法者攻击的13.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530028" name="翔天玄冰阵" description="速度降低66%，并受到施法者攻击的14%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530029" name="翔天玄冰阵" description="速度降低68%，并受到施法者攻击的14.5%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25530030" name="翔天玄冰阵" description="速度降低70%，并受到施法者攻击的15%伤害/0.4秒" icon="10200011.png"/> 
+<buff id="25300031" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300032" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300033" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300034" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300035" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300036" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300037" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300038" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300039" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300040" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300041" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300042" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300043" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300044" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300045" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300046" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300047" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300048" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300049" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="25300050" name="太乙五雷轰" description="定身4秒" icon="10300011.png"/> 
+<buff id="28300011" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"   /> 
+<buff id="28300012" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300013" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300014" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300015" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300016" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300017" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300018" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300019" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300020" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300021" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300022" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300023" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300024" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300025" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300026" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300027" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300028" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300029" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="28300030" name="仙灵树缚葬" description="每2秒眩晕一次，持续6秒" icon="10400011.png"  /> 
+<buff id="25100091" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf"  /> 
+<buff id="25100092" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100093" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100094" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100095" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100096" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100097" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100098" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100099" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100100" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100101" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100102" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100103" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100104" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100105" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100106" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100107" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100108" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100109" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+<buff id="25100110" name="仙灵树缚葬" description="眩晕1秒" icon="16000024.png"  buffer="unit/effect/yunxuan.swf" /> 
+
+
+<buff id="26800011" name="涅槃真火诀" description="具有26%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800012" name="涅槃真火诀" description="具有27%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800013" name="涅槃真火诀" description="具有28%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800014" name="涅槃真火诀" description="具有29%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800015" name="涅槃真火诀" description="具有30%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800016" name="涅槃真火诀" description="具有31%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800017" name="涅槃真火诀" description="具有32%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800018" name="涅槃真火诀" description="具有33%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800019" name="涅槃真火诀" description="具有34%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800020" name="涅槃真火诀" description="具有35%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800021" name="涅槃真火诀" description="具有36%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800022" name="涅槃真火诀" description="具有37%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800023" name="涅槃真火诀" description="具有38%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800024" name="涅槃真火诀" description="具有39%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800025" name="涅槃真火诀" description="具有40%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800026" name="涅槃真火诀" description="具有41%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800027" name="涅槃真火诀" description="具有42%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800028" name="涅槃真火诀" description="具有43%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800029" name="涅槃真火诀" description="具有44%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="26800030" name="涅槃真火诀" description="具有45%伤害值的吸血效果，持续12秒" icon="10100012.png" buffer="unit/effect/zhenhuojue_last.swf"/> 
+<buff id="23620031" name="雾月飞花诀" description="降低受到的伤害11%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620032" name="雾月飞花诀" description="降低受到的伤害12%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620033" name="雾月飞花诀" description="降低受到的伤害13%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620034" name="雾月飞花诀" description="降低受到的伤害14%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620035" name="雾月飞花诀" description="降低受到的伤害15%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620036" name="雾月飞花诀" description="降低受到的伤害16%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620037" name="雾月飞花诀" description="降低受到的伤害17%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620038" name="雾月飞花诀" description="降低受到的伤害18%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620039" name="雾月飞花诀" description="降低受到的伤害19%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620040" name="雾月飞花诀" description="降低受到的伤害20%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620041" name="雾月飞花诀" description="降低受到的伤害21%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620042" name="雾月飞花诀" description="降低受到的伤害22%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620043" name="雾月飞花诀" description="降低受到的伤害23%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620044" name="雾月飞花诀" description="降低受到的伤害24%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620045" name="雾月飞花诀" description="降低受到的伤害25%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620046" name="雾月飞花诀" description="降低受到的伤害26%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620047" name="雾月飞花诀" description="降低受到的伤害27%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620048" name="雾月飞花诀" description="降低受到的伤害28%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620049" name="雾月飞花诀" description="降低受到的伤害29%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620050" name="雾月飞花诀" description="降低受到的伤害30%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+
+<buff id="23620051" name="雾月飞花诀" description="降低受到的伤害41%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620052" name="雾月飞花诀" description="降低受到的伤害42%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620053" name="雾月飞花诀" description="降低受到的伤害43%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620054" name="雾月飞花诀" description="降低受到的伤害44%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620055" name="雾月飞花诀" description="降低受到的伤害45%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620056" name="雾月飞花诀" description="降低受到的伤害46%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620057" name="雾月飞花诀" description="降低受到的伤害47%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620058" name="雾月飞花诀" description="降低受到的伤害48%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620059" name="雾月飞花诀" description="降低受到的伤害49%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620060" name="雾月飞花诀" description="降低受到的伤害50%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620061" name="雾月飞花诀" description="降低受到的伤害51%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620062" name="雾月飞花诀" description="降低受到的伤害52%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620063" name="雾月飞花诀" description="降低受到的伤害53%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620064" name="雾月飞花诀" description="降低受到的伤害54%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620065" name="雾月飞花诀" description="降低受到的伤害55%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620066" name="雾月飞花诀" description="降低受到的伤害56%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620067" name="雾月飞花诀" description="降低受到的伤害57%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620068" name="雾月飞花诀" description="降低受到的伤害58%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620069" name="雾月飞花诀" description="降低受到的伤害59%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+<buff id="23620070" name="雾月飞花诀" description="降低受到的伤害60%，持续10秒" icon="10400012.png" buffer="unit/effect/feihuajue_last.swf" /> 
+
+<buff id="25800011" name="太乙五雷轰" description="封禁4秒（无法使用技能）" icon="10300011.png"  />  
+
+<buff id="22610011" name="凝冰破邪诀" description="提高自身物攻伤害11%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610012" name="凝冰破邪诀" description="提高自身物攻伤害12%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610013" name="凝冰破邪诀" description="提高自身物攻伤害13%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610014" name="凝冰破邪诀" description="提高自身物攻伤害14%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610015" name="凝冰破邪诀" description="提高自身物攻伤害15%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610016" name="凝冰破邪诀" description="提高自身物攻伤害16%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610017" name="凝冰破邪诀" description="提高自身物攻伤害17%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610018" name="凝冰破邪诀" description="提高自身物攻伤害18%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610019" name="凝冰破邪诀" description="提高自身物攻伤害19%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610020" name="凝冰破邪诀" description="提高自身物攻伤害20%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610021" name="凝冰破邪诀" description="提高自身物攻伤害21%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610022" name="凝冰破邪诀" description="提高自身物攻伤害22%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610023" name="凝冰破邪诀" description="提高自身物攻伤害23%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610024" name="凝冰破邪诀" description="提高自身物攻伤害24%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610025" name="凝冰破邪诀" description="提高自身物攻伤害25%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610026" name="凝冰破邪诀" description="提高自身物攻伤害26%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610027" name="凝冰破邪诀" description="提高自身物攻伤害27%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610028" name="凝冰破邪诀" description="提高自身物攻伤害28%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610029" name="凝冰破邪诀" description="提高自身物攻伤害29%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+<buff id="22610030" name="凝冰破邪诀" description="提高自身物攻伤害30%" icon="10200012.png" buffer="unit/effect/poxiejue_last.swf" />  
+
+<buff id="10040001" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+<buff id="10040002" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"   />  
+<buff id="10040003" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+<buff id="10040004" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+<buff id="10040005" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+<buff id="10040006" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+<buff id="10040007" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+<buff id="10040008" name="仙侣加成" description="获得经验增加5%" icon="qingyuan.png" isHideTime="1"  />  
+
+<buff id="22060011" name="琴瑟和鸣" description="提高90攻击力" icon="10800001.png" isHideTime="1"  effectType="攻击" value="90"/>  
+<buff id="22060012" name="琴瑟和鸣" description="提高120攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="120"/>  
+<buff id="22060013" name="琴瑟和鸣" description="提高174攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="174"/>  
+<buff id="22060014" name="琴瑟和鸣" description="提高252攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="252"/>  
+<buff id="22060015" name="琴瑟和鸣" description="提高354攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="354"/>  
+<buff id="22060016" name="琴瑟和鸣" description="提高480攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="480"/>  
+<buff id="22060017" name="琴瑟和鸣" description="提高630攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="630"/>  
+<buff id="22060018" name="琴瑟和鸣" description="提高800攻击力" icon="10800001.png" isHideTime="1" effectType="攻击" value="800"/>  
+
+<buff id="21210011" name="凤凰于飞" description="提高900生命值上限" icon="10800004.png" isHideTime="1"  effectType="生命" value="900" />  
+<buff id="21210012" name="凤凰于飞" description="提高1200生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="1200" />  
+<buff id="21210013" name="凤凰于飞" description="提高1740生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="1740" />  
+<buff id="21210014" name="凤凰于飞" description="提高2520生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="2520" />  
+<buff id="21210015" name="凤凰于飞" description="提高3540生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="3540" />  
+<buff id="21210016" name="凤凰于飞" description="提高4800生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="4800" />  
+<buff id="21210017" name="凤凰于飞" description="提高6300生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="6300" />  
+<buff id="21210018" name="凤凰于飞" description="提高8000生命值上限" icon="10800004.png" isHideTime="1" effectType="生命" value="8000" />  
+
+<buff id="20810011" name="永结同心" description="提高60物理防御力" icon="10800003.png" isHideTime="1"  effectType="物防" value="60" />  
+<buff id="20810012" name="永结同心" description="提高80物理防御力" icon="10800003.png" isHideTime="1"  effectType="物防" value="80" />  
+<buff id="20810013" name="永结同心" description="提高116物理防御力" icon="10800003.png" isHideTime="1" effectType="物防" value="116" />  
+<buff id="20810014" name="永结同心" description="提高168物理防御力" icon="10800003.png" isHideTime="1" effectType="物防" value="168" />  
+<buff id="20810015" name="永结同心" description="提高236物理防御力" icon="10800003.png" isHideTime="1" effectType="物防" value="236" />  
+<buff id="20810016" name="永结同心" description="提高320物理防御力" icon="10800003.png" isHideTime="1" effectType="物防" value="320" />  
+<buff id="20810017" name="永结同心" description="提高420物理防御力" icon="10800003.png" isHideTime="1" effectType="物防" value="420"  />  
+<buff id="20810018" name="永结同心" description="提高520物理防御力" icon="10800003.png" isHideTime="1" effectType="物防" value="520" />  
+
+<buff id="21010011" name="心心相印" description="提高60法术防御力" icon="10800002.png" isHideTime="1"   effectType="法防" value="60" />  
+<buff id="21010012" name="心心相印" description="提高80法术防御力" icon="10800002.png" isHideTime="1"   effectType="法防" value="80" />  
+<buff id="21010013" name="心心相印" description="提高116法术防御力" icon="10800002.png" isHideTime="1"  effectType="法防" value="116" />  
+<buff id="21010014" name="心心相印" description="提高168法术防御力" icon="10800002.png" isHideTime="1"  effectType="法防" value="168" />  
+<buff id="21010015" name="心心相印" description="提高236法术防御力" icon="10800002.png" isHideTime="1"  effectType="法防" value="236" />  
+<buff id="21010016" name="心心相印" description="提高320法术防御力" icon="10800002.png" isHideTime="1"  effectType="法防" value="320" />  
+<buff id="21010017" name="心心相印" description="提高420法术防御力" icon="10800002.png" isHideTime="1"  effectType="法防" value="420"/>  
+<buff id="21010018" name="心心相印" description="提高520法术防御力" icon="10800002.png" isHideTime="1"  effectType="法防" value="520" />  
+
+<buff id="20710011" name="冰封蔓延" description="降低50%物防和法防，持续8秒" icon="11100001.png"  buffer="unit/effect/yuyi_binglast.swf"  />  
+<buff id="21020011" name="冰封蔓延" description="提高50%物防和法防，持续8秒" icon="11100001.png"   buffer="unit/effect/yuyi_binghurt.swf"  />  
+<buff id="22070011" name="五毒噬骨" description="吸取了目标50%攻击力，持续10秒" icon="11100002.png" buffer="unit/effect/yuyi_dulast.swf"  />  
+<buff id="21910011" name="五毒噬骨" description="攻击力降低50%，持续10秒" icon="11100002.png"      buffer="unit/effect/yuyi_dulast2.swf"    />  
+<buff id="28800011" name="无尽滚雷" description="使所有技能变为群攻，持续12秒" icon="11100003.png"   buffer="unit/effect/yuyi_leilast.swf"   />  
+<buff id="28900011" name="涅槃之火" description="受到任何导致你死亡的伤害时，你将豁免该次伤害，避免死亡，并且回复自身50%最大生命，持续10秒" icon="11100004.png"  buffer="unit/effect/yuyi_huolast.swf"   />  
+<buff id="29000011" name="神羽圣力" description="所有攻击都有50%概率忽略目标物防/法防值和使目标眩晕1秒，并无视绝大部分的防御效果，且每次攻击必定命中，持续12秒" icon="11100005.png"  buffer="unit/effect/yuyi_quanlast.swf"   />  
+<buff id="26220011" name="眩晕" description="眩晕1秒" icon="11100005.png"  buffer="unit/effect/yun.swf"  />  
+
+<buff id="22080011" name="料理（一般）" description="增加80点攻击力，持续60秒" icon="pengren4.png" />  
+<buff id="22080012" name="料理（中评）" description="增加110点攻击力，持续60秒" icon="pengren2.png" />  
+<buff id="22080013" name="料理（好评）" description="增加150点攻击力，持续60秒" icon="pengren1.png" />  
+<buff id="22080014" name="料理（完美）" description="增加180点攻击力，持续60秒" icon="pengren3.png" />  
+
+
+
+
+<buff id="21640001" name="回血状态" description="每秒回复血量上限3%，持续30秒" icon="yi_mu.png"/> 
+<buff id="23640001" name="免伤" description="减少30%受到的伤害，持续30秒" icon="wan_xie_bu_qing.png"/> 
+<buff id="22010001" name="伤害增加" description="提高30%攻击伤害，持续30秒" icon="wu_gong.png"/> 
+<buff id="50040001" name="回血状态" description="每秒回复血量上限1%，持续180秒" icon="yi_mu.png"/> 
+<buff id="50050001" name="免伤" description="减少50%受到的伤害" icon="wu_di.png"/> 
+<buff id="26210001" name="决赛进入中" description="即将进入决赛场地，请耐心等待" icon="pet_special.png"/> 
+<buff id="26930001" name="无敌" description="2秒无敌" icon="pet_special.png" buffer="unit/effect/xiuluo_wudi.swf"/>  
+<buff id="26930002" name="无敌" description="5秒无敌" icon="pet_special.png" buffer="unit/effect/xiuluo_wudi.swf"/>  
+<buff id="27800012" name="雷电" description="" icon="" buffer="unit/effect/leidian_wudi.swf"/>  
+<buff id="27800013" name="陨石" description="" icon="" buffer="unit/effect/guaiwu_yunshi.swf"/>  
+<buff id="25540011" name="减速" description="速度降低50%" icon="wan_xie_bu_qing.png"/>  
+
+<buff id="29040011" name="魔王守护" description="红名时被击杀不会受到红名死亡惩罚减益状态，持续10分钟" icon="moxin.png"/>  
+
+
+<buff id="40500011" name="健体" description="角色生命上限增加600"  icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500012" name="健体" description="角色生命上限增加1200" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500013" name="健体" description="角色生命上限增加1800" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500014" name="健体" description="角色生命上限增加2400" icon="sheng_ming.png"  effectType="生命" value="600"/>  
+<buff id="40500015" name="健体" description="角色生命上限增加3000" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500016" name="健体" description="角色生命上限增加3600" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500017" name="健体" description="角色生命上限增加4200" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500018" name="健体" description="角色生命上限增加4800" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40500019" name="健体" description="角色生命上限增加5400" icon="sheng_ming.png"  effectType="生命" value="600"/>  
+<buff id="40500020" name="健体" description="角色生命上限增加6000" icon="sheng_ming.png"  effectType="生命" value="600"/> 
+
+<buff id="40510011" name="健体" description="角色生命上限增加600"  icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40520011" name="健体" description="角色生命上限增加600"  icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40530011" name="健体" description="角色生命上限增加600"  icon="sheng_ming.png"  effectType="生命" value="600"/> 
+<buff id="40540011" name="健体" description="角色生命上限增加600"  icon="sheng_ming.png"  effectType="生命" value="600"/> 
+
+
+<buff id="41000011" name="聚灵" description="角色法力上限增加150" icon="1234.png"  effectType="法力"  value="150"/>  
+<buff id="41000012" name="聚灵" description="角色法力上限增加300" icon="1234.png"  effectType="法力"  value="150"/>  
+<buff id="41000013" name="聚灵" description="角色法力上限增加450" icon="1234.png"  effectType="法力"  value="150"/>  
+<buff id="41000014" name="聚灵" description="角色法力上限增加600" icon="1234.png"  effectType="法力"  value="150"/>  
+<buff id="41000015" name="聚灵" description="角色法力上限增加750" icon="1234.png"  effectType="法力"  value="150"/>  
+<buff id="41000016" name="聚灵" description="角色法力上限增加900" icon="1234.png"  effectType="法力"  value="150"/>  
+<buff id="41000017" name="聚灵" description="角色法力上限增加1050" icon="1234.png"  effectType="法力" value="150"/>  
+<buff id="41000018" name="聚灵" description="角色法力上限增加1200" icon="1234.png"  effectType="法力" value="150"/>  
+<buff id="41000019" name="聚灵" description="角色法力上限增加1350" icon="1234.png"  effectType="法力" value="150"/>  
+<buff id="41000020" name="聚灵" description="角色法力上限增加1500" icon="1234.png"  effectType="法力" value="150"/>  
+
+<buff id="40300011" name="混元" description="角色法攻增加60" icon="1234.png"   effectType="法攻" value="60"/>  
+<buff id="40300012" name="混元" description="角色法攻增加120" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300013" name="混元" description="角色法攻增加180" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300014" name="混元" description="角色法攻增加240" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300015" name="混元" description="角色法攻增加300" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300016" name="混元" description="角色法攻增加360" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300017" name="混元" description="角色法攻增加420" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300018" name="混元" description="角色法攻增加480" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300019" name="混元" description="角色法攻增加540" icon="1234.png"  effectType="法攻" value="60"/>  
+<buff id="40300020" name="混元" description="角色法攻增加600" icon="1234.png"  effectType="法攻" value="60"/>  
+
+<buff id="40310011" name="混元" description="角色法攻增加60" icon="1234.png"   effectType="法攻" value="60"/>  
+<buff id="40320011" name="混元" description="角色法攻增加60" icon="1234.png"   effectType="法攻" value="60"/>  
+<buff id="40330011" name="混元" description="角色法攻增加60" icon="1234.png"   effectType="法攻" value="60"/>  
+<buff id="40340011" name="混元" description="角色法攻增加60" icon="1234.png"   effectType="法攻" value="60"/>  
+
+<buff id="40100011" name="巨力" description="角色物攻增加60"  icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100012" name="巨力" description="角色物攻增加120" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100013" name="巨力" description="角色物攻增加180" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100014" name="巨力" description="角色物攻增加240" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100015" name="巨力" description="角色物攻增加300" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100016" name="巨力" description="角色物攻增加360" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100017" name="巨力" description="角色物攻增加420" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100018" name="巨力" description="角色物攻增加480" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100019" name="巨力" description="角色物攻增加540" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40100020" name="巨力" description="角色物攻增加600" icon="wu_gong.png"  effectType="物攻" value="60"/>  
+
+<buff id="40110011" name="巨力" description="角色物攻增加60"  icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40120011" name="巨力" description="角色物攻增加60"  icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40130011" name="巨力" description="角色物攻增加60"  icon="wu_gong.png"  effectType="物攻" value="60"/>  
+<buff id="40140011" name="巨力" description="角色物攻增加60"  icon="wu_gong.png"  effectType="物攻" value="60"/> 
+
+<buff id="40400011" name="金刚" description="角色法防增加40"  icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400012" name="金刚" description="角色法防增加80"  icon="1234.png"  effectType="法防" value="40"/> 
+<buff id="40400013" name="金刚" description="角色法防增加120" icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400014" name="金刚" description="角色法防增加160" icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400015" name="金刚" description="角色法防增加200" icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400016" name="金刚" description="角色法防增加240" icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400017" name="金刚" description="角色法防增加280" icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400018" name="金刚" description="角色法防增加320" icon="1234.png"  effectType="法防" value="40"/> 
+<buff id="40400019" name="金刚" description="角色法防增加360" icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40400020" name="金刚" description="角色法防增加400" icon="1234.png"  effectType="法防" value="40"/>  
+
+<buff id="40410011" name="金刚" description="角色法防增加40"  icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40420011" name="金刚" description="角色法防增加40"  icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40430011" name="金刚" description="角色法防增加40"  icon="1234.png"  effectType="法防" value="40"/>  
+<buff id="40440011" name="金刚" description="角色法防增加40"  icon="1234.png"  effectType="法防" value="40"/>  
+
+<buff id="40200011" name="铁壁" description="角色物防增加40"  icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200012" name="铁壁" description="角色物防增加80"  icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200013" name="铁壁" description="角色物防增加120" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200014" name="铁壁" description="角色物防增加160" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200015" name="铁壁" description="角色物防增加200" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200016" name="铁壁" description="角色物防增加240" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200017" name="铁壁" description="角色物防增加280" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200018" name="铁壁" description="角色物防增加320" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200019" name="铁壁" description="角色物防增加360" icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40200020" name="铁壁" description="角色物防增加400" icon="1234.png"  effectType="物防" value="40"/>  
+
+<buff id="40210011" name="铁壁" description="角色物防增加40"  icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40220011" name="铁壁" description="角色物防增加40"  icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40230011" name="铁壁" description="角色物防增加40"  icon="1234.png"  effectType="物防" value="40"/>  
+<buff id="40240011" name="铁壁" description="角色物防增加40"  icon="1234.png"  effectType="物防" value="40"/>  
+
+<buff id="41500011" name="御毒" description="角色毒抗增加20"  icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500012" name="御毒" description="角色毒抗增加40" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500013" name="御毒" description="角色毒抗增加60" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500014" name="御毒" description="角色毒抗增加80" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500015" name="御毒" description="角色毒抗增加100" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500016" name="御毒" description="角色毒抗增加120" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500017" name="御毒" description="角色毒抗增加140" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500018" name="御毒" description="角色毒抗增加160" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500019" name="御毒" description="角色毒抗增加180" icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41500020" name="御毒" description="角色毒抗增加200" icon="1234.png"  effectType="毒抗" value="20"/>  
+
+<buff id="41510011" name="御毒" description="角色毒抗增加20"  icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41520011" name="御毒" description="角色毒抗增加20"  icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41530011" name="御毒" description="角色毒抗增加20"  icon="1234.png"  effectType="毒抗" value="20"/>  
+<buff id="41540011" name="御毒" description="角色毒抗增加20"  icon="1234.png"  effectType="毒抗" value="20"/>  
+
+<buff id="41600011" name="避火" description="角色火抗增加20"  icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600012" name="避火" description="角色火抗增加40" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600013" name="避火" description="角色火抗增加60" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600014" name="避火" description="角色火抗增加80" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600015" name="避火" description="角色火抗增加100" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600016" name="避火" description="角色火抗增加120" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600017" name="避火" description="角色火抗增加140" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600018" name="避火" description="角色火抗增加160" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600019" name="避火" description="角色火抗增加180" icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41600020" name="避火" description="角色火抗增加200" icon="1234.png"  effectType="火抗" value="20"/>  
+
+<buff id="41610011" name="避火" description="角色火抗增加20"  icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41620011" name="避火" description="角色火抗增加20"  icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41630011" name="避火" description="角色火抗增加20"  icon="1234.png"  effectType="火抗" value="20"/>  
+<buff id="41640011" name="避火" description="角色火抗增加20"  icon="1234.png"  effectType="火抗" value="20"/>  
+
+<buff id="41700011" name="避雷" description="角色雷抗增加20"  icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700012" name="避雷" description="角色雷抗增加40" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700013" name="避雷" description="角色雷抗增加60" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700014" name="避雷" description="角色雷抗增加80" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700015" name="避雷" description="角色雷抗增加100" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700016" name="避雷" description="角色雷抗增加120" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700017" name="避雷" description="角色雷抗增加140" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700018" name="避雷" description="角色雷抗增加160" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700019" name="避雷" description="角色雷抗增加180" icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41700020" name="避雷" description="角色雷抗增加200" icon="1234.png"  effectType="雷抗" value="20"/>  
+
+<buff id="41710011" name="避雷" description="角色雷抗增加20"  icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41720011" name="避雷" description="角色雷抗增加20"  icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41730011" name="避雷" description="角色雷抗增加20"  icon="1234.png"  effectType="雷抗" value="20"/>  
+<buff id="41740011" name="避雷" description="角色雷抗增加20"  icon="1234.png"  effectType="雷抗" value="20"/>  
+
+<buff id="41800011" name="御寒" description="角色冰抗增加20"  icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800012" name="御寒" description="角色冰抗增加40" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800013" name="御寒" description="角色冰抗增加60" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800014" name="御寒" description="角色冰抗增加80" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800015" name="御寒" description="角色冰抗增加100" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800016" name="御寒" description="角色冰抗增加120" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800017" name="御寒" description="角色冰抗增加140" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800018" name="御寒" description="角色冰抗增加160" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800019" name="御寒" description="角色冰抗增加180" icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41800020" name="御寒" description="角色冰抗增加200" icon="1234.png"  effectType="冰抗" value="20"/>  
+
+<buff id="41810011" name="御寒" description="角色冰抗增加20"  icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41820011" name="御寒" description="角色冰抗增加20"  icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41830011" name="御寒" description="角色冰抗增加20"  icon="1234.png"  effectType="冰抗" value="20"/>  
+<buff id="41840011" name="御寒" description="角色冰抗增加20"  icon="1234.png"  effectType="冰抗" value="20"/>  
+
+<buff id="41100011" name="毒云" description="角色毒攻增加20"  icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100012" name="毒云" description="角色毒攻增加40" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100013" name="毒云" description="角色毒攻增加60" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100014" name="毒云" description="角色毒攻增加80" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100015" name="毒云" description="角色毒攻增加100" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100016" name="毒云" description="角色毒攻增加120" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100017" name="毒云" description="角色毒攻增加140" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100018" name="毒云" description="角色毒攻增加160" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100019" name="毒云" description="角色毒攻增加180" icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41100020" name="毒云" description="角色毒攻增加200" icon="1234.png"  effectType="毒攻" value="20"/>  
+
+<buff id="41110011" name="毒云" description="角色毒攻增加20"  icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41120011" name="毒云" description="角色毒攻增加20"  icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41130011" name="毒云" description="角色毒攻增加20"  icon="1234.png"  effectType="毒攻" value="20"/>  
+<buff id="41140011" name="毒云" description="角色毒攻增加20"  icon="1234.png"  effectType="毒攻" value="20"/>  
+
+<buff id="41200011" name="舞火" description="角色火攻增加20"  icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200012" name="舞火" description="角色火攻增加40" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200013" name="舞火" description="角色火攻增加60" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200014" name="舞火" description="角色火攻增加80" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200015" name="舞火" description="角色火攻增加100" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200016" name="舞火" description="角色火攻增加120" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200017" name="舞火" description="角色火攻增加140" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200018" name="舞火" description="角色火攻增加160" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200019" name="舞火" description="角色火攻增加180" icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41200020" name="舞火" description="角色火攻增加200" icon="1234.png"  effectType="火攻" value="20"/>  
+
+<buff id="41210011" name="舞火" description="角色火攻增加20"  icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41220011" name="舞火" description="角色火攻增加20"  icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41230011" name="舞火" description="角色火攻增加20"  icon="1234.png"  effectType="火攻" value="20"/>  
+<buff id="41240011" name="舞火" description="角色火攻增加20"  icon="1234.png"  effectType="火攻" value="20"/>  
+
+<buff id="41300011" name="奔雷" description="角色雷攻增加20"  icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300012" name="奔雷" description="角色雷攻增加40" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300013" name="奔雷" description="角色雷攻增加60" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300014" name="奔雷" description="角色雷攻增加80" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300015" name="奔雷" description="角色雷攻增加100" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300016" name="奔雷" description="角色雷攻增加120" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300017" name="奔雷" description="角色雷攻增加140" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300018" name="奔雷" description="角色雷攻增加160" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300019" name="奔雷" description="角色雷攻增加180" icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41300020" name="奔雷" description="角色雷攻增加200" icon="1234.png"  effectType="雷攻" value="20"/>  
+
+<buff id="41310011" name="奔雷" description="角色雷攻增加20"  icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41320011" name="奔雷" description="角色雷攻增加20"  icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41330011" name="奔雷" description="角色雷攻增加20"  icon="1234.png"  effectType="雷攻" value="20"/>  
+<buff id="41340011" name="奔雷" description="角色雷攻增加20"  icon="1234.png"  effectType="雷攻" value="20"/>  
+
+<buff id="41400011" name="冰封" description="角色冰攻增加20"  icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400012" name="冰封" description="角色冰攻增加40" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400013" name="冰封" description="角色冰攻增加60" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400014" name="冰封" description="角色冰攻增加80" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400015" name="冰封" description="角色冰攻增加100" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400016" name="冰封" description="角色冰攻增加120" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400017" name="冰封" description="角色冰攻增加140" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400018" name="冰封" description="角色冰攻增加160" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400019" name="冰封" description="角色冰攻增加180" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41400020" name="冰封" description="角色冰攻增加200" icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+
+<buff id="41410011" name="冰封" description="角色冰攻增加20"  icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41420011" name="冰封" description="角色冰攻增加20"  icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41430011" name="冰封" description="角色冰攻增加20"  icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+<buff id="41440011" name="冰封" description="角色冰攻增加20"  icon="bing_gong.png"  effectType="冰攻" value="20"/>  
+
+<buff id="40700011" name="精准" description="角色命中增加50"  icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700012" name="精准" description="角色命中增加100" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700013" name="精准" description="角色命中增加150" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700014" name="精准" description="角色命中增加200" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700015" name="精准" description="角色命中增加250" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700016" name="精准" description="角色命中增加300" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700017" name="精准" description="角色命中增加350" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700018" name="精准" description="角色命中增加400" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700019" name="精准" description="角色命中增加450" icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40700020" name="精准" description="角色命中增加500" icon="1234.png"  effectType="命中" value="50"/>  
+
+<buff id="40710011" name="精准" description="角色命中增加50"  icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40720011" name="精准" description="角色命中增加50"  icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40730011" name="精准" description="角色命中增加50"  icon="1234.png"  effectType="命中" value="50"/>  
+<buff id="40740011" name="精准" description="角色命中增加50"  icon="1234.png"  effectType="命中" value="50"/>  
+
+<buff id="40600011" name="狂暴" description="角色暴击增加50"  icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600012" name="狂暴" description="角色暴击增加100" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600013" name="狂暴" description="角色暴击增加150" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600014" name="狂暴" description="角色暴击增加200" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600015" name="狂暴" description="角色暴击增加250" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600016" name="狂暴" description="角色暴击增加300" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600017" name="狂暴" description="角色暴击增加350" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600018" name="狂暴" description="角色暴击增加400" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600019" name="狂暴" description="角色暴击增加450" icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40600020" name="狂暴" description="角色暴击增加500" icon="1234.png"  effectType="暴击" value="50"/>  
+
+<buff id="40610011" name="狂暴" description="角色暴击增加50"  icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40620011" name="狂暴" description="角色暴击增加50"  icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40630011" name="狂暴" description="角色暴击增加50"  icon="1234.png"  effectType="暴击" value="50"/>  
+<buff id="40640011" name="狂暴" description="角色暴击增加50"  icon="1234.png"  effectType="暴击" value="50"/>  
+
+<buff id="40800011" name="灵敏" description="角色闪避增加50"  icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800012" name="灵敏" description="角色闪避增加100" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800013" name="灵敏" description="角色闪避增加150" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800014" name="灵敏" description="角色闪避增加200" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800015" name="灵敏" description="角色闪避增加250" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800016" name="灵敏" description="角色闪避增加300" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800017" name="灵敏" description="角色闪避增加350" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800018" name="灵敏" description="角色闪避增加400" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800019" name="灵敏" description="角色闪避增加450" icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40800020" name="灵敏" description="角色闪避增加500" icon="1234.png"  effectType="闪避" value="50"/>  
+
+<buff id="40810011" name="灵敏" description="角色闪避增加50"  icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40820011" name="灵敏" description="角色闪避增加50"  icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40830011" name="灵敏" description="角色闪避增加50"  icon="1234.png"  effectType="闪避" value="50"/>  
+<buff id="40840011" name="灵敏" description="角色闪避增加50"  icon="1234.png"  effectType="闪避" value="50"/>  
+
+<buff id="40500021" name="长生" description="宠物生命上限增加3000"  icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500022" name="长生" description="宠物生命上限增加6000"  icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500023" name="长生" description="宠物生命上限增加9000"  icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500024" name="长生" description="宠物生命上限增加12000" icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500025" name="长生" description="宠物生命上限增加15000" icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500026" name="长生" description="宠物生命上限增加18000" icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500027" name="长生" description="宠物生命上限增加21000" icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500028" name="长生" description="宠物生命上限增加24000" icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500029" name="长生" description="宠物生命上限增加27000" icon="1234.png"  effectType="生命" value="3000"/>  
+<buff id="40500030" name="长生" description="宠物生命上限增加30000" icon="1234.png"  effectType="生命" value="3000"/>  
+
+<buff id="40300021" name="散魂诀" description="宠物法攻增加300"  icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300022" name="散魂诀" description="宠物法攻增加600"  icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300023" name="散魂诀" description="宠物法攻增加900"  icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300024" name="散魂诀" description="宠物法攻增加1200" icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300025" name="散魂诀" description="宠物法攻增加1500" icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300026" name="散魂诀" description="宠物法攻增加1800" icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300027" name="散魂诀" description="宠物法攻增加2100" icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300028" name="散魂诀" description="宠物法攻增加2400" icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300029" name="散魂诀" description="宠物法攻增加2700" icon="1234.png"  effectType="法攻" value="300"/>  
+<buff id="40300030" name="散魂诀" description="宠物法攻增加3000" icon="1234.png"  effectType="法攻" value="300"/>  
+
+<buff id="40100021" name="穿心诀" description="宠物物攻增加300"  icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100022" name="穿心诀" description="宠物物攻增加600"  icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100023" name="穿心诀" description="宠物物攻增加900"  icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100024" name="穿心诀" description="宠物物攻增加1200" icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100025" name="穿心诀" description="宠物物攻增加1500" icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100026" name="穿心诀" description="宠物物攻增加1800" icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100027" name="穿心诀" description="宠物物攻增加2100" icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100028" name="穿心诀" description="宠物物攻增加2400" icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100029" name="穿心诀" description="宠物物攻增加2700" icon="1234.png"  effectType="物攻" value="300"/>  
+<buff id="40100030" name="穿心诀" description="宠物物攻增加3000" icon="1234.png"  effectType="物攻" value="300"/>  
+
+<buff id="40400021" name="金钟罩" description="宠物法防增加200"  icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400022" name="金钟罩" description="宠物法防增加400"  icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400023" name="金钟罩" description="宠物法防增加600"  icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400024" name="金钟罩" description="宠物法防增加800"  icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400025" name="金钟罩" description="宠物法防增加1000" icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400026" name="金钟罩" description="宠物法防增加1200" icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400027" name="金钟罩" description="宠物法防增加1400" icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400028" name="金钟罩" description="宠物法防增加1600" icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400029" name="金钟罩" description="宠物法防增加1800" icon="1234.png"  effectType="法防" value="200"/>  
+<buff id="40400030" name="金钟罩" description="宠物法防增加2000" icon="1234.png"  effectType="法防" value="200"/>  
+
+<buff id="40200021" name="铁布衫" description="宠物物防增加200"  icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200022" name="铁布衫" description="宠物物防增加400"  icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200023" name="铁布衫" description="宠物物防增加600"  icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200024" name="铁布衫" description="宠物物防增加800"  icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200025" name="铁布衫" description="宠物物防增加1000" icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200026" name="铁布衫" description="宠物物防增加1200" icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200027" name="铁布衫" description="宠物物防增加1400" icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200028" name="铁布衫" description="宠物物防增加1600" icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200029" name="铁布衫" description="宠物物防增加1800" icon="1234.png"  effectType="物防" value="200"/>  
+<buff id="40200030" name="铁布衫" description="宠物物防增加2000" icon="1234.png"  effectType="物防" value="200"/>  
+
+<buff id="41500021" name="百毒不侵" description="宠物毒抗增加300"  icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500022" name="百毒不侵" description="宠物毒抗增加600"  icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500023" name="百毒不侵" description="宠物毒抗增加900"  icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500024" name="百毒不侵" description="宠物毒抗增加1200" icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500025" name="百毒不侵" description="宠物毒抗增加1500" icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500026" name="百毒不侵" description="宠物毒抗增加1800" icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500027" name="百毒不侵" description="宠物毒抗增加2100" icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500028" name="百毒不侵" description="宠物毒抗增加2400" icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500029" name="百毒不侵" description="宠物毒抗增加2700" icon="1234.png"  effectType="毒抗" value="300"/>  
+<buff id="41500030" name="百毒不侵" description="宠物毒抗增加3000" icon="1234.png"  effectType="毒抗" value="300"/>  
+
+<buff id="41600021" name="御火真诀" description="宠物火抗增加300"  icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600022" name="御火真诀" description="宠物火抗增加600"  icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600023" name="御火真诀" description="宠物火抗增加900"  icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600024" name="御火真诀" description="宠物火抗增加1200" icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600025" name="御火真诀" description="宠物火抗增加1500" icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600026" name="御火真诀" description="宠物火抗增加1800" icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600027" name="御火真诀" description="宠物火抗增加2100" icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600028" name="御火真诀" description="宠物火抗增加2400" icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600029" name="御火真诀" description="宠物火抗增加2700" icon="1234.png"  effectType="火抗" value="300"/>  
+<buff id="41600030" name="御火真诀" description="宠物火抗增加3000" icon="1234.png"  effectType="火抗" value="300"/>  
+
+<buff id="41700021" name="雷打不动" description="宠物雷抗增加300"  icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700022" name="雷打不动" description="宠物雷抗增加600"  icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700023" name="雷打不动" description="宠物雷抗增加900"  icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700024" name="雷打不动" description="宠物雷抗增加1200" icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700025" name="雷打不动" description="宠物雷抗增加1500" icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700026" name="雷打不动" description="宠物雷抗增加1800" icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700027" name="雷打不动" description="宠物雷抗增加2100" icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700028" name="雷打不动" description="宠物雷抗增加2400" icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700029" name="雷打不动" description="宠物雷抗增加2700" icon="1234.png"  effectType="雷抗" value="300"/>  
+<buff id="41700030" name="雷打不动" description="宠物雷抗增加3000" icon="1234.png"  effectType="雷抗" value="300"/>  
+
+<buff id="41800021" name="避寒灵咒" description="宠物冰抗增加300"  icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800022" name="避寒灵咒" description="宠物冰抗增加600"  icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800023" name="避寒灵咒" description="宠物冰抗增加900"  icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800024" name="避寒灵咒" description="宠物冰抗增加1200" icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800025" name="避寒灵咒" description="宠物冰抗增加1500" icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800026" name="避寒灵咒" description="宠物冰抗增加1800" icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800027" name="避寒灵咒" description="宠物冰抗增加2100" icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800028" name="避寒灵咒" description="宠物冰抗增加2400" icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800029" name="避寒灵咒" description="宠物冰抗增加2700" icon="1234.png"  effectType="冰抗" value="300"/>  
+<buff id="41800030" name="避寒灵咒" description="宠物冰抗增加3000" icon="1234.png"  effectType="冰抗" value="300"/>  
+
+<buff id="41100021" name="万毒噬天" description="宠物毒攻增加300"  icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100022" name="万毒噬天" description="宠物毒攻增加600"  icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100023" name="万毒噬天" description="宠物毒攻增加900"  icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100024" name="万毒噬天" description="宠物毒攻增加1200" icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100025" name="万毒噬天" description="宠物毒攻增加1500" icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100026" name="万毒噬天" description="宠物毒攻增加1800" icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100027" name="万毒噬天" description="宠物毒攻增加2100" icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100028" name="万毒噬天" description="宠物毒攻增加2400" icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100029" name="万毒噬天" description="宠物毒攻增加2700" icon="1234.png"  effectType="毒攻" value="300"/>  
+<buff id="41100030" name="万毒噬天" description="宠物毒攻增加3000" icon="1234.png"  effectType="毒攻" value="300"/>  
+
+<buff id="41200021" name="烈火燎原" description="宠物火攻增加300"  icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200022" name="烈火燎原" description="宠物火攻增加600"  icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200023" name="烈火燎原" description="宠物火攻增加900"  icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200024" name="烈火燎原" description="宠物火攻增加1200" icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200025" name="烈火燎原" description="宠物火攻增加1500" icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200026" name="烈火燎原" description="宠物火攻增加1800" icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200027" name="烈火燎原" description="宠物火攻增加2100" icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200028" name="烈火燎原" description="宠物火攻增加2400" icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200029" name="烈火燎原" description="宠物火攻增加2700" icon="1234.png"  effectType="火攻" value="300"/>  
+<buff id="41200030" name="烈火燎原" description="宠物火攻增加3000" icon="1234.png"  effectType="火攻" value="300"/>  
+
+<buff id="41300021" name="九天惊雷" description="宠物雷攻增加300"  icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300022" name="九天惊雷" description="宠物雷攻增加600"  icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300023" name="九天惊雷" description="宠物雷攻增加900"  icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300024" name="九天惊雷" description="宠物雷攻增加1200" icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300025" name="九天惊雷" description="宠物雷攻增加1500" icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300026" name="九天惊雷" description="宠物雷攻增加1800" icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300027" name="九天惊雷" description="宠物雷攻增加2100" icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300028" name="九天惊雷" description="宠物雷攻增加2400" icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300029" name="九天惊雷" description="宠物雷攻增加2700" icon="1234.png"  effectType="雷攻" value="300"/>  
+<buff id="41300030" name="九天惊雷" description="宠物雷攻增加3000" icon="1234.png"  effectType="雷攻" value="300"/>  
+
+<buff id="41400021" name="冰封万里" description="宠物冰攻增加300"  icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400022" name="冰封万里" description="宠物冰攻增加600"  icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400023" name="冰封万里" description="宠物冰攻增加900"  icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400024" name="冰封万里" description="宠物冰攻增加1200" icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400025" name="冰封万里" description="宠物冰攻增加1500" icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400026" name="冰封万里" description="宠物冰攻增加1800" icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400027" name="冰封万里" description="宠物冰攻增加2100" icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400028" name="冰封万里" description="宠物冰攻增加2400" icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400029" name="冰封万里" description="宠物冰攻增加2700" icon="1234.png"  effectType="冰攻" value="300"/>  
+<buff id="41400030" name="冰封万里" description="宠物冰攻增加3000" icon="1234.png"  effectType="冰攻" value="300"/>  
+
+<buff id="40700021" name="明目术" description="宠物命中增加300"  icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700022" name="明目术" description="宠物命中增加600"  icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700023" name="明目术" description="宠物命中增加900"  icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700024" name="明目术" description="宠物命中增加1200" icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700025" name="明目术" description="宠物命中增加1500" icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700026" name="明目术" description="宠物命中增加1800" icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700027" name="明目术" description="宠物命中增加2100" icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700028" name="明目术" description="宠物命中增加2400" icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700029" name="明目术" description="宠物命中增加2700" icon="1234.png"  effectType="命中" value="300"/>  
+<buff id="40700030" name="明目术" description="宠物命中增加3000" icon="1234.png"  effectType="命中" value="300"/>  
+
+<buff id="40600021" name="刺杀术" description="宠物暴击增加300"  icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600022" name="刺杀术" description="宠物暴击增加600"  icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600023" name="刺杀术" description="宠物暴击增加900"  icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600024" name="刺杀术" description="宠物暴击增加1200" icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600025" name="刺杀术" description="宠物暴击增加1500" icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600026" name="刺杀术" description="宠物暴击增加1800" icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600027" name="刺杀术" description="宠物暴击增加2100" icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600028" name="刺杀术" description="宠物暴击增加2400" icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600029" name="刺杀术" description="宠物暴击增加2700" icon="1234.png"  effectType="暴击" value="300"/>  
+<buff id="40600030" name="刺杀术" description="宠物暴击增加3000" icon="1234.png"  effectType="暴击" value="300"/>  
+
+<buff id="40800021" name="云体术" description="宠物闪避增加300"  icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800022" name="云体术" description="宠物闪避增加600"  icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800023" name="云体术" description="宠物闪避增加900"  icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800024" name="云体术" description="宠物闪避增加1200" icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800025" name="云体术" description="宠物闪避增加1500" icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800026" name="云体术" description="宠物闪避增加1800" icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800027" name="云体术" description="宠物闪避增加2100" icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800028" name="云体术" description="宠物闪避增加2400" icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800029" name="云体术" description="宠物闪避增加2700" icon="1234.png"  effectType="闪避" value="300"/>  
+<buff id="40800030" name="云体术" description="宠物闪避增加3000" icon="1234.png"  effectType="闪避" value="300"/>  
+
+<buff id="42200021" name="强韧" description="韧性增加50"  icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200022" name="强韧" description="韧性增加100" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200023" name="强韧" description="韧性增加150" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200024" name="强韧" description="韧性增加200" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200025" name="强韧" description="韧性增加250" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200026" name="强韧" description="韧性增加300" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200027" name="强韧" description="韧性增加350" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200028" name="强韧" description="韧性增加400" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200029" name="强韧" description="韧性增加450" icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42200030" name="强韧" description="韧性增加500" icon="1234.png"  effectType="韧性" value="50"/>  
+
+<buff id="42210011" name="强韧" description="韧性增加50"  icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42220011" name="强韧" description="韧性增加50"  icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42230011" name="强韧" description="韧性增加50"  icon="1234.png"  effectType="韧性" value="50"/>  
+<buff id="42240011" name="强韧" description="韧性增加50"  icon="1234.png"  effectType="韧性" value="50"/>  
+
+<buff id="42200031" name="强身术" description="韧性增加300"  icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200032" name="强身术" description="韧性增加600" icon="1234.png"   effectType="韧性" value="300"/>  
+<buff id="42200033" name="强身术" description="韧性增加900" icon="1234.png"   effectType="韧性" value="300"/>  
+<buff id="42200034" name="强身术" description="韧性增加1200" icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200035" name="强身术" description="韧性增加1500" icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200036" name="强身术" description="韧性增加1800" icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200037" name="强身术" description="韧性增加2100" icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200038" name="强身术" description="韧性增加2400" icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200039" name="强身术" description="韧性增加2700" icon="1234.png"  effectType="韧性" value="300"/>  
+<buff id="42200040" name="强身术" description="韧性增加3000" icon="1234.png"  effectType="韧性" value="300"/>  
+
+<buff id="42500011" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500012" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500013" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500014" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500015" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500016" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500017" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500018" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500019" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+<buff id="42500020" name="吞天噬日" description="宠物造成伤害量转为恢复角色血量" icon="10650001.png"  />  
+
+<buff id="42300011" name="十方俱灭" description="主人攻击伤害加成1%" icon="10650002.png" />  
+<buff id="42300012" name="十方俱灭" description="主人攻击伤害加成2%" icon="10650002.png" />  
+<buff id="42300013" name="十方俱灭" description="主人攻击伤害加成3%" icon="10650002.png" />  
+<buff id="42300014" name="十方俱灭" description="主人攻击伤害加成4%" icon="10650002.png" />  
+<buff id="42300015" name="十方俱灭" description="主人攻击伤害加成5%" icon="10650002.png" />  
+<buff id="42300016" name="十方俱灭" description="主人攻击伤害加成6%" icon="10650002.png" />  
+<buff id="42300017" name="十方俱灭" description="主人攻击伤害加成7%" icon="10650002.png" />  
+<buff id="42300018" name="十方俱灭" description="主人攻击伤害加成8%" icon="10650002.png" />  
+<buff id="42300019" name="十方俱灭" description="主人攻击伤害加成9%" icon="10650002.png" />  
+<buff id="42300020" name="十方俱灭" description="主人攻击伤害加成10%" icon="10650002.png"/>  
+
+<buff id="42400011" name="移形换影" description="主人受到攻击伤害减免1%" icon="10650003.png"  />  
+<buff id="42400012" name="移形换影" description="主人受到攻击伤害减免2%" icon="10650003.png"  />  
+<buff id="42400013" name="移形换影" description="主人受到攻击伤害减免3%" icon="10650003.png"  />  
+<buff id="42400014" name="移形换影" description="主人受到攻击伤害减免4%" icon="10650003.png"  />  
+<buff id="42400015" name="移形换影" description="主人受到攻击伤害减免5%" icon="10650003.png"  />  
+<buff id="42400016" name="移形换影" description="主人受到攻击伤害减免6%" icon="10650003.png"  />  
+<buff id="42400017" name="移形换影" description="主人受到攻击伤害减免7%" icon="10650003.png"  />  
+<buff id="42400018" name="移形换影" description="主人受到攻击伤害减免8%" icon="10650003.png"  />  
+<buff id="42400019" name="移形换影" description="主人受到攻击伤害减免9%" icon="10650003.png"  />  
+<buff id="42400020" name="移形换影" description="主人受到攻击伤害减免10%" icon="10650003.png" />  
+
+<buff id="42510011" name="吞天灵诀" description="仙宠造成伤害量的1%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510012" name="吞天灵诀" description="仙宠造成伤害量的2%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510013" name="吞天灵诀" description="仙宠造成伤害量的3%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510014" name="吞天灵诀" description="仙宠造成伤害量的4%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510015" name="吞天灵诀" description="仙宠造成伤害量的5%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510016" name="吞天灵诀" description="仙宠造成伤害量的6%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510017" name="吞天灵诀" description="仙宠造成伤害量的7%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510018" name="吞天灵诀" description="仙宠造成伤害量的8%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510019" name="吞天灵诀" description="仙宠造成伤害量的9%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+<buff id="42510020" name="吞天灵诀" description="仙宠造成伤害量的10%同时可转为恢复当前仙宠血量" icon="10640047.png"  />  
+
+<buff id="42310011" name="十方灵诀" description="仙宠攻击伤害加成1%" icon="10640048.png" />  
+<buff id="42310012" name="十方灵诀" description="仙宠攻击伤害加成2%" icon="10640048.png" />  
+<buff id="42310013" name="十方灵诀" description="仙宠攻击伤害加成3%" icon="10640048.png" />  
+<buff id="42310014" name="十方灵诀" description="仙宠攻击伤害加成4%" icon="10640048.png" />  
+<buff id="42310015" name="十方灵诀" description="仙宠攻击伤害加成5%" icon="10640048.png" />  
+<buff id="42310016" name="十方灵诀" description="仙宠攻击伤害加成6%" icon="10640048.png" />  
+<buff id="42310017" name="十方灵诀" description="仙宠攻击伤害加成7%" icon="10640048.png" />  
+<buff id="42310018" name="十方灵诀" description="仙宠攻击伤害加成8%" icon="10640048.png" />  
+<buff id="42310019" name="十方灵诀" description="仙宠攻击伤害加成9%" icon="10640048.png" />  
+<buff id="42310020" name="十方灵诀" description="仙宠攻击伤害加成10%" icon="10640048.png"/>  
+
+<buff id="42410011" name="移形灵诀" description="仙宠受到伤害减免1%" icon="10640049.png"  />  
+<buff id="42410012" name="移形灵诀" description="仙宠受到伤害减免2%" icon="10640049.png"  />  
+<buff id="42410013" name="移形灵诀" description="仙宠受到伤害减免3%" icon="10640049.png"  />  
+<buff id="42410014" name="移形灵诀" description="仙宠受到伤害减免4%" icon="10640049.png"  />  
+<buff id="42410015" name="移形灵诀" description="仙宠受到伤害减免5%" icon="10640049.png"  />  
+<buff id="42410016" name="移形灵诀" description="仙宠受到伤害减免6%" icon="10640049.png"  />  
+<buff id="42410017" name="移形灵诀" description="仙宠受到伤害减免7%" icon="10640049.png"  />  
+<buff id="42410018" name="移形灵诀" description="仙宠受到伤害减免8%" icon="10640049.png"  />  
+<buff id="42410019" name="移形灵诀" description="仙宠受到伤害减免9%" icon="10640049.png"  />  
+<buff id="42410020" name="移形灵诀" description="仙宠受到伤害减免10%" icon="10640049.png" />  
+
+
+
+<buff id="10010011" name="四象仙尊" description="四象仙尊经验加成，打怪打坐经验1.1倍" icon="vip1.png"/>
+<buff id="10010012" name="五灵仙尊" description="五灵仙尊经验加成，打怪打坐经验1.2倍" icon="vip2.png"/>
+<buff id="10010013" name="六界仙尊" description="六界仙尊经验加成，打怪打坐经验1.3倍" icon="vip3.png"/>
+
+<buff id="10050001" name="多倍经验活动" description="打怪打坐经验增加" icon="yu_lu_qiong_jiang.png"/>
+
+
+<buff id="27800011" name="无敌1格预警" description="无敌" icon="1234.png" buffer="unit/effect/battleDef.swf"/> 
+
+<buff id="25900011" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900012" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900013" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900014" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900015" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900016" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900017" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="25900018" name="免疫" description="仙珠技能，免疫所有负面状态，持续8秒" icon="1234.png"  buffer="unit/effect/foguangpuzhao_last.swf"/> 
+<buff id="23600011" name="伤害降低" description="仙珠技能，受到的伤害降低20%，持续8秒" icon="1234.png"/> 
+<buff id="23600012" name="伤害降低" description="仙珠技能，受到的伤害降低25%，持续8秒" icon="1234.png"/> 
+<buff id="23600013" name="伤害降低" description="仙珠技能，受到的伤害降低30%，持续8秒" icon="1234.png"/> 
+<buff id="23600014" name="伤害降低" description="仙珠技能，受到的伤害降低35%，持续8秒" icon="1234.png"/> 
+<buff id="23600015" name="伤害降低" description="仙珠技能，受到的伤害降低40%，持续8秒" icon="1234.png"/> 
+<buff id="23600016" name="伤害降低" description="仙珠技能，受到的伤害降低50%，持续8秒" icon="1234.png"/> 
+<buff id="23600017" name="伤害降低" description="仙珠技能，受到的伤害降低60%，持续8秒" icon="1234.png"/> 
+<buff id="23600018" name="伤害降低" description="仙珠技能，受到的伤害降低80%，持续8秒" icon="1234.png"/> 
+<buff id="25500031" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500032" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500033" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500034" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500035" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500036" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500037" name="速度降低" description="仙珠技能，减缓30%的移动速度，持续5秒" icon="1234.png"/> 
+<buff id="25500038" name="速度降低" description="仙珠技能，减缓90%的移动速度，持续5秒" icon="1234.png"/> 
+
+<buff id="25600031" name="爆裂斩" description="速度增加50点，持续5秒" icon="10100007.png"/> 
+
+<buff id="486" name="命中" description="神迹祝福，增加10000点命中" icon="geng_jin.png" isHideTime="1" />
+<buff id="487" name="防御" description="神迹祝福，增加400点防御" icon="16000004.png" isHideTime="1" />
+<buff id="488" name="破防" description="神迹祝福，攻击无视对方防御" icon="lei_ji.png" isHideTime="1" />
+
+<buff id="28100001" name="落花无情" description="每秒受到施法者15%法攻上限的直接伤害，持续4秒" icon="10400003.png"/> 
+<buff id="28110001" name="情花七毒" description="每秒受到施法者20%法攻上限的直接伤害，持续5秒" icon="10400004.png"/> 
+<buff id="28120001" name="仙柳飞枝" description="每秒受到施法者5%法攻上限的直接伤害，持续3秒" icon="10400005.png"/> 
+<buff id="28130001" name="天雷破" description="每秒受到施法者3%法攻上限的直接伤害，持续3秒" icon="10300005.png"  buffer="unit/effect/tianleipo_last.swf"/> 
+<buff id="28140001" name="叶舞轮回咒" description="攻击自己的敌人会受到诅咒，在一定时间内每两秒受到一次伤害，持续12秒" icon="10400010.png" buffer="unit/effect/lunhuizhou_last1.swf"/> 
+<buff id="27900001" name="叶舞轮回咒反伤" description="16秒内每两秒受到一次伤害，效果可叠加" icon="10400010.png"  buffer="unit/effect/lunhuizhou_last2.swf" /> 
+<buff id="23010031" name="叶舞轮回咒" description="下三次攻击伤害将提高50%" icon="10400010.png" /> 
+<buff id="21610001" name="枯木逢春" description="每秒回复一定血量，持续6秒" icon="10400009.png" buffer="unit/effect/kumufengchun_last.swf"/> 
+<buff id="26000000" name="毒" description="中毒状态，防御力与攻击力下降35%，持续5秒" icon="dugong.png"/> 
+<buff id="26100000" name="火" description="燃烧状态，每秒损失最大血量的5%（对BOSS只能产生0.5%的效果），持续8秒" icon="huogong.png"/> 
+<buff id="26200000" name="雷" description="雷击状态，眩晕持续3秒" icon="leigong.png"/> 
+<buff id="26300000" name="冰" description="冰冻状态，降低50%移动速度与所承受伤害增加70%，持续5秒" icon="binggong.png"/>
+
+<buff id="22050011" name="祝福状态" description="攻击力提升5%" icon="geng_jin.png" isHideTime="1" /> 
+<buff id="22050012" name="祝福状态" description="攻击力提升10%" icon="geng_jin.png" isHideTime="1" /> 
+<buff id="22050013" name="祝福状态" description="攻击力提升15%" icon="geng_jin.png" isHideTime="1" /> 
+<buff id="22130011" name="削弱状态" description="防御力降低5%" icon="xu_ruo.png" isHideTime="1" /> 
+<buff id="22130012" name="削弱状态" description="防御力降低10%" icon="xu_ruo.png" isHideTime="1" /> 
+<buff id="22130013" name="削弱状态" description="防御力降低15%" icon="xu_ruo.png" isHideTime="1" />
+
+<buff id="50010011" name="buff" description="攻击力提升5%" icon="geng_jin.png" isHideTime="1" /> 
+<buff id="50010012" name="buff" description="攻击力提升10%" icon="geng_jin.png" isHideTime="1"/> 
+<buff id="50010013" name="buff" description="攻击力提升15%" icon="geng_jin.png" isHideTime="1" /> 
+<buff id="50020011" name="buff" description="防御力降低5%" icon="xu_ruo.png" isHideTime="1" /> 
+<buff id="50020012" name="buff" description="防御力降低10%" icon="xu_ruo.png" isHideTime="1"/> 
+<buff id="50020013" name="buff" description="防御力降低15%" icon="xu_ruo.png" isHideTime="1" />
+
+<buff id="10000001" name="初级经验符" description="打怪打坐经验增加10%" icon="jing_yan_fu1.png"   /> 
+<buff id="10000002" name="中级经验符" description="打怪打坐经验增加30%" icon="jing_yan_fu3.png" /> 
+<buff id="10000003" name="高级经验符" description="打怪打坐经验增加60%" icon="jing_yan_fu2.png" />
+<buff id="10000004" name="顶级经验符" description="打怪打坐经验增加100%" icon="dingjijingyanfu.png"/>
+
+<buff id="10030001" name="好友亲密度加成" description="打怪经验增加1%" icon="f_buff.png" isHideTime="1" /> 
+<buff id="10030002" name="好友亲密度加成" description="打怪经验增加2%" icon="f_buff.png" isHideTime="1" /> 
+<buff id="10030003" name="好友亲密度加成" description="打怪经验增加3%" icon="f_buff.png" isHideTime="1" />
+<buff id="10030004" name="好友亲密度加成" description="打怪经验增加4%" icon="f_buff.png" isHideTime="1" /> 
+<buff id="10030005" name="好友亲密度加成" description="打怪经验增加5%" icon="f_buff.png" isHideTime="1" />
+
+<buff id="10110011" name="离线经验领取" description="每5秒获得一次经验，持续1小时" icon="lixian.png"/>
+
+<buff id="28400000" name="红名死亡惩罚" description="所有属性降低20%，持续5分钟" icon="zhang_yan.png"/>
+<buff id="28500000" name="黄钻之力" description="属性未定" icon="yellow_buff.png"/>
+<buff id="28510000" name="蓝钻之力" description="属性未定" icon="lanzuan.png"/>
+<buff id="28520000" name="达人之力" description="属性未定" icon="daren.png"/>
+<buff id="28570000" name="会员之力" description="属性未定" icon="huiyuan.png"/>
+  <!--back_buff.png-->
+<buff id="28580000" name="回归神力" description="属性未定" icon="huigui_buff.png"/>
+<buff id="28580001" name="回归神力" description="属性未定" icon="huigui_buff.png"/>
+<buff id="26920000" name="女娲守护" description="处于女娲保护状态，不会受到玩家的攻击，切换PK模式后马上消失，状态持续3小时。" icon="pre_buff.png"/>
+
+<buff id="27800099" name="无敌" 	description="无敌" icon="wu_di.png" buffer="unit/effect/quan.swf"/>
+<buff id="22600099" name="火柱" 	description="火柱" icon="1234.png" buffer="unit/effect/huozhu.swf"/>
+<buff id="23600090" name="防御加强" description="防御加强" icon="fang_yu.png" buffer="unit/effect/hongsejing.swf"/>
+<buff id="23600091" name="防御加强" description="防御加强" icon="fang_yu.png" buffer="unit/effect/lansejing.swf"/>
+<buff id="23600092" name="防御加强" description="防御加强" icon="fang_yu.png" buffer="unit/effect/huangsejing.swf"/>
+<buff id="23600093" name="防御加强" description="防御加强" icon="fang_yu.png" buffer="unit/effect/lvsejing.swf"/>
+<buff id="22600094" name="防御加强" description="防御加强" icon="fang_yu.png" buffer="unit/effect/zisejing.swf"/>
+
+<buff id="22000099" name="增加攻击力" description="攻击增加2100" icon="gong_ji.png"/> 
+<buff id="22200099" name="增加防御力" description="防御增加2000" icon="fang_yu.png"/>
+<buff id="25530099" name="定身" description="定身9秒" icon="fang_yu.png"/>
+<buff id="25300099" name="定身" description="定身9秒" icon="fang_yu.png"/>
+<buff id="40800099" name="" description="" buffer="unit/effect/guaiwubuff.swf"/>
+
+<buff id="50030011" name="buff" description="攻击力提升5%" icon="geng_jin.png"/> 
+<buff id="50030012" name="buff" description="攻击力提升5%" icon="geng_jin.png"/> 
+<buff id="23600051" name="燃烧" description="增加伤害抗性" icon="16000019.png"  buffer="unit/effect/guaiwu_zhuoshao.swf" /> 
+
+<buff id="21200096" name="BOSS光环" description="拥有此光环的怪物比普通怪物强力" icon="boss_lan.png"  buffer="unit/effect/boss_lan.swf" /> 
+<buff id="21200097" name="BOSS光环" description="拥有此光环的怪物比普通怪物强力" icon="boss_zi.png"  buffer="unit/effect/boss_zi.swf" /> 
+<buff id="21200098" name="BOSS光环" description="拥有此光环的怪物比普通怪物强力" icon="boss_cheng.png"  buffer="unit/effect/boss_cheng.swf" /> 
+<buff id="21200099" name="BOSS光环" description="拥有此光环的怪物比普通怪物强力" icon="boss_jin.png"  buffer="unit/effect/boss_jin.swf" /> 
+
+<buff id="29010011" name="初级定魂符" description="跨服区域中，被怪物击杀后不再掉落战魂" icon="dinghunfu1.png"/>
+<buff id="29020011" name="中级定魂符" description="跨服区域中，采集战魂的时间缩短2秒" icon="dinghunfu2.png"/>
+<buff id="29030011" name="高级定魂符" description="1）杀戮值=0：当在跨服区域中死亡时，将极大地降低自身战魂掉落的概率。\n2）杀戮值＞0：当在跨服区域中死亡时，可忽略50%杀戮值所带来的负面效果。" icon="dinghunfu3.png"/>
+<buff id="29030012" name="顶级定魂符" description="1）杀戮值=0：当在跨服区域中死亡时，将极大地降低自身战魂掉落的概率，且降低吸收战魂时受到的伤害25%。\n2）杀戮值＞0：当在跨服区域中死亡时，可忽略100%杀戮值所带来的负面效果。" icon="dinghunfu4.png"/>
+
+<buff id="28540011" name="杀戮" description="空" icon="shalu.png"/>
+<buff id="28550011" name="回阳灵水" description="跨服区域复活点复活时，复活血量可额外提高30%（只对跨服生效）" icon="chongsheng.png"/>
+<buff id="28560011" name="诅咒" description="空" icon="dingjijingyanfu.png"/>
+
+
+<buff id="50060011" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060012" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060013" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060014" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060015" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060016" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060017" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060018" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060019" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+<buff id="50060020" name="防御水晶" description="嘲讽身边怪物并造成反弹伤害" icon="1234.png"/> 
+
+<buff id="50070011" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070012" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070013" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070014" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070015" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070016" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070017" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070018" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070019" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+<buff id="50070020" name="辅助水晶" description="速度减低" icon="1234.png"/> 
+
+<buff id="50080011" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080012" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080013" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080014" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080015" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080016" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080017" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080018" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080019" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+<buff id="50080020" name="辅助水晶" description="血量恢复增加" icon="1234.png"/> 
+
+<buff id="50100011" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100012" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100013" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100014" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100015" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100016" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100017" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100018" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100019" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+<buff id="50100020" name="辅助水晶" description="伤害加深" icon="1234.png"/> 
+
+<buff id="50110011" name="红水晶之力" description="攻击力提升720点" icon="hongshuijing.png"/> 
+<buff id="50110012" name="红水晶之力" description="攻击力提升1440点" icon="hongshuijing.png"/> 
+<buff id="50110013" name="红水晶之力" description="攻击力提升2160点" icon="hongshuijing.png"/> 
+<buff id="50110014" name="红水晶之力" description="攻击力提升2880点" icon="hongshuijing.png"/> 
+<buff id="50110015" name="红水晶之力" description="攻击力提升3600点" icon="hongshuijing.png"/> 
+<buff id="50110016" name="红水晶之力" description="攻击力提升4320点" icon="hongshuijing.png"/> 
+<buff id="50110017" name="红水晶之力" description="攻击力提升5040点" icon="hongshuijing.png"/> 
+<buff id="50110018" name="红水晶之力" description="攻击力提升5760点" icon="hongshuijing.png"/> 
+<buff id="50110019" name="红水晶之力" description="攻击力提升6480点" icon="hongshuijing.png"/> 
+<buff id="50110020" name="红水晶之力" description="攻击力提升7200点" icon="hongshuijing.png"/> 
+
+<buff id="50120011" name="蓝水晶之力" description="每秒回复240点生命值" icon="lanshuijing.png"/> 
+<buff id="50120012" name="蓝水晶之力" description="每秒回复480点生命值" icon="lanshuijing.png"/> 
+<buff id="50120013" name="蓝水晶之力" description="每秒回复720点生命值" icon="lanshuijing.png"/> 
+<buff id="50120014" name="蓝水晶之力" description="每秒回复960点生命值" icon="lanshuijing.png"/> 
+<buff id="50120015" name="蓝水晶之力" description="每秒回复1200点生命值" icon="lanshuijing.png"/> 
+<buff id="50120016" name="蓝水晶之力" description="每秒回复1440点生命值" icon="lanshuijing.png"/> 
+<buff id="50120017" name="蓝水晶之力" description="每秒回复1680点生命值" icon="lanshuijing.png"/> 
+<buff id="50120018" name="蓝水晶之力" description="每秒回复1920点生命值" icon="lanshuijing.png"/> 
+<buff id="50120019" name="蓝水晶之力" description="每秒回复2160点生命值" icon="lanshuijing.png"/> 
+<buff id="50120020" name="蓝水晶之力" description="每秒回复2400点生命值" icon="lanshuijing.png"/> 
+
+<buff id="50130011" name="黄水晶之力" description="物防/法防提高480点" icon="huangshuijing.png"/> 
+<buff id="50130012" name="黄水晶之力" description="物防/法防提高960点" icon="huangshuijing.png"/> 
+<buff id="50130013" name="黄水晶之力" description="物防/法防提高1440点" icon="huangshuijing.png"/> 
+<buff id="50130014" name="黄水晶之力" description="物防/法防提高1920点" icon="huangshuijing.png"/> 
+<buff id="50130015" name="黄水晶之力" description="物防/法防提高2400点" icon="huangshuijing.png"/> 
+<buff id="50130016" name="黄水晶之力" description="物防/法防提高2880点" icon="huangshuijing.png"/> 
+<buff id="50130017" name="黄水晶之力" description="物防/法防提高3360点" icon="huangshuijing.png"/> 
+<buff id="50130018" name="黄水晶之力" description="物防/法防提高3840点" icon="huangshuijing.png"/> 
+<buff id="50130019" name="黄水晶之力" description="物防/法防提高4320点" icon="huangshuijing.png"/> 
+<buff id="50130020" name="黄水晶之力" description="物防/法防提高4800点" icon="huangshuijing.png"/> 
+
+<buff id="50140011" name="魔王之力(攻击)" description="攻击伤害增加30%，持续75秒" icon="geng_jin.png"/> 
+<buff id="50150011" name="魔王之力(防御)" description="受到伤害减少30%，持续75秒" icon="16000004.png"/> 
+<buff id="50160011" name="魔王之力(回血)" description="每秒回血3%，持续75秒" icon="fu_shi.png"/> 
+<buff id="50170011" name="魔王之力(暴击)" description="暴击值增加3000，持续75秒" icon="ran_shao.png"/> 
+<buff id="50170012" name="玉墨之力(暴击)" description="暴击值增加8000，持续20秒" icon="ran_shao.png"/> 
+<buff id="50180011" name="魔王之力(闪避)" description="闪避值增加3000，持续75秒" icon="jian_su.png"/> 
+<buff id="50190011" name="紫微之魂" description="每秒回复1%血量（拥有者将无法使用坐骑）" icon="fu_shi.png"/> 
+
+<buff id="50090011" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090012" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090013" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090014" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090015" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090016" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090017" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090018" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090019" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+<buff id="50090020" name="无敌水晶" description="无敌" icon="wudishuijing.png"/> 
+
+
+<buff id="60010011" name="南瓜骑士" description="生命值+3000" icon="wansheng.png"/> 
+
+<buff id="29050011" name="雪绒花" description="经验加成1.1倍\n攻击+200\n生命值+3000" icon="xueronghua.png" buffer="unit/effect/xueronghua.swf"/> 
+<buff id="29060012" name="雪绒花" description="经验加成1.1倍\n攻击+200\n生命值+3000" icon="xueronghua.png" isHideTime="1"/> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<buff id="90010011" name="离异状态" description="离异7天后可再次结缘，可通过飞燕仙子清除" icon="kan_po.png"/> 
+</buffs>
+

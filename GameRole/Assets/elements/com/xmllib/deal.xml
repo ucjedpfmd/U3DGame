@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+NPC 兑换物品功能配置
+show_type:显示类型 1显示 0不显示
+gold:元宝
+bind_gold:仙币
+silver:绑定银子
+bind_silver:不绑定银子
+exp:奖励人物经验 
+family_money:宗族资金
+family_contribution:宗族贡献度 
+family_active_points:宗族繁荣度
+
+兑换面板下方道具信息显示：
+refgoodsid="typeid:道具名称:1（2）"
+没有typeid的情况：1代表采集积分，2代表宗族贡献度，3代表战功
+第三个参数，1代表向背包请求信息，2代表向服务端请求信息（用于没有ID的东西如战功）
+
+requestGoodTip=typeid:isbind:color:quality(有多个则以|分隔)
+-->
+<npc_deal>
+    <deal id="1" name="【除恶令】兑换" seq="1" show_type="1" refgoodsid="11100001:【除恶令】:1" requestGoodTip="">
+        <deal_item id = "10001" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="" family_money ="" family_contribution="" family_active_points="" dealType="1" limitNum="0">
+            <description><![CDATA[<font color="#F6F5CD">2个【除恶令】，兑换1个【换车令】</font>]]></description>
+            <need_items id="11100001" type="1" number="2" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "10002" seq="2" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="" family_money ="" family_contribution="" family_active_points="" dealType="1" limitNum="0">
+            <description><![CDATA[<font color="#F6F5CD">5个【除恶令】，兑换1瓶【护心丸】</font>]]></description>
+            <need_items id="11100001" type="1" number="5" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "10003" seq="3" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="" family_money ="" family_contribution="" family_active_points="" dealType="1" limitNum="0">
+            <description><![CDATA[<font color="#F6F5CD">5个【除恶令】，兑换1瓶【九花玉露】</font>]]></description>
+            <need_items id="11100001" type="1" number="5" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "10004" seq="4" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="" family_money ="" family_contribution="" family_active_points="" dealType="1" limitNum="0">
+            <description><![CDATA[<font color="#F6F5CD">10个【除恶令】，兑换1颗【一级外攻石】</font>]]></description>
+            <need_items id="11100001" type="1" number="10" bind="1" color="1" quality="1"/>
+            <award_items id="21000001" type="2" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "10005" seq="5" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="" family_money ="" family_contribution="" family_active_points=""  dealType="1" limitNum="0">
+            <description><![CDATA[<font color="#F6F5CD">10个【除恶令】，兑换1颗【一级内攻石】</font>]]></description>
+            <need_items id="11100001" type="1" number="10" bind="1" color="1" quality="1"/>
+            <award_items id="21000001" type="2" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+
+    </deal>
+    
+    <deal id="2" name="【腰牌】兑换" seq="2" show_type="1" refgoodsid="11100001:【厚实腰牌】:1|11100001:【普通腰牌】:1|11100001:【破损腰牌】:1" requestGoodTip="30010101:1:3:1|30010101:1:3:1|30010101:1:3:1|30010101:1:3:1">
+        <deal_item id = "30001" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="5000" family_money ="20" family_contribution="" family_active_points="" dealType="2" limitNum="0">
+            <description><![CDATA[<font color="#F6F5CD">【破损腰牌】，兑换5000人物经验, 20文宗族资金</font>]]></description>
+            <need_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "30002" seq="2" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="12000" family_money ="50" family_contribution="" family_active_points="" dealType="2" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【普通腰牌】，兑换12000人物经验, 50文宗族资金</font>]]></description>
+            <need_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "30003" seq="3" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="30000" family_money ="100" family_contribution="" family_active_points="" dealType="2" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【厚实腰牌】，兑换30000人物经验, 100文宗族资金</font>]]></description>
+            <need_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "30004" seq="4" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="1" >
+            <description><![CDATA[<font color="#F6F5CD">5个【普通腰牌】，兑换一个【枣红马】</font>]]></description>
+            <need_items id="11100001" type="1" number="5" bind="1" color="1" quality="1"/>
+            <award_items id="30010101" type="3" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "30005" seq="5" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">5个【普通腰牌】，兑换一个【惊雷戒指(外攻)】</font>]]></description>
+            <need_items id="11100001" type="1" number="5" bind="1" color="1" quality="1"/>
+            <award_items id="30010101" type="3" number="1" bind="1" color="3" quality="1"/>
+        </deal_item>
+        <deal_item id = "30006" seq="6" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">5个【普通腰牌】，兑换一个【惊雷戒指(内攻)】</font>]]></description>
+            <need_items id="11100001" type="1" number="5" bind="1" color="1" quality="1"/>
+            <award_items id="30010101" type="3" number="1" bind="1" color="3" quality="1"/>
+        </deal_item>
+        <deal_item id = "30007" seq="7" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">10个【普通腰牌】，兑换一个【惊雷项链(外攻)】</font>]]></description>
+            <need_items id="11100001" type="1" number="10" bind="1" color="1" quality="1"/>
+            <award_items id="30010101" type="3" number="1" bind="1" color="3" quality="1"/>
+        </deal_item>
+        <deal_item id = "30008" seq="8" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">10个【普通腰牌】，兑换一个【惊雷项链(内攻)】</font>]]></description>
+            <need_items id="11100001" type="1" number="10" bind="1" color="1" quality="1"/>
+            <award_items id="30010101" type="3" number="1" bind="1" color="3" quality="1"/>
+        </deal_item>
+        <deal_item id = "30009" seq="9" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">5个【厚实腰牌】，兑换一个【50级装备符】</font>]]></description>
+            <need_items id="11100001" type="1" number="5" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="3" quality="1"/>
+        </deal_item>
+    </deal>
+
+   <deal id="3" name="宗族贡献度兑换" show_type="1" refgoodsid="2:宗族贡献度:2" requestGoodTip="">
+        <deal_item id = "40001" dealType="3" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="5" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+	    <deal_item id = "40002" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="40" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="4" quality="1" />
+        </deal_item>
+		<deal_item id = "40003" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="200" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="4" quality="1" />
+        </deal_item>
+		<deal_item id = "40004" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="1000" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="5" quality="1" />
+        </deal_item>
+		<deal_item id = "40005" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="5000" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="5" quality="1" />
+        </deal_item>
+		<deal_item id = "40006" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="40" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="4" quality="1" />
+        </deal_item>
+		<deal_item id = "40007" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="200" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="4" quality="1" />
+        </deal_item>
+		<deal_item id = "40008" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="1000" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="5" quality="1" />
+        </deal_item>
+		<deal_item id = "40009" dealType="1" limitNum="0">
+            <need_items id="" name="宗族贡献度" number="5000" unit="点" />
+            <award_items id="30010101" type="3" number="1" bind="1" color="5" quality="1" />
+        </deal_item>
+		
+    </deal>
+	
+  
+   <deal id="4" name="采集积分兑换" show_type="1" refgoodsid="1:采集积分:2" requestGoodTip="">
+      <deal_item id = "50001"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="50" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+       <deal_item id = "50002"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="100" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+     <deal_item id = "50003"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="500" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+     <deal_item id = "50004"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="500" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+     <deal_item id = "50005"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="500" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+       <deal_item id = "50006"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="1000" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+     <deal_item id = "50007"  dealType="3" limitNum="0">
+            <need_items id="" name="采集积分" number="1000" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+		
+  </deal>
+  
+     <deal id="5" name="战功兑换" show_type="1" refgoodsid="3:战功:2" requestGoodTip="">
+        <deal_item id = "60001" dealType="3" limitNum="0">
+            <need_items id="" name="战功" number="10" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+        <deal_item id = "60002" dealType="3" limitNum="0">
+            <need_items id="" name="战功" number="15" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+        <deal_item id = "60003" dealType="3" limitNum="0">
+            <need_items id="" name="战功" number="10" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>
+        <deal_item id = "60004" dealType="3" limitNum="0">
+            <need_items id="" name="战功" number="15" unit="点" />
+            <award_items id="11100001" name="" number="1" unit="" />
+        </deal_item>			
+    </deal>
+	
+    <deal id="6" name="【玉佩】兑换" show_type="1" refgoodsid="11100001:【玉佩】:1" requestGoodTip="">
+        <deal_item id = "70001" seq="1" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【玉佩】，兑换60级装备符</font>]]></description>
+            <need_items id="11100001" type="1" number="40" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "70002" seq="2" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【玉佩】，兑换70级装备符</font>]]></description>
+            <need_items id="11100001" type="1" number="80" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "70003" seq="3" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【玉佩】，兑换二锅头</font>]]></description>
+            <need_items id="11100001" type="1" number="35" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="3" quality="1"/>
+        </deal_item>
+        <deal_item id = "70004" seq="4" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【玉佩】，兑换女儿红</font>]]></description>
+            <need_items id="11100001" type="1" number="25" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="2" quality="1"/>
+        </deal_item>
+        <deal_item id = "70005" seq="5" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【玉佩】，兑换80级装备符</font>]]></description>
+            <need_items id="11100001" type="1" number="160" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+        <deal_item id = "70006" seq="6" show_type="1" gold="" bind_gold=""  silver="0" bind_silver="" exp="0" family_money ="0" family_contribution="" family_active_points="" dealType="1" limitNum="0" >
+            <description><![CDATA[<font color="#F6F5CD">【玉佩】，兑换一级品质石</font>]]></description>
+            <need_items id="11100001" type="1" number="160" bind="1" color="1" quality="1"/>
+            <award_items id="11100001" type="1" number="1" bind="1" color="1" quality="1"/>
+        </deal_item>
+    </deal>
+	
+	<special_deal id="1" name="羽毛坐骑卡（永久）" num="1" needLuckyCoin="35" exchid="160001" goodId="11100001"/>
+	<special_deal id="2" name="龙凤时装礼包（男）" num="1" needLuckyCoin="15" exchid="160002" goodId="11100001"/>
+	<special_deal id="3" name="龙凤时装礼包（女）" num="1" needLuckyCoin="15" exchid="160003" goodId="11100001"/>
+	<special_deal id="4" name="悟性保护符" num="1" needLuckyCoin="3" exchid="160004" goodId="11100001"/>
+	<special_deal id="5" name="9朵粉蔷薇×5" num="5" needLuckyCoin="1" exchid="160005" goodId="11100001"/>
+	<special_deal id="6" name="新年副本传送令" num="1" needLuckyCoin="1" exchid="160006" goodId="11100001"/>
+	<special_deal id="7" name="高级洗灵丹×5" num="5" needLuckyCoin="1" exchid="160007" goodId="11100001"/>
+	<special_deal id="8" name="高级提悟符×3" num="3" needLuckyCoin="2" exchid="160008" goodId="11100001"/>
+	<special_deal id="9" name="神技石×5" num="5" needLuckyCoin="1" exchid="160009" goodId="11100001"/>
+	<special_deal id="10" name="幸运仙符×3" num="3" needLuckyCoin="1" exchid="160010" goodId="11100001"/>
+	<special_deal id="11" name="烟花×10" num="10" needLuckyCoin="1" exchid="160011" goodId="11100001"/>
+	<special_deal id="12" name="避水金睛兽换形卡" num="1" needLuckyCoin="2" exchid="160012" goodId="11100001"/>
+
+</npc_deal>

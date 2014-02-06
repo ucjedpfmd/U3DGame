@@ -1,0 +1,23 @@
+<skills>
+<!--附身普通技能在兽神阵的转化率-->
+<skill id="10610035" name="健体" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<!--skill id="10610036" name="聚灵" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/-->
+<skill id="10610037" name="混元" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10610038" name="巨力" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10610039" name="金刚" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10610040" name="铁壁" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10620031" name="精准" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10620032" name="强韧" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10620033" name="狂暴" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<skill id="10620034" name="灵敏" green="10"  blue="20"  purple="30"   orange="50"   gold="100"/>
+<!--附身属性技能在兽神阵的转化率-->
+<skill id="10620023" name="御毒" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620024" name="避火" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620025" name="避雷" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620026" name="御寒" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620027" name="毒云" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620028" name="舞火" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620029" name="奔雷" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+<skill id="10620030" name="冰封" green="2"  blue="4"  purple="6"   orange="10"   gold="20"/>
+
+</skills>

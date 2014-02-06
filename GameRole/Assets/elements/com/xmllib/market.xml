@@ -1,0 +1,83 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<market>
+<types>
+	<type name="武器" id="100">
+		<sub name="刀（狂战）" id="101"/>
+		<sub name="弓（飞羽）" id="102"/>
+		<sub name="扇（舞天）" id="103"/>
+		<sub name="杖（碧落）" id="104"/>		
+	</type>
+	<type name="防具" id="200">
+		<sub name="鞋子" id="201"/>
+		<sub name="头盔" id="202"/>
+		<sub name="护甲" id="203"/>
+		<sub name="腰带" id="206"/>
+		<sub name="护腕" id="205"/>
+		<sub name="护手" id="204"/>
+	</type>
+	<type name="饰品" id="300">
+		<sub name="项链" id="301"/>
+		<sub name="戒指" id="302"/>
+		<sub name="护符" id="303"/>
+	</type>
+	<type name="宠物装备" id="1000">
+		<sub name="装备" id="1001"/>
+		<sub name="碎片" id="1002"/>
+	</type>
+	<type name="装备精练" id="400">
+		<sub name="强化材料" id="401"/>
+		<sub name="附魂材料" id="403"/>
+		<sub name="提品材料" id="402"/>
+		<sub name="镶嵌宝石" id="404"/>
+	</type>
+	<type name="仙宠与坐骑" id="500">
+		<sub name="仙宠" id="501"/>
+		<sub name="坐骑" id="502"/>
+	</type>
+	<type name="铜钱" id="600">
+		<sub name="铜钱" id="602"/>
+	</type>
+	<type name="元神与技能" id="700">
+		<sub name="元神" id="701"/>
+		<sub name="技能" id="702"/>
+	</type>
+	<type name="药品与状态" id="800">
+		<sub name="药品" id="801"/>
+		<sub name="状态" id="802"/>
+	</type>
+	<type name="任务与其它" id="900">
+		<sub name="任务" id="901"/>
+		<sub name="其它" id="902"/>
+	</type>
+</types>
+<levels>
+	<level min="0" max="0" label="全部等级"/>
+	<level min="0" max="29" label="0-29级"/>
+	<level min="30" max="39" label="30-39级"/>
+	<level min="40" max="49" label="40-49级"/>
+	<level min="50" max="59" label="50-59级"/>
+	<level min="60" max="69" label="60-69级"/>
+	<level min="70" max="79" label="70-79级"/>
+	<level min="80" max="1000" label="80级以上"/>
+</levels>
+<colors>
+	<color label="全部颜色" value="0"/>
+	<color label="白色" value="1"/>
+	<color label="绿色" value="2"/>
+	<color label="蓝色" value="3"/>
+	<color label="紫色" value="4"/>
+	<color label="橙色" value="5"/>
+	<color label="金色" value="6"/>
+</colors>
+<parems>
+	<parem label="全部职业" value="0"/>
+	<parem label="狂战" value="1"/>
+	<parem label="飞羽" value="2"/>
+	<parem label="舞天" value="3"/>
+	<parem label="碧落" value="4"/>
+</parems>
+<sorts>
+	<sort label="元宝优先" value="true"/>
+	<sort label="铜钱优先" value="false"/>
+</sorts>
+</market>

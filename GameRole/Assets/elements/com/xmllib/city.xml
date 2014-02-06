@@ -1,0 +1,613 @@
+﻿<!--prince 里设置的id必须要与city里设置的id一致-->
+<City>
+	<!--默认-->
+	<city id="0" name=""/>
+    <!--北京-->
+    <city id="1" name="东城区"/>
+    <city id="1" name="西城区"/>
+    <city id="1" name="崇文区"/>
+    <city id="1" name="宣武区"/>
+    <city id="1" name="朝阳区"/>
+    <city id="1" name="丰台区"/>
+    <city id="1" name="石景山区"/>
+    <city id="1" name="海淀区"/>
+    <city id="1" name="门头沟区"/>
+    <city id="1" name="房山区"/>
+    <city id="1" name="通州区"/>
+    <city id="1" name="顺义区"/>
+    <city id="1" name="昌平区"/>
+    <city id="1" name="大兴区"/>
+    <city id="1" name="怀柔区"/>
+    <city id="1" name="平谷区"/>
+    <city id="1" name="密云县"/>
+    <city id="1" name="延庆县"/>
+
+
+    <!--上海-->
+    <city id="2" name="黄浦区"/>
+    <city id="2" name="卢湾区"/>
+    <city id="2" name="徐汇区"/>
+    <city id="2" name="长宁区"/>
+    <city id="2" name="静安区"/>
+    <city id="2" name="普陀区"/>
+    <city id="2" name="闸北区"/>
+    <city id="2" name="虹口区"/>
+    <city id="2" name="杨浦区"/>
+    <city id="2" name="闵行区"/>
+    <city id="2" name="宝山区"/>
+    <city id="2" name="嘉定区"/>
+    <city id="2" name="浦东新区"/>
+    <city id="2" name="金山区"/>
+    <city id="2" name="松江区"/>
+    <city id="2" name="青浦区"/>
+    <city id="2" name="南汇区"/>
+    <city id="2" name="奉贤区"/>
+    <city id="2" name="崇明县"/>
+
+    <!--天津-->
+    <city id="3" name="和平区"/>
+    <city id="3" name="河东区"/>
+    <city id="3" name="河西区"/>
+    <city id="3" name="南开区"/>
+    <city id="3" name="河北区"/>
+    <city id="3" name="红桥区"/>
+    <city id="3" name="塘沽区"/>
+    <city id="3" name="汉沽区"/>
+    <city id="3" name="大港区"/>
+    <city id="3" name="东丽区"/>
+    <city id="3" name="西青区"/>
+    <city id="3" name="津南区"/>
+    <city id="3" name="北辰区"/>
+    <city id="3" name="武清区"/>
+    <city id="3" name="宝坻区"/>
+    <city id="3" name="宁河县"/>
+    <city id="3" name="静海县"/>
+    <city id="3" name="蓟县"/>
+
+    <!--重庆-->
+
+    <city id="4" name="万州区"/>
+    <city id="4" name="涪陵区"/>
+    <city id="4" name="渝中区"/>
+    <city id="4" name="大渡口区"/>
+    <city id="4" name="江北区"/>
+    <city id="4" name="沙坪坝区"/>
+    <city id="4" name="九龙坡区"/>
+    <city id="4" name="南岸区"/>
+    <city id="4" name="北碚区"/>
+    <city id="4" name="万盛区"/>
+    <city id="4" name="双桥区"/>
+    <city id="4" name="渝北区"/>
+    <city id="4" name="巴南区"/>
+    <city id="4" name="黔江区"/>
+    <city id="4" name="长寿区"/>
+    <city id="4" name="江津区"/>
+    <city id="4" name="合川区"/>
+    <city id="4" name="永川区"/>
+    <city id="4" name="南川区"/>
+    <city id="4" name="綦江县"/>
+    <city id="4" name="潼南县"/>
+    <city id="4" name="铜梁县"/>
+    <city id="4" name="大足县"/>
+    <city id="4" name="荣昌县"/>
+    <city id="4" name="璧山县"/>
+    <city id="4" name="梁平县"/>
+    <city id="4" name="城口县"/>
+    <city id="4" name="丰都县"/>
+    <city id="4" name="垫江县"/>
+    <city id="4" name="武隆县"/>
+    <city id="4" name="忠县"/>
+    <city id="4" name="开县"/>
+    <city id="4" name="云阳县"/>
+    <city id="4" name="奉节县"/>
+    <city id="4" name="巫山县"/>
+    <city id="4" name="巫溪县"/>
+    <city id="4" name="石柱土家族自治县"/>
+    <city id="4" name="秀山土家族苗族自治县"/>
+    <city id="4" name="酉阳土家族苗族自治县"/>
+    <city id="4" name="彭水苗族土家族自治县"/>
+
+
+    <!--黑龙江-->
+
+    <city id="5" name="哈尔滨市"/>
+    <city id="5" name="齐齐哈尔市"/>
+    <city id="5" name="鸡西市"/>
+    <city id="5" name="鹤岗市"/>
+    <city id="5" name="双鸭山市"/>
+    <city id="5" name="大庆市"/>
+    <city id="5" name="伊春市"/>
+    <city id="5" name="佳木斯市"/>
+    <city id="5" name="七台河市"/>
+    <city id="5" name="牡丹江市"/>
+    <city id="5" name="黑河市"/>
+    <city id="5" name="绥化市"/>
+    <city id="5" name="大兴安岭地区"/>
+
+
+    <!--吉林-->
+
+    <city id="6" name="长春市"/>
+    <city id="6" name="吉林市"/>
+    <city id="6" name="四平市"/>
+    <city id="6" name="辽源市"/>
+    <city id="6" name="通化市"/>
+    <city id="6" name="白山市"/>
+    <city id="6" name="松原市"/>
+    <city id="6" name="白城市"/>
+    <city id="6" name="延边朝鲜族自治州"/>
+
+
+    <!--辽宁-->
+
+    <city id="7" name="沈阳市"/>
+    <city id="7" name="大连市"/>
+    <city id="7" name="鞍山市"/>
+    <city id="7" name="抚顺市"/>
+    <city id="7" name="本溪市"/>
+    <city id="7" name="丹东市"/>
+    <city id="7" name="锦州市"/>
+    <city id="7" name="营口市"/>
+    <city id="7" name="阜新市"/>
+    <city id="7" name="辽阳市"/>
+    <city id="7" name="盘锦市"/>
+    <city id="7" name="铁岭市"/>
+    <city id="7" name="朝阳市"/>
+    <city id="7" name="葫芦岛市"/>
+
+
+    <!--山东-->
+
+    <city id="8" name="济南市"/>
+    <city id="8" name="青岛市"/>
+    <city id="8" name="淄博市"/>
+    <city id="8" name="枣庄市"/>
+    <city id="8" name="东营市"/>
+    <city id="8" name="烟台市"/>
+    <city id="8" name="潍坊市"/>
+    <city id="8" name="济宁市"/>
+    <city id="8" name="泰安市"/>
+    <city id="8" name="威海市"/>
+    <city id="8" name="日照市"/>
+    <city id="8" name="莱芜市"/>
+    <city id="8" name="临沂市"/>
+    <city id="8" name="德州市"/>
+    <city id="8" name="聊城市"/>
+    <city id="8" name="滨州市"/>
+    <city id="8" name="菏泽市"/>
+
+
+    <!--山西-->
+
+    <city id="9" name="太原市"/>
+    <city id="9" name="大同市"/>
+    <city id="9" name="阳泉市"/>
+    <city id="9" name="长治市"/>
+    <city id="9" name="晋城市"/>
+    <city id="9" name="朔州市"/>
+    <city id="9" name="晋中市"/>
+    <city id="9" name="运城市"/>
+    <city id="9" name="忻州市"/>
+    <city id="9" name="临汾市"/>
+    <city id="9" name="吕梁市"/>
+
+
+    <!--陕西-->
+
+    <city id="10" name="西安市"/>
+    <city id="10" name="铜川市"/>
+    <city id="10" name="宝鸡市"/>
+    <city id="10" name="咸阳市"/>
+    <city id="10" name="渭南市"/>
+    <city id="10" name="延安市"/>
+    <city id="10" name="汉中市"/>
+    <city id="10" name="榆林市"/>
+    <city id="10" name="安康市"/>
+    <city id="10" name="商洛市"/>
+
+
+    <!--河北-->
+
+    <city id="11" name="石家庄市"/>
+    <city id="11" name="唐山市"/>
+    <city id="11" name="秦皇岛市"/>
+    <city id="11" name="邯郸市"/>
+    <city id="11" name="邢台市"/>
+    <city id="11" name="保定市"/>
+    <city id="11" name="张家口市"/>
+    <city id="11" name="承德市"/>
+    <city id="11" name="沧州市"/>
+    <city id="11" name="廊坊市"/>
+    <city id="11" name="衡水市"/>
+
+
+    <!--河南-->
+
+    <city id="12" name="郑州市"/>
+    <city id="12" name="开封市"/>
+    <city id="12" name="洛阳市"/>
+    <city id="12" name="平顶山市"/>
+    <city id="12" name="安阳市"/>
+    <city id="12" name="鹤壁市"/>
+    <city id="12" name="新乡市"/>
+    <city id="12" name="焦作市"/>
+    <city id="12" name="济源市"/>
+    <city id="12" name="濮阳市"/>
+    <city id="12" name="许昌市"/>
+    <city id="12" name="漯河市"/>
+    <city id="12" name="三门峡市"/>
+    <city id="12" name="南阳市"/>
+    <city id="12" name="商丘市"/>
+    <city id="12" name="信阳市"/>
+    <city id="12" name="周口市"/>
+    <city id="12" name="驻马店市"/>
+
+
+    <!--湖北-->
+
+    <city id="13" name="武汉市"/>
+    <city id="13" name="黄石市"/>
+    <city id="13" name="十堰市"/>
+    <city id="13" name="宜昌市"/>
+    <city id="13" name="襄樊市"/>
+    <city id="13" name="鄂州市"/>
+    <city id="13" name="荆门市"/>
+    <city id="13" name="孝感市"/>
+    <city id="13" name="荆州市"/>
+    <city id="13" name="黄冈市"/>
+    <city id="13" name="咸宁市"/>
+    <city id="13" name="随州市"/>
+    <city id="13" name="恩施土家族苗族自治州"/>
+    <city id="13" name="仙桃市"/>
+    <city id="13" name="潜江市"/>
+    <city id="13" name="天门市"/>
+    <city id="13" name="神农架林区"/>
+
+
+    <!--湖南-->
+
+    <city id="14" name="长沙市"/>
+    <city id="14" name="株洲市"/>
+    <city id="14" name="湘潭市"/>
+    <city id="14" name="衡阳市"/>
+    <city id="14" name="邵阳市"/>
+    <city id="14" name="岳阳市"/>
+    <city id="14" name="常德市"/>
+    <city id="14" name="张家界市"/>
+    <city id="14" name="益阳市"/>
+    <city id="14" name="郴州市"/>
+    <city id="14" name="永州市"/>
+    <city id="14" name="怀化市"/>
+    <city id="14" name="娄底市"/>
+    <city id="14" name="湘西土家族苗族自治州"/>
+
+
+    <!--海南-->
+
+    <city id="15" name="海口市"/>
+    <city id="15" name="三亚市"/>
+    <city id="15" name="五指山市"/>
+    <city id="15" name="琼海市"/>
+    <city id="15" name="儋州市"/>
+    <city id="15" name="文昌市"/>
+    <city id="15" name="万宁市"/>
+    <city id="15" name="东方市"/>
+    <city id="15" name="定安县"/>
+    <city id="15" name="屯昌县"/>
+    <city id="15" name="澄迈县"/>
+    <city id="15" name="临高县"/>
+    <city id="15" name="白沙黎族自治县"/>
+    <city id="15" name="昌江黎族自治县"/>
+    <city id="15" name="乐东黎族自治县"/>
+    <city id="15" name="陵水黎族自治县"/>
+    <city id="15" name="保亭黎族苗族自治县"/>
+    <city id="15" name="琼中黎族苗族自治县"/>
+
+
+    <!--江苏-->
+
+    <city id="16" name="南京市"/>
+    <city id="16" name="无锡市"/>
+    <city id="16" name="徐州市"/>
+    <city id="16" name="常州市"/>
+    <city id="16" name="苏州市"/>
+    <city id="16" name="南通市"/>
+    <city id="16" name="连云港市"/>
+    <city id="16" name="淮安市"/>
+    <city id="16" name="盐城市"/>
+    <city id="16" name="扬州市"/>
+    <city id="16" name="镇江市"/>
+    <city id="16" name="泰州市"/>
+    <city id="16" name="宿迁市"/>
+
+
+    <!--江西-->
+
+    <city id="17" name="南昌市"/>
+    <city id="17" name="景德镇市"/>
+    <city id="17" name="萍乡市"/>
+    <city id="17" name="九江市"/>
+    <city id="17" name="新余市"/>
+    <city id="17" name="鹰潭市"/>
+    <city id="17" name="赣州市"/>
+    <city id="17" name="吉安市"/>
+    <city id="17" name="宜春市"/>
+    <city id="17" name="抚州市"/>
+    <city id="17" name="上饶市"/>
+
+
+    <!--广东-->
+
+    <city id="18" name="广州市"/>
+    <city id="18" name="韶关市"/>
+    <city id="18" name="深圳市"/>
+    <city id="18" name="珠海市"/>
+    <city id="18" name="汕头市"/>
+    <city id="18" name="佛山市"/>
+    <city id="18" name="江门市"/>
+    <city id="18" name="湛江市"/>
+    <city id="18" name="茂名市"/>
+    <city id="18" name="肇庆市"/>
+    <city id="18" name="惠州市"/>
+    <city id="18" name="梅州市"/>
+    <city id="18" name="汕尾市"/>
+    <city id="18" name="河源市"/>
+    <city id="18" name="阳江市"/>
+    <city id="18" name="清远市"/>
+    <city id="18" name="东莞市"/>
+    <city id="18" name="中山市"/>
+    <city id="18" name="潮州市"/>
+    <city id="18" name="揭阳市"/>
+    <city id="18" name="云浮市"/>
+
+
+    <!--广西-->
+
+    <city id="19" name="南宁市"/>
+    <city id="19" name="柳州市"/>
+    <city id="19" name="桂林市"/>
+    <city id="19" name="梧州市"/>
+    <city id="19" name="北海市"/>
+    <city id="19" name="防城港市"/>
+    <city id="19" name="钦州市"/>
+    <city id="19" name="贵港市"/>
+    <city id="19" name="玉林市"/>
+    <city id="19" name="百色市"/>
+    <city id="19" name="贺州市"/>
+    <city id="19" name="河池市"/>
+    <city id="19" name="来宾市"/>
+    <city id="19" name="崇左市"/>
+
+
+    <!--云南-->
+
+    <city id="20" name="昆明市"/>
+    <city id="20" name="曲靖市"/>
+    <city id="20" name="玉溪市"/>
+    <city id="20" name="保山市"/>
+    <city id="20" name="昭通市"/>
+    <city id="20" name="丽江市"/>
+    <city id="20" name="思茅市"/>
+    <city id="20" name="临沧市"/>
+    <city id="20" name="楚雄彝族自治州"/>
+    <city id="20" name="红河哈尼族彝族自治州"/>
+    <city id="20" name="文山壮族苗族自治州"/>
+    <city id="20" name="西双版纳傣族自治州"/>
+    <city id="20" name="大理白族自治州"/>
+    <city id="20" name="德宏傣族景颇族自治州"/>
+    <city id="20" name="怒江傈僳族自治州"/>
+    <city id="20" name="迪庆藏族自治州"/>
+
+
+    <!--贵州-->
+
+    <city id="21" name="贵阳市"/>
+    <city id="21" name="六盘水市"/>
+    <city id="21" name="遵义市"/>
+    <city id="21" name="安顺市"/>
+    <city id="21" name="铜仁地区"/>
+    <city id="21" name="黔西南布依族苗族自治州"/>
+    <city id="21" name="毕节地区"/>
+    <city id="21" name="黔东南苗族侗族自治州"/>
+    <city id="21" name="黔南布依族苗族自治州"/>
+
+
+    <!--四川-->
+
+    <city id="22" name="成都市"/>
+    <city id="22" name="自贡市"/>
+    <city id="22" name="攀枝花市"/>
+    <city id="22" name="泸州市"/>
+    <city id="22" name="德阳市"/>
+    <city id="22" name="绵阳市"/>
+    <city id="22" name="广元市"/>
+    <city id="22" name="遂宁市"/>
+    <city id="22" name="内江市"/>
+    <city id="22" name="乐山市"/>
+    <city id="22" name="南充市"/>
+    <city id="22" name="眉山市"/>
+    <city id="22" name="宜宾市"/>
+    <city id="22" name="广安市"/>
+    <city id="22" name="达州市"/>
+    <city id="22" name="雅安市"/>
+    <city id="22" name="巴中市"/>
+    <city id="22" name="资阳市"/>
+    <city id="22" name="阿坝藏族羌族自治州"/>
+    <city id="22" name="甘孜藏族自治州"/>
+    <city id="22" name="凉山彝族自治州"/>
+
+
+    <!--内蒙古-->
+
+    <city id="23" name="呼和浩特市"/>
+    <city id="23" name="包头市"/>
+    <city id="23" name="乌海市"/>
+    <city id="23" name="赤峰市"/>
+    <city id="23" name="通辽市"/>
+    <city id="23" name="鄂尔多斯市"/>
+    <city id="23" name="呼伦贝尔市"/>
+    <city id="23" name="巴彦淖尔市"/>
+    <city id="23" name="乌兰察布市"/>
+    <city id="23" name="兴安盟"/>
+    <city id="23" name="锡林郭勒盟"/>
+    <city id="23" name="阿拉善盟"/>
+
+
+    <!--宁夏-->
+
+    <city id="24" name="银川市"/>
+    <city id="24" name="石嘴山市"/>
+    <city id="24" name="吴忠市"/>
+    <city id="24" name="固原市"/>
+    <city id="24" name="中卫市"/>
+
+
+    <!--甘肃-->
+
+    <city id="25" name="兰州市"/>
+    <city id="25" name="嘉峪关市"/>
+    <city id="25" name="金昌市"/>
+    <city id="25" name="白银市"/>
+    <city id="25" name="天水市"/>
+    <city id="25" name="武威市"/>
+    <city id="25" name="张掖市"/>
+    <city id="25" name="平凉市"/>
+    <city id="25" name="酒泉市"/>
+    <city id="25" name="庆阳市"/>
+    <city id="25" name="定西市"/>
+    <city id="25" name="陇南市"/>
+    <city id="25" name="临夏回族自治州"/>
+    <city id="25" name="甘南藏族自治州"/>
+
+
+    <!--青海-->
+
+    <city id="26" name="西宁市"/>
+    <city id="26" name="海东地区"/>
+    <city id="26" name="海北藏族自治州"/>
+    <city id="26" name="黄南藏族自治州"/>
+    <city id="26" name="海南藏族自治州"/>
+    <city id="26" name="果洛藏族自治州"/>
+    <city id="26" name="玉树藏族自治州"/>
+    <city id="26" name="海西蒙古族藏族自治州"/>
+
+
+    <!--西藏-->
+
+    <city id="27" name="拉萨市"/>
+    <city id="27" name="昌都地区"/>
+    <city id="27" name="山南地区"/>
+    <city id="27" name="日喀则地区"/>
+    <city id="27" name="那曲地区"/>
+    <city id="27" name="阿里地区"/>
+    <city id="27" name="林芝地区"/>
+
+
+    <!--新疆-->
+
+    <city id="28" name="乌鲁木齐市"/>
+    <city id="28" name="克拉玛依市"/>
+    <city id="28" name="吐鲁番地区"/>
+    <city id="28" name="哈密地区"/>
+    <city id="28" name="昌吉回族自治州"/>
+    <city id="28" name="博尔塔拉蒙古自治州"/>
+    <city id="28" name="巴音郭楞蒙古自治州"/>
+    <city id="28" name="阿克苏地区"/>
+    <city id="28" name="克孜勒苏柯尔克孜自治州"/>
+    <city id="28" name="喀什地区"/>
+    <city id="28" name="和田地区"/>
+    <city id="28" name="伊犁哈萨克自治州"/>
+    <city id="28" name="塔城地区"/>
+    <city id="28" name="阿勒泰地区"/>
+    <city id="28" name="石河子市"/>
+    <city id="28" name="阿拉尔市"/>
+    <city id="28" name="图木舒克市"/>
+    <city id="28" name="五家渠市"/>
+
+
+    <!--安徽-->
+
+    <city id="29" name="合肥市"/>
+    <city id="29" name="芜湖市"/>
+    <city id="29" name="蚌埠市"/>
+    <city id="29" name="淮南市"/>
+    <city id="29" name="马鞍山市"/>
+    <city id="29" name="淮北市"/>
+    <city id="29" name="铜陵市"/>
+    <city id="29" name="安庆市"/>
+    <city id="29" name="黄山市"/>
+    <city id="29" name="滁州市"/>
+    <city id="29" name="阜阳市"/>
+    <city id="29" name="宿州市"/>
+    <city id="29" name="巢湖市"/>
+    <city id="29" name="六安市"/>
+    <city id="29" name="亳州市"/>
+    <city id="29" name="池州市"/>
+    <city id="29" name="宣城市"/>
+
+
+    <!--浙江-->
+
+    <city id="30" name="杭州市"/>
+    <city id="30" name="宁波市"/>
+    <city id="30" name="温州市"/>
+    <city id="30" name="嘉兴市"/>
+    <city id="30" name="湖州市"/>
+    <city id="30" name="绍兴市"/>
+    <city id="30" name="金华市"/>
+    <city id="30" name="衢州市"/>
+    <city id="30" name="舟山市"/>
+    <city id="30" name="台州市"/>
+    <city id="30" name="丽水市"/>
+
+
+    <!--福建-->
+
+    <city id="31" name="福州市"/>
+    <city id="31" name="厦门市"/>
+    <city id="31" name="莆田市"/>
+    <city id="31" name="三明市"/>
+    <city id="31" name="泉州市"/>
+    <city id="31" name="漳州市"/>
+    <city id="31" name="南平市"/>
+    <city id="31" name="龙岩市"/>
+    <city id="31" name="宁德市"/>
+
+
+    <!--台湾-->
+
+    <city id="32" name="台北市"/>
+    <city id="32" name="高雄市"/>
+    <city id="32" name="基隆市"/>
+    <city id="32" name="台中市"/>
+    <city id="32" name="台南市"/>
+    <city id="32" name="新竹市"/>
+    <city id="32" name="嘉义市"/>
+
+
+    <!--香港-->
+
+    <city id="33" name="中西区"/>
+    <city id="33" name="湾仔区"/>
+    <city id="33" name="东区"/>
+    <city id="33" name="南区"/>
+    <city id="33" name="油尖旺区"/>
+    <city id="33" name="深水埗区"/>
+    <city id="33" name="九龙城区"/>
+    <city id="33" name="黄大仙区"/>
+    <city id="33" name="观塘区"/>
+    <city id="33" name="荃湾区"/>
+    <city id="33" name="葵青区"/>
+    <city id="33" name="沙田区"/>
+    <city id="33" name="西贡区"/>
+    <city id="33" name="大埔区"/>
+    <city id="33" name="北区"/>
+    <city id="33" name="元朗区"/>
+    <city id="33" name="屯门区"/>
+    <city id="33" name="离岛区"/>
+
+
+    <!--澳门-->
+    <city id="34" name="澳门"/>
+
+</City>

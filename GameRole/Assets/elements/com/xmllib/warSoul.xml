@@ -1,0 +1,31 @@
+<warSouls>
+	<suits>
+
+<!--deComposeID：分解获得什么道具ID   composeID：凝聚精魄的前缀（套装）ID，如201   -->
+		<suit id="199" name="全部战魂" color="1" maxNum="70" attr="" isClose=""/> 
+		<suit id="101" deComposeID="11901001,2" composeID="101" name="后羿战魂" color="2" maxNum="10" itemID="51010099" attr="" isClose="" eff="最多可增加装备属性&lt;font color='#86ff05'&gt;10%&lt;/font&gt;/个" getway="1、混沌之塔任意普通怪死亡后概率掉落。&#x0A;2、1-5层的炽焰洞、冰龙洞、坤阳洞、青木洞内任意精英怪、BOSS死亡后概率掉落。"/> 
+		<suit id="102" deComposeID="11901002,1" composeID="102" name="刑天战魂" color="3" maxNum="10" itemID="51020099" attr="" isClose="" eff="最多可增加装备属性&lt;font color='#05cdff'&gt;20%&lt;/font&gt;/个" getway="1、6-10层的炽焰洞、冰龙洞、坤阳洞、青木洞内任意BOSS死亡后概率掉落。&#x0A;2、11-15层的炽焰洞、冰龙洞、坤阳洞、青木洞内任意精英怪死亡后概率掉落。"/> 
+		<suit id="103" deComposeID="11901002,2" composeID="103" name="轩辕战魂" color="4" maxNum="10" itemID="51030099" attr="" isClose="" eff="最多可增加装备属性&lt;font color='#ff00fc'&gt;30%&lt;/font&gt;/个" getway="1、11-15层的炽焰洞、冰龙洞、坤阳洞、青木洞内任意BOSS死亡后概率掉落" /> 
+		<suit id="104" deComposeID="" composeID="" name="????" color="4" maxNum="10" attr="" isClose="" eff="" getway="" /> 
+		<suit id="105" deComposeID="" composeID="" name="????" color="4" maxNum="10" attr="" isClose="" eff="" getway=""/> 
+		<suit id="106" deComposeID="" composeID="" name="????" color="5" maxNum="10" attr="" isClose="" eff="" getway=""/> 
+		<suit id="107" deComposeID="" composeID="" name="????" color="6" maxNum="10" attr="" isClose="" eff="" getway=""/> 
+<!--		<suit id="108" name="????" color="6" maxNum="10" attr="" isClose="1"/> -->
+		<suit id="299" name="全部精魄" color="1" maxNum="56" attr="" isClose=""/> 
+		<suit id="201" name="后羿精魄" color="2" maxNum="8" attr="" isClose=""/> 
+		<suit id="202" name="刑天精魄" color="3" maxNum="8" attr="" isClose=""/> 
+		<suit id="203" name="轩辕精魄" color="4" maxNum="8" attr="" isClose=""/> 
+		<suit id="204" name="????" color="4" maxNum="8" attr="" isClose=""/> 
+		<suit id="205" name="????" color="4" maxNum="8" attr="" isClose=""/> 
+		<suit id="206" name="????" color="5" maxNum="8" attr="" isClose=""/> 
+		<suit id="207" name="????" color="6" maxNum="8" attr="" isClose=""/> 
+		
+		<suit id="999" name="战魂" color="2" maxNum="8" itemID="51010098" attr="" isClose="" eff="可大量增加装备属性" getway="1、混沌之塔任意普通怪死亡后概率掉落。&#x0A;2、每层的炽焰洞、冰龙洞、坤阳洞、青木洞内任意精英怪、BOSS死亡后概率掉落更高品质的战魂。" /> 		
+	</suits>
+	<buffs>
+		<buff typeID="11901002" buffID="29010011" drop_rate="6500"/>
+		<buff typeID="11901003" buffID="29020011" drop_rate="7000"/>
+		<buff typeID="11901004" buffID="29030011" drop_rate="7400"/>
+		<buff typeID="11901005" buffID="29030012" drop_rate="7500"/>
+	</buffs>
+</warSouls>

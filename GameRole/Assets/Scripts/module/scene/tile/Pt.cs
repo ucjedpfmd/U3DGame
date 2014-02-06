@@ -3,10 +3,11 @@
 	public class Pt
 	{
         public double x;
-		public double y;
-		public double z;
-        
-		public Pt(double x = 0, double y = 0, double z = 0) {
+        public double y;
+        public double z;
+
+        public Pt(double x = 0, double y = 0, double z = 0)
+        {
 			this.x = x;
 			this.y = y;
 			this.z = z;

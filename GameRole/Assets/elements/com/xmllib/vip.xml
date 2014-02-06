@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vip>
+<info lv="1" day="7" price="188"/>
+<info lv="2" day="30" price="388"/>
+<info lv="3" day="180" price="1688"/>
+<!--  VIP配置 前端 张子然 策划 玲玲
+id 排序用
+vip1-3 分别对应相应VIP等级所能获得的福利数量级（如无该项则填-1）
+uint 单位（如无该项则填-1） 
+opearte 可操作类型（1、领取元宝，2、领取铜钱，3剩余次数显示，4固定的数值）（如无该项则填-1））
+profit 对应后端的福利id
+link 链接的effectid 目前有三种  NPC类型直接配NPCID 地图类型配置mapid,x,y（如传送到出生点x=y=0） 功能面板链接请使用通用effectId 详情找春越
+linkLv 链接出现的角色等级（特别注意：需要比实际的开放等级大1-3级，防止出现功能未开启却有链接可去到的问题）
+linkVipLv 链接出现需要的VIP最小等级
+ -->
+<privilege id="1" VIP1="10" VIP2="15" VIP3="20" unit="绑定元宝" desc="每日登陆可领取" operate="1" profit="2"/>
+<privilege id="2" VIP1="10000" VIP2="30000" VIP3="50000" unit="绑定铜钱" desc="每周六免费领取" operate="2" profit="3"/>
+<privilege id="3" VIP1="0" VIP2="0" VIP3="0" unit="-1" desc="拥有专属的|仙尊挂机地图|" operate="-1" profit="-1" link="40700,40900" linkLv="30" linkVipLv="1"/>
+<privilege id="4" VIP1="-1" VIP2="-1" VIP3="0" unit="-1" desc="开启|仙尊商店|（需50级）" operate="-1" profit="-1" link="11005" linkLv="50" linkVipLv="1"/>
+<privilege id="5" VIP1="-1" VIP2="-1" VIP3="0" unit="-1" desc="开启|装备强化|附加成功率功能" operate="-1" profit="-1" link="10601" linkLv="19" linkVipLv="1"/>
+<privilege id="6" VIP1="-1" VIP2="0" VIP3="0" unit="-1" desc="开启|装备附魂|金锁功能" operate="-1" profit="-1" link="10602" linkLv="19" linkVipLv="1"/>
+<privilege id="7" VIP1="10" VIP2="10" VIP3="50" unit="次" desc="|购买兽魂灵气|可直接增加" operate="4" profit="14" link="10403" linkLv="27" linkVipLv="1"/>
+<privilege id="8" VIP1="20" VIP2="40" VIP3="无限" unit="次" desc="每日可免费传送" operate="3" profit="6"/>
+<privilege id="9" VIP1="10" VIP2="20" VIP3="30" unit="%" desc="打怪经验额外加成" operate="-1" profit="-1"/>
+<privilege id="10" VIP1="10" VIP2="20" VIP3="30" unit="%" desc="|护送寒冰|经验额外加成" operate="-1" profit="-1" link="40000101" linkLv="30" linkVipLv="1"/>
+<privilege id="11" VIP1="2" VIP2="5" VIP3="10" unit="%" desc="|黄金沙滩|灵气额外加成" operate="-1" profit="-1" link="10705" linkLv="28" linkVipLv="1"/>
+<privilege id="12" VIP1="1" VIP2="3" VIP3="5" unit="次" desc="|回魂仙梦|每天每关可额外购买闯关次数" operate="3" profit="13" link="11501" linkLv="25" linkVipLv="1"/>
+<privilege id="13" VIP1="0" VIP2="0" VIP3="0" unit="-1" desc="免费使用|远程仓库|" operate="-1" profit="-1" link="10202" linkLv="1" linkVipLv="1"/>
+<privilege id="14" VIP1="1" VIP2="3" VIP3="5" unit="次" desc="每日免费原地复活" operate="3" profit="5"/>
+<privilege id="15" VIP1="0" VIP2="0" VIP3="0" unit="-1" desc="连续登陆中断后，天数不清0" operate="-1" profit="-1"/>
+<privilege id="16" VIP1="0" VIP2="0" VIP3="0" unit="-1" desc="挂机自动采集战魂" operate="-1" profit="-1"/>  
+<privilege id="17" VIP1="-1" VIP2="-1" VIP3="0" unit="-1" desc="获得尊贵的六界仙尊称号" operate="-1" profit="-1"/>
+<privilege id="17" VIP1="-1" VIP2="0" VIP3="-1" unit="-1" desc="获得尊贵的五灵仙尊称号" operate="-1" profit="-1"/>
+<privilege id="17" VIP1="0" VIP2="-1" VIP3="-1" unit="-1" desc="获得尊贵的四象仙尊称号" operate="-1" profit="-1"/>
+
+</vip>

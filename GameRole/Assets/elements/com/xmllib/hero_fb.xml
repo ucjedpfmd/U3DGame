@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<heroFB min_enter_level="40" max_times_per_day="2" max_barrier_id="50" gold_per_barrier="2" auto_money_type="1" auto_money="500">
+<!-- <br/>换行   一个中文为4个空格 中文符号为五个空格  -->
+	<barrierInfo>
+		<barrier id="1" mapId="10801" bossTypeId="11100001" barrierStr="第一关" recommand_dps="569" boss_explode="" exp="2876">
+			<desc>
+				<![CDATA[地主刘德（LV 36）:<br/>拿了我的给我还回来，吃了我的给我吐出来！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至240以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上30级套装]]></advise>
+		</barrier>		
+		<barrier id="2" mapId="10802" bossTypeId="11100001" barrierStr="第二关" recommand_dps="569" boss_explode="" exp="2876">
+			<desc>
+				<![CDATA[孙德崖（LV 37）:<br/>     我就绑了郭子兴，你能怎么着？]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至240以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上30级套装]]></advise>
+		</barrier>		
+		<barrier id="3" mapId="10803" bossTypeId="11100001" barrierStr="第三关" recommand_dps="569" boss_explode="" exp="2876">
+			<desc>
+				<![CDATA[驴牌寨主（LV 38）:<br/>     嘲笑我是驴牌寨主？我先捏碎你的驴蛋！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至240以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上30级套装]]></advise>
+		</barrier>		
+		<barrier id="4" mapId="10804" bossTypeId="11100001" barrierStr="第四关" recommand_dps="569" boss_explode="" exp="2876">
+			<desc>
+				<![CDATA[缪大亨（LV 39）:<br/>     想降服我这三万人马？看你有没有那个本事！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至240以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上30级套装]]></advise>
+		</barrier>		
+		<barrier id="5" mapId="10805" bossTypeId="11100001" barrierStr="第五关" recommand_dps="633" boss_explode="40" exp="3187">
+			<desc>
+				<![CDATA[北元守将（LV 40）:<br/>     就你手上这虾兵蟹将想抗元？蚍蜉撼大树，可笑不自量！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至270以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上40级套装,|灵石：镶嵌二级以上体质石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>]]></advise>
+		</barrier>		
+		<barrier id="6" mapId="10806" bossTypeId="11100001" barrierStr="第六关" recommand_dps="707" boss_explode="" exp="3187">
+			<desc>
+				<![CDATA[倪文俊（LV 42）:<br/>     我能混到今天，全靠文武双全。]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至270以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上40级套装]]></advise>
+		</barrier>		
+		<barrier id="7" mapId="10807" bossTypeId="11100001" barrierStr="第七关" recommand_dps="707" boss_explode="" exp="3187">
+			<desc>
+				<![CDATA[徐寿辉（LV 44）:<br/>     我手上兵强马壮，你现在退兵我或许可以饶你一死。]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至270以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上40级套装]]></advise>
+		</barrier>		
+		<barrier id="8" mapId="10808" bossTypeId="11100001" barrierStr="第八关" recommand_dps="707" boss_explode="" exp="3187">
+			<desc>
+				<![CDATA[赵普胜（LV 46）:<br/>     我先冲，弟兄们跟我上！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至270以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上40级套装]]></advise>
+		</barrier>		
+		<barrier id="9" mapId="10809" bossTypeId="11100001" barrierStr="第九关" recommand_dps="707" boss_explode="" exp="3187">
+			<desc>
+				<![CDATA[张定边（LV 48）:<br/>     待我将你生擒，非活活扒了你的皮不可！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至270以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：绿色以上40级套装,|灵石：镶嵌三级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="10" mapId="10810" bossTypeId="11100001" barrierStr="第十关" recommand_dps="787" boss_explode="50" exp="10126">
+			<desc>
+				<![CDATA[陈友谅（LV 50）:<br/>     宁可我负天下人，不可天下人负我，天下必定是我的！]]>
+			</desc>
+			<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至380以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上50级套装,|灵石：镶嵌三级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备一级护身符,]]></advise>
+		</barrier>
+		<barrier id="11" mapId="10811" bossTypeId="11100001" barrierStr="第十一关" recommand_dps="934" boss_explode="" exp="10126">
+			<desc>
+				<![CDATA[吕珍（LV 52）:<br/>     我乃吴王手下第一大将，你纳命来吧！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至380以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上50级套装,|灵石：镶嵌三级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备一级英雄令和护身符,]]></advise>
+		</barrier>
+		<barrier id="12" mapId="10812" bossTypeId="11100001" barrierStr="第十二关" recommand_dps="934" boss_explode="" exp="10126">
+			<desc>
+				<![CDATA[张士义（LV 54）:<br/>     何必多言，刀枪上见功夫！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至380以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上50级套装,|灵石：镶嵌三级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备一级英雄令和护身符,]]></advise>
+		</barrier>
+		<barrier id="13" mapId="10813" bossTypeId="11100001" barrierStr="第十三关" recommand_dps="934" boss_explode="" exp="10126">
+			<desc>
+				<![CDATA[张士德（LV 56）:<br/>     宁死不降，但求一死！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至380以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上50级套装,|灵石：镶嵌三级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备一级英雄令和护身符,]]></advise>
+		</barrier>
+		<barrier id="14" mapId="10814" bossTypeId="11100001" barrierStr="第十四关" recommand_dps="934" boss_explode="" exp="10126">
+			<desc>
+				<![CDATA[张士信（LV 58）:<br/>     你家盐荒啊，不然怎么盯上我哥哥张士诚了？]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至380以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上50级套装,|灵石：镶嵌三级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备二级英雄令,]]></advise>
+		</barrier>
+		<barrier id="15" mapId="10815" bossTypeId="11100001" barrierStr="第十五关" recommand_dps="1194" boss_explode="50" exp="21979">
+			<desc>
+				<![CDATA[张士诚（LV 60）:<br/>     城在人在，城破人亡！]]>
+			</desc>
+           	<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至580以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上60级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌四级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备二级英雄令和护身符,]]></advise>
+		</barrier>
+		<barrier id="16" mapId="10816" bossTypeId="11100001" barrierStr="第十六关" recommand_dps="1267" boss_explode="" exp="21979">
+			<desc>
+				<![CDATA[阿鲁温（LV 62）:<br/>     以逸待劳，今天就要你狗命！]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至580以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上60级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌四级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|特殊：装备二级英雄令和护身符,]]></advise>
+        </barrier>
+		<barrier id="17" mapId="10817" bossTypeId="11100001" barrierStr="第十七关" recommand_dps="1267" boss_explode="" exp="21979">
+			<desc>
+				<![CDATA[平章鼎珠（LV 64）:<br/>     我进攻时放箭，进攻中放箭，逃跑还放箭，你能奈我何？]]>
+			</desc>
+			<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至580以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上60级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌四级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至2级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>]]></advise>
+		</barrier>		
+		<barrier id="18" mapId="10818" bossTypeId="11100001" barrierStr="第十八关" recommand_dps="1267" boss_explode="" exp="21979">
+			<desc>
+				<![CDATA[元太尉蛮子（LV 66）:<br/>     看我的名字就知道我不是好惹的！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至580以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上60级套装（内防）,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌四级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至2级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="19" mapId="10819" bossTypeId="11100001" barrierStr="第十九关" recommand_dps="1267" boss_explode="" exp="21979">
+			<desc>
+				<![CDATA[哈剌章（LV 68）:<br/>     打不过你，我还跑不过你？]]>
+			</desc>
+           <award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至580以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上60级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌四级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至2级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="20" mapId="10820" bossTypeId="11100001" barrierStr="第二十关" recommand_dps="1658" boss_explode="70" exp="37704">
+			<desc>
+				<![CDATA[王保保（LV 70）:<br/>     谁他妈再叫我王跑跑，我跟他拼了！]]>
+			</desc>
+			<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至960以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌五级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至3级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>]]></advise>
+		</barrier>
+				<barrier id="21" mapId="10821" bossTypeId="11100001" barrierStr="第二十一关" recommand_dps="1879" boss_explode="" exp="37704">
+			<desc>
+				<![CDATA[失刺罕（LV 71）:<br/>     既然跑不了，那就打吧！]]>
+			</desc>
+           <award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至960以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌五级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至3级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>]]></advise>
+		</barrier>
+				<barrier id="22" mapId="10822" bossTypeId="11100001" barrierStr="第二十二关" recommand_dps="1879" boss_explode="" exp="37704">
+			<desc>
+				<![CDATA[朵儿只巴（LV 72）:<br/>    我还没来得及喘口气，你就追上来了！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至960以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上70级套装（内防）,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌五级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至3级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至2星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|特殊：装备三级英雄令,]]></advise>
+		</barrier>
+				<barrier id="23" mapId="10823" bossTypeId="11100001" barrierStr="第二十三关" recommand_dps="1879" boss_explode="" exp="37704">
+			<desc>
+				<![CDATA[平章（LV 73）:<br/>     怎么老是你，烦不烦啊！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至960以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌五级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至3级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至2星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|特殊：装备三级英雄令,]]></advise>
+		</barrier>
+				<barrier id="24" mapId="10824" bossTypeId="11100001" barrierStr="第二十四关" recommand_dps="1879" boss_explode="" exp="37704">
+			<desc>
+				<![CDATA[上都驴（LV 74）:<br/>     你才是驴，你全家都是驴！]]>
+			</desc>
+            <award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至960以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：蓝色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌五级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至3级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至2星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|特殊：装备三级英雄令和护身符,]]></advise>
+		</barrier>
+		<barrier id="25" mapId="10825" bossTypeId="11100001" barrierStr="第二十五关" recommand_dps="2325" boss_explode="70" exp="54840">
+			<desc>
+				<![CDATA[卜颜帖木儿（LV 75）:<br/>     想赶我们回草原放羊，门都没有！]]>
+			</desc>
+           	<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1500以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至3星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>   
+		</barrier>
+		<barrier id="26" mapId="10826" bossTypeId="11100001" barrierStr="第二十六关" recommand_dps="2545" boss_explode="" exp="54840">
+			<desc>
+				<![CDATA[瓜州守将（LV 76）:<br/>     难道今天要为国捐躯了？]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1500以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至3星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+				<barrier id="27" mapId="10827" bossTypeId="11100001" barrierStr="第二十七关" recommand_dps="2545" boss_explode="" exp="54840">
+			<desc>
+				<![CDATA[元岐王朵儿（LV 77）:<br/>     我绝对不会让大元帝国在我手里灭亡的，来吧！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1500以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至3星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		
+		<barrier id="28" mapId="10828" bossTypeId="11100001" barrierStr="第二十八关" recommand_dps="2545" boss_explode="" exp="54840">
+			<desc>
+				<![CDATA[平章果来（LV 78）:<br/>     明军如此气势汹汹，恐怕抵挡不住…]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1500以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至3星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="29" mapId="10829" bossTypeId="11100001" barrierStr="第二十九关" recommand_dps="2545" boss_explode="" exp="54840">
+			<desc>
+				<![CDATA[纳哈出（LV 79）:<br/>     来来来，我就陪你玩玩！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1500以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上70级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至3星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="30" mapId="10830" bossTypeId="11100001" barrierStr="第三十关" recommand_dps="2933" boss_explode="90" exp="79443">
+			<desc>
+				<![CDATA[提怯来（LV 80）:<br/>     哼，别人怕你们，我可不怕你们！]]>
+			</desc>
+            <award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1600以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至5星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="31" mapId="10831" bossTypeId="11100001" barrierStr="第三十一关" recommand_dps="3227" boss_explode="" exp="79443">
+			<desc>
+				<![CDATA[失烈门（LV 81）:<br/>     大事不妙，看来我要准备逃跑了！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1600以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至5星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+4以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="32" mapId="10832" bossTypeId="11100001" barrierStr="第三十二关" recommand_dps="3227" boss_explode="" exp="79443">
+			<desc>
+				<![CDATA[脱古思帖木尔（LV 82）:<br/>     想不到，我居然成了北元终结者…]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1600以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至5星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+4以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="33" mapId="10833" bossTypeId="11100001" barrierStr="第三十三关" recommand_dps="3227" boss_explode="" exp="79443">
+			<desc>
+				<![CDATA[鞑靼守卫（LV 83）:<br/>    哼，忘记你们几个月前的惨败了？]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1600以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至5星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|特殊：装备四级英雄令和护身符,]]></advise>
+		</barrier>
+				<barrier id="34" mapId="10834" bossTypeId="11100001" barrierStr="第三十四关" recommand_dps="3227" boss_explode="" exp="79443">
+			<desc>
+				<![CDATA[鞑靼将领（LV 84）:<br/>     别得意的太早，我们大王会要你命的！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1600以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌六级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至5星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="35" mapId="10835" bossTypeId="11100001" barrierStr="第三十五关" recommand_dps="3256" boss_explode="90" exp="125714">
+			<desc>
+				<![CDATA[兀良哈（LV 85）:<br/>     若论骑兵冲击战术，你还不是我的对手！]]>
+			</desc>
+           	<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1850以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级以上攻防灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="36" mapId="10836" bossTypeId="11100001" barrierStr="第三十六关" recommand_dps="3550" boss_explode="" exp="125714">
+			<desc>
+				<![CDATA[阿鲁台（LV 86）:<br/>     后悔没听本雅失里的劝告，跑错方向了！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1850以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>  |装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级体质石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="37" mapId="10837" bossTypeId="11100001" barrierStr="第三十七关" recommand_dps="3550" boss_explode="" exp="125714">
+			<desc>
+				<![CDATA[本雅失里（LV 87）:<br/>     我丢尽了祖先成吉思汗的脸面啊…]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1850以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级体质石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="38" mapId="10838" bossTypeId="11100001" barrierStr="第三十八关" recommand_dps="3550" boss_explode="" exp="125714">
+			<desc>
+				<![CDATA[瓦剌骑将 （LV 88）:<br/>     你杀我们的大汗，我跟你拼了！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1850以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="39" mapId="10839" bossTypeId="11100001" barrierStr="第三十九关" recommand_dps="3550" boss_explode="" exp="125714">
+			<desc>
+				<![CDATA[瓦剌守将 （LV 89）:<br/>     我不能辜负大汗所托，战至最后一人！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至1850以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：紫色以上80级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="40" mapId="10840" bossTypeId="11100001" barrierStr="第四十关" recommand_dps="3726" boss_explode="100" exp="209509">
+			<desc>
+				<![CDATA[秃孛罗 （LV 90）:<br/>     别说我瓦剌三巨头之一，我很低调的！]]>
+			</desc>
+           	<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2000以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：橙色以上90级套装（内防）,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="41" mapId="10841" bossTypeId="11100001" barrierStr="第四十一关" recommand_dps="4020" boss_explode="" exp="209509">
+			<desc>
+				<![CDATA[太平 （LV 91）:<br/>     要我臣服，看你有没这个本事！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2000以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：橙色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+5以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="42" mapId="10842" bossTypeId="11100001" barrierStr="第四十二关" recommand_dps="4020" boss_explode="" exp="209509">
+			<desc>
+				<![CDATA[马哈木 （LV 92）:<br/>     别打我，我俯首称臣便是了。]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2000以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：橙色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|融合：装备融合至+5以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="43" mapId="10843" bossTypeId="11100001" barrierStr="第四十三关" recommand_dps="4020" boss_explode="" exp="209509">
+			<desc>
+				<![CDATA[王振 （LV 93）<br/>     我只是想带大军到土木堡兜兜风，没别的意思…]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2000以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：橙色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至6级3星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至4星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+5以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="44" mapId="10844" bossTypeId="11100001" barrierStr="第四十四关" recommand_dps="4020" boss_explode="" exp="209509">
+			<desc>
+				<![CDATA[博罗茂洛海 （LV 94）:<br/>     我的铁骑将踏平你们的京城！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2000以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：橙色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|强化：装备强化至6级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|融合：装备融合至+5以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="45" mapId="10845" bossTypeId="11100001" barrierStr="第四十五关" recommand_dps="4223" boss_explode="150" exp="333114">
+			<desc>
+				<![CDATA[徐海 （LV 95）:<br/>     在海上你们还不是我的对手！]]>
+			</desc>
+           	<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2400以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：金色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级3星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="46" mapId="10846" bossTypeId="11100001" barrierStr="第四十六关" recommand_dps="4517" boss_explode="" exp="333114">
+			<desc>
+				<![CDATA[汪直 （LV 96）:<br/>     谁说我是汉奸倭寇，我只是去开辟日本市场而已！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2500以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：金色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌七级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至4级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至6星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|装备品质：提升至完美以上,<font color='#00FF00'><u><a href='event:quality'>提升品质</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="47" mapId="10847" bossTypeId="11100001" barrierStr="第四十七关" recommand_dps="4517" boss_explode="" exp="333114">
+			<desc>
+				<![CDATA[小西 （LV 97）:<br/>     到手的平壤城又丢了，八嘎呀路！]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至2900以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：金色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌八级攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级3星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至7星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+6以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="48" mapId="10848" bossTypeId="11100001" barrierStr="第四十八关" recommand_dps="4517" boss_explode="" exp="333114">
+			<desc>
+				<![CDATA[加藤 （LV 98）:<br/>     早料到你埋伏这里了，想切断我退路，没那么容易。]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至3300以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：金色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌八级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级3星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至7星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+7以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="49" mapId="10849" bossTypeId="11100001" barrierStr="第四十九关" recommand_dps="4517" boss_explode="" exp="333114">
+			<desc>
+				<![CDATA[岛津 （LV 99）:<br/>     怎么会败的这么惨。]]>
+			</desc>
+           	<award>11100001,1,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至3600以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：金色以上90级套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌八级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至7星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+8以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+		<barrier id="50" mapId="10850" bossTypeId="11100001" barrierStr="第五十关" recommand_dps="4481" boss_explode="250" exp="333114">
+			<desc>
+				<![CDATA[努尔哈赤 （LV 100）:<br/>     努尔哈赤在此，你可敢与我一战！]]>
+			</desc>
+           	<award>30010101,4,1|30010101,4,1|11100001,1,1</award>
+            <advise><![CDATA[宠物：攻击力提升至4000以上,<font color='#00FF00'><u><a href='event:pet'>宠物</a></u></font>|装备：金色以上七煞套装,<font color='#00FF00'><u><a href='event:color'>装备提色</a></u></font>|灵石：镶嵌八级以上攻击灵石,<font color='#00FF00'><u><a href='event:stone'>灵石镶嵌</a></u></font>|强化：装备强化至5级6星以上,<font color='#00FF00'><u><a href='event:reinforce'>装备强化</a></u></font>|锁灵星级：装备锁灵星级提至7星以上,<font color='#00FF00'><u><a href='event:bind'>装备提星</a></u></font>|融合：装备融合至+8以上,<font color='#00FF00'><u><a href='event:fuse'>装备融合</a></u></font>]]></advise>
+		</barrier>
+	</barrierInfo>
+</heroFB>

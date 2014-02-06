@@ -1,0 +1,740 @@
+<shop>
+<r_shop id="10101" name="新品热卖">
+  <r_shop_goods id="11101002" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="2" original="735" present="735" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11101003" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="2360" present="2360" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11101001" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="2" original="235" present="235" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10201102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="4" original="3" present="3" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10302001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="4" original="50" present="50" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11501004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10118017" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="9">
+      <p_shop_price type="4" original="123" present="123" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10118018" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="9">
+      <p_shop_price type="4" original="123" present="123" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="10102" name="常用道具">
+  <r_shop_goods id="10105001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="4" original="3" present="3" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10106001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="22">
+      <p_shop_price type="3" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11201001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11300001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="24">
+      <p_shop_price type="4" original="350" present="350" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11501103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="4" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801001" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="2" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="10">
+      <p_shop_price type="4" original="200" present="200" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="9">
+      <p_shop_price type="4" original="50" present="50" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402101" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10107001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801003" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="2" original="125" present="125" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801002" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="5">
+      <p_shop_price type="2" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10106002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="23">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119010" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="17">
+      <p_shop_price type="4" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119011" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="18">
+      <p_shop_price type="4" original="75" present="75" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119012" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="19">
+      <p_shop_price type="4" original="150" present="150" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119013" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="20">
+      <p_shop_price type="4" original="300" present="300" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10503001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="14">
+      <p_shop_price type="4" original="85" present="85" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203009" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="21">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="10108" name="装备灵石">
+  <r_shop_goods id="10201102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="4" original="3" present="3" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10201103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="4" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202101" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="4" original="63" present="63" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203101" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="5">
+      <p_shop_price type="4" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203104" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="8">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="9">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="10">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="11">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="12">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="13">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="14">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="15">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="16">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="17">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="18">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="19">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="20">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="21">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="22">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="23">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="24">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="25">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="26">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="27">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="28">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="29">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="30">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="31">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="32">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="33">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="34">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="30101" name="快速购买">
+  <r_shop_goods id="10101001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="13" present="13" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10101002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="25" present="25" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10101003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="38" present="38" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10102001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="13" present="13" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10102002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="25" present="25" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10102003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="38" present="38" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10201102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="4" original="3" present="3" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10201103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="4" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202101" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="9">
+      <p_shop_price type="4" original="63" present="63" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203101" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="13">
+      <p_shop_price type="4" original="2" present="2" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="14">
+      <p_shop_price type="4" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="15">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203104" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="16">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="23">
+      <p_shop_price type="4" original="200" present="200" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11101001" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="33">
+      <p_shop_price type="2" original="235" present="235" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11101002" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="34">
+      <p_shop_price type="2" original="735" present="735" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11101003" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="35">
+      <p_shop_price type="2" original="2360" present="2360" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10302001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="37">
+      <p_shop_price type="4" original="50" present="50" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="80" present="80" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="320" present="320" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="38">
+      <p_shop_price type="4" original="1265" present="1265" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11201001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="40">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11300001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="41">
+      <p_shop_price type="4" original="350" present="350" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10103001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="42">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10104001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="42">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10111001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="42">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10112001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="42">
+      <p_shop_price type="3" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10113001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="42">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10105001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="42">
+      <p_shop_price type="4" original="3" present="3" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801002" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="45">
+      <p_shop_price type="2" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801003" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="45">
+      <p_shop_price type="2" original="125" present="125" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801004" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="45">
+      <p_shop_price type="2" original="1249" present="1249" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402101" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="47">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="47">
+      <p_shop_price type="4" original="50" present="50" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10106002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="51">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11501103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="52">
+      <p_shop_price type="4" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11501004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="53">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10116001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="54">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119010" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="55">
+      <p_shop_price type="4" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119011" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="55">
+      <p_shop_price type="4" original="75" present="75" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119012" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="55">
+      <p_shop_price type="4" original="150" present="150" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119013" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="55">
+      <p_shop_price type="4" original="300" present="300" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10201005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="56">
+      <p_shop_price type="4" original="20" present="20" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10201104" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="56">
+      <p_shop_price type="4" original="10" present="10" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11300002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="56">
+      <p_shop_price type="4" original="350" present="350" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="56">
+      <p_shop_price type="4" original="1000" present="1000" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="56">
+      <p_shop_price type="4" original="250" present="250" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="56">
+      <p_shop_price type="4" original="4000" present="4000" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10404008" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="57">
+      <p_shop_price type="2" original="410" present="410" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10203005" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="58">
+      <p_shop_price type="4" original="325" present="325" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10118017" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="59">
+      <p_shop_price type="4" original="123" present="123" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10118018" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="59">
+      <p_shop_price type="4" original="123" present="123" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11102001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="59">
+      <p_shop_price type="2" original="100" present="100" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11102002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="59">
+      <p_shop_price type="2" original="1200" present="1200" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="20101" name="限量购买">
+  <r_shop_goods id="11101003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10404008" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="328" present="328" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902051" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="128" present="128" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="10902120" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="40" present="40" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902121" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="130" present="130" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902122" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="299" present="299" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="10902123" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="168" present="168" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902124" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="128" present="128" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902125" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="300" present="300" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="21010003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="21040003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="21070003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090003" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="15" present="15" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="10107001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801002" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="9" present="9" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10402101" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="9" present="9" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="11201001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10113001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="9" present="9" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10103001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+    <r_shop_goods id="10104001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10111001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10404023" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="5" present="5" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902477" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="85" present="85" discount_type="2"/>
+  </r_shop_goods> 
+       <r_shop_goods id="10902524" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="1288" present="1288" discount_type="2"/>
+  </r_shop_goods>
+   <r_shop_goods id="10404025" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="6888" present="6888" discount_type="2"/>
+  </r_shop_goods> 
+     <r_shop_goods id="10902532" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods> 
+     <r_shop_goods id="10902533" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="235" present="235" discount_type="2"/>
+  </r_shop_goods> 
+</r_shop>
+<r_shop id="90101" name="药品商城">
+  <r_shop_goods id="10101001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="3" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10101002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="3" original="25" present="25" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10101003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="3" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10102001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="3" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10102002" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="5">
+      <p_shop_price type="3" original="25" present="25" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10102003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="3" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10103001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10104001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="9">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10113001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="12">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10111001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="10">
+      <p_shop_price type="4" original="7" present="7" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10112001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="3" original="38" present="38" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10116001" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="11">
+      <p_shop_price type="4" original="13" present="13" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11904003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="60,400" type="1" seat ="15">
+      <p_shop_price type="4" original="25" present="25" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="10401" name="仙尊商城">
+  <r_shop_goods id="10202103" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="4" original="937" present="937" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202102" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="4" original="250" present="250" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10202004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="4" original="3624" present="3624" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11801004" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="999" present="999" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119013" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="4" original="260" present="260" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119012" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="5">
+      <p_shop_price type="4" original="125" present="125" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10107004" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="4" original="299" present="299" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21070006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="17">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21080006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="9">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21020006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="10">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21040006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="11">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21010006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="12">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21030006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="13">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21050006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="14">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21090006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="15">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21060006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="2" seat ="16">
+      <p_shop_price type="4" original="1110" present="1110" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="10105" name="六道轩（杂货）">
+  <r_shop_goods id="11600001" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="2" original="4" present="4" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11100007" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="2" original="10" present="10" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11100011" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="2" original="10" present="10" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11600011" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="5">
+      <p_shop_price type="2" original="18" present="18" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11600004" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="7">
+      <p_shop_price type="2" original="50" present="50" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11600007" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="8">
+      <p_shop_price type="2" original="36" present="36" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11600008" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="9">
+      <p_shop_price type="2" original="268" present="268" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11600012" num="1" bind="1" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="10">
+      <p_shop_price type="2" original="2388" present="2388" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="11100003" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="1" original="30" present="30" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="11100006" num="1" bind="1" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="1" original="30" present="30" discount_type="0"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="90102" name="神秘商店">
+  <r_shop_goods id="21800004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="1">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21400004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="2">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21500004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="3">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21600004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="4">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21100004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="5">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21300004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="6">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21000004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="7">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21200004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="8">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="21700004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="2" seat ="9">
+      <p_shop_price type="2" original="324" present="324" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="10501" name="仙盟商店">
+  <r_shop_goods id="10401001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="5" original="20" present="20" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="11401004" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="5" original="25" present="25" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="11601101" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="5" original="10" present="10" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="11601102" num="1" bind="2" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="4">
+      <p_shop_price type="5" original="20" present="20" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="11601003" num="1" bind="2" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="5">
+      <p_shop_price type="5" original="40" present="40" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10119010" num="1" bind="2" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="6">
+      <p_shop_price type="5" original="50" present="50" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10103001" num="1" bind="2" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="10">
+      <p_shop_price type="5" original="30" present="30" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10104001" num="1" bind="2" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="11">
+      <p_shop_price type="5" original="30" present="30" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10111001" num="1" bind="2" modify="" price_bind="1" time="0" role_grade="0,400" type="1" seat ="12">
+      <p_shop_price type="5" original="30" present="30" discount_type="0"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="20501" name="仙盟限购">
+  <r_shop_goods id="10902050" num="1" bind="2" modify="" price_bind="0" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="5" original="100" present="100" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10118001" num="1" bind="2" modify="" price_bind="0" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="5" original="100" present="100" discount_type="2"/>
+  </r_shop_goods>
+  <r_shop_goods id="10118002" num="1" bind="2" modify="" price_bind="0" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="5" original="100" present="100" discount_type="2"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="20502" name="仙盟活动精品">
+  <r_shop_goods id="10117002" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="1">
+      <p_shop_price type="5" original="5" present="5" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10903001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="5" original="100" present="100" discount_type="0"/>
+  </r_shop_goods>
+  <r_shop_goods id="10902021" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="3">
+      <p_shop_price type="5" original="324" present="200" discount_type="0"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop id="20601" name="宠物竞技场商店">
+  <r_shop_goods id="10304001" num="1" bind="2" modify="" price_bind="3" time="0" role_grade="0,400" type="1" seat ="2">
+      <p_shop_price type="6" original="750" present="750" discount_type="0"/>
+  </r_shop_goods>
+</r_shop>
+<r_shop_npc id="shops">
+   <p_shop_info id="10101" name="新品热卖" child=""/>
+   <p_shop_info id="10102" name="常用道具" child=""/>
+   <p_shop_info id="10401" name="仙尊商城" child=""/>
+   <p_shop_info id="10108" name="装备灵石" child=""/>
+   <p_shop_info id="90101" name="药品商城" child=""/>
+</r_shop_npc>
+</shop>

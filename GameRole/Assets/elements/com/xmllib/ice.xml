@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ice>
+<!-- 分别是 颜色 可获得经验 可获得的道具typeID 刷一次费用 刷金色费用-->
+<info color="1" minLv="1" maxLv="29" exp="4000" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="30" maxLv="39" exp="2500" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="40" maxLv="49" exp="3800" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="50" maxLv="59" exp="6000" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="60" maxLv="69" exp="8500" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="70" maxLv="79" exp="12500" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="80" maxLv="89" exp="16250" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="1" minLv="90" maxLv="99" exp="16250" guideExp="4000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+
+<info color="2" minLv="1" maxLv="29" exp="8000" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="30" maxLv="39" exp="5000" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="40" maxLv="49" exp="7500" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="50" maxLv="59" exp="12000" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="60" maxLv="69" exp="17000" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="70" maxLv="79" exp="25000" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="80" maxLv="89" exp="32500" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="2" minLv="90" maxLv="99" exp="32500" guideExp="8000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+
+<info color="3" minLv="1" maxLv="29" exp="16000" guideExp="16000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="30" maxLv="39" exp="10000" guideExp="16000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="40" maxLv="49" exp="15000" guideExp="16000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="50" maxLv="59" exp="23000" guideExp="16000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="60" maxLv="69" exp="35000" guideExp="16000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="70" maxLv="79" exp="50000" guideExp="16000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="80" maxLv="89" exp="65000" guideExp="16000" good="16000" oneRefresh="2000" autoRefresh="20000"/>
+<info color="3" minLv="90" maxLv="99" exp="65000" guideExp="16000" good="16000" oneRefresh="2000" autoRefresh="20000"/>
+
+<info color="4" minLv="1" maxLv="29" exp="32000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="30" maxLv="39" exp="20000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="40" maxLv="49" exp="30000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="50" maxLv="59" exp="45000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="60" maxLv="69" exp="70000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="70" maxLv="79" exp="100000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="80" maxLv="89" exp="130000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="4" minLv="90" maxLv="99" exp="130000" guideExp="32000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+
+<info color="5" minLv="1" maxLv="29" exp="64000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="30" maxLv="39" exp="40000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="40" maxLv="49" exp="60000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="50" maxLv="59" exp="90000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="60" maxLv="69" exp="140000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="70" maxLv="79" exp="200000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="80" maxLv="89" exp="260000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+<info color="5" minLv="90" maxLv="99" exp="260000" guideExp="64000" good="0" oneRefresh="2000" autoRefresh="20000"/>
+
+<!-- 活动介绍 -->
+<intro>
+<![CDATA[<font color="#a59772">1、30级以上玩家，每日可领3次护送寒冰任务
+2、寒冰任务颜色越高，获得经验奖励越多
+3、按箭头敲击方向键，正确加速5%，错误减速2%
+4、优良操作、连击数越多，获得寒冰积分越高
+5、护送线路可以选择长短
+6、昨日<font color="#00ff00"><a href="event:iceRank"><u>寒冰排行榜</u></a></font>第一可获得限时全服唯一称号
+</font>
+]]>
+</intro>
+</ice>

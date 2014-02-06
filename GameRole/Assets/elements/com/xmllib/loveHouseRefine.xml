@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refine>
+	<fosters>
+		<foster maxPerfect="10000">
+			<item typeID="10010100" attr="1000,100|13,100|14,100|11,100"/>
+			<item typeID="10020100" attr="1000,100|13,100|14,100|11,100"/>
+			<item typeID="10030100" attr="1000,100|13,100|14,100|11,100"/>
+			<item typeID="10040100" attr="1000,100|13,100|14,100|11,100"/>
+			<item typeID="10050100" attr="1000,100|13,100|14,100|11,100"/>
+			<item typeID="10060100" attr="37,100|38,100|36,100|31,100"/>
+			<item typeID="10070100" attr="37,100|38,100|36,100|31,100"/>
+			<item typeID="10070200" attr="37,100|38,100|36,100|31,100"/>
+			<item typeID="10080100" attr="37,100|38,100|36,100|31,100"/>
+			<item typeID="10080300" attr="37,100|38,100|36,100|31,100"/>
+		</foster>			
+		<material><!--培养材料和完美符-->
+			<item typeID="11802005" type="1" minLv="1" maxLv="1" isShow="1" canBuy="1" />
+			<item typeID="11802006" type="1" minLv="1" maxLv="2" isShow="1" canBuy="1" />
+			<item typeID="11802007" type="1" minLv="1" maxLv="3" isShow="1" canBuy="1" />
+			<item typeID="11802008" type="1" minLv="1" maxLv="4" isShow="1" canBuy="1" />
+			<item typeID="11802009" type="1" minLv="1" maxLv="5" isShow="1" canBuy="1" />
+			<item typeID="11802010" type="1" minLv="1" maxLv="6" isShow="1" canBuy="1" />
+			<item typeID="11802011" type="1" minLv="1" maxLv="7" isShow="1" canBuy="1" />
+			<item typeID="11802012" type="1" minLv="1" maxLv="8" isShow="1" canBuy="1" />
+			<item typeID="11802013" type="1" minLv="1" maxLv="9" isShow="1" canBuy="1" />
+			<item typeID="11802014" type="1" minLv="1" maxLv="10" isShow="1" canBuy="1" />
+			<item typeID="11802015" type="2" minLv="1" maxLv="1" isShow="0" canBuy="0" />
+			<item typeID="11802016" type="2" minLv="1" maxLv="2" isShow="0" canBuy="0" />
+			<item typeID="11802017" type="2" minLv="1" maxLv="3" isShow="0" canBuy="0" />
+			<item typeID="11802018" type="2" minLv="1" maxLv="4" isShow="0" canBuy="0" />
+			<item typeID="11802019" type="2" minLv="1" maxLv="5" isShow="0" canBuy="0" />
+			<item typeID="11802020" type="2" minLv="1" maxLv="6" isShow="0" canBuy="0" />
+			<item typeID="11802021" type="2" minLv="1" maxLv="7" isShow="0" canBuy="0" />
+			<item typeID="11802022" type="2" minLv="1" maxLv="8" isShow="0" canBuy="0" />
+			<item typeID="11802023" type="2" minLv="1" maxLv="9" isShow="0" canBuy="0" />
+			<item typeID="11802024" type="2" minLv="1" maxLv="10" isShow="0" canBuy="0" />
+		</material>
+	</fosters>
+	<reinfs>
+		<reinf>
+			<sub typeID="20010100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20010200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20020100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20020200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20020300">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20030100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20040100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20040200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20050100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20050200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20060100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20060200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20060300">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20060400">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="37,3|38,3|36,3|31,3" />
+			</sub>
+			<sub typeID="20070100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20070200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20080100">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20080200">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20080300">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+			<sub typeID="20080400">
+				<item minLv="0" maxLv="80" defaultAttr="" unitAttr="1000,9|13,6|14,6|11,90" />
+			</sub>
+		</reinf>	
+		<upgrade>
+ <item lv="1" sweet="10" item=""/> 
+ <item lv="2" sweet="20" item=""/> 
+ <item lv="3" sweet="30" item=""/> 
+ <item lv="4" sweet="40" item=""/> 
+ <item lv="5" sweet="50" item=""/> 
+ <item lv="6" sweet="60" item=""/> 
+ <item lv="7" sweet="70" item=""/> 
+ <item lv="8" sweet="80" item=""/> 
+ <item lv="9" sweet="90" item=""/> 
+ <item lv="10" sweet="110" item=""/> 
+ <item lv="11" sweet="130" item=""/> 
+ <item lv="12" sweet="150" item=""/> 
+ <item lv="13" sweet="170" item=""/> 
+ <item lv="14" sweet="190" item=""/> 
+ <item lv="15" sweet="210" item=""/> 
+ <item lv="16" sweet="230" item=""/> 
+ <item lv="17" sweet="250" item=""/> 
+ <item lv="18" sweet="270" item=""/> 
+ <item lv="19" sweet="290" item=""/> 
+ <item lv="20" sweet="330" item=""/> 
+ <item lv="21" sweet="360" item=""/> 
+ <item lv="22" sweet="390" item=""/> 
+ <item lv="23" sweet="420" item=""/> 
+ <item lv="24" sweet="450" item=""/> 
+ <item lv="25" sweet="480" item=""/> 
+ <item lv="26" sweet="510" item=""/> 
+ <item lv="27" sweet="540" item=""/> 
+ <item lv="28" sweet="570" item=""/> 
+ <item lv="29" sweet="600" item=""/> 
+ <item lv="30" sweet="650" item=""/> 
+ <item lv="31" sweet="690" item=""/> 
+ <item lv="32" sweet="730" item=""/> 
+ <item lv="33" sweet="770" item=""/> 
+ <item lv="34" sweet="810" item=""/> 
+ <item lv="35" sweet="850" item=""/> 
+ <item lv="36" sweet="890" item=""/> 
+ <item lv="37" sweet="930" item=""/> 
+ <item lv="38" sweet="970" item=""/> 
+ <item lv="39" sweet="1010" item=""/> 
+ <item lv="40" sweet="1060" item=""/> 
+ <item lv="41" sweet="1110" item=""/> 
+ <item lv="42" sweet="1160" item=""/> 
+ <item lv="43" sweet="1210" item=""/> 
+ <item lv="44" sweet="1260" item=""/> 
+ <item lv="45" sweet="1310" item=""/> 
+ <item lv="46" sweet="1360" item=""/> 
+ <item lv="47" sweet="1410" item=""/> 
+ <item lv="48" sweet="1460" item=""/> 
+ <item lv="49" sweet="1510" item=""/> 
+ <item lv="50" sweet="1800" item=""/> 
+ <item lv="51" sweet="1900" item=""/> 
+ <item lv="52" sweet="2000" item=""/> 
+ <item lv="53" sweet="2100" item=""/> 
+ <item lv="54" sweet="2200" item=""/> 
+ <item lv="55" sweet="2300" item=""/> 
+ <item lv="56" sweet="2400" item=""/> 
+ <item lv="57" sweet="2500" item=""/> 
+ <item lv="58" sweet="2600" item=""/> 
+ <item lv="59" sweet="2700" item=""/> 
+ <item lv="60" sweet="3500" item=""/> 
+ <item lv="61" sweet="3800" item=""/> 
+ <item lv="62" sweet="4100" item=""/> 
+ <item lv="63" sweet="4400" item=""/> 
+ <item lv="64" sweet="4700" item=""/> 
+ <item lv="65" sweet="5000" item=""/> 
+ <item lv="66" sweet="5300" item=""/> 
+ <item lv="67" sweet="5600" item=""/> 
+ <item lv="68" sweet="5900" item=""/> 
+ <item lv="69" sweet="6200" item=""/> 
+ <item lv="70" sweet="7500" item=""/> 
+ <item lv="71" sweet="8000" item=""/> 
+ <item lv="72" sweet="8500" item=""/> 
+ <item lv="73" sweet="9000" item=""/> 
+ <item lv="74" sweet="9500" item=""/> 
+ <item lv="75" sweet="10000" item=""/> 
+ <item lv="76" sweet="10500" item=""/> 
+ <item lv="77" sweet="11000" item=""/> 
+ <item lv="78" sweet="11500" item=""/> 
+ <item lv="79" sweet="12000" item=""/> 
+ <item lv="80" sweet="15000" item=""/> 
+
+		</upgrade>
+	</reinfs>
+	<lvRewards>
+			<lvReward type="10">
+				<item minLv="30" maxLv="39" defaultAttr="" unitAttr="1000,200|13,200|14,200|11,200|37,200|38,200|36,200|31,200" />
+				<item minLv="40" maxLv="49" defaultAttr="" unitAttr="1000,300|13,300|14,300|11,300|37,300|38,300|36,300|31,300" />
+				<item minLv="50" maxLv="59" defaultAttr="" unitAttr="1000,400|13,400|14,400|11,400|37,400|38,400|36,400|31,400" />
+				<item minLv="60" maxLv="69" defaultAttr="" unitAttr="1000,500|13,500|14,500|11,500|37,500|38,500|36,500|31,500" />
+				<item minLv="70" maxLv="79" defaultAttr="" unitAttr="1000,600|13,600|14,600|11,600|37,600|38,600|36,600|31,600" />
+				<item minLv="80" maxLv="89" defaultAttr="" unitAttr="1000,800|13,800|14,800|11,800|37,800|38,800|36,800|31,800" />
+				<item minLv="90" maxLv="99" defaultAttr="" unitAttr="1000,1000|13,1000|14,1000|11,1000|37,1000|38,1000|36,1000|31,1000" />
+				<item minLv="100" maxLv="100" defaultAttr="" unitAttr="1000,1200|13,1200|14,1200|11,1200|37,1200|38,1200|36,1200|31,1200" />
+			</lvReward>
+			<lvReward type="20">
+				<item minLv="50" maxLv="99" defaultAttr="" unitAttr="1000,90|13,60|14,60|11,900|37,30|38,30|36,30|31,30" />
+				<item minLv="100" maxLv="199" defaultAttr="" unitAttr="1000,150|13,100|14,100|11,1500|37,50|38,50|36,50|31,50" />
+				<item minLv="200" maxLv="399" defaultAttr="" unitAttr="1000,300|13,200|14,200|11,3000|37,100|38,100|36,100|31,100" />
+				<item minLv="400" maxLv="599" defaultAttr="" unitAttr="1000,450|13,300|14,300|11,4500|37,150|38,150|36,150|31,150" />
+				<item minLv="600" maxLv="799" defaultAttr="" unitAttr="1000,600|13,400|14,400|11,6000|37,200|38,200|36,200|31,200" />
+				<item minLv="800" maxLv="999" defaultAttr="" unitAttr="1000,750|13,500|14,500|11,7500|37,250|38,250|36,250|31,250" />
+				<item minLv="1000" maxLv="1199" defaultAttr="" unitAttr="1000,900|13,600|14,600|11,9000|37,300|38,300|36,300|31,300" />
+				<item minLv="1200" maxLv="1399" defaultAttr="" unitAttr="1000,1050|13,700|14,700|11,10500|37,350|38,350|36,350|31,350" />
+				<item minLv="1400" maxLv="1599" defaultAttr="" unitAttr="1000,1500|13,1000|14,1000|11,15000|37,500|38,500|36,500|31,500" />
+				<item minLv="1600" maxLv="1600" defaultAttr="" unitAttr="1000,1800|13,1200|14,1200|11,18000|37,600|38,600|36,600|31,600" />
+			</lvReward>
+	</lvRewards>	
+</refine>

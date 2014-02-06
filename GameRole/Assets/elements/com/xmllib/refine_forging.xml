@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forging>
+<!-- 炼制  前端：张子然；策划：黄春越
+type：一级目录, sub是二级目录（请知：最好别做三级及更深的子目录）
+id：仅供程序使用,命令规则：一级目录为100的整数倍递增,二级目录以其父目录id递增
+sex、lv、category分别是开放条件,请以英文状态下的逗号隔开（不需要该条件置0即可）
+startTime、endTime：置0则非活动,始终显示；配置格式如：11/29/2012 10:00:00 
+formula：配方id,仅允许二级目录下配置这个参数,只显示一级目录的情况,也请配置一个二级目录。
+-->
+  
+<type name="活动炼制" id="3200" sex="0" lv="0,100" category="0" startTime="0" endTime="0" flag="activity" >
+	<sub name="冰皮月饼" id="3201" sex="0" lv="0,100" category="0" startTime="09/18/2013 00:00:00" endTime="09/27/2013 07:00:00" formula="349"/>
+	<sub name="国庆快乐礼包" id="3203" sex="0" lv="0,100" category="0" startTime="09/30/2013 00:00:00" endTime="10/10/2013 07:00:00" formula="351"/>
+	<sub name="圣诞惊喜大礼包" id="3204" sex="0" lv="0,100" category="0" startTime="12/23/2013 00:00:00" endTime="1/2/2014 8:00:00" formula="352"/>
+	<sub name="星际飞船形象卡" id="3205" sex="0" lv="0,100" category="0" startTime="0" endTime="0" formula="353"/>
+	<sub name="飞天灵猫形象卡" id="3206" sex="0" lv="0,100" category="0" startTime="0" endTime="0" formula="354"/>	
+</type> 
+
+<type name="装备碎片职业转换" id="3100" sex="0" lv="0,100" category="0" startTime="0" endTime="0" >
+	<sub name="天机·狂战碎片礼盒" id="3101"  sex="0" lv="0,100" category="1"  startTime="0" endTime="0" formula="287"/>
+	<sub name="天机·飞羽碎片礼盒" id="3102"  sex="0" lv="0,100" category="2"  startTime="0" endTime="0" formula="288"/>
+	<sub name="天机·舞天碎片礼盒" id="3103"  sex="0" lv="0,100" category="3"  startTime="0" endTime="0" formula="289"/>
+	<sub name="天机·碧落碎片礼盒" id="3104"  sex="0" lv="0,100" category="4"  startTime="0" endTime="0" formula="290"/>
+	<sub name="天机·狂战碎片礼盒" id="3105"  sex="0" lv="0,100" category="2,3,4"  startTime="0" endTime="0" formula="275"/>
+	<sub name="天机·飞羽碎片礼盒" id="3106"  sex="0" lv="0,100" category="1,3,4"  startTime="0" endTime="0" formula="276"/>
+	<sub name="天机·舞天碎片礼盒" id="3107"  sex="0" lv="0,100" category="1,2,4"  startTime="0" endTime="0" formula="277"/>
+	<sub name="天机·碧落碎片礼盒" id="3108" sex="0" lv="0,100"  category="1,2,3"  startTime="0" endTime="0" formula="278"/>	
+	<sub name="七煞·狂战碎片礼盒" id="3109"  sex="0" lv="0,100" category="1"  startTime="0" endTime="0" formula="291"/>
+	<sub name="七煞·飞羽碎片礼盒" id="3110"  sex="0" lv="0,100" category="2"  startTime="0" endTime="0" formula="292"/>
+	<sub name="七煞·舞天碎片礼盒" id="3111"  sex="0" lv="0,100" category="3"  startTime="0" endTime="0" formula="293"/>
+	<sub name="七煞·碧落碎片礼盒" id="3112"  sex="0" lv="0,100" category="4"  startTime="0" endTime="0" formula="294"/>
+	<sub name="七煞·狂战碎片礼盒" id="3113"  sex="0" lv="0,100" category="2,3,4"  startTime="0" endTime="0" formula="1"/>
+	<sub name="七煞·飞羽碎片礼盒" id="3114"  sex="0" lv="0,100" category="1,3,4"  startTime="0" endTime="0" formula="2"/>
+	<sub name="七煞·舞天碎片礼盒" id="3115"  sex="0" lv="0,100" category="1,2,4"  startTime="0" endTime="0" formula="3"/>
+	<sub name="七煞·碧落碎片礼盒" id="3116" sex="0" lv="0,100"  category="1,2,3"  startTime="0" endTime="0" formula="4"/>
+	<sub name="破军·狂战碎片礼盒" id="3117"  sex="0" lv="0,100" category="1"  startTime="0" endTime="0" formula="295"/>	
+	<sub name="破军·飞羽碎片礼盒" id="3118"  sex="0" lv="0,100" category="2"  startTime="0" endTime="0" formula="296"/>
+	<sub name="破军·舞天碎片礼盒" id="3119"  sex="0" lv="0,100" category="3"  startTime="0" endTime="0" formula="297"/>
+	<sub name="破军·碧落碎片礼盒" id="3120"  sex="0" lv="0,100" category="4"  startTime="0" endTime="0" formula="298"/>
+	<sub name="破军·狂战碎片礼盒" id="3121"  sex="0" lv="0,100" category="2,3,4"  startTime="0" endTime="0" formula="5"/>
+	<sub name="破军·飞羽碎片礼盒" id="3122"  sex="0" lv="0,100" category="1,3,4"  startTime="0" endTime="0" formula="6"/>
+	<sub name="破军·舞天碎片礼盒" id="3123"  sex="0" lv="0,100" category="1,2,4"  startTime="0" endTime="0" formula="7"/>
+	<sub name="破军·碧落碎片礼盒" id="3124" sex="0" lv="0,100"  category="1,2,3"  startTime="0" endTime="0" formula="8"/>		
+	<sub name="贪狼·狂战碎片礼盒" id="3125"  sex="0" lv="0,100" category="1"  startTime="0" endTime="0" formula="299"/>
+	<sub name="贪狼·飞羽碎片礼盒" id="3126"  sex="0" lv="0,100" category="2"  startTime="0" endTime="0" formula="300"/>
+	<sub name="贪狼·舞天碎片礼盒" id="3127"  sex="0" lv="0,100" category="3"  startTime="0" endTime="0" formula="301"/>
+	<sub name="贪狼·碧落碎片礼盒" id="3128"  sex="0" lv="0,100" category="4"  startTime="0" endTime="0" formula="302"/>
+	<sub name="贪狼·狂战碎片礼盒" id="3129"  sex="0" lv="0,100" category="2,3,4"  startTime="0" endTime="0" formula="9"/>
+	<sub name="贪狼·飞羽碎片礼盒" id="3130"  sex="0" lv="0,100" category="1,3,4"  startTime="0" endTime="0" formula="10"/>
+	<sub name="贪狼·舞天碎片礼盒" id="3131"  sex="0" lv="0,100" category="1,2,4"  startTime="0" endTime="0" formula="11"/>
+	<sub name="贪狼·碧落碎片礼盒" id="3132" sex="0" lv="0,100"  category="1,2,3"  startTime="0" endTime="0" formula="12"/>			
+	<sub name="紫微·狂战碎片礼盒" id="3133"  sex="0" lv="0,100" category="1"  startTime="0" endTime="0" formula="303"/>	
+	<sub name="紫微·飞羽碎片礼盒" id="3134"  sex="0" lv="0,100" category="2"  startTime="0" endTime="0" formula="304"/>		
+	<sub name="紫微·舞天碎片礼盒" id="3135"  sex="0" lv="0,100" category="3"  startTime="0" endTime="0" formula="305"/>	
+	<sub name="紫微·碧落碎片礼盒" id="3136"  sex="0" lv="0,100" category="4"  startTime="0" endTime="0" formula="306"/>	
+	<sub name="紫微·狂战碎片礼盒" id="3137"  sex="0" lv="0,100" category="2,3,4"  startTime="0" endTime="0" formula="13"/>
+	<sub name="紫微·飞羽碎片礼盒" id="3138"  sex="0" lv="0,100" category="1,3,4"  startTime="0" endTime="0" formula="14"/>
+	<sub name="紫微·舞天碎片礼盒" id="3139"  sex="0" lv="0,100" category="1,2,4"  startTime="0" endTime="0" formula="15"/>
+	<sub name="紫微·碧落碎片礼盒" id="3140" sex="0" lv="0,100"  category="1,2,3"  startTime="0" endTime="0" formula="16"/>	
+</type>
+
+<type name="40级天机套装" id="200" sex="0" lv="0,100" category="1" startTime="0" endTime="0" flag="equip_40" >   
+ <sub name="天机·狂战刀" id="201" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="66"/>  
+ <sub name="天机·狂战项链" id="202" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="67"/>  
+ <sub name="天机·狂战戒指" id="203" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="68"/>  
+ <sub name="天机·狂战护符" id="204" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="69"/>  
+ <sub name="天机·狂战鞋子" id="205" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="70"/>  
+ <sub name="天机·狂战头盔" id="206" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="71"/>  
+ <sub name="天机·狂战护甲" id="207" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="72" flag="equip_40_armor"/>  
+ <sub name="天机·狂战护手" id="208" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="73"/>  
+ <sub name="天机·狂战护腕" id="209" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="74"/>  
+ <sub name="天机·狂战腰带" id="210" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="75"/> </type> 
+
+<type name="40级天机套装" id="300" sex="0" lv="0,100" category="2" startTime="0" endTime="0" flag="equip_40" >   
+ <sub name="天机·飞羽弓" id="301" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="116"/>  
+ <sub name="天机·飞羽项链" id="302" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="117"/>  
+ <sub name="天机·飞羽戒指" id="303" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="118"/>  
+ <sub name="天机·飞羽护符" id="304" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="119"/>  
+ <sub name="天机·飞羽鞋子" id="305" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="120"/>  
+ <sub name="天机·飞羽头盔" id="306" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="121"/>  
+ <sub name="天机·飞羽护甲" id="307" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="122" flag="equip_40_armor"/>  
+ <sub name="天机·飞羽护手" id="308" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="123"/>  
+ <sub name="天机·飞羽护腕" id="309" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="124"/>  
+ <sub name="天机·飞羽腰带" id="310" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="125"/> </type> 
+
+<type name="40级天机套装" id="400" sex="0" lv="0,100" category="3" startTime="0" endTime="0" flag="equip_40" >   
+ <sub name="天机·舞天扇" id="401" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="166"/>  
+ <sub name="天机·舞天项链" id="402" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="167"/>  
+ <sub name="天机·舞天戒指" id="403" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="168"/>  
+ <sub name="天机·舞天护符" id="404" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="169"/>  
+ <sub name="天机·舞天鞋子" id="405" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="170"/>  
+ <sub name="天机·舞天头盔" id="406" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="171"/>  
+ <sub name="天机·舞天护甲" id="407" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="172" flag="equip_40_armor"/>  
+ <sub name="天机·舞天护手" id="408" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="173"/>  
+ <sub name="天机·舞天护腕" id="409" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="174"/>  
+ <sub name="天机·舞天腰带" id="410" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="175"/> </type> 
+
+<type name="40级天机套装" id="500" sex="0" lv="0,100" category="4" startTime="0" endTime="0" flag="equip_40" >   
+ <sub name="天机·碧落杖" id="501" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="216"/>  
+ <sub name="天机·碧落项链" id="502" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="217"/>  
+ <sub name="天机·碧落戒指" id="503" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="218"/>  
+ <sub name="天机·碧落护符" id="504" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="219"/>  
+ <sub name="天机·碧落鞋子" id="505" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="220"/>  
+ <sub name="天机·碧落头盔" id="506" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="221"/>  
+ <sub name="天机·碧落护甲" id="507" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="222" flag="equip_40_armor"/>  
+ <sub name="天机·碧落护手" id="508" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="223"/>  
+ <sub name="天机·碧落护腕" id="509" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="224"/>  
+ <sub name="天机·碧落腰带" id="510" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="225"/> </type> 
+   
+<type name="40级天机碎片" id="600" sex="0" lv="0,100" category="0" startTime="0" endTime="0"  >   
+ <sub name="天机·狂战碎片结晶" id="613"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="311"/>
+ <sub name="天机·飞羽碎片结晶" id="614"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="312"/>
+ <sub name="天机·舞天碎片结晶" id="615"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="313"/>
+ <sub name="天机·碧落碎片结晶" id="616" sex="0" lv="0,100"  category="0"  startTime="0" endTime="0" formula="314"/>	
+ <sub name="天机·狂战碎片礼盒" id="609"  sex="0" lv="0,100" category="1"  startTime="0" endTime="0" formula="275"/>
+ <sub name="天机·飞羽碎片礼盒" id="610"  sex="0" lv="0,100" category="2"  startTime="0" endTime="0" formula="276"/>
+ <sub name="天机·舞天碎片礼盒" id="611"  sex="0" lv="0,100" category="3"  startTime="0" endTime="0" formula="277"/>
+ <sub name="天机·碧落碎片礼盒" id="612" sex="0" lv="0,100"  category="4"  startTime="0" endTime="0" formula="278"/>		
+ <sub name="天机·狂战护手碎片" id="601" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="26"/>  
+ <sub name="天机·狂战护腕碎片" id="602" sex="0" lv="0,100" category="1" startTime="0" endTime="0" formula="27"/>  
+ <sub name="天机·飞羽护手碎片" id="603" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="28"/>  
+ <sub name="天机·飞羽护腕碎片" id="604" sex="0" lv="0,100" category="2" startTime="0" endTime="0" formula="29"/>  
+ <sub name="天机·舞天护手碎片" id="605" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="30"/>  
+ <sub name="天机·舞天护腕碎片" id="606" sex="0" lv="0,100" category="3" startTime="0" endTime="0" formula="31"/>  
+ <sub name="天机·碧落护手碎片" id="607" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="32"/>  
+ <sub name="天机·碧落护腕碎片" id="608" sex="0" lv="0,100" category="4" startTime="0" endTime="0" formula="33"/> </type> 
+ 
+<type name="50级七煞套装" id="700" sex="0" lv="50,100" category="1" startTime="0" endTime="0" flag="equip_50" >   
+ <sub name="七煞·狂战刀" id="701" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="76"/>  
+ <sub name="七煞·狂战项链" id="702" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="77"/>  
+ <sub name="七煞·狂战戒指" id="703" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="78"/>  
+ <sub name="七煞·狂战护符" id="704" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="79"/>  
+ <sub name="七煞·狂战鞋子" id="705" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="80"/>  
+ <sub name="七煞·狂战头盔" id="706" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="81"/>  
+ <sub name="七煞·狂战护甲" id="707" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="82"/>  
+ <sub name="七煞·狂战护手" id="708" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="83"/>  
+ <sub name="七煞·狂战护腕" id="709" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="84"/>  
+ <sub name="七煞·狂战腰带" id="710" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="85"/> </type> 
+
+<type name="50级七煞套装" id="800" sex="0" lv="50,100" category="2" startTime="0" endTime="0" flag="equip_50" >   
+ <sub name="七煞·飞羽弓" id="801" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="126"/>  
+ <sub name="七煞·飞羽项链" id="802" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="127"/>  
+ <sub name="七煞·飞羽戒指" id="803" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="128"/>  
+ <sub name="七煞·飞羽护符" id="804" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="129"/>  
+ <sub name="七煞·飞羽鞋子" id="805" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="130"/>  
+ <sub name="七煞·飞羽头盔" id="806" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="131"/>  
+ <sub name="七煞·飞羽护甲" id="807" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="132"/>  
+ <sub name="七煞·飞羽护手" id="808" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="133"/>  
+ <sub name="七煞·飞羽护腕" id="809" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="134"/>  
+ <sub name="七煞·飞羽腰带" id="810" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="135"/> </type> 
+
+ <type name="50级七煞套装" id="900" sex="0" lv="50,100" category="3" startTime="0" endTime="0" flag="equip_50" >   
+ <sub name="七煞·舞天扇" id="901" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="176"/>  
+ <sub name="七煞·舞天项链" id="902" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="177"/>  
+ <sub name="七煞·舞天戒指" id="903" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="178"/>  
+ <sub name="七煞·舞天护符" id="904" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="179"/>  
+ <sub name="七煞·舞天鞋子" id="905" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="180"/>  
+ <sub name="七煞·舞天头盔" id="906" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="181"/>  
+ <sub name="七煞·舞天护甲" id="907" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="182"/>  
+ <sub name="七煞·舞天护手" id="908" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="183"/>  
+ <sub name="七煞·舞天护腕" id="909" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="184"/>  
+ <sub name="七煞·舞天腰带" id="910" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="185"/> </type> 
+
+<type name="50级七煞套装" id="1000" sex="0" lv="50,100" category="4" startTime="0" endTime="0" flag="equip_50" >   
+ <sub name="七煞·碧落杖" id="1001" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="226"/>  
+ <sub name="七煞·碧落项链" id="1002" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="227"/>  
+ <sub name="七煞·碧落戒指" id="1003" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="228"/>  
+ <sub name="七煞·碧落护符" id="1004" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="229"/>  
+ <sub name="七煞·碧落鞋子" id="1005" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="230"/>  
+ <sub name="七煞·碧落头盔" id="1006" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="231"/>  
+ <sub name="七煞·碧落护甲" id="1007" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="232"/>  
+ <sub name="七煞·碧落护手" id="1008" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="233"/>  
+ <sub name="七煞·碧落护腕" id="1009" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="234"/>  
+ <sub name="七煞·碧落腰带" id="1010" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="235"/> </type> 
+
+<type name="50级七煞碎片" id="1100" sex="0" lv="50,100" category="0" startTime="0" endTime="0">
+	<sub name="七煞·狂战碎片结晶" id="1113"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="315"/>
+	<sub name="七煞·飞羽碎片结晶" id="1114"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="316"/>
+	<sub name="七煞·舞天碎片结晶" id="1115"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="317"/>
+	<sub name="七煞·碧落碎片结晶" id="1116" sex="0" lv="50,100"  category="0"  startTime="0" endTime="0" formula="318"/>		
+	<sub name="七煞·狂战碎片礼盒" id="1101"  sex="0" lv="50,100" category="1"  startTime="0" endTime="0" formula="1"/>
+	<sub name="七煞·飞羽碎片礼盒" id="1102"  sex="0" lv="50,100" category="2"  startTime="0" endTime="0" formula="2"/>
+	<sub name="七煞·舞天碎片礼盒" id="1103"  sex="0" lv="50,100" category="3"  startTime="0" endTime="0" formula="3"/>
+	<sub name="七煞·碧落碎片礼盒" id="1104" sex="0" lv="50,100"  category="4"  startTime="0" endTime="0" formula="4"/>		
+	<sub name="七煞·狂战护手碎片" id="1105" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="34"/>  
+	<sub name="七煞·狂战护腕碎片" id="1106" sex="0" lv="50,100" category="1" startTime="0" endTime="0" formula="35"/>  
+	<sub name="七煞·飞羽护手碎片" id="1107" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="36"/>  
+	<sub name="七煞·飞羽护腕碎片" id="1108" sex="0" lv="50,100" category="2" startTime="0" endTime="0" formula="37"/>  
+	<sub name="七煞·舞天护手碎片" id="1109" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="38"/>  
+	<sub name="七煞·舞天护腕碎片" id="1110" sex="0" lv="50,100" category="3" startTime="0" endTime="0" formula="39"/>  
+	<sub name="七煞·碧落护手碎片" id="1111" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="40"/>  
+	<sub name="七煞·碧落护腕碎片" id="1112" sex="0" lv="50,100" category="4" startTime="0" endTime="0" formula="41"/>
+</type>
+
+<type name="60级破军套装" id="1200" sex="0" lv="60,100" category="1" startTime="0" endTime="0" flag="equip_60" >   
+ <sub name="破军·狂战刀" id="1201" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="86"/>  
+ <sub name="破军·狂战项链" id="1202" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="87"/>  
+ <sub name="破军·狂战戒指" id="1203" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="88"/>  
+ <sub name="破军·狂战护符" id="1204" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="89"/>  
+ <sub name="破军·狂战鞋子" id="1205" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="90"/>  
+ <sub name="破军·狂战头盔" id="1206" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="91"/>  
+ <sub name="破军·狂战护甲" id="1207" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="92"/>  
+ <sub name="破军·狂战护手" id="1208" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="93"/>  
+ <sub name="破军·狂战护腕" id="1209" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="94"/>  
+ <sub name="破军·狂战腰带" id="1210" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="95"/> </type> 
+
+ <type name="60级破军套装" id="1300" sex="0" lv="60,100" category="2" startTime="0" endTime="0" flag="equip_60" >   
+ <sub name="破军·飞羽弓" id="1301" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="136"/>  
+ <sub name="破军·飞羽项链" id="1302" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="137"/>  
+ <sub name="破军·飞羽戒指" id="1303" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="138"/>  
+ <sub name="破军·飞羽护符" id="1304" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="139"/>  
+ <sub name="破军·飞羽鞋子" id="1305" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="140"/>  
+ <sub name="破军·飞羽头盔" id="1306" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="141"/>  
+ <sub name="破军·飞羽护甲" id="1307" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="142"/>  
+ <sub name="破军·飞羽护手" id="1308" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="143"/>  
+ <sub name="破军·飞羽护腕" id="1309" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="144"/>  
+ <sub name="破军·飞羽腰带" id="1310" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="145"/> </type> 
+
+<type name="60级破军套装" id="1400" sex="0" lv="60,100" category="3" startTime="0" endTime="0" flag="equip_60" >   
+ <sub name="破军·舞天扇" id="1401" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="186"/>  
+ <sub name="破军·舞天项链" id="1402" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="187"/>  
+ <sub name="破军·舞天戒指" id="1403" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="188"/>  
+ <sub name="破军·舞天护符" id="1404" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="189"/>  
+ <sub name="破军·舞天鞋子" id="1405" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="190"/>  
+ <sub name="破军·舞天头盔" id="1406" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="191"/>  
+ <sub name="破军·舞天护甲" id="1407" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="192"/>  
+ <sub name="破军·舞天护手" id="1408" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="193"/>  
+ <sub name="破军·舞天护腕" id="1409" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="194"/>  
+ <sub name="破军·舞天腰带" id="1410" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="195"/> </type> 
+
+<type name="60级破军套装" id="1500" sex="0" lv="60,100" category="4" startTime="0" endTime="0" flag="equip_60" >   
+ <sub name="破军·碧落杖" id="1501" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="236"/>  
+ <sub name="破军·碧落项链" id="1502" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="237"/>  
+ <sub name="破军·碧落戒指" id="1503" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="238"/>  
+ <sub name="破军·碧落护符" id="1504" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="239"/>  
+ <sub name="破军·碧落鞋子" id="1505" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="240"/>  
+ <sub name="破军·碧落头盔" id="1506" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="241"/>  
+ <sub name="破军·碧落护甲" id="1507" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="242"/>  
+ <sub name="破军·碧落护手" id="1508" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="243"/>  
+ <sub name="破军·碧落护腕" id="1509" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="244"/>  
+ <sub name="破军·碧落腰带" id="1510" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="245"/> </type> 
+
+<type name="60级破军碎片" id="1600" sex="0" lv="60,100" category="0" startTime="0" endTime="0">
+	<sub name="破军·狂战碎片结晶" id="1613"  sex="0" lv="60,100" category="0"  startTime="0" endTime="0" formula="319"/>
+	<sub name="破军·飞羽碎片结晶" id="1614"  sex="0" lv="60,100" category="0"  startTime="0" endTime="0" formula="320"/>
+	<sub name="破军·舞天碎片结晶" id="1615"  sex="0" lv="60,100" category="0"  startTime="0" endTime="0" formula="321"/>
+	<sub name="破军·碧落碎片结晶" id="1616" sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="322"/>	
+	<sub name="破军·狂战碎片礼盒" id="1601"  sex="0" lv="60,100" category="1"  startTime="0" endTime="0" formula="5"/>
+	<sub name="破军·飞羽碎片礼盒" id="1602"  sex="0" lv="60,100" category="2"  startTime="0" endTime="0" formula="6"/>
+	<sub name="破军·舞天碎片礼盒" id="1603"  sex="0" lv="60,100" category="3"  startTime="0" endTime="0" formula="7"/>
+	<sub name="破军·碧落碎片礼盒" id="1604" sex="0" lv="60,100"  category="4"  startTime="0" endTime="0" formula="8"/>	
+	<sub name="破军·狂战护手碎片" id="1605" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="42"/>  
+	<sub name="破军·狂战护腕碎片" id="1606" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="43"/>  
+	<sub name="破军·飞羽护手碎片" id="1607" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="44"/>  
+	<sub name="破军·飞羽护腕碎片" id="1608" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="45"/>  
+	<sub name="破军·舞天护手碎片" id="1609" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="46"/>  
+	<sub name="破军·舞天护腕碎片" id="1610" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="47"/>  
+	<sub name="破军·碧落护手碎片" id="1611" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="48"/>  
+	<sub name="破军·碧落护腕碎片" id="1612" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="49"/>	
+</type>
+
+<type name="70级贪狼套装" id="1700" sex="0" lv="60,100" category="1" startTime="0" endTime="0" flag="equip_70" >   
+ <sub name="贪狼·狂战刀" id="1701" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="96"/>  
+ <sub name="贪狼·狂战项链" id="1702" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="97"/>  
+ <sub name="贪狼·狂战戒指" id="1703" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="98"/>  
+ <sub name="贪狼·狂战护符" id="1704" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="99"/>  
+ <sub name="贪狼·狂战鞋子" id="1705" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="100"/>  
+ <sub name="贪狼·狂战头盔" id="1706" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="101"/>  
+ <sub name="贪狼·狂战护甲" id="1707" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="102"/>  
+ <sub name="贪狼·狂战护手" id="1708" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="103"/>  
+ <sub name="贪狼·狂战护腕" id="1709" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="104"/>  
+ <sub name="贪狼·狂战腰带" id="1710" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="105"/> </type> 
+
+<type name="70级贪狼套装" id="1800" sex="0" lv="60,100" category="2" startTime="0" endTime="0" flag="equip_70" >   
+ <sub name="贪狼·飞羽弓" id="1801" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="146"/>  
+ <sub name="贪狼·飞羽项链" id="1802" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="147"/>  
+ <sub name="贪狼·飞羽戒指" id="1803" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="148"/>  
+ <sub name="贪狼·飞羽护符" id="1804" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="149"/>  
+ <sub name="贪狼·飞羽鞋子" id="1805" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="150"/>  
+ <sub name="贪狼·飞羽头盔" id="1806" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="151"/>  
+ <sub name="贪狼·飞羽护甲" id="1807" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="152"/>  
+ <sub name="贪狼·飞羽护手" id="1808" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="153"/>  
+ <sub name="贪狼·飞羽护腕" id="1809" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="154"/>  
+ <sub name="贪狼·飞羽腰带" id="1810" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="155"/> </type> 
+
+<type name="70级贪狼套装" id="1900" sex="0" lv="60,100" category="3" startTime="0" endTime="0"  flag="equip_70" >   
+ <sub name="贪狼·舞天扇" id="1901" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="196"/>  
+ <sub name="贪狼·舞天项链" id="1902" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="197"/>  
+ <sub name="贪狼·舞天戒指" id="1903" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="198"/>  
+ <sub name="贪狼·舞天护符" id="1904" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="199"/>  
+ <sub name="贪狼·舞天鞋子" id="1905" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="200"/>  
+ <sub name="贪狼·舞天头盔" id="1906" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="201"/>  
+ <sub name="贪狼·舞天护甲" id="1907" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="202"/>  
+ <sub name="贪狼·舞天护手" id="1908" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="203"/>  
+ <sub name="贪狼·舞天护腕" id="1909" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="204"/>  
+ <sub name="贪狼·舞天腰带" id="1910" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="205"/> </type> 
+
+<type name="70级贪狼套装" id="2000" sex="0" lv="60,100" category="4" startTime="0" endTime="0" flag="equip_70" >   
+ <sub name="贪狼·碧落杖" id="2001" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="246"/>  
+ <sub name="贪狼·碧落项链" id="2002" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="247"/>  
+ <sub name="贪狼·碧落戒指" id="2003" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="248"/>  
+ <sub name="贪狼·碧落护符" id="2004" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="249"/>  
+ <sub name="贪狼·碧落鞋子" id="2005" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="250"/>  
+ <sub name="贪狼·碧落头盔" id="2006" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="251"/>  
+ <sub name="贪狼·碧落护甲" id="2007" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="252"/>  
+ <sub name="贪狼·碧落护手" id="2008" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="253"/>  
+ <sub name="贪狼·碧落护腕" id="2009" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="254"/>  
+ <sub name="贪狼·碧落腰带" id="2010" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="255"/> </type> 
+
+<type name="70级贪狼碎片" id="2100" sex="0" lv="60,100" category="0" startTime="0" endTime="0">
+	<sub name="贪狼·狂战碎片结晶" id="2113"  sex="0" lv="60,100" category="0"  startTime="0" endTime="0" formula="323"/>
+	<sub name="贪狼·飞羽碎片结晶" id="2114"  sex="0" lv="60,100" category="0"  startTime="0" endTime="0" formula="324"/>
+	<sub name="贪狼·舞天碎片结晶" id="2115"  sex="0" lv="60,100" category="0"  startTime="0" endTime="0" formula="325"/>
+	<sub name="贪狼·碧落碎片结晶" id="2116" sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="326"/>	
+	<sub name="贪狼·狂战碎片礼盒" id="2101"  sex="0" lv="60,100" category="1"  startTime="0" endTime="0" formula="9"/>
+	<sub name="贪狼·飞羽碎片礼盒" id="2102"  sex="0" lv="60,100" category="2"  startTime="0" endTime="0" formula="10"/>
+	<sub name="贪狼·舞天碎片礼盒" id="2103"  sex="0" lv="60,100" category="3"  startTime="0" endTime="0" formula="11"/>
+	<sub name="贪狼·碧落碎片礼盒" id="2104" sex="0" lv="60,100"  category="4"  startTime="0" endTime="0" formula="12"/>	
+	<sub name="贪狼·狂战护手碎片" id="2105" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="50"/>  
+	<sub name="贪狼·狂战护腕碎片" id="2106" sex="0" lv="60,100" category="1" startTime="0" endTime="0" formula="51"/>  
+	<sub name="贪狼·飞羽护手碎片" id="2107" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="52"/>  
+	<sub name="贪狼·飞羽护腕碎片" id="2108" sex="0" lv="60,100" category="2" startTime="0" endTime="0" formula="53"/>  
+	<sub name="贪狼·舞天护手碎片" id="2109" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="54"/>  
+	<sub name="贪狼·舞天护腕碎片" id="2110" sex="0" lv="60,100" category="3" startTime="0" endTime="0" formula="55"/>  
+	<sub name="贪狼·碧落护手碎片" id="2111" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="56"/>  
+	<sub name="贪狼·碧落护腕碎片" id="2112" sex="0" lv="60,100" category="4" startTime="0" endTime="0" formula="57"/>
+</type>
+
+<type name="80级紫微套装" id="2200" sex="0" lv="70,100" category="1" startTime="0" endTime="0" flag="equip_80" >   
+ <sub name="紫微·狂战刀" id="2201" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="106"/>  
+ <sub name="紫微·狂战项链" id="2202" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="107"/>  
+ <sub name="紫微·狂战戒指" id="2203" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="108"/>  
+ <sub name="紫微·狂战护符" id="2204" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="109"/>  
+ <sub name="紫微·狂战鞋子" id="2205" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="110"/>  
+ <sub name="紫微·狂战头盔" id="2206" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="111"/>  
+ <sub name="紫微·狂战护甲" id="2207" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="112"/>  
+ <sub name="紫微·狂战护手" id="2208" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="113"/>  
+ <sub name="紫微·狂战护腕" id="2209" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="114"/>  
+ <sub name="紫微·狂战腰带" id="2210" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="115"/> </type> 
+
+<type name="80级紫微套装" id="2300" sex="0" lv="70,100" category="2" startTime="0" endTime="0" flag="equip_80" >   
+ <sub name="紫微·飞羽弓" id="2301" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="156"/>  
+ <sub name="紫微·飞羽项链" id="2302" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="157"/>  
+ <sub name="紫微·飞羽戒指" id="2303" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="158"/>  
+ <sub name="紫微·飞羽护符" id="2304" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="159"/>  
+ <sub name="紫微·飞羽鞋子" id="2305" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="160"/>  
+ <sub name="紫微·飞羽头盔" id="2306" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="161"/>  
+ <sub name="紫微·飞羽护甲" id="2307" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="162"/>  
+ <sub name="紫微·飞羽护手" id="2308" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="163"/>  
+ <sub name="紫微·飞羽护腕" id="2309" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="164"/>  
+ <sub name="紫微·飞羽腰带" id="2310" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="165"/> </type> 
+
+<type name="80级紫微套装" id="2400" sex="0" lv="70,100" category="3" startTime="0" endTime="0" flag="equip_80" >   
+ <sub name="紫微·舞天扇" id="2401" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="206"/>  
+ <sub name="紫微·舞天项链" id="2402" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="207"/>  
+ <sub name="紫微·舞天戒指" id="2403" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="208"/>  
+ <sub name="紫微·舞天护符" id="2404" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="209"/>  
+ <sub name="紫微·舞天鞋子" id="2405" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="210"/>  
+ <sub name="紫微·舞天头盔" id="2406" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="211"/>  
+ <sub name="紫微·舞天护甲" id="2407" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="212"/>  
+ <sub name="紫微·舞天护手" id="2408" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="213"/>  
+ <sub name="紫微·舞天护腕" id="2409" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="214"/>  
+ <sub name="紫微·舞天腰带" id="2410" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="215"/> </type> 
+
+<type name="80级紫微套装" id="2500" sex="0" lv="70,100" category="4" startTime="0" endTime="0" flag="equip_80" >   
+ <sub name="紫微·碧落杖" id="2501" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="256"/>  
+ <sub name="紫微·碧落项链" id="2502" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="257"/>  
+ <sub name="紫微·碧落戒指" id="2503" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="258"/>  
+ <sub name="紫微·碧落护符" id="2504" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="259"/>  
+ <sub name="紫微·碧落鞋子" id="2505" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="260"/>  
+ <sub name="紫微·碧落头盔" id="2506" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="261"/>  
+ <sub name="紫微·碧落护甲" id="2507" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="262"/>  
+ <sub name="紫微·碧落护手" id="2508" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="263"/>  
+ <sub name="紫微·碧落护腕" id="2509" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="264"/>  
+ <sub name="紫微·碧落腰带" id="2510" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="265"/> </type> 
+
+<type name="80级紫微碎片" id="2600" sex="0" lv="70,100" category="0" startTime="0" endTime="0">
+	<sub name="紫微·狂战碎片礼盒" id="2601"  sex="0" lv="70,100" category="1"  startTime="0" endTime="0" formula="13"/>
+	<sub name="紫微·飞羽碎片礼盒" id="2602"  sex="0" lv="70,100" category="2"  startTime="0" endTime="0" formula="14"/>
+	<sub name="紫微·舞天碎片礼盒" id="2603"  sex="0" lv="70,100" category="3"  startTime="0" endTime="0" formula="15"/>
+	<sub name="紫微·碧落碎片礼盒" id="2604" sex="0" lv="70,100"  category="4"  startTime="0" endTime="0" formula="16"/>		
+	<sub name="紫微·狂战护手碎片" id="2605" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="58"/>  
+	<sub name="紫微·狂战护腕碎片" id="2606" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="59"/>  
+	<sub name="紫微·飞羽护手碎片" id="2607" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="60"/>  
+	<sub name="紫微·飞羽护腕碎片" id="2608" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="61"/>  
+	<sub name="紫微·舞天护手碎片" id="2609" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="62"/>  
+	<sub name="紫微·舞天护腕碎片" id="2610" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="63"/>  
+	<sub name="紫微·碧落护手碎片" id="2611" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="64"/>  
+	<sub name="紫微·碧落护腕碎片" id="2612" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="65"/>	
+</type>
+
+  <type name="85级玉衡套装" id="4600" sex="0" lv="70,100" category="1" startTime="0" endTime="0" flag="equip_85" >   
+ <sub name="玉衡·狂战刀"   id="4601" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="455"/>  
+ <sub name="玉衡·狂战项链" id="4602" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="456"/>  
+ <sub name="玉衡·狂战戒指" id="4603" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="457"/>  
+ <sub name="玉衡·狂战护符" id="4604" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="458"/>  
+ <sub name="玉衡·狂战鞋子" id="4605" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="459"/>  
+ <sub name="玉衡·狂战头盔" id="4606" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="460"/>  
+ <sub name="玉衡·狂战护甲" id="4607" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="461"/>  
+ <sub name="玉衡·狂战护手" id="4608" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="462"/>  
+ <sub name="玉衡·狂战护腕" id="4609" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="463"/>  
+ <sub name="玉衡·狂战腰带" id="4610" sex="0" lv="70,100" category="1" startTime="0" endTime="0" formula="464"/> </type> 
+
+<type name="85级玉衡套装" id="4700" sex="0" lv="70,100" category="2" startTime="0" endTime="0" flag="equip_85" >   
+ <sub name="玉衡·飞羽弓"   id="4701" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="465"/>  
+ <sub name="玉衡·飞羽项链" id="4702" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="466"/>  
+ <sub name="玉衡·飞羽戒指" id="4703" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="467"/>  
+ <sub name="玉衡·飞羽护符" id="4704" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="468"/>  
+ <sub name="玉衡·飞羽鞋子" id="4705" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="469"/>  
+ <sub name="玉衡·飞羽头盔" id="4706" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="470"/>  
+ <sub name="玉衡·飞羽护甲" id="4707" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="471"/>  
+ <sub name="玉衡·飞羽护手" id="4708" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="472"/>  
+ <sub name="玉衡·飞羽护腕" id="4709" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="473"/>  
+ <sub name="玉衡·飞羽腰带" id="4710" sex="0" lv="70,100" category="2" startTime="0" endTime="0" formula="474"/> </type> 
+
+<type name="85级玉衡套装" id="4800" sex="0" lv="70,100" category="3" startTime="0" endTime="0" flag="equip_85" >   
+ <sub name="玉衡·舞天扇" id="4801" sex="0" lv="70,100" category="3" startTime="0" endTime="0"   formula="475"/>  
+ <sub name="玉衡·舞天项链" id="4802" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="476"/>  
+ <sub name="玉衡·舞天戒指" id="4803" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="477"/>  
+ <sub name="玉衡·舞天护符" id="4804" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="478"/>  
+ <sub name="玉衡·舞天鞋子" id="4805" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="479"/>  
+ <sub name="玉衡·舞天头盔" id="4806" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="480"/>  
+ <sub name="玉衡·舞天护甲" id="4807" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="481"/>  
+ <sub name="玉衡·舞天护手" id="4808" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="482"/>  
+ <sub name="玉衡·舞天护腕" id="4809" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="483"/>  
+ <sub name="玉衡·舞天腰带" id="4810" sex="0" lv="70,100" category="3" startTime="0" endTime="0" formula="484"/> </type> 
+
+<type name="85级玉衡套装" id="4900" sex="0" lv="70,100" category="4" startTime="0" endTime="0" flag="equip_85" >   
+ <sub name="玉衡·碧落杖" id="4901" sex="0" lv="70,100" category="4" startTime="0" endTime="0"   formula="485"/>  
+ <sub name="玉衡·碧落项链" id="4902" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="486"/>  
+ <sub name="玉衡·碧落戒指" id="4903" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="487"/>  
+ <sub name="玉衡·碧落护符" id="4904" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="488"/>  
+ <sub name="玉衡·碧落鞋子" id="4905" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="489"/>  
+ <sub name="玉衡·碧落头盔" id="4906" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="490"/>  
+ <sub name="玉衡·碧落护甲" id="4907" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="491"/>  
+ <sub name="玉衡·碧落护手" id="4908" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="492"/>  
+ <sub name="玉衡·碧落护腕" id="4909" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="493"/>  
+ <sub name="玉衡·碧落腰带" id="4910" sex="0" lv="70,100" category="4" startTime="0" endTime="0" formula="494"/> </type> 
+
+<type name="85级玉衡碎片" id="5000" sex="0" lv="70,100" category="0" startTime="0" endTime="0">
+	<sub name="玉衡·狂战碎片礼盒" id="5001"  sex="0" lv="70,100" category="1"  startTime="0" endTime="0" formula="495"/>
+	<sub name="玉衡·飞羽碎片礼盒" id="5002"  sex="0" lv="70,100" category="2"  startTime="0" endTime="0" formula="496"/>
+	<sub name="玉衡·舞天碎片礼盒" id="5003"  sex="0" lv="70,100" category="3"  startTime="0" endTime="0" formula="497"/>
+	<sub name="玉衡·碧落碎片礼盒" id="5004" sex="0" lv="70,100"  category="4"  startTime="0" endTime="0" formula="498"/>		
+</type>
+  
+  
+<type name="强化材料" id="100" sex="0" lv="0,100" category="0" startTime="0" endTime="0" flag="refine">
+	<sub name="初级强化材料" id="101"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="266"/>
+	<sub name="中级强化材料" id="102"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="267"/>
+	<sub name="高级强化材料" id="103"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="268"/>
+	<sub name="顶级强化材料" id="104"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="269"/>	
+<!--	<sub name="强化保护灵符" id="105"  sex="0" lv="0,100" category="0"  startTime="0" endTime="0" formula="21"/>	-->
+</type>
+
+<type name="小屋材料" id="3300" sex="0" lv="45,100" category="0" startTime="0" endTime="0"  >   
+ <sub name="2级培养材料" id="3301" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="331"/>  
+ <sub name="3级培养材料" id="3302" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="332"/>  
+ <sub name="4级培养材料" id="3303" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="333"/>  
+ <sub name="5级培养材料" id="3304" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="334"/>  
+ <sub name="6级培养材料" id="3305" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="335"/>  
+ <sub name="7级培养材料" id="3306" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="336"/>  
+ <sub name="8级培养材料" id="3307" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="337"/>  
+ <sub name="9级培养材料" id="3308" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="338"/>  
+ <sub name="10级培养材料" id="3309" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="339"/>  
+ <sub name="2级完美符"  id="3310" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="340"/>  
+ <sub name="3级完美符" id="3311" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="341"/>  
+ <sub name="4级完美符" id="3312" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="342"/>  
+ <sub name="5级完美符" id="3313" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="343"/>  
+ <sub name="6级完美符" id="3314" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="344"/>  
+ <sub name="7级完美符" id="3315" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="345"/>  
+ <sub name="8级完美符" id="3316" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="346"/>  
+ <sub name="9级完美符" id="3317" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="347"/>  
+ <sub name="10级完美符" id="3318" sex="0" lv="45,100" category="0" startTime="0" endTime="0" formula="348"/>  
+
+ </type> 
+
+<type name="装备晶石" id="2900" sex="0" lv="45,100" category="0" startTime="0" endTime="0"  >
+	<sub name="七煞焱晶" id="2901"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="271"/>
+	<sub name="破军煌晶" id="2902"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="272"/>
+	<sub name="贪狼秘晶" id="2903"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="273"/>
+	<sub name="紫微玄晶" id="2904"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="274"/>
+	<sub name="玉衡阳晶" id="2905"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="500"/>
+	<sub name="天机玉晶石" id="2906"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="307"/>
+	<sub name="七煞焱晶石" id="2907"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="308"/>
+	<sub name="破军煌晶石" id="2908"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="309"/>
+	<sub name="贪狼秘晶石" id="2909"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="310"/>
+	<sub name="玉衡阳晶石" id="2910"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="499"/>
+	</type>
+
+<type name="羽翼炼制" id="3000" sex="0" lv="50,100" category="0" startTime="0" endTime="0" flag="wing" >
+	<sub name="幽冥毒羽" id="3001"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="279"/>
+	<sub name="祛毒碧羽" id="3002"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="280"/>
+	<sub name="玄凛冰羽" id="3003"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="281"/>
+	<sub name="驱冰青羽" id="3004"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="282"/>
+	<sub name="轰雷电羽" id="3005"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="283"/>
+	<sub name="御雷紫羽" id="3006"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="284"/>
+	<sub name="炽焰火羽" id="3007"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="285"/>
+	<sub name="避火赤羽" id="3008"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="286"/>	
+	<sub name="玄风仙羽" id="3009"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="327"/>
+	<sub name="玄风圣羽" id="3010"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="328"/>
+	<sub name="玄风神羽" id="3011"  sex="0" lv="50,100" category="0"  startTime="0" endTime="0" formula="329"/>
+	</type>
+
+<type name="仙宠召唤符" id="2700" sex="0" lv="40,100" category="0" startTime="0" endTime="0" flag="pet" >
+	<sub name="傲狠召唤符" id="2701"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="22"/>	
+	<sub name="穷奇召唤符" id="2702"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="23"/>	
+	<sub name="混沌召唤符" id="2703"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="24"/>	
+	<sub name="饕餮召唤符" id="2704"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="25"/>		
+	<sub name="四凶之魂" id="2705"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="17"/>
+	<sub name="木人瓦力召唤符" id="2706"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="270"/>	
+<!--	<sub name="紫电仙灵召唤符" id="2707"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="451"/>	-->
+	<sub name="雾月仙灵召唤符" id="2708"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="452"/>	
+	<sub name="蓝梦仙灵召唤符" id="2709"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="453"/>	
+<!--<sub name="赤焰仙灵召唤符" id="2710"  sex="0" lv="40,100" category="0"  startTime="0" endTime="0" formula="454"/>		-->
+</type>
+
+<type name="粉玫瑰" id="2800" sex="0" lv="45,100" category="0" startTime="0" endTime="0" >
+	<sub name="9朵粉玫瑰" id="2801"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="18"/>
+	<sub name="99朵粉玫瑰" id="2802"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="19"/>
+	<sub name="999朵粉玫瑰" id="2803"  sex="0" lv="45,100" category="0"  startTime="0" endTime="0" formula="20"/>
+</type>
+
+
+   <type name="60级飞鹰仙宠装备"   id="4000" sex="0" lv="60,100" category="0" startTime="0" endTime="0" flag="pet_equip_60" >
+    <sub name="飞鹰·仙宠利爪"     id="4001" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="401"/>
+    <sub name="飞鹰·仙宠灵爪"     id="4002" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="402"/>
+    <sub name="飞鹰·仙宠兽铠"     id="4003" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="403"/>
+    <sub name="飞鹰·仙宠兽盔"     id="4004" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="404"/>
+    <sub name="飞鹰·仙宠兽圈"     id="4005" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="405"/>
+    <sub name="飞鹰·仙宠灵珠"     id="4006" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="406"/>
+    <sub name="飞鹰·仙宠配饰"     id="4007" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="407"/>
+    <sub name="飞鹰·仙宠兽面"     id="4008" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="408"/>
+    <sub name="飞鹰·仙宠兽尾"     id="4009" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="409"/> 
+  </type>
+
+   <type name="65级玄龟仙宠装备"   id="4100" sex="0" lv="60,100" category="0" startTime="0" endTime="0" flag="pet_equip_65" >
+    <sub name="玄龟·仙宠利爪"     id="4101" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="411"/>
+    <sub name="玄龟·仙宠灵爪"     id="4102" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="412"/>
+    <sub name="玄龟·仙宠兽铠"     id="4103" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="413"/>
+    <sub name="玄龟·仙宠兽盔"     id="4104" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="414"/>
+    <sub name="玄龟·仙宠兽圈"     id="4105" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="415"/>
+    <sub name="玄龟·仙宠灵珠"     id="4106" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="416"/>
+    <sub name="玄龟·仙宠配饰"     id="4107" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="417"/>
+    <sub name="玄龟·仙宠兽面"     id="4108" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="418"/>
+    <sub name="玄龟·仙宠兽尾"     id="4109" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="419"/>
+  </type>
+   <type name="70级苍狼仙宠装备"   id="4200" sex="0" lv="60,100" category="0" startTime="0" endTime="0" flag="pet_equip_70" >
+    <sub name="苍狼·仙宠利爪"     id="4201" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="421"/>
+    <sub name="苍狼·仙宠灵爪"     id="4202" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="422"/>
+    <sub name="苍狼·仙宠兽铠"     id="4203" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="423"/>
+    <sub name="苍狼·仙宠兽盔"     id="4204" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="424"/>
+    <sub name="苍狼·仙宠兽圈"     id="4205" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="425"/>
+    <sub name="苍狼·仙宠灵珠"     id="4206" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="426"/>
+    <sub name="苍狼·仙宠配饰"     id="4207" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="427"/>
+    <sub name="苍狼·仙宠兽面"     id="4208" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="428"/>
+    <sub name="苍狼·仙宠兽尾"     id="4209" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="429"/>
+  </type>
+   <type name="75级鲲鹏仙宠装备"   id="4300" sex="0" lv="60,100" category="0" startTime="0" endTime="0" flag="pet_equip_75" >
+    <sub name="鲲鹏·仙宠利爪"     id="4301" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="431"/>
+    <sub name="鲲鹏·仙宠灵爪"     id="4302" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="432"/>
+    <sub name="鲲鹏·仙宠兽铠"     id="4303" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="433"/>
+    <sub name="鲲鹏·仙宠兽盔"     id="4304" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="434"/>
+    <sub name="鲲鹏·仙宠兽圈"     id="4305" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="435"/>
+    <sub name="鲲鹏·仙宠灵珠"     id="4306" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="436"/>
+    <sub name="鲲鹏·仙宠配饰"     id="4307" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="437"/>
+    <sub name="鲲鹏·仙宠兽面"     id="4308" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="438"/>
+    <sub name="鲲鹏·仙宠兽尾"     id="4309" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="439"/>
+  </type>
+   <type name="80级金乌仙宠装备"   id="4400" sex="0" lv="60,100" category="0" startTime="0" endTime="0" flag="pet_equip_80" >
+    <sub name="金乌·仙宠利爪"     id="4401" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="441"/>
+    <sub name="金乌·仙宠灵爪"     id="4402" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="442"/>
+    <sub name="金乌·仙宠兽铠"     id="4403" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="443"/>
+    <sub name="金乌·仙宠兽盔"     id="4404" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="444"/>
+    <sub name="金乌·仙宠兽圈"     id="4405" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="445"/>
+    <sub name="金乌·仙宠灵珠"     id="4406" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="446"/>
+    <sub name="金乌·仙宠配饰"     id="4407" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="447"/>
+    <sub name="金乌·仙宠兽面"     id="4408" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="448"/>
+    <sub name="金乌·仙宠兽尾"     id="4409" sex="0" lv="60,100" category="0" startTime="0" endTime="0" formula="449"/>
+  </type>
+  <type name="宠物装备碎片转换" id="4500" sex="0" lv="60,100" category="0" startTime="0" endTime="0" >
+    <sub name="飞鹰·装备碎片礼盒" id="4501"  sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="410"/>
+    <sub name="玄龟·装备碎片礼盒" id="4502"  sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="420"/>
+    <sub name="苍狼·装备碎片礼盒" id="4503"  sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="430"/>
+    <sub name="鲲鹏·装备碎片礼盒" id="4504"  sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="440"/>
+    <sub name="金乌·装备碎片礼盒" id="4505"  sex="0" lv="60,100"  category="0"  startTime="0" endTime="0" formula="450"/>
+  </type>
+
+  
+  <!-- 配方 生成物id,描述,成功率-->
+
+<!-- 材料 
+ids：一种道具则只配置一个,（排重请通过配置实现）,一个道具组则将道具组的所有id配上 
+num：需要数量
+succRate：成功率
+link 统一使用effect_id（此id唯一映射一个功能面板）如为npc直接配置npcid即可
+-->
+
+<formula id="1" product="10902028" desc="打开可随机获得七煞·狂战套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701002	,11705002,11706002,11707002,11708002,11709002,11710002,11713002" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="2" product="10902029" desc="打开可随机获得七煞·飞羽套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702002,11705007,11706007,11707007,11708007,11709007,11710007,11713007" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="3" product="10902030" desc="打开可随机获得七煞·舞天套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703002,11705012,11706012,11707012,11708012,11709012,11710012,11713012" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="4" product="10902031" desc="打开可随机获得七煞·碧落套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704002,11705017,11706017,11707017,11708017,11709017,11710017,11713017" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="5" product="10902032" desc="打开可随机获得破军·狂战套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701003,11705003,11706003,11707003,11708003,11709003,11710003,11713003" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="6" product="10902033" desc="打开可随机获得破军·飞羽套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702003,11705008,11706008,11707008,11708008,11709008,11710008,11713008" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="7" product="10902034" desc="打开可随机获得破军·舞天套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703003,11705013,11706013,11707013,11708013,11709013,11710013,11713013" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="8" product="10902035" desc="打开可随机获得破军·碧落套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704003,11705018,11706018,11707018,11708018,11709018,11710018,11713018" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="9" product="10902036" desc="打开可随机获得贪狼·狂战套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701004,11705004,11706004,11707004,11708004,11709004,11710004,11713004" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="10" product="10902037" desc="打开可随机获得贪狼·飞羽套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702004,11705009,11706009,11707009,11708009,11709009,11710009,11713009" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="11" product="10902038" desc="打开可随机获得贪狼·舞天套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703004,11705014,11706014,11707014,11708014,11709014,11710014,11713014" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="12" product="10902039" desc="打开可随机获得贪狼·碧落套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704004,11705019,11706019,11707019,11708019,11709019,11710019,11713019" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="13" product="10902040" desc="打开可随机获得紫微·狂战套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701005,11705005,11706005,11707005,11708005,11709005,11710005,11713005" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="14" product="10902041" desc="打开可随机获得紫微·飞羽套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702005,11705010,11706010,11707010,11708010,11709010,11710010,11713010" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="15" product="10902042" desc="打开可随机获得紫微·舞天套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703005,11705015,11706015,11707015,11708015,11709015,11710015,11713015" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="16" product="10902043" desc="打开可随机获得紫微·碧落套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704005,11705020,11706020,11707020,11708020,11709020,11710020,11713020" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="17" product="10902021" desc="打开可随机四凶碎片其中一种" succRate="10000" cast="100">
+	<material ids="11714013,11714014,11714015,11714016" num="1" link="" linkName=""/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="18" product="11801002" desc="送给心爱的人,增加亲密度。" succRate="10000" cast="100">
+	<material ids="11801001" num="10" link="11501" linkName="参与"/>
+	<material ids="11714001" num="1"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="19" product="11801003" desc="送给心爱的人,增加亲密度。" succRate="10000" cast="100">
+	<material ids="11801002" num="10" link="11501" linkName="参与"/>
+	<material ids="11714001" num="5"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="20" product="11801004" desc="送给心爱的人,增加亲密度。" succRate="10000" cast="100">
+	<material ids="11801003" num="10" link="11501" linkName="参与"/>
+	<material ids="11714001" num="25"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<!--<formula id="21" product="10201006" desc="用于保护强化7级以下失败不掉星" succRate="10000" cast="100">
+	<material ids="10201108" num="10" link="11501" linkName="参与"/>
+	<material ids="11714001" num="10"  link="40000115" linkName="前往参与"/>
+</formula>-->
+
+<formula id="22" product="10301040" desc="四凶兽之傲狠" succRate="10000" cast="100">
+	<material ids="11714016" num="10" link="" linkName=""/>
+</formula>
+
+<formula id="23" product="10301041" desc="四凶兽之穷奇" succRate="10000" cast="100">
+	<material ids="11714014" num="10" link="" linkName=""/>
+</formula>
+
+<formula id="24" product="10301042" desc="四凶兽之混沌" succRate="10000" cast="100">
+	<material ids="11714015" num="10" link="" linkName=""/>
+</formula>
+
+<formula id="25" product="10301043" desc="四凶兽之饕餮" succRate="10000" cast="100">
+	<material ids="11714013" num="10" link="" linkName=""/>
+</formula>
+
+<formula id="26" product="11711001" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="27" product="11712001" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="28" product="11711006" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="29" product="11712006" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="30" product="11711011" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="31" product="11712011" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="32" product="11711016" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="33" product="11712016" desc="天机碎片可用于炼制成天机装备" succRate="10000" cast="100" >   
+ <material ids="11714007" num="1" link="10704" linkName="参与"/> </formula> 
+
+<formula id="34" product="11711002" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="35" product="11712002" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="36" product="11711007" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="37" product="11712007" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="38" product="11711012" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="39" product="11712012" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="40" product="11711017" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="41" product="11712017" desc="七煞碎片可用于炼制成七煞装备" succRate="10000" cast="100" >   
+ <material ids="11714008" num="8" link="10704" linkName="参与"/> </formula> 
+
+<formula id="42" product="11711003" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="43" product="11712003" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="44" product="11711008" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="45" product="11712008" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="46" product="11711013" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="47" product="11712013" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="48" product="11711018" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="49" product="11712018" desc="破军碎片可用于炼制成破军装备" succRate="10000" cast="100" >   
+ <material ids="11714009" num="16" link="10704" linkName="参与"/> </formula> 
+
+<formula id="50" product="11711004" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="51" product="11712004" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="52" product="11711009" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="53" product="11712009" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="54" product="11711014" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="55" product="11712014" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="56" product="11711019" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="57" product="11712019" desc="贪狼碎片可用于炼制成贪狼装备" succRate="10000" cast="100" >   
+ <material ids="11714010" num="24" link="10704" linkName="参与"/> </formula> 
+
+<formula id="58" product="11711005" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="59" product="11712005" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="60" product="11711010" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="61" product="11712010" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="62" product="11711015" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="63" product="11712015" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="64" product="11711020" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="65" product="11712020" desc="紫微碎片可用于炼制成紫微装备" succRate="10000" cast="100" >   
+ <material ids="11714011" num="40" link="10704" linkName="参与"/> </formula> 
+
+<formula id="66" product="31040802" desc="天机·狂战刀" succRate="10000" cast="100" >   
+ <material ids="11701001" num="1" link="11501" linkName="参与"/>
+ <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="67" product="31040801" desc="天机·狂战项链" succRate="10000" cast="100" >   
+ <material ids="11705001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="68" product="31040803" desc="天机·狂战戒指" succRate="10000" cast="100" >   
+ <material ids="11706001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="69" product="31040804" desc="天机·狂战护符" succRate="10000" cast="100" >   
+ <material ids="11707001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="70" product="31040805" desc="天机·狂战鞋子" succRate="10000" cast="100" >   
+ <material ids="11708001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="71" product="31040806" desc="天机·狂战头盔" succRate="10000" cast="100" >   
+ <material ids="11709001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="72" product="31040807" desc="天机·狂战护甲" succRate="10000" cast="100" >   
+ <material ids="11710001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="73" product="31040808" desc="天机·狂战护手" succRate="10000" cast="100" >   
+ <material ids="11711001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="74" product="31040809" desc="天机·狂战护腕" succRate="10000" cast="100" >   
+ <material ids="11712001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="75" product="31040810" desc="天机·狂战腰带" succRate="10000" cast="100" >   
+ <material ids="11713001" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="76" product="31071202" desc="七煞·狂战刀" succRate="10000" cast="100" >   
+ <material ids="11701002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="77" product="31071201" desc="七煞·狂战项链" succRate="10000" cast="100" >   
+ <material ids="11705002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="78" product="31071203" desc="七煞·狂战戒指" succRate="10000" cast="100" >   
+ <material ids="11706002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="79" product="31071204" desc="七煞·狂战护符" succRate="10000" cast="100" >   
+ <material ids="11707002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="80" product="31071205" desc="七煞·狂战鞋子" succRate="10000" cast="100" >   
+ <material ids="11708002" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="81" product="31071206" desc="七煞·狂战头盔" succRate="10000" cast="100" >   
+ <material ids="11709002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="82" product="31071207" desc="七煞·狂战护甲" succRate="10000" cast="100" >   
+ <material ids="11710002" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="83" product="31071208" desc="七煞·狂战护手" succRate="10000" cast="100" >   
+ <material ids="11711002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="84" product="31071209" desc="七煞·狂战护腕" succRate="10000" cast="100" >   
+ <material ids="11712002" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="85" product="31071210" desc="七煞·狂战腰带" succRate="10000" cast="100" >   
+ <material ids="11713002" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="86" product="31081202" desc="破军·狂战刀" succRate="10000" cast="100" >   
+ <material ids="11701003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="87" product="31081201" desc="破军·狂战项链" succRate="10000" cast="100" >   
+ <material ids="11705003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="88" product="31081203" desc="破军·狂战戒指" succRate="10000" cast="100" >   
+ <material ids="11706003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="89" product="31081204" desc="破军·狂战护符" succRate="10000" cast="100" >   
+ <material ids="11707003" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="90" product="31081205" desc="破军·狂战鞋子" succRate="10000" cast="100" >   
+ <material ids="11708003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="91" product="31081206" desc="破军·狂战头盔" succRate="10000" cast="100" >   
+ <material ids="11709003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="92" product="31081207" desc="破军·狂战护甲" succRate="10000" cast="100" >   
+ <material ids="11710003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="93" product="31081208" desc="破军·狂战护手" succRate="10000" cast="100" >   
+ <material ids="11711003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="94" product="31081209" desc="破军·狂战护腕" succRate="10000" cast="100" >   
+ <material ids="11712003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="95" product="31081210" desc="破军·狂战腰带" succRate="10000" cast="100" >   
+ <material ids="11713003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="96" product="31111602" desc="贪狼·狂战刀" succRate="10000" cast="100" >   
+ <material ids="11701004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="97" product="31111601" desc="贪狼·狂战项链" succRate="10000" cast="100" >   
+ <material ids="11705004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="98" product="31111603" desc="贪狼·狂战戒指" succRate="10000" cast="100" >   
+ <material ids="11706004" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="99" product="31111604" desc="贪狼·狂战护符" succRate="10000" cast="100" >   
+ <material ids="11707004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="100" product="31111605" desc="贪狼·狂战鞋子" succRate="10000" cast="100" >   
+ <material ids="11708004" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="101" product="31111606" desc="贪狼·狂战头盔" succRate="10000" cast="100" >   
+ <material ids="11709004" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="102" product="31111607" desc="贪狼·狂战护甲" succRate="10000" cast="100" >   
+ <material ids="11710004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="103" product="31111608" desc="贪狼·狂战护手" succRate="10000" cast="100" >   
+ <material ids="11711004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="104" product="31111609" desc="贪狼·狂战护腕" succRate="10000" cast="100" >   
+ <material ids="11712004" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="105" product="31111610" desc="贪狼·狂战腰带" succRate="10000" cast="100" >   
+ <material ids="11713004" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="106" product="31121602" desc="紫微·狂战刀" succRate="10000" cast="100" >   
+ <material ids="11701005" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="107" product="31121601" desc="紫微·狂战项链" succRate="10000" cast="100" >   
+ <material ids="11705005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="108" product="31121603" desc="紫微·狂战戒指" succRate="10000" cast="100" >   
+ <material ids="11706005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="109" product="31121604" desc="紫微·狂战护符" succRate="10000" cast="100" >   
+ <material ids="11707005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="110" product="31121605" desc="紫微·狂战鞋子" succRate="10000" cast="100" >   
+ <material ids="11708005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="111" product="31121606" desc="紫微·狂战头盔" succRate="10000" cast="100" >   
+ <material ids="11709005" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="112" product="31121607" desc="紫微·狂战护甲" succRate="10000" cast="100" >   
+ <material ids="11710005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="113" product="31121608" desc="紫微·狂战护手" succRate="10000" cast="100" >   
+ <material ids="11711005" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="114" product="31121609" desc="紫微·狂战护腕" succRate="10000" cast="100" >   
+ <material ids="11712005" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="115" product="31121610" desc="紫微·狂战腰带" succRate="10000" cast="100" >   
+ <material ids="11713005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="116" product="32040802" desc="天机·飞羽弓" succRate="10000" cast="100" >   
+ <material ids="11702001" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="117" product="32040801" desc="天机·飞羽项链" succRate="10000" cast="100" >   
+ <material ids="11705006" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="118" product="32040803" desc="天机·飞羽戒指" succRate="10000" cast="100" >   
+ <material ids="11706006" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="119" product="32040804" desc="天机·飞羽护符" succRate="10000" cast="100" >   
+ <material ids="11707006" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="120" product="32040805" desc="天机·飞羽鞋子" succRate="10000" cast="100" >   
+ <material ids="11708006" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="121" product="32040806" desc="天机·飞羽头盔" succRate="10000" cast="100" >   
+ <material ids="11709006" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="122" product="32040807" desc="天机·飞羽护甲" succRate="10000" cast="100" >   
+ <material ids="11710006" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="123" product="32040808" desc="天机·飞羽护手" succRate="10000" cast="100" >   
+ <material ids="11711006" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="124" product="32040809" desc="天机·飞羽护腕" succRate="10000" cast="100" >   
+ <material ids="11712006" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="125" product="32040810" desc="天机·飞羽腰带" succRate="10000" cast="100" >   
+ <material ids="11713006" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="126" product="32071202" desc="七煞·飞羽弓" succRate="10000" cast="100" >   
+ <material ids="11702002" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="127" product="32071201" desc="七煞·飞羽项链" succRate="10000" cast="100" >   
+ <material ids="11705007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="128" product="32071203" desc="七煞·飞羽戒指" succRate="10000" cast="100" >   
+ <material ids="11706007" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="129" product="32071204" desc="七煞·飞羽护符" succRate="10000" cast="100" >   
+ <material ids="11707007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="130" product="32071205" desc="七煞·飞羽鞋子" succRate="10000" cast="100" >   
+ <material ids="11708007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="131" product="32071206" desc="七煞·飞羽头盔" succRate="10000" cast="100" >   
+ <material ids="11709007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="132" product="32071207" desc="七煞·飞羽护甲" succRate="10000" cast="100" >   
+ <material ids="11710007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="133" product="32071208" desc="七煞·飞羽护手" succRate="10000" cast="100" >   
+ <material ids="11711007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="134" product="32071209" desc="七煞·飞羽护腕" succRate="10000" cast="100" >   
+ <material ids="11712007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="135" product="32071210" desc="七煞·飞羽腰带" succRate="10000" cast="100" >   
+ <material ids="11713007" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="136" product="32081202" desc="破军·飞羽弓" succRate="10000" cast="100" >   
+ <material ids="11702003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="137" product="32081201" desc="破军·飞羽项链" succRate="10000" cast="100" >   
+ <material ids="11705008" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="138" product="32081203" desc="破军·飞羽戒指" succRate="10000" cast="100" >   
+ <material ids="11706008" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="139" product="32081204" desc="破军·飞羽护符" succRate="10000" cast="100" >   
+ <material ids="11707008" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="140" product="32081205" desc="破军·飞羽鞋子" succRate="10000" cast="100" >   
+ <material ids="11708008" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="141" product="32081206" desc="破军·飞羽头盔" succRate="10000" cast="100" >   
+ <material ids="11709008" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="142" product="32081207" desc="破军·飞羽护甲" succRate="10000" cast="100" >   
+ <material ids="11710008" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="143" product="32081208" desc="破军·飞羽护手" succRate="10000" cast="100" >   
+ <material ids="11711008" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="144" product="32081209" desc="破军·飞羽护腕" succRate="10000" cast="100" >   
+ <material ids="11712008" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="145" product="32081210" desc="破军·飞羽腰带" succRate="10000" cast="100" >   
+ <material ids="11713008" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="146" product="32111602" desc="贪狼·飞羽弓" succRate="10000" cast="100" >   
+ <material ids="11702004" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="147" product="32111601" desc="贪狼·飞羽项链" succRate="10000" cast="100" >   
+ <material ids="11705009" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="148" product="32111603" desc="贪狼·飞羽戒指" succRate="10000" cast="100" >   
+ <material ids="11706009" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="149" product="32111604" desc="贪狼·飞羽护符" succRate="10000" cast="100" >   
+ <material ids="11707009" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="150" product="32111605" desc="贪狼·飞羽鞋子" succRate="10000" cast="100" >   
+ <material ids="11708009" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="151" product="32111606" desc="贪狼·飞羽头盔" succRate="10000" cast="100" >   
+ <material ids="11709009" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="152" product="32111607" desc="贪狼·飞羽护甲" succRate="10000" cast="100" >   
+ <material ids="11710009" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="153" product="32111608" desc="贪狼·飞羽护手" succRate="10000" cast="100" >   
+ <material ids="11711009" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="154" product="32111609" desc="贪狼·飞羽护腕" succRate="10000" cast="100" >   
+ <material ids="11712009" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="155" product="32111610" desc="贪狼·飞羽腰带" succRate="10000" cast="100" >   
+ <material ids="11713009" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="156" product="32121602" desc="紫微·飞羽弓" succRate="10000" cast="100" >   
+ <material ids="11702005" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="157" product="32121601" desc="紫微·飞羽项链" succRate="10000" cast="100" >   
+ <material ids="11705010" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="158" product="32121603" desc="紫微·飞羽戒指" succRate="10000" cast="100" >   
+ <material ids="11706010" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="159" product="32121604" desc="紫微·飞羽护符" succRate="10000" cast="100" >   
+ <material ids="11707010" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="160" product="32121605" desc="紫微·飞羽鞋子" succRate="10000" cast="100" >   
+ <material ids="11708010" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="161" product="32121606" desc="紫微·飞羽头盔" succRate="10000" cast="100" >   
+ <material ids="11709010" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="162" product="32121607" desc="紫微·飞羽护甲" succRate="10000" cast="100" >   
+ <material ids="11710010" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="163" product="32121608" desc="紫微·飞羽护手" succRate="10000" cast="100" >   
+ <material ids="11711010" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="164" product="32121609" desc="紫微·飞羽护腕" succRate="10000" cast="100" >   
+ <material ids="11712010" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="165" product="32121610" desc="紫微·飞羽腰带" succRate="10000" cast="100" >   
+ <material ids="11713010" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="166" product="33040802" desc="天机·舞天扇" succRate="10000" cast="100" >   
+ <material ids="11703001" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="167" product="33040801" desc="天机·舞天项链" succRate="10000" cast="100" >   
+ <material ids="11705011" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="168" product="33040803" desc="天机·舞天戒指" succRate="10000" cast="100" >   
+ <material ids="11706011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="169" product="33040804" desc="天机·舞天护符" succRate="10000" cast="100" >   
+ <material ids="11707011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="170" product="33040805" desc="天机·舞天鞋子" succRate="10000" cast="100" >   
+ <material ids="11708011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="171" product="33040806" desc="天机·舞天头盔" succRate="10000" cast="100" >   
+ <material ids="11709011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="172" product="33040807" desc="天机·舞天护甲" succRate="10000" cast="100" >   
+ <material ids="11710011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="173" product="33040808" desc="天机·舞天护手" succRate="10000" cast="100" >   
+ <material ids="11711011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="174" product="33040809" desc="天机·舞天护腕" succRate="10000" cast="100" >   
+ <material ids="11712011" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="175" product="33040810" desc="天机·舞天腰带" succRate="10000" cast="100" >   
+ <material ids="11713011" num="1" link="11501" linkName="参与"/> <material ids="11714022" num="15" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="176" product="33071202" desc="七煞·舞天扇" succRate="10000" cast="100" >   
+ <material ids="11703002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="177" product="33071201" desc="七煞·舞天项链" succRate="10000" cast="100" >   
+ <material ids="11705012" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="178" product="33071203" desc="七煞·舞天戒指" succRate="10000" cast="100" >   
+ <material ids="11706012" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="179" product="33071204" desc="七煞·舞天护符" succRate="10000" cast="100" >   
+ <material ids="11707012" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="180" product="33071205" desc="七煞·舞天鞋子" succRate="10000" cast="100" >   
+ <material ids="11708012" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="181" product="33071206" desc="七煞·舞天头盔" succRate="10000" cast="100" >   
+ <material ids="11709012" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="182" product="33071207" desc="七煞·舞天护甲" succRate="10000" cast="100" >   
+ <material ids="11710012" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="183" product="33071208" desc="七煞·舞天护手" succRate="10000" cast="100" >   
+ <material ids="11711012" num="4" link="11501" linkName="参与"/>
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="184" product="33071209" desc="七煞·舞天护腕" succRate="10000" cast="100" >   
+ <material ids="11712012" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="185" product="33071210" desc="七煞·舞天腰带" succRate="10000" cast="100" >   
+ <material ids="11713012" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="186" product="33081202" desc="破军·舞天扇" succRate="10000" cast="100" >   
+ <material ids="11703003" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="187" product="33081201" desc="破军·舞天项链" succRate="10000" cast="100" >   
+ <material ids="11705013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="188" product="33081203" desc="破军·舞天戒指" succRate="10000" cast="100" >   
+ <material ids="11706013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="189" product="33081204" desc="破军·舞天护符" succRate="10000" cast="100" >   
+ <material ids="11707013" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="190" product="33081205" desc="破军·舞天鞋子" succRate="10000" cast="100" >   
+ <material ids="11708013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="191" product="33081206" desc="破军·舞天头盔" succRate="10000" cast="100" >   
+ <material ids="11709013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="192" product="33081207" desc="破军·舞天护甲" succRate="10000" cast="100" >   
+ <material ids="11710013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="193" product="33081208" desc="破军·舞天护手" succRate="10000" cast="100" >   
+ <material ids="11711013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="194" product="33081209" desc="破军·舞天护腕" succRate="10000" cast="100" >   
+ <material ids="11712013" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="195" product="33081210" desc="破军·舞天腰带" succRate="10000" cast="100" >   
+ <material ids="11713013" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="196" product="33111602" desc="贪狼·舞天扇" succRate="10000" cast="100" >   
+ <material ids="11703004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="197" product="33111601" desc="贪狼·舞天项链" succRate="10000" cast="100" >   
+ <material ids="11705014" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="198" product="33111603" desc="贪狼·舞天戒指" succRate="10000" cast="100" >   
+ <material ids="11706014" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="199" product="33111604" desc="贪狼·舞天护符" succRate="10000" cast="100" >   
+ <material ids="11707014" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="200" product="33111605" desc="贪狼·舞天鞋子" succRate="10000" cast="100" >   
+ <material ids="11708014" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="201" product="33111606" desc="贪狼·舞天头盔" succRate="10000" cast="100" >   
+ <material ids="11709014" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="202" product="33111607" desc="贪狼·舞天护甲" succRate="10000" cast="100" >   
+ <material ids="11710014" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="203" product="33111608" desc="贪狼·舞天护手" succRate="10000" cast="100" >   
+ <material ids="11711014" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="204" product="33111609" desc="贪狼·舞天护腕" succRate="10000" cast="100" >   
+ <material ids="11712014" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="205" product="33111610" desc="贪狼·舞天腰带" succRate="10000" cast="100" >   
+ <material ids="11713014" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="206" product="33121602" desc="紫微·舞天扇" succRate="10000" cast="100" >   
+ <material ids="11703005" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="207" product="33121601" desc="紫微·舞天项链" succRate="10000" cast="100" >   
+ <material ids="11705015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="208" product="33121603" desc="紫微·舞天戒指" succRate="10000" cast="100" >   
+ <material ids="11706015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="209" product="33121604" desc="紫微·舞天护符" succRate="10000" cast="100" >   
+ <material ids="11707015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="210" product="33121605" desc="紫微·舞天鞋子" succRate="10000" cast="100" >   
+ <material ids="11708015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="211" product="33121606" desc="紫微·舞天头盔" succRate="10000" cast="100" >   
+ <material ids="11709015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="212" product="33121607" desc="紫微·舞天护甲" succRate="10000" cast="100" >   
+ <material ids="11710015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="213" product="33121608" desc="紫微·舞天护手" succRate="10000" cast="100" >   
+ <material ids="11711015" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="214" product="33121609" desc="紫微·舞天护腕" succRate="10000" cast="100" >   
+ <material ids="11712015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="215" product="33121610" desc="紫微·舞天腰带" succRate="10000" cast="100" >   
+ <material ids="11713015" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="216" product="34040802" desc="天机·碧落杖" succRate="10000" cast="100" >   
+ <material ids="11704001" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="217" product="34040801" desc="天机·碧落项链" succRate="10000" cast="100" >   
+ <material ids="11705016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="218" product="34040803" desc="天机·碧落戒指" succRate="10000" cast="100" >   
+ <material ids="11706016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="219" product="34040804" desc="天机·碧落护符" succRate="10000" cast="100" >   
+ <material ids="11707016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="220" product="34040805" desc="天机·碧落鞋子" succRate="10000" cast="100" >   
+ <material ids="11708016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="221" product="34040806" desc="天机·碧落头盔" succRate="10000" cast="100" >   
+ <material ids="11709016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="222" product="34040807" desc="天机·碧落护甲" succRate="10000" cast="100" >   
+ <material ids="11710016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="223" product="34040808" desc="天机·碧落护手" succRate="10000" cast="100" >   
+ <material ids="11711016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="224" product="34040809" desc="天机·碧落护腕" succRate="10000" cast="100" >   
+ <material ids="11712016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="225" product="34040810" desc="天机·碧落腰带" succRate="10000" cast="100" >   
+ <material ids="11713016" num="1" link="11501" linkName="参与"/>  <material ids="11714022" num="15" link="11501" linkName="参与"/> </formula> 
+
+<formula id="226" product="34071202" desc="七煞·碧落杖" succRate="10000" cast="100" >   
+ <material ids="11704002" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="227" product="34071201" desc="七煞·碧落项链" succRate="10000" cast="100" >   
+ <material ids="11705017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="228" product="34071203" desc="七煞·碧落戒指" succRate="10000" cast="100" >   
+ <material ids="11706017" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="229" product="34071204" desc="七煞·碧落护符" succRate="10000" cast="100" >   
+ <material ids="11707017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="230" product="34071205" desc="七煞·碧落鞋子" succRate="10000" cast="100" >   
+ <material ids="11708017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="231" product="34071206" desc="七煞·碧落头盔" succRate="10000" cast="100" >   
+ <material ids="11709017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="232" product="34071207" desc="七煞·碧落护甲" succRate="10000" cast="100" >   
+ <material ids="11710017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="233" product="34071208" desc="七煞·碧落护手" succRate="10000" cast="100" >   
+ <material ids="11711017" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714023" num="25" link="11501" linkName="参与"/></formula> 
+
+<formula id="234" product="34071209" desc="七煞·碧落护腕" succRate="10000" cast="100" >   
+ <material ids="11712017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="235" product="34071210" desc="七煞·碧落腰带" succRate="10000" cast="100" >   
+ <material ids="11713017" num="4" link="11501" linkName="参与"/>  
+ <material ids="11714023" num="25" link="11501" linkName="参与"/> </formula> 
+
+<formula id="236" product="34081202" desc="破军·碧落杖" succRate="10000" cast="100" >   
+ <material ids="11704003" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="237" product="34081201" desc="破军·碧落项链" succRate="10000" cast="100" >   
+ <material ids="11705018" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="238" product="34081203" desc="破军·碧落戒指" succRate="10000" cast="100" >   
+ <material ids="11706018" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="239" product="34081204" desc="破军·碧落护符" succRate="10000" cast="100" >   
+ <material ids="11707018" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="240" product="34081205" desc="破军·碧落鞋子" succRate="10000" cast="100" >   
+ <material ids="11708018" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="241" product="34081206" desc="破军·碧落头盔" succRate="10000" cast="100" >   
+ <material ids="11709018" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="242" product="34081207" desc="破军·碧落护甲" succRate="10000" cast="100" >   
+ <material ids="11710018" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="243" product="34081208" desc="破军·碧落护手" succRate="10000" cast="100" >   
+ <material ids="11711018" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="244" product="34081209" desc="破军·碧落护腕" succRate="10000" cast="100" >   
+ <material ids="11712018" num="4" link="11501" linkName="参与"/>   
+ <material ids="11714024" num="35" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="245" product="34081210" desc="破军·碧落腰带" succRate="10000" cast="100" >   
+ <material ids="11713018" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714024" num="35" link="11501" linkName="参与"/> </formula> 
+
+<formula id="246" product="34111602" desc="贪狼·碧落杖" succRate="10000" cast="100" >   
+ <material ids="11704004" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="247" product="34111601" desc="贪狼·碧落项链" succRate="10000" cast="100" >   
+ <material ids="11705019" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="248" product="34111603" desc="贪狼·碧落戒指" succRate="10000" cast="100" >   
+ <material ids="11706019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="249" product="34111604" desc="贪狼·碧落护符" succRate="10000" cast="100" >   
+ <material ids="11707019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="250" product="34111605" desc="贪狼·碧落鞋子" succRate="10000" cast="100" >   
+ <material ids="11708019" num="4" link="11501" linkName="参与"/>    
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="251" product="34111606" desc="贪狼·碧落头盔" succRate="10000" cast="100" >   
+ <material ids="11709019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="252" product="34111607" desc="贪狼·碧落护甲" succRate="10000" cast="100" >   
+ <material ids="11710019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="253" product="34111608" desc="贪狼·碧落护手" succRate="10000" cast="100" >   
+ <material ids="11711019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="254" product="34111609" desc="贪狼·碧落护腕" succRate="10000" cast="100" >   
+ <material ids="11712019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="255" product="34111610" desc="贪狼·碧落腰带" succRate="10000" cast="100" >   
+ <material ids="11713019" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714025" num="45" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="256" product="34121602" desc="紫微·碧落杖" succRate="10000" cast="100" >   
+ <material ids="11704005" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="257" product="34121601" desc="紫微·碧落项链" succRate="10000" cast="100" >   
+ <material ids="11705020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="258" product="34121603" desc="紫微·碧落戒指" succRate="10000" cast="100" >   
+ <material ids="11706020" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="259" product="34121604" desc="紫微·碧落护符" succRate="10000" cast="100" >   
+ <material ids="11707020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="260" product="34121605" desc="紫微·碧落鞋子" succRate="10000" cast="100" >   
+ <material ids="11708020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="261" product="34121606" desc="紫微·碧落头盔" succRate="10000" cast="100" >   
+ <material ids="11709020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="262" product="34121607" desc="紫微·碧落护甲" succRate="10000" cast="100" >   
+ <material ids="11710020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="263" product="34121608" desc="紫微·碧落护手" succRate="10000" cast="100" >   
+ <material ids="11711020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="264" product="34121609" desc="紫微·碧落护腕" succRate="10000" cast="100" >   
+ <material ids="11712020" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="265" product="34121610" desc="紫微·碧落腰带" succRate="10000" cast="100" >   
+ <material ids="11713020" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714026" num="55" link="11501" linkName="参与"/>  </formula> 
+
+ <formula id="266" product="10201102" desc="初级强化材料" succRate="10000" cast="100" >   
+ <material ids="10201101" num="2" link="40000128" linkName="获得"/> </formula> 
+ 
+ <formula id="267" product="10201103" desc="中级强化材料" succRate="10000" cast="100" >   
+ <material ids="10201102" num="2" link="40000128" linkName="获得"/> </formula> 
+ 
+ <formula id="268" product="10201104" desc="高级强化材料" succRate="10000" cast="100" >   
+ <material ids="10201103" num="2" link="40000128" linkName="获得"/> </formula> 
+ 
+ <formula id="269" product="10201005" desc="顶级强化材料" succRate="10000" cast="100" >   
+ <material ids="10201104" num="2" link="40000128" linkName="获得"/> </formula> 
+ 
+  <formula id="270" product="10301046" desc="木人瓦力召唤符" succRate="10000" cast="100" >   
+ <material ids="11714012" num="3" link="10802" linkName="获得"/> </formula> 
+ 
+   <formula id="271" product="11714023" desc="七煞焱晶，七煞装备炼制所需要的材料之一" succRate="10000" cast="100" >   
+ <material ids="11714022" num="10" link="11501" linkName="参与"/> </formula> 
+ 
+   <formula id="272" product="11714024" desc="破军煌晶，破军装备炼制所需要的材料之一" succRate="10000" cast="100" >   
+ <material ids="11714023" num="10" link="11501" linkName="参与"/> </formula> 
+ 
+   <formula id="273" product="11714025" desc="贪狼秘晶，贪狼装备炼制所需要的材料之一" succRate="10000" cast="100" >   
+ <material ids="11714024" num="10" link="11501" linkName="参与"/> </formula> 
+ 
+   <formula id="274" product="11714026" desc="紫微玄晶，紫微装备炼制所需要的材料之一" succRate="10000" cast="100" >   
+ <material ids="11714025" num="10" link="11501" linkName="参与"/> </formula> 
+ 
+ <formula id="275" product="10902053" desc="打开可随机获得天机·狂战套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701001,11705001,11706001,11707001,11708001,11709001,11710001,11713001" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="276" product="10902054" desc="打开可随机获得天机·飞羽套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702001,11705006,11706006,11707006,11708006,11709006,11710006,11713006" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="277" product="10902055" desc="打开可随机获得天机·舞天套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703001,11705011,11706011,11707011,11708011,11709011,11710011,11713011" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="278" product="10902056" desc="打开可随机获得天机·碧落套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704001,11705016,11706016,11707016,11708016,11709016,11710016,11713016" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="30"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="279" product="10119005" desc="幽冥毒羽" succRate="10000" cast="100">
+	<material ids="10119015" num="8" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="40"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="280" product="10119001" desc="祛毒碧羽" succRate="10000" cast="100">
+	<material ids="10119015" num="16" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="80"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="281" product="10119008" desc="玄凛冰羽" succRate="10000" cast="100">
+	<material ids="10119015" num="24" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="120"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="282" product="10119004" desc="驱冰青羽" succRate="10000" cast="100">
+	<material ids="10119015" num="32" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="160"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="283" product="10119007" desc="轰雷电羽" succRate="10000" cast="100">
+	<material ids="10119015" num="40" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="200"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="284" product="10119003" desc="御雷紫羽" succRate="10000" cast="100">
+	<material ids="10119015" num="48" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="240"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="285" product="10119006" desc="炽焰火羽" succRate="10000" cast="100">
+	<material ids="10119015" num="56" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="280"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="286" product="10119002" desc="避火赤羽" succRate="10000" cast="100">
+	<material ids="10119015" num="64" link="40000132" linkName="前往参与"/>
+	<material ids="10119014" num="320"  link="40000132" linkName="前往参与"/>
+</formula>
+
+<formula id="287" product="10902053" desc="天机·狂战碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902054,10902055,10902056" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="288" product="10902054" desc="天机·飞羽碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902053,10902055,10902056" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="289" product="10902055" desc="天机·舞天碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902054,10902053,10902056" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="290" product="10902056" desc="天机·碧落碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902054,10902055,10902053" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="291" product="10902028" desc="七煞·狂战碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902029,10902030,10902031" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="292" product="10902029" desc="七煞·飞羽碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902028,10902030,10902031" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="293" product="10902030" desc="七煞·舞天碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902028,10902029,10902031" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="294" product="10902031" desc="七煞·碧落碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902028,10902029,10902030" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="295" product="10902032" desc="破军·狂战碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902033,10902034,10902035" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="296" product="10902033" desc="破军·飞羽碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902032,10902034,10902035" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="297" product="10902034" desc="破军·舞天碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902033,10902032,10902035" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="298" product="10902035" desc="破军·碧落碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902033,10902034,10902032" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="299" product="10902036" desc="贪狼·狂战碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902037,10902038,10902039" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="300" product="10902037" desc="贪狼·飞羽碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902036,10902038,10902039" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="301" product="10902038" desc="贪狼·舞天碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902037,10902036,10902039" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="302" product="10902039" desc="贪狼·碧落碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902037,10902038,10902036" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="303" product="10902040" desc="紫微·狂战碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902041,10902042,10902043" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="304" product="10902041" desc="紫微·飞羽碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902040,10902042,10902043" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="305" product="10902042" desc="紫微·舞天碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902041,10902040,10902043" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="306" product="10902043" desc="紫微·碧落碎片礼盒" succRate="10000" cast="100">
+	<material ids="10902041,10902042,10902040" num="1" 	link="11501" linkName="参与"/>
+	<material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="307" product="10902060" desc="使用获得两个天机玉晶" succRate="10000" cast="100">
+	<material ids="11714023" num="1" 	link="11501" linkName="参与"/>
+</formula>
+
+<formula id="308" product="10902061" desc="使用获得两个七煞焱晶" succRate="10000" cast="100">
+	<material ids="11714024" num="1" 	link="11501" linkName="参与"/>
+</formula>
+
+<formula id="309" product="10902062" desc="使用获得两个破军煌晶" succRate="10000" cast="100">
+	<material ids="11714025" num="1" 	link="11501" linkName="参与"/>
+</formula>
+
+<formula id="310" product="10902063" desc="使用获得两个贪狼秘晶" succRate="10000" cast="100">
+	<material ids="11714026" num="1" 	link="11501" linkName="参与"/>
+</formula>
+
+<formula id="311" product="10902076" desc="使用获得天机·狂战套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701002,11705002,11706002,11707002,11708002,11709002,11710002,11713002" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="312" product="10902077" desc="使用获得天机·飞羽套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702002,11705007,11706007,11707007,11708007,11709007,11710007,11713007" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="313" product="10902078" desc="使用获得天机·舞天套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703002,11705012,11706012,11707012,11708012,11709012,11710012,11713012" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="314" product="10902079" desc="使用获得天机·碧落套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704002,11705017,11706017,11707017,11708017,11709017,11710017,11713017" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="315" product="10902064" desc="使用获得七煞·狂战套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701003,11705003,11706003,11707003,11708003,11709003,11710003,11713003" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="316" product="10902065" desc="使用获得七煞·飞羽套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702003,11705008,11706008,11707008,11708008,11709008,11710008,11713008" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="317" product="10902066" desc="使用获得七煞·舞天套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703003,11705013,11706013,11707013,11708013,11709013,11710013,11713013" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="318" product="10902067" desc="使用获得七煞·碧落套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704003,11705018,11706018,11707018,11708018,11709018,11710018,11713018" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="319" product="10902068" desc="使用获得破军·狂战套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701004,11705004,11706004,11707004,11708004,11709004,11710004,11713004" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="320" product="10902069" desc="使用获得破军·飞羽套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702004,11705009,11706009,11707009,11708009,11709009,11710009,11713009" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="321" product="10902070" desc="使用获得破军·舞天套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703004,11705014,11706014,11707014,11708014,11709014,11710014,11713014" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="322" product="10902071" desc="使用获得破军·碧落套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704004,11705019,11706019,11707019,11708019,11709019,11710019,11713019" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="323" product="10902072" desc="使用获得贪狼·狂战套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701005,11705005,11706005,11707005,11708005,11709005,11710005,11713005" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="324" product="10902073" desc="使用获得贪狼·飞羽套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702005,11705010,11706010,11707010,11708010,11709010,11710010,11713010" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="325" product="10902074" desc="使用获得贪狼·舞天套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703005,11705015,11706015,11707015,11708015,11709015,11710015,11713015" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="326" product="10902075" desc="使用获得贪狼·碧落套装碎片两个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704005,11705020,11706020,11707020,11708020,11709020,11710020,11713020" num="1" link="11501" linkName="参与"/>
+</formula>
+
+<formula id="327" product="10119011" desc="" succRate="10000" cast="100">
+	<material ids="10119010" num="2" link="40000131" linkName="前往参与"/>
+</formula>
+
+<formula id="328" product="10119012" desc="" succRate="10000" cast="100">
+	<material ids="10119011" num="2" link="40000131" linkName="前往参与"/>
+</formula>
+
+<formula id="329" product="10119013" desc="" succRate="10000" cast="100">
+	<material ids="10119012" num="2" link="40000131" linkName="前往参与"/>
+</formula>
+
+<formula id="330" product="11001001" desc="美味的粽子" succRate="10000" cast="100">
+	<material ids="11001002" num="1" 	link="40000119" linkName="前往参与"/>
+	<material ids="11001003" num="1"  link="11103" linkName="参与"/>
+</formula>
+
+<formula id="331" product="11802006" desc="2级培养材料" succRate="10000" cast="100">
+	<material ids="11802005" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="332" product="11802007" desc="3级培养材料" succRate="10000" cast="100">
+	<material ids="11802006" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="333" product="11802008" desc="4级培养材料" succRate="10000" cast="100">
+	<material ids="11802007" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="334" product="11802009" desc="5级培养材料" succRate="10000" cast="100">
+	<material ids="11802008" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="335" product="11802010" desc="6级培养材料" succRate="10000" cast="100">
+	<material ids="11802009" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="336" product="11802011" desc="7级培养材料" succRate="10000" cast="100">
+	<material ids="11802010" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="337" product="11802012" desc="8级培养材料" succRate="10000" cast="100">
+	<material ids="11802011" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="338" product="11802013" desc="9级培养材料" succRate="10000" cast="100">
+	<material ids="11802012" num="2" 	link="" linkName=""/>
+</formula>
+
+
+<formula id="339" product="11802014" desc="10级培养材料" succRate="10000" cast="100">
+	<material ids="11802013" num="2" 	link="" linkName=""/>
+</formula>
+
+<formula id="340" product="11802016" desc="2级完美符" succRate="10000" cast="100">
+	<material ids="11802015" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="341" product="11802017" desc="3级完美符" succRate="10000" cast="100">
+	<material ids="11802016" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="342" product="11802018" desc="4级完美符" succRate="10000" cast="100">
+	<material ids="11802017" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="343" product="11802019" desc="5级完美符" succRate="10000" cast="100">
+	<material ids="11802018" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="344" product="11802020" desc="6级完美符" succRate="10000" cast="100">
+	<material ids="11802019" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="345" product="11802021" desc="7级完美符" succRate="10000" cast="100">
+	<material ids="11802020" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="346" product="11802022" desc="8级完美符" succRate="10000" cast="100">
+	<material ids="11802021" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="347" product="11802023" desc="9级完美符" succRate="10000" cast="100">
+	<material ids="11802022" num="3" 	link="" linkName=""/>
+</formula>
+
+<formula id="348" product="11802024" desc="10级完美符" succRate="10000" cast="100">
+	<material ids="11802023" num="3" 	link="" linkName=""/>
+</formula>
+
+
+ <formula id="349" product="11001011" desc="冰皮月饼" succRate="10000" cast="100">
+   <material ids="11001009" num="1" 	link="" linkName=""/>
+   <material ids="11001010" num="1" 	link="" linkName=""/>
+ </formula>
+
+  <formula id="350" product="11001013" desc="锦衣兑换券" succRate="10000" cast="100">
+    <material ids="11001012" num="20" 	link="" linkName=""/>
+  </formula>
+  <formula id="351" product="10902316" desc="国庆快乐礼包" succRate="10000" cast="100">
+    <material ids="11001016" num="1" 	link="" linkName=""/>
+    <material ids="11001017" num="1" 	link="" linkName=""/>
+    <material ids="11001018" num="1" 	link="" linkName=""/>
+    <material ids="11001019" num="1" 	link="" linkName=""/>
+  </formula>
+<formula id="352" product="10902458" desc="圣诞惊喜大礼包" succRate="10000" cast="100">
+    <material ids="11001026" num="4" 	link="" linkName=""/>
+  </formula>
+<formula id="353" product="10404022" desc="星际飞船形象卡" succRate="10000" cast="100">
+    <material ids="11001027" num="20" 	link="" linkName=""/>
+  </formula>
+<formula id="354" product="10404024" desc="飞天灵猫形象卡" succRate="10000" cast="100">
+    <material ids="11001029" num="20" 	link="" linkName=""/>
+  </formula>  
+    <formula id="401" product="35011281" desc="飞鹰·仙宠利爪" succRate="10000" cast="100">		  <material ids="11715001" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="402" product="35011282" desc="飞鹰·仙宠灵爪" succRate="10000" cast="100">		  <material ids="11715002" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="403" product="35011283" desc="飞鹰·仙宠兽铠" succRate="10000" cast="100">		  <material ids="11715003" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="404" product="35011284" desc="飞鹰·仙宠兽盔" succRate="10000" cast="100">		  <material ids="11715004" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="405" product="35011285" desc="飞鹰·仙宠兽圈" succRate="10000" cast="100">		  <material ids="11715005" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="406" product="35011286" desc="飞鹰·仙宠灵珠" succRate="10000" cast="100">		  <material ids="11715006" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="407" product="35011287" desc="飞鹰·仙宠配饰" succRate="10000" cast="100">		  <material ids="11715007" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="408" product="35011288" desc="飞鹰·仙宠兽面" succRate="10000" cast="100">		  <material ids="11715008" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="409" product="35011289" desc="飞鹰·仙宠兽尾" succRate="10000" cast="100">		  <material ids="11715009" num="1" link="13502" linkName="参与"/>		  </formula>
+    <formula id="411" product="35021381" desc="玄龟·仙宠利爪" succRate="10000" cast="100">		  <material ids="11716001" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="412" product="35021382" desc="玄龟·仙宠灵爪" succRate="10000" cast="100">		  <material ids="11716002" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="413" product="35021383" desc="玄龟·仙宠兽铠" succRate="10000" cast="100">		  <material ids="11716003" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="414" product="35021384" desc="玄龟·仙宠兽盔" succRate="10000" cast="100">		  <material ids="11716004" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="415" product="35021385" desc="玄龟·仙宠兽圈" succRate="10000" cast="100">		  <material ids="11716005" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="416" product="35021386" desc="玄龟·仙宠灵珠" succRate="10000" cast="100">		  <material ids="11716006" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="417" product="35021387" desc="玄龟·仙宠配饰" succRate="10000" cast="100">		  <material ids="11716007" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="418" product="35021388" desc="玄龟·仙宠兽面" succRate="10000" cast="100">		  <material ids="11716008" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="419" product="35021389" desc="玄龟·仙宠兽尾" succRate="10000" cast="100">		  <material ids="11716009" num="4" link="13502" linkName="参与"/>		  </formula>						
+    <formula id="421" product="35031481" desc="苍狼·仙宠利爪" succRate="10000" cast="100">		  <material ids="11717001" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="422" product="35031482" desc="苍狼·仙宠灵爪" succRate="10000" cast="100">		  <material ids="11717002" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="423" product="35031483" desc="苍狼·仙宠兽铠" succRate="10000" cast="100">		  <material ids="11717003" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="424" product="35031484" desc="苍狼·仙宠兽盔" succRate="10000" cast="100">		  <material ids="11717004" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="425" product="35031485" desc="苍狼·仙宠兽圈" succRate="10000" cast="100">		  <material ids="11717005" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="426" product="35031486" desc="苍狼·仙宠灵珠" succRate="10000" cast="100">		  <material ids="11717006" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="427" product="35031487" desc="苍狼·仙宠配饰" succRate="10000" cast="100">		  <material ids="11717007" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="428" product="35031488" desc="苍狼·仙宠兽面" succRate="10000" cast="100">		  <material ids="11717008" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="429" product="35031489" desc="苍狼·仙宠兽尾" succRate="10000" cast="100">		  <material ids="11717009" num="4" link="13502" linkName="参与"/>		  </formula>					
+    <formula id="431" product="35041581" desc="鲲鹏·仙宠利爪" succRate="10000" cast="100">		  <material ids="11718001" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="432" product="35041582" desc="鲲鹏·仙宠灵爪" succRate="10000" cast="100">		  <material ids="11718002" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="433" product="35041583" desc="鲲鹏·仙宠兽铠" succRate="10000" cast="100">		  <material ids="11718003" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="434" product="35041584" desc="鲲鹏·仙宠兽盔" succRate="10000" cast="100">		  <material ids="11718004" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="435" product="35041585" desc="鲲鹏·仙宠兽圈" succRate="10000" cast="100">		  <material ids="11718005" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="436" product="35041586" desc="鲲鹏·仙宠灵珠" succRate="10000" cast="100">		  <material ids="11718006" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="437" product="35041587" desc="鲲鹏·仙宠配饰" succRate="10000" cast="100">		  <material ids="11718007" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="438" product="35041588" desc="鲲鹏·仙宠兽面" succRate="10000" cast="100">		  <material ids="11718008" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="439" product="35041589" desc="鲲鹏·仙宠兽尾" succRate="10000" cast="100">		  <material ids="11719009" num="4" link="13502" linkName="参与"/>		  </formula>				
+    <formula id="441" product="35051681" desc="金乌·仙宠利爪" succRate="10000" cast="100">		  <material ids="11719001" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="442" product="35051682" desc="金乌·仙宠灵爪" succRate="10000" cast="100">		  <material ids="11719002" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="443" product="35051683" desc="金乌·仙宠兽铠" succRate="10000" cast="100">		  <material ids="11719003" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="444" product="35051684" desc="金乌·仙宠兽盔" succRate="10000" cast="100">		  <material ids="11719004" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="445" product="35051685" desc="金乌·仙宠兽圈" succRate="10000" cast="100">		  <material ids="11719005" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="446" product="35051686" desc="金乌·仙宠灵珠" succRate="10000" cast="100">		  <material ids="11719006" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="447" product="35051687" desc="金乌·仙宠配饰" succRate="10000" cast="100">		  <material ids="11719007" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="448" product="35051688" desc="金乌·仙宠兽面" succRate="10000" cast="100">		  <material ids="11719008" num="4" link="13502" linkName="参与"/>		  </formula>
+    <formula id="449" product="35051689" desc="金乌·仙宠兽尾" succRate="10000" cast="100">		  <material ids="11719009" num="4" link="13502" linkName="参与"/>		  </formula>
+
+  <formula id="410" product="10902402" desc="打开可随机获得飞鹰·仙宠套装碎片其中一个" succRate="10000" cast="100">
+    <material ids="11715001,11715002,11715003,11715004,11715005,11715006,11715007,11715008,11715009" num="1" link="13502" linkName="参与"/>
+    <material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+  </formula>
+  <formula id="420" product="10902403" desc="打开可随机获得玄武·仙宠套装碎片其中一个" succRate="10000" cast="100">
+    <material ids="11716001,11716002,11716003,11716004,11716005,11716006,11716007,11716008,11716009" num="1" link="13502" linkName="参与"/>
+    <material ids="11714001" num="20"  link="40000115" linkName="前往参与"/>
+  </formula>
+  <formula id="430" product="10902404" desc="打开可随机获得苍狼·仙宠套装碎片其中一个" succRate="10000" cast="100">
+    <material ids="11717001,11717002,11717003,11717004,11717005,11717006,11717007,11717008,11717009" num="1" link="13502" linkName="参与"/>
+    <material ids="11714001" num="40"  link="40000115" linkName="前往参与"/>
+  </formula>
+<formula id="440" product="10902405" desc="打开可随机获得鲲鹏·仙宠套装碎片其中一个" succRate="10000" cast="100">
+  <material ids="11718001,11718002,11718003,11718004,11718005,11718006,11718007,11718008,11718009" num="1" link="13502" linkName="参与"/>
+  <material ids="11714001" num="40"  link="40000115" linkName="前往参与"/>
+</formula>
+  <formula id="450" product="10902406" desc="打开可随机获得金乌·仙宠套装碎片其中一个" succRate="10000" cast="100">
+    <material ids="11719001,11719002,11718003,11719004,11719005,11719006,11719007,11719008,11719009" num="1" link="13502" linkName="参与"/>
+    <material ids="11714001" num="40"  link="40000115" linkName="前往参与"/>
+  </formula>
+  <!--
+  <formula id="451" product="10301054" desc="紫电仙灵" succRate="10000" cast="100">
+	<material ids="11714037" num="10" link="" linkName=""/>
+</formula>
+-->
+<formula id="452" product="10301055" desc="雾月仙灵" succRate="10000" cast="100">
+	<material ids="11714038" num="10" link="" linkName=""/>
+</formula>
+
+<formula id="453" product="10301056" desc="蓝梦仙灵" succRate="10000" cast="100">
+	<material ids="11714039" num="10" link="" linkName=""/>
+</formula>
+  <!--
+<formula id="454" product="10301057" desc="赤焰仙灵" succRate="10000" cast="100">
+	<material ids="11714040" num="10" link="" linkName=""/>
+</formula>
+-->
+
+<formula id="455" product="31131602" desc="玉衡·狂战刀" succRate="10000" cast="100" >   
+ <material ids="11701006" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="456" product="31131601" desc="玉衡·狂战项链" succRate="10000" cast="100" >   
+ <material ids="11705021" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="457" product="31131603" desc="玉衡·狂战戒指" succRate="10000" cast="100" >   
+ <material ids="11706021" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="458" product="31131604" desc="玉衡·狂战护符" succRate="10000" cast="100" >   
+ <material ids="11707021" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="459" product="31131605" desc="玉衡·狂战鞋子" succRate="10000" cast="100" >   
+ <material ids="11708021" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="460" product="31131606" desc="玉衡·狂战头盔" succRate="10000" cast="100" >   
+ <material ids="11709021" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="461" product="31131607" desc="玉衡·狂战护甲" succRate="10000" cast="100" >   
+ <material ids="11710021" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="462" product="31131608" desc="玉衡·狂战护手" succRate="10000" cast="100" >   
+ <material ids="11711021" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="463" product="31131609" desc="玉衡·狂战护腕" succRate="10000" cast="100" >   
+ <material ids="11712021" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="464" product="31131610" desc="玉衡·狂战腰带" succRate="10000" cast="100" >   
+ <material ids="11713021" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+
+
+<formula id="465" product="32131602" desc="玉衡·飞羽弓" succRate="10000" cast="100" >   
+ <material ids="11702006" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="466" product="32131601" desc="玉衡·飞羽项链" succRate="10000" cast="100" >   
+ <material ids="11705022" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="467" product="32131603" desc="玉衡·飞羽戒指" succRate="10000" cast="100" >   
+ <material ids="11706022" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="468" product="32131604" desc="玉衡·飞羽护符" succRate="10000" cast="100" >   
+ <material ids="11707022" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="469" product="32131605" desc="玉衡·飞羽鞋子" succRate="10000" cast="100" >   
+ <material ids="11708022" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="470" product="32131606" desc="玉衡·飞羽头盔" succRate="10000" cast="100" >   
+ <material ids="11709022" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="471" product="32131607" desc="玉衡·飞羽护甲" succRate="10000" cast="100" >   
+ <material ids="11710022" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="472" product="32131608" desc="玉衡·飞羽护手" succRate="10000" cast="100" >   
+ <material ids="11711022" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="473" product="32131609" desc="玉衡·飞羽护腕" succRate="10000" cast="100" >   
+ <material ids="11712022" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="474" product="32131610" desc="玉衡·飞羽腰带" succRate="10000" cast="100" >   
+ <material ids="11713022" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+
+ 
+ 
+<formula id="475" product="33131602" desc="玉衡·舞天扇" succRate="10000" cast="100" >   
+ <material ids="11703006" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="476" product="33131601" desc="玉衡·舞天项链" succRate="10000" cast="100" >   
+ <material ids="11705023" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="477" product="33131603" desc="玉衡·舞天戒指" succRate="10000" cast="100" >   
+ <material ids="11706023" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="478" product="33131604" desc="玉衡·舞天护符" succRate="10000" cast="100" >   
+ <material ids="11707023" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="479" product="33131605" desc="玉衡·舞天鞋子" succRate="10000" cast="100" >   
+ <material ids="11708023" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="480" product="33131606" desc="玉衡·舞天头盔" succRate="10000" cast="100" >   
+ <material ids="11709023" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="481" product="33131607" desc="玉衡·舞天护甲" succRate="10000" cast="100" >   
+ <material ids="11710023" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="482" product="33131608" desc="玉衡·舞天护手" succRate="10000" cast="100" >   
+ <material ids="11711023" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="483" product="33131609" desc="玉衡·舞天护腕" succRate="10000" cast="100" >   
+ <material ids="11712023" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="484" product="33131610" desc="玉衡·舞天腰带" succRate="10000" cast="100" >   
+ <material ids="11713023" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+ 
+ 
+
+<formula id="485" product="34131602" desc="玉衡·碧落杖" succRate="10000" cast="100" >   
+ <material ids="11704006" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="486" product="34131601" desc="玉衡·碧落项链" succRate="10000" cast="100" >   
+ <material ids="11705024" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="487" product="34131603" desc="玉衡·碧落戒指" succRate="10000" cast="100" >   
+ <material ids="11706024" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="488" product="34131604" desc="玉衡·碧落护符" succRate="10000" cast="100" >   
+ <material ids="11707024" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="489" product="34131605" desc="玉衡·碧落鞋子" succRate="10000" cast="100" >   
+ <material ids="11708024" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="490" product="34131606" desc="玉衡·碧落头盔" succRate="10000" cast="100" >   
+ <material ids="11709024" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="491" product="34131607" desc="玉衡·碧落护甲" succRate="10000" cast="100" >   
+ <material ids="11710024" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+
+<formula id="492" product="34131608" desc="玉衡·碧落护手" succRate="10000" cast="100" >   
+ <material ids="11711024" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="493" product="34131609" desc="玉衡·碧落护腕" succRate="10000" cast="100" >   
+ <material ids="11712024" num="4" link="11501" linkName="参与"/>      
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>  </formula> 
+
+<formula id="494" product="34131610" desc="玉衡·碧落腰带" succRate="10000" cast="100" >   
+ <material ids="11713024" num="4" link="11501" linkName="参与"/>     
+ <material ids="11714041" num="55" link="11501" linkName="参与"/>   </formula> 
+ 
+<formula id="495" product="10902539" desc="打开可随机获得玉衡·狂战套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11701006,11705021,11706021,11707021,11708021,11709021,11710021,11713021" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="496" product="10902540" desc="打开可随机获得玉衡·飞羽套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11702006,11705022,11706022,11707022,11708022,11709022,11710022,11713022" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+
+<formula id="497" product="10902541" desc="打开可随机获得玉衡·舞天套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11703006,11705023,11706023,11707023,11708023,11709023,11710023,11713023" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+  
+<formula id="498" product="10902542" desc="打开可随机获得玉衡·碧落套装碎片其中一个（不包括护手和护腕）" succRate="10000" cast="100">
+	<material ids="11704006,11705024,11706024,11707024,11708024,11709024,11710024,11713024" num="1" link="11501" linkName="参与"/>
+	<material ids="11714001" num="50"  link="40000115" linkName="前往参与"/>
+</formula>
+ 
+<formula id="499" product="10902545" desc="使用获得两个紫微玄晶" succRate="10000" cast="100">
+	<material ids="11714041" num="1" 	link="11501" linkName="参与"/>
+</formula> 
+<formula id="500" product="11714041" desc="玉衡玄晶，玉衡装备炼制所需要的材料之一" succRate="10000" cast="100" >   
+	<material ids="11714026" num="10" link="11501" linkName="参与"/> 
+</formula> 
+  </forging>

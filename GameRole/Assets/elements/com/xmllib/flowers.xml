@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--><-->
+<flowers>
+	<flower id="11801001" name="1朵粉玫瑰" broadcast="none" num="1" effType="oneFlower" totalTime="13.36"/>
+	<flower id="11801002" name="9朵粉玫瑰" broadcast="map" num="9" effType="freeFall" totalTime="13.36" time1="2.64" interval1="1.6" leafNum1="2" time2="4.64" interval2="0.64" leafNum2="2" time3="6.64" interval3="0.32" leafNum3="4" time4="11.36" interval4="0.64" leafNum4="2"/>
+	<flower id="11801003" name="99朵粉玫瑰" broadcast="faction" num="99" effType="freeFall_hanabi" totalTime="33.36" time1="5.36" interval1="1.6" leafNum1="2" time2="13.36" interval2="0.64" leafNum2="2" time3="20" interval3="0.32" leafNum3="4" time4="26.64" interval4="0.64" leafNum4="2" hInterval="2.4" delay="16"/>
+	<flower id="11801004" name="999朵粉玫瑰" broadcast="world" num="999" effType="freeFall_hanabi" totalTime="66.64" time1="6.64" interval1="1.6" leafNum1="2" time2="20" interval2="0.64" leafNum2="2" time3="33.36" interval3="0.32" leafNum3="4" time4="60" interval4="0.64" leafNum4="2" hInterval="1.6" delay="16"/>	
+</flowers>

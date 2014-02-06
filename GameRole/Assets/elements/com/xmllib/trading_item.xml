@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <items id="101" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="蔬菜" path="/items/trading/shucai.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="蔬菜" path="/items/trading/shucai.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="蔬菜" path="/items/trading/shucai.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="毛皮" path="/items/trading/maopi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="毛皮" path="/items/trading/maopi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="毛皮" path="/items/trading/maopi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="毛皮" path="/items/trading/maopi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="毛皮" path="/items/trading/maopi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="毛皮" path="/items/trading/maopi.png" desc="商贸商品"/>
+  </items>
+  <items id="102" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="大米" path="/items/trading/dami.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="大米" path="/items/trading/dami.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="大米" path="/items/trading/dami.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="荔枝" path="/items/trading/lizhi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="荔枝" path="/items/trading/lizhi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="荔枝" path="/items/trading/lizhi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="荔枝" path="/items/trading/lizhi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="荔枝" path="/items/trading/lizhi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="荔枝" path="/items/trading/lizhi.png" desc="商贸商品"/>
+  </items>
+  <items id="103" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="小麦" path="/items/trading/xiaomai.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="小麦" path="/items/trading/xiaomai.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="小麦" path="/items/trading/xiaomai.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="板栗" path="/items/trading/banli.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="板栗" path="/items/trading/banli.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="板栗" path="/items/trading/banli.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="板栗" path="/items/trading/banli.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="板栗" path="/items/trading/banli.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="板栗" path="/items/trading/banli.png" desc="商贸商品"/>
+  </items>
+  <items id="104" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="棉花" path="/items/trading/mianhua.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="棉花" path="/items/trading/mianhua.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="棉花" path="/items/trading/mianhua.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="香料" path="/items/trading/xiangliao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="香料" path="/items/trading/xiangliao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="香料" path="/items/trading/xiangliao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="香料" path="/items/trading/xiangliao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="香料" path="/items/trading/xiangliao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="香料" path="/items/trading/xiangliao.png" desc="商贸商品"/>
+  </items>
+  <items id="105" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="蔗糖" path="/items/trading/zhetang.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="蔗糖" path="/items/trading/zhetang.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="蔗糖" path="/items/trading/zhetang.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="烟草" path="/items/trading/yancao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="烟草" path="/items/trading/yancao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="烟草" path="/items/trading/yancao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="烟草" path="/items/trading/yancao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="烟草" path="/items/trading/yancao.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="烟草" path="/items/trading/yancao.png" desc="商贸商品"/>
+  </items>
+  <items id="106" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="茶叶" path="/items/trading/chaye.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="茶叶" path="/items/trading/chaye.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="茶叶" path="/items/trading/chaye.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="纸伞" path="/items/trading/zhisan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="纸伞" path="/items/trading/zhisan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="纸伞" path="/items/trading/zhisan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="纸伞" path="/items/trading/zhisan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="纸伞" path="/items/trading/zhisan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="纸伞" path="/items/trading/zhisan.png" desc="商贸商品"/>
+  </items>
+  <items id="107" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="生丝" path="/items/trading/shengsi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="生丝" path="/items/trading/shengsi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="生丝" path="/items/trading/shengsi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绢丝" path="/items/trading/juansi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绢丝" path="/items/trading/juansi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绢丝" path="/items/trading/juansi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绢丝" path="/items/trading/juansi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绢丝" path="/items/trading/juansi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绢丝" path="/items/trading/juansi.png" desc="商贸商品"/>
+  </items>
+  <items id="108" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="盐" path="/items/trading/yan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="盐" path="/items/trading/yan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="盐" path="/items/trading/yan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绸缎" path="/items/trading/chouduan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绸缎" path="/items/trading/chouduan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绸缎" path="/items/trading/chouduan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绸缎" path="/items/trading/chouduan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绸缎" path="/items/trading/chouduan.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="绸缎" path="/items/trading/chouduan.png" desc="商贸商品"/>
+  </items>
+  <items id="109" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="女儿红" path="/items/trading/nverhong.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="女儿红" path="/items/trading/nverhong.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="女儿红" path="/items/trading/nverhong.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="玉石" path="/items/trading/yushi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="玉石" path="/items/trading/yushi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="玉石" path="/items/trading/yushi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="玉石" path="/items/trading/yushi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="玉石" path="/items/trading/yushi.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="玉石" path="/items/trading/yushi.png" desc="商贸商品"/>
+  </items>
+  <items id="110" effectType="0" color="3" kind="1" usenum="1" minlvl="0" maxlvl="400">
+    <item npc_id="11100001" name="青花瓷瓶" path="/items/trading/qinghuaciping.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="青花瓷瓶" path="/items/trading/qinghuaciping.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="青花瓷瓶" path="/items/trading/qinghuaciping.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="五彩瓷盆" path="/items/trading/wucaicipen.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="五彩瓷盆" path="/items/trading/wucaicipen.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="五彩瓷盆" path="/items/trading/wucaicipen.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="五彩瓷盆" path="/items/trading/wucaicipen.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="五彩瓷盆" path="/items/trading/wucaicipen.png" desc="商贸商品"/>
+    <item npc_id="11100001" name="五彩瓷盆" path="/items/trading/wucaicipen.png" desc="商贸商品"/>
+  </items>
+</data>

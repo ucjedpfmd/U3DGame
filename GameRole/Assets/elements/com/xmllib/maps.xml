@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- type为1表示相邻地图，2表示出生点坐标 -->
+<word>
+<maps>
+	<map id="10000" name="东篱村" url="map/dong_li_cun" music="com/sounds/fengdulin.mp3" turn_level="0">
+	  <point type="1" tar_map="10100" x="40" y="0"/>
+	  <point type="2" tar_map="10000" x="3" y="38"/>	  
+	</map>
+	<map id="20000" name="东篱村" url="map/dong_li_cun" music="com/sounds/fengdulin.mp3" turn_level="0">
+	  <point type="1" tar_map="20100" x="43" y="0"/>
+	  <point type="2" tar_map="20000" x="6" y="38"/>	  
+	</map>
+	<map id="30000" name="东篱村" url="map/dong_li_cun" music="com/sounds/fengdulin.mp3" turn_level="0">
+	  <point type="1" tar_map="30100" x="43" y="0"/>
+	  <point type="2" tar_map="30000" x="6" y="38"/>	  
+	</map>
+	
+	<map id="10100" name="落日谷" url="map/luori_gu" music="com/sounds/luorigu.mp3" turn_level="1">
+	  <point type="1" tar_map="10000" x="0" y="41"/>
+	  <point type="1" tar_map="40000" x="89" y="48"/>
+	  <point type="2" tar_map="10100" x="12" y="49"/>	  
+	</map>
+	<map id="20100" name="落日谷" url="map/luori_gu" music="com/sounds/luorigu.mp3" turn_level="1">
+	  <point type="1" tar_map="20000" x="0" y="41"/>
+	  <point type="1" tar_map="40000" x="89" y="48"/>
+	  <point type="2" tar_map="20100" x="11" y="46"/>	  
+	</map>
+	<map id="30100" name="落日谷" url="map/luori_gu" music="com/sounds/luorigu.mp3" turn_level="1">
+	  <point type="1" tar_map="30000" x="0" y="41"/>
+	  <point type="1" tar_map="40000" x="89" y="48"/>
+	  <point type="2" tar_map="30100" x="11" y="46"/>	  
+	</map>	
+	
+	<map id="40000" name="璇玑城" url="map/xuan_ji_cheng" music="com/sounds/xuanjicheng.mp3" turn_level="5">
+	  <point type="1" tar_map="10100" x="80" y="146"/>
+	  <point type="1" tar_map="40300" x="32" y="59"/>
+	  <point type="1" tar_map="40400" x="85" y="3"/>
+	  <point type="1" tar_map="40100" x="68" y="15"/>
+	  <point type="1" tar_map="40200" x="155" y="72"/>	  
+	  <point type="2" tar_map="40000" x="112" y="71"/>	 	  
+	</map>
+	
+	<map id="40100" name="灵镜湖" url="map/qian_mo_jian" music="com/sounds/lingjinghu.mp3" turn_level="20">
+	  <point type="1" tar_map="40000" x="11" y="57"/>
+	  <point type="1" tar_map="40500" x="55" y="4"/>
+	  <point type="2" tar_map="40100" x="17" y="51"/>
+	</map>
+	<map id="40200" name="炎魔窟" url="map/yan_mo_ku" music="com/sounds/yanmoku.mp3" turn_level="50">
+	  <point type="1" tar_map="40000" x="0" y="66"/>
+	  <point type="1" tar_map="41300" x="67" y="130"/>
+	  <point type="1" tar_map="41400" x="44" y="19"/>
+	  <point type="1" tar_map="41500" x="143" y="83"/>
+    <point type="1" tar_map="43000" x="84" y="13"/>   
+	  <point type="2" tar_map="40200" x="7" y="68"/>
+	</map>	 
+	<map id="40300" name="昆仑墟" url="map/tian_gong" music="com/sounds/kunlunxu.mp3" turn_level="30">
+	  <point type="1" tar_map="40000" x="52" y="0"/>  
+	  <point type="1" tar_map="41000" x="74" y="116"/>
+	  <point type="1" tar_map="41100" x="89" y="39"/>
+	  <point type="1" tar_map="41200" x="34" y="32"/>
+	  <point type="1" tar_map="40800" x="2" y="46"/>
+	  <point type="2" tar_map="40300" x="56" y="58"/>
+	</map>
+		 
+	<map id="40400" name="仙踪岛" url="map/xian_zong_dao" music="com/sounds/xianzongdao.mp3" turn_level="10">
+	  <point type="1" tar_map="40000" x="55" y="114"/>
+	  <point type="1" tar_map="40600" x="2" y="64"/>  
+	  <point type="2" tar_map="40400" x="54" y="105"/>
+	</map>
+	<map id="40500" name="星月阁" url="map/xinyue_ge" music="com/sounds/xianmeng.mp3" turn_level="25">
+	  <point type="1" tar_map="40100" x="66" y="62"/>
+	  <point type="2" tar_map="40500" x="42"  y="45"/>	  
+	</map>
+	<map id="40600" name="幻雪域" url="map/huan_xue_yu" music="com/sounds/huanxueyu.mp3" turn_level="30">
+	  <point type="1" tar_map="40400" x="0" y="49"/>
+	  <point type="1" tar_map="42100" x="107" y="9"/>
+	  <point type="1" tar_map="42000" x="82" y="120"/>
+	  <point type="1" tar_map="41900" x="56" y="103"/>
+	  <point type="2" tar_map="40600" x="8" y="51"/>
+	</map>
+	<map id="40800" name="太虚境" url="map/xu_ling_jing" music="com/sounds/huanxueyu.mp3" turn_level="60">
+	  <point type="1" tar_map="40300" x="13" y="57"/>
+	  <point type="1" tar_map="42200" x="8" y="74"/>
+	  <point type="1" tar_map="42300" x="107" y="86"/>
+	  <point type="1" tar_map="42400" x="59" y="3"/>	  
+	  <point type="2" tar_map="40800" x="61" y="51"/>
+	  
+	</map>
+	<map id="41000" name="玄风洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="30">
+	  <point type="1" tar_map="40300" x="38" y="65"/>
+	  <point type="1" tar_map="40300" x="20" y="2"/>	  
+	  <point type="2" tar_map="41000" x="37" y="61"/>	 
+	</map>
+	<map id="41100" name="赤炎洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="30">
+	  <point type="1" tar_map="40300" x="38" y="65"/>
+	  <point type="1" tar_map="40300" x="20" y="2"/>	  
+	  <point type="2" tar_map="41100" x="37" y="61"/>	 
+	</map>
+		<map id="41200" name="火云洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="30">
+	  <point type="1" tar_map="40300" x="38" y="65"/>
+	  <point type="1" tar_map="40300" x="20" y="2"/>	  
+	  <point type="2" tar_map="41200" x="37" y="61"/>	 
+	</map>
+		<map id="41300" name="碧睛洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="50">
+	  <point type="1" tar_map="40200" x="38" y="65"/>
+	  <point type="1" tar_map="40200" x="20" y="2"/>	  
+	  <point type="2" tar_map="41300" x="37" y="61"/>	 
+	</map>
+		<map id="41400" name="盘蛇洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="50">
+	  <point type="1" tar_map="40200" x="38" y="65"/>
+	  <point type="1" tar_map="40200" x="20" y="2"/>	  
+	  <point type="2" tar_map="41400" x="37" y="61"/>	 
+	</map>
+		<map id="41500" name="修魔洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="50">
+	  <point type="1" tar_map="40200" x="38" y="65"/>
+	  <point type="1" tar_map="40200" x="20" y="2"/>	  
+	  <point type="2" tar_map="41500" x="37" y="61"/>	 
+	</map>
+		<map id="41900" name="鬼影洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="40">
+	  <point type="1" tar_map="40600" x="38" y="65"/>
+	  <point type="1" tar_map="40600" x="20" y="2"/>	  
+	  <point type="2" tar_map="41900" x="37" y="61"/>	 
+	</map>
+		<map id="42000" name="天魔洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="40">
+	  <point type="1" tar_map="40600" x="38" y="65"/>
+	  <point type="1" tar_map="40600" x="20" y="2"/>	  
+	  <point type="2" tar_map="42000" x="37" y="61"/>	 
+	</map>
+		<map id="42100" name="千手洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="40">
+	  <point type="1" tar_map="40600" x="38" y="65"/>
+	  <point type="1" tar_map="40600" x="20" y="2"/>	  
+	  <point type="2" tar_map="42100" x="37" y="61"/>	 
+	</map>
+		<map id="42200" name="玄武洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="60">
+	  <point type="1" tar_map="40800" x="38" y="65"/>
+	  <point type="1" tar_map="40800" x="20" y="2"/>	  
+	  <point type="2" tar_map="42200" x="37" y="61"/>	 
+	</map>
+		<map id="42300" name="青冥洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="60">
+	  <point type="1" tar_map="40800" x="38" y="65"/>
+	  <point type="1" tar_map="40800" x="20" y="2"/>	  
+	  <point type="2" tar_map="42300" x="37" y="61"/>	 
+	</map>
+		<map id="42400" name="疾风洞" url="map/boss_dong" music="com/sounds/kunlunxu.mp3" turn_level="60">
+	  <point type="1" tar_map="40800" x="38" y="65"/>
+	  <point type="1" tar_map="40800" x="20" y="2"/>	  
+	  <point type="2" tar_map="42400" x="37" y="61"/>	 
+	</map>
+
+  <map id="43000" name="炼魂鬼域" url="map/lian_hun_gui_yu" music="com/sounds/huanxueyu.mp3" turn_level="70">
+    <point type="1" tar_map="40200" x="26" y="0"/>
+    <point type="2" tar_map="43000" x="27" y="10"/>
+
+  </map>
+	<map id="40700" name="仙尊挂机地图" url="map/qian_mo_jian" music="com/sounds/luorigu.mp3" turn_level="20">
+	  <point type="1" tar_map="40000" x="11" y="57"/>
+	  <point type="1" tar_map="40900" x="34" y="40"/>  
+	  <point type="2" tar_map="40700" x="45" y="42"/>  
+	</map>
+	<map id="40900" name="高级挂机区" url="map/qian_mo_jian" music="com/sounds/luorigu.mp3" turn_level="20">
+	  <point type="1" tar_map="40700" x="11" y="57"/>
+	  <point type="1" tar_map="40000" x="45" y="42"/>
+	  <point type="2" tar_map="40900" x="23" y="51"/>	  
+	</map>	
+	<map id="50000" name="天绝斗法" url="map/zhan_chang" music="com/sounds/tianjue.mp3" turn_level="30">
+	</map>
+	<map id="50100" name="仙盟战" url="map/xian_meng_zhan" music="com/sounds/tianjue.mp3" turn_level="30">
+	</map>
+	<map id="50200" name="仙盟地图" url="map/xian_meng" music="com/sounds/xianmeng.mp3" turn_level="0">
+	  <point type="1" tar_map="40000" x="28" y="5"/>
+	  <point type="2" tar_map="50200" x="7" y="31"/>
+	</map>	
+	<map id="50300" name="破碎星空" url="map/po_sui" music="com/sounds/tianjue.mp3" turn_level="70">
+	</map>
+	<map id="50400" name="黄金沙滩" url="map/ri_guang_yu" music="com/sounds/xianmeng.mp3" turn_level="0">
+	  <point type="2" tar_map="50400" x="19" y="19"/>
+	</map>	
+	<map id="50501" name="修罗战场第1层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50501" x="65" y="11"/>
+	</map>	
+	<map id="50502" name="修罗战场第2层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50502" x="65" y="11"/>
+	</map>	
+	<map id="50503" name="修罗战场第3层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50503" x="65" y="11"/>
+	</map>	
+	<map id="50504" name="修罗战场第4层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50504" x="65" y="11"/>
+	</map>	
+	<map id="50505" name="修罗战场第5层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50505" x="65" y="11"/>
+	</map>	
+	<map id="50506" name="修罗战场第6层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50506" x="65" y="11"/>
+	</map>	
+	<map id="50507" name="修罗战场第7层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50507" x="65" y="11"/>
+	</map>	
+	<map id="50508" name="修罗战场第8层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50508" x="65" y="11"/>
+	</map>	
+	<map id="50509" name="修罗战场第9层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50509" x="65" y="11"/>
+	</map>	
+	<map id="50510" name="修罗战场第10层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50510" x="65" y="11"/>
+	</map>	
+	<map id="50511" name="修罗战场第11层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50511" x="65" y="11"/>
+	</map>	
+	<map id="50512" name="修罗战场第12层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50512" x="65" y="11"/>
+	</map>	
+	<map id="50513" name="修罗战场第13层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50513" x="65" y="11"/>
+	</map>	
+	<map id="50514" name="修罗战场第14层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50514" x="65" y="11"/>
+	</map>	
+	<map id="50515" name="修罗战场第15层" url="map/xiu_luo_zhan_chang" music="com/sounds/tianjue.mp3" turn_level="0">
+	  <point type="2" tar_map="50515" x="65" y="11"/>
+	</map>		
+	<map id="60100" name="风渡林" url="map/feng_du_lin" music="com/sounds/luorigu.mp3" turn_level="100">
+	  <point type="2" tar_map="60100" x="2" y="86"/>
+	</map>
+	<map id="60200" name="冰火炼金洞" url="map/lian_jin_dong" music="com/sounds/huanxueyu.mp3" turn_level="30">
+	  <point type="2" tar_map="60200" x="44" y="19"/>
+	</map>
+	<map id="60300" name="女娲神殿（精英）" url="map/nv_wa_shen_dian" music="com/sounds/jiuyou.mp3" turn_level="41">
+	  <point type="2" tar_map="60300" x="21" y="44"/>
+	</map>
+	<map id="60400" name="烈焰青牛巢穴" url="map/lie_yan_qing_niu" music="com/sounds/butianshi.mp3" turn_level="1">
+	  <point type="2" tar_map="60400" x="6" y="33"/>
+	</map>
+	<map id="60500" name="蚩尤魔窟" url="map/chi_you_mo_ku" music="com/sounds/kunlunxu.mp3" turn_level="1">
+	  <point type="2" tar_map="60500" x="11" y="17"/>
+	</map>	
+	<map id="60000" name="百灵园" url="map/bai_ling_yuan" music="com/sounds/luorigu.mp3" turn_level="1">
+	  <point type="2" tar_map="60000" x="48" y="61"/>
+	</map>	
+	<map id="60600" name="龙岭迷窟" url="map/long_ling_mi_ku" music="com/sounds/huanxueyu.mp3" turn_level="50">
+	  <point type="2" tar_map="60600" x="7" y="41"/>
+	</map>
+	<map id="60700" name="龙岭迷窟（精英）" url="map/long_ling_mi_ku" music="com/sounds/huanxueyu.mp3" turn_level="50">
+	  <point type="2" tar_map="60700" x="7" y="41"/>
+	</map>
+	<map id="61000" name="女娲神殿" url="map/nv_wa_shen_dian" music="com/sounds/jiuyou.mp3" turn_level="35">
+	  <point type="2" tar_map="61000" x="21" y="44"/>
+	</map>
+	<map id="61100" name="九幽迷城·雪域" url="map/xue_yu" music="com/sounds/jiuyou.mp3" turn_level="15">
+	  <point type="2" tar_map="61100" x="4" y="106"/>
+	</map>		
+	<map id="61200" name="凤鸣棋谷" url="map/xian_qi_ling_gu" music="com/sounds/luorigu.mp3" turn_level="50">
+	  <point type="2" tar_map="61200" x="26" y="19"/>
+	</map>		
+	<map id="61300" name="斩魂殿" url="map/td" music="com/sounds/luorigu.mp3" turn_level="70">
+	  <point type="2" tar_map="61300" x="38" y="32"/>
+	</map>		
+
+
+
+<!--幻兽天境只是用来显示的，没有具体作用-->
+	<map id="61400" name="幻兽天境" url="" music="com/sounds/luorigu.mp3" turn_level="1">
+	</map>
+
+	<map id="70000" name="混沌虚天" url="map/tai_gu_tian_men" music="com/sounds/xuanjicheng.mp3" turn_level="60">
+	  <point type="2" tar_map="70000" x="43" y="38"/>	 	  
+	  <point type="1" tar_map="70100" x="48" y="101"/>	 	  
+	</map>	
+
+	<map id="70100" name="混沌之塔1层" url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+	  <point type="1" tar_map="70121" x="39" y="91"/>	 	  
+	  <point type="1" tar_map="70136" x="41" y="49"/>	 	  
+	  <point type="1" tar_map="70151" x="83" y="46"/>	 	  
+	  <point type="1" tar_map="70166" x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70100" x="66" y="72"/>	 	  
+	</map>
+  <map id="70101"	 name="混沌之塔2层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70122"	  x="39" y="91"/>
+    <point type="1" tar_map="70137"	 x="41" y="49"/>
+    <point type="1" tar_map="70152"	 x="83" y="46"/>
+    <point type="1" tar_map="70167"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70101"	 x="66" y="72"/>
+  </map>
+  <map id="70102"	 name="混沌之塔3层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70123"	  x="39" y="91"/>
+    <point type="1" tar_map="70138"	 x="41" y="49"/>
+    <point type="1" tar_map="70153"	 x="83" y="46"/>
+    <point type="1" tar_map="70168"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70102"	 x="66" y="72"/>
+  </map>
+  <map id="70103"	 name="混沌之塔4层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70124"	  x="39" y="91"/>
+    <point type="1" tar_map="70139"	 x="41" y="49"/>
+    <point type="1" tar_map="70154"	 x="83" y="46"/>
+    <point type="1" tar_map="70169"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70103"	 x="66" y="72"/>
+  </map>
+  <map id="70104"	 name="混沌之塔5层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70125"	  x="39" y="91"/>
+    <point type="1" tar_map="70140"	 x="41" y="49"/>
+    <point type="1" tar_map="70155"	 x="83" y="46"/>
+    <point type="1" tar_map="70170"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70104"	 x="66" y="72"/>
+  </map>
+  <map id="70105"	 name="混沌之塔6层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70126"	  x="39" y="91"/>
+    <point type="1" tar_map="70141"	 x="41" y="49"/>
+    <point type="1" tar_map="70156"	 x="83" y="46"/>
+    <point type="1" tar_map="70171"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70105"	 x="66" y="72"/>
+  </map>
+  <map id="70106"	 name="混沌之塔7层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70127"	  x="39" y="91"/>
+    <point type="1" tar_map="70142"	 x="41" y="49"/>
+    <point type="1" tar_map="70157"	 x="83" y="46"/>
+    <point type="1" tar_map="70172"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70106"	 x="66" y="72"/>
+  </map>
+  <map id="70107"	 name="混沌之塔8层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70128"	  x="39" y="91"/>
+    <point type="1" tar_map="70143"	 x="41" y="49"/>
+    <point type="1" tar_map="70158"	 x="83" y="46"/>
+    <point type="1" tar_map="70173"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70107"	 x="66" y="72"/>
+  </map>
+  <map id="70108"	 name="混沌之塔9层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70129"	  x="39" y="91"/>
+    <point type="1" tar_map="70144"	 x="41" y="49"/>
+    <point type="1" tar_map="70159"	 x="83" y="46"/>
+    <point type="1" tar_map="70174"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70108"	 x="66" y="72"/>
+  </map>
+  <map id="70109"	 name="混沌之塔10层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70130"	  x="39" y="91"/>
+    <point type="1" tar_map="70145"	 x="41" y="49"/>
+    <point type="1" tar_map="70160"	 x="83" y="46"/>
+    <point type="1" tar_map="70175"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70109"	 x="66" y="72"/>
+  </map>
+  <map id="70110"	 name="混沌之塔11层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70131"	  x="39" y="91"/>
+    <point type="1" tar_map="70146"	 x="41" y="49"/>
+    <point type="1" tar_map="70161"	 x="83" y="46"/>
+    <point type="1" tar_map="70176"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70110"	 x="66" y="72"/>
+  </map>
+  <map id="70111"	 name="混沌之塔12层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70132"	  x="39" y="91"/>
+    <point type="1" tar_map="70147"	 x="41" y="49"/>
+    <point type="1" tar_map="70162"	 x="83" y="46"/>
+    <point type="1" tar_map="70177"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70111"	 x="66" y="72"/>
+  </map>
+  <map id="70112"	 name="混沌之塔13层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70133"	  x="39" y="91"/>
+    <point type="1" tar_map="70148"	 x="41" y="49"/>
+    <point type="1" tar_map="70163"	 x="83" y="46"/>
+    <point type="1" tar_map="70178"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70112"	 x="66" y="72"/>
+  </map>
+  <map id="70113"	 name="混沌之塔14层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70134"	  x="39" y="91"/>
+    <point type="1" tar_map="70149"	 x="41" y="49"/>
+    <point type="1" tar_map="70164"	 x="83" y="46"/>
+    <point type="1" tar_map="70179"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70113"	 x="66" y="72"/>
+  </map>
+  <map id="70114"	 name="混沌之塔15层"	 url="map/hun_dun_zhi_ta" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70135"	  x="39" y="91"/>
+    <point type="1" tar_map="70150"	 x="41" y="49"/>
+    <point type="1" tar_map="70165"	 x="83" y="46"/>
+    <point type="1" tar_map="70180"	 x="98" y="105"/>
+    <point type="1" tar_map="79999"	 x="1" y="63"/>
+    <point type="1" tar_map="79998"	 x="44" y="3"/>
+    <point type="1" tar_map="79997"	 x="135" y="94"/>
+    <point type="1" tar_map="79996"	 x="95" y="149"/>
+    <point type="2" tar_map="70114"	 x="66" y="72"/>
+  </map>
+
+
+  <map id="70121" name="炽焰洞1层" url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+	  <point type="1" tar_map="70100" x="70" y="56"/>	 	  
+	  <point type="1" tar_map="70100" x="30" y="56"/>	 	  
+	  <point type="1" tar_map="70100" x="67" y="22"/>	 	  
+	  <point type="1" tar_map="70100" x="23" y="12"/>	 	  
+	  <point type="2" tar_map="70121" x="30" y="53"/>	 	  
+	</map>
+  <map id="70122"	 name="炽焰洞2层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70101"	 x="70" y="56"/>
+    <point type="1" tar_map="70101"	 x="30" y="56"/>
+    <point type="1" tar_map="70101"	 x="67" y="22"/>
+    <point type="1" tar_map="70101"	 x="23" y="12"/>
+    <point type="2" tar_map="70122"	 x="30" y="53"/>
+  </map>
+  <map id="70123"	 name="炽焰洞3层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70102"	 x="70" y="56"/>
+    <point type="1" tar_map="70102"	 x="30" y="56"/>
+    <point type="1" tar_map="70102"	 x="67" y="22"/>
+    <point type="1" tar_map="70102"	 x="23" y="12"/>
+    <point type="2" tar_map="70123"	 x="30" y="53"/>
+  </map>
+  <map id="70124"	 name="炽焰洞4层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70103"	 x="70" y="56"/>
+    <point type="1" tar_map="70103"	 x="30" y="56"/>
+    <point type="1" tar_map="70103"	 x="67" y="22"/>
+    <point type="1" tar_map="70103"	 x="23" y="12"/>
+    <point type="2" tar_map="70124"	 x="30" y="53"/>
+  </map>
+  <map id="70125"	 name="炽焰洞5层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70104"	 x="70" y="56"/>
+    <point type="1" tar_map="70104"	 x="30" y="56"/>
+    <point type="1" tar_map="70104"	 x="67" y="22"/>
+    <point type="1" tar_map="70104"	 x="23" y="12"/>
+    <point type="2" tar_map="70125"	 x="30" y="53"/>
+  </map>
+  <map id="70126"	 name="炽焰洞6层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70105"	 x="70" y="56"/>
+    <point type="1" tar_map="70105"	 x="30" y="56"/>
+    <point type="1" tar_map="70105"	 x="67" y="22"/>
+    <point type="1" tar_map="70105"	 x="23" y="12"/>
+    <point type="2" tar_map="70126"	 x="30" y="53"/>
+  </map>
+  <map id="70127"	 name="炽焰洞7层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70106"	 x="70" y="56"/>
+    <point type="1" tar_map="70106"	 x="30" y="56"/>
+    <point type="1" tar_map="70106"	 x="67" y="22"/>
+    <point type="1" tar_map="70106"	 x="23" y="12"/>
+    <point type="2" tar_map="70127"	 x="30" y="53"/>
+  </map>
+  <map id="70128"	 name="炽焰洞8层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70107"	 x="70" y="56"/>
+    <point type="1" tar_map="70107"	 x="30" y="56"/>
+    <point type="1" tar_map="70107"	 x="67" y="22"/>
+    <point type="1" tar_map="70107"	 x="23" y="12"/>
+    <point type="2" tar_map="70128"	 x="30" y="53"/>
+  </map>
+  <map id="70129"	 name="炽焰洞9层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70108"	 x="70" y="56"/>
+    <point type="1" tar_map="70108"	 x="30" y="56"/>
+    <point type="1" tar_map="70108"	 x="67" y="22"/>
+    <point type="1" tar_map="70108"	 x="23" y="12"/>
+    <point type="2" tar_map="70129"	 x="30" y="53"/>
+  </map>
+  <map id="70130"	 name="炽焰洞10层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70109"	 x="70" y="56"/>
+    <point type="1" tar_map="70109"	 x="30" y="56"/>
+    <point type="1" tar_map="70109"	 x="67" y="22"/>
+    <point type="1" tar_map="70109"	 x="23" y="12"/>
+    <point type="2" tar_map="70130"	 x="30" y="53"/>
+  </map>
+  <map id="70131"	 name="炽焰洞11层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70110"	 x="70" y="56"/>
+    <point type="1" tar_map="70110"	 x="30" y="56"/>
+    <point type="1" tar_map="70110"	 x="67" y="22"/>
+    <point type="1" tar_map="70110"	 x="23" y="12"/>
+    <point type="2" tar_map="70131"	 x="30" y="53"/>
+  </map>
+  <map id="70132"	 name="炽焰洞12层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70111"	 x="70" y="56"/>
+    <point type="1" tar_map="70111"	 x="30" y="56"/>
+    <point type="1" tar_map="70111"	 x="67" y="22"/>
+    <point type="1" tar_map="70111"	 x="23" y="12"/>
+    <point type="2" tar_map="70132"	 x="30" y="53"/>
+  </map>
+  <map id="70133"	 name="炽焰洞13层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70112"	 x="70" y="56"/>
+    <point type="1" tar_map="70112"	 x="30" y="56"/>
+    <point type="1" tar_map="70112"	 x="67" y="22"/>
+    <point type="1" tar_map="70112"	 x="23" y="12"/>
+    <point type="2" tar_map="70133"	 x="30" y="53"/>
+  </map>
+  <map id="70134"	 name="炽焰洞14层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70113"	 x="70" y="56"/>
+    <point type="1" tar_map="70113"	 x="30" y="56"/>
+    <point type="1" tar_map="70113"	 x="67" y="22"/>
+    <point type="1" tar_map="70113"	 x="23" y="12"/>
+    <point type="2" tar_map="70134"	 x="30" y="53"/>
+  </map>
+  <map id="70135"	 name="炽焰洞15层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70114"	 x="70" y="56"/>
+    <point type="1" tar_map="70114"	 x="30" y="56"/>
+    <point type="1" tar_map="70114"	 x="67" y="22"/>
+    <point type="1" tar_map="70114"	 x="23" y="12"/>
+    <point type="2" tar_map="70135"	 x="30" y="53"/>
+  </map>
+
+  <map id="70136"	 name="冰龙洞1层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70100"	 x="70" y="56"/>
+    <point type="1" tar_map="70100"	 x="30" y="56"/>
+    <point type="1" tar_map="70100"	 x="67" y="22"/>
+    <point type="1" tar_map="70100"	 x="23" y="12"/>
+    <point type="2" tar_map="70136"	 x="30" y="53"/>
+  </map>
+  <map id="70137"	 name="冰龙洞2层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70101"	 x="70" y="56"/>
+    <point type="1" tar_map="70101"	 x="30" y="56"/>
+    <point type="1" tar_map="70101"	 x="67" y="22"/>
+    <point type="1" tar_map="70101"	 x="23" y="12"/>
+    <point type="2" tar_map="70137"	 x="30" y="53"/>
+  </map>
+  <map id="70138"	 name="冰龙洞3层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70102"	 x="70" y="56"/>
+    <point type="1" tar_map="70102"	 x="30" y="56"/>
+    <point type="1" tar_map="70102"	 x="67" y="22"/>
+    <point type="1" tar_map="70102"	 x="23" y="12"/>
+    <point type="2" tar_map="70138"	 x="30" y="53"/>
+  </map>
+  <map id="70139"	 name="冰龙洞4层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70103"	 x="70" y="56"/>
+    <point type="1" tar_map="70103"	 x="30" y="56"/>
+    <point type="1" tar_map="70103"	 x="67" y="22"/>
+    <point type="1" tar_map="70103"	 x="23" y="12"/>
+    <point type="2" tar_map="70139"	 x="30" y="53"/>
+  </map>
+  <map id="70140"	 name="冰龙洞5层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70104"	 x="70" y="56"/>
+    <point type="1" tar_map="70104"	 x="30" y="56"/>
+    <point type="1" tar_map="70104"	 x="67" y="22"/>
+    <point type="1" tar_map="70104"	 x="23" y="12"/>
+    <point type="2" tar_map="70140"	 x="30" y="53"/>
+  </map>
+  <map id="70141"	 name="冰龙洞6层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70105"	 x="70" y="56"/>
+    <point type="1" tar_map="70105"	 x="30" y="56"/>
+    <point type="1" tar_map="70105"	 x="67" y="22"/>
+    <point type="1" tar_map="70105"	 x="23" y="12"/>
+    <point type="2" tar_map="70141"	 x="30" y="53"/>
+  </map>
+  <map id="70142"	 name="冰龙洞7层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70106"	 x="70" y="56"/>
+    <point type="1" tar_map="70106"	 x="30" y="56"/>
+    <point type="1" tar_map="70106"	 x="67" y="22"/>
+    <point type="1" tar_map="70106"	 x="23" y="12"/>
+    <point type="2" tar_map="70142"	 x="30" y="53"/>
+  </map>
+  <map id="70143"	 name="冰龙洞8层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70107"	 x="70" y="56"/>
+    <point type="1" tar_map="70107"	 x="30" y="56"/>
+    <point type="1" tar_map="70107"	 x="67" y="22"/>
+    <point type="1" tar_map="70107"	 x="23" y="12"/>
+    <point type="2" tar_map="70143"	 x="30" y="53"/>
+  </map>
+  <map id="70144"	 name="冰龙洞9层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70108"	 x="70" y="56"/>
+    <point type="1" tar_map="70108"	 x="30" y="56"/>
+    <point type="1" tar_map="70108"	 x="67" y="22"/>
+    <point type="1" tar_map="70108"	 x="23" y="12"/>
+    <point type="2" tar_map="70144"	 x="30" y="53"/>
+  </map>
+  <map id="70145"	 name="冰龙洞10层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70109"	 x="70" y="56"/>
+    <point type="1" tar_map="70109"	 x="30" y="56"/>
+    <point type="1" tar_map="70109"	 x="67" y="22"/>
+    <point type="1" tar_map="70109"	 x="23" y="12"/>
+    <point type="2" tar_map="70145"	 x="30" y="53"/>
+  </map>
+  <map id="70146"	 name="冰龙洞11层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70110"	 x="70" y="56"/>
+    <point type="1" tar_map="70110"	 x="30" y="56"/>
+    <point type="1" tar_map="70110"	 x="67" y="22"/>
+    <point type="1" tar_map="70110"	 x="23" y="12"/>
+    <point type="2" tar_map="70146"	 x="30" y="53"/>
+  </map>
+  <map id="70147"	 name="冰龙洞12层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70111"	 x="70" y="56"/>
+    <point type="1" tar_map="70111"	 x="30" y="56"/>
+    <point type="1" tar_map="70111"	 x="67" y="22"/>
+    <point type="1" tar_map="70111"	 x="23" y="12"/>
+    <point type="2" tar_map="70147"	 x="30" y="53"/>
+  </map>
+  <map id="70148"	 name="冰龙洞13层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70112"	 x="70" y="56"/>
+    <point type="1" tar_map="70112"	 x="30" y="56"/>
+    <point type="1" tar_map="70112"	 x="67" y="22"/>
+    <point type="1" tar_map="70112"	 x="23" y="12"/>
+    <point type="2" tar_map="70148"	 x="30" y="53"/>
+  </map>
+  <map id="70149"	 name="冰龙洞14层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70113"	 x="70" y="56"/>
+    <point type="1" tar_map="70113"	 x="30" y="56"/>
+    <point type="1" tar_map="70113"	 x="67" y="22"/>
+    <point type="1" tar_map="70113"	 x="23" y="12"/>
+    <point type="2" tar_map="70149"	 x="30" y="53"/>
+  </map>
+  <map id="70150"	 name="冰龙洞15层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70114"	 x="70" y="56"/>
+    <point type="1" tar_map="70114"	 x="30" y="56"/>
+    <point type="1" tar_map="70114"	 x="67" y="22"/>
+    <point type="1" tar_map="70114"	 x="23" y="12"/>
+    <point type="2" tar_map="70150"	 x="30" y="53"/>
+  </map>
+
+  <map id="70151"	 name="坤阳洞1层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70100"	 x="70" y="56"/>
+    <point type="1" tar_map="70100"	 x="30" y="56"/>
+    <point type="1" tar_map="70100"	 x="67" y="22"/>
+    <point type="1" tar_map="70100"	 x="23" y="12"/>
+    <point type="2" tar_map="70151"	 x="30" y="53"/>
+  </map>
+  <map id="70152"	 name="坤阳洞2层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70101"	 x="70" y="56"/>
+    <point type="1" tar_map="70101"	 x="30" y="56"/>
+    <point type="1" tar_map="70101"	 x="67" y="22"/>
+    <point type="1" tar_map="70101"	 x="23" y="12"/>
+    <point type="2" tar_map="70152"	 x="30" y="53"/>
+  </map>
+  <map id="70153"	 name="坤阳洞3层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70102"	 x="70" y="56"/>
+    <point type="1" tar_map="70102"	 x="30" y="56"/>
+    <point type="1" tar_map="70102"	 x="67" y="22"/>
+    <point type="1" tar_map="70102"	 x="23" y="12"/>
+    <point type="2" tar_map="70153"	 x="30" y="53"/>
+  </map>
+  <map id="70154"	 name="坤阳洞4层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70103"	 x="70" y="56"/>
+    <point type="1" tar_map="70103"	 x="30" y="56"/>
+    <point type="1" tar_map="70103"	 x="67" y="22"/>
+    <point type="1" tar_map="70103"	 x="23" y="12"/>
+    <point type="2" tar_map="70154"	 x="30" y="53"/>
+  </map>
+  <map id="70155"	 name="坤阳洞5层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70104"	 x="70" y="56"/>
+    <point type="1" tar_map="70104"	 x="30" y="56"/>
+    <point type="1" tar_map="70104"	 x="67" y="22"/>
+    <point type="1" tar_map="70104"	 x="23" y="12"/>
+    <point type="2" tar_map="70155"	 x="30" y="53"/>
+  </map>
+  <map id="70156"	 name="坤阳洞6层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70105"	 x="70" y="56"/>
+    <point type="1" tar_map="70105"	 x="30" y="56"/>
+    <point type="1" tar_map="70105"	 x="67" y="22"/>
+    <point type="1" tar_map="70105"	 x="23" y="12"/>
+    <point type="2" tar_map="70156"	 x="30" y="53"/>
+  </map>
+  <map id="70157"	 name="坤阳洞7层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70106"	 x="70" y="56"/>
+    <point type="1" tar_map="70106"	 x="30" y="56"/>
+    <point type="1" tar_map="70106"	 x="67" y="22"/>
+    <point type="1" tar_map="70106"	 x="23" y="12"/>
+    <point type="2" tar_map="70157"	 x="30" y="53"/>
+  </map>
+  <map id="70158"	 name="坤阳洞8层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70107"	 x="70" y="56"/>
+    <point type="1" tar_map="70107"	 x="30" y="56"/>
+    <point type="1" tar_map="70107"	 x="67" y="22"/>
+    <point type="1" tar_map="70107"	 x="23" y="12"/>
+    <point type="2" tar_map="70158"	 x="30" y="53"/>
+  </map>
+  <map id="70159"	 name="坤阳洞9层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70108"	 x="70" y="56"/>
+    <point type="1" tar_map="70108"	 x="30" y="56"/>
+    <point type="1" tar_map="70108"	 x="67" y="22"/>
+    <point type="1" tar_map="70108"	 x="23" y="12"/>
+    <point type="2" tar_map="70159"	 x="30" y="53"/>
+  </map>
+  <map id="70160"	 name="坤阳洞10层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70109"	 x="70" y="56"/>
+    <point type="1" tar_map="70109"	 x="30" y="56"/>
+    <point type="1" tar_map="70109"	 x="67" y="22"/>
+    <point type="1" tar_map="70109"	 x="23" y="12"/>
+    <point type="2" tar_map="70160"	 x="30" y="53"/>
+  </map>
+  <map id="70161"	 name="坤阳洞11层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70110"	 x="70" y="56"/>
+    <point type="1" tar_map="70110"	 x="30" y="56"/>
+    <point type="1" tar_map="70110"	 x="67" y="22"/>
+    <point type="1" tar_map="70110"	 x="23" y="12"/>
+    <point type="2" tar_map="70161"	 x="30" y="53"/>
+  </map>
+  <map id="70162"	 name="坤阳洞12层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70111"	 x="70" y="56"/>
+    <point type="1" tar_map="70111"	 x="30" y="56"/>
+    <point type="1" tar_map="70111"	 x="67" y="22"/>
+    <point type="1" tar_map="70111"	 x="23" y="12"/>
+    <point type="2" tar_map="70162"	 x="30" y="53"/>
+  </map>
+  <map id="70163"	 name="坤阳洞13层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70112"	 x="70" y="56"/>
+    <point type="1" tar_map="70112"	 x="30" y="56"/>
+    <point type="1" tar_map="70112"	 x="67" y="22"/>
+    <point type="1" tar_map="70112"	 x="23" y="12"/>
+    <point type="2" tar_map="70163"	 x="30" y="53"/>
+  </map>
+  <map id="70164"	 name="坤阳洞14层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70113"	 x="70" y="56"/>
+    <point type="1" tar_map="70113"	 x="30" y="56"/>
+    <point type="1" tar_map="70113"	 x="67" y="22"/>
+    <point type="1" tar_map="70113"	 x="23" y="12"/>
+    <point type="2" tar_map="70164"	 x="30" y="53"/>
+  </map>
+  <map id="70165"	 name="坤阳洞15层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70114"	 x="70" y="56"/>
+    <point type="1" tar_map="70114"	 x="30" y="56"/>
+    <point type="1" tar_map="70114"	 x="67" y="22"/>
+    <point type="1" tar_map="70114"	 x="23" y="12"/>
+    <point type="2" tar_map="70165"	 x="30" y="53"/>
+  </map>
+
+  <map id="70166"	 name="青木洞1层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70100"	 x="70" y="56"/>
+    <point type="1" tar_map="70100"	 x="30" y="56"/>
+    <point type="1" tar_map="70100"	 x="67" y="22"/>
+    <point type="1" tar_map="70100"	 x="23" y="12"/>
+    <point type="2" tar_map="70166"	 x="30" y="53"/>
+  </map>
+  <map id="70167"	 name="青木洞2层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70101"	 x="70" y="56"/>
+    <point type="1" tar_map="70101"	 x="30" y="56"/>
+    <point type="1" tar_map="70101"	 x="67" y="22"/>
+    <point type="1" tar_map="70101"	 x="23" y="12"/>
+    <point type="2" tar_map="70167"	 x="30" y="53"/>
+  </map>
+  <map id="70168"	 name="青木洞3层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70102"	 x="70" y="56"/>
+    <point type="1" tar_map="70102"	 x="30" y="56"/>
+    <point type="1" tar_map="70102"	 x="67" y="22"/>
+    <point type="1" tar_map="70102"	 x="23" y="12"/>
+    <point type="2" tar_map="70168"	 x="30" y="53"/>
+  </map>
+  <map id="70169"	 name="青木洞4层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70103"	 x="70" y="56"/>
+    <point type="1" tar_map="70103"	 x="30" y="56"/>
+    <point type="1" tar_map="70103"	 x="67" y="22"/>
+    <point type="1" tar_map="70103"	 x="23" y="12"/>
+    <point type="2" tar_map="70169"	 x="30" y="53"/>
+  </map>
+  <map id="70170"	 name="青木洞5层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70104"	 x="70" y="56"/>
+    <point type="1" tar_map="70104"	 x="30" y="56"/>
+    <point type="1" tar_map="70104"	 x="67" y="22"/>
+    <point type="1" tar_map="70104"	 x="23" y="12"/>
+    <point type="2" tar_map="70170"	 x="30" y="53"/>
+  </map>
+  <map id="70171"	 name="青木洞6层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70105"	 x="70" y="56"/>
+    <point type="1" tar_map="70105"	 x="30" y="56"/>
+    <point type="1" tar_map="70105"	 x="67" y="22"/>
+    <point type="1" tar_map="70105"	 x="23" y="12"/>
+    <point type="2" tar_map="70171"	 x="30" y="53"/>
+  </map>
+  <map id="70172"	 name="青木洞7层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70106"	 x="70" y="56"/>
+    <point type="1" tar_map="70106"	 x="30" y="56"/>
+    <point type="1" tar_map="70106"	 x="67" y="22"/>
+    <point type="1" tar_map="70106"	 x="23" y="12"/>
+    <point type="2" tar_map="70172"	 x="30" y="53"/>
+  </map>
+  <map id="70173"	 name="青木洞8层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70107"	 x="70" y="56"/>
+    <point type="1" tar_map="70107"	 x="30" y="56"/>
+    <point type="1" tar_map="70107"	 x="67" y="22"/>
+    <point type="1" tar_map="70107"	 x="23" y="12"/>
+    <point type="2" tar_map="70173"	 x="30" y="53"/>
+  </map>
+  <map id="70174"	 name="青木洞9层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70108"	 x="70" y="56"/>
+    <point type="1" tar_map="70108"	 x="30" y="56"/>
+    <point type="1" tar_map="70108"	 x="67" y="22"/>
+    <point type="1" tar_map="70108"	 x="23" y="12"/>
+    <point type="2" tar_map="70174"	 x="30" y="53"/>
+  </map>
+  <map id="70175"	 name="青木洞10层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70109"	 x="70" y="56"/>
+    <point type="1" tar_map="70109"	 x="30" y="56"/>
+    <point type="1" tar_map="70109"	 x="67" y="22"/>
+    <point type="1" tar_map="70109"	 x="23" y="12"/>
+    <point type="2" tar_map="70175"	 x="30" y="53"/>
+  </map>
+  <map id="70176"	 name="青木洞11层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70110"	 x="70" y="56"/>
+    <point type="1" tar_map="70110"	 x="30" y="56"/>
+    <point type="1" tar_map="70110"	 x="67" y="22"/>
+    <point type="1" tar_map="70110"	 x="23" y="12"/>
+    <point type="2" tar_map="70176"	 x="30" y="53"/>
+  </map>
+  <map id="70177"	 name="青木洞12层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70111"	 x="70" y="56"/>
+    <point type="1" tar_map="70111"	 x="30" y="56"/>
+    <point type="1" tar_map="70111"	 x="67" y="22"/>
+    <point type="1" tar_map="70111"	 x="23" y="12"/>
+    <point type="2" tar_map="70177"	 x="30" y="53"/>
+  </map>
+  <map id="70178"	 name="青木洞13层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70112"	 x="70" y="56"/>
+    <point type="1" tar_map="70112"	 x="30" y="56"/>
+    <point type="1" tar_map="70112"	 x="67" y="22"/>
+    <point type="1" tar_map="70112"	 x="23" y="12"/>
+    <point type="2" tar_map="70178"	 x="30" y="53"/>
+  </map>
+  <map id="70179"	 name="青木洞14层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70113"	 x="70" y="56"/>
+    <point type="1" tar_map="70113"	 x="30" y="56"/>
+    <point type="1" tar_map="70113"	 x="67" y="22"/>
+    <point type="1" tar_map="70113"	 x="23" y="12"/>
+    <point type="2" tar_map="70179"	 x="30" y="53"/>
+  </map>
+  <map id="70180"	 name="青木洞15层"	 url="map/kua_fu_boss1" music="com/sounds/luorigu.mp3" turn_level="60">
+    <point type="1" tar_map="70114"	 x="70" y="56"/>
+    <point type="1" tar_map="70114"	 x="30" y="56"/>
+    <point type="1" tar_map="70114"	 x="67" y="22"/>
+    <point type="1" tar_map="70114"	 x="23" y="12"/>
+    <point type="2" tar_map="70180"	 x="30" y="53"/>
+  </map>
+
+
+  <map id="80001" name="幽冥水府" url="map/you_ming_shui_fu" music="com/sounds/butianshi.mp3" turn_level="1">
+	  <point type="2" tar_map="80001" x="40" y="55"/>
+	</map>	
+	<map id="80002" name="昆仑山" url="map/bei_tian_men" music="com/sounds/butianshi.mp3" turn_level="30">
+	  <point type="2" tar_map="80002" x="56" y="86"/>
+	</map>	
+	<map id="80003" name="凌天宫" url="map/xiao_tian_gong" music="com/sounds/butianshi.mp3" turn_level="40">
+	  <point type="2" tar_map="80003" x="6" y="52"/>
+	</map>		
+	<map id="80004" name="烛龙岭" url="map/zhu_long_ling" music="com/sounds/butianshi.mp3" turn_level="50">
+	  <point type="2" tar_map="80004" x="41" y="70"/>
+	</map>		
+	<map id="80005" name="火神殿" url="map/huo_shen_dian" music="com/sounds/butianshi.mp3" turn_level="60">
+	  <point type="2" tar_map="80005" x="3" y="19"/>
+	</map>
+	<map id="81001" name="九幽迷城·雪域" url="map/xue_yu" music="com/sounds/jiuyou.mp3" turn_level="15">
+	  <point type="2" tar_map="81001" x="4" y="106"/>
+	</map>		
+	<map id="81002" name="九幽迷城·雷阵" url="map/lei_zhen" music="com/sounds/jiuyou.mp3" turn_level="50">
+	  <point type="2" tar_map="81002" x="6" y="112"/>
+	</map>			
+	<map id="81003" name="九幽迷城·火海" url="map/huo_hai" music="com/sounds/jiuyou.mp3" turn_level="60">
+	  <point type="2" tar_map="81003" x="5" y="102"/>
+	</map>		
+	<map id="81004" name="九幽迷城·炼狱" url="map/lian_yu" music="com/sounds/jiuyou.mp3" turn_level="70">
+	  <point type="2" tar_map="81004" x="4" y="109"/>
+	</map>	
+
+	<map id="82001" name="风渡林" url="map/feng_du_lin" music="com/sounds/fengdulin.mp3" turn_level="22">
+	  <point type="2" tar_map="82001" x="2" y="86"/>
+	</map>
+	<map id="82002" name="风渡林" url="map/feng_du_lin" music="com/sounds/fengdulin.mp3" turn_level="40">
+	  <point type="2" tar_map="82002" x="2" y="86"/>
+	</map>
+	<map id="82003" name="风渡林" url="map/feng_du_lin" music="com/sounds/fengdulin.mp3" turn_level="50">
+	  <point type="2" tar_map="82003" x="2" y="86"/>
+	</map>
+		<map id="82004" name="风渡林" url="map/feng_du_lin" music="com/sounds/fengdulin.mp3" turn_level="60">
+	  <point type="2" tar_map="82004" x="2" y="86"/>
+	</map>
+		<map id="82005" name="风渡林" url="map/feng_du_lin" music="com/sounds/fengdulin.mp3" turn_level="70">
+	  <point type="2" tar_map="82005" x="2" y="86"/>
+	</map>
+
+	<map id="83001" name="火神殿" url="map/huo_shen_dian" music="com/sounds/butianshi.mp3" turn_level="30">
+	  <point type="2" tar_map="83001" x="3" y="19"/>
+	</map>
+	<map id="83002" name="火神殿" url="map/huo_shen_dian" music="com/sounds/butianshi.mp3" turn_level="40">
+	  <point type="2" tar_map="83002" x="3" y="19"/>
+	</map>
+	<map id="83003" name="火神殿" url="map/huo_shen_dian" music="com/sounds/butianshi.mp3" turn_level="50">
+	  <point type="2" tar_map="83003" x="3" y="19"/>
+	</map>
+	<map id="83004" name="火神殿" url="map/huo_shen_dian" music="com/sounds/butianshi.mp3" turn_level="60">
+	  <point type="2" tar_map="83004" x="3" y="19"/>
+	</map>
+
+	<map id="84001" name="九幽迷城·炼狱" url="map/lian_yu" music="com/sounds/jiuyou.mp3" turn_level="30">
+	  <point type="2" tar_map="84001" x="4" y="109"/>
+	</map>	
+	<map id="84002" name="九幽迷城·炼狱" url="map/lian_yu" music="com/sounds/jiuyou.mp3" turn_level="40">
+	  <point type="2" tar_map="84002" x="4" y="109"/>
+	</map>	
+	<map id="84003" name="九幽迷城·炼狱" url="map/lian_yu" music="com/sounds/jiuyou.mp3" turn_level="50">
+	  <point type="2" tar_map="84003" x="4" y="109"/>
+	</map>	
+	<map id="84004" name="九幽迷城·炼狱" url="map/lian_yu" music="com/sounds/jiuyou.mp3" turn_level="60">
+	  <point type="2" tar_map="84004" x="4" y="109"/>
+	</map>	
+	
+	<map id="60800" name="问道天阶" url="map/shen_mian_gu" music="com/sounds/huihun.mp3" turn_level="40">
+	  <point type="2" tar_map="60800" x="62" y="34"/>
+	</map>
+	<map id="60900" name="问道天阶之巅" url="map/shen_mian_gu2" music="com/sounds/huihun.mp3" turn_level="50">
+	  <point type="2" tar_map="60900" x="53" y="87"/>
+	</map>
+		
+	<map id="90001" name="第1关:北门之乱" url="map/huihun_001" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90001" x="13" y="22"/>
+	</map>
+	<map id="90002" name="第2关:众仙发狂" url="map/huihun_002" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90002" x="17" y="17"/>
+	</map>
+	<map id="90003" name="第3关:天香蝶后" url="map/huihun_003" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90003" x="26" y="9"/>
+	</map>
+	<map id="90004" name="第4关:天阴童子" url="map/huihun_004" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90004" x="19" y="19"/>
+	</map>
+	<map id="90005" name="第5关:击退共工" url="map/huihun_005" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90005" x="10" y="6"/>
+	</map>
+	<map id="90006" name="第6关:岩蛇拦路" url="map/huihun_006" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90006" x="7" y="22"/>
+	</map>
+	<map id="90007" name="第7关:天绝阵法" url="map/huihun_007" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90007" x="11" y="4"/>
+	</map>
+	<map id="90008" name="第8关:力敌青丘" url="map/huihun_008" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90008" x="8" y="12"/>
+	</map>
+	<map id="90009" name="第9关:魅惑魔女" url="map/huihun_009" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90009" x="8" y="11"/>
+	</map>
+	<map id="90010" name="第10关:斗魔破天" url="map/huihun_010" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90010" x="21" y="23"/>
+	</map>	
+    <map id="90011" name="第11关:妖魔作乱" url="map/huihun_011" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90011" x="4" y="17"/>
+	</map>
+    <map id="90012" name="第12关:刀下救人" url="map/huihun_012" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90012" x="5" y="11"/>
+	</map>
+    <map id="90013" name="第13关:怒斩树妖" url="map/huihun_013" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90013" x="19" y="10"/>
+	</map>
+    <map id="90014" name="第14关:横扫叶妖" url="map/huihun_014" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90014" x="11" y="27"/>
+	</map>
+    <map id="90015" name="第15关:打入巢穴" url="map/huihun_015" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90015" x="19" y="5"/>
+	</map>
+    <map id="90016" name="第16关:剧毒妖将" url="map/huihun_016" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90016" x="13" y="20"/>
+	</map>
+    <map id="90017" name="第17关:巡逻花妖" url="map/huihun_017" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90017" x="11" y="23"/>
+	</map>
+    <map id="90018" name="第18关:拦路蝶妖" url="map/huihun_018" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90018" x="34" y="20"/>
+	</map>
+    <map id="90019" name="第19关:搜寻妖王" url="map/huihun_019" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90019" x="16" y="18"/>
+	</map>
+    <map id="90020" name="第20关:万年树妖" url="map/huihun_020" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90020" x="15" y="18"/>
+	</map>
+	<map id="90021" name="第21关:试炼之路" url="map/huihun_021" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90021" x="11" y="2"/>
+	</map>
+	<map id="90022" name="第22关:混世魔灵" url="map/huihun_022" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90022" x="8" y="25"/>
+	</map>
+	<map id="90023" name="第23关:混世修罗" url="map/huihun_023" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90023" x="10" y="17"/>
+	</map>
+	<map id="90024" name="第24关:混世魔兵" url="map/huihun_024" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90024" x="23" y="20"/>
+	</map>
+	<map id="90025" name="第25关:混世刀客" url="map/huihun_025" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90025" x="5" y="11"/>
+	</map>
+	<map id="90026" name="第26关:混世魔将" url="map/huihun_026" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90026" x="30" y="14"/>
+	</map>
+	<map id="90027" name="第27关:混世魔女" url="map/huihun_027" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90027" x="5" y="10"/>
+	</map>
+	<map id="90028" name="第28关:混世魔修" url="map/huihun_028" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90028" x="8" y="21"/>
+	</map>
+	<map id="90029" name="第29关:混世魔姬" url="map/huihun_029" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90029" x="3" y="28"/>
+	</map>
+	<map id="90030" name="第30关:混世魔皇" url="map/huihun_030" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90030" x="25" y="15"/>
+	</map>
+    <map id="90031" name="第31关:又兴风浪" url="map/huihun_031" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90031" x="2" y="7"/>
+	</map>
+	<map id="90032" name="第32关:斩杀蛟蛇" url="map/huihun_032" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90032" x="2" y="7"/>
+	</map>
+    <map id="90033" name="第33关:赤蛟龙王" url="map/huihun_033" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90033" x="14" y="4"/>
+	</map>
+	<map id="90034" name="第34关:拦路虾兵" url="map/huihun_034" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90034" x="18" y="22"/>
+	</map>
+    <map id="90035" name="第35关:蛟鱼侍女" url="map/huihun_035" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90035" x="7" y="8"/>
+	</map>
+    <map id="90036" name="第36关:弱水麒麟" url="map/huihun_036" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90036" x="5" y="10"/>
+	</map>
+    <map id="90037" name="第37关:迷魂蚌精" url="map/huihun_037" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90037" x="3" y="11"/>
+	</map>
+    <map id="90038" name="第38关:噬魂灵龟" url="map/huihun_038" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90038" x="13" y="42"/>
+	</map>
+    <map id="90039" name="第39关:青蛟护法" url="map/huihun_039" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90039" x="13" y="23"/>
+	</map>
+    <map id="90040" name="第40关:青蛟龙王" url="map/huihun_040" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90040" x="16" y="26"/>
+	</map>
+	<map id="90041" name="第41关:神秘结界" url="map/huihun_041" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90041" x="2" y="2"/>
+	</map>
+	<map id="90042" name="第42关:虎狮喽啰" url="map/huihun_042" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90042" x="2" y="2"/>
+	</map>
+	<map id="90043" name="第43关:精英雷力" url="map/huihun_043" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90043" x="2" y="2"/>
+	</map>
+	<map id="90044" name="第44关:虎狮小妖" url="map/huihun_044" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90044" x="27" y="14"/>
+	</map>
+	<map id="90045" name="第45关:斩杀小妖" url="map/huihun_045" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90045" x="29" y="16"/>
+	</map>
+	<map id="90046" name="第46关:力敌雷武" url="map/huihun_046" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90046" x="25" y="16"/>
+	</map>
+	<map id="90047" name="第47关:虎狮密探" url="map/huihun_047" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90047" x="10" y="23"/>
+	</map>
+	<map id="90048" name="第48关:寻找阵眼" url="map/huihun_048" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90048" x="11" y="18"/>
+	</map>
+	<map id="90049" name="第49关:大战雷宵" url="map/huihun_049" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90049" x="12" y="13"/>
+	</map>
+	<map id="90050" name="第50关:两虎相争" url="map/huihun_050" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90050" x="9" y="10"/>
+	</map>
+	<map id="90051" name="第51关:虎狮护卫" url="map/huihun_051" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90051" x="28" y="20"/>
+	</map>
+	<map id="90052" name="第52关:一路追击" url="map/huihun_052" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90052" x="2" y="15"/>
+	</map>
+	<map id="90053" name="第53关:合战雷高" url="map/huihun_053" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90053" x="15" y="28"/>
+	</map>
+	<map id="90054" name="第54关:虎狮阴谋" url="map/huihun_054" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90054" x="19" y="25"/>
+	</map>
+	<map id="90055" name="第55关:青丘之计" url="map/huihun_055" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90055" x="13" y="3"/>
+	</map>
+	<map id="90056" name="第56关:护法雷虎" url="map/huihun_056" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90056" x="16" y="9"/>
+	</map>
+	<map id="90057" name="第57关:虎狮高手" url="map/huihun_057" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90057" x="1" y="2"/>
+	</map>
+	<map id="90058" name="第58关:横扫虎狮" url="map/huihun_058" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90058" x="8" y="20"/>
+	</map>
+	<map id="90059" name="第59关:长老雷清" url="map/huihun_059" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90059" x="5" y="23"/>
+	</map>
+	<map id="90060" name="第60关:力战雷霸" url="map/huihun_060" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90060" x="10" y="10"/>
+	</map>
+	<map id="90061" name="第61关:红玉虾妖" url="map/huihun_061" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90061" x="6" y="10"/>
+	</map>
+	<map id="90062" name="第62关:紫鳞鱼妖" url="map/huihun_062" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90062" x="4" y="15"/>
+	</map>
+	<map id="90063" name="第63关:蛇尾妖王" url="map/huihun_063" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90063" x="19" y="21"/>
+	</map>
+	<map id="90064" name="第64关:蒙面刀魔" url="map/huihun_064" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90064" x="7" y="8"/>
+	</map>
+	<map id="90065" name="第65关:清音魔女" url="map/huihun_065" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90065" x="10" y="12"/>
+	</map>
+	<map id="90066" name="第66关:月夜魔皇" url="map/huihun_066" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90066" x="13" y="16"/>
+	</map>
+	<map id="90067" name="第67关:蓝灵鬼火" url="map/huihun_067" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90067" x="10" y="15"/>
+	</map>
+	<map id="90068" name="第68关:骷髅恶鬼" url="map/huihun_068" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90068" x="1" y="8"/>
+	</map>
+	<map id="90069" name="第69关:魔焰鬼王" url="map/huihun_069" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90069" x="14" y="12"/>
+	</map>
+	<map id="90070" name="第70关:幽冥鬼王" url="map/huihun_070" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90070" x="10" y="9"/>
+	</map>
+	<map id="90071" name="第71关:祈天道士" url="map/huihun_071" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90071" x="20" y="14"/>
+	</map>
+	<map id="90072" name="第72关:蒙面刀客" url="map/huihun_072" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90072" x="14" y="10"/>
+	</map>
+	<map id="90073" name="第73关:永恒人王" url="map/huihun_073" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90073" x="10" y="13"/>
+	</map>
+	<map id="90074" name="第74关:飞天仙子" url="map/huihun_074" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90074" x="20" y="20"/>
+	</map>
+	<map id="90075" name="第75关:沉默童子" url="map/huihun_075" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90075" x="9" y="20"/>
+	</map>
+	<map id="90076" name="第76关:镇宫天王" url="map/huihun_076" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90076" x="19" y="8"/>
+	</map>
+	<map id="90077" name="第77关:烈焰神牛" url="map/huihun_077" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90077" x="11" y="22"/>
+	</map>
+	<map id="90078" name="第78关:诸天神女" url="map/huihun_078" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90078" x="13" y="23"/>
+	</map>
+	<map id="90079" name="第79关:护天神王" url="map/huihun_079" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90079" x="17" y="8"/>
+	</map>
+	<map id="90080" name="第80关:伏羲化身" url="map/huihun_080" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90080" x="14" y="22"/>
+	</map>
+	<map id="90081" name="第81关:冥海侍女" url="map/huihun_081" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90081" x="12" y="27"/>
+	</map>
+	<map id="90082" name="第82关:阴阳鳞鱼" url="map/huihun_082" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90082" x="8" y="23"/>
+	</map>
+	<map id="90083" name="第83关:冥海绫鱼" url="map/huihun_083" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90083" x="12" y="26"/>
+	</map>
+	<map id="90084" name="第84关:艳影魔踪" url="map/huihun_084" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90084" x="6" y="15"/>
+	</map>
+	<map id="90085" name="第85关:七霞天女" url="map/huihun_085" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90085" x="8" y="26"/>
+	</map>
+	<map id="90086" name="第86关:紫蛟龙王" url="map/huihun_086" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90086" x="20" y="30"/>
+	</map>
+	<map id="90087" name="第87关:白尾狐妖" url="map/huihun_087" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90087" x="25" y="22"/>
+	</map>
+	<map id="90088" name="第88关:千影玄龟" url="map/huihun_088" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90088" x="4" y="6"/>
+	</map>
+	<map id="90089" name="第89关:千影妖将" url="map/huihun_089" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90089" x="9" y="14"/>
+	</map>
+	<map id="90090" name="第90关:千影金乌" url="map/huihun_090" music="com/sounds/huihun.mp3" turn_level="20">
+	  <point type="2" tar_map="90090" x="11" y="34"/>
+	</map>
+
+
+    <map id="51899" name="玲珑福地" url="map/ao_shi_mi_ceng" music="com/sounds/huihun.mp3" turn_level="30">
+	  <point type="2" tar_map="51889" x="8" y="9"/>
+	</map>
+
+</maps>
+<!-- 副本相关    copy id要与后端的group id 对应-->
+<copys>
+	<copy id="500" minLevel="35" maxLevel="100" openTimes="每日20:00-20：30" times="1" name="天绝斗法" icon="Activity_ASLJ" recommend="1" desc="星空之下，唯我独尊" exp="0" silver="0" item="5" npc="" npcId="">
+		<type id="101" mapid="50000" type="1">
+		</type>
+	</copy>
+</copys>
+
+<copys>
+	<copy id="90" minLevel="25" maxLevel="100" openTimes="全天" times="2" name="傲视六界" icon="Activity_ASLJ" recommend="1" desc="力战六界，震古烁今" exp="50" silver="50" item="5" npc="" npcId="">
+		<type id="102" mapid="90001" type="1">
+		<item id="10501001" color="2"/>
+		</type>
+	</copy>
+</copys>
+
+</word>

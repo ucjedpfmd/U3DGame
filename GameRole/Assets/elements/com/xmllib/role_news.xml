@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RoleNews>
+	<RoleNew id="100001" desc="收取徒弟" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100002" desc="拜师学艺" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100003" desc="创建自己的仙盟" color="#FFFFA6"></RoleNew>
+	<RoleNew id="100004" desc="加入仙盟" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100005" desc="退出仙盟" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100006" desc="升到30级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100007" desc="升到40级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100008" desc="升到50级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100009" desc="升到60级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100010" desc="升到70级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100011" desc="升到80级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100012" desc="升到90级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100013" desc="升到100级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100014" desc="升到110级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100015" desc="升到120级" color="#B2EFFF"></RoleNew>
+	<RoleNew id="100016" desc="参加鄱阳湖之战" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100017" desc="参加洞天福地" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100018" desc="参加讨伐敌营" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100019" desc="参加捕鱼儿海之战" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100020" desc="挑战大明英雄副本" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100021" desc="参加大明宝藏" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100022" desc="参加仙盟采集" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100023" desc="挑战仙盟BOSS" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100024" desc="参加仙盟运镖" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100025" desc="完成跑商" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100027" desc="参加竞技场" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100028" desc="击败入侵的敌国人" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100029" desc="接到紫色镖车" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100030" desc="接到橙色镖车" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100031" desc="与爱人结为侠侣" color="#FFD5A6"></RoleNew>
+	<RoleNew id="100032" desc="收到99朵粉蔷薇" color="#FFD5A6"></RoleNew>
+	<RoleNew id="100033" desc="收到999朵粉蔷薇" color="#FFD5A6"></RoleNew>
+	<RoleNew id="100034" desc="成为瑶池宫国王" color="#FFFFA6"></RoleNew>
+	<RoleNew id="100035" desc="成为极乐境国王" color="#FFFFA6"></RoleNew>
+	<RoleNew id="100036" desc="成为缥缈峰国王" color="#FFFFA6"></RoleNew>
+	<RoleNew id="100037" desc="被任命为国家官员" color="#A6FFA6"></RoleNew>
+	<RoleNew id="100038" desc="举办婚宴" color="#FFD5A6"></RoleNew>
+	<RoleNew id="100039" desc="预订婚宴" color="#FFD5A6"></RoleNew>
+</RoleNews>

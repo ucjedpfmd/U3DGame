@@ -1,0 +1,413 @@
+﻿<exchange>
+<!-- 福利兑换配置 前端 张子然 策划 黄春越
+id：1-99 用于排序，需要前后端映射
+sex、lv、category分别是开放条件，请以英文状态下的逗号隔开
+startTime、endTime：置0则非活动，始终显示；配置格式如：11/29/2012 10:00:00 
+goods：id用于排序，需要前后端一致
+limitType：限量类型 0不限量 1每日个人限量 2每日全服限量 3不限日个人限量 4不限日全服限量
+-->
+
+	<item id="11" name="战场积分兑换" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="天绝斗法、修罗战场、仙盟战" link="11102" castId="1" castName="战场积分" limitType="0">
+<goods id="1" typeId="10701009"  cast="3000" sex="0" lv="0" category="1"/>
+<goods id="2" typeId="10701010"  cast="3000" sex="0" lv="0" category="1"/>
+<goods id="3" typeId="10701011"  cast="3000" sex="0" lv="0" category="1"/>
+<goods id="4" typeId="10702009"  cast="3000" sex="0" lv="0" category="2"/>
+<goods id="5" typeId="10702010"  cast="3000" sex="0" lv="0" category="2"/>
+<goods id="6" typeId="10702011"  cast="3000" sex="0" lv="0" category="2"/>
+<goods id="7" typeId="10703009"  cast="3000" sex="0" lv="0" category="3"/>
+<goods id="8" typeId="10703010"  cast="3000" sex="0" lv="0" category="3"/>
+<goods id="9" typeId="10703011"  cast="3000" sex="0" lv="0" category="3"/>
+<goods id="10" typeId="10704009"  cast="3000" sex="0" lv="0" category="4"/>
+<goods id="11" typeId="10704010"  cast="3000" sex="0" lv="0" category="4"/>
+<goods id="12" typeId="10704011"  cast="3000" sex="0" lv="0" category="4"/>
+<goods id="53" typeId="10502001"  cast="800" sex="0" lv="0" category="0"/>
+<goods id="13" typeId="10113001"  cast="250" sex="0" lv="0" category="0"/>
+<goods id="17" typeId="10501001"  cast="100" sex="0" lv="0" category="0"/>
+<goods id="54" typeId="11201001"  cast="100" sex="0" lv="0" category="0"/>
+<goods id="14" typeId="10103001"  cast="100" sex="0" lv="0" category="0"/>
+<goods id="15" typeId="10104001"  cast="100" sex="0" lv="0" category="0"/>
+<goods id="16" typeId="10111001"  cast="100" sex="0" lv="0" category="0"/>
+<goods id="18" typeId="10203103"  cast="100" sex="0" lv="0" category="0"/>
+<goods id="19" typeId="10203102"  cast="25" sex="0" lv="0" category="0"/>
+<goods id="20" typeId="10203101"  cast="7" sex="0" lv="0" category="0"/>
+<goods id="21" typeId="10701008"  cast="100" sex="0" lv="0" category="1"/>
+<goods id="22" typeId="10701007"  cast="100" sex="0" lv="0" category="1"/>
+<goods id="23" typeId="10701003"  cast="100" sex="0" lv="0" category="1"/>
+<goods id="24" typeId="10701005"  cast="50" sex="0" lv="0" category="1"/>
+<goods id="25" typeId="10701004"  cast="50" sex="0" lv="0" category="1"/>
+<goods id="26" typeId="10701006"  cast="50" sex="0" lv="0" category="1"/>
+<goods id="27" typeId="10701002"  cast="50" sex="0" lv="0" category="1"/>
+<goods id="28" typeId="10701001"  cast="50" sex="0" lv="0" category="1"/>
+<goods id="55" typeId="10701012"  cast="50" sex="0" lv="0" category="1"/>
+<goods id="29" typeId="10702008"  cast="100" sex="0" lv="0" category="2"/>
+<goods id="30" typeId="10702007"  cast="100" sex="0" lv="0" category="2"/>
+<goods id="31" typeId="10702006"  cast="100" sex="0" lv="0" category="2"/>
+<goods id="32" typeId="10702005"  cast="50" sex="0" lv="0" category="2"/>
+<goods id="33" typeId="10702004"  cast="50" sex="0" lv="0" category="2"/>
+<goods id="34" typeId="10702003"  cast="50" sex="0" lv="0" category="2"/>
+<goods id="35" typeId="10702002"  cast="50" sex="0" lv="0" category="2"/>
+<goods id="36" typeId="10702001"  cast="50" sex="0" lv="0" category="2"/>
+<goods id="56" typeId="10702012"  cast="50" sex="0" lv="0" category="2"/>
+<goods id="37" typeId="10703008"  cast="100" sex="0" lv="0" category="3"/>
+<goods id="38" typeId="10703007"  cast="100" sex="0" lv="0" category="3"/>
+<goods id="39" typeId="10703006"  cast="100" sex="0" lv="0" category="3"/>
+<goods id="40" typeId="10703005"  cast="50" sex="0" lv="0" category="3"/>
+<goods id="41" typeId="10703004"  cast="50" sex="0" lv="0" category="3"/>
+<goods id="42" typeId="10703003"  cast="50" sex="0" lv="0" category="3"/>
+<goods id="43" typeId="10703002"  cast="50" sex="0" lv="0" category="3"/>
+<goods id="44" typeId="10703001"  cast="50" sex="0" lv="0" category="3"/>
+<goods id="57" typeId="10703012"  cast="50" sex="0" lv="0" category="3"/>
+<goods id="45" typeId="10704008"  cast="100" sex="0" lv="0" category="4"/>
+<goods id="46" typeId="10704007"  cast="100" sex="0" lv="0" category="4"/>
+<goods id="47" typeId="10704006"  cast="100" sex="0" lv="0" category="4"/>
+<goods id="48" typeId="10704005"  cast="50" sex="0" lv="0" category="4"/>
+<goods id="49" typeId="10704004"  cast="50" sex="0" lv="0" category="4"/>
+<goods id="50" typeId="10704003"  cast="50" sex="0" lv="0" category="4"/>
+<goods id="51" typeId="10704002"  cast="50" sex="0" lv="0" category="4"/>
+<goods id="52" typeId="10704001"  cast="50" sex="0" lv="0" category="4"/>
+<goods id="58" typeId="10704012"  cast="50" sex="0" lv="0" category="4"/>
+	</item>
+	
+	<item id="12" name="兽魂碎片兑换" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="猎魂" link="10403" castId="3" castName="兽魂碎片" limitType="0">
+        <goods id="010" typeId="40160001"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="011" typeId="40160002"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="012" typeId="40160003"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="013" typeId="40160004"  cast="20" sex="0" lv="0" category="0"/>        
+        <goods id="014" typeId="40160005"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="015" typeId="40160006"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="016" typeId="40160007"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="017" typeId="40160008"  cast="20" sex="0" lv="0" category="0"/>
+        <goods id="018" typeId="40160009"  cast="20" sex="0" lv="0" category="0"/>
+		<goods id="001" typeId="40150001"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="002" typeId="40150002"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="003" typeId="40150003"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="004" typeId="40150004"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="005" typeId="40150005"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="006" typeId="40150006"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="007" typeId="40150007"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="008" typeId="40150008"  cast="5" sex="0" lv="0" category="0"/>
+        <goods id="009" typeId="40150009"  cast="5" sex="0" lv="0" category="0"/>
+	</item>
+	
+	
+	
+	<item id="10" name="装备兑换" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="补天石碎片副本" link="40000115" castId="11714001" castName="补天石碎片" limitType="0">
+ <goods id="241" typeId="10203102" cast="6" sex="0"  lv="0"  category="0" intro="蓝色附魂石"/>
+ <goods id="242" typeId="10203103" cast="24" sex="0"  lv="0"  category="0" intro="紫色附魂石"/> 
+ <goods id="001" typeId="31020601" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="002" typeId="31020602" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="003" typeId="31020603" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="004" typeId="31020604" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="005" typeId="31020605" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="006" typeId="31020606" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="007" typeId="31020607" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="008" typeId="31020608" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="009" typeId="31020609" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="010" typeId="31020610" cast="5" sex="0"  lv="0"  category="1"  intro="30级暮雪套装"/>
+ <goods id="011" typeId="32020601" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="012" typeId="32020602" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="013" typeId="32020603" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="014" typeId="32020604" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="015" typeId="32020605" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="016" typeId="32020606" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="017" typeId="32020607" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="018" typeId="32020608" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="019" typeId="32020609" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="020" typeId="32020610" cast="5" sex="0"  lv="0"  category="2"  intro="30级暮雪套装"/>
+ <goods id="021" typeId="33020601" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="022" typeId="33020602" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="023" typeId="33020603" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="024" typeId="33020604" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="025" typeId="33020605" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="026" typeId="33020606" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="027" typeId="33020607" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="028" typeId="33020608" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="029" typeId="33020609" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="030" typeId="33020610" cast="5" sex="0"  lv="0"  category="3"  intro="30级暮雪套装"/>
+ <goods id="031" typeId="34020601" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="032" typeId="34020602" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="033" typeId="34020603" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="034" typeId="34020604" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="035" typeId="34020605" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="036" typeId="34020606" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="037" typeId="34020607" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="038" typeId="34020608" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="039" typeId="34020609" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="040" typeId="34020610" cast="5" sex="0"  lv="0"  category="4"  intro="30级暮雪套装"/>
+ <goods id="041" typeId="31030801" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="042" typeId="31030802" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="043" typeId="31030803" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="044" typeId="31030804" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="045" typeId="31030805" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="046" typeId="31030806" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="047" typeId="31030807" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="048" typeId="31030808" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="049" typeId="31030809" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="050" typeId="31030810" cast="15" sex="0"  lv="0"  category="1" intro="40级潇湘套装"/>
+ <goods id="051" typeId="32030801" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="052" typeId="32030802" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="053" typeId="32030803" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="054" typeId="32030804" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="055" typeId="32030805" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="056" typeId="32030806" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="057" typeId="32030807" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="058" typeId="32030808" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="059" typeId="32030809" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="060" typeId="32030810" cast="15" sex="0"  lv="0"  category="2" intro="40级潇湘套装"/>
+ <goods id="061" typeId="33030801" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="062" typeId="33030802" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="063" typeId="33030803" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="064" typeId="33030804" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="065" typeId="33030805" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="066" typeId="33030806" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="067" typeId="33030807" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="068" typeId="33030808" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="069" typeId="33030809" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="070" typeId="33030810" cast="15" sex="0"  lv="0"  category="3" intro="40级潇湘套装"/>
+ <goods id="071" typeId="34030801" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="072" typeId="34030802" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="073" typeId="34030803" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="074" typeId="34030804" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="075" typeId="34030805" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="076" typeId="34030806" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="077" typeId="34030807" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="078" typeId="34030808" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="079" typeId="34030809" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="080" typeId="34030810" cast="15" sex="0"  lv="0"  category="4" intro="40级潇湘套装"/>
+ <goods id="081" typeId="31051001" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="082" typeId="31051002" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="083" typeId="31051003" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="084" typeId="31051004" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="085" typeId="31051005" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="086" typeId="31051006" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="087" typeId="31051007" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="088" typeId="31051008" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="089" typeId="31051009" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="090" typeId="31051010" cast="35" sex="0"  lv="40"  category="1" intro="50级凌波套装"/>
+ <goods id="091" typeId="32051001" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="092" typeId="32051002" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="093" typeId="32051003" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="094" typeId="32051004" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="095" typeId="32051005" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="096" typeId="32051006" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="097" typeId="32051007" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="098" typeId="32051008" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="099" typeId="32051009" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="100" typeId="32051010" cast="35" sex="0"  lv="40"  category="2" intro="50级凌波套装"/>
+ <goods id="101" typeId="33051001" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="102" typeId="33051002" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="103" typeId="33051003" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="104" typeId="33051004" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="105" typeId="33051005" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="106" typeId="33051006" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="107" typeId="33051007" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="108" typeId="33051008" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="109" typeId="33051009" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="110" typeId="33051010" cast="35" sex="0"  lv="40"  category="3" intro="50级凌波套装"/>
+ <goods id="111" typeId="34051001" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="112" typeId="34051002" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="113" typeId="34051003" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="114" typeId="34051004" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="115" typeId="34051005" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="116" typeId="34051006" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="117" typeId="34051007" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="118" typeId="34051008" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="119" typeId="34051009" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="120" typeId="34051010" cast="35" sex="0"  lv="40"  category="4" intro="50级凌波套装"/>
+ <goods id="121" typeId="31061201" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="122" typeId="31061202" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="123" typeId="31061203" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="124" typeId="31061204" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="125" typeId="31061205" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="126" typeId="31061206" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="127" typeId="31061207" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="128" typeId="31061208" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="129" typeId="31061209" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="130" typeId="31061210" cast="70" sex="0"  lv="50"  category="1" intro="60级青云套装"/>
+ <goods id="131" typeId="32061201" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="132" typeId="32061202" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="133" typeId="32061203" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="134" typeId="32061204" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="135" typeId="32061205" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="136" typeId="32061206" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="137" typeId="32061207" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="138" typeId="32061208" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="139" typeId="32061209" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="140" typeId="32061210" cast="70" sex="0"  lv="50"  category="2" intro="60级青云套装"/>
+ <goods id="141" typeId="33061201" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="142" typeId="33061202" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="143" typeId="33061203" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="144" typeId="33061204" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="145" typeId="33061205" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="146" typeId="33061206" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="147" typeId="33061207" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="148" typeId="33061208" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="149" typeId="33061209" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="150" typeId="33061210" cast="70" sex="0"  lv="50"  category="3" intro="60级青云套装"/>
+ <goods id="151" typeId="34061201" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="152" typeId="34061202" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="153" typeId="34061203" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="154" typeId="34061204" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="155" typeId="34061205" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="156" typeId="34061206" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="157" typeId="34061207" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="158" typeId="34061208" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="159" typeId="34061209" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="160" typeId="34061210" cast="70" sex="0"  lv="50"  category="4" intro="60级青云套装"/>
+ <goods id="161" typeId="31091401" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="162" typeId="31091402" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="163" typeId="31091403" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="164" typeId="31091404" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="165" typeId="31091405" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="166" typeId="31091406" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="167" typeId="31091407" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="168" typeId="31091408" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="169" typeId="31091409" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="170" typeId="31091410" cast="180" sex="0"  lv="50"  category="1" intro="70级流霞套装"/>
+ <goods id="171" typeId="32091401" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="172" typeId="32091402" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="173" typeId="32091403" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="174" typeId="32091404" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="175" typeId="32091405" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="176" typeId="32091406" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="177" typeId="32091407" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="178" typeId="32091408" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="179" typeId="32091409" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="180" typeId="32091410" cast="180" sex="0"  lv="50"  category="2" intro="70级流霞套装"/>
+ <goods id="181" typeId="33091401" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="182" typeId="33091402" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="183" typeId="33091403" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="184" typeId="33091404" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="185" typeId="33091405" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="186" typeId="33091406" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="187" typeId="33091407" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="188" typeId="33091408" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="189" typeId="33091409" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="190" typeId="33091410" cast="180" sex="0"  lv="50"  category="3" intro="70级流霞套装"/>
+ <goods id="191" typeId="34091401" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="192" typeId="34091402" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="193" typeId="34091403" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="194" typeId="34091404" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="195" typeId="34091405" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="196" typeId="34091406" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="197" typeId="34091407" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="198" typeId="34091408" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="199" typeId="34091409" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="200" typeId="34091410" cast="180" sex="0"  lv="50"  category="4" intro="70级流霞套装"/>
+ <goods id="201" typeId="31101601" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="202" typeId="31101602" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="203" typeId="31101603" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="204" typeId="31101604" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="205" typeId="31101605" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="206" typeId="31101606" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="207" typeId="31101607" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="208" typeId="31101608" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="209" typeId="31101609" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="210" typeId="31101610" cast="400" sex="0"  lv="50"  category="1" intro="80级飞虹套装"/>
+ <goods id="211" typeId="32101601" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="212" typeId="32101602" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="213" typeId="32101603" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="214" typeId="32101604" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="215" typeId="32101605" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="216" typeId="32101606" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="217" typeId="32101607" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="218" typeId="32101608" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="219" typeId="32101609" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="220" typeId="32101610" cast="400" sex="0"  lv="50"  category="2" intro="80级飞虹套装"/>
+ <goods id="221" typeId="33101601" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="222" typeId="33101602" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="223" typeId="33101603" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="224" typeId="33101604" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="225" typeId="33101605" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="226" typeId="33101606" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="227" typeId="33101607" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="228" typeId="33101608" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="229" typeId="33101609" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="230" typeId="33101610" cast="400" sex="0"  lv="50"  category="3" intro="80级飞虹套装"/>
+ <goods id="231" typeId="34101601" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="232" typeId="34101602" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="233" typeId="34101603" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="234" typeId="34101604" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="235" typeId="34101605" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="236" typeId="34101606" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="237" typeId="34101607" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="238" typeId="34101608" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="239" typeId="34101609" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <goods id="240" typeId="34101610" cast="400" sex="0"  lv="50"  category="4" intro="80级飞虹套装"/>
+ <!-- 241、242已用，下一个243-->
+ </item>
+		
+<item id="13" name="仙棋积分兑换" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="凤鸣棋谷" link="40000131" castId="4" castName="仙棋积分" limitType="0">
+        <goods id="001" typeId="10119010"  cast="1850" sex="0" lv="0" category="0"/>
+        <goods id="002" typeId="10119011"  cast="3700" sex="0" lv="0" category="0"/>
+        <goods id="003" typeId="10119012"  cast="6165" sex="0" lv="0" category="0"/>
+        <goods id="004" typeId="10119013"  cast="12330" sex="0" lv="0" category="0"/>        
+</item>
+
+
+
+<item id="15" name="仙宠竞技积分" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="仙宠竞技场" link="12701" castId="5" castName="仙宠竞技积分" limitType="0">
+        <goods id="001" typeId="10304001"  cast="750" sex="0" lv="0" category="0"/>
+</item>
+
+<item id="17" name="祝福值兑换" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="婚宴" link="" castId="7" castName="祝福值" limitType="0">
+        <goods id="001" typeId="11802005"  cast="500" sex="0" lv="0" category="0"/>
+        <goods id="002" typeId="10501001"  cast="625" sex="0" lv="0" category="0"/>
+        <goods id="003" typeId="10107001"  cast="875" sex="0" lv="0" category="0"/>
+        <goods id="004" typeId="10402101"  cast="1250" sex="0" lv="0" category="0"/>    
+        <goods id="005" typeId="10116001"  cast="1250" sex="0" lv="0" category="0"/>
+        <goods id="006" typeId="10201108"  cast="1500" sex="0" lv="0" category="0"/>
+        <goods id="007" typeId="10503001"  cast="2500" sex="0" lv="0" category="0"/>
+        <goods id="008" typeId="10202101"  cast="6250" sex="0" lv="0" category="0"/>     		
+</item>
+
+ <item id="18" name="锦衣兑换" startTime="0" endTime="0" sex="0" lv="0" category="0" linkName="每月活动" link="" castId="11001012" castName="锦衣碎片" limitType="0">
+	<goods id="001" typeId="10118059"  cast="20" sex="1" lv="0" category="0"/>
+    <goods id="002" typeId="10118060"  cast="20" sex="2" lv="0" category="0"/>   
+
+
+	
+	
+ </item>
+
+<!--屏蔽春节活动-->
+<item id="19" name="活动兑换" startTime="01/26/2014 00:00:00" endTime="01/29/2014 23:59:30" sex="0" lv="0" category="0" linkName="春节活动" link="" castId="11001030" castName="中国结" limitType="0">
+        <goods id="001" typeId="10118065"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="002" typeId="10118066"  cast="12" sex="2" lv="0" category="0"/>
+        <goods id="003" typeId="10118021"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="004" typeId="10118022"  cast="12" sex="2" lv="0" category="0"/>		
+        <goods id="005" typeId="10118027"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="006" typeId="10118028"  cast="12" sex="2" lv="0" category="0"/>
+		<goods id="007" typeId="10118029"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="008" typeId="10118030"  cast="12" sex="2" lv="0" category="0"/>
+		<goods id="009" typeId="10306001"  cast="6" sex="0" lv="60" category="0"/>
+        <goods id="010" typeId="11802009"  cast="1" sex="0" lv="0" category="0"/>
+		<goods id="011" typeId="10116002"  cast="2" sex="0" lv="0" category="0"/>
+		<goods id="012" typeId="10201007"  cast="2" sex="0" lv="0" category="0"/>
+		<goods id="013" typeId="10202004"  cast="35" sex="0" lv="0" category="0"/>
+</item>		
+
+
+
+<!--屏蔽元旦活动
+<item id="19" name="活动兑换" startTime="12/31/2013 13:00:00" endTime="01/03/2014 23:59:30" sex="0" lv="0" category="0" linkName="元旦节活动" link="" castId="11001028" castName="许愿币" limitType="0">
+        <goods id="001" typeId="10118061"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="002" typeId="10118062"  cast="12" sex="2" lv="0" category="0"/>
+        <goods id="003" typeId="10118021"  cast="10" sex="1" lv="0" category="0"/>
+        <goods id="004" typeId="10118022"  cast="10" sex="2" lv="0" category="0"/>		
+        <goods id="005" typeId="10118027"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="006" typeId="10118028"  cast="12" sex="2" lv="0" category="0"/>
+		<goods id="007" typeId="10118029"  cast="12" sex="1" lv="0" category="0"/>
+        <goods id="008" typeId="10118030"  cast="12" sex="2" lv="0" category="0"/>
+		<goods id="009" typeId="11802009"  cast="1" sex="0" lv="0" category="0"/>
+        <goods id="010" typeId="10201007"  cast="2" sex="0" lv="0" category="0"/>
+		<goods id="011" typeId="10116002"  cast="2" sex="0" lv="0" category="0"/>
+        <goods id="012" typeId="10202004"  cast="45" sex="0" lv="0" category="0"/>
+		
+</item>
+-->
+
+
+</exchange>
+
+ <!--link：面板类从潜规则中查看；castID：用于兑换的道具，积分类问后端要-->

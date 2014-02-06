@@ -1,0 +1,2616 @@
+<!--我是小备注：
+  <group gid="ID，需要和后端对应" name="名字，给策划看的" path="坐标点，界面左上角为圆点，向右向下为XY轴正轴，格式为1,1|2,2|3,3">
+      <fish id="ID中的小ID,所有ID唯一" type="鱼的皮肤" x="偏离鱼群的坐标" y="偏离鱼群的坐标" speed="速度" />
+</group>
+	<bullets>
+		<bullet type="子弹的ID和形象" cost="消耗的子弹量" speed="速度 1=30像素" r="半径"  />
+	</bullets>
+
+-->
+
+<fishs>
+<groups>
+<!--
+  <group gid="1" name="小鱼群" path="0,0|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400|700,400|800,400|900,400|1000,400|1110,400">
+    <fish id="1001" type="1" x="0" y="0" speed="3" />
+    <fish id="1002" type="2" x="-50" y="-0" speed="3" />
+	<fish id="1003" type="3" x="-100" y="-50" speed="3" />
+	<fish id="1004" type="4" x="-100" y="0" speed="2" />
+	<fish id="1005" type="1" x="-100" y="-60" speed="3" />
+	<fish id="1006" type="1" x="-100" y="-75" speed="3" />
+	<fish id="1007" type="1" x="-100" y="-90" speed="3" />
+  </group>
+  <group gid="2" name="整齐大鱼群" path="-50,245|57,245|107,245|157,245|207,245|257,245|307,245|357,245|400,245|457,245|507,245|557,245|607,245|657,245|707,245|757,245|807,245|857,245|907,245|1111,245|2511,245">
+    <fish id="2001" type="5" x="0" y="0" speed="4" />
+    <fish id="2002" type="5" x="-120" y="0" speed="4" />
+	<fish id="2003" type="4" x="-240" y="50" speed="4" />
+	<fish id="2004" type="4" x="-240" y="-50" speed="4" />
+	<fish id="2005" type="4" x="-330" y="80" speed="4" />
+	<fish id="2006" type="4" x="-330" y="-80" speed="4" />
+	<fish id="2007" type="4" x="-420" y="110" speed="4" />
+	<fish id="2008" type="4" x="-420" y="-110" speed="4" />
+	<fish id="2009" type="4" x="-510" y="140" speed="4" />
+	<fish id="2010" type="4" x="-510" y="-140" speed="4" />	
+	<fish id="2011" type="3" x="-240" y="140" speed="4" />
+	<fish id="2012" type="3" x="-240" y="-140" speed="4" />
+	<fish id="2013" type="3" x="-320" y="160" speed="4" />
+	<fish id="2014" type="3" x="-320" y="-160" speed="4" />
+	<fish id="2015" type="3" x="-390" y="180" speed="4" />
+	<fish id="2016" type="3" x="-390" y="-180" speed="4" />
+	<fish id="2017" type="3" x="-460" y="200" speed="4" />
+	<fish id="2018" type="3" x="-460" y="-200" speed="4" />	
+	<fish id="2019" type="3" x="-530" y="220" speed="4" />
+	<fish id="2020" type="3" x="-530" y="-220" speed="4" />	
+	<fish id="2021" type="2" x="-510" y="0" speed="4" />
+	<fish id="2022" type="2" x="-510" y="0" speed="4" />
+	<fish id="2023" type="2" x="-510" y="-20" speed="4" />
+	<fish id="2024" type="2" x="-510" y="20" speed="4" />	
+	<fish id="2025" type="2" x="-510" y="-30" speed="4" />
+	<fish id="2026" type="2" x="-510" y="30" speed="4" />
+	<fish id="2027" type="2" x="-510" y="-40" speed="4" />
+	<fish id="2028" type="2" x="-510" y="40" speed="4" />		
+	<fish id="2029" type="2" x="-510" y="-50" speed="4" />
+	<fish id="2030" type="2" x="-510" y="50" speed="4" />	
+	<fish id="2031" type="2" x="-510" y="-60" speed="4" />
+	<fish id="2032" type="2" x="-510" y="60" speed="4" />	
+	<fish id="2033" type="2" x="-510" y="-70" speed="4" />
+	<fish id="2034" type="2" x="-510" y="70" speed="4" />	
+	<fish id="2035" type="2" x="-510" y="-80" speed="4" />
+	<fish id="2036" type="2" x="-510" y="80" speed="4" />	
+	<fish id="2037" type="2" x="-610" y="-220" speed="4" />
+	<fish id="2038" type="2" x="-610" y="220" speed="4" />	
+	<fish id="2039" type="2" x="-610" y="-200" speed="4" />
+	<fish id="2040" type="2" x="-610" y="200" speed="4" />	
+	<fish id="2041" type="2" x="-610" y="-180" speed="4" />
+	<fish id="2042" type="2" x="-610" y="180" speed="4" />	
+	<fish id="2043" type="2" x="-610" y="-160" speed="4" />
+	<fish id="2044" type="2" x="-610" y="160" speed="4" />	
+	<fish id="2045" type="2" x="-610" y="-140" speed="4" />
+	<fish id="2046" type="2" x="-610" y="140" speed="4" />	
+	<fish id="2047" type="2" x="-610" y="-120" speed="4" />
+	<fish id="2048" type="2" x="-610" y="120" speed="4" />	
+	<fish id="2049" type="2" x="-610" y="-100" speed="4" />
+	<fish id="2050" type="2" x="-610" y="100" speed="4" />	
+	<fish id="2051" type="2" x="-610" y="-80" speed="4" />
+	<fish id="2052" type="2" x="-610" y="80" speed="4" />	
+	<fish id="2053" type="2" x="-610" y="-60" speed="4" />
+	<fish id="2054" type="2" x="-610" y="60" speed="4" />	
+	<fish id="2055" type="2" x="-610" y="-40" speed="4" />
+	<fish id="2056" type="2" x="-610" y="40" speed="4" />	
+	<fish id="2057" type="2" x="-610" y="-20" speed="4" />
+	<fish id="2058" type="2" x="-610" y="20" speed="4" />		
+	<fish id="2059" type="2" x="-610" y="0" speed="4" />	
+	<fish id="2060" type="1" x="-690" y="0" speed="4" />	
+	<fish id="2061" type="1" x="-690" y="10" speed="4" />	
+	<fish id="2062" type="1" x="-690" y="-10" speed="4" />	
+	<fish id="2063" type="1" x="-690" y="20" speed="4" />	
+	<fish id="2064" type="1" x="-690" y="-20" speed="4" />	
+	<fish id="2065" type="1" x="-690" y="30" speed="4" />	
+	<fish id="2066" type="1" x="-690" y="-30" speed="4" />	
+	<fish id="2067" type="1" x="-690" y="30" speed="4" />	
+	<fish id="2068" type="1" x="-690" y="-30" speed="4" />	
+	<fish id="2069" type="1" x="-690" y="40" speed="4" />	
+	<fish id="2070" type="1" x="-690" y="-40" speed="4" />	
+	<fish id="2071" type="1" x="-690" y="50" speed="4" />	
+	<fish id="2072" type="1" x="-690" y="-50" speed="4" />	
+	<fish id="2073" type="1" x="-690" y="60" speed="4" />	
+	<fish id="2074" type="1" x="-690" y="-60" speed="4" />	
+	<fish id="2075" type="1" x="-690" y="70" speed="4" />	
+	<fish id="2076" type="1" x="-690" y="-70" speed="4" />	
+	<fish id="2077" type="1" x="-690" y="80" speed="4" />	
+	<fish id="2078" type="1" x="-690" y="-80" speed="4" />	
+	<fish id="2079" type="1" x="-690" y="90" speed="4" />	
+	<fish id="2080" type="1" x="-690" y="-90" speed="4" />	
+	<fish id="2081" type="1" x="-730" y="10" speed="4" />	
+	<fish id="2082" type="1" x="-730" y="-10" speed="4" />	
+	<fish id="2083" type="1" x="-730" y="20" speed="4" />	
+	<fish id="2084" type="1" x="-730" y="-20" speed="4" />	
+	<fish id="2085" type="1" x="-730" y="30" speed="4" />	
+	<fish id="2086" type="1" x="-730" y="-30" speed="4" />	
+	<fish id="2087" type="1" x="-730" y="30" speed="4" />	
+	<fish id="2088" type="1" x="-730" y="-30" speed="4" />	
+	<fish id="2089" type="1" x="-730" y="40" speed="4" />	
+	<fish id="2090" type="1" x="-730" y="-40" speed="4" />	
+	<fish id="2091" type="1" x="-730" y="50" speed="4" />	
+	<fish id="2092" type="1" x="-730" y="-50" speed="4" />	
+	<fish id="2093" type="1" x="-730" y="60" speed="4" />	
+	<fish id="2094" type="1" x="-730" y="-60" speed="4" />	
+	<fish id="2095" type="1" x="-730" y="70" speed="4" />	
+	<fish id="2096" type="1" x="-730" y="-70" speed="4" />	
+	<fish id="2097" type="1" x="-730" y="80" speed="4" />	
+	<fish id="2098" type="1" x="-730" y="-80" speed="4" />	
+	<fish id="2099" type="1" x="-730" y="90" speed="4" />	
+	<fish id="2100" type="1" x="-730" y="-90" speed="4" />	
+		
+  </group>
+   <group gid="3" name="小鱼群2" path="-100,-100|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400">
+    <fish id="3001" type="1" x="0" y="0" speed="3" />
+    <fish id="3002" type="2" x="-40" y="-80" speed="3" />
+	<fish id="3003" type="3" x="-40" y="-40" speed="3" />
+	<fish id="3004" type="2" x="-40" y="0" speed="3" />
+	<fish id="3005" type="1" x="0" y="-80" speed="3" />
+	<fish id="3006" type="1" x="-80" y="-80" speed="3" />
+	<fish id="3007" type="1" x="-80" y="0" speed="3" />
+  </group>
+   <group gid="4" name="一条小鱼1" path="0,0|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400|700,600">
+    <fish id="4001" type="1" x="0" y="0" speed="3" />
+  </group>  
+    <group gid="5" name="一条小鱼2" path="0,0|110,50|112,100|147,230|195,335|250,370|280,120|350,130|380,120|300,100|350,130|400,200|500,300|600,400|700,600">
+    <fish id="5001" type="2" x="0" y="0" speed="3" />
+  </group>   
+     <group gid="6" name="一条小鱼3" path="0,0|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400|700,600">
+    <fish id="6001" type="3" x="0" y="0" speed="3" />
+  </group> 
+     <group gid="7" name="一条小鱼4" path="0,0|110,50|112,100|147,230|195,335|250,370|280,120|350,130|380,120|300,100|350,130|400,200|500,300|600,400|700,600">
+    <fish id="7001" type="4" x="0" y="0" speed="2" />
+  </group>  
+     <group gid="8" name="一条小鱼5" path="0,457|457,245|507,245|557,245|607,245|657,245|750,240|800,240|850,240|900,240|1000,240">
+    <fish id="8001" type="1" x="0" y="0" speed="3" />
+  </group>   
+     <group gid="9" name="一条小鱼6" path="700,0|600,5|500,50|400,70|350,120|300,150|380,120|350,130|280,170|250,200|195,300|147,400|100,420|20,450|0,500|0,600">
+    <fish id="9001" type="1" x="0" y="0" speed="3" />
+  </group>     
+      <group gid="10" name="一条小鱼7" path="900,0|800,100|700,150|600,200|500,255|400,200|350,250|300,300|250,350|200,400|100,500|0,600">
+    <fish id="10001" type="2" x="0" y="0" speed="3" />
+  </group> 
+     <group gid="11" name="一条小鱼8" path="700,0|600,5|500,10|400,30|350,35|300,70|380,120|350,130|280,170|250,200|195,300|147,400|100,420|20,450|0,500|0,600">
+    <fish id="11001" type="3" x="0" y="0" speed="3" />
+  </group>  
+      <group gid="12" name="一条小鱼9" path="900,0|800,100|700,150|600,200|500,255|400,200|350,250|300,300|250,350|200,400|100,500|0,600">
+    <fish id="12001" type="1" x="0" y="0" speed="3" />
+  </group>  
+       <group gid="13" name="一条小鱼10" path="915,0|800,400|700,350|600,300|500,250|450,200|400,150|350,100|300,70|200,50|100,30|0,0|-200,0">
+    <fish id="13001" type="1" x="0" y="0" speed="3" />
+  </group> 
+
+  <group gid="14" name="整齐大鱼群" path="1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-1110,245|-1510,245">
+    <fish id="14001" type="5" x="0" y="0" speed="4" />
+    <fish id="14002" type="5" x="120" y="0" speed="4" />
+	<fish id="14003" type="4" x="240" y="50" speed="4" />
+	<fish id="14004" type="4" x="240" y="-50" speed="4" />
+	<fish id="14005" type="4" x="330" y="80" speed="4" />
+	<fish id="14006" type="4" x="330" y="-80" speed="4" />
+	<fish id="14007" type="4" x="420" y="110" speed="4" />
+	<fish id="14008" type="4" x="420" y="-110" speed="4" />
+	<fish id="14009" type="4" x="510" y="140" speed="4" />
+	<fish id="14010" type="4" x="510" y="-140" speed="4" />	
+	<fish id="14011" type="3" x="240" y="140" speed="4" />
+	<fish id="14012" type="3" x="240" y="-140" speed="4" />
+	<fish id="14013" type="3" x="320" y="160" speed="4" />
+	<fish id="14014" type="3" x="320" y="-160" speed="4" />
+	<fish id="14015" type="3" x="390" y="180" speed="4" />
+	<fish id="14016" type="3" x="390" y="-180" speed="4" />
+	<fish id="14017" type="3" x="460" y="200" speed="4" />
+	<fish id="14018" type="3" x="460" y="-200" speed="4" />	
+	<fish id="14019" type="3" x="530" y="220" speed="4" />
+	<fish id="14020" type="3" x="530" y="-220" speed="4" />	
+	<fish id="14021" type="2" x="510" y="0" speed="4" />
+	<fish id="14022" type="2" x="510" y="0" speed="4" />
+	<fish id="14023" type="2" x="510" y="-20" speed="4" />
+	<fish id="14024" type="2" x="510" y="20" speed="4" />	
+	<fish id="14025" type="2" x="510" y="-30" speed="4" />
+	<fish id="14026" type="2" x="510" y="30" speed="4" />
+	<fish id="14027" type="2" x="510" y="-40" speed="4" />
+	<fish id="14028" type="2" x="510" y="40" speed="4" />		
+	<fish id="14029" type="2" x="510" y="-50" speed="4" />
+	<fish id="14030" type="2" x="510" y="50" speed="4" />	
+	<fish id="14031" type="2" x="510" y="-60" speed="4" />
+	<fish id="14032" type="2" x="510" y="60" speed="4" />	
+	<fish id="14033" type="2" x="510" y="-70" speed="4" />
+	<fish id="14034" type="2" x="510" y="70" speed="4" />	
+	<fish id="14035" type="2" x="510" y="-80" speed="4" />
+	<fish id="14036" type="2" x="510" y="80" speed="4" />	
+	<fish id="14037" type="2" x="610" y="-220" speed="4" />
+	<fish id="14038" type="2" x="610" y="220" speed="4" />	
+	<fish id="14039" type="2" x="610" y="-200" speed="4" />
+	<fish id="14040" type="2" x="610" y="200" speed="4" />	
+	<fish id="14041" type="2" x="610" y="-180" speed="4" />
+	<fish id="14042" type="2" x="610" y="180" speed="4" />	
+	<fish id="14043" type="2" x="610" y="-160" speed="4" />
+	<fish id="14044" type="2" x="610" y="160" speed="4" />	
+	<fish id="14045" type="2" x="610" y="-140" speed="4" />
+	<fish id="14046" type="2" x="610" y="140" speed="4" />	
+	<fish id="14047" type="2" x="610" y="-120" speed="4" />
+	<fish id="14048" type="2" x="610" y="120" speed="4" />	
+	<fish id="14049" type="2" x="610" y="-100" speed="4" />
+	<fish id="14050" type="2" x="610" y="100" speed="4" />	
+	<fish id="14051" type="2" x="610" y="-80" speed="4" />
+	<fish id="14052" type="2" x="610" y="80" speed="4" />	
+	<fish id="14053" type="2" x="610" y="-60" speed="4" />
+	<fish id="14054" type="2" x="610" y="60" speed="4" />	
+	<fish id="14055" type="2" x="610" y="-40" speed="4" />
+	<fish id="14056" type="2" x="610" y="40" speed="4" />	
+	<fish id="14057" type="2" x="610" y="-20" speed="4" />
+	<fish id="14058" type="2" x="610" y="20" speed="4" />		
+	<fish id="14059" type="2" x="610" y="0" speed="4" />	
+	<fish id="14060" type="1" x="690" y="0" speed="4" />	
+	<fish id="14061" type="1" x="690" y="10" speed="4" />	
+	<fish id="14062" type="1" x="690" y="-10" speed="4" />	
+	<fish id="14063" type="1" x="690" y="20" speed="4" />	
+	<fish id="14064" type="1" x="690" y="-20" speed="4" />	
+	<fish id="14065" type="1" x="690" y="30" speed="4" />	
+	<fish id="14066" type="1" x="690" y="-30" speed="4" />	
+	<fish id="14067" type="1" x="690" y="30" speed="4" />	
+	<fish id="14068" type="1" x="690" y="-30" speed="4" />	
+	<fish id="14069" type="1" x="690" y="40" speed="4" />	
+	<fish id="14070" type="1" x="690" y="-40" speed="4" />	
+	<fish id="14071" type="1" x="690" y="50" speed="4" />	
+	<fish id="14072" type="1" x="690" y="-50" speed="4" />	
+	<fish id="14073" type="1" x="690" y="60" speed="4" />	
+	<fish id="14074" type="1" x="690" y="-60" speed="4" />	
+	<fish id="14075" type="1" x="690" y="70" speed="4" />	
+	<fish id="14076" type="1" x="690" y="-70" speed="4" />	
+	<fish id="14077" type="1" x="690" y="80" speed="4" />	
+	<fish id="14078" type="1" x="690" y="-80" speed="4" />	
+	<fish id="14079" type="1" x="690" y="90" speed="4" />	
+	<fish id="14080" type="1" x="690" y="-90" speed="4" />	
+	<fish id="14081" type="1" x="730" y="10" speed="4" />	
+	<fish id="14082" type="1" x="730" y="-10" speed="4" />	
+	<fish id="14083" type="1" x="730" y="20" speed="4" />	
+	<fish id="14084" type="1" x="730" y="-20" speed="4" />	
+	<fish id="14085" type="1" x="730" y="30" speed="4" />	
+	<fish id="14086" type="1" x="730" y="-30" speed="4" />	
+	<fish id="14087" type="1" x="730" y="30" speed="4" />	
+	<fish id="14088" type="1" x="730" y="-30" speed="4" />	
+	<fish id="14089" type="1" x="730" y="40" speed="4" />	
+	<fish id="14090" type="1" x="730" y="-40" speed="4" />	
+	<fish id="14091" type="1" x="730" y="50" speed="4" />	
+	<fish id="14092" type="1" x="730" y="-50" speed="4" />	
+	<fish id="14093" type="1" x="730" y="60" speed="4" />	
+	<fish id="14094" type="1" x="730" y="-60" speed="4" />	
+	<fish id="14095" type="1" x="730" y="70" speed="4" />	
+	<fish id="14096" type="1" x="730" y="-70" speed="4" />	
+	<fish id="14097" type="1" x="730" y="80" speed="4" />	
+	<fish id="14098" type="1" x="730" y="-80" speed="4" />	
+	<fish id="14099" type="1" x="730" y="90" speed="4" />	
+	<fish id="14100" type="1" x="730" y="-90" speed="4" />	
+		  </group>
+
+    <group gid="15" name="5秒鱼" path="0,0|100,50|200,100|300,100|350,120|300,80|350,120|500,180|600,250|700,300|800,300|900,400|1000,600">
+    <fish id="15001" type="2" x="-80" y="-60" speed="3" />
+    <fish id="15002" type="1" x="-70" y="-50" speed="3" />
+    <fish id="15003" type="1" x="-60" y="-40" speed="3" />
+    <fish id="15004" type="2" x="-50" y="-30" speed="3" />
+    <fish id="15005" type="3" x="-50" y="0" speed="3" />
+    <fish id="15006" type="4" x="0" y="0" speed="2" />
+    <fish id="15007" type="1" x="-70" y="0" speed="3" />	
+    <fish id="15008" type="1" x="-80" y="0" speed="3" />
+    <fish id="15009" type="3" x="-92" y="0" speed="3" />	
+    <fish id="15010" type="2" x="-100" y="0" speed="3" />		
+  </group>  
+  
+     <group gid="16" name="15秒鱼2" path="1000,0|900,50|900,100|800,100|702,120|600,80|500,120|350,180|300,250|350,300|300,300|200,400|0,600">
+    <fish id="16001" type="2" x="-35" y="-60" speed="3" />
+    <fish id="16002" type="1" x="-45" y="-70" speed="3" />
+    <fish id="16003" type="1" x="-60" y="-60" speed="3" />
+    <fish id="16004" type="2" x="-30" y="-50" speed="3" />
+    <fish id="16005" type="3" x="-50" y="-50" speed="3" />
+    <fish id="16006" type="2" x="-70" y="-50" speed="3" />
+    <fish id="16007" type="1" x="-55" y="-50" speed="3" />	
+    <fish id="16008" type="1" x="-45" y="-70" speed="3" />
+    <fish id="16009" type="3" x="-35" y="-60" speed="3" />	
+    <fish id="16010" type="2" x="-50" y="-60" speed="3" />		
+  </group>   
+  
+     <group gid="17" name="30秒鱼3" path="0,0|100,90|250,100|300,100|350,120|300,60|350,120|420,150|500,280|700,300|800,300|900,400|1000,600">
+    <fish id="17001" type="2" x="-15" y="-85" speed="3" />
+    <fish id="17002" type="1" x="-35" y="-65" speed="3" />
+    <fish id="17003" type="1" x="0" y="-100" speed="3" />
+    <fish id="17004" type="2" x="0" y="-50" speed="3" />
+    <fish id="17005" type="4" x="0" y="0" speed="2" />
+    <fish id="17006" type="2" x="-50" y="0" speed="3" />
+    <fish id="17007" type="1" x="-100" y="0" speed="3" />	
+    <fish id="17008" type="1" x="-50" y="-50" speed="3" />
+    <fish id="17009" type="3" x="-65" y="-35" speed="3" />	
+    <fish id="17010" type="2" x="-85" y="-15" speed="3" />		
+  </group>  
+  
+     <group gid="18" name="45秒鱼4" path="1000,110|900,150|900,200|800,100|702,120|600,180|500,120|350,180|300,250|350,400|300,420|200,500|0,600">
+    <fish id="18001" type="2" x="-5" y="50" speed="3" />
+    <fish id="18002" type="1" x="-20" y="80" speed="3" />
+    <fish id="18003" type="1" x="-40" y="20" speed="3" />
+    <fish id="18004" type="2" x="0" y="30" speed="3" />
+    <fish id="18005" type="3" x="0" y="0" speed="3" />
+    <fish id="18006" type="2" x="0" y="60" speed="3" />
+    <fish id="18007" type="1" x="-5" y="130" speed="3" />	
+    <fish id="18008" type="1" x="-10" y="-50" speed="3" />
+    <fish id="18009" type="3" x="-15" y="-20" speed="3" />	
+    <fish id="18010" type="2" x="-50" y="-60" speed="3" />		
+  </group>  
+    <group gid="19" name="60秒鱼5" path="0,200|100,150|200,100|300,120|350,120|300,80|350,120|450,160|550,200|700,300|800,300|900,400|1000,600">
+    <fish id="19001" type="2" x="-100" y="-70" speed="4" />
+    <fish id="19002" type="1" x="-100" y="-60" speed="4" />
+    <fish id="19003" type="1" x="-100" y="-50" speed="4" />
+    <fish id="19004" type="2" x="-50" y="-70" speed="4" />
+    <fish id="19005" type="4" x="-50" y="-50"speed="3" />
+    <fish id="19006" type="2" x="-50" y="-30" speed="4" />
+    <fish id="19007" type="1" x="-100" y="0" speed="4" />	
+    <fish id="19008" type="1" x="-100" y="-40" speed="4" />
+    <fish id="19009" type="3" x="-100" y="-30" speed="4" />	
+    <fish id="19010" type="2" x="-100" y="-20" speed="4" />		
+  </group>     
+  
+     <group gid="20" name="85秒鱼6" path="500,-200|900,50|900,100|800,150|702,180|600,200|500,220|450,250|400,250|350,300|300,300|200,400|0,600|-200,600">
+    <fish id="20001" type="2" x="-5" y="-30" speed="3" />
+    <fish id="20002" type="1" x="-10" y="10" speed="3" />
+    <fish id="20003" type="1" x="-15" y="-120" speed="3" />
+    <fish id="20004" type="2" x="0" y="100" speed="3" />
+    <fish id="20005" type="3" x="0" y="-20" speed="3" />
+    <fish id="20006" type="2" x="0" y="30" speed="3" />
+    <fish id="20007" type="1" x="-50" y="30" speed="3" />	
+    <fish id="20008" type="1" x="-10" y="100" speed="3" />
+    <fish id="20009" type="3" x="-15" y="20" speed="3" />	
+    <fish id="20010" type="2" x="-150" y="200" speed="3" />		
+  </group>  
+    <group gid="21" name="95秒鱼7" path="0,245|100,250|200,100|300,150|350,120|400,80|350,120|500,180|600,250|700,300|800,300|900,400|1000,600">
+    <fish id="21001" type="2" x="-50" y="-30" speed="3" />
+    <fish id="21002" type="1" x="-10" y="100" speed="3" />
+    <fish id="21003" type="1" x="-150" y="20" speed="3" />
+    <fish id="21004" type="2" x="0" y="100" speed="3" />
+    <fish id="21005" type="4" x="70" y="20" speed="2" />
+    <fish id="21006" type="2" x="0" y="130" speed="3" />
+    <fish id="21007" type="1" x="-5" y="130" speed="3" />	
+    <fish id="21008" type="1" x="-100" y="10" speed="3" />
+    <fish id="21009" type="3" x="-15" y="200" speed="3" />	
+    <fish id="21010" type="2" x="-150" y="-30" speed="3" />		
+  </group>  
+  
+     <group gid="22" name="105秒鱼8" path="1000,245|900,350|900,400|800,350|702,300|600,180|500,120|350,60|300,100|350,1500|300,200|200,300|0,600">
+    <fish id="22001" type="2" x="-5" y="30" speed="4" />
+    <fish id="22002" type="1" x="-10" y="-10" speed="4" />
+    <fish id="22003" type="1" x="-15" y="90" speed="4" />
+    <fish id="22004" type="2" x="0" y="-50" speed="4" />
+    <fish id="22005" type="3" x="0" y="120" speed="4" />
+    <fish id="22006" type="2" x="0" y="30" speed="4" />
+    <fish id="22007" type="1" x="-50" y="30" speed="4" />	
+    <fish id="22008" type="1" x="-110" y="10" speed="4" />
+    <fish id="22009" type="3" x="-15" y="20" speed="4" />	
+    <fish id="22010" type="2" x="-150" y="200" speed="4" />		
+  </group>    
+
+     <group gid="23" name="7秒鱼1号" path="400,-100|400,100|451,245|540,290|640,350|780,400|800,500|950,500|1000,600">
+    <fish id="23001" type="1" x="-5" y="30" speed="3" />
+    <fish id="23002" type="1" x="-10" y="10" speed="3" />
+    <fish id="23003" type="3" x="-15" y="20" speed="3" />
+    <fish id="23004" type="1" x="0" y="10" speed="3" />
+    <fish id="23005" type="1" x="0" y="20" speed="3" />		
+  </group>    
+  
+      <group gid="24" name="7秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="24001" type="1" x="-5" y="30" speed="3" />
+    <fish id="24002" type="1" x="-10" y="10" speed="3" />
+    <fish id="24003" type="3" x="0" y="20" speed="3" />
+    <fish id="24004" type="1" x="0" y="50" speed="3" />
+    <fish id="24005" type="1" x="0" y="0" speed="3" />		
+  </group>     
+  
+      <group gid="25" name="17秒鱼1号" path="400,-100|400,100|451,245|540,290|640,350|780,400|800,500|950,500|1000,600">
+    <fish id="25001" type="1" x="-15" y="30" speed="3" />
+    <fish id="25002" type="1" x="-75" y="10" speed="3" />
+    <fish id="25003" type="2" x="35" y="20" speed="3" />
+    <fish id="25004" type="1" x="90" y="10" speed="3" />
+    <fish id="25005" type="1" x="0" y="20" speed="3" />		
+  </group>    
+  
+      <group gid="26" name="17秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="26001" type="1" x="-50" y="30" speed="3" />
+    <fish id="26002" type="1" x="-10" y="10" speed="3" />
+    <fish id="26003" type="2" x="-10" y="20" speed="3" />
+    <fish id="26004" type="1" x="0" y="10" speed="3" />
+    <fish id="26005" type="1" x="0" y="20" speed="3" />		
+  </group>  
+  
+      <group gid="27" name="27秒鱼1号" path="400,-100|400,100|451,245|540,290|640,350|780,400|800,500|950,500|1000,600">
+    <fish id="27001" type="1" x="-95" y="30" speed="3" />
+    <fish id="27002" type="1" x="-10" y="50" speed="3" />
+    <fish id="27003" type="4" x="15" y="20" speed="2" />
+    <fish id="27004" type="1" x="80" y="10" speed="3" />
+    <fish id="27005" type="1" x="0" y="70" speed="3" />		
+  </group>    
+  
+      <group gid="28" name="37秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="28001" type="1" x="-5" y="30" speed="3" />
+    <fish id="28002" type="1" x="-10" y="10" speed="3" />
+    <fish id="28003" type="5" x="-15" y="20" speed="2" />
+    <fish id="28004" type="1" x="0" y="10" speed="3" />
+    <fish id="28005" type="1" x="0" y="20" speed="3" />		
+  </group>  
+  
+      <group gid="29" name="47秒鱼1号" path="400,-100|400,100|451,245|540,290|640,350|780,400|800,500|950,500|1000,600">
+    <fish id="29001" type="1" x="-5" y="30" speed="3" />
+    <fish id="29002" type="1" x="-100" y="10" speed="3" />
+    <fish id="29003" type="3" x="-15" y="200" speed="3" />
+    <fish id="29004" type="1" x="0" y="10" speed="3" />
+    <fish id="29005" type="1" x="70" y="20" speed="3" />		
+  </group>    
+  
+      <group gid="30" name="57秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="30001" type="1" x="-50" y="30" speed="3" />
+    <fish id="30002" type="1" x="-10" y="40" speed="3" />
+    <fish id="30003" type="3" x="-15" y="20" speed="3" />
+    <fish id="30004" type="1" x="0" y="10" speed="3" />
+    <fish id="30005" type="1" x="0" y="20" speed="3" />		
+  </group> 
+ 
+  
+      <group gid="31" name="67秒鱼1号" path="400,-100|400,100|451,245|540,290|640,350|780,400|800,500|950,500|1000,600">
+    <fish id="31001" type="1" x="-5" y="130" speed="4" />
+    <fish id="31002" type="1" x="-40" y="10" speed="4" />
+    <fish id="31003" type="2" x="-15" y="20" speed="4" />
+    <fish id="31004" type="1" x="0" y="110" speed="4" />
+    <fish id="31005" type="1" x="0" y="20" speed="4" />		
+  </group>    
+  
+      <group gid="32" name="87秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="32001" type="1" x="-5" y="50" speed="3" />
+    <fish id="32002" type="1" x="-50" y="10" speed="3" />
+    <fish id="32003" type="2" x="-15" y="20" speed="3" />
+    <fish id="32004" type="1" x="50" y="10" speed="3" />
+    <fish id="32005" type="1" x="0" y="50" speed="3" />		
+  </group> 
+ 
+      <group gid="33" name="92秒鱼1号" path="400,-100|400,100|451,245|540,290|640,350|780,400|800,500|950,500|1000,600">
+    <fish id="33001" type="1" x="-57" y="30" speed="3" />
+    <fish id="33002" type="1" x="-10" y="17" speed="3" />
+    <fish id="33003" type="4" x="-15" y="20" speed="2" />
+    <fish id="33004" type="1" x="70" y="10" speed="3" />
+    <fish id="33005" type="1" x="0" y="27" speed="3" />		
+  </group>    
+  
+      <group gid="34" name="97秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="34001" type="1" x="-45" y="30" speed="3" />
+    <fish id="34002" type="1" x="-14" y="10" speed="3" />
+    <fish id="34003" type="5" x="-15" y="20" speed="2" />
+    <fish id="34004" type="1" x="0" y="40" speed="3" />
+    <fish id="34005" type="1" x="40" y="20" speed="3" />		
+  </group>  
+ 
+    <group gid="35" name="103秒鱼1号2" path="500,-100|500,100|451,245|360,290|240,350|120,400|100,500|0,500|-100,600">
+    <fish id="35001" type="1" x="-50" y="30" speed="4" />
+    <fish id="35002" type="2" x="-10" y="10" speed="4" />
+    <fish id="35003" type="2" x="-35" y="20" speed="4" />
+    <fish id="35004" type="2" x="0" y="50" speed="4" />
+    <fish id="35005" type="1" x="0" y="20" speed="4" />		
+  </group>  
+ 
+    <group gid="36" name="9秒鱼2号" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="36001" type="3" x="-50" y="30" speed="3" />
+    <fish id="36002" type="2" x="-20" y="40" speed="3" />
+    <fish id="36003" type="2" x="-10" y="60" speed="3" />
+    <fish id="36004" type="2" x="0" y="-10" speed="3" />
+    <fish id="36005" type="3" x="-20" y="-20" speed="3" />		
+  </group>  
+  
+   <group gid="37" name="9秒鱼2号" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="37001" type="3" x="-15" y="0" speed="3" />
+    <fish id="37002" type="2" x="-10" y="-20" speed="3" />
+    <fish id="37003" type="2" x="-15" y="20" speed="3" />
+    <fish id="37004" type="2" x="30" y="-40" speed="3" />
+    <fish id="37005" type="3" x="0" y="-20" speed="3" />		
+  </group>  
+ 
+    <group gid="38" name="19秒鱼混" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="38001" type="3" x="-50" y="30" speed="3" />
+    <fish id="38002" type="2" x="-20" y="40" speed="3" />
+    <fish id="38003" type="5" x="-10" y="60" speed="2" />
+    <fish id="38004" type="2" x="0" y="-10" speed="3" />
+    <fish id="38005" type="3" x="-20" y="-20" speed="3" />		
+  </group>  
+  
+   <group gid="39" name="19秒鱼混" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="39001" type="2" x="-15" y="0" speed="3" />
+    <fish id="39002" type="3" x="-100" y="-20" speed="3" />
+    <fish id="39003" type="5" x="-115" y="20" speed="2" />
+    <fish id="39004" type="3" x="30" y="-10" speed="3" />
+    <fish id="39005" type="2" x="0" y="-210" speed="3" />		
+  </group>   
+ 
+    <group gid="40" name="29秒鱼混" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="40001" type="3" x="-50" y="30" speed="3" />
+    <fish id="40002" type="3" x="-21" y="40" speed="3" />
+    <fish id="40003" type="2" x="-10" y="60" speed="3" />
+    <fish id="40004" type="3" x="0" y="-11" speed="3" />
+    <fish id="40005" type="3" x="-20" y="-20" speed="3" />		
+  </group>  
+  
+   <group gid="41" name="39秒鱼混" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="41001" type="2" x="50" y="-50" speed="3" />
+    <fish id="41002" type="2" x="70" y="-30" speed="3" />
+    <fish id="41003" type="5" x="15" y="0" speed="2" />
+    <fish id="41004" type="2" x="70" y="30" speed="3" />
+    <fish id="41005" type="2" x="50" y="50" speed="3" />		
+  </group>   
+  
+    <group gid="42" name="49秒鱼2号" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="42001" type="3" x="-50" y="30" speed="3" />
+    <fish id="42002" type="1" x="-20" y="40" speed="3" />
+    <fish id="42003" type="2" x="-10" y="60" speed="3" />
+    <fish id="42004" type="1" x="10" y="-10" speed="3" />
+    <fish id="42005" type="3" x="-20" y="-20" speed="3" />		
+  </group>  
+  
+   <group gid="43" name="59秒鱼混" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="43001" type="3" x="55" y="50" speed="3" />
+    <fish id="43002" type="2" x="50" y="20" speed="3" />
+    <fish id="43003" type="5" x="-15" y="0" speed="2" />
+    <fish id="43004" type="2" x="55" y="-10" speed="3" />
+    <fish id="43005" type="3" x="55" y="-30" speed="3" />		
+  </group>  
+  
+    <group gid="44" name="60秒鱼混" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="44001" type="2" x="-50" y="10" speed="4" />
+    <fish id="44002" type="3" x="-20" y="40" speed="4" />
+    <fish id="44003" type="3" x="-10" y="70" speed="4" />
+    <fish id="44004" type="3" x="0" y="-60" speed="4" />
+    <fish id="44005" type="2" x="-20" y="-20" speed="4" />		
+  </group>  
+  
+   <group gid="45" name="92秒鱼2号" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="45001" type="1" x="45" y="50" speed="3" />
+    <fish id="45002" type="2" x="35" y="50" speed="3" />
+    <fish id="45003" type="5" x="0" y="0" speed="2" />
+    <fish id="45004" type="2" x="35" y="50" speed="3" />
+    <fish id="45005" type="1" x="45" y="50" speed="3" />		
+  </group>    
+  
+    <group gid="46" name="94秒鱼混" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="46001" type="4" x="-150" y="30" speed="2" />
+    <fish id="46002" type="2" x="-200" y="140" speed="3" />
+    <fish id="46003" type="3" x="-100" y="-60" speed="3" />
+    <fish id="46004" type="2" x="0" y="-210" speed="3" />
+    <fish id="46005" type="4" x="-20" y="-100" speed="2" />		
+  </group>  
+  
+   <group gid="47" name="99秒鱼2号" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="47001" type="5" x="105" y="-70" speed="2" />
+    <fish id="47002" type="3" x="150" y="0" speed="3" />
+    <fish id="47003" type="2" x="200" y="70" speed="3" />
+    <fish id="47004" type="3" x="250" y="120" speed="3" />
+    <fish id="47005" type="5" x="300" y="200" speed="2" />		
+  </group>  
+
+   <group gid="48" name="10秒鱼1号" path="-151,245|51,245|151,245|251,245|451,245|551,245|651,245|751,245|851,245|951,245|1051,245|751,351|851,351|951,450|1111,500">
+    <fish id="48001" type="1" x="0" y="0" speed="3" />
+    <fish id="48002" type="1" x="0" y="-40" speed="3" />
+    <fish id="48003" type="3" x="0" y="50" speed="3" />
+    <fish id="48004" type="3" x="0" y="60" speed="3" />
+    <fish id="48005" type="1" x="40" y="-40" speed="3" />
+    <fish id="48006" type="1" x="40" y="110" speed="3" />
+    <fish id="48007" type="1" x="40" y="150" speed="3" />
+    <fish id="48008" type="2" x="40" y="60" speed="3" />
+    <fish id="48009" type="2" x="40" y="-10" speed="3" />
+    <fish id="48010" type="1" x="-40" y="0" speed="3" />	
+    <fish id="48011" type="1" x="-40" y="10" speed="3" />
+    <fish id="48012" type="3" x="-40" y="-110" speed="3" />
+    <fish id="48013" type="2" x="-40" y="20" speed="3" />
+    <fish id="48014" type="1" x="-40" y="-70" speed="3" />
+    <fish id="48015" type="1" x="-40" y="-20" speed="3" />		
+  </group>  
+  
+    <group gid="49" name="10秒鱼1号2" path="951,245|851,245|751,245|651,245|551,245|451,245|351,245|51,351|151,351|151,450|351,500">
+    <fish id="49001" type="1" x="-80" y="40" speed="3" />
+    <fish id="49002" type="1" x="-40" y="0" speed="3" />
+    <fish id="49003" type="3" x="0" y="80" speed="3" />
+    <fish id="49004" type="3" x="40" y="-0" speed="3" />
+    <fish id="49005" type="1" x="80" y="-40" speed="3" />
+    <fish id="49006" type="1" x="-80" y="0" speed="3" />
+    <fish id="49007" type="2" x="-40" y="80" speed="3" />
+    <fish id="49008" type="3" x="0" y="40" speed="3" />
+    <fish id="49009" type="1" x="40" y="-80" speed="3" />
+    <fish id="49010" type="1" x="80" y="40" speed="3" />	
+    <fish id="49011" type="3" x="80" y="-100" speed="3" />
+    <fish id="49012" type="2" x="40" y="100" speed="3" />
+    <fish id="49013" type="1" x="0" y="0" speed="3" />
+    <fish id="49014" type="1" x="-40" y="-10" speed="3" />
+    <fish id="49015" type="1" x="-80" y="-80" speed="3" />	
+  </group>   
+  
+   <group gid="50" name="30秒鱼1号" path="-251,245|51,245|151,245|251,245|451,245|551,245|651,245|751,245|851,245|951,245|1051,245|751,351|851,351|951,450|1111,500">
+    <fish id="50001" type="1" x="-80" y="40" speed="3" />
+    <fish id="50002" type="1" x="-40" y="0" speed="3" />
+    <fish id="50003" type="3" x="0" y="80" speed="3" />
+    <fish id="50004" type="3" x="40" y="-0" speed="3" />
+    <fish id="50005" type="1" x="80" y="-40" speed="3" />
+    <fish id="50006" type="1" x="-80" y="0" speed="3" />
+    <fish id="50007" type="1" x="-40" y="80" speed="3" />
+    <fish id="50008" type="2" x="0" y="40" speed="3" />
+    <fish id="50009" type="2" x="40" y="-80" speed="3" />
+    <fish id="50010" type="1" x="80" y="40" speed="3" />	
+    <fish id="50011" type="1" x="80" y="-100" speed="3" />
+    <fish id="50012" type="3" x="40" y="100" speed="3" />
+    <fish id="50013" type="2" x="0" y="0" speed="3" />
+    <fish id="50014" type="1" x="-40" y="-10" speed="3" />
+    <fish id="50015" type="1" x="-80" y="-80" speed="3" />	
+  </group>  
+  
+    <group gid="51" name="30秒鱼1号2" path="1151,245|951,245|851,245|751,245|651,245|551,245|451,245|351,245|51,351|151,351|151,450|351,500">
+    <fish id="51001" type="1" x="20" y="0" speed="3" />
+    <fish id="51002" type="1" x="0" y="-120" speed="3" />
+    <fish id="51003" type="3" x="0" y="10" speed="3" />
+    <fish id="51004" type="3" x="50" y="20" speed="3" />
+    <fish id="51005" type="1" x="50" y="-10" speed="3" />
+    <fish id="51006" type="1" x="50" y="120" speed="3" />
+    <fish id="51007" type="1" x="100" y="0" speed="3" />
+    <fish id="51008" type="2" x="120" y="10" speed="3" />
+    <fish id="51009" type="2" x="100" y="-10" speed="3" />
+    <fish id="51010" type="1" x="-50" y="20" speed="3" />	
+    <fish id="51011" type="1" x="-20" y="10" speed="3" />
+    <fish id="51012" type="4" x="-50" y="-102" speed="2" />
+    <fish id="51013" type="5" x="-100" y="10" speed="2" />
+    <fish id="51014" type="1" x="-100" y="-120" speed="3" />
+    <fish id="51015" type="1" x="-100" y="0" speed="3" />		
+  </group>     
+   
+   <group gid="52" name="50秒鱼1号" path="-251,245|51,245|151,245|251,245|451,245|551,245|651,245|751,245|851,245|951,245|1051,245|751,351|851,351|951,450|1111,500">
+    <fish id="52001" type="1" x="0" y="70" speed="3" />
+    <fish id="52002" type="1" x="10" y="-10" speed="3" />
+    <fish id="52003" type="3" x="0" y="170" speed="3" />
+    <fish id="52004" type="3" x="50" y="0" speed="3" />
+    <fish id="52005" type="1" x="150" y="-10" speed="3" />
+    <fish id="52006" type="1" x="50" y="170" speed="3" />
+    <fish id="52007" type="2" x="100" y="0" speed="3" />
+    <fish id="52008" type="2" x="110" y="170" speed="3" />
+    <fish id="52009" type="1" x="60" y="-10" speed="3" />
+    <fish id="52010" type="1" x="-150" y="0" speed="3" />	
+    <fish id="52011" type="1" x="-50" y="170" speed="3" />
+    <fish id="52012" type="4" x="-150" y="-10" speed="2" />
+    <fish id="52013" type="5" x="-100" y="170" speed="2" />
+    <fish id="52014" type="1" x="-100" y="-10" speed="3" />
+    <fish id="52015" type="1" x="-110" y="0" speed="3" />		
+  </group>  
+  
+    <group gid="53" name="50秒鱼1号2" path="1151,245|951,245|851,245|751,245|651,245|551,245|451,245|351,245|51,351|151,351|151,450|351,500">
+    <fish id="53001" type="1" x="0" y="0" speed="3" />
+    <fish id="53002" type="1" x="40" y="-10" speed="3" />
+    <fish id="53003" type="3" x="0" y="10" speed="3" />
+    <fish id="53004" type="3" x="50" y="40" speed="3" />
+    <fish id="53005" type="1" x="50" y="-10" speed="3" />
+    <fish id="53006" type="1" x="150" y="40" speed="3" />
+    <fish id="53007" type="1" x="100" y="0" speed="3" />
+    <fish id="53008" type="2" x="140" y="10" speed="3" />
+    <fish id="53009" type="2" x="100" y="-10" speed="3" />
+    <fish id="53010" type="1" x="-50" y="40" speed="3" />	
+    <fish id="53011" type="1" x="-50" y="10" speed="3" />
+    <fish id="53012" type="5" x="-50" y="-40" speed="2" />
+    <fish id="53013" type="4" x="-100" y="10" speed="2" />
+    <fish id="53014" type="1" x="-140" y="-10" speed="3" />
+    <fish id="53015" type="1" x="-100" y="0" speed="3" />		
+  </group>   
+   
+   <group gid="54" name="90秒鱼1号" path="-251,245|51,245|151,245|251,245|451,245|551,245|651,245|751,245|851,245|951,245|1051,245|751,351|851,351|951,450|1111,500">
+    <fish id="54001" type="1" x="110" y="0" speed="3" />
+    <fish id="54002" type="1" x="0" y="-10" speed="3" />
+    <fish id="54003" type="3" x="10" y="70" speed="3" />
+    <fish id="54004" type="3" x="50" y="0" speed="3" />
+    <fish id="54005" type="1" x="210" y="-10" speed="3" />
+    <fish id="54006" type="1" x="50" y="120" speed="3" />
+    <fish id="54007" type="1" x="100" y="0" speed="3" />
+    <fish id="54008" type="2" x="140" y="10" speed="3" />
+    <fish id="54009" type="2" x="100" y="-140" speed="3" />
+    <fish id="54010" type="1" x="-50" y="0" speed="3" />	
+    <fish id="54011" type="1" x="-150" y="10" speed="3" />
+    <fish id="54012" type="4" x="-50" y="-110" speed="2" />
+    <fish id="54013" type="5" x="-100" y="10" speed="2" />
+    <fish id="54014" type="1" x="-150" y="-10" speed="3" />
+    <fish id="54015" type="1" x="-100" y="10" speed="3" />		
+  </group>  
+  
+  <group gid="54" name="90秒鱼1号2" path="1151,245|951,245|851,245|751,245|651,245|551,245|451,245|351,245|51,351|151,351|151,450|351,500">
+    <fish id="54001" type="1" x="70" y="0" speed="3" />
+    <fish id="54002" type="1" x="0" y="-10" speed="3" />
+    <fish id="54003" type="3" x="70" y="70" speed="3" />
+    <fish id="54004" type="3" x="50" y="0" speed="3" />
+    <fish id="54005" type="1" x="50" y="-70" speed="3" />
+    <fish id="54006" type="1" x="50" y="10" speed="3" />
+    <fish id="54007" type="1" x="110" y="0" speed="3" />
+    <fish id="54008" type="2" x="100" y="110" speed="3" />
+    <fish id="54009" type="2" x="100" y="-10" speed="3" />
+    <fish id="54010" type="1" x="-150" y="0" speed="3" />	
+    <fish id="54011" type="1" x="-50" y="10" speed="3" />
+    <fish id="54012" type="5" x="-50" y="-110" speed="2" />
+    <fish id="54013" type="4" x="-100" y="10" speed="2" />
+    <fish id="54014" type="1" x="-100" y="-110" speed="3" />
+    <fish id="54015" type="1" x="-100" y="0" speed="3" />		
+  </group> 
+ 
+   
+   <group gid="55" name="100秒鱼1号" path="-251,245|51,245|151,245|251,245|451,245|551,245|651,245|751,245|851,245|951,245|1051,245|751,351|851,351|951,450|1111,500">
+    <fish id="55001" type="1" x="50" y="0" speed="3" />
+    <fish id="55002" type="1" x="0" y="-10" speed="3" />
+    <fish id="55003" type="3" x="0" y="150" speed="3" />
+    <fish id="55004" type="3" x="50" y="0" speed="3" />
+    <fish id="55005" type="1" x="50" y="-10" speed="3" />
+    <fish id="55006" type="1" x="50" y="150" speed="3" />
+    <fish id="55007" type="1" x="150" y="0" speed="3" />
+    <fish id="55008" type="2" x="100" y="150" speed="3" />
+    <fish id="55009" type="2" x="100" y="-10" speed="3" />
+    <fish id="55010" type="1" x="-150" y="0" speed="3" />	
+    <fish id="55011" type="1" x="-50" y="110" speed="3" />
+    <fish id="55012" type="2" x="-80" y="-10" speed="3" />
+    <fish id="55013" type="3" x="-100" y="10" speed="3" />
+    <fish id="55014" type="1" x="-120" y="-10" speed="3" />
+    <fish id="55015" type="1" x="-100" y="20" speed="3" />		
+  </group>  
+  
+    <group gid="56" name="100秒鱼1号2" path="1151,245|951,245|851,245|751,245|651,245|551,245|451,245|351,245|51,351|151,351|151,450|351,500">
+    <fish id="56001" type="1" x="0" y="0" speed="3" />
+    <fish id="56002" type="1" x="20" y="-10" speed="3" />
+    <fish id="56003" type="2" x="0" y="210" speed="3" />
+    <fish id="56004" type="2" x="50" y="0" speed="3" />
+    <fish id="56005" type="1" x="50" y="-110" speed="3" />
+    <fish id="56006" type="1" x="50" y="40" speed="3" />
+    <fish id="56007" type="3" x="100" y="0" speed="3" />
+    <fish id="56008" type="3" x="120" y="10" speed="3" />
+    <fish id="56009" type="1" x="100" y="-10" speed="3" />
+    <fish id="56010" type="1" x="-50" y="20" speed="3" />	
+    <fish id="56011" type="1" x="-50" y="70" speed="3" />
+    <fish id="56012" type="2" x="-150" y="-10" speed="3" />
+    <fish id="56013" type="3" x="-100" y="110" speed="3" />
+    <fish id="56014" type="1" x="-120" y="-10" speed="3" />
+    <fish id="56015" type="1" x="-100" y="0" speed="3" />		
+  </group>  
+ 
+    <group gid="57" name="5秒鱼混号" path="-250,-250|100,50|200,100|300,150|400,200|500,250|600,300|700,350|800,300|700,250|600,200|1000,200">
+    <fish id="57001" type="1" x="-80" y="40" speed="3" />
+    <fish id="57002" type="3" x="-40" y="0" speed="3" />
+    <fish id="57003" type="2" x="0" y="80" speed="3" />
+    <fish id="57004" type="3" x="40" y="-0" speed="3" />
+    <fish id="57005" type="1" x="80" y="-40" speed="3" />
+    <fish id="57006" type="1" x="-80" y="0" speed="3" />
+    <fish id="57007" type="1" x="-40" y="80" speed="3" />
+    <fish id="57008" type="3" x="0" y="40" speed="3" />
+    <fish id="57009" type="1" x="40" y="-80" speed="3" />
+    <fish id="57010" type="1" x="80" y="40" speed="3" />	
+    <fish id="57011" type="2" x="80" y="-100" speed="3" />
+    <fish id="57012" type="3" x="40" y="100" speed="3" />
+    <fish id="57013" type="2" x="0" y="0" speed="3" />
+    <fish id="57014" type="1" x="-40" y="-10" speed="3" />
+    <fish id="57015" type="1" x="-80" y="-80" speed="3" />		
+  </group> 
+ 
+     <group gid="58" name="5秒鱼混号2" path="1200,500|800,450|700,400|600,350|500,300|400,250|300,200|200,150|100,200|200,250|300,350|1000,350">
+    <fish id="58001" type="1" x="-80" y="40" speed="3" />
+    <fish id="58002" type="3" x="-40" y="0" speed="3" />
+    <fish id="58003" type="4" x="0" y="80" speed="2" />
+    <fish id="58004" type="3" x="40" y="-0" speed="3" />
+    <fish id="58005" type="1" x="80" y="-40" speed="3" />
+    <fish id="58006" type="1" x="-80" y="0" speed="3" />
+    <fish id="58007" type="2" x="-40" y="80" speed="3" />
+    <fish id="58008" type="3" x="0" y="40" speed="3" />
+    <fish id="58009" type="2" x="40" y="-80" speed="3" />
+    <fish id="58010" type="1" x="80" y="40" speed="3" />	
+    <fish id="58011" type="1" x="80" y="-100" speed="3" />
+    <fish id="58012" type="1" x="40" y="100" speed="3" />
+    <fish id="58013" type="3" x="0" y="0" speed="3" />
+    <fish id="58014" type="1" x="-40" y="-10" speed="3" />
+    <fish id="58015" type="1" x="-80" y="-80" speed="3" />		
+  </group> 
+  
+    <group gid="59" name="15秒鱼混号" path="-250,-250|100,50|200,100|300,150|400,200|500,250|600,300|700,350|800,300|700,250|600,200|1000,300">
+    <fish id="59001" type="1" x="-80" y="40" speed="3" />
+    <fish id="59002" type="2" x="-40" y="0" speed="3" />
+    <fish id="59003" type="2" x="0" y="80" speed="3" />
+    <fish id="59004" type="2" x="40" y="-0" speed="3" />
+    <fish id="59005" type="1" x="80" y="-40" speed="3" />
+    <fish id="59006" type="1" x="-80" y="0" speed="3" />
+    <fish id="59007" type="3" x="-40" y="80" speed="3" />
+    <fish id="59008" type="3" x="0" y="40" speed="3" />
+    <fish id="59009" type="3" x="40" y="-80" speed="3" />
+    <fish id="59010" type="1" x="80" y="40" speed="3" />	
+    <fish id="59011" type="1" x="80" y="-100" speed="3" />
+    <fish id="59012" type="2" x="40" y="100" speed="3" />
+    <fish id="59013" type="2" x="0" y="0" speed="3" />
+    <fish id="59014" type="2" x="-40" y="-10" speed="3" />
+    <fish id="59015" type="1" x="-80" y="-80" speed="3" />	
+  </group> 
+ 
+     <group gid="60" name="15秒鱼混号2" path="1100,500|800,450|700,400|600,350|500,300|400,250|300,200|200,150|100,200|200,250|300,350|1000,350">
+    <fish id="60001" type="1" x="-80" y="40" speed="3" />
+    <fish id="60002" type="2" x="-40" y="0" speed="3" />
+    <fish id="60003" type="2" x="0" y="80" speed="3" />
+    <fish id="60004" type="2" x="40" y="-0" speed="3" />
+    <fish id="60005" type="1" x="80" y="-40" speed="3" />
+    <fish id="60006" type="1" x="-80" y="0" speed="3" />
+    <fish id="60007" type="3" x="-40" y="80" speed="3" />
+    <fish id="60008" type="3" x="0" y="40" speed="3" />
+    <fish id="60009" type="3" x="40" y="-80" speed="3" />
+    <fish id="60010" type="1" x="80" y="40" speed="3" />	
+    <fish id="60011" type="1" x="80" y="-100" speed="3" />
+    <fish id="60012" type="2" x="40" y="100" speed="3" />
+    <fish id="60013" type="2" x="0" y="0" speed="3" />
+    <fish id="60014" type="2" x="-40" y="-10" speed="3" />
+    <fish id="60015" type="1" x="-80" y="-80" speed="3" />	
+  </group> 
+  
+    <group gid="61" name="22秒鱼混号" path="-150,-150|100,50|200,100|300,150|400,200|500,250|600,300|700,350|800,300|700,250|600,400|1000,200">
+    <fish id="61001" type="2" x="-80" y="40" speed="3" />
+    <fish id="61002" type="2" x="-40" y="0" speed="3" />
+    <fish id="61003" type="2" x="0" y="80" speed="3" />
+    <fish id="61004" type="2" x="40" y="-0" speed="3" />
+    <fish id="61005" type="2" x="80" y="-40" speed="3" />
+    <fish id="61006" type="3" x="-80" y="0" speed="3" />
+    <fish id="61007" type="3" x="-40" y="80" speed="3" />
+    <fish id="61008" type="3" x="0" y="40" speed="3" />
+    <fish id="61009" type="3" x="40" y="-80" speed="3" />
+    <fish id="61010" type="3" x="80" y="40" speed="3" />	
+    <fish id="61011" type="1" x="80" y="-100" speed="3" />
+    <fish id="61012" type="2" x="40" y="100" speed="3" />
+    <fish id="61013" type="2" x="0" y="0" speed="3" />
+    <fish id="61014" type="2" x="-40" y="-10" speed="3" />
+    <fish id="61015" type="1" x="-80" y="-80" speed="3" />		
+  </group> 
+ 
+     <group gid="62" name="22秒鱼混号2" path="1100,500|800,450|700,400|600,350|500,300|400,250|300,200|200,150|100,200|200,250|300,350|1000,350">
+    <fish id="62001" type="2" x="-80" y="40" speed="3" />
+    <fish id="62002" type="2" x="-40" y="0" speed="3" />
+    <fish id="62003" type="2" x="0" y="80" speed="3" />
+    <fish id="62004" type="2" x="40" y="-0" speed="3" />
+    <fish id="62005" type="2" x="80" y="-40" speed="3" />
+    <fish id="62006" type="3" x="-80" y="0" speed="3" />
+    <fish id="62007" type="3" x="-40" y="80" speed="3" />
+    <fish id="62008" type="3" x="0" y="40" speed="3" />
+    <fish id="62009" type="3" x="40" y="-80" speed="3" />
+    <fish id="62010" type="3" x="80" y="40" speed="3" />	
+    <fish id="62011" type="1" x="80" y="-100" speed="3" />
+    <fish id="62012" type="2" x="40" y="100" speed="3" />
+    <fish id="62013" type="2" x="0" y="0" speed="3" />
+    <fish id="62014" type="2" x="-40" y="-10" speed="3" />
+    <fish id="62015" type="1" x="-80" y="-80" speed="3" />		
+  </group>  
+ 
+     <group gid="63" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="63001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+ 
+     <group gid="65" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="65001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+
+   
+     <group gid="67" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="67001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+   
+ 
+   
+   <group gid="68" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="68001" type="5" x="-50" y="0" speed="3" />
+  </group>  
+   
+     <group gid="69" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="69001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+   
+
+   
+     <group gid="71" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="71001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+   
+   
+     <group gid="73" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="73001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+   
+ 
+   
+     <group gid="75" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="75001" type="5" x="-50" y="0" speed="2" />
+  </group>  
+   
+
+
+      <group gid="77" name="110秒环鱼2" path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+    <fish id="77001" type="5" x="0" y="0" speed="2" />
+  </group> 
+
+
+
+      <group gid="79" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+    <fish id="79001" type="5" x="0" y="0" speed="2" />
+  </group> 
+  
+
+
+
+      <group gid="81" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+    <fish id="81001" type="5" x="0" y="0" speed="2" />
+  </group> 
+  
+
+
+  
+
+      <group gid="83" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="83001" type="5" x="0" y="0" speed="2" />
+  </group> 
+  
+
+
+      <group gid="85" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="85001" type="5" x="0" y="0" speed="2" />
+  </group> 
+  
+
+  
+
+      <group gid="87" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="87001" type="5" x="0" y="0" speed="2" />
+  </group> 
+  
+
+  
+
+      <group gid="89" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="89001" type="5" x="0" y="0" speed="2" />
+  </group> 
+  
+
+ 
+      <group gid="91" name="42秒大鱼" path="-100,245|100,245|200,245|300,245|400,245|450,300|500,245|450,190|300,245|400,245|500,245|600,245|700,245|850,245|1000,245">
+    <fish id="91001" type="1" x="0" y="0" speed="4" />
+    <fish id="91002" type="1" x="20" y="20" speed="4" />
+    <fish id="91003" type="3" x="20" y="40" speed="4" />
+    <fish id="91004" type="3" x="20" y="60" speed="4" />
+    <fish id="91005" type="2" x="20" y="80" speed="4" />
+    <fish id="91006" type="2" x="20" y="100" speed="4" />
+    <fish id="91007" type="2" x="40" y="20" speed="4" />
+    <fish id="91008" type="3" x="60" y="20" speed="4" />
+    <fish id="91009" type="3" x="80" y="20" speed="4" />
+    <fish id="91010" type="1" x="100" y="20" speed="4" />
+    <fish id="91011" type="1" x="40" y="40" speed="4" />
+    <fish id="91012" type="2" x="40" y="40" speed="4" />
+    <fish id="91013" type="2" x="40" y="-70" speed="4" />
+    <fish id="91014" type="2" x="40" y="-70" speed="4" />
+    <fish id="91015" type="1" x="60" y="-90" speed="4" />
+    <fish id="91016" type="1" x="60" y="-90" speed="4" />
+    <fish id="91017" type="3" x="60" y="-90" speed="4" />
+    <fish id="91018" type="3" x="60" y="-40" speed="4" />
+    <fish id="91019" type="1" x="80" y="-40" speed="4" />
+    <fish id="91020" type="1" x="80" y="-40" speed="4" />
+    <fish id="91021" type="1" x="100" y="-40" speed="4" />
+	 </group>  
+	 
+      <group gid="92" name="42秒大鱼2" path="-300,245|100,245|200,245|300,245|400,245|450,300|500,245|450,190|300,245|400,245|500,245|600,245|700,245|850,245|1000,245">
+    <fish id="92001" type="1" x="0" y="0" speed="4" />
+    <fish id="92002" type="1" x="20" y="-20" speed="4" />
+    <fish id="92003" type="1" x="20" y="-40" speed="4" />
+    <fish id="92004" type="3" x="20" y="-60" speed="4" />
+    <fish id="92005" type="2" x="20" y="-80" speed="4" />
+    <fish id="92006" type="2" x="20" y="-100" speed="4" />
+    <fish id="92007" type="2" x="40" y="-20" speed="4" />
+    <fish id="92008" type="3" x="60" y="-20" speed="4" />
+    <fish id="92009" type="1" x="80" y="-20" speed="4" />
+    <fish id="92010" type="1" x="100" y="20" speed="4" />
+    <fish id="92011" type="1" x="-40" y="40" speed="4" />
+    <fish id="92012" type="2" x="-40" y="60" speed="4" />
+    <fish id="92013" type="2" x="-40" y="80" speed="4" />
+    <fish id="92014" type="2" x="-40" y="100" speed="4" />
+    <fish id="92015" type="3" x="-60" y="40" speed="4" />
+    <fish id="92016" type="1" x="-60" y="60" speed="4" />
+    <fish id="92017" type="3" x="-60" y="80" speed="4" />
+    <fish id="92018" type="1" x="-60" y="100" speed="4" />
+    <fish id="92019" type="3" x="-80" y="80" speed="4" />
+    <fish id="92020" type="1" x="-80" y="100" speed="4" />
+    <fish id="92021" type="1" x="-100" y="-100" speed="4" />
+	 </group> 
+   
+      <group gid="93" name="42秒大鱼3" path="1000,245|850,245|700,245|600,245|500,245|400,300|300,245|450,190|500,245|450,245|400,245|300,245|200,245|100,245|0,245|-100,245">
+    <fish id="93001" type="1" x="0" y="0" speed="4" />
+    <fish id="93002" type="1" x="10" y="20" speed="4" />
+    <fish id="93003" type="4" x="10" y="40" speed="4" />
+    <fish id="93004" type="3" x="10" y="60" speed="4" />
+    <fish id="93005" type="2" x="10" y="80" speed="4" />
+    <fish id="93006" type="2" x="10" y="100" speed="4" />
+    <fish id="93007" type="2" x="20" y="20" speed="4" />
+    <fish id="93008" type="3" x="30" y="20" speed="4" />
+    <fish id="93009" type="1" x="40" y="20" speed="4" />
+    <fish id="93010" type="1" x="50" y="20" speed="4" />
+    <fish id="93011" type="1" x="20" y="-40" speed="4" />
+    <fish id="93012" type="2" x="20" y="-60" speed="4" />
+    <fish id="93013" type="2" x="20" y="-80" speed="4" />
+    <fish id="93014" type="2" x="20" y="-100" speed="4" />
+    <fish id="93015" type="3" x="30" y="-40" speed="4" />
+    <fish id="93016" type="1" x="30" y="-60" speed="4" />
+    <fish id="93017" type="3" x="30" y="-80" speed="4" />
+    <fish id="93018" type="1" x="30" y="-100" speed="4" />
+    <fish id="93019" type="3" x="40" y="-80" speed="4" />
+    <fish id="93020" type="1" x="40" y="-100" speed="4" />
+    <fish id="93021" type="1" x="50" y="-100" speed="4" />
+	 </group>  
+   
+      <group gid="94" name="42秒大鱼4" path="1200,245|850,245|700,245|600,245|500,245|400,300|300,245|450,190|500,245|450,245|400,245|300,245|200,245|100,245|0,245|-100,245">
+    <fish id="94001" type="1" x="0" y="0" speed="4" />
+    <fish id="94002" type="1" x="20" y="-20" speed="4" />
+    <fish id="94003" type="1" x="20" y="-40" speed="4" />
+    <fish id="94004" type="3" x="20" y="-60" speed="4" />
+    <fish id="94005" type="2" x="20" y="-80" speed="4" />
+    <fish id="94006" type="2" x="20" y="-100" speed="4" />
+    <fish id="94007" type="2" x="40" y="-20" speed="4" />
+    <fish id="94008" type="3" x="60" y="-20" speed="4" />
+    <fish id="94009" type="1" x="80" y="-20" speed="4" />
+    <fish id="94010" type="3" x="-80" y="20" speed="4" />
+    <fish id="94011" type="1" x="-40" y="40" speed="4" />
+    <fish id="94012" type="2" x="-40" y="60" speed="4" />
+    <fish id="94013" type="2" x="-40" y="80" speed="4" />
+    <fish id="94014" type="2" x="-40" y="100" speed="4" />
+    <fish id="94015" type="1" x="-60" y="40" speed="4" />
+    <fish id="94016" type="3" x="-60" y="60" speed="4" />
+    <fish id="94017" type="1" x="-60" y="80" speed="4" />
+    <fish id="94018" type="3" x="-60" y="100" speed="4" />
+    <fish id="94019" type="1" x="-80" y="80" speed="4" />
+    <fish id="94020" type="1" x="-80" y="-100" speed="4" />
+    <fish id="94021" type="3" x="0" y="-100" speed="4" />
+	 </group> 	 
+  
+       <group gid="95" name="42秒大鱼4" path="0,0|100,100|0,0">
+    <fish id="95001" type="1" x="0" y="0" speed="3" />
+	 </group>  
+ 
+ <group gid="96" name="整齐大鱼群2人版" path="-50,245|57,245|107,245|157,245|207,245|257,245|307,245|357,245|400,245|457,245|507,245|557,245|607,245|657,245|707,245|757,245|807,245|857,245|907,245|1111,245|2511,245">
+    <fish id="96001" type="2" x="-330" y="0" speed="4" />
+    <fish id="96002" type="2" x="-330" y="20" speed="4" />
+	<fish id="96003" type="2" x="-330" y="40" speed="4" />
+	<fish id="96004" type="2" x="-330" y="60" speed="4" />
+	<fish id="96005" type="2" x="-330" y="80" speed="4" />
+	<fish id="96006" type="2" x="-330" y="100" speed="4" />
+	<fish id="96007" type="2" x="-400" y="-100" speed="4" />
+	<fish id="96008" type="2" x="-400" y="-80" speed="4" />
+	<fish id="96009" type="2" x="-400" y="-60" speed="4" />
+	<fish id="96010" type="2" x="-400" y="-40" speed="4" />	
+	<fish id="96011" type="2" x="-400" y="-20" speed="4" />
+	<fish id="96012" type="2" x="-360" y="-20" speed="4" />
+	<fish id="96013" type="2" x="-360" y="20" speed="4" />
+	<fish id="96014" type="2" x="-360" y="-60" speed="4" />
+	<fish id="96015" type="2" x="-360" y="60" speed="4" />
+	<fish id="96016" type="2" x="-360" y="0" speed="4" />
+  </group>
+ 
+ 
+ 
+   <group gid="97" name="整齐大鱼群" path="1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-1110,245|-1510,245">
+    <fish id="97001" type="2" x="330" y="0" speed="4" />
+    <fish id="97002" type="2" x="330" y="20" speed="4" />
+	<fish id="97003" type="2" x="330" y="40" speed="4" />
+	<fish id="97004" type="2" x="330" y="60" speed="4" />
+	<fish id="97005" type="2" x="330" y="80" speed="4" />
+	<fish id="97006" type="2" x="330" y="100" speed="4" />
+	<fish id="97007" type="2" x="400" y="-100" speed="4" />
+	<fish id="97008" type="2" x="400" y="-80" speed="4" />
+	<fish id="97009" type="2" x="400" y="-60" speed="4" />
+	<fish id="97010" type="2" x="400" y="-40" speed="4" />	
+	<fish id="97011" type="2" x="400" y="-20" speed="4" />
+	<fish id="97012" type="2" x="360" y="-20" speed="4" />
+	<fish id="97013" type="2" x="360" y="20" speed="4" />
+	<fish id="97014" type="2" x="360" y="-60" speed="4" />
+	<fish id="97015" type="2" x="360" y="60" speed="4" />
+	<fish id="97016" type="2" x="360" y="0" speed="4" />
+		  </group>  
+		  
+  <group gid="98" name="整齐大鱼群2人版" path="-50,245|57,245|107,245|157,245|207,245|257,245|307,245|357,245|400,245|457,245|507,245|557,245|607,245|657,245|707,245|757,245|807,245|857,245|907,245|1111,245|2511,245">
+    <fish id="98001" type="3" x="-300" y="0" speed="4" />
+    <fish id="98002" type="3" x="-300" y="20" speed="4" />
+	<fish id="98003" type="3" x="-300" y="40" speed="4" />
+	<fish id="98004" type="3" x="-300" y="60" speed="4" />
+	<fish id="98005" type="3" x="-300" y="80" speed="4" />
+	<fish id="98006" type="3" x="-300" y="100" speed="4" />
+	<fish id="98007" type="3" x="-370" y="-100" speed="4" />
+	<fish id="98008" type="3" x="-370" y="-80" speed="4" />
+	<fish id="98009" type="3" x="-370" y="-60" speed="4" />
+	<fish id="98010" type="3" x="-370" y="-40" speed="4" />	
+	<fish id="98011" type="3" x="-370" y="-20" speed="4" />
+	<fish id="98012" type="3" x="-450" y="-20" speed="4" />
+	<fish id="98013" type="3" x="-450" y="20" speed="4" />
+	<fish id="98014" type="3" x="-450" y="-60" speed="4" />
+	<fish id="98015" type="3" x="-450" y="60" speed="4" />
+	<fish id="98016" type="3" x="-450" y="0" speed="4" />
+  </group>
+ 
+ 
+ 
+   <group gid="99" name="整齐大鱼群" path="1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-1110,245|-1510,245">
+    <fish id="99001" type="3" x="300" y="0" speed="4" />
+    <fish id="99002" type="3" x="300" y="20" speed="4" />
+	<fish id="99003" type="3" x="300" y="40" speed="4" />
+	<fish id="99004" type="3" x="300" y="60" speed="4" />
+	<fish id="99005" type="3" x="300" y="80" speed="4" />
+	<fish id="99006" type="3" x="300" y="100" speed="4" />
+	<fish id="99007" type="3" x="370" y="-100" speed="4" />
+	<fish id="99008" type="3" x="370" y="-80" speed="4" />
+	<fish id="99009" type="3" x="370" y="-60" speed="4" />
+	<fish id="99010" type="3" x="370" y="-40" speed="4" />	
+	<fish id="99011" type="3" x="370" y="-20" speed="4" />
+	<fish id="99012" type="3" x="450" y="-20" speed="4" />
+	<fish id="99013" type="3" x="450" y="20" speed="4" />
+	<fish id="99014" type="3" x="450" y="-60" speed="4" />
+	<fish id="99015" type="3" x="450" y="60" speed="4" />
+	<fish id="99016" type="3" x="450" y="0" speed="4" />
+		  </group> 		  
+
+  <group gid="100" name="整齐大鱼群2人版" path="-50,245|57,245|107,245|157,245|207,245|257,245|307,245|357,245|400,245|457,245|507,245|557,245|607,245|657,245|707,245|757,245|807,245|857,245|907,245|1111,245|2511,245">
+    <fish id="100001" type="3" x="0" y="0" speed="4" />
+    <fish id="100002" type="3" x="-30" y="0" speed="4" />
+	<fish id="100003" type="3" x="-60" y="0" speed="4" />
+	<fish id="100004" type="3" x="-90" y="0" speed="4" />
+	<fish id="100005" type="3" x="-120" y="0" speed="4" />
+	<fish id="100006" type="3" x="0" y="-30" speed="4" />
+	<fish id="100007" type="3" x="-30" y="-30" speed="4" />
+	<fish id="100008" type="3" x="-60" y="-30" speed="4" />
+	<fish id="100009" type="3" x="-90" y="-30" speed="4" />
+	<fish id="100010" type="3" x="-120" y="-30" speed="4" />	
+	<fish id="100011" type="3" x="0" y="30" speed="4" />
+	<fish id="100012" type="3" x="-30" y="30" speed="4" />
+	<fish id="100013" type="3" x="-60" y="30" speed="4" />
+	<fish id="100014" type="3" x="-90" y="30" speed="4" />
+	<fish id="100015" type="3" x="-120" y="30" speed="4" />
+  </group>		  
+		  
+		  
+   <group gid="101" name="整齐大鱼群" path="1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-1110,245|-1510,245">
+    <fish id="101001" type="3" x="0" y="0" speed="4" />
+    <fish id="101002" type="3" x="30" y="0" speed="4" />
+	<fish id="101003" type="3" x="60" y="0" speed="4" />
+	<fish id="101004" type="3" x="90" y="0" speed="4" />
+	<fish id="101005" type="3" x="120" y="0" speed="4" />
+	<fish id="101006" type="3" x="0" y="-30" speed="4" />
+	<fish id="101007" type="3" x="30" y="-30" speed="4" />
+	<fish id="101008" type="3" x="60" y="-30" speed="4" />
+	<fish id="101009" type="3" x="90" y="-30" speed="4" />
+	<fish id="101010" type="3" x="120" y="-30" speed="4" />	
+	<fish id="101011" type="3" x="0" y="30" speed="4" />
+	<fish id="101012" type="3" x="30" y="30" speed="4" />
+	<fish id="101013" type="3" x="60" y="30" speed="4" />
+	<fish id="101014" type="3" x="90" y="30" speed="4" />
+	<fish id="101015" type="3" x="120" y="30" speed="4" />
+		  </group> 	-->
+
+
+
+		  
+		  
+		  
+
+   <group gid="1" name="1号鱼1" path="-50,245|50,245|250,245|450,245|485,300|485,500|485,700">
+    <fish id="1001" type="1" x="0" y="20" speed="4" />
+    <fish id="1002" type="1" x="0" y="-20" speed="4" />
+	<fish id="1003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="1004" type="1" x="-20" y="0" speed="4" />
+	<fish id="1005" type="1" x="-20" y="30" speed="4" />
+	<fish id="1006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="1007" type="1" x="-40" y="0" speed="4" />
+	<fish id="1008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+ 
+   <group gid="2" name="1号鱼2" path="1100,245|950,245|750,245|550,245|485,200|485,100|485,-100">
+    <fish id="2001" type="1" x="0" y="20" speed="4" />
+    <fish id="2002" type="1" x="0" y="-20" speed="4" />
+	<fish id="2003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="2004" type="1" x="-20" y="0" speed="4" />
+	<fish id="2005" type="1" x="-20" y="30" speed="4" />
+	<fish id="2006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="2007" type="1" x="-40" y="0" speed="4" />
+	<fish id="2008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+
+
+   <group gid="3" name="1号鱼3" path="-50,245|50,245|250,245|450,245|485,180|485,50|485,-100">
+    <fish id="3001" type="1" x="0" y="20" speed="4" />
+    <fish id="3002" type="1" x="0" y="-20" speed="4" />
+	<fish id="3003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="3004" type="1" x="-20" y="0" speed="4" />
+	<fish id="3005" type="1" x="-20" y="30" speed="4" />
+	<fish id="3006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="3007" type="1" x="-40" y="0" speed="4" />
+	<fish id="3008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="4" name="1号鱼4" path="1100,245|950,245|750,245|550,245|485,300|485,500|485,700">
+    <fish id="4001" type="1" x="0" y="20" speed="4" />
+    <fish id="4002" type="1" x="0" y="-20" speed="4" />
+	<fish id="4003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="4004" type="1" x="-20" y="0" speed="4" />
+	<fish id="4005" type="1" x="-20" y="30" speed="4" />
+	<fish id="4006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="4007" type="1" x="-40" y="0" speed="4" />
+	<fish id="4008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+ 
+    <group gid="5" name="1号鱼5" path="-50,245|50,245|250,245|450,245|650,245|850,245|1150,245">
+    <fish id="5001" type="1" x="0" y="20" speed="4" />
+    <fish id="5002" type="1" x="0" y="-20" speed="4" />
+	<fish id="5003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="5004" type="1" x="-20" y="20" speed="4" />
+	<fish id="5005" type="1" x="-40" y="20" speed="4" />
+	<fish id="5006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="5007" type="1" x="-60" y="20" speed="4" />
+	<fish id="5008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="6" name="1号鱼6" path="1100,245|950,245|750,245|550,245|350,245|150,245|-150,245">
+    <fish id="6001" type="1" x="0" y="20" speed="4" />
+    <fish id="6002" type="1" x="0" y="-20" speed="4" />
+	<fish id="6003" type="1" x="20" y="-20" speed="4" />
+	<fish id="6004" type="1" x="20" y="20" speed="4" />
+	<fish id="6005" type="1" x="40" y="20" speed="4" />
+	<fish id="6006" type="1" x="40" y="-20" speed="4" />
+	<fish id="6007" type="1" x="60" y="20" speed="4" />
+	<fish id="6008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	
+ 
+    <group gid="7" name="1号鱼7" path="-50,-50|90,180|160,320|320,380|510,390|670,410|1150,550">
+    <fish id="7001" type="1" x="0" y="20" speed="4" />
+    <fish id="7002" type="1" x="0" y="-20" speed="4" />
+	<fish id="7003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="7004" type="1" x="-20" y="20" speed="4" />
+	<fish id="7005" type="1" x="-40" y="20" speed="4" />
+	<fish id="7006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="7007" type="1" x="-60" y="20" speed="4" />
+	<fish id="7008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="8" name="1号鱼8" path="1100,-50|800,180|690,320|460,380|290,390|60,410|-150,550">
+    <fish id="8001" type="1" x="0" y="20" speed="4" />
+    <fish id="8002" type="1" x="0" y="-20" speed="4" />
+	<fish id="8003" type="1" x="20" y="-20" speed="4" />
+	<fish id="8004" type="1" x="20" y="20" speed="4" />
+	<fish id="8005" type="1" x="40" y="20" speed="4" />
+	<fish id="8006" type="1" x="40" y="-20" speed="4" />
+	<fish id="8007" type="1" x="60" y="20" speed="4" />
+	<fish id="8008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+ 
+    <group gid="9" name="1号鱼9" path="450,-50|440,160|460,250|420,300|260,330|110,370|50,550">
+    <fish id="9001" type="1" x="20" y="0" speed="4" />
+    <fish id="9002" type="1" x="-20" y="0" speed="4" />
+	<fish id="9003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="9004" type="1" x="20" y="-20" speed="4" />
+	<fish id="9005" type="1" x="20" y="-40" speed="4" />
+	<fish id="9006" type="1" x="-20" y="40" speed="4" />
+	<fish id="9007" type="1" x="20" y="60" speed="4" />
+	<fish id="9008" type="1" x="-20" y="-60" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="10" name="1号鱼10" path="450,-50|440,160|460,250|580,300|680,330|850,370|950,550">
+    <fish id="10001" type="1" x="0" y="20" speed="4" />
+    <fish id="10002" type="1" x="0" y="-20" speed="4" />
+	<fish id="10003" type="1" x="20" y="-20" speed="4" />
+	<fish id="10004" type="1" x="20" y="20" speed="4" />
+	<fish id="10005" type="1" x="40" y="20" speed="4" />
+	<fish id="10006" type="1" x="40" y="-20" speed="4" />
+	<fish id="10007" type="1" x="60" y="20" speed="4" />
+	<fish id="10008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+ 
+ 
+   <group gid="11" name="1号鱼1" path="-50,245|50,245|250,245|450,245|485,300|485,500|485,700">
+    <fish id="11001" type="1" x="0" y="20" speed="4" />
+    <fish id="11002" type="1" x="0" y="-20" speed="4" />
+	<fish id="11003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="11004" type="1" x="-20" y="0" speed="4" />
+	<fish id="11005" type="1" x="-20" y="30" speed="4" />
+	<fish id="11006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="11007" type="1" x="-40" y="0" speed="4" />
+	<fish id="11008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+ 
+   <group gid="12" name="1号鱼2" path="1100,245|950,245|750,245|550,245|485,200|485,100|485,-100">
+    <fish id="12001" type="1" x="0" y="20" speed="4" />
+    <fish id="12002" type="1" x="0" y="-20" speed="4" />
+	<fish id="12003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="12004" type="1" x="-20" y="0" speed="4" />
+	<fish id="12005" type="1" x="-20" y="30" speed="4" />
+	<fish id="12006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="12007" type="1" x="-40" y="0" speed="4" />
+	<fish id="12008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+
+
+   <group gid="13" name="1号鱼3" path="-50,245|50,245|250,245|450,245|485,180|485,50|485,-100">
+    <fish id="13001" type="1" x="0" y="20" speed="4" />
+    <fish id="13002" type="1" x="0" y="-20" speed="4" />
+	<fish id="13003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="13004" type="1" x="-20" y="0" speed="4" />
+	<fish id="13005" type="1" x="-20" y="30" speed="4" />
+	<fish id="13006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="13007" type="1" x="-40" y="0" speed="4" />
+	<fish id="13008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="14" name="1号鱼4" path="1100,245|950,245|750,245|550,245|485,300|485,500|485,700">
+    <fish id="14001" type="1" x="0" y="20" speed="4" />
+    <fish id="14002" type="1" x="0" y="-20" speed="4" />
+	<fish id="14003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="14004" type="1" x="-20" y="0" speed="4" />
+	<fish id="14005" type="1" x="-20" y="30" speed="4" />
+	<fish id="14006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="14007" type="1" x="-40" y="0" speed="4" />
+	<fish id="14008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+ 
+    <group gid="15" name="1号鱼5" path="-50,245|50,245|250,245|450,245|650,245|850,245|1150,245">
+    <fish id="15001" type="1" x="0" y="20" speed="4" />
+    <fish id="15002" type="1" x="0" y="-20" speed="4" />
+	<fish id="15003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="15004" type="1" x="-20" y="20" speed="4" />
+	<fish id="15005" type="1" x="-40" y="20" speed="4" />
+	<fish id="15006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="15007" type="1" x="-60" y="20" speed="4" />
+	<fish id="15008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="16" name="1号鱼6" path="1100,245|950,245|750,245|550,245|350,245|150,245|-150,245">
+    <fish id="16001" type="1" x="0" y="20" speed="4" />
+    <fish id="16002" type="1" x="0" y="-20" speed="4" />
+	<fish id="16003" type="1" x="20" y="-20" speed="4" />
+	<fish id="16004" type="1" x="20" y="20" speed="4" />
+	<fish id="16005" type="1" x="40" y="20" speed="4" />
+	<fish id="16006" type="1" x="40" y="-20" speed="4" />
+	<fish id="16007" type="1" x="60" y="20" speed="4" />
+	<fish id="16008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	
+ 
+    <group gid="17" name="1号鱼7" path="-50,-50|90,180|160,320|320,380|510,390|670,410|1150,550">
+    <fish id="17001" type="1" x="0" y="20" speed="4" />
+    <fish id="17002" type="1" x="0" y="-20" speed="4" />
+	<fish id="17003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="17004" type="1" x="-20" y="20" speed="4" />
+	<fish id="17005" type="1" x="-40" y="20" speed="4" />
+	<fish id="17006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="17007" type="1" x="-60" y="20" speed="4" />
+	<fish id="17008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="18" name="1号鱼8" path="1100,-50|800,180|690,320|460,380|290,390|60,410|-150,550">
+    <fish id="18001" type="1" x="0" y="20" speed="4" />
+    <fish id="18002" type="1" x="0" y="-20" speed="4" />
+	<fish id="18003" type="1" x="20" y="-20" speed="4" />
+	<fish id="18004" type="1" x="20" y="20" speed="4" />
+	<fish id="18005" type="1" x="40" y="20" speed="4" />
+	<fish id="18006" type="1" x="40" y="-20" speed="4" />
+	<fish id="18007" type="1" x="60" y="20" speed="4" />
+	<fish id="18008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+ 
+    <group gid="19" name="1号鱼9" path="450,-50|440,160|460,250|420,300|260,330|110,370|50,550">
+    <fish id="19001" type="1" x="20" y="0" speed="4" />
+    <fish id="19002" type="1" x="-20" y="0" speed="4" />
+	<fish id="19003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="19004" type="1" x="20" y="-20" speed="4" />
+	<fish id="19005" type="1" x="20" y="-40" speed="4" />
+	<fish id="19006" type="1" x="-20" y="40" speed="4" />
+	<fish id="19007" type="1" x="20" y="60" speed="4" />
+	<fish id="19008" type="1" x="-20" y="-60" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="20" name="1号鱼10" path="450,-50|440,160|460,250|580,300|680,330|850,370|950,550">
+    <fish id="20001" type="1" x="0" y="20" speed="4" />
+    <fish id="20002" type="1" x="0" y="-20" speed="4" />
+	<fish id="20003" type="1" x="20" y="-20" speed="4" />
+	<fish id="20004" type="1" x="20" y="20" speed="4" />
+	<fish id="20005" type="1" x="40" y="20" speed="4" />
+	<fish id="20006" type="1" x="40" y="-20" speed="4" />
+	<fish id="20007" type="1" x="60" y="20" speed="4" />
+	<fish id="20008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+
+
+
+   <group gid="21" name="1号鱼1" path="-50,245|50,245|250,245|450,245|485,300|485,500|485,700">
+    <fish id="21001" type="1" x="0" y="20" speed="4" />
+    <fish id="21002" type="1" x="0" y="-20" speed="4" />
+	<fish id="21003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="21004" type="1" x="-20" y="0" speed="4" />
+	<fish id="21005" type="1" x="-20" y="30" speed="4" />
+	<fish id="21006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="21007" type="1" x="-40" y="0" speed="4" />
+	<fish id="21008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+ 
+   <group gid="22" name="1号鱼2" path="1100,245|950,245|750,245|550,245|485,200|485,100|485,-100">
+    <fish id="22001" type="1" x="0" y="20" speed="4" />
+    <fish id="22002" type="1" x="0" y="-20" speed="4" />
+	<fish id="22003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="22004" type="1" x="-20" y="0" speed="4" />
+	<fish id="22005" type="1" x="-20" y="30" speed="4" />
+	<fish id="22006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="22007" type="1" x="-40" y="0" speed="4" />
+	<fish id="22008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+
+
+   <group gid="23" name="1号鱼3" path="-50,245|50,245|250,245|450,245|485,180|485,50|485,-100">
+    <fish id="23001" type="1" x="0" y="20" speed="4" />
+    <fish id="23002" type="1" x="0" y="-20" speed="4" />
+	<fish id="23003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="23004" type="1" x="-20" y="0" speed="4" />
+	<fish id="23005" type="1" x="-20" y="30" speed="4" />
+	<fish id="23006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="23007" type="1" x="-40" y="0" speed="4" />
+	<fish id="23008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="24" name="1号鱼4" path="1100,245|950,245|750,245|550,245|485,300|485,500|485,700">
+    <fish id="24001" type="1" x="0" y="20" speed="4" />
+    <fish id="24002" type="1" x="0" y="-20" speed="4" />
+	<fish id="24003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="24004" type="1" x="-20" y="0" speed="4" />
+	<fish id="24005" type="1" x="-20" y="30" speed="4" />
+	<fish id="24006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="24007" type="1" x="-40" y="0" speed="4" />
+	<fish id="24008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+ 
+    <group gid="25" name="1号鱼5" path="-50,245|50,245|250,245|450,245|650,245|850,245|1150,245">
+    <fish id="25001" type="1" x="0" y="20" speed="4" />
+    <fish id="25002" type="1" x="0" y="-20" speed="4" />
+	<fish id="25003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="25004" type="1" x="-20" y="20" speed="4" />
+	<fish id="25005" type="1" x="-40" y="20" speed="4" />
+	<fish id="25006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="25007" type="1" x="-60" y="20" speed="4" />
+	<fish id="25008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="26" name="1号鱼6" path="1100,245|950,245|750,245|550,245|350,245|150,245|-150,245">
+    <fish id="26001" type="1" x="0" y="20" speed="4" />
+    <fish id="26002" type="1" x="0" y="-20" speed="4" />
+	<fish id="26003" type="1" x="20" y="-20" speed="4" />
+	<fish id="26004" type="1" x="20" y="20" speed="4" />
+	<fish id="26005" type="1" x="40" y="20" speed="4" />
+	<fish id="26006" type="1" x="40" y="-20" speed="4" />
+	<fish id="26007" type="1" x="60" y="20" speed="4" />
+	<fish id="26008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	
+ 
+    <group gid="27" name="1号鱼7" path="-50,-50|90,180|160,320|320,380|510,390|670,410|1150,550">
+    <fish id="27001" type="1" x="0" y="20" speed="4" />
+    <fish id="27002" type="1" x="0" y="-20" speed="4" />
+	<fish id="27003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="27004" type="1" x="-20" y="20" speed="4" />
+	<fish id="27005" type="1" x="-40" y="20" speed="4" />
+	<fish id="27006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="27007" type="1" x="-60" y="20" speed="4" />
+	<fish id="27008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="28" name="1号鱼8" path="1100,-50|800,180|690,320|460,380|290,390|60,410|-150,550">
+    <fish id="28001" type="1" x="0" y="20" speed="4" />
+    <fish id="28002" type="1" x="0" y="-20" speed="4" />
+	<fish id="28003" type="1" x="20" y="-20" speed="4" />
+	<fish id="28004" type="1" x="20" y="20" speed="4" />
+	<fish id="28005" type="1" x="40" y="20" speed="4" />
+	<fish id="28006" type="1" x="40" y="-20" speed="4" />
+	<fish id="28007" type="1" x="60" y="20" speed="4" />
+	<fish id="28008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+ 
+    <group gid="29" name="1号鱼9" path="450,-50|440,160|460,250|420,300|260,330|110,370|50,550">
+    <fish id="29001" type="1" x="20" y="0" speed="4" />
+    <fish id="29002" type="1" x="-20" y="0" speed="4" />
+	<fish id="29003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="29004" type="1" x="20" y="-20" speed="4" />
+	<fish id="29005" type="1" x="20" y="-40" speed="4" />
+	<fish id="29006" type="1" x="-20" y="40" speed="4" />
+	<fish id="29007" type="1" x="20" y="60" speed="4" />
+	<fish id="29008" type="1" x="-20" y="-60" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="30" name="1号鱼10" path="450,-50|440,160|460,250|580,300|680,330|850,370|950,550">
+    <fish id="30001" type="1" x="0" y="20" speed="4" />
+    <fish id="30002" type="1" x="0" y="-20" speed="4" />
+	<fish id="30003" type="1" x="20" y="-20" speed="4" />
+	<fish id="30004" type="1" x="20" y="20" speed="4" />
+	<fish id="30005" type="1" x="40" y="20" speed="4" />
+	<fish id="30006" type="1" x="40" y="-20" speed="4" />
+	<fish id="30007" type="1" x="60" y="20" speed="4" />
+	<fish id="30008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+
+
+
+   <group gid="31" name="1号鱼1" path="-50,245|50,245|250,245|450,245|485,300|485,500|485,700">
+    <fish id="31001" type="1" x="0" y="20" speed="4" />
+    <fish id="31002" type="1" x="0" y="-20" speed="4" />
+	<fish id="31003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="31004" type="1" x="-20" y="0" speed="4" />
+	<fish id="31005" type="1" x="-20" y="30" speed="4" />
+	<fish id="31006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="31007" type="1" x="-40" y="0" speed="4" />
+	<fish id="31008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+ 
+   <group gid="32" name="1号鱼2" path="1100,245|950,245|750,245|550,245|485,200|485,100|485,-100">
+    <fish id="32001" type="1" x="0" y="20" speed="4" />
+    <fish id="32002" type="1" x="0" y="-20" speed="4" />
+	<fish id="32003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="32004" type="1" x="-20" y="0" speed="4" />
+	<fish id="32005" type="1" x="-20" y="30" speed="4" />
+	<fish id="32006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="32007" type="1" x="-40" y="0" speed="4" />
+	<fish id="32008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+
+
+   <group gid="33" name="1号鱼3" path="-50,245|50,245|250,245|450,245|485,180|485,50|485,-100">
+    <fish id="33001" type="1" x="0" y="20" speed="4" />
+    <fish id="33002" type="1" x="0" y="-20" speed="4" />
+	<fish id="33003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="33004" type="1" x="-20" y="0" speed="4" />
+	<fish id="33005" type="1" x="-20" y="30" speed="4" />
+	<fish id="33006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="33007" type="1" x="-40" y="0" speed="4" />
+	<fish id="33008" type="1" x="-40" y="30" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="34" name="1号鱼4" path="1100,245|950,245|750,245|550,245|485,300|485,500|485,700">
+    <fish id="34001" type="1" x="0" y="20" speed="4" />
+    <fish id="34002" type="1" x="0" y="-20" speed="4" />
+	<fish id="34003" type="1" x="-20" y="-30" speed="4" />
+	<fish id="34004" type="1" x="-20" y="0" speed="4" />
+	<fish id="34005" type="1" x="-20" y="30" speed="4" />
+	<fish id="34006" type="1" x="-40" y="-30" speed="4" />
+	<fish id="34007" type="1" x="-40" y="0" speed="4" />
+	<fish id="34008" type="1" x="-40" y="30" speed="4" />
+		  </group> 	
+ 
+    <group gid="35" name="1号鱼5" path="-50,245|50,245|250,245|450,245|650,245|850,245|1150,245">
+    <fish id="35001" type="1" x="0" y="20" speed="4" />
+    <fish id="35002" type="1" x="0" y="-20" speed="4" />
+	<fish id="35003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="35004" type="1" x="-20" y="20" speed="4" />
+	<fish id="35005" type="1" x="-40" y="20" speed="4" />
+	<fish id="35006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="35007" type="1" x="-60" y="20" speed="4" />
+	<fish id="35008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="36" name="1号鱼6" path="1100,245|950,245|750,245|550,245|350,245|150,245|-150,245">
+    <fish id="36001" type="1" x="0" y="20" speed="4" />
+    <fish id="36002" type="1" x="0" y="-20" speed="4" />
+	<fish id="36003" type="1" x="20" y="-20" speed="4" />
+	<fish id="36004" type="1" x="20" y="20" speed="4" />
+	<fish id="36005" type="1" x="40" y="20" speed="4" />
+	<fish id="36006" type="1" x="40" y="-20" speed="4" />
+	<fish id="36007" type="1" x="60" y="20" speed="4" />
+	<fish id="36008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	
+ 
+    <group gid="37" name="1号鱼7" path="-50,-50|90,180|160,320|320,380|510,390|670,410|1150,550">
+    <fish id="37001" type="1" x="0" y="20" speed="4" />
+    <fish id="37002" type="1" x="0" y="-20" speed="4" />
+	<fish id="37003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="37004" type="1" x="-20" y="20" speed="4" />
+	<fish id="37005" type="1" x="-40" y="20" speed="4" />
+	<fish id="37006" type="1" x="-40" y="-20" speed="4" />
+	<fish id="37007" type="1" x="-60" y="20" speed="4" />
+	<fish id="37008" type="1" x="-60" y="-20" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="38" name="1号鱼8" path="1100,-50|800,180|690,320|460,380|290,390|60,410|-150,550">
+    <fish id="38001" type="1" x="0" y="20" speed="4" />
+    <fish id="38002" type="1" x="0" y="-20" speed="4" />
+	<fish id="38003" type="1" x="20" y="-20" speed="4" />
+	<fish id="38004" type="1" x="20" y="20" speed="4" />
+	<fish id="38005" type="1" x="40" y="20" speed="4" />
+	<fish id="38006" type="1" x="40" y="-20" speed="4" />
+	<fish id="38007" type="1" x="60" y="20" speed="4" />
+	<fish id="38008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 
+ 
+    <group gid="39" name="1号鱼9" path="450,-50|440,160|460,250|420,300|260,330|110,370|50,550">
+    <fish id="39001" type="1" x="20" y="0" speed="4" />
+    <fish id="39002" type="1" x="-20" y="0" speed="4" />
+	<fish id="39003" type="1" x="-20" y="-20" speed="4" />
+	<fish id="39004" type="1" x="20" y="-20" speed="4" />
+	<fish id="39005" type="1" x="20" y="-40" speed="4" />
+	<fish id="39006" type="1" x="-20" y="40" speed="4" />
+	<fish id="39007" type="1" x="20" y="60" speed="4" />
+	<fish id="39008" type="1" x="-20" y="-60" speed="4" />
+
+		  </group> 	
+		  
+   <group gid="40" name="1号鱼10" path="450,-50|440,160|460,250|580,300|680,330|850,370|950,550">
+    <fish id="40001" type="1" x="0" y="20" speed="4" />
+    <fish id="40002" type="1" x="0" y="-20" speed="4" />
+	<fish id="40003" type="1" x="20" y="-20" speed="4" />
+	<fish id="40004" type="1" x="20" y="20" speed="4" />
+	<fish id="40005" type="1" x="40" y="20" speed="4" />
+	<fish id="40006" type="1" x="40" y="-20" speed="4" />
+	<fish id="40007" type="1" x="60" y="20" speed="4" />
+	<fish id="40008" type="1" x="60" y="-20" speed="4" />
+		  </group> 	 		  
+ 
+<!--2号鱼 -->		  
+   <group gid="41" name="2号鱼1" path="-100,430|150,370|320,220|370,170|530,110|630,100|750,130|800,220|750,320|570,390|420,360|350,250|320,220|230,140|-130,130">
+    <fish id="41001" type="2" x="0" y="40" speed="3" />
+    <fish id="41002" type="2" x="0" y="-40" speed="3" />
+	<fish id="41003" type="2" x="30" y="-40" speed="3" />
+	<fish id="41004" type="2" x="30" y="40" speed="3" />
+		  </group> 	 
+ 
+		  
+   <group gid="42" name="2号鱼2" path="-100,430|150,370|320,220|370,170|530,110|630,100|750,130|800,220|750,320|570,390|420,360|350,250|320,220|230,140|-130,130">
+    <fish id="42001" type="2" x="0" y="40" speed="3" />
+    <fish id="42002" type="2" x="0" y="-40" speed="3" />
+	<fish id="42003" type="2" x="30" y="-40" speed="3" />
+	<fish id="42004" type="2" x="30" y="40" speed="3" />
+		  </group> 	 
+ 
+		  
+   <group gid="43" name="2号鱼3" path="-100,430|150,370|320,220|370,170|530,110|630,100|750,130|800,220|750,320|570,390|420,360|350,250|320,220|230,140|-130,130">
+    <fish id="43001" type="2" x="0" y="40" speed="3" />
+    <fish id="43002" type="2" x="0" y="-40" speed="3" />
+	<fish id="43003" type="2" x="30" y="-40" speed="3" />
+	<fish id="43004" type="2" x="30" y="40" speed="3" />
+		  </group> 	 
+ 
+		  
+   <group gid="44" name="2号鱼4" path="-100,430|150,370|320,220|370,170|530,110|630,100|750,130|800,220|750,320|570,390|420,360|350,250|320,220|230,140|-130,130">
+    <fish id="44001" type="2" x="0" y="40" speed="3" />
+    <fish id="44002" type="2" x="0" y="-40" speed="3" />
+	<fish id="44003" type="2" x="30" y="-40" speed="3" />
+	<fish id="44004" type="2" x="30" y="40" speed="3" />
+		  </group> 	 
+  		  
+   <group gid="45" name="2号鱼5" path="-100,430|150,370|320,220|370,170|530,110|630,100|750,130|800,220|750,320|570,390|420,360|350,250|320,220|230,140|-130,130">
+    <fish id="45001" type="2" x="0" y="40" speed="3" />
+    <fish id="45002" type="2" x="0" y="-40" speed="3" />
+	<fish id="45003" type="2" x="30" y="-40" speed="3" />
+	<fish id="45004" type="2" x="30" y="40" speed="3" />
+		  </group> 	  
+ 
+ 		  
+   <group gid="46" name="2号鱼6" path="1000,70|860,110|620,260|470,320|270,370|110,320|60,200|170,110|300,110|460,200|620,260|800,380|1000,450">
+    <fish id="46001" type="2" x="0" y="40" speed="3" />
+    <fish id="46002" type="2" x="0" y="-40" speed="3" />
+	<fish id="46003" type="2" x="30" y="-40" speed="3" />
+	<fish id="46004" type="2" x="30" y="40" speed="3" />
+		  </group> 	  
+		  
+ 		  
+   <group gid="47" name="2号鱼7" path="1000,70|860,110|620,260|470,320|270,370|110,320|60,200|170,110|300,110|460,200|620,260|800,380|1000,450">
+    <fish id="47001" type="2" x="0" y="40" speed="3" />
+    <fish id="47002" type="2" x="0" y="-40" speed="3" />
+	<fish id="47003" type="2" x="30" y="-40" speed="3" />
+	<fish id="47004" type="2" x="30" y="40" speed="3" />
+		  </group> 	  
+
+ 		  
+   <group gid="48" name="2号鱼8" path="1000,70|860,110|620,260|470,320|270,370|110,320|60,200|170,110|300,110|460,200|620,260|800,380|1000,450">
+    <fish id="48001" type="2" x="0" y="40" speed="3" />
+    <fish id="48002" type="2" x="0" y="-40" speed="3" />
+	<fish id="48003" type="2" x="30" y="-40" speed="3" />
+	<fish id="48004" type="2" x="30" y="40" speed="3" />
+		  </group> 	  
+
+ 		  
+   <group gid="49" name="2号鱼9" path="1000,70|860,110|620,260|470,320|270,370|110,320|60,200|170,110|300,110|460,200|620,260|800,380|1000,450">
+    <fish id="49001" type="2" x="0" y="40" speed="3" />
+    <fish id="49002" type="2" x="0" y="-40" speed="3" />
+	<fish id="49003" type="2" x="30" y="-40" speed="3" />
+	<fish id="49004" type="2" x="30" y="40" speed="3" />
+		  </group> 	  
+
+ 		  
+   <group gid="50" name="2号鱼10" path="1000,70|860,110|620,260|470,320|270,370|110,320|60,200|170,110|300,110|460,200|620,260|800,380|1000,450">
+    <fish id="50001" type="2" x="0" y="40" speed="3" />
+    <fish id="50002" type="2" x="0" y="-40" speed="3" />
+	<fish id="50003" type="2" x="30" y="-40" speed="3" />
+	<fish id="50004" type="2" x="30" y="40" speed="3" />
+		  </group> 	  		  
+
+<!--40秒 开始 2号鱼 5秒一波 游到 70秒 共7波 最后一波两个ID鱼一起出--> 		  
+   <group gid="51" name="2号鱼11" path="-100,370|50,370|170,360|320,350|470,270|600,210|870,120|1000,120">
+    <fish id="51001" type="2" x="0" y="0" speed="3" />
+    <fish id="51002" type="2" x="-30" y="30" speed="3" />
+	<fish id="51003" type="2" x="-30" y="-30" speed="3" />
+	<fish id="51004" type="2" x="-60" y="0" speed="3" />
+		  </group> 	  		  
+ 		  
+   <group gid="52" name="2号鱼12" path="-100,370|50,370|170,360|320,350|470,270|600,210|870,120|1000,120">
+    <fish id="52001" type="2" x="0" y="0" speed="3" />
+    <fish id="52002" type="2" x="-30" y="30" speed="3" />
+	<fish id="52003" type="2" x="-30" y="-30" speed="3" />
+	<fish id="52004" type="2" x="-60" y="0" speed="3" />
+		  </group> 	 
+ 		  
+   <group gid="53" name="2号鱼13" path="-100,370|50,370|170,360|320,350|470,270|600,210|870,120|1000,120">
+    <fish id="53001" type="2" x="0" y="0" speed="3" />
+    <fish id="53002" type="2" x="-30" y="30" speed="3" />
+	<fish id="53003" type="2" x="-30" y="-30" speed="3" />
+	<fish id="53004" type="2" x="-60" y="0" speed="3" />
+		  </group> 	 
+		  
+ 		  
+   <group gid="54" name="2号鱼14" path="1000,230|890,211|740,310|610,290|470,270|220,220|50,110|-100,0">
+    <fish id="54001" type="2" x="0" y="0" speed="3" />
+    <fish id="54002" type="2" x="30" y="30" speed="3" />
+	<fish id="54003" type="2" x="30" y="-30" speed="3" />
+	<fish id="54004" type="2" x="60" y="0" speed="3" />
+		  </group> 	 		  
+  		  
+   <group gid="55" name="2号鱼14" path="1000,230|890,211|740,310|610,290|470,270|220,220|50,110|-100,0">
+    <fish id="55001" type="2" x="0" y="0" speed="3" />
+    <fish id="55002" type="2" x="30" y="30" speed="3" />
+	<fish id="55003" type="2" x="30" y="-30" speed="3" />
+	<fish id="55004" type="2" x="60" y="0" speed="3" />
+		  </group> 	
+		  
+		   		  
+   <group gid="56" name="2号鱼14" path="1000,230|890,211|740,310|610,290|470,270|220,220|50,110|-100,0">
+    <fish id="56001" type="2" x="0" y="0" speed="3" />
+    <fish id="56002" type="2" x="30" y="30" speed="3" />
+	<fish id="56003" type="2" x="30" y="-30" speed="3" />
+	<fish id="56004" type="2" x="60" y="0" speed="3" />
+		  </group> 	
+		   		  
+   <group gid="57" name="2号鱼14" path="-100,320|100,320|300,320|500,320|700,320|900,320|1000,320|1100,320">
+    <fish id="57001" type="2" x="30" y="0" speed="3" />
+    <fish id="57002" type="2" x="30" y="30" speed="3" />
+	<fish id="57003" type="2" x="30" y="-30" speed="3" />
+		  </group> 	
+ 		   		  
+   <group gid="58" name="2号鱼14" path="1100,120|1000,120|900,120|700,120|500,120|300,120|100,120|-100,120">
+    <fish id="58001" type="2" x="30" y="0" speed="3" />
+    <fish id="58002" type="2" x="30" y="30" speed="3" />
+	<fish id="58003" type="2" x="30" y="-30" speed="3" />
+		  </group> 	
+ 
+<!--3号鱼 15秒出一波 游20秒消失 共6波--> 
+  		   		  
+   <group gid="59" name="3号鱼1" path="380,550|360,350|120,270|90,210|130,110|300,90|430,100|600,100|770,140|850,220|800,350|560,420|500,550">
+    <fish id="59001" type="3" x="0" y="-40" speed="3" />
+    <fish id="59002" type="3" x="0" y="0" speed="3" />
+	<fish id="59003" type="3" x="0" y="40" speed="3" />
+		  </group> 	
+  		   		  
+   <group gid="60" name="3号鱼2" path="500,550|560,420|800,350|850,220|770,140|600,100|430,100|300,90|130,110|90,210|120,270|360,350|380,550">
+    <fish id="60001" type="3" x="0" y="-40" speed="3" />
+    <fish id="60002" type="3" x="0" y="0" speed="3" />
+	<fish id="60003" type="3" x="0" y="40" speed="3" />
+		  </group> 	
+   		   		  
+   <group gid="61" name="3号鱼3" path="400,-100|390,25|290,110|160,160|120,240|160,370|320,410|660,400|750,330|810,250|770,140|520,80|400,-110">
+    <fish id="61001" type="3" x="0" y="-40" speed="3" />
+    <fish id="61002" type="3" x="0" y="0" speed="3" />
+	<fish id="61003" type="3" x="0" y="40" speed="3" />
+		  </group> 	
+    		   		  
+   <group gid="62" name="3号鱼4" path="400,-100|520,80|770,140|810,250|750,330|660,400|320,410|160,370|120,240|160,160|290,110|390,25|400,-110">
+    <fish id="62001" type="3" x="0" y="-40" speed="3" />
+    <fish id="62002" type="3" x="0" y="0" speed="3" />
+	<fish id="62003" type="3" x="0" y="40" speed="3" />
+		  </group> 	  
+    		   		  
+   <group gid="63" name="3号鱼5" path="-100,120|30,120|250,130|450,130|750,170|800,270|770,350|500,370|200,400|0,420|-100,500">
+    <fish id="63001" type="3" x="0" y="-40" speed="3" />
+    <fish id="63002" type="3" x="0" y="0" speed="3" />
+	<fish id="63003" type="3" x="0" y="40" speed="3" />
+		  </group> 	  
+    		   		  
+   <group gid="64" name="3号鱼6" path="-100,500|0,420|200,400|500,370|770,350|800,270|750,170|450,130|250,130|30,120|-100,120">
+    <fish id="64001" type="3" x="0" y="-40" speed="3" />
+    <fish id="64002" type="3" x="0" y="0" speed="3" />
+	<fish id="64003" type="3" x="0" y="40" speed="3" />	
+		  </group>   
+ 
+ <!--4号鱼， 10秒一波 20秒游完，共9波-->
+    		   		  
+   <group gid="65" name="4号鱼1" path="500,-100|390,10|370,110|240,240|220,340|360,400|560,430|760,320|720,220|570,40|500,-100">
+    <fish id="65001" type="4" x="0" y="-40" speed="2" />
+	<fish id="65002" type="4" x="0" y="40" speed="2" />	
+		  </group>   
+    		   		  
+   <group gid="66" name="4号鱼2" path="500,-100|390,10|370,110|240,240|220,340|360,400|560,430|760,320|720,220|570,40|500,-100">
+    <fish id="66001" type="4" x="0" y="-40" speed="2" />
+	<fish id="66002" type="4" x="0" y="40" speed="2" />	
+		  </group>   
+    		   		  
+   <group gid="67" name="4号鱼3" path="500,-100|570,40|720,220|760,320|560,430|360,400|200,340|240,240|370,110|390,10|500,-100">
+    <fish id="67001" type="4" x="0" y="-40" speed="2" />
+	<fish id="67002" type="4" x="0" y="40" speed="2" />	
+		  </group>    
+     		   		  
+   <group gid="68" name="4号鱼4" path="500,-100|570,40|720,220|760,320|560,430|360,400|200,340|240,240|370,110|390,10|500,-100">
+    <fish id="68001" type="4" x="0" y="-40" speed="2" />
+	<fish id="68002" type="4" x="0" y="40" speed="2" />	
+		  </group>     
+      		   		  
+   <group gid="69" name="4号鱼5" path="-100,360|150,350|250,310|370,70|460,40|620,70|700,150|670,270|710,310|1100,450">
+    <fish id="69001" type="4" x="0" y="-40" speed="2" />
+	<fish id="69002" type="4" x="0" y="40" speed="2" />	
+		  </group>     
+      		   		  
+   <group gid="70" name="4号鱼6" path="1100,450|710,310|670,270|700,150|620,70|460,40|370,70|250,310|150,350|-100,360">
+    <fish id="70001" type="4" x="0" y="-40" speed="2" />
+	<fish id="70002" type="4" x="0" y="40" speed="2" />	
+		  </group>    		  
+      		   		  
+   <group gid="71" name="4号鱼7" path="960,50|870,70|670,150|630,220|560,310|510,360|310,320|170,310|110,170|-100,-100">
+    <fish id="71001" type="4" x="0" y="-40" speed="2" />
+	<fish id="71002" type="4" x="0" y="40" speed="2" />	
+		  </group>    		  
+      		   		  
+   <group gid="72" name="4号鱼8" path="-100,-100|111,170|170,310|310,320|510,360|560,310|630,220|670,150|870,70|960,50">
+    <fish id="72001" type="4" x="0" y="-40" speed="2" />
+	<fish id="72002" type="4" x="0" y="40" speed="2" />	
+		  </group>  
+      		   		  
+   <group gid="73" name="4号鱼9" path="-100,245|111,245|270,245|450,245|560,245|750,245|1000,245">
+    <fish id="73001" type="4" x="0" y="-40" speed="2" />
+	<fish id="73002" type="4" x="0" y="40" speed="2" />	
+		  </group>  		  
+ 
+ <!--5号鱼 20秒一波  游25秒 共5波-->
+      		   		  
+   <group gid="74" name="5号鱼1" path="-10,470|60,200|200,70|360,50|670,70|750,110|810,220|900,470">
+    <fish id="74001" type="5" x="0" y="-100" speed="2" />
+	<fish id="74002" type="5" x="0" y="100" speed="2" />	
+		  </group>  
+      		   		  
+   <group gid="75" name="5号鱼2" path="950,-100|870,170|770,270|730,350|450,370|150,310|70,140|0,-100">
+    <fish id="75001" type="5" x="0" y="-100" speed="2" />
+	<fish id="75002" type="5" x="0" y="100" speed="2" />	
+		  </group>  
+      		   		  
+   <group gid="76" name="5号鱼3" path="900,470|810,220|750,110|670,70|360,50|200,70|60,200|-10,470">
+    <fish id="76001" type="5" x="0" y="-100" speed="2" />
+	<fish id="76002" type="5" x="0" y="100" speed="2" />	
+		  </group> 		  
+       		   		  
+   <group gid="77" name="5号鱼4" path="0,-100|70,140|150,310|450,370|730,350|770,270|870,170|950,-100">
+    <fish id="77001" type="5" x="0" y="-100" speed="2" />
+	<fish id="77002" type="5" x="0" y="100" speed="2" />	
+		  </group> 		  
+       		   		  
+   <group gid="78" name="5号鱼5" path="1000,245|800,245|600,245|400,245|200,245|100,245|-100,245">
+    <fish id="78001" type="5" x="0" y="-100" speed="2" />
+	<fish id="78002" type="5" x="0" y="100" speed="2" />	
+		  </group> 	
+
+  <group gid="79" name="整齐大鱼群" path="-50,245|57,245|107,245|157,245|207,245|257,245|307,245|357,245|400,245|457,245|507,245|557,245|607,245|657,245|707,245|757,245|807,245|857,245|907,245|1111,245|2511,245">
+    <fish id="79001" type="5" x="0" y="0" speed="4"  />
+    <fish id="79002" type="5" x="-120" y="0" speed="4" />
+	<fish id="79003" type="4" x="-240" y="50" speed="4" />
+	<fish id="79004" type="4" x="-240" y="-50" speed="4" />
+	<fish id="79005" type="4" x="-330" y="80" speed="4" />
+	<fish id="79006" type="4" x="-330" y="-80" speed="4" />
+	<fish id="79007" type="4" x="-420" y="110" speed="4" />
+	<fish id="79008" type="4" x="-420" y="-110" speed="4" />
+	<fish id="79009" type="4" x="-510" y="140" speed="4" />
+	<fish id="79010" type="4" x="-510" y="-140" speed="4" />	
+	<fish id="79011" type="3" x="-240" y="140" speed="4" />
+	<fish id="79012" type="3" x="-240" y="-140" speed="4" />
+	<fish id="79013" type="3" x="-320" y="160" speed="4" />
+	<fish id="79014" type="3" x="-320" y="-160" speed="4" />
+	<fish id="79015" type="3" x="-390" y="180" speed="4" />
+	<fish id="79016" type="3" x="-390" y="-180" speed="4" />
+	<fish id="79017" type="3" x="-460" y="200" speed="4" />
+	<fish id="79018" type="3" x="-460" y="-200" speed="4" />	
+	<fish id="79019" type="3" x="-530" y="220" speed="4" />
+	<fish id="79020" type="3" x="-530" y="-220" speed="4" />	
+	<fish id="79021" type="2" x="-510" y="0" speed="4" />
+	<fish id="79022" type="2" x="-510" y="0" speed="4" />
+	<fish id="79023" type="2" x="-510" y="-20" speed="4" />
+	<fish id="79024" type="2" x="-510" y="20" speed="4" />	
+	<fish id="79025" type="2" x="-510" y="-30" speed="4" />
+	<fish id="79026" type="2" x="-510" y="30" speed="4" />
+	<fish id="79027" type="2" x="-510" y="-40" speed="4" />
+	<fish id="79028" type="2" x="-510" y="40" speed="4" />		
+	<fish id="79029" type="2" x="-510" y="-50" speed="4" />
+	<fish id="79030" type="2" x="-510" y="50" speed="4" />	
+	<fish id="79031" type="2" x="-510" y="-60" speed="4" />
+	<fish id="79032" type="2" x="-510" y="60" speed="4" />	
+	<fish id="79033" type="2" x="-510" y="-70" speed="4" />
+	<fish id="79034" type="2" x="-510" y="70" speed="4" />	
+	<fish id="79035" type="2" x="-510" y="-80" speed="4" />
+	<fish id="79036" type="2" x="-510" y="80" speed="4" />	
+	<fish id="79037" type="2" x="-610" y="-220" speed="4" />
+	<fish id="79038" type="2" x="-610" y="220" speed="4" />	
+	<fish id="79039" type="2" x="-610" y="-200" speed="4" />
+	<fish id="79040" type="2" x="-610" y="200" speed="4" />	
+	<fish id="79041" type="2" x="-610" y="-180" speed="4" />
+	<fish id="79042" type="2" x="-610" y="180" speed="4" />	
+	<fish id="79043" type="2" x="-610" y="-160" speed="4" />
+	<fish id="79044" type="2" x="-610" y="160" speed="4" />	
+	<fish id="79045" type="2" x="-610" y="-140" speed="4" />
+	<fish id="79046" type="2" x="-610" y="140" speed="4" />	
+	<fish id="79047" type="2" x="-610" y="-120" speed="4" />
+	<fish id="79048" type="2" x="-610" y="120" speed="4" />	
+	<fish id="79049" type="2" x="-610" y="-100" speed="4" />
+	<fish id="79050" type="2" x="-610" y="100" speed="4" />	
+	<fish id="79051" type="2" x="-610" y="-80" speed="4" />
+	<fish id="79052" type="2" x="-610" y="80" speed="4" />	
+	<fish id="79053" type="2" x="-610" y="-60" speed="4" />
+	<fish id="79054" type="2" x="-610" y="60" speed="4" />	
+	<fish id="79055" type="2" x="-610" y="-40" speed="4" />
+	<fish id="79056" type="2" x="-610" y="40" speed="4" />	
+	<fish id="79057" type="2" x="-610" y="-20" speed="4" />
+	<fish id="79058" type="2" x="-610" y="20" speed="4" />		
+	<fish id="79059" type="2" x="-610" y="0" speed="4" />	
+	<fish id="79060" type="1" x="-690" y="0" speed="4" />	
+	<fish id="79061" type="1" x="-690" y="10" speed="4" />	
+	<fish id="79062" type="1" x="-690" y="-10" speed="4" />	
+	<fish id="79063" type="1" x="-690" y="20" speed="4" />	
+	<fish id="79064" type="1" x="-690" y="-20" speed="4" />	
+	<fish id="79065" type="1" x="-690" y="30" speed="4" />	
+	<fish id="79066" type="1" x="-690" y="-30" speed="4" />	
+	<fish id="79067" type="1" x="-690" y="30" speed="4" />	
+	<fish id="79068" type="1" x="-690" y="-30" speed="4" />	
+	<fish id="79069" type="1" x="-690" y="40" speed="4" />	
+	<fish id="79070" type="1" x="-690" y="-40" speed="4" />	
+	<fish id="79071" type="1" x="-690" y="50" speed="4" />	
+	<fish id="79072" type="1" x="-690" y="-50" speed="4" />	
+	<fish id="79073" type="1" x="-690" y="60" speed="4" />	
+	<fish id="79074" type="1" x="-690" y="-60" speed="4" />	
+	<fish id="79075" type="1" x="-690" y="70" speed="4" />	
+	<fish id="79076" type="1" x="-690" y="-70" speed="4" />	
+	<fish id="79077" type="1" x="-690" y="80" speed="4" />	
+	<fish id="79078" type="1" x="-690" y="-80" speed="4" />	
+	<fish id="79079" type="1" x="-690" y="90" speed="4" />	
+	<fish id="79080" type="1" x="-690" y="-90" speed="4" />	
+	<fish id="79081" type="1" x="-730" y="10" speed="4" />	
+	<fish id="79082" type="1" x="-730" y="-10" speed="4" />	
+	<fish id="79083" type="1" x="-730" y="20" speed="4" />	
+	<fish id="79084" type="1" x="-730" y="-20" speed="4" />	
+	<fish id="79085" type="1" x="-730" y="30" speed="4" />	
+	<fish id="79086" type="1" x="-730" y="-30" speed="4" />	
+	<fish id="79087" type="1" x="-730" y="30" speed="4" />	
+	<fish id="79088" type="1" x="-730" y="-30" speed="4" />	
+	<fish id="79089" type="1" x="-730" y="40" speed="4" />	
+	<fish id="79090" type="1" x="-730" y="-40" speed="4" />	
+	<fish id="79091" type="1" x="-730" y="50" speed="4" />	
+	<fish id="79092" type="1" x="-730" y="-50" speed="4" />	
+	<fish id="79093" type="1" x="-730" y="60" speed="4" />	
+	<fish id="79094" type="1" x="-730" y="-60" speed="4" />	
+	<fish id="79095" type="1" x="-730" y="70" speed="4" />	
+	<fish id="79096" type="1" x="-730" y="-70" speed="4" />	
+	<fish id="79097" type="1" x="-730" y="80" speed="4" />	
+	<fish id="79098" type="1" x="-730" y="-80" speed="4" />	
+	<fish id="79099" type="1" x="-730" y="90" speed="4" />	
+	<fish id="79100" type="1" x="-730" y="-90" speed="4" />	
+		
+  </group>
+
+     <group gid="80" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="80001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+ 
+     <group gid="81" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="81001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+
+   
+     <group gid="82" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="82001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+   
+ 
+   
+   <group gid="83" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="83001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+   
+     <group gid="84" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="84001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+   
+
+   
+     <group gid="85" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="85001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+   
+   
+     <group gid="86" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="86001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+   
+ 
+   
+     <group gid="87" name="110秒环鱼" path="0,100|100,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|850,120|850,200|850,300|850,400|700,400|600,400|500,400|400,400|300,400|200,400|100,400|-100,400">
+    <fish id="87001" type="5" x="-50" y="0" speed="1" />
+  </group>  
+   
+
+
+      <group gid="88" name="110秒环鱼2" path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+    <fish id="88001" type="5" x="0" y="0" speed="1" />
+  </group> 
+
+
+
+      <group gid="89" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+    <fish id="89001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+
+
+
+      <group gid="90" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+    <fish id="90001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+
+
+  
+
+      <group gid="91" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="91001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+
+
+      <group gid="92" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="92001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+
+  
+
+      <group gid="93" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="93001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+
+  
+
+      <group gid="94" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="94001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+
+      <group gid="95" name="110秒环鱼2"  path="1000,400|900,400|800,400|700,400|600,400|500,400|400,400|300,400|100,400|100,300|100,200|100,120|150,100|200,100|300,100|400,100|500,100|600,100|700,100|800,100|900,100|1100,100">
+	  <fish id="95001" type="5" x="0" y="0" speed="1" />
+  </group> 
+  
+      <group gid="96" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="96001" type="1" x="25" y="15" speed="2" />
+	  <fish id="96002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="96003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="96004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="96005" type="2" x="35" y="80" speed="2" />
+	  <fish id="96006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="96007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="96008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="96009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="96010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+
+  
+      <group gid="97" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="97001" type="1" x="25" y="15" speed="2" />
+	  <fish id="97002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="97003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="97004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="97005" type="2" x="35" y="80" speed="2" />
+	  <fish id="97006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="97007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="97008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="97009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="97010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+  
+      <group gid="98" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="98001" type="1" x="25" y="15" speed="2" />
+	  <fish id="98002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="98003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="98004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="98005" type="2" x="35" y="80" speed="2" />
+	  <fish id="98006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="98007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="98008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="98009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="98010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+    
+      <group gid="99" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="99001" type="1" x="25" y="15" speed="2" />
+	  <fish id="99002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="99003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="99004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="99005" type="2" x="35" y="80" speed="2" />
+	  <fish id="99006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="99007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="99008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="99009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="99010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+    
+      <group gid="100" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="100001" type="1" x="25" y="15" speed="2" />
+	  <fish id="100002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="100003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="100004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="100005" type="2" x="35" y="80" speed="2" />
+	  <fish id="100006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="100007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="100008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="100009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="100010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+    
+      <group gid="101" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="101001" type="1" x="25" y="15" speed="2" />
+	  <fish id="101002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="101003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="101004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="101005" type="2" x="35" y="80" speed="2" />
+	  <fish id="101006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="101007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="101008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="101009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="101010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+    
+      <group gid="102" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="102001" type="1" x="25" y="15" speed="2" />
+	  <fish id="102002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="102003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="102004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="102005" type="2" x="35" y="80" speed="2" />
+	  <fish id="102006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="102007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="102008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="102009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="102010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+    
+      <group gid="103" name=""  path="-100,300|100,300|300,300|500,300|700,300|900,300|1100,300|1300,300">
+	  <fish id="103001" type="1" x="25" y="15" speed="2" />
+	  <fish id="103002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="103003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="103004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="103005" type="2" x="35" y="80" speed="2" />
+	  <fish id="103006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="103007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="103008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="103009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="103010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+ 
+    
+      <group gid="104" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="104001" type="1" x="25" y="15" speed="2" />
+	  <fish id="104002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="104003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="104004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="104005" type="2" x="35" y="80" speed="2" />
+	  <fish id="104006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="104007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="104008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="104009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="104010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+    
+      <group gid="105" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="105001" type="1" x="25" y="15" speed="2" />
+	  <fish id="105002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="105003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="105004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="105005" type="2" x="35" y="80" speed="2" />
+	  <fish id="105006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="105007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="105008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="105009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="105010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+      
+      <group gid="106" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="106001" type="1" x="25" y="15" speed="2" />
+	  <fish id="106002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="106003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="106004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="106005" type="2" x="35" y="80" speed="2" />
+	  <fish id="106006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="106007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="106008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="106009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="106010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+      
+      <group gid="107" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="107001" type="1" x="25" y="15" speed="2" />
+	  <fish id="107002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="107003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="107004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="107005" type="2" x="35" y="80" speed="2" />
+	  <fish id="107006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="107007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="107008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="107009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="107010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+      
+      <group gid="108" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="108001" type="1" x="25" y="15" speed="2" />
+	  <fish id="108002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="108003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="108004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="108005" type="2" x="35" y="80" speed="2" />
+	  <fish id="108006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="108007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="108008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="108009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="108010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+      
+      <group gid="109" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="109001" type="1" x="25" y="15" speed="2" />
+	  <fish id="109002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="109003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="109004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="109005" type="2" x="35" y="80" speed="2" />
+	  <fish id="109006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="109007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="109008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="109009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="109010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+      
+      <group gid="110" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="110001" type="1" x="25" y="15" speed="2" />
+	  <fish id="110002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="110003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="110004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="110005" type="2" x="35" y="80" speed="2" />
+	  <fish id="110006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="110007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="110008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="110009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="110010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+  
+      
+      <group gid="111" name=""  path="1300,200|1100,200|900,200|700,200|500,200|300,200|100,200|-200,200">
+	  <fish id="111001" type="1" x="25" y="15" speed="2" />
+	  <fish id="111002" type="1" x="-25" y="15" speed="2" />
+	  <fish id="111003" type="1" x="25" y="-15" speed="2" />
+	  <fish id="111004" type="1" x="-25" y="-15" speed="2" />
+	  <fish id="111005" type="2" x="35" y="80" speed="2" />
+	  <fish id="111006" type="2" x="-35" y="80" speed="2" />
+	  <fish id="111007" type="2" x="35" y="-80" speed="2" />
+	  <fish id="111008" type="2" x="-35" y="-80" speed="2" />
+	  <fish id="111009" type="3" x="110" y="0" speed="2" />	  
+	  <fish id="111010" type="3" x="-110" y="0" speed="2" />	  	  
+  </group> 
+ 
+ <!--220秒，一大波鱼-->
+   <group gid="112" name="整齐大鱼群" path="1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-1110,245|-1510,245">
+    <fish id="112001" type="5" x="0" y="0" speed="4" />
+    <fish id="112002" type="5" x="120" y="0" speed="4" />
+	<fish id="112003" type="4" x="240" y="50" speed="4" />
+	<fish id="112004" type="4" x="240" y="-50" speed="4" />
+	<fish id="112005" type="4" x="330" y="80" speed="4" />
+	<fish id="112006" type="4" x="330" y="-80" speed="4" />
+	<fish id="112007" type="4" x="420" y="110" speed="4" />
+	<fish id="112008" type="4" x="420" y="-110" speed="4" />
+	<fish id="112009" type="4" x="510" y="140" speed="4" />
+	<fish id="112010" type="4" x="510" y="-140" speed="4" />	
+	<fish id="112011" type="3" x="240" y="140" speed="4" />
+	<fish id="112012" type="3" x="240" y="-140" speed="4" />
+	<fish id="112013" type="3" x="320" y="160" speed="4" />
+	<fish id="112014" type="3" x="320" y="-160" speed="4" />
+	<fish id="112015" type="3" x="390" y="180" speed="4" />
+	<fish id="112016" type="3" x="390" y="-180" speed="4" />
+	<fish id="112017" type="3" x="460" y="200" speed="4" />
+	<fish id="112018" type="3" x="460" y="-200" speed="4" />	
+	<fish id="112019" type="3" x="530" y="220" speed="4" />
+	<fish id="112020" type="3" x="530" y="-220" speed="4" />	
+	<fish id="112021" type="2" x="510" y="0" speed="4" />
+	<fish id="112022" type="2" x="510" y="0" speed="4" />
+	<fish id="112023" type="2" x="510" y="-20" speed="4" />
+	<fish id="112024" type="2" x="510" y="20" speed="4" />	
+	<fish id="112025" type="2" x="510" y="-30" speed="4" />
+	<fish id="112026" type="2" x="510" y="30" speed="4" />
+	<fish id="112027" type="2" x="510" y="-40" speed="4" />
+	<fish id="112028" type="2" x="510" y="40" speed="4" />		
+	<fish id="112029" type="2" x="510" y="-50" speed="4" />
+	<fish id="112030" type="2" x="510" y="50" speed="4" />	
+	<fish id="112031" type="2" x="510" y="-60" speed="4" />
+	<fish id="112032" type="2" x="510" y="60" speed="4" />	
+	<fish id="112033" type="2" x="510" y="-70" speed="4" />
+	<fish id="112034" type="2" x="510" y="70" speed="4" />	
+	<fish id="112035" type="2" x="510" y="-80" speed="4" />
+	<fish id="112036" type="2" x="510" y="80" speed="4" />	
+	<fish id="112037" type="2" x="610" y="-220" speed="4" />
+	<fish id="112038" type="2" x="610" y="220" speed="4" />	
+	<fish id="112039" type="2" x="610" y="-200" speed="4" />
+	<fish id="112040" type="2" x="610" y="200" speed="4" />	
+	<fish id="112041" type="2" x="610" y="-180" speed="4" />
+	<fish id="112042" type="2" x="610" y="180" speed="4" />	
+	<fish id="112043" type="2" x="610" y="-160" speed="4" />
+	<fish id="112044" type="2" x="610" y="160" speed="4" />	
+	<fish id="112045" type="2" x="610" y="-140" speed="4" />
+	<fish id="112046" type="2" x="610" y="140" speed="4" />	
+	<fish id="112047" type="2" x="610" y="-120" speed="4" />
+	<fish id="112048" type="2" x="610" y="120" speed="4" />	
+	<fish id="112049" type="2" x="610" y="-100" speed="4" />
+	<fish id="112050" type="2" x="610" y="100" speed="4" />	
+	<fish id="112051" type="2" x="610" y="-80" speed="4" />
+	<fish id="112052" type="2" x="610" y="80" speed="4" />	
+	<fish id="112053" type="2" x="610" y="-60" speed="4" />
+	<fish id="112054" type="2" x="610" y="60" speed="4" />	
+	<fish id="112055" type="2" x="610" y="-40" speed="4" />
+	<fish id="112056" type="2" x="610" y="40" speed="4" />	
+	<fish id="112057" type="2" x="610" y="-20" speed="4" />
+	<fish id="112058" type="2" x="610" y="20" speed="4" />		
+	<fish id="112059" type="2" x="610" y="0" speed="4" />	
+	<fish id="112060" type="1" x="690" y="0" speed="4" />	
+	<fish id="112061" type="1" x="690" y="10" speed="4" />	
+	<fish id="112062" type="1" x="690" y="-10" speed="4" />	
+	<fish id="112063" type="1" x="690" y="20" speed="4" />	
+	<fish id="112064" type="1" x="690" y="-20" speed="4" />	
+	<fish id="112065" type="1" x="690" y="30" speed="4" />	
+	<fish id="112066" type="1" x="690" y="-30" speed="4" />	
+	<fish id="112067" type="1" x="690" y="30" speed="4" />	
+	<fish id="112068" type="1" x="690" y="-30" speed="4" />	
+	<fish id="112069" type="1" x="690" y="40" speed="4" />	
+	<fish id="112070" type="1" x="690" y="-40" speed="4" />	
+	<fish id="112071" type="1" x="690" y="50" speed="4" />	
+	<fish id="112072" type="1" x="690" y="-50" speed="4" />	
+	<fish id="112073" type="1" x="690" y="60" speed="4" />	
+	<fish id="112074" type="1" x="690" y="-60" speed="4" />	
+	<fish id="112075" type="1" x="690" y="70" speed="4" />	
+	<fish id="112076" type="1" x="690" y="-70" speed="4" />	
+	<fish id="112077" type="1" x="690" y="80" speed="4" />	
+	<fish id="112078" type="1" x="690" y="-80" speed="4" />	
+	<fish id="112079" type="1" x="690" y="90" speed="4" />	
+	<fish id="112080" type="1" x="690" y="-90" speed="4" />	
+	<fish id="112081" type="1" x="730" y="10" speed="4" />	
+	<fish id="112082" type="1" x="730" y="-10" speed="4" />	
+	<fish id="112083" type="1" x="730" y="20" speed="4" />	
+	<fish id="112084" type="1" x="730" y="-20" speed="4" />	
+	<fish id="112085" type="1" x="730" y="30" speed="4" />	
+	<fish id="112086" type="1" x="730" y="-30" speed="4" />	
+	<fish id="112087" type="1" x="730" y="30" speed="4" />	
+	<fish id="112088" type="1" x="730" y="-30" speed="4" />	
+	<fish id="112089" type="1" x="730" y="40" speed="4" />	
+	<fish id="112090" type="1" x="730" y="-40" speed="4" />	
+	<fish id="112091" type="1" x="730" y="50" speed="4" />	
+	<fish id="112092" type="1" x="730" y="-50" speed="4" />	
+	<fish id="112093" type="1" x="730" y="60" speed="4" />	
+	<fish id="112094" type="1" x="730" y="-60" speed="4" />	
+	<fish id="112095" type="1" x="730" y="70" speed="4" />	
+	<fish id="112096" type="1" x="730" y="-70" speed="4" />	
+	<fish id="112097" type="1" x="730" y="80" speed="4" />	
+	<fish id="112098" type="1" x="730" y="-80" speed="4" />	
+	<fish id="112099" type="1" x="730" y="90" speed="4" />	
+	<fish id="112100" type="1" x="730" y="-90" speed="4" />	
+		  </group>
+
+  <group gid="113" name="小鱼群" path="0,0|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400|700,400|800,400|900,400|1000,400|1110,400">
+    <fish id="113001" type="1" x="0" y="0" speed="3" />
+    <fish id="113002" type="2" x="-50" y="-0" speed="3" />
+	<fish id="113003" type="3" x="-100" y="-50" speed="3" />
+	<fish id="113004" type="4" x="-100" y="0" speed="2" />
+	<fish id="113005" type="1" x="-100" y="-60" speed="3" />
+	<fish id="113006" type="1" x="-100" y="-75" speed="3" />
+	<fish id="113007" type="1" x="-100" y="-90" speed="3" />
+  </group>		  
+		  
+  <group gid="114" name="小鱼群2" path="-100,-100|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400">
+    <fish id="114001" type="1" x="0" y="0" speed="3" />
+    <fish id="114002" type="2" x="-40" y="-80" speed="3" />
+	<fish id="114003" type="3" x="-40" y="-40" speed="3" />
+	<fish id="114004" type="2" x="-40" y="0" speed="3" />
+	<fish id="114005" type="1" x="0" y="-80" speed="3" />
+	<fish id="114006" type="1" x="-80" y="-80" speed="3" />
+	<fish id="114007" type="1" x="-80" y="0" speed="3" />
+  </group>		  
+	
+   <group gid="115" name="一条小鱼1" path="0,0|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400|700,600">
+    <fish id="115001" type="1" x="0" y="0" speed="3" />
+  </group>  
+    <group gid="116" name="一条小鱼2" path="0,0|110,50|112,100|147,230|195,335|250,370|280,120|350,130|380,120|300,100|350,130|400,200|500,300|600,400|700,600">
+    <fish id="116001" type="2" x="0" y="0" speed="3" />
+  </group>   
+     <group gid="117" name="一条小鱼3" path="0,0|1,5|2,10|7,30|15,35|50,70|80,120|150,130|200,170|300,200|400,300|600,400|700,600">
+    <fish id="117001" type="3" x="0" y="0" speed="3" />
+  </group> 
+     <group gid="118" name="一条小鱼4" path="0,0|110,50|112,100|147,230|195,335|250,370|280,120|350,130|380,120|300,100|350,130|400,200|500,300|600,400|700,600">
+    <fish id="118001" type="4" x="0" y="0" speed="2" />
+  </group>  
+     <group gid="119" name="一条小鱼5" path="0,457|457,245|507,245|557,245|607,245|657,245|750,240|800,240|850,240|900,240|1000,240">
+    <fish id="119001" type="1" x="0" y="0" speed="3" />
+  </group>   
+     <group gid="120" name="一条小鱼6" path="700,0|600,5|500,50|400,70|350,120|300,150|380,120|350,130|280,170|250,200|195,300|147,400|100,420|20,450|0,500|0,600">
+    <fish id="120001" type="1" x="0" y="0" speed="3" />
+  </group>     
+      <group gid="121" name="一条小鱼7" path="900,0|800,100|700,150|600,200|500,255|400,200|350,250|300,300|250,350|200,400|100,500|0,600">
+    <fish id="121001" type="2" x="0" y="0" speed="3" />
+  </group> 
+     <group gid="122" name="一条小鱼8" path="700,0|600,5|500,10|400,30|350,35|300,70|380,120|350,130|280,170|250,200|195,300|147,400|100,420|20,450|0,500|0,600">
+    <fish id="122001" type="3" x="0" y="0" speed="3" />
+  </group>  
+      <group gid="123" name="一条小鱼9" path="900,0|800,100|700,150|600,200|500,255|400,200|350,250|300,300|250,350|200,400|100,500|0,600">
+    <fish id="123001" type="1" x="0" y="0" speed="3" />
+  </group>  
+       <group gid="124" name="一条小鱼10" path="915,0|800,400|700,350|600,300|500,250|450,200|400,150|350,100|300,70|200,50|100,30|0,0|-200,0">
+    <fish id="124001" type="1" x="0" y="0" speed="3" />
+  </group> 
+
+   <group gid="125" name="0秒鱼" path="0,-100|100,20|200,60|300,100|451,245|400,280|300,300|200,350|100,350|0,450|-100,500">
+    <fish id="125001" type="3" x="-50" y="30" speed="3" />
+    <fish id="125002" type="2" x="-20" y="40" speed="3" />
+    <fish id="125003" type="2" x="-10" y="60" speed="3" />
+    <fish id="125004" type="2" x="0" y="-10" speed="3" />
+    <fish id="125005" type="3" x="-20" y="-20" speed="3" />		
+  </group>  
+
+   <group gid="126" name="9秒鱼2号" path="951,-100|851,20|751,60|651,100|451,245|551,280|651,300|751,351|851,351|951,450|1111,500">
+    <fish id="126001" type="3" x="-15" y="0" speed="3" />
+    <fish id="126002" type="2" x="-10" y="-20" speed="3" />
+    <fish id="126003" type="2" x="-15" y="20" speed="3" />
+    <fish id="126004" type="2" x="30" y="-40" speed="3" />
+    <fish id="126005" type="3" x="0" y="-20" speed="3" />		
+  </group>  
+
+
+   <group gid="127" name="10秒鱼1号" path="-151,245|51,245|151,245|251,245|451,245|551,245|651,245|751,245|851,245|951,245|1051,245|751,351|851,351|951,450|1111,500">
+    <fish id="127001" type="1" x="0" y="0" speed="3" />
+    <fish id="127002" type="1" x="0" y="-40" speed="3" />
+    <fish id="127003" type="3" x="0" y="50" speed="3" />
+    <fish id="127004" type="3" x="0" y="60" speed="3" />
+    <fish id="127005" type="1" x="40" y="-40" speed="3" />
+    <fish id="127006" type="1" x="40" y="110" speed="3" />
+    <fish id="127007" type="1" x="40" y="150" speed="3" />
+    <fish id="127008" type="2" x="40" y="60" speed="3" />
+    <fish id="127009" type="2" x="40" y="-10" speed="3" />
+    <fish id="127010" type="1" x="-40" y="0" speed="3" />	
+    <fish id="127011" type="1" x="-40" y="10" speed="3" />
+    <fish id="127012" type="3" x="-40" y="-110" speed="3" />
+    <fish id="127013" type="2" x="-40" y="20" speed="3" />
+    <fish id="127014" type="1" x="-40" y="-70" speed="3" />
+    <fish id="127015" type="1" x="-40" y="-20" speed="3" />		
+  </group>  
+  
+    <group gid="128" name="10秒鱼1号2" path="951,245|851,245|751,245|651,245|551,245|451,245|351,245|51,351|151,351|151,450|351,500">
+    <fish id="128001" type="1" x="-80" y="40" speed="3" />
+    <fish id="128002" type="1" x="-40" y="0" speed="3" />
+    <fish id="128003" type="3" x="0" y="80" speed="3" />
+    <fish id="128004" type="3" x="40" y="-0" speed="3" />
+    <fish id="128005" type="1" x="80" y="-40" speed="3" />
+    <fish id="128006" type="1" x="-80" y="0" speed="3" />
+    <fish id="128007" type="2" x="-40" y="80" speed="3" />
+    <fish id="128008" type="3" x="0" y="40" speed="3" />
+    <fish id="128009" type="1" x="40" y="-80" speed="3" />
+    <fish id="128010" type="1" x="80" y="40" speed="3" />	
+    <fish id="128011" type="3" x="80" y="-100" speed="3" />
+    <fish id="128012" type="2" x="40" y="100" speed="3" />
+    <fish id="128013" type="1" x="0" y="0" speed="3" />
+    <fish id="128014" type="1" x="-40" y="-10" speed="3" />
+    <fish id="128015" type="1" x="-80" y="-80" speed="3" />	
+  </group>   
+
+  
+    <group gid="129" name="3人" path="951,350|751,350|551,350|351,350|151,350|-51,350|-351,350|-951,350">
+    <fish id="129001" type="3" x="0" y="0" speed="2" />
+    <fish id="129002" type="3" x="90" y="0" speed="2" />
+    <fish id="129003" type="3" x="180" y="0" speed="2" />
+    <fish id="129004" type="3" x="270" y="0" speed="2" />
+    <fish id="129005" type="3" x="360" y="0" speed="2" />
+    <fish id="129006" type="3" x="450" y="0" speed="2" />
+    <fish id="129007" type="3" x="540" y="0" speed="2" />
+    <fish id="129008" type="3" x="630" y="0" speed="2" />
+    <fish id="129009" type="3" x="720" y="0" speed="2" />
+    <fish id="129010" type="3" x="810" y="0" speed="2" />	
+  </group>   
+
+  
+    <group gid="130" name="3人" path="0,150|200,150|400,150|600,150|800,150|1000,150|1351,150|2100,150">
+    <fish id="130001" type="3" x="0" y="0" speed="2" />
+    <fish id="130002" type="3" x="-90" y="0" speed="2" />
+    <fish id="130003" type="3" x="-180" y="0" speed="2" />
+    <fish id="130004" type="3" x="-270" y="0" speed="2" />
+    <fish id="130005" type="3" x="-360" y="0" speed="2" />
+    <fish id="130006" type="3" x="-450" y="0" speed="2" />
+    <fish id="130007" type="3" x="-540" y="0" speed="2" />
+    <fish id="130008" type="3" x="-630" y="0" speed="2" />
+    <fish id="130009" type="3" x="-720" y="0" speed="2" />
+    <fish id="130010" type="3" x="-810" y="0" speed="2" />	
+  </group> 
+
+ <group gid="131" name="整齐大鱼群" path="-50,245|57,245|107,245|157,245|207,245|257,245|307,245|357,245|400,245|457,245|507,245|557,245|607,245|657,245|707,245|757,245|807,245|857,245|907,245|1111,245|2511,245">
+	<fish id="131001" type="1" x="50" y="10" speed="4" />	
+	<fish id="131002" type="1" x="50" y="-10" speed="4" />	
+	<fish id="131003" type="1" x="50" y="20" speed="4" />	
+	<fish id="131004" type="1" x="50" y="-20" speed="4" />	
+	<fish id="131005" type="1" x="50" y="30" speed="4" />	
+	<fish id="131006" type="1" x="50" y="-30" speed="4" />	
+	<fish id="131007" type="1" x="50" y="30" speed="4" />	
+	<fish id="131008" type="1" x="50" y="-30" speed="4" />	
+	<fish id="131009" type="1" x="50" y="40" speed="4" />	
+	<fish id="131010" type="1" x="50" y="-40" speed="4" />	
+	<fish id="131011" type="1" x="50" y="50" speed="4" />	
+	<fish id="131012" type="1" x="50" y="-50" speed="4" />	
+	<fish id="131013" type="1" x="50" y="60" speed="4" />	
+	<fish id="131014" type="1" x="50" y="-60" speed="4" />	
+	<fish id="131015" type="1" x="50" y="70" speed="4" />	
+	<fish id="131016" type="1" x="50" y="-70" speed="4" />	
+	<fish id="131017" type="1" x="50" y="80" speed="4" />	
+	<fish id="131018" type="1" x="50" y="-80" speed="4" />	
+	<fish id="131019" type="1" x="50" y="90" speed="4" />	
+	<fish id="131020" type="1" x="50" y="-90" speed="4" />			
+  </group>
+
+  <group gid="132" name="整齐大鱼群" path="1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-1110,245|-1510,245">
+	<fish id="132001" type="1" x="-50" y="10" speed="4" />	
+	<fish id="132002" type="1" x="-50" y="-10" speed="4" />	
+	<fish id="132003" type="1" x="-50" y="20" speed="4" />	
+	<fish id="132004" type="1" x="-50" y="-20" speed="4" />	
+	<fish id="132005" type="1" x="-50" y="30" speed="4" />	
+	<fish id="132006" type="1" x="-50" y="-30" speed="4" />	
+	<fish id="132007" type="1" x="-50" y="30" speed="4" />	
+	<fish id="132008" type="1" x="-50" y="-30" speed="4" />	
+	<fish id="132009" type="1" x="-50" y="40" speed="4" />	
+	<fish id="132010" type="1" x="-50" y="-40" speed="4" />	
+	<fish id="132011" type="1" x="-50" y="50" speed="4" />	
+	<fish id="132012" type="1" x="-50" y="-50" speed="4" />	
+	<fish id="132013" type="1" x="-50" y="60" speed="4" />	
+	<fish id="132014" type="1" x="-50" y="-60" speed="4" />	
+	<fish id="132015" type="1" x="-50" y="70" speed="4" />	
+	<fish id="132016" type="1" x="-50" y="-70" speed="4" />	
+	<fish id="132017" type="1" x="-50" y="80" speed="4" />	
+	<fish id="132018" type="1" x="-50" y="-80" speed="4" />	
+	<fish id="132019" type="1" x="-50" y="90" speed="4" />	
+	<fish id="132020" type="1" x="-50" y="-90" speed="4" />	
+		  </group>
+
+  <group gid="133" name="超级大鲨鱼" path="1250,245|1050,245|900,245|800,245|750,245|700,245|650,245|600,245|550,245|500,245|450,245|400,245|350,245|300,245|250,245|200,245|150,245|100,245|40,245|-110,245|-400,245">
+	<fish id="133001" type="6" x="0" y="0" speed="2" />	
+		  </group>
+  <group gid="134" name="超级大鲨鱼2" path="-400,245|-1,245|100,245|400,245|6000,245|800,245|1000,245|1200,245|1400,245">
+	<fish id="134001" type="6" x="0" y="0" speed="2" />	
+		  </group>
+		  
+       <group gid="135" name="拉箱子的人" path="915,0|700,400|600,350|400,300|300,250|250,200|340,150|350,100|300,70|200,50|100,30|0,0|-200,0">
+    <fish id="135001" type="7" x="50" y="-50" speed="1" />
+  </group> 
+     <group gid="136" name="拉箱子的人1" path="700,-100|600,5|500,50|400,70|350,120|300,150|380,120|350,130|280,170|250,200|195,300|147,400|100,420|20,450|0,500|0,600">
+    <fish id="136001" type="7" x="50" y="-50" speed="1" />
+  </group>     
+
+  
+   </groups>
+
+	<bullets>
+		<bullet type="1" cost="1" speed="10" r="15" dist="600" />
+		<bullet type="2" cost="2" speed="10" r="20" dist="600" />
+		<bullet type="3" cost="3" speed="10" r="25" dist="600"  />
+		<bullet type="4" cost="4" speed="10" r="30" dist="600" />
+		<bullet type="5" cost="5" speed="10" r="40" dist="600" />		
+		<bullet type="6" cost="0" speed="10" r="250" dist="600" />		
+		
+		</bullets>
+</fishs>

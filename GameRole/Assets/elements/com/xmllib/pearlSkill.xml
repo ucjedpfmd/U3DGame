@@ -1,0 +1,31 @@
+<pearlSkills>
+	<pearl id="30401501" name="摘星·体（狂刀）" skillid="16000047" skilllvl="1"/>
+	<pearl id="30401502" name="摘星·体（飞羽）" skillid="16000047"  skilllvl="1"/>
+	<pearl id="30401503" name="摘星·体（舞天）" skillid="16000047" skilllvl="1"/>
+	<pearl id="30401504" name="摘星·体（冰凝）" skillid="16000047" skilllvl="1"/>
+	<pearl id="30601501" name="赶月·体（狂刀）" skillid="16000047" skilllvl="2"/>
+	<pearl id="30601502" name="赶月·体（飞羽）" skillid="16000047"  skilllvl="2"/>
+	<pearl id="30601503" name="赶月·体（舞天）" skillid="16000047" skilllvl="2"/>
+	<pearl id="30601504" name="赶月·体（冰凝）" skillid="16000047" skilllvl="2"/>
+	
+	
+	<pearl id="30401601" name="摘星·意（狂刀）" skillid="16000048" skilllvl="1"/>
+	<pearl id="30401602" name="摘星·意（飞羽）" skillid="16000048"  skilllvl="1"/>
+	<pearl id="30401603" name="摘星·意（舞天）" skillid="16000048" skilllvl="1"/>
+	<pearl id="30401604" name="摘星·意（冰凝）" skillid="16000048" skilllvl="1"/>
+	<pearl id="30601601" name="赶月·意（狂刀）" skillid="16000048" skilllvl="2"/>
+	<pearl id="30601602" name="赶月·意（飞羽）" skillid="16000048"  skilllvl="2"/>
+	<pearl id="30601603" name="赶月·意（舞天）" skillid="16000048" skilllvl="2"/>
+	<pearl id="30601604" name="赶月·意（冰凝）" skillid="16000048" skilllvl="2"/>
+	
+	<pearl id="30401701" name="摘星·天（狂刀）" skillid="16000049" skilllvl="1"/>
+	<pearl id="30401702" name="摘星·天（飞羽）" skillid="16000049"  skilllvl="1"/>
+	<pearl id="30401703" name="摘星·天（舞天）" skillid="16000049" skilllvl="1"/>
+	<pearl id="30401704" name="摘星·天（冰凝）" skillid="16000049" skilllvl="1"/>
+	<pearl id="30601701" name="赶月·天（狂刀）" skillid="16000049" skilllvl="2"/>
+	<pearl id="30601702" name="赶月·天（飞羽）" skillid="16000049"  skilllvl="2"/>
+	<pearl id="30601703" name="赶月·天（舞天）" skillid="16000049" skilllvl="2"/>
+	<pearl id="30601704" name="赶月·天（冰凝）" skillid="16000049" skilllvl="2"/>
+	
+
+</pearlSkills>

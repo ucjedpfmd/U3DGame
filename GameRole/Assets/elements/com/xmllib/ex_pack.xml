@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pack>
+	<goods name="麻布包" silver="5元宝" goodId="11100001" num="7个" row="1"/>
+	<goods name="真丝包" silver="25元宝" goodId="11100001" num="14个" row="2"/>
+	<goods name="牛皮袋" silver="125元宝" goodId="11100001" num="21个" row="3"/>
+	<goods name="如意囊" silver="625元宝" goodId="11100001" num="28个" row="4"/>
+	<goods name="百宝袋" silver="3125元宝" goodId="11100001" num="35个" row="5"/>
+</pack>

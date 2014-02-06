@@ -1,0 +1,273 @@
+﻿<role>
+	<!-- 人物面板的前端配置 前端 张子然 策划 黄春越	-->
+			
+	<!-- 仙珠升级增加的属性值 -->
+	<attr pos="1"  value="80,9"/>
+	<attr pos="2"  value="80,3"/>
+	<attr pos="3"  value="80,90"/>
+
+	<!--
+	id 123分别对应攻防血
+	lv 技能等级
+	needLv 需要当前仙珠的等级
+	intro 描述语
+	-->
+	<skill id="1" lv="0" needLv="5"  needGoods="" intro="（1级效果）群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成150%的物理伤害，并额外附加1000点物理攻击力"/>	
+	<skill id="1" lv="1" needLv="15" needGoods="10502001,1" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成150%（下级160%）的物理|法术|伤害，并额外附加1000（下级2000）点物理|法术|攻击力"/>
+	<skill id="1" lv="2" needLv="30" needGoods="10502001,1" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成160%（下级170%）的物理|法术|伤害，并额外附加2000（下级3000）点物理|法术|攻击力"/>
+	<skill id="1" lv="3" needLv="40" needGoods="10502001,2" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成170%（下级180%）的物理|法术|伤害，并额外附加3000（下级4000）点物理|法术|攻击力"/>
+	<skill id="1" lv="4" needLv="50" needGoods="10502001,2" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成180%（下级200%）的物理|法术|伤害，并额外附加4000（下级5000）点物理|法术|攻击力"/>
+	<skill id="1" lv="5" needLv="60" needGoods="10502001,3" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成200%（下级220%）的物理|法术|伤害，并额外附加5000（下级6000）点物理|法术|攻击力"/>
+	<skill id="1" lv="6" needLv="70" needGoods="10502001,3" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成220%（下级250%）的物理|法术|伤害，并额外附加6000（下级8000）点物理|法术|攻击力"/>
+	<skill id="1" lv="7" needLv="80" needGoods="10502001,5" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成250%（下级300%）的物理|法术|伤害，并额外附加8000（下级10000）点物理|法术|攻击力"/>
+	<skill id="1" lv="8" needLv=""  needGoods="" intro="群体攻击，以自己为中心，攻击半径5格范围内所有怪物或敌方单位，造成300%的物理|法术|伤害，并额外附加10000点物理|法术|攻击力"/>
+
+	<skill id="2" lv="0" needLv="5" needGoods="" intro="（1级效果）立即解除所有眩晕、封禁、减速、定身效果，并在接下来的2秒内免疫这些效果，并且降低受到的所有伤害20%。"/>
+	<skill id="2" lv="1" needLv="15" needGoods="10502001,1" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的2（下级2）秒内免疫这些效果，并且降低受到的所有伤害20%（下级25%）。"/>
+	<skill id="2" lv="2" needLv="30" needGoods="10502001,1" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的2（下级3）秒内免疫这些效果，并且降低受到的所有伤害25%（下级30%）。"/>
+	<skill id="2" lv="3" needLv="40" needGoods="10502001,2" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的3（下级4）秒内免疫这些效果，并且降低受到的所有伤害30%（下级35%）。"/>
+	<skill id="2" lv="4" needLv="50" needGoods="10502001,2" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的4（下级5）秒内免疫这些效果，并且降低受到的所有伤害35%（下级40%）。"/>
+	<skill id="2" lv="5" needLv="60" needGoods="10502001,3" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的5（下级6）秒内免疫这些效果，并且降低受到的所有伤害40%（下级50%）。"/>
+	<skill id="2" lv="6" needLv="70" needGoods="10502001,3" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的6（下级7）秒内免疫这些效果，并且降低受到的所有伤害50%（下级60%）。"/>
+	<skill id="2" lv="7" needLv="80" needGoods="10502001,5" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的7（下级8）秒内免疫这些效果，并且降低受到的所有伤害60%（下级80%）。"/>
+	<skill id="2" lv="8" needLv="" needGoods="" intro="立即解除所有眩晕、封禁、减速、定身效果，并在接下来的8秒内免疫这些效果，并且降低受到的所有伤害80%。"/>
+
+	<skill id="3" lv="0" needLv="5" needGoods="" intro="（1级效果）立即使目标损失最大血量的20%，并减速30%，持续5秒[对怪物使用时，则造成200%攻击伤害]"/>	
+	<skill id="3" lv="1" needLv="15" needGoods="10502001,1" intro="立即使目标损失最大血量的20%（下级22%），并减速30%（下级35%），持续5秒[对怪物使用时，则造成200%（下级250%）攻击伤害]"/>
+	<skill id="3" lv="2" needLv="30" needGoods="10502001,1" intro="立即使目标损失最大血量的22%（下级24%），并减速35%（下级40%），持续5秒[对怪物使用时，则造成250%（下级300%）攻击伤害]"/>
+	<skill id="3" lv="3" needLv="40" needGoods="10502001,2" intro="立即使目标损失最大血量的24%（下级26%），并减速40%（下级45%），持续5秒[对怪物使用时，则造成300%（下级350%）攻击伤害]"/>
+	<skill id="3" lv="4" needLv="50" needGoods="10502001,2" intro="立即使目标损失最大血量的26%（下级28%），并减速45%（下级50%），持续5秒[对怪物使用时，则造成350%（下级400%）攻击伤害]"/>
+	<skill id="3" lv="5" needLv="60" needGoods="10502001,3" intro="立即使目标损失最大血量的28%（下级30%），并减速50%（下级60%），持续5秒[对怪物使用时，则造成400%（下级500%）攻击伤害]"/>
+	<skill id="3" lv="6" needLv="70" needGoods="10502001,3" intro="立即使目标损失最大血量的30%（下级32%），并减速60%（下级70%），持续5秒[对怪物使用时，则造成500%（下级600%）攻击伤害]"/>
+	<skill id="3" lv="7" needLv="80" needGoods="10502001,5" intro="立即使目标损失最大血量的32%（下级35%），并减速70%（下级90%），持续5秒[对怪物使用时，则造成600%（下级800%）攻击伤害]"/>
+	<skill id="3" lv="8" needLv="" needGoods="" intro="立即使目标损失最大血量的35%，并减速90%，持续5秒（对怪物使用时，则造成800%攻击伤害）"/>
+	
+	<!-- 以下是元神配置 -->
+	<anima  id="1"  level="0"  attrCode="15" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima  id="1"  level="1"  attrCode="15" attr="150"  fee="1000"  time="600"  roleLv="10" />
+	<anima  id="1"  level="2"  attrCode="15" attr="300"  fee="1000"  time="1200"  roleLv="15" />
+	<anima  id="1"  level="3"  attrCode="15" attr="450"  fee="1000"  time="2400"  roleLv="20" />
+	<anima  id="1"  level="4"  attrCode="15" attr="600"  fee="1000"  time="3600"  roleLv="25" />
+	<anima  id="1"  level="5"  attrCode="15" attr="750"  fee="1000"  time="7200"  roleLv="30" />
+	<anima  id="1"  level="6"  attrCode="15" attr="900"  fee="1000"  time="14400"  roleLv="35" />
+	<anima  id="1"  level="7"  attrCode="15" attr="1050"  fee="1000"  time="21600"  roleLv="40" />
+	<anima  id="1"  level="8"  attrCode="15" attr="1200"  fee="1000"  time="36000"  roleLv="45" />
+	<anima  id="1"  level="9"  attrCode="15" attr="1350"  fee="1000"  time="50400"  roleLv="50" />
+	<anima  id="1"  level="10"  attrCode="15" attr="1500"  fee="1000"  time="72000"  roleLv="55" />
+	<anima  id="1"  level="11"  attrCode="15" attr="1650"  fee="1000"  time="93600"  roleLv="60" />
+	<anima  id="1"  level="12"  attrCode="15" attr="1800"  fee="1000"  time="115200"  roleLv="65" />
+	<anima  id="1"  level="13"  attrCode="15" attr="1950"  fee="1000"  time="144000"  roleLv="70" />
+	<anima  id="1"  level="14"  attrCode="15" attr="2100"  fee="1000"  time="172800"  roleLv="75" />
+	<anima  id="1"  level="15"  attrCode="15" attr="2250"  fee="1000"  time="208800"  roleLv="80" />
+	<anima  id="1"  level="16"  attrCode="15" attr="2400"  fee="1000"  time="0"  roleLv="0" />
+	<anima  id="2"  level="0"  attrCode="13" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima  id="2"  level="1"  attrCode="13" attr="100"  fee="1000"  time="600"  roleLv="10" />
+	<anima  id="2"  level="2"  attrCode="13" attr="200"  fee="1000"  time="1200"  roleLv="15" />
+	<anima  id="2"  level="3"  attrCode="13" attr="300"  fee="1000"  time="2400"  roleLv="20" />
+	<anima  id="2"  level="4"  attrCode="13" attr="400"  fee="1000"  time="3600"  roleLv="25" />
+	<anima  id="2"  level="5"  attrCode="13" attr="500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima  id="2"  level="6"  attrCode="13" attr="600"  fee="1000"  time="14400"  roleLv="35" />
+	<anima  id="2"  level="7"  attrCode="13" attr="700"  fee="1000"  time="21600"  roleLv="40" />
+	<anima  id="2"  level="8"  attrCode="13" attr="800"  fee="1000"  time="36000"  roleLv="45" />
+	<anima  id="2"  level="9"  attrCode="13" attr="900"  fee="1000"  time="50400"  roleLv="50" />
+	<anima  id="2"  level="10"  attrCode="13" attr="1000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima  id="2"  level="11"  attrCode="13" attr="1100"  fee="1000"  time="93600"  roleLv="60" />
+	<anima  id="2"  level="12"  attrCode="13" attr="1200"  fee="1000"  time="115200"  roleLv="65" />
+	<anima  id="2"  level="13"  attrCode="13" attr="1300"  fee="1000"  time="144000"  roleLv="70" />
+	<anima  id="2"  level="14"  attrCode="13" attr="1400"  fee="1000"  time="172800"  roleLv="75" />
+	<anima  id="2"  level="15"  attrCode="13" attr="1500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima  id="2"  level="16"  attrCode="13" attr="1600"  fee="1000"  time="0"  roleLv="0" />
+	<anima  id="3"  level="0"  attrCode="14" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima  id="3"  level="1"  attrCode="14" attr="100"  fee="1000"  time="600"  roleLv="10" />
+	<anima  id="3"  level="2"  attrCode="14" attr="200"  fee="1000"  time="1200"  roleLv="15" />
+	<anima  id="3"  level="3"  attrCode="14" attr="300"  fee="1000"  time="2400"  roleLv="20" />
+	<anima  id="3"  level="4"  attrCode="14" attr="400"  fee="1000"  time="3600"  roleLv="25" />
+	<anima  id="3"  level="5"  attrCode="14" attr="500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima  id="3"  level="6"  attrCode="14" attr="600"  fee="1000"  time="14400"  roleLv="35" />
+	<anima  id="3"  level="7"  attrCode="14" attr="700"  fee="1000"  time="21600"  roleLv="40" />
+	<anima  id="3"  level="8"  attrCode="14" attr="800"  fee="1000"  time="36000"  roleLv="45" />
+	<anima  id="3"  level="9"  attrCode="14" attr="900"  fee="1000"  time="50400"  roleLv="50" />
+	<anima  id="3"  level="10"  attrCode="14" attr="1000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima  id="3"  level="11"  attrCode="14" attr="1100"  fee="1000"  time="93600"  roleLv="60" />
+	<anima  id="3"  level="12"  attrCode="14" attr="1200"  fee="1000"  time="115200"  roleLv="65" />
+	<anima  id="3"  level="13"  attrCode="14" attr="1300"  fee="1000"  time="144000"  roleLv="70" />
+	<anima  id="3"  level="14"  attrCode="14" attr="1400"  fee="1000"  time="172800"  roleLv="75" />
+	<anima  id="3"  level="15"  attrCode="14" attr="1500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima  id="3"  level="16"  attrCode="14" attr="1600"  fee="1000"  time="0"  roleLv="0" />
+	<anima  id="4"  level="0"  attrCode="11" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima  id="4"  level="1"  attrCode="11" attr="1500"  fee="1000"  time="600"  roleLv="10" />
+	<anima  id="4"  level="2"  attrCode="11" attr="3000"  fee="1000"  time="1200"  roleLv="15" />
+	<anima  id="4"  level="3"  attrCode="11" attr="4500"  fee="1000"  time="2400"  roleLv="20" />
+	<anima  id="4"  level="4"  attrCode="11" attr="6000"  fee="1000"  time="3600"  roleLv="25" />
+	<anima  id="4"  level="5"  attrCode="11" attr="7500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima  id="4"  level="6"  attrCode="11" attr="9000"  fee="1000"  time="14400"  roleLv="35" />
+	<anima  id="4"  level="7"  attrCode="11" attr="10500"  fee="1000"  time="21600"  roleLv="40" />
+	<anima  id="4"  level="8"  attrCode="11" attr="12000"  fee="1000"  time="36000"  roleLv="45" />
+	<anima  id="4"  level="9"  attrCode="11" attr="13500"  fee="1000"  time="50400"  roleLv="50" />
+	<anima  id="4"  level="10"  attrCode="11" attr="15000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima  id="4"  level="11"  attrCode="11" attr="16500"  fee="1000"  time="93600"  roleLv="60" />
+	<anima  id="4"  level="12"  attrCode="11" attr="18000"  fee="1000"  time="115200"  roleLv="65" />
+	<anima  id="4"  level="13"  attrCode="11" attr="19500"  fee="1000"  time="144000"  roleLv="70" />
+	<anima  id="4"  level="14"  attrCode="11" attr="21000"  fee="1000"  time="172800"  roleLv="75" />
+	<anima  id="4"  level="15"  attrCode="11" attr="22500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima  id="4"  level="16"  attrCode="11" attr="24000"  fee="1000"  time="0"  roleLv="0" />
+	<anima  id="5"  level="0"  attrCode="38" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima  id="5"  level="1"  attrCode="38" attr="100"  fee="1000"  time="600"  roleLv="10" />
+	<anima  id="5"  level="2"  attrCode="38" attr="200"  fee="1000"  time="1200"  roleLv="15" />
+	<anima  id="5"  level="3"  attrCode="38" attr="300"  fee="1000"  time="2400"  roleLv="20" />
+	<anima  id="5"  level="4"  attrCode="38" attr="400"  fee="1000"  time="3600"  roleLv="25" />
+	<anima  id="5"  level="5"  attrCode="38" attr="500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima  id="5"  level="6"  attrCode="38" attr="600"  fee="1000"  time="14400"  roleLv="35" />
+	<anima  id="5"  level="7"  attrCode="38" attr="700"  fee="1000"  time="21600"  roleLv="40" />
+	<anima  id="5"  level="8"  attrCode="38" attr="800"  fee="1000"  time="36000"  roleLv="45" />
+	<anima  id="5"  level="9"  attrCode="38" attr="900"  fee="1000"  time="50400"  roleLv="50" />
+	<anima  id="5"  level="10"  attrCode="38" attr="1000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima  id="5"  level="11"  attrCode="38" attr="1100"  fee="1000"  time="93600"  roleLv="60" />
+	<anima  id="5"  level="12"  attrCode="38" attr="1200"  fee="1000"  time="115200"  roleLv="65" />
+	<anima  id="5"  level="13"  attrCode="38" attr="1300"  fee="1000"  time="144000"  roleLv="70" />
+	<anima  id="5"  level="14"  attrCode="38" attr="1400"  fee="1000"  time="172800"  roleLv="75" />
+	<anima  id="5"  level="15"  attrCode="38" attr="1500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima  id="5"  level="16"  attrCode="38" attr="1600"  fee="1000"  time="0"  roleLv="0" />
+	<anima id="6"  level="0"  attrCode="36" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima id="6"  level="1"  attrCode="36" attr="100"  fee="1000"  time="600"  roleLv="10" />
+	<anima id="6"  level="2"  attrCode="36" attr="200"  fee="1000"  time="1200"  roleLv="15" />
+	<anima id="6"  level="3"  attrCode="36" attr="300"  fee="1000"  time="2400"  roleLv="20" />
+	<anima id="6"  level="4"  attrCode="36" attr="400"  fee="1000"  time="3600"  roleLv="25" />
+	<anima id="6"  level="5"  attrCode="36" attr="500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima id="6"  level="6"  attrCode="36" attr="600"  fee="1000"  time="14400"  roleLv="35" />
+	<anima id="6"  level="7"  attrCode="36" attr="700"  fee="1000"  time="21600"  roleLv="40" />
+	<anima id="6"  level="8"  attrCode="36" attr="800"  fee="1000"  time="36000"  roleLv="45" />
+	<anima id="6"  level="9"  attrCode="36" attr="900"  fee="1000"  time="50400"  roleLv="50" />
+	<anima id="6"  level="10"  attrCode="36" attr="1000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima id="6"  level="11"  attrCode="36" attr="1100"  fee="1000"  time="93600"  roleLv="60" />
+	<anima id="6"  level="12"  attrCode="36" attr="1200"  fee="1000"  time="115200"  roleLv="65" />
+	<anima id="6"  level="13"  attrCode="36" attr="1300"  fee="1000"  time="144000"  roleLv="70" />
+	<anima id="6"  level="14"  attrCode="36" attr="1400"  fee="1000"  time="172800"  roleLv="75" />
+	<anima id="6"  level="15"  attrCode="36" attr="1500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima id="6"  level="16"  attrCode="36" attr="1600"  fee="1000"  time="0"  roleLv="0" />
+	<anima id="7"  level="0"  attrCode="31" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima id="7"  level="1"  attrCode="31" attr="100"  fee="1000"  time="600"  roleLv="10" />
+	<anima id="7"  level="2"  attrCode="31" attr="200"  fee="1000"  time="1200"  roleLv="15" />
+	<anima id="7"  level="3"  attrCode="31" attr="300"  fee="1000"  time="2400"  roleLv="20" />
+	<anima id="7"  level="4"  attrCode="31" attr="400"  fee="1000"  time="3600"  roleLv="25" />
+	<anima id="7"  level="5"  attrCode="31" attr="500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima id="7"  level="6"  attrCode="31" attr="600"  fee="1000"  time="14400"  roleLv="35" />
+	<anima id="7"  level="7"  attrCode="31" attr="700"  fee="1000"  time="21600"  roleLv="40" />
+	<anima id="7"  level="8"  attrCode="31" attr="800"  fee="1000"  time="36000"  roleLv="45" />
+	<anima id="7"  level="9"  attrCode="31" attr="900"  fee="1000"  time="50400"  roleLv="50" />
+	<anima id="7"  level="10"  attrCode="31" attr="1000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima id="7"  level="11"  attrCode="31" attr="1100"  fee="1000"  time="93600"  roleLv="60" />
+	<anima id="7"  level="12"  attrCode="31" attr="1200"  fee="1000"  time="115200"  roleLv="65" />
+	<anima id="7"  level="13"  attrCode="31" attr="1300"  fee="1000"  time="144000"  roleLv="70" />
+	<anima id="7"  level="14"  attrCode="31" attr="1400"  fee="1000"  time="172800"  roleLv="75" />
+	<anima id="7"  level="15"  attrCode="31" attr="1500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima id="7"  level="16"  attrCode="31" attr="1600"  fee="1000"  time="0"  roleLv="0" />
+	<anima id="8"  level="0"  attrCode="37" attr="0"  fee="1000"  time="300"  roleLv="10" />
+	<anima id="8"  level="1"  attrCode="37" attr="100"  fee="1000"  time="600"  roleLv="10" />
+	<anima id="8"  level="2"  attrCode="37" attr="200"  fee="1000"  time="1200"  roleLv="15" />
+	<anima id="8"  level="3"  attrCode="37" attr="300"  fee="1000"  time="2400"  roleLv="20" />
+	<anima id="8"  level="4"  attrCode="37" attr="400"  fee="1000"  time="3600"  roleLv="25" />
+	<anima id="8"  level="5"  attrCode="37" attr="500"  fee="1000"  time="7200"  roleLv="30" />
+	<anima id="8"  level="6"  attrCode="37" attr="600"  fee="1000"  time="14400"  roleLv="35" />
+	<anima id="8"  level="7"  attrCode="37" attr="700"  fee="1000"  time="21600"  roleLv="40" />
+	<anima id="8"  level="8"  attrCode="37" attr="800"  fee="1000"  time="36000"  roleLv="45" />
+    <anima id="8"  level="9"  attrCode="37" attr="900"  fee="1000"  time="50400"  roleLv="50" />
+	<anima id="8"  level="10"  attrCode="37" attr="1000"  fee="1000"  time="72000"  roleLv="55" />
+	<anima id="8"  level="11"  attrCode="37" attr="1100"  fee="1000"  time="93600"  roleLv="60" />
+	<anima id="8"  level="12"  attrCode="37" attr="1200"  fee="1000"  time="115200"  roleLv="65" />
+	<anima id="8"  level="13"  attrCode="37" attr="1300"  fee="1000"  time="144000"  roleLv="70" />
+	<anima id="8"  level="14"  attrCode="37" attr="1400"  fee="1000"  time="172800"  roleLv="75" />
+	<anima id="8"  level="15"  attrCode="37" attr="1500"  fee="1000"  time="208800"  roleLv="80" />
+	<anima id="8"  level="16"  attrCode="37" attr="1600"  fee="1000"  time="0"  roleLv="0" />
+	
+	<!-- attr 采用key-value形式配置,key：属性编码（其中攻击防御以物理系配置），value：属性值-->
+	<cross lv="0"  spiritLv="0"   titleId="" hp="1500" mp="500"  attr=""/>
+	<cross lv="1"  spiritLv="4"   titleId="200101" hp="1600" mp="600"  attr=""/>
+	<cross lv="2"  spiritLv="6"   titleId="200102" hp="1700" mp="700"  attr=""/>
+	<cross lv="3"  spiritLv="8"   titleId="200103" hp="1800" mp="800"  attr=""/>
+	<cross lv="4"  spiritLv="10"  titleId="200104" hp="1900" mp="900"  attr="15,120|13,80|14,80|11,1200|38,80|36,80|31,80|37,80"/>
+	<cross lv="5"  spiritLv="12"  titleId="200106" hp="2000" mp="1000" attr="15,160|13,100|14,100|11,1600|38,100|36,100|31,100|37,100"/>
+	<cross lv="6"  spiritLv="14"  titleId="200107" hp="2100" mp="1100" attr="15,200|13,130|14,130|11,2000|38,130|36,130|31,130|37,130"/>
+	<cross lv="7"  spiritLv="16"  titleId="200108" hp="2200" mp="1200" attr="15,240|13,160|14,160|11,2400|38,160|36,160|31,160|37,160"/>
+	
+	<!-- 角色装备面板，每个部位的装备推荐的浮动提示文字 -->
+	<guide putWhere="1">
+		<content>
+<![CDATA[装备后增加角色攻击力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="2">
+		<content>
+<![CDATA[装备后增加角色攻击力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得
+刀  -  狂战(物攻)
+弓  -  飞羽(物攻)
+扇  -  舞天(法攻) 
+杖  -  碧落(法攻)]]>
+		</content>
+	</guide>
+	<guide putWhere="3">
+		<content>
+<![CDATA[装备后增加角色攻击力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="4">
+		<content>
+<![CDATA[装备后增加角色攻击力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="5">
+		<content>
+<![CDATA[装备后增加角色防御力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="6">
+		<content>
+<![CDATA[装备后增加角色防御力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="7">
+		<content>
+<![CDATA[装备后增加角色防御力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="8">
+		<content>
+<![CDATA[装备后增加角色血量值与法力值\n可通过世界boss与仙盟boss等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="9">
+		<content>
+<![CDATA[装备后增加角色血量值与法力值\n可通过世界boss与仙盟boss等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="10">
+		<content>
+<![CDATA[装备后增加角色防御力\n可通过补天石兑换、回魂仙梦副本及问道天阶副本等方式获得]]>
+		</content>
+	</guide>
+	<guide putWhere="45">
+		<content>
+<![CDATA[增加角色攻击力\n修炼可增加仙珠等级，等级越高，仙珠技能越厉害]]>
+		</content>
+	</guide>
+	<guide putWhere="46">
+		<content>
+<![CDATA[增加角色防御力\n修炼可增加仙珠等级，等级越高，仙珠技能越厉害]]>
+		</content>
+	</guide>
+	<guide putWhere="47">
+		<content>
+<![CDATA[增加角色血量上限\n修炼可增加仙珠等级，等级越高，仙珠技能越厉害]]>
+		</content>
+	</guide>
+	<guide putWhere="48">
+		<content>
+<![CDATA[穿戴可获得个性化外形与各种属性\n30级时自动领悟新技能,装备齐3颗仙珠，可激活仙珠技能]]>
+		</content>
+	</guide>
+	<guide putWhere="49">
+		<content>
+<![CDATA[穿戴之后增加角色特殊攻击与防御属性\n使用礼券通过神秘商店兑换获得]]>
+		</content>
+	</guide>
+</role>

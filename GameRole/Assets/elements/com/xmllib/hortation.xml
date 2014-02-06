@@ -1,0 +1,12 @@
+<hor>
+	<data day="4" bind="yes" typeId="11100001" num="1" />
+	<data day="10" bind="yes" typeId="11100001" num="1" />
+	<data day="20" bind="yes" typeId="11100001" num="2" />
+	<data day="30" bind="yes" typeId="11100001" num="1" />
+	<data day="40" bind="no" typeId="11100001" num="1" />
+	<data day="50" bind="yes" typeId="11100001" num="5" />
+	<data day="60" bind="yes" typeId="11100001" num="1" />
+	<data day="80" bind="no" typeId="11100001" num="1" />
+	<data day="100" bind="yes" typeId="11100001" num="5" />
+	<data day="100" bind="yes" typeId="21000001" num="2" />
+</hor>

@@ -1,0 +1,343 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!-- ID 7位数：ABCDEFG A 大类； BCD 中类； EFG 小类  ID要与icon小图标资源名对应 前端小图标对应目录com\assets\achievement\achieveIcon\
+	giftGold 奖励多少元宝 giftTitle 奖励什么称号 giftGoods奖励的道具名字  giftFormula奖励的公式名字 
+	【item是奖励的ID（所有奖励都配置成了道具）按顺序：（元宝、称号、道具、公式）】 同一成就中，不能有1个以上的同类奖励
+	formulaStr="" totalProgress 最大进度   type 跟后端统一的一个值    str 若配置了，该成就就可以展开 '|n表示换行' '[ ]起来的部分用]后的色值显示'  如“完成[点梦成金]ffff00任务|n点梦成金”
+	炼制公式配置方法：<achieve name="元神飞仙" id="1002005" color="3" tip="全部元神升到16级" giftGold="10" giftTitle="" giftGoods="" giftFormula="玄麟冰羽" item="11804002|1,11806001|1" titleId="" formulaStr="|10119015,24+|10119014,120or|10102003,01=|10119008,01" totalProgress="16" type = "1" str=""/>
+-->
+<root>
+<achievement>
+	<type name="总览" id="9999999">			
+	</type>	
+	<type name="进行中" id="9999998">			
+	</type>	
+	<type name="支线" id="1000000">
+		<sub name="点梦成金" id="1001000">
+			<achieve name="淘金户" id="1001001" color="2" tip="点梦成金1次" giftGold="5" giftTitle="" giftGoods="" giftFormula=""  item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "7" str=""/>
+			<achieve name="奔小康" id="1001002" color="3" tip="点梦成金3次" giftGold="10" giftTitle="" giftGoods="" giftFormula=""  item="11804002|1" titleId="" formulaStr="" totalProgress="3" type = "7" str=""/>
+			<achieve name="暴发户" id="1001003" color="3" tip="点梦成金5次" giftGold="10" giftTitle="" giftGoods="" giftFormula=""  item="11804002|1" titleId="" formulaStr="" totalProgress="5" type = "7" str=""/>
+			<achieve name="有钱人" id="1001004" color="4" tip="点梦成金10次" giftGold="20" giftTitle="" giftGoods="" giftFormula=""  item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "7" str=""/>
+			<achieve name="煤老板" id="1001005" color="4" tip="点梦成金30次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="30" type = "7"  str=""/>
+			<achieve name="土财主" id="1001006" color="5" tip="点梦成金获得50000元宝" giftGold="50" giftTitle="土财主" giftGoods="" giftFormula="" item="11804006|1,11805001|1" titleId="230101" formulaStr="" totalProgress="50000" type = "33" str=""/>			
+		</sub>
+		
+		<sub name="元神修炼" id="1002000">
+			<achieve name="元神初练" id="1002001" color="2" tip="全部元神升到2级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="2" type = "1" str=""/>
+			<achieve name="元神炼气" id="1002002" color="2" tip="全部元神升到4级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="4" type = "1" str=""/>
+			<achieve name="元神筑基" id="1002003" color="2" tip="全部元神升到6级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="6" type = "1" str=""/>
+			<achieve name="元神结丹" id="1002004" color="3" tip="全部元神升到8级" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="8" type = "1" str=""/>
+			<achieve name="元神飞仙" id="1002005" color="3" tip="全部元神升到16级" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="16" type = "1" str=""/>	
+		</sub>
+		
+		<sub name="仙宠附身" id="1003000">
+			<achieve name="仙宠附身" id="1003001" color="2" tip="拥有2只附身仙宠" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="2" type = "2" str=""/>
+			<achieve name="再次附身" id="1003002" color="2" tip="拥有3只附身仙宠" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="3" type = "2" str=""/>
+			<achieve name="人宠合一" id="1003003" color="2" tip="拥有4只附身仙宠" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="4" type = "2" str=""/>
+		</sub>
+		
+    	<sub name="装备强化" id="1004000">
+			<achieve name="强化装备" id="1004001" color="2" tip="强化一件装备1级10星" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="110" type = "14" str=""/>
+			<achieve name="全身强化" id="1004002" color="2" tip="强化全套装备1级10星" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="10" type = "3052" str=""/>
+		</sub>
+	
+		<sub name="仙珠技能" id="1005000">
+			<achieve name="天火燎原" id="1005001" color="2" tip="学习仙珠技能[天火燎原]" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "3000" str=""/>
+			<achieve name="佛光普照" id="1005002" color="2" tip="学习仙珠技能[佛光普照]" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "3000"  str=""/>
+			<achieve name="飞瀑怒潮" id="1005003" color="2" tip="学习仙珠技能[飞瀑怒潮]" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "3000"  str=""/>
+			<achieve name="升级天火" id="1005004" color="2" tip="升级技能[天火燎原]（2级）" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="2" type = "3000" str=""/>
+			<achieve name="升级佛光" id="1005005" color="2" tip="升级技能[佛光普照]（2级）" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="2" type = "3000" str=""/>
+			<achieve name="升级飞瀑" id="1005006" color="2" tip="升级技能[飞瀑怒潮]（2级）" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="2" type = "3000" str=""/>
+			</sub>
+		
+		<sub name="仙宠技能" id="1006000">
+			<achieve name="金刚1级" id="1006001" color="2" tip="仙宠技能[金刚]升到1级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "3003" str=""/>
+			<achieve name="金刚7级" id="1006002" color="2" tip="仙宠技能[金刚]升到7级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="7" type = "3003" str=""/>
+			<achieve name="16个技能" id="1006003" color="2" tip="1只仙宠拥有16个技能" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="16" type = "18" str=""/>
+			<achieve name="46个技能" id="1006004" color="4" tip="1只仙宠拥有46个技能" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="46" type = "18" str=""/>
+			<achieve name="技能满格" id="1006005" color="5" tip="5只仙宠拥有46个技能" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="5" type = "2502" str=""/>
+			</sub>
+		
+		<sub name="六界寻宝" id="1007000">
+			<achieve name="超级召唤" id="1007001" color="2" tip="六界寻宝获得超级召唤符" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2000" str=""/>
+			<achieve name="六界寻宝" id="1007002" color="2" tip="完成所有特殊事件1至10" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="10" type = "1500" str=""/>
+		</sub>	
+		
+ 		<sub name="职业技能" id="1008000">
+			<achieve name="职业技能" id="1008001" color="3" tip="学习全部职业技能" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="12" type = "9000" str=""/>
+			<achieve name="技能满级" id="1008002" color="4" tip="全部职业技能满20级" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="12" type = "9001" str=""/>
+		</sub>
+	
+		<sub name="坐骑等级" id="1009000">
+			<achieve name="坐骑30级" id="1009001" color="2" tip="坐骑升到30级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="30" type = "12" str=""/>
+			<achieve name="坐骑50级" id="1009002" color="3" tip="坐骑升到50级" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="50" type = "12" str=""/>
+			<achieve name="坐骑80级" id="1009003" color="4" tip="坐骑升到80级" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="80" type = "12" str=""/>
+		</sub>
+		
+		<sub name="坐骑形象" id="1010000">
+			<achieve name="霓光仙鱼" id="1010001" color="2" tip="获得霓光仙鱼形象" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="迅影灵狐" id="1010002" color="2" tip="获得迅影灵狐形象" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="蛋蛋鸟" id="1010003" color="2" tip="获得蛋蛋鸟形象" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="紫电魔狼" id="1010004" color="2" tip="获得紫电魔狼形象" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="九幽蝎王" id="1010005" color="3" tip="获得九幽蝎王形象" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="紫虹噬日兽" id="1010006" color="4" tip="获得紫虹噬日兽形象" giftGold="20" giftTitle="" giftGoods="1" giftFormula="" item="11804003|1,10902360|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="独角兽" id="1010007" color="4" tip="获得独角兽形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name=" 青 鸾 " id="1010008" color="4" tip="获得青鸾形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="泡泡龙" id="1010009" color="4" tip="获得泡泡龙形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="驯鹿雪橇" id="1010010" color="4" tip="获得驯鹿雪橇形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="星际飞船" id="1010011" color="4" tip="获得星际飞船形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="幽灵马（蓝）" id="1010012" color="4" tip="获得幽灵马（蓝）形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="幽灵马（粉）" id="1010013" color="4" tip="获得幽灵马（粉）形象" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			<achieve name="六界神龙" id="1010014" color="5" tip="获得六界神龙形象" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="1" type = "2001" str=""/>
+			
+		</sub>	
+		
+		<sub name="羽翼数量" id="1011000">
+			<achieve name="羽翼1对" id="1011001" color="2" tip="获得1对羽翼" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "9" str=""/>
+			<achieve name="羽翼3对" id="1011002" color="3" tip="获得3对羽翼" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="3" type = "9" str=""/>
+			<achieve name="羽翼6对" id="1011003" color="4" tip="获得6对羽翼" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="6" type = "9" str=""/>
+			<achieve name="神圣之羽" id="1011004" color="6" tip="获得9对羽翼" giftGold="5000" giftTitle="真神降临" giftGoods="" giftFormula="" item="11804012|1,11805003|1" titleId="230303" formulaStr="" totalProgress="9" type = "9" str=""/>
+		</sub>	
+		
+		<sub name="角色等级" id="1012000">
+			<achieve name="角色40级" id="1012001" color="2" tip="角色升到40级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="40" type = "8" str=""/>
+			<achieve name="角色50级" id="1012002" color="2" tip="角色升到50级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="50" type = "8" str=""/>
+			<achieve name="角色60级" id="1012003" color="3" tip="角色升到60级" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="60" type = "8" str=""/>
+			<achieve name="角色70级" id="1012004" color="3" tip="角色升到70级" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="70" type = "8" str=""/>
+			<achieve name="角色80级" id="1012005" color="4" tip="角色升到80级" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="80" type = "8" str=""/>
+			<achieve name="角色90级" id="1012006" color="4" tip="角色升到90级" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="90" type = "8" str=""/>
+			<achieve name="角色100级" id="1012007" color="5" tip="角色升到100级" giftGold="50" giftTitle="追风少年" giftGoods="" giftFormula="" item="11804006|1,11805005|1" titleId="230505" formulaStr="" totalProgress="100" type = "8" str=""/>
+		</sub>			
+
+     	<sub name="角色装备" id="1013000">
+			<achieve name="紫色装备" id="1013001" color="4" tip="集齐整套紫色装备" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "3053" str=""/>
+			<achieve name="橙色装备" id="1013002" color="5" tip="集齐整套橙色装备" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="10" type = "3053" str=""/>
+			<achieve name="金色装备" id="1013003" color="6" tip="集齐整套金色装备" giftGold="1500" giftTitle="" giftGoods="" giftFormula="" item="11804013|1" titleId="" formulaStr="" totalProgress="10" type = "3053" str=""/>
+		</sub>			
+
+		<sub name="时装数量" id="1014000">
+			<achieve name="1套时装" id="1014001" color="2" tip="拥有1套永久时装" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "17" str=""/>
+			<achieve name="3套时装" id="1014002" color="3" tip="拥有3套永久时装" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="3" type = "17" str=""/>
+			<achieve name="5套时装" id="1014003" color="4" tip="拥有5套永久时装" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="5" type = "17" str=""/>
+			<achieve name="10套时装" id="1014004" color="5" tip="拥有10套永久时装" giftGold="50" giftTitle="绝代风华" giftGoods="" giftFormula="" item="11804006|1,11805009|1" titleId="230909" formulaStr="" totalProgress="10" type = "17" str=""/>
+		</sub>			
+	
+		<sub name="仙宠数量" id="1015000">
+			<achieve name="紫色仙宠" id="1015001" color="4" tip="同时携带5只紫色仙宠" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="5" type = "2500" str=""/>
+			<achieve name="橙色仙宠" id="1015002" color="5" tip="同时携带5只橙色仙宠" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="5" type = "2500" str=""/>
+			<achieve name="金色仙宠" id="1015003" color="6" tip="同时携带5只金色仙宠" giftGold="2000" giftTitle="" giftGoods="" giftFormula="" item="11804014|1" titleId="" formulaStr="" totalProgress="5" type = "2500" str=""/>
+		</sub>			
+
+		<sub name="兽魂数量" id="1016000">
+			<achieve name="装备兽魂" id="1016001" color="2" tip="1只仙宠装备5个紫色兽魂" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="5" type = "2503" str=""/>
+			<achieve name="紫色兽魂" id="1016002" color="3" tip="5只仙宠同时装备5个紫色兽魂" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="5" type = "9002" str=""/>
+			<achieve name="橙色兽魂" id="1016003" color="4" tip="5只仙宠同时装备5个橙色兽魂" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="5" type = "9002" str=""/>
+			<achieve name="金色兽魂" id="1016004" color="5" tip="5只仙宠同时装备5个金色兽魂" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="5" type = "9002" str=""/>
+		</sub>			
+
+		<sub name="宠物等级" id="1017000">
+			<achieve name="初级训宠师" id="1017001" color="2" tip="5只仙宠等级到达40级" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="5" type = "2501" str=""/>
+			<achieve name="中级训宠师" id="1017002" color="3" tip="5只仙宠等级到达60级" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="5" type = "2501" str=""/>
+			<achieve name="高级训宠师" id="1017003" color="4" tip="5只仙宠等级到达80级" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="5" type = "2501" str=""/>
+			<achieve name="顶级训宠师" id="1017004" color="5" tip="5只仙宠等级到达100级" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="5" type = "2501" str=""/>
+		</sub>			
+
+	</type>	
+
+	<type name="玩法" id="2000000">
+		<sub name="回魂仙梦" id="2001000">
+			<achieve name="仙梦20关" id="2001001" color="2" tip="3星通关回魂仙梦20关" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2002" str=""/>
+			<achieve name="仙梦30关" id="2001002" color="2" tip="3星通关回魂仙梦30关" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2002" str=""/>
+			<achieve name="仙梦40关" id="2001003" color="3" tip="3星通关回魂仙梦40关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1" type = "2002" str=""/>
+			<achieve name="仙梦50关" id="2001004" color="3" tip="3星通关回魂仙梦50关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1" type = "2002" str=""/>
+			<achieve name="仙梦60关" id="2001005" color="3" tip="3星通关回魂仙梦60关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1" type = "2002" str=""/>
+			<achieve name="仙梦70关" id="2001006" color="4" tip="3星通关回魂仙梦70关" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "2002" str=""/>
+			<achieve name="仙梦80关" id="2001007" color="5" tip="3星通关回魂仙梦80关" giftGold="50" giftTitle="仙梦至尊" giftGoods="" giftFormula="" item="11804006|1,11805008|1" titleId="230808" formulaStr="" totalProgress="1" type = "2002" str=""/>
+		</sub>	
+
+		<sub name="幻兽天境" id="2002000">
+			<achieve name="幻兽40关" id="2002001" color="2" tip="完胜通关幻兽天境40关" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="40" type = "3002" str=""/>
+			<achieve name="幻兽50关" id="2002002" color="2" tip="完胜通关幻兽天境50关" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="50" type = "3002" str=""/>
+			<achieve name="幻兽60关" id="2002003" color="2" tip="完胜通关幻兽天境60关" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="60" type = "3002" str=""/>
+			<achieve name="幻兽70关" id="2002004" color="2" tip="完胜通关幻兽天境70关" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="70" type = "3002" str=""/>
+			<achieve name="幻兽80关" id="2002005" color="3" tip="完胜通关幻兽天境80关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="80" type = "3002" str=""/>
+			<achieve name="幻兽90关" id="2002006" color="3" tip="完胜通关幻兽天境90关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="90" type = "3002" str=""/>
+			<achieve name="幻兽100关" id="2002007" color="3" tip="完胜通关幻兽天境100关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "3002" str=""/>
+			<achieve name="幻兽110关" id="2002008" color="3" tip="完胜通关幻兽天境110关" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="110" type = "3002" str=""/>
+			<achieve name="幻兽120关" id="2002009" color="4" tip="完胜通关幻兽天境120关" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="120" type = "3002" str=""/>
+			<achieve name="幻兽130关" id="2002010" color="4" tip="完胜通关幻兽天境130关" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="130" type = "3002" str=""/>
+			<achieve name="幻兽140关" id="2002011" color="4" tip="完胜通关幻兽天境140关" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="140" type = "3002" str=""/>
+			<achieve name="幻兽150关" id="2002012" color="5" tip="完胜通关幻兽天境150关" giftGold="50" giftTitle="幻兽至尊" giftGoods="" giftFormula="" item="11804006|1,11805006|1" titleId="230606" formulaStr="" totalProgress="150" type = "3002" str=""/>
+		</sub>			
+
+		<sub name="天绝斗法" id="2003000">
+			<achieve name="杀敌30" id="2003001" color="2" tip="单场杀敌30次" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="30" type = "27" str=""/>
+			<achieve name="杀敌50" id="2003002" color="3" tip="单场杀敌50次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="50" type = "27" str=""/>
+			<achieve name="杀敌100" id="2003003" color="4" tip="单场杀敌100次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="100" type = "27" str=""/>
+			<achieve name="小强精神" id="2003004" color="2" tip="累计被杀100次" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="100" type = "28" str=""/>
+			<achieve name="杀敌1000" id="2003005" color="3" tip="累计杀敌1000次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1000" type = "29" str=""/>
+			<achieve name="杀敌5000" id="2003006" color="4" tip="累计杀敌5000次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="5000" type = "29" str=""/>
+			<achieve name="积分50000" id="2003007" color="4" tip="累计获得积分50000分" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="50000" type = "30" str=""/>
+		</sub>				
+
+		<sub name="修罗战场" id="2004000">
+			<achieve name="修罗5层" id="2004001" color="3" tip="上到修罗战场第5层" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="5" type = "25" str=""/>
+			<achieve name="修罗10层" id="2004002" color="4" tip="上到修罗战场第10层" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "25" str=""/>
+			<achieve name="修罗15层" id="2004003" color="4" tip="上到修罗战场第15层" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="15" type = "25" str=""/>
+		    <achieve name="修罗战神" id="2004004" color="5" tip="连续10次上到修罗战场第15层" giftGold="50" giftTitle="修罗战神" giftGoods="" giftFormula="" item="11804006|1,11805007|1" titleId="230707" formulaStr="" totalProgress="10" type = "1002" str=""/>	
+		</sub>	
+
+		<sub name="天降横财" id="2005000">
+			<achieve name="横财在手" id="2005001" color="3" tip="成功采集100个宝箱" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "24" str=""/>
+			<achieve name="夺宝奇兵" id="2005002" color="4" tip="成功采集300个宝箱" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "24" str=""/>
+		</sub>	
+
+		<sub name="世界BOSS" id="2006000">
+			<achieve name="紫羽玄风虎" id="2006001" color="3" tip="击杀紫羽玄风虎10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41000701" str=""/>
+			<achieve name="赤炎金猊兽" id="2006002" color="3" tip="击杀赤炎金猊兽10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41100701" str=""/>
+			<achieve name="火云金睛猿" id="2006003" color="3" tip="击杀火云金睛猿10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41200701" str=""/>
+			<achieve name="狂刀鬼影" id="2006004" color="3" tip="击杀狂刀鬼影10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41900701" str=""/>
+			<achieve name="锤天魔狼" id="2006005" color="3" tip="击杀锤天魔狼10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "42000701" str=""/>
+			<achieve name="千手妖君" id="2006006" color="3" tip="击杀千手妖君10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "42100701" str=""/>
+			<achieve name="碧睛虎王" id="2006007" color="3" tip="击杀碧睛虎王10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41300701" str=""/>
+			<achieve name="勾魂蛇姬" id="2006008" color="3" tip="击杀勾魂蛇姬10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41400701" str=""/>
+			<achieve name="执法魔君" id="2006009" color="3" tip="击杀执法魔君10次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "41500701" str=""/>
+			<achieve name="玄武魔君" id="2006010" color="4" tip="击杀玄武魔君10次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "42200701" str=""/>
+			<achieve name="青冥鬼王" id="2006011" color="4" tip="击杀青冥鬼王10次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "42300701" str=""/>
+			<achieve name="疾风影魔" id="2006012" color="4" tip="击杀疾风影魔10次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "42400701" str=""/>
+		</sub>			
+
+		<sub name="护送寒冰" id="2007000">
+			<achieve name="护送寒冰" id="2007001" color="3" tip="护送橙色寒冰100次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "36" str=""/>
+			<achieve name="寒冰守护者" id="2007002" color="4" tip="护送橙色寒冰300次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "36" str=""/>
+		</sub>	
+		
+		<sub name="女娲神殿" id="2008000">
+			<achieve name="守护女娲" id="2008001" color="4" tip="女娲神殿副本通关（单人）" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "50" str=""/>
+			<achieve name="神级守护" id="2008002" color="5" tip="女娲神殿林青儿不损血通关（精英）" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="1" type = "49" str=""/>
+		</sub>	
+		
+		<sub name="凤鸣棋谷" id="2009000">
+			<achieve name="棋灵王" id="2009001" color="4" tip="凤鸣祺谷获得6000分" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="6000" type = "45" str=""/>
+			<achieve name="13连击" id="2009002" color="4" tip="凤鸣祺谷获得13连击" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="13" type = "44" str=""/>
+		</sub>	
+		
+		<sub name="六界降妖" id="2010000">
+			<achieve name="降妖卫士" id="2010001" color="4" tip="完成250次橙色六界降妖任务" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="250" type = "48" str=""/>
+			<achieve name="降妖大神" id="2010002" color="5" tip="完成500次橙色六界降妖任务" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="500" type = "48" str=""/>
+		</sub>	
+		
+		<sub name="诛魔令任务" id="2011000">
+			<achieve name="发布100次" id="2011001" color="3" tip="发布100次橙色任务" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "43" str=""/>
+			<achieve name="接受100次" id="2011002" color="3" tip="接受100次橙色任务" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "42" str=""/>
+			<achieve name="发布300次" id="2011003" color="4" tip="发布300次橙色任务" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "43" str=""/>
+			<achieve name="接受300次" id="2011004" color="4" tip="接受300次橙色任务" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "42" str=""/>
+		</sub>	
+		
+		<sub name="仙宠盟战" id="2012000">
+			<achieve name="100场胜利" id="2012001" color="3" tip="在仙宠盟战获得过100场胜利" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "41" str=""/>
+			<achieve name="1000场胜利" id="2012002" color="4" tip="在仙宠盟战获得过1000场胜利" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1000" type = "41" str=""/>
+			<achieve name="最宠仙盟" id="2012003" color="4" tip="仙宠盟战所在仙盟排行第1" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1" type = "51" str=""/>
+			<achieve name="仙宠霸主" id="2012004" color="5" tip="连续5次仙宠盟战个人排行第1" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="5" type = "1000" str=""/>
+		</sub>	
+		
+		<sub name="仙宠竞技场" id="2013000">
+			<achieve name="奴隶主" id="2013001" color="4" tip="抓捕300个奴隶" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "39" str=""/>
+			<achieve name="奴隶英雄" id="2013002" color="4" tip="解救奴隶300次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "40" str=""/>
+		</sub>	
+
+		<sub name="仙宠漫步" id="2014000">
+			<achieve name="摸摸500次" id="2014001" color="3" tip="进行摸摸500次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="500" type = "38" str=""/>
+			<achieve name="摸摸1000次" id="2014002" color="4" tip="进行摸摸1000次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1000" type = "38" str=""/>
+			<achieve name="问好100次" id="2014003" color="3" tip="进行问好100次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="100" type = "37" str=""/>
+			<achieve name="问好300次" id="2014004" color="4" tip="进行问好300次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="300" type = "37" str=""/>
+		</sub>	
+
+		<sub name="黄金沙滩" id="2015000">
+			<achieve name="飞吻500次" id="2015001" color="3" tip="飞吻500次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="500" type = "35" str=""/>
+			<achieve name="飞吻1000次" id="2015002" color="4" tip="飞吻1000次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1000" type = "35" str=""/>
+			<achieve name="锤子500次" id="2015003" color="3" tip="锤子500次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="500" type = "34" str=""/>
+			<achieve name="锤子1500次" id="2015004" color="4" tip="锤子1500次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="1500" type = "34" str=""/>
+		</sub>	
+
+		<sub name="答题玩法" id="2016000">
+			<achieve name="鸿运当头" id="2016001" color="3" tip="答题拿幸运奖1次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1" type = "47" str=""/>
+			<achieve name="金榜题名" id="2016002" color="3" tip="答题第1名1次" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="1" type = "46" str=""/>
+			<achieve name="连中三元" id="2016003" color="4" tip="答题第1名10次" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "46" str=""/>
+			<achieve name="高考状元" id="2016004" color="5" tip="连续5次答题第1名" giftGold="50" giftTitle="高考状元" giftGoods="" giftFormula="" item="11804006|1,11805002|1" titleId="230202" formulaStr="" totalProgress="5" type = "1001" str=""/>
+		</sub>	
+		
+		<sub name="斩魂殿" id="2017000">
+			<achieve name="魂之守卫" id="2017001" color="5" tip="斩魂殿副本通关" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="1" type = "52" str=""/>
+		</sub>
+
+
+	</type>	
+	
+	<type name="养成" id="3000000">
+         <sub name="装备强化" id="3001000">
+			<achieve name="2级10星" id="3001001" color="2" tip="强化全套装备2级10星" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="10" type = "3052" str=""/>
+			<achieve name="5级10星" id="3001002" color="4" tip="强化全套装备5级10星" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "3052" str=""/>
+			<achieve name="8级10星" id="3001003" color="5" tip="强化全套装备8级10星" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="10" type = "3052" str=""/>
+			<achieve name="10级10星" id="3001004" color="6" tip="强化全套装备10级10星" giftGold="5000" giftTitle="" giftGoods="" giftFormula="" item="11804012|1" titleId="" formulaStr="" totalProgress="10" type = "3052" str=""/>
+		</sub>	
+		
+         <sub name="装备附魂" id="3002000">
+			<achieve name="3条2星" id="3002001" color="2" tip="1件装备附魂3条2星" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "2504" str=""/>
+			<achieve name="4条3星" id="3002002" color="3" tip="全身装备附魂4条3星" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "9003" str=""/>
+			<achieve name="5条5星" id="3002003" color="3" tip="全身装备附魂5条5星" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "9003" str=""/>
+			<achieve name="6条7星" id="3002004" color="4" tip="全身装备附魂6条7星" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "9003" str=""/>
+			<achieve name="6条10星" id="3002005" color="5" tip="全身装备附魂6条10星" giftGold="50" giftTitle="" giftGoods="" giftFormula="" item="11804006|1" titleId="" formulaStr="" totalProgress="10" type = "9003" str=""/>
+		</sub>	
+		
+		<sub name="灵石镶嵌" id="3003000">
+			<achieve name="3级灵石" id="3003001" color="2" tip="镶嵌1颗3级灵石" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="1" type = "54" str=""/>
+			<achieve name="6级灵石" id="3003002" color="6" tip="全身装备镶嵌满6级绑定灵石" giftGold="5000" giftTitle="" giftGoods="" giftFormula="" item="11804012|1" titleId="" formulaStr="" totalProgress="10" type = "3500" str=""/>
+		</sub>	
+
+		<sub name="装备品质" id="3004000">
+			<achieve name="精良品质" id="3004001" color="2" tip="全身装备品质提升到精良" giftGold="5" giftTitle="" giftGoods="" giftFormula="" item="11804001|1" titleId="" formulaStr="" totalProgress="10" type = "3501" str=""/>
+			<achieve name="优秀品质" id="3004002" color="3" tip="全身装备品质提升到优秀" giftGold="10" giftTitle="" giftGoods="" giftFormula="" item="11804002|1" titleId="" formulaStr="" totalProgress="10" type = "3501" str=""/>
+			<achieve name="无暇品质" id="3004003" color="4" tip="全身装备品质提升到无暇" giftGold="20" giftTitle="" giftGoods="" giftFormula="" item="11804003|1" titleId="" formulaStr="" totalProgress="10" type = "3501" str=""/>
+			<achieve name="完美品质" id="3004004" color="6" tip="全身装备品质提升到完美" giftGold="5000" giftTitle="" giftGoods="" giftFormula="" item="11804012|1" titleId="" formulaStr="" totalProgress="10" type = "3501" str=""/>
+		</sub>	
+	</type>	
+	
+	<type name="社交" id="4000000">
+	  	<sub name="后续开放" id="4001000">
+		</sub>				
+	</type>	
+	
+	<type name="收集" id="5000000">
+	  	<sub name="后续开放" id="5001000">
+		</sub>				
+	</type>	
+	
+</achievement>
+
+<share>	
+		<item content="#六界仙尊#我今天达成了|achieveName的成就，登上了新的高峰哦！哈哈哈，你要跟我一决高下吗？那就快来比一比吧！" />
+		<item content="#六界仙尊#哈哈哈，我的成就榜上又增加了一个新成就|achieveName哦！快来比一比，看谁达到的成就多吧！" />
+		<item content="#六界仙尊#哈哈哈，今天我轻轻松松就达成了|achieveName的成就，系统送给了我一大堆元宝，真是爽呆了！你还等什么，快来跟我一起玩吧！" />
+		<item content="#六界仙尊#今天我终于达成了|achieveName的成就，不仅惊呆了小伙伴们，更引来一群妹子疯狂围观，简直爽呆了！你还等什么，快来跟我一起玩吧！" />
+</share>
+
+<title>	
+		<item title="成就新秀" achiMinNum="0" achiMaxNum="49" color="#86FF05" iconColor="2"/>
+		<item title="成就俊杰" achiMinNum="50" achiMaxNum="99" color="#86FF05" iconColor="2"/>
+		<item title="成就精英" achiMinNum="100" achiMaxNum="199" color="#05CDFF" iconColor="3"/>
+		<item title="成就达人" achiMinNum="200" achiMaxNum="299" color="#05CDFF" iconColor="3"/>
+		<item title="成就名匠" achiMinNum="300" achiMaxNum="399" color="#FF00FC" iconColor="4"/>
+		<item title="成就巨匠" achiMinNum="400" achiMaxNum="499" color="#FF00FC" iconColor="4"/>
+<!--	<item title="成就大师" achiMinNum="500" achiMaxNum="599" color="#FF9600" iconColor="5"/>
+		<item title="成就宗师" achiMinNum="600" achiMaxNum="699" color="#FF9600" iconColor="5"/>
+		<item title="成就亚圣" achiMinNum="700" achiMaxNum="799" color="#FFEA05" iconColor="6"/>
+		<item title="成就大圣" achiMinNum="800" achiMaxNum="899" color="#FFEA05" iconColor="6"/>
+		<item title="成就圣尊" achiMinNum="900" achiMaxNum="10000" color="#FFEA05" iconColor="6"/>
+-->
+</title>
+
+</root>
+
+
+
+

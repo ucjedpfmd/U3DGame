@@ -31,7 +31,7 @@ public class RichAvatar : IAvatar
 	override public void resetSkin(int skinID, int sex)
 	{
 		if(body == null){
-			GameObject sour = Resources.LoadAssetAtPath("Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX", typeof(GameObject)) as GameObject;
+            GameObject sour = Resources.LoadAssetAtPath(AvatarUtil.getAvatarFBXBySkinID(skinID), typeof(GameObject)) as GameObject;
 			body = GameObject.Instantiate(sour) as GameObject;
 		}
 		body.transform.parent = bodyLayer.transform;

@@ -1,0 +1,142 @@
+﻿<?xml  version="1.0" encoding="UTF-8"?>
+<cookSkill>
+	<items>
+		<item skillID="100" skillName="采集产量（0级）" upInfo="采集产量：+0%" needLV="2" needCoin="279273" imgName="skill_101" isMax="0"/>
+		<item skillID="101" skillName="采集产量（1级）" upInfo="采集产量：+1%" needLV="4" needCoin="558545" imgName="skill_101" isMax="0"/>
+		<item skillID="102" skillName="采集产量（2级）" upInfo="采集产量：+2%" needLV="6" needCoin="837818" imgName="skill_101" isMax="0"/>
+		<item skillID="103" skillName="采集产量（3级）" upInfo="采集产量：+3%" needLV="8" needCoin="1117091" imgName="skill_101" isMax="0"/>
+		<item skillID="104" skillName="采集产量（4级）" upInfo="采集产量：+4%" needLV="10" needCoin="1396364" imgName="skill_101" isMax="0"/>
+		<item skillID="105" skillName="采集产量（5级）" upInfo="采集产量：+5%" needLV="12" needCoin="1675636" imgName="skill_101" isMax="0"/>
+		<item skillID="106" skillName="采集产量（6级）" upInfo="采集产量：+6%" needLV="14" needCoin="1954909" imgName="skill_101" isMax="0"/>
+		<item skillID="107" skillName="采集产量（7级）" upInfo="采集产量：+7%" needLV="16" needCoin="2234182" imgName="skill_101" isMax="0"/>
+		<item skillID="108" skillName="采集产量（8级）" upInfo="采集产量：+8%" needLV="18" needCoin="2513455" imgName="skill_101" isMax="0"/>
+		<item skillID="109" skillName="采集产量（9级）" upInfo="采集产量：+9%" needLV="20" needCoin="2792727" imgName="skill_101" isMax="0"/>
+		<item skillID="110" skillName="采集产量（10级）" upInfo="采集产量：+10%" needLV="20" needCoin="2792727" imgName="skill_101" isMax="1"/>
+
+		<item skillID="200" skillName="体力上限（0级）" upInfo="体力上限：100" needLV="2" needCoin="279273" imgName="skill_201" isMax="0"/>
+		<item skillID="201" skillName="体力上限（1级）" upInfo="体力上限：101" needLV="4" needCoin="558545" imgName="skill_201" isMax="0"/>
+		<item skillID="202" skillName="体力上限（2级）" upInfo="体力上限：102" needLV="6" needCoin="837818" imgName="skill_201" isMax="0"/>
+		<item skillID="203" skillName="体力上限（3级）" upInfo="体力上限：103" needLV="8" needCoin="1117091" imgName="skill_201" isMax="0"/>
+		<item skillID="204" skillName="体力上限（4级）" upInfo="体力上限：104" needLV="10" needCoin="1396364" imgName="skill_201" isMax="0"/>
+		<item skillID="205" skillName="体力上限（5级）" upInfo="体力上限：105" needLV="12" needCoin="1675636" imgName="skill_201" isMax="0"/>
+		<item skillID="206" skillName="体力上限（6级）" upInfo="体力上限：106" needLV="14" needCoin="1954909" imgName="skill_201" isMax="0"/>
+		<item skillID="207" skillName="体力上限（7级）" upInfo="体力上限：107" needLV="16" needCoin="2234182" imgName="skill_201" isMax="0"/>
+		<item skillID="208" skillName="体力上限（8级）" upInfo="体力上限：108" needLV="18" needCoin="2513455" imgName="skill_201" isMax="0"/>
+		<item skillID="209" skillName="体力上限（9级）" upInfo="体力上限：109" needLV="20" needCoin="2792727" imgName="skill_201" isMax="0"/>
+		<item skillID="210" skillName="体力上限（10级）" upInfo="体力上限：110" needLV="20" needCoin="2792727" imgName="skill_201" isMax="1"/>
+
+		<item skillID="300" skillName="接受次数（0级）" upInfo="接受体力：+0次" needLV="2" needCoin="279273" imgName="skill_301" isMax="0"/>
+		<item skillID="301" skillName="接受次数（1级）" upInfo="接受体力：+1次" needLV="4" needCoin="558545" imgName="skill_301" isMax="0"/>
+		<item skillID="302" skillName="接受次数（2级）" upInfo="接受体力：+2次" needLV="6" needCoin="837818" imgName="skill_301" isMax="0"/>
+		<item skillID="303" skillName="接受次数（3级）" upInfo="接受体力：+3次" needLV="8" needCoin="1117091" imgName="skill_301" isMax="0"/>
+		<item skillID="304" skillName="接受次数（4级）" upInfo="接受体力：+4次" needLV="10" needCoin="1396364" imgName="skill_301" isMax="0"/>
+		<item skillID="305" skillName="接受次数（5级）" upInfo="接受体力：+5次" needLV="10" needCoin="1396364" imgName="skill_301" isMax="1"/>
+
+		<item skillID="400" skillName="厨艺-色（0级）" upInfo="厨艺-色：+0%" needLV="2" needCoin="279273" imgName="skill_401" isMax="0"/>
+		<item skillID="401" skillName="厨艺-色（1级）" upInfo="厨艺-色：+1%" needLV="4" needCoin="558545" imgName="skill_401" isMax="0"/>
+		<item skillID="402" skillName="厨艺-色（2级）" upInfo="厨艺-色：+2%" needLV="6" needCoin="837818" imgName="skill_401" isMax="0"/>
+		<item skillID="403" skillName="厨艺-色（3级）" upInfo="厨艺-色：+3%" needLV="8" needCoin="1117091" imgName="skill_401" isMax="0"/>
+		<item skillID="404" skillName="厨艺-色（4级）" upInfo="厨艺-色：+4%" needLV="10" needCoin="1396364" imgName="skill_401" isMax="0"/>
+		<item skillID="405" skillName="厨艺-色（5级）" upInfo="厨艺-色：+5%" needLV="12" needCoin="1675636" imgName="skill_401" isMax="0"/>
+		<item skillID="406" skillName="厨艺-色（6级）" upInfo="厨艺-色：+6%" needLV="14" needCoin="1954909" imgName="skill_401" isMax="0"/>
+		<item skillID="407" skillName="厨艺-色（7级）" upInfo="厨艺-色：+7%" needLV="16" needCoin="2234182" imgName="skill_401" isMax="0"/>
+		<item skillID="408" skillName="厨艺-色（8级）" upInfo="厨艺-色：+8%" needLV="18" needCoin="2513455" imgName="skill_401" isMax="0"/>
+		<item skillID="409" skillName="厨艺-色（9级）" upInfo="厨艺-色：+9%" needLV="20" needCoin="2792727" imgName="skill_401" isMax="0"/>
+		<item skillID="410" skillName="厨艺-色（10级）" upInfo="厨艺-色：+10%" needLV="20" needCoin="2792727" imgName="skill_401" isMax="1"/>
+
+		<item skillID="500" skillName="厨艺-香（0级）" upInfo="厨艺-香：+0%" needLV="2" needCoin="279273" imgName="skill_501" isMax="0"/>
+		<item skillID="501" skillName="厨艺-香（1级）" upInfo="厨艺-香：+1%" needLV="4" needCoin="558545" imgName="skill_501" isMax="0"/>
+		<item skillID="502" skillName="厨艺-香（2级）" upInfo="厨艺-香：+2%" needLV="6" needCoin="837818" imgName="skill_501" isMax="0"/>
+		<item skillID="503" skillName="厨艺-香（3级）" upInfo="厨艺-香：+3%" needLV="8" needCoin="1117091" imgName="skill_501" isMax="0"/>
+		<item skillID="504" skillName="厨艺-香（4级）" upInfo="厨艺-香：+4%" needLV="10" needCoin="1396364" imgName="skill_501" isMax="0"/>
+		<item skillID="505" skillName="厨艺-香（5级）" upInfo="厨艺-香：+5%" needLV="12" needCoin="1675636" imgName="skill_501" isMax="0"/>
+		<item skillID="506" skillName="厨艺-香（6级）" upInfo="厨艺-香：+6%" needLV="14" needCoin="1954909" imgName="skill_501" isMax="0"/>
+		<item skillID="507" skillName="厨艺-香（7级）" upInfo="厨艺-香：+7%" needLV="16" needCoin="2234182" imgName="skill_501" isMax="0"/>
+		<item skillID="508" skillName="厨艺-香（8级）" upInfo="厨艺-香：+8%" needLV="18" needCoin="2513455" imgName="skill_501" isMax="0"/>
+		<item skillID="509" skillName="厨艺-香（9级）" upInfo="厨艺-香：+9%" needLV="20" needCoin="2792727" imgName="skill_501" isMax="0"/>
+		<item skillID="510" skillName="厨艺-香（10级）" upInfo="厨艺-香：+10%" needLV="20" needCoin="2792727" imgName="skill_501" isMax="1"/>		
+
+		<item skillID="600" skillName="厨艺-味（0级）" upInfo="厨艺-味：+0%" needLV="2" needCoin="279273" imgName="skill_601" isMax="0"/>
+		<item skillID="601" skillName="厨艺-味（1级）" upInfo="厨艺-味：+1%" needLV="4" needCoin="558545" imgName="skill_601" isMax="0"/>
+		<item skillID="602" skillName="厨艺-味（2级）" upInfo="厨艺-味：+2%" needLV="6" needCoin="837818" imgName="skill_601" isMax="0"/>
+		<item skillID="603" skillName="厨艺-味（3级）" upInfo="厨艺-味：+3%" needLV="8" needCoin="1117091" imgName="skill_601" isMax="0"/>
+		<item skillID="604" skillName="厨艺-味（4级）" upInfo="厨艺-味：+4%" needLV="10" needCoin="1396364" imgName="skill_601" isMax="0"/>
+		<item skillID="605" skillName="厨艺-味（5级）" upInfo="厨艺-味：+5%" needLV="12" needCoin="1675636" imgName="skill_601" isMax="0"/>	
+		<item skillID="606" skillName="厨艺-味（6级）" upInfo="厨艺-味：+6%" needLV="14" needCoin="1954909" imgName="skill_601" isMax="0"/>
+		<item skillID="607" skillName="厨艺-味（7级）" upInfo="厨艺-味：+7%" needLV="16" needCoin="2234182" imgName="skill_601" isMax="0"/>
+		<item skillID="608" skillName="厨艺-味（8级）" upInfo="厨艺-味：+8%" needLV="18" needCoin="2513455" imgName="skill_601" isMax="0"/>
+		<item skillID="609" skillName="厨艺-味（9级）" upInfo="厨艺-味：+9%" needLV="20" needCoin="2792727" imgName="skill_601" isMax="0"/>
+		<item skillID="610" skillName="厨艺-味（10级）" upInfo="厨艺-味：+10%" needLV="20" needCoin="2792727" imgName="skill_601" isMax="1"/>
+		
+		<!-- 切水果刀具技术等级 -->		
+		<item skillID="700" skillName="刀具（0级）" upInfo="解锁水果乱舞水果刀" needLV="2" needCoin="279273" imgName="skill_701" isMax="0"/>
+		<item skillID="701" skillName="刀具（1级）" upInfo="解锁水果乱舞绿影刀" needLV="4" needCoin="558545" imgName="skill_701" isMax="0"/>
+		<item skillID="702" skillName="刀具（2级）" upInfo="解锁水果乱舞屠龙刀" needLV="6" needCoin="837818" imgName="skill_701" isMax="0"/>
+		<item skillID="703" skillName="刀具（3级）" upInfo="解锁水果乱舞火焰刀" needLV="8" needCoin="1117091" imgName="skill_701" isMax="0"/>
+		<item skillID="704" skillName="刀具（4级）" upInfo="解锁水果乱舞光束刀" needLV="8" needCoin="1117091" imgName="skill_701" isMax="1"/>
+		
+		<!-- 找你妹的总时间技术等级（加班达人） -->
+		<item skillID="800" skillName="加班达人（0级）" upInfo="初始游戏时间增加至60秒" needLV="2" needCoin="279273" imgName="skill_801" isMax="0"/>
+		<item skillID="801" skillName="加班达人（1级）" upInfo="初始游戏时间增加至65秒" needLV="4" needCoin="558545" imgName="skill_801" isMax="0"/>
+		<item skillID="802" skillName="加班达人（2级）" upInfo="初始游戏时间增加至70秒" needLV="6" needCoin="837818" imgName="skill_801" isMax="0"/>
+		<item skillID="803" skillName="加班达人（3级）" upInfo="初始游戏时间增加至75秒" needLV="8" needCoin="1117091" imgName="skill_801" isMax="0"/>
+		<item skillID="804" skillName="加班达人（4级）" upInfo="初始游戏时间增加至80秒" needLV="10" needCoin="1396364" imgName="skill_801" isMax="0"/>
+		<item skillID="805" skillName="加班达人（5级）" upInfo="初始游戏时间增加至86秒" needLV="12" needCoin="1675636" imgName="skill_801" isMax="0"/>
+		<item skillID="806" skillName="加班达人（6级）" upInfo="初始游戏时间增加至92秒" needLV="14" needCoin="1954909" imgName="skill_801" isMax="0"/>
+		<item skillID="807" skillName="加班达人（7级）" upInfo="初始游戏时间增加至98秒" needLV="16" needCoin="2234182" imgName="skill_801" isMax="0"/>
+		<item skillID="808" skillName="加班达人（8级）" upInfo="初始游戏时间增加至104秒" needLV="18" needCoin="2513455" imgName="skill_801" isMax="0"/>
+		<item skillID="809" skillName="加班达人（9级）" upInfo="初始游戏时间增加至113秒" needLV="20" needCoin="2792727" imgName="skill_801" isMax="0"/>
+		<item skillID="810" skillName="加班达人（10级）" upInfo="初始游戏时间增加至120秒" needLV="20" needCoin="2792727" imgName="skill_801" isMax="1"/>
+		
+		<!-- 找你妹的错误时间技术等级（不怕找错） -->
+		<item skillID="900" skillName="不怕找错（0级）" upInfo="找错一个物品扣除10秒游戏时间" needLV="2" needCoin="279273" imgName="skill_901" isMax="0"/>
+		<item skillID="901" skillName="不怕找错（1级）" upInfo="找错一个物品扣除9秒游戏时间" needLV="4" needCoin="558545" imgName="skill_901" isMax="0"/>
+		<item skillID="902" skillName="不怕找错（2级）" upInfo="找错一个物品扣除8秒游戏时间" needLV="6" needCoin="837818" imgName="skill_901" isMax="0"/>
+		<item skillID="903" skillName="不怕找错（3级）" upInfo="找错一个物品扣除7秒游戏时间" needLV="8" needCoin="1117091" imgName="skill_901" isMax="0"/>
+		<item skillID="904" skillName="不怕找错（4级）" upInfo="找错一个物品扣除6秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_901" isMax="0"/>
+		<item skillID="905" skillName="不怕找错（5级）" upInfo="找错一个物品扣除5秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_901" isMax="1"/>
+		
+		<!-- 找你妹的寻找时间技术等级（神奇放大镜） -->
+		<item skillID="1000" skillName="神奇放大镜（0级）" upInfo="使用放大镜每次扣除10秒游戏时间" needLV="2" needCoin="279273" imgName="skill_1001" isMax="0"/>
+		<item skillID="1001" skillName="神奇放大镜（1级）" upInfo="使用放大镜每次扣除9秒游戏时间" needLV="4" needCoin="558545" imgName="skill_1001" isMax="0"/>
+		<item skillID="1002" skillName="神奇放大镜（2级）" upInfo="使用放大镜每次扣除8秒游戏时间" needLV="6" needCoin="837818" imgName="skill_1001" isMax="0"/>
+		<item skillID="1003" skillName="神奇放大镜（3级）" upInfo="使用放大镜每次扣除7秒游戏时间" needLV="8" needCoin="1117091" imgName="skill_1001" isMax="0"/>
+		<item skillID="1004" skillName="神奇放大镜（4级）" upInfo="使用放大镜每次扣除6秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_1001" isMax="0"/>
+		<item skillID="1005" skillName="神奇放大镜（5级）" upInfo="使用放大镜每次扣除5秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_1001" isMax="1"/>
+		
+		<!-- 找你妹的单个积分技术等级（多劳多得） -->
+		<item skillID="1100" skillName="多劳多得（0级）" upInfo="找到一个物品获得100分" needLV="2" needCoin="279273" imgName="skill_1101" isMax="0"/>
+		<item skillID="1101" skillName="多劳多得（1级）" upInfo="找到一个物品获得105分" needLV="4" needCoin="558545" imgName="skill_1101" isMax="0"/>
+		<item skillID="1102" skillName="多劳多得（2级）" upInfo="找到一个物品获得110分" needLV="6" needCoin="837818" imgName="skill_1101" isMax="0"/>
+		<item skillID="1103" skillName="多劳多得（3级）" upInfo="找到一个物品获得115分" needLV="8" needCoin="1117091" imgName="skill_1101" isMax="0"/>
+		<item skillID="1104" skillName="多劳多得（4级）" upInfo="找到一个物品获得120分" needLV="10" needCoin="1396364" imgName="skill_1101" isMax="0"/>
+		<item skillID="1105" skillName="多劳多得（5级）" upInfo="找到一个物品获得125分" needLV="12" needCoin="1675636" imgName="skill_1101" isMax="0"/>
+		<item skillID="1106" skillName="多劳多得（6级）" upInfo="找到一个物品获得130分" needLV="14" needCoin="1954909" imgName="skill_1101" isMax="0"/>
+		<item skillID="1107" skillName="多劳多得（7级）" upInfo="找到一个物品获得136分" needLV="16" needCoin="2234182" imgName="skill_1101" isMax="0"/>
+		<item skillID="1108" skillName="多劳多得（8级）" upInfo="找到一个物品获得142分" needLV="18" needCoin="2513455" imgName="skill_1101" isMax="0"/>
+		<item skillID="1109" skillName="多劳多得（9级）" upInfo="找到一个物品获得148分" needLV="20" needCoin="2792727" imgName="skill_1101" isMax="0"/>
+		<item skillID="1110" skillName="多劳多得（10级）" upInfo="找到一个物品获得155分" needLV="20" needCoin="2792727" imgName="skill_1101" isMax="1"/>
+		
+		<!-- 找你妹的通关增加时间（项目奖） -->
+		<item skillID="1200" skillName="项目奖（0级）" upInfo="金币关卡后额外增加5秒游戏时间" needLV="2" needCoin="279273" imgName="skill_1201" isMax="0"/>
+		<item skillID="1201" skillName="项目奖（1级）" upInfo="金币关卡后额外增加6秒游戏时间" needLV="4" needCoin="558545" imgName="skill_1201" isMax="0"/>
+		<item skillID="1202" skillName="项目奖（2级）" upInfo="金币关卡后额外增加7秒游戏时间" needLV="6" needCoin="837818" imgName="skill_1201" isMax="0"/>
+		<item skillID="1203" skillName="项目奖（3级）" upInfo="金币关卡后额外增加8秒游戏时间" needLV="8" needCoin="1117091" imgName="skill_1201" isMax="0"/>
+		<item skillID="1204" skillName="项目奖（4级）" upInfo="金币关卡后额外增加9秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_1201" isMax="0"/>
+		<item skillID="1205" skillName="项目奖（5级）" upInfo="金币关卡后额外增加10秒游戏时间" needLV="12" needCoin="1675636" imgName="skill_1201" isMax="0"/>
+		<item skillID="1206" skillName="项目奖（6级）" upInfo="金币关卡后额外增加11秒游戏时间" needLV="14" needCoin="1954909" imgName="skill_1201" isMax="0"/>
+		<item skillID="1207" skillName="项目奖（7级）" upInfo="金币关卡后额外增加12秒游戏时间" needLV="16" needCoin="2234182" imgName="skill_1201" isMax="0"/>
+		<item skillID="1208" skillName="项目奖（8级）" upInfo="金币关卡后额外增加13秒游戏时间" needLV="18" needCoin="2513455" imgName="skill_1201" isMax="0"/>
+		<item skillID="1209" skillName="项目奖（9级）" upInfo="金币关卡后额外增加14秒游戏时间" needLV="20" needCoin="2792727" imgName="skill_1201" isMax="0"/>
+		<item skillID="1210" skillName="项目奖（10级）" upInfo="金币关卡后额外增加15秒游戏时间" needLV="20" needCoin="2792727" imgName="skill_1201" isMax="1"/>
+		
+		<!-- 找你妹特殊关卡增加时间（金玉满堂） -->
+		<item skillID="1300" skillName="金玉满堂（0级）" upInfo="金币关卡拥有5秒游戏时间" needLV="2" needCoin="279273" imgName="skill_1301" isMax="0"/>
+		<item skillID="1301" skillName="金玉满堂（1级）" upInfo="金币关卡拥有6秒游戏时间" needLV="4" needCoin="558545" imgName="skill_1301" isMax="0"/>
+		<item skillID="1302" skillName="金玉满堂（2级）" upInfo="金币关卡拥有7秒游戏时间" needLV="6" needCoin="837818" imgName="skill_1301" isMax="0"/>
+		<item skillID="1303" skillName="金玉满堂（3级）" upInfo="金币关卡拥有8秒游戏时间" needLV="8" needCoin="1117091" imgName="skill_1301" isMax="0"/>
+		<item skillID="1304" skillName="金玉满堂（4级）" upInfo="金币关卡拥有9秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_1301" isMax="0"/>
+		<item skillID="1305" skillName="金玉满堂（5级）" upInfo="金币关卡拥有10秒游戏时间" needLV="10" needCoin="1396364" imgName="skill_1301" isMax="1"/>
+
+	</items>	
+</cookSkill>

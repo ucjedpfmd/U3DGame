@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity>
+<!-- 活动配置（面板数据） 前端：张子然 策划：黄春越 -->
+<!--2014/01/12添加天天爱烹饪每日活动-->
+
+<!-- daily 每日完成积分 
+item项为活动项内容配置 
+link_id 统一使用effect_id（此id唯一映射一个功能面板）如为npc直接配置npcid即可
+reward项为奖励内容配置 goods以列表形式配置
+-->
+<daily>
+<item id="1001" name="护送寒冰3次" desc="活动奖励：经验、小冰灵" total_times="3" link_name="寻路" link_id="40000101" />
+<item id="1002" name="发布诛魔令5次" desc="任务奖励：大量经验" total_times="5" link_name="寻路" link_id="40000109" />
+<item id="1007" name="六界降妖10次" desc="任务奖励：经验、铜钱" total_times="10" link_name="参与" link_id="11705" />
+<item id="1004" name="百炼成仙10环" desc="任务奖励：经验、藏宝图" total_times="10" quick_name="委托" quick="11110" link_name="寻路" link_id="40000119" />
+<item id="3032" name="女娲神殿2次" desc="副本奖励：大量经验" total_times="2" link_name="寻路" link_id="40000106" />
+<item id="3009" name="百灵园3次" desc="副本奖励：各种宠物" total_times="3" link_name="寻路" link_id="40000105" />
+<item id="3010" name="风渡林3次" desc="副本奖励：坐骑经验" total_times="3" link_name="寻路" link_id="40000111" />
+<item id="3005" name="九幽迷城2次" desc="副本奖励：强化材料等" total_times="2" link_name="寻路" link_id="40000128" />
+<item id="3011" name="冰火炼金洞2次" desc="副本奖励：大量铜钱" total_times="2" link_name="寻路" link_id="40000126" />
+<item id="1005" name="每日战场1次" desc="活动奖励：角色技能书等" total_times="1" link_name="详情" link_id="1" />
+<item id="1006" name="累计在线" desc="今天累计在线180分钟" total_times="180" link_name="" link_id="" />
+
+<reward time="2" exp="5000" linqi="0" bgold="" bsilver="" goods="10203102,1|10105001,2"/>
+<reward time="4" exp="10000" linqi="0" bgold="" bsilver="" goods="10107001,1|10103001,1"/>
+<reward time="6" exp="20000" linqi="0" bgold="1" bsilver="" goods="10203103,1|10104001,1"/>
+<reward time="8" exp="40000" linqi="0" bgold="2" bsilver="" goods="10401001,1|10113001,1"/>
+<reward time="10" exp="80000" linqi="0" bgold="3" bsilver="" goods="10501001,1|11401004,1"/>
+<reward time="11" exp="160000" linqi="0" bgold="4" bsilver="" goods="10201108,1|11501004,1"/>
+</daily>
+
+<!-- today 每日活动
+item项为活动项内容配置 开启时间由后端控制，所以前端直接写字符串即可 
+type标志该活动重要性，会显示不同颜色
+rewards以列表形式配置
+-->
+<today>	
+	<item id="2001"  name="天降横财"  type="" total_times=""  minLv="30" maxLv="100" open_time="13:30-13:40，16:00-16:10"
+		exp_stars="0" linqi_stars="0" silver_stars="5"  link_name="参与"  link_id="11704"
+		desc="每天13:30-13:40，16:00-16:10璇玑城会出现大量金银财宝，多劳多得，还有机会获得高额元宝！" rewards="11202001,11202004,11202003,11202002,11201001,11201004,11201003,11201002,11401004"/>
+		
+	<item id="2002"  name="智力答题"  type="" total_times="1"  minLv="20" maxLv="100" open_time="19:15-19:27"
+		exp_stars="0" linqi_stars="0" silver_stars="4"  link_name="参与"  link_id="11706"
+		desc="每天19:15-19:27六界中会进行智力答题的比赛，得分越高获得奖励越高，各位仙友赶紧行动吧！" rewards="10103001,11201001,11202001,10104001,11201002,11201003,11201004"/>
+
+	<item id="2003"  name="天绝斗法"  type="" total_times="1"  minLv="30" maxLv="100" open_time="每周二、四、六20:00-20:30"
+		exp_stars="1" linqi_stars="0" silver_stars="0"  link_name="参与"  link_id="11502"
+		desc="每周二、四、六20:00-20:30，天绝斗法战场开启，极品奖励、万人之上的至高荣誉都在等着你！" rewards="10118019,10118020,10701009,10701010,10701011,10702009,10702010,10702011,10703009,10703010,10703011,10704009,10704010,10704011"/>
+
+	<item id="2015"  name="修罗战场"  type="" total_times="1"  minLv="30" maxLv="100" open_time="每周一、三、五20:00-20:30"
+		exp_stars="1" linqi_stars="0" silver_stars="0"  link_name="参与"  link_id="11503"
+		desc="每周一、三、五20:00-20:30，修罗战场开启，极品奖励、万人之上的至高荣誉都在等着你！" rewards="10903001,10201007,10305001,10701009,10701010,10701011,10702009,10702010,10702011,10703009,10703010,10703011,10704009,10704010,10704011"/>
+
+	<item id="2016"  name="仙盟战"  type="" total_times="1"  minLv="30" maxLv="100" open_time="每周日19:00-20:40"
+		exp_stars="1" linqi_stars="0" silver_stars="0"  link_name="参与"  link_id="11504"
+		desc="每周日19:00-20:40，仙盟战开启(其中19:00-19:50为报名时间)，极品奖励、至尊仙盟的至高荣誉都在等着你！（新服七天后开放）" rewards="10404016,10701009,10701010,10701011,10702009,10702010,10702011,10703009,10703010,10703011,10704009,10704010,10704011"
+		spc_link_name="玩法查看"  spc_link_id="11506"/>
+			
+	<item id="2004"  name="仙宠盟战"  type="" total_times="1"  minLv="20" maxLv="100" open_time="20:45-21:00"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="参与"  link_id="10701"
+		desc="每天20:45-21:00，加入仙盟的仙友均可报名仙宠盟战，仙宠们的PK一样精彩！" rewards="10117002,10903001,10902021"/>
+
+	<item id="2005"  name="黄金沙滩"  type="" total_times="0"  minLv="20" maxLv="100" open_time="21:00-21:30"
+		exp_stars="0" linqi_stars="5" silver_stars="0"  link_name="参与"  link_id="10709"
+		desc="每天21:00-21:30，沙滩，帅哥，美女应有尽有，加入仙盟可获得更多灵气，仙盟等级越高获得灵气越多哦！" rewards="10304003"/>
+
+	<item id="2017"  name="恋爱飞行"  type="" total_times="0"  minLv="35" maxLv="100" open_time="21:40-22:00"
+		exp_stars="0" linqi_stars="" silver_stars="0"  link_name="参与"  link_id="12412"
+		desc="男女二人组队参与活动可以获得大量亲密度，结为仙侣后参与还能获得情缘值、甜蜜度、培养材料等海量奖励！赶紧组上你心仪已久的ta吧~" rewards="11802030,11802031,11802005,11802015"/>
+		
+	<item id="2006"  name="护送寒冰"  type="" total_times="3"  minLv="30" maxLv="100" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000101"
+		desc="寒冰法阵越来越弱，需要仙友们的帮助；完成运送寒冰不仅能修复法阵，也能获得高额经验、宠物奖励！" rewards="10301016"/>
+
+	<item id="2007"  name="诛魔令任务"  type="" total_times="5"  minLv="36" maxLv="100" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000109"
+		desc="每天均可在璇玑城发布与接取斩妖除魔任务，璇玑城的安危就靠仙友了！" rewards="10120003"/>
+
+	<item id="2008"  name="六界寻宝"  type="" total_times="0"  minLv="20" maxLv="100" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="4"  link_name="参与"  link_id="11701"
+		desc="每天均有10次免费寻宝次数，打开六界寻宝，轻轻一点，铜钱，元宝，稀有宠物全收入囊中！" rewards="11401004,11202001,11202004,11202003,11202002,11201001,11201004,11201003,11201002"/>
+
+	<item id="2009"  name="百炼成仙"  type="" total_times="100"  minLv="35" maxLv="100" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000119" quick_name="委托" quick="11110" 
+		desc="每天在慕容青处可接取经验跑环任务，完成任务即可获得高额的经验奖励！" rewards="11401004"/>
+		
+	<item id="2010"  name="富甲天下"  type="" total_times="30"  minLv="37" maxLv="100" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="5"  link_name="寻路"  link_id="40000129" quick_name="委托" quick="11111" 
+		desc="每天在招财仙子处可接取富甲天下任务，完成任务即可获得高额的铜钱奖励！" rewards="11601101"/>
+
+	<item id="2011"  name="仙盟任务"  type="" total_times="1"  minLv="20" maxLv="100" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="参与"  link_id="10701"
+		desc="完成仙盟任务后，请仙盟的盟友可提升任务奖励，带来更高额的贡献度！" rewards="10120003"/>
+		
+	<item id="2012"  name="仙盟boss"  type="" total_times="1"  minLv="20" maxLv="100" open_time="全天"
+		exp_stars="2" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000122"
+		desc="仙盟boss，携各种宝物来袭，仙盟盟主召唤后，盟友即可前往仙盟boss出生处击杀" rewards="11714007,11714008,11714009,11714010,11714011"/>
+		
+	<item id="2013"  name="仙盟摇钱树"  type="" total_times="0"  minLv="20" maxLv="100" open_time="全天"
+		exp_stars="0" linqi_stars="5" silver_stars="3"  link_name="参与"  link_id="10707"
+		desc="参与仙盟摇钱树，可获得铜钱元宝和灵气" rewards="10120001,10120002,11202001,11202002,11202003,11202004,11202005"/>
+		
+	<item id="2014"  name="六界降妖"  type="" total_times="10"  minLv="36" maxLv="100" open_time="全天"
+		exp_stars="5" linqi_stars="" silver_stars="3"  link_name="参与"  link_id="11705"
+		desc="完成六界降妖任务可获得大量经验！" rewards=""/>
+		
+	<item id="2018"  name="破碎星空"  type="" total_times="0"  minLv="70" maxLv="100" open_time="22:10-22:40"
+		exp_stars="0" linqi_stars="" silver_stars="0"  link_name="参与"  link_id="11505"
+		desc="全区需有达到79级的玩家，才能解锁该活动。参与该活动可获得大量珍稀道具，赶紧冲级吧！" rewards="11714028,11714029,11714030,11714031,10201108,10902253"/>
+
+	<item id="2019"  name="天天爱烹饪"  type="" total_times="0"  minLv="60" maxLv="100" open_time="全天"
+		exp_stars="0" linqi_stars="5" silver_stars="0"  link_name="参与"  link_id="17001"
+		desc="参与该活动可获得大量仙宠灵气、仙气和技能经验，赶快加入吧！" rewards="10126001,10309002,10304003,10120005"/>
+		
+
+	<!-- 活动预告配置说明
+	index 按开放顺序排序 
+	id：public/潜规则/导航栏图标id.xlsx里对应的id 
+	itemID对应item.id 
+	openDay：星期天-星期六分别是0-6
+	注意：符号请使用英文输入v
+	-->
+	<predict index="1" id="306" itemID="2001" startTime="13:30" endTime="13:40" openDay="0,1,2,3,4,5,6" desc="可获得金钱与藏宝图"/>
+	<predict index="2" id="306" itemID="2001" startTime="16:00" endTime="16:10" openDay="0,1,2,3,4,5,6" desc="可获得金钱与藏宝图"/>
+	<predict index="3" id="304" itemID="2002" startTime="19:15" endTime="19:27" openDay="0,1,2,3,4,5,6" desc="可获得金钱"/>
+	<predict index="4" id="303" itemID="2003" startTime="20:00" endTime="20:30" openDay="2,4,6"			desc="可获得积分与极品道具"/>
+	<predict index="5" id="312" itemID="2015" startTime="20:00" endTime="20:30" openDay="1,3,5,7"		desc="可获得积分与极品道具"/>
+	<predict index="6" id="309" itemID="2004" startTime="20:45" endTime="21:00" openDay="0,1,2,3,4,5,6" desc="可获得仙宠经验"/>
+	<predict index="7" id="302" itemID="2005" startTime="21:00" endTime="21:30" openDay="0,1,2,3,4,5,6" desc="可获得灵气"/>
+	<predict index="8" id="316" itemID="2017" startTime="21:40" endTime="22:00" openDay="0,1,2,3,4,5,6,7" desc="可获得亲密度或甜蜜度奖励"/>	
+</today>
+
+<!-- fb 精彩副本配置
+item项为副本内容配置 基本同上，除:
+type 1-3分别对应单人，组队，精英，会显示不同颜色
+suggest 建议项内容
+-->
+<!--任务小图标 icon =1经验。2灵气。3道具。4战斗。5金钱。6贡献。7药品
+-->
+<fb>
+		
+	<item id="3002"  name="昆仑山"  type="1" total_times="3"  minLv="30" maxLv="39" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="80002" map_group="80" mission_id="10091"
+		desc="昆仑山遭到了冰河谷等势力的围攻，进入昆仑山击败来犯的敌人，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+
+	<item id="3003"  name="凌天宫"  type="1" total_times="3"  minLv="40" maxLv="49" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="80003" map_group="80" mission_id=""
+		desc="玄武真君自建凌天宫，公开对抗仙帝！进入凌天宫击败反叛的仙人，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3004"  name="烛龙岭"  type="1" total_times="3"  minLv="50" maxLv="59" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="80004" map_group="80" mission_id=""
+		desc="远古神兽烛龙的藏匿之地，进入烛龙岭击败烛龙和他的手下，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3005"  name="九幽迷城•雪域"  type="1" total_times="2"  minLv="30" maxLv="49" suggest="单人" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="81001" map_group="81" mission_id=""
+		desc="九幽迷城•雪域本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120003,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3006"  name="九幽迷城•雷阵"  type="1" total_times="2"  minLv="50" maxLv="59" suggest="单人" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="81002" map_group="81" mission_id=""
+		desc="九幽迷城•雷阵本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120003,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3007"  name="九幽迷城•火海"  type="1" total_times="2"  minLv="60" maxLv="69" suggest="单人" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="81003" map_group="81" mission_id=""
+		desc="九幽迷城•火海本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120003,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3008"  name="九幽迷城•炼狱"  type="1" total_times="2"  minLv="70" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="81004" map_group="81" mission_id=""
+		desc="九幽迷城•炼狱本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120003,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3009"  name="百灵园"  type="1" total_times="3"  minLv="30" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="4" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000105" map_id="60000" map_group="600" mission_id="10004"
+		desc="传说中的仙宠福地。天破以后园里的仙宠丧失心性，四处捣乱，降服它们就有机会获得可爱的仙宠了！" rewards="10301048,10301019,10301020,10301024,10301018,10301009,10301004,10301008,10301006,10301007,10301005" condition="击杀全部宠物" iconID="3" />
+		
+	<item id="3010"  name="风渡林"  type="1" total_times="3"  minLv="30" maxLv="39" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000111" quick_name="委托" reward_type="4" quick="11109" map_id="82001" map_group="82" mission_id=""
+		desc="坐骑的试炼之地，进入风渡林就有机会获得珍贵的六界异宝，使用之后可获得海量坐骑经验。" rewards="10401001" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3011"  name="冰火炼金洞"  type="1" total_times="2"  minLv="30" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="2" linqi_stars="0" silver_stars="5"  link_name="寻路"  link_id="40000126" quick_name="委托" reward_type="5" quick="11109" map_id="60200" map_group="602" mission_id=""
+		desc="炼金仙师的秘密府邸，里面藏着数不尽的金银财宝。快快进入冰火炼金洞淘金吧！" rewards="10120004" condition="打破全部宝箱" iconID="5" />
+		
+	<item id="3012"  name="女娲神殿（精英）"  type="2" total_times="2"  minLv="41" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000106" map_id="60300" map_group="603" mission_id=""
+		desc="女娲后人林青儿补天的消息传出去后，众妖魔纷纷袭击女娲神殿！快快进入神殿保护林青儿，赢取海量经验吧！" rewards="10120017" condition="击杀全部怪物" iconID="1" />
+		
+	<item id="3013"  name="回魂仙梦"  type="1" total_times=""  minLv="27" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="2" linqi_stars="0" silver_stars="2"  link_name="参与"  link_id="11501" map_id="90001,90009" map_group="90" mission_id="10027,10051"
+		desc="使用回魂仙梦回到过去，重走前世之路，就有机会获得极品装备和仙术进阶书！" rewards="11714017,11714018,11714019,11714020,11714021,11714042,10705101,10705102,10202101" condition="击杀全部怪物" iconID="3" />
+		
+	<item id="3014"  name="问道天阶"  type="2" total_times="2"  minLv="45" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000127" map_id="60800" map_group="608" mission_id=""
+		desc="神非神，魔非魔，以心问道，以法问天！闯问道天阶，赢极品装备！" rewards="11714017,11714003,11714022,11714023,10705101,10705102,10202101" condition="击杀全部BOSS" iconID="3" />
+
+	<item id="3015"  name="幻兽天境"  type="1" total_times="3"  minLv="27" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="2" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000123" map_id="" map_group="" mission_id=""
+		desc="进入幻兽天境击败守关的幻兽，即可获得海量仙宠技能经验，更有机会赢取可爱仙宠！" rewards="10120005,10301001,10301035,10301034,10301032,10301031,10301011,10301010,10301017,10301022,10301047,10301014,10301050,10301026,10301030" condition="击杀全部BOSS" iconID="3" />
+
+	<item id="3016"  name="风渡林"  type="1" total_times="3"  minLv="40" maxLv="49" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000111" quick_name="委托" reward_type="4" quick="11109" map_id="82002" map_group="82" mission_id=""
+		desc="坐骑的试炼之地，进入风渡林就有机会获得珍贵的六界异宝，使用之后可获得海量坐骑经验。" rewards="10401001" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3017"  name="风渡林"  type="1" total_times="3"  minLv="50" maxLv="59" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000111" quick_name="委托" reward_type="4" quick="11109" map_id="82003" map_group="82" mission_id=""
+		desc="坐骑的试炼之地，进入风渡林就有机会获得珍贵的六界异宝，使用之后可获得海量坐骑经验。" rewards="10401001" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3018"  name="风渡林"  type="1" total_times="3"  minLv="60" maxLv="69" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000111" quick_name="委托" reward_type="4" quick="11109" map_id="82004" map_group="82" mission_id=""
+		desc="坐骑的试炼之地，进入风渡林就有机会获得珍贵的六界异宝，使用之后可获得海量坐骑经验。" rewards="10401001" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3019"  name="风渡林"  type="1" total_times="3"  minLv="70" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000111" quick_name="委托" reward_type="4" quick="11109" map_id="82005" map_group="82" mission_id=""
+		desc="坐骑的试炼之地，进入风渡林就有机会获得珍贵的六界异宝，使用之后可获得海量坐骑经验。" rewards="10401001" condition="击杀全部怪物" iconID="1" />
+	<item id="3020"  name="火神殿"  type="1" total_times="3"  minLv="60" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="4" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="80005" map_group="80" mission_id=""
+		desc="炎尊祝融的宫殿，进入火神殿击败祝融和他的手下，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="3" />
+
+	<item id="3021"  name="问道天阶之巅"  type="2" total_times="2"  minLv="50" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000127" map_id="60900" map_group="609" mission_id=""
+		desc="神非神，魔非魔，以心问道，以法问天！闯问道天阶，赢极品装备！" rewards="11714019,11714020,11714021,10705101,10705102,10202101" condition="击杀全部BOSS" iconID="3" />
+
+	<item id="3022"  name="火神殿（精英）"  type="2" total_times="2"  minLv="35" maxLv="39" suggest="组队" open_time="全天"
+		exp_stars="4" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="83001" map_group="83" mission_id=""
+		desc="炎尊祝融的宫殿，进入火神殿击败祝融和他的手下，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+	<item id="3023"  name="火神殿（精英）"  type="2" total_times="2"  minLv="40" maxLv="49" suggest="组队" open_time="全天"
+		exp_stars="4" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="83002" map_group="83" mission_id=""
+		desc="炎尊祝融的宫殿，进入火神殿击败祝融和他的手下，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+	<item id="3024"  name="火神殿（精英）"  type="2" total_times="2"  minLv="50" maxLv="59" suggest="组队" open_time="全天"
+		exp_stars="4" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="83003" map_group="83" mission_id=""
+		desc="炎尊祝融的宫殿，进入火神殿击败祝融和他的手下，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+	<item id="3025"  name="火神殿（精英）"  type="2" total_times="2"  minLv="60" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="4" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000115" quick_name="委托" reward_type="2" quick="11109" map_id="83004" map_group="83" mission_id=""
+		desc="炎尊祝融的宫殿，进入火神殿击败祝融和他的手下，可获得大量补天石碎片！" rewards="10120016,11714001,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3026"  name="九幽迷城•炼狱（精英）"  type="2" total_times="2"  minLv="35" maxLv="39" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="84001" map_group="84" mission_id=""
+		desc="九幽迷城•炼狱本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120015,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+	<item id="3027"  name="九幽迷城•炼狱（精英）"  type="2" total_times="2"  minLv="40" maxLv="49" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="84002" map_group="84" mission_id=""
+		desc="九幽迷城•炼狱本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120015,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+	<item id="3028"  name="九幽迷城•炼狱（精英）"  type="2" total_times="2"  minLv="50" maxLv="59" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="84003" map_group="84" mission_id=""
+		desc="九幽迷城•炼狱本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120015,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+	<item id="3029"  name="九幽迷城•炼狱（精英）"  type="2" total_times="2"  minLv="60" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000128" quick_name="委托" reward_type="2" quick="11109" map_id="84004" map_group="84" mission_id=""
+		desc="九幽迷城•炼狱本是狐族领地，如今已被一拨凶狠的妖魔占领。进入击败妖魔，即可获得大量强化材料。" rewards="10120015,10201101,10201102,11501101,11501102" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3030"  name="龙岭迷窟（普通）"  type="1" total_times="2"  minLv="50" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000132" quick_name="委托" reward_type="2" quick="11109" map_id="60600" map_group="606" mission_id=""
+		desc="传闻龙岭迷窟收藏着珍贵的羽翼材料，击败盘踞在那里的强大妖魔，即可获得珍贵的羽翼材料。" rewards="10119014,11714027,10203103,10203102" condition="击杀全部怪物" iconID="3" />
+
+	<item id="3031"  name="龙岭迷窟（精英）"  type="2" total_times="2"  minLv="50" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="3" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000132" quick_name="委托" reward_type="2" quick="11109" map_id="60700" map_group="607" mission_id=""
+		desc="传闻龙岭迷窟收藏着珍贵的羽翼材料，击败盘踞在那里的强大妖魔，即可获得珍贵的羽翼材料。" rewards="10119015,10119014,11714027,10203103,10203102" condition="击杀全部怪物" iconID="3" />
+
+	<item id="3032"  name="女娲神殿（普通）"  type="1" total_times="2"  minLv="33" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000106" quick_name="委托" reward_type="2" quick="11109" map_id="61000" map_group="610" mission_id=""
+		desc="女娲后人林青儿补天的消息传出去后，众妖魔纷纷袭击女娲神殿！快快进入神殿保护林青儿，赢取海量经验吧！" rewards="10120017" condition="击杀全部怪物" iconID="1" />
+
+	<item id="3033"  name="凤鸣棋谷"  type="1" total_times="2"  minLv="50" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000131" map_id="61200" map_group="612" mission_id=""
+		desc="相传凤鸣棋谷有一座古仙人留下来的远古棋阵，破了棋阵便能得到古仙人的宝藏！" rewards="10119010,10119011,10119012,10119013" condition="破解棋阵" iconID="3" />
+		
+	<item id="3034"  name="斩魂殿"  type="2" total_times="1"  minLv="70" maxLv="90" suggest="组队" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000135" map_id="61300" map_group="613" mission_id=""
+		desc="太古天门通道上，忽然遭遇众妖魔突袭，作为其中的重要据点斩魂殿，必须誓死保卫！快快进入保护女娲，赢取海量经验吧！" rewards="10120017" condition="击杀全部怪物" iconID="1" />
+
+                                                                                                                           
+
+</fb>
+<guideCopy>
+	<item id="5001"  name="蚩尤魔窟"  type="1" total_times="1"  minLv="1" maxLv="70" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="10000111" map_id="60500" map_group="605" mission_id="11006"
+		desc="每天原地打坐十分钟，立即获得春越文档一份" rewards="10902019" condition="击杀全部怪物" isSceneCopy="1" />
+	<item id="5002"  name="烈焰青牛"  type="1" total_times="1"  minLv="1" maxLv="70" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="10100112" map_id="60400" map_group="604" mission_id="11021"
+		desc="每天原地打坐十分钟，立即获得春越文档一份" rewards="30005107,30005207,30005307,30005407" condition="击杀全部怪物" isSceneCopy="1"/>
+	<item id="3005"  name="雪域"  type="1" total_times="2"  minLv="15" maxLv="70" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40400121" map_id="61100" map_group="611" mission_id="10022"
+		desc="每天原地打坐十分钟，立即获得春越文档一份" rewards="10201102,10201101" condition="击杀全部怪物" isSceneCopy="1"/>
+	<item id="5013"  name="回魂仙梦"  type="1" total_times="3"  minLv="1" maxLv="90" suggest="单人" open_time="全天"
+		exp_stars="2" linqi_stars="0" silver_stars="2"  link_name="寻路"  link_id="40000120" map_id="90001,90009" map_group="90" mission_id="10027,10051"
+		desc="使用回魂仙梦回到过去，重走前世之路，就有机会获得极品装备和仙术进阶书！" rewards="11714017,11714018,11714019,11714020,11714021,10705101,10705102,10202101" condition="击杀全部怪物" iconID="3" />
+	<item id="5009"  name="百灵园"  type="1" total_times="3"  minLv="1" maxLv="29" suggest="单人" open_time="全天"
+		exp_stars="0" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000105" map_id="60000" map_group="600" mission_id="10004"
+		desc="传说中的仙宠福地。天破以后园里的仙宠丧失心性，四处捣乱，降服它们就有机会获得可爱的仙宠了！" rewards="10301048,10301019,10301020,10301024,10301018,10301009,10301004,10301008,10301006,10301007,10301005" condition="击杀全部宠物" iconID="3" />
+	<item id="5010"  name="幽冥水府"  type="1" total_times="1"  minLv="1" maxLv="70" suggest="单人" open_time="全天"
+		exp_stars="5" linqi_stars="0" silver_stars="0"  link_name="寻路"  link_id="40000136" map_id="80001" map_group="80" mission_id="10009" titleOffset=""
+		desc="此副本产出大量的补天石" rewards="11714001" condition="击杀全部怪物"/>
+</guideCopy>
+<!-- 世界boss 
+-->
+<boss>
+<item id="41000701"  name="紫羽玄风虎"  type="1" minLv="42" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达42级的玩家开启" map_id="41000" x="37" y="61" isRandom="0"
+		desc="相传乃凶兽穷奇的后裔，每日必啖数十人，且食人之前必百般玩弄，凶残尤甚其祖。" rewards="31040808,32040808,33040808,34040808,31040809,32040809,33040809,34040809,10202101,10201103,10201102,10203102,10113001"/>
+		
+<item id="41100701"  name="赤炎金猊兽"  type="1" minLv="42" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达42级的玩家开启" map_id="41100" x="37" y="61" isRandom="0"
+		desc="相传自火山深处自生的一种凶兽，其身神火环绕，能焚毁世间万物，曾造成灾难无数" rewards="31040808,32040808,33040808,34040808,31040809,32040809,33040809,34040809,10202101,10201103,10201102,10203102,10113001"/>
+		
+<item id="41200701"  name="火云金睛猿"  type="1" minLv="42" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达42级的玩家开启" map_id="41200" x="37" y="61" isRandom="0"
+		desc="相传为上古凶兽朱厌的后代。此猿长居山林，力大无穷，且生性凶残，常袭击过往商旅" rewards="31040808,32040808,33040808,34040808,31040809,32040809,33040809,34040809,10202101,10201103,10201102,10203102,10113001"/>
+
+<item id="41900701"  name="狂刀鬼影"  type="1" minLv="51" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达51级的玩家开启" map_id="41900" x="37" y="61" isRandom="0"
+		desc="相传乃死于战乱的无数冤魂凝聚而成的一道鬼影，因怨气不散而作乱人间，无人知其真面目，因为遇到他的人都已经死了。" rewards="31071208,32071208,33071208,34071208,31071209,32071209,33071209,34071209,10202101,10201104,10201103,10203103,10113001"/>
+
+<item id="42000701"  name="锤天魔狼"  type="1" minLv="51" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达51级的玩家开启" map_id="42000" x="37" y="61" isRandom="0"
+		desc="本是妖狼族的少族长，一把问天锤鲜有人敌，后因用补天石碎片修炼而发狂，并堕入魔界，被某位魔君利用，变成杀戮机器。" rewards="31071208,32071208,33071208,34071208,31071209,32071209,33071209,34071209,10202101,10201104,10201103,10203103,10113001"/>
+
+<item id="42100701"  name="千手妖君"  type="1" minLv="51" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达51级的玩家开启" map_id="42100" x="37" y="61" isRandom="0"
+		desc="千年灵树开启灵智后又修行万年所成的妖君，本性善良，却不想在一次拼斗中走火入魔，后变得狂暴异常，见人就杀。" rewards="31071208,32071208,33071208,34071208,31071209,32071209,33071209,34071209,10202101,10201104,10201103,10203103,10113001"/>
+		
+<item id="41300701"  name="碧睛虎王"  type="1" minLv="60" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达60级的玩家开启" map_id="41300" x="37" y="61" isRandom="0"
+		desc="碧睛蓝额虎修炼而成的万年虎妖，占碧睛洞为王，喜好美色，扰民伤人，为附近居民所痛恨。" rewards="31081208,32081208,33081208,34081208,31081209,32081209,33081209,34081209,10202101,10201104,10201103,10203103,10113001"/>
+		
+<item id="41400701"  name="勾魂蛇姬"  type="1" minLv="60" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达60级的玩家开启" map_id="41400" x="37" y="61" isRandom="0"
+		desc="万年青鳞蛇修炼而成的蛇妖，本命法宝勾魂铃威力极大，闻着失魂，鲜有人敌，遂成为一方妖王。" rewards="31081208,32081208,33081208,34081208,31081209,32081209,33081209,34081209,10202101,10201104,10201103,10203103,10113001"/>
+		
+<item id="41500701"  name="执法魔君"  type="1" minLv="60" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达60级的玩家开启" map_id="41500" x="37" y="61" isRandom="0"
+		desc="原为天庭的执法仙君，因拿补天石碎片修炼，吸收了大量的戾气，逐渐堕入魔道，成为一方魔君。" rewards="31081208,32081208,33081208,34081208,31081209,32081209,33081209,34081209,10202101,10201104,10201103,10203103,10113001"/>
+
+<item id="42200701"  name="玄武魔君"  type="1" minLv="70" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达70级的玩家开启" map_id="42200" x="37" y="61" isRandom="0"
+		desc="万年前，神兽玄武曾与魔尊蚩尤斗法，玄武不敌遭蚩尤戾气侵袭，虽然当时得以逃脱，可后来还是堕入魔界，变成魔君。" rewards="31111608,32111608,33111608,34111608,31111609,32111609,33111609,34111609,10202101,10201104,10201103,10203103,10113001"/>
+		
+<item id="42300701"  name="青冥鬼王"  type="1" minLv="70" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达70级的玩家开启" map_id="42300" x="37" y="61" isRandom="0"
+		desc="鬼界青冥殿殿主，自恃法力高强，不服鬼尊之令，私自投靠蚩尤，神魔大战之后，因无法回归鬼界而流连凡间。" rewards="31111608,32111608,33111608,34111608,31111609,32111609,33111609,34111609,10202101,10201104,10201103,10203103,10113001"/>
+		
+<item id="42400701"  name="疾风影魔"  type="1" minLv="70" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达70级的玩家开启" map_id="42400" x="37" y="61" isRandom="0"
+		desc="魔界前任魔尊，后被蚩尤打败受了重伤，如今隐匿在疾风洞，通过吞噬修行者养伤，以待重掌魔界。" rewards="31111608,32111608,33111608,34111608,31111609,32111609,33111609,34111609,10202101,10201104,10201103,10203103,10113001"/>
+		
+<!--<item id="40400707"  name="风影邪君"  type="1" minLv="40" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达42级的玩家开启" map_id="41600" x="37" y="61" isRandom="0"
+		desc="魔界风影道的幕后掌门人，为人乖张狠辣，杀人如麻，魔道中无不闻风丧胆。" rewards="10201102,10201102"/>
+		
+<item id="40400708"  name="鬼面妖王"  type="1" minLv="40" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达42级的玩家开启" map_id="41700" x="37" y="61" isRandom="0"
+		desc="乃【地名】的一方妖王，无人知其来历，只知其八目鬼面，凶残狠辣，曾一夜之间杀死整座城池的人。" rewards="10201102,10201102"/>
+		
+<item id="40400709"  name="焚天法王"  type="1" minLv="40" maxLv="400" open_time="13:45，19:30"
+		open_condi="首次达42级的玩家开启" map_id="41800" x="37" y="61" isRandom="0"
+		desc="相传曾为仙界的四大金刚之一，后叛变堕入魔道，神魔大战之后曾一度失踪，如今竟成为了鬼界焚天法王" rewards="10201102,10201102"/>-->
+</boss>
+
+<!-- 连续登录界面，福利
+vip介绍文字配置说明：使用纯html语言配置，换行使用<br>
+-->
+<gift>
+<login day="1" normal="10201102,1" vip="10201102,1"/>
+<login day="2" normal="10201102,2" vip="10201102,2"/>
+<login day="3" normal="10201102,3" vip="10201102,3"/>
+<login day="4" normal="10201102,4" vip="10201102,4"/>
+<login day="5" normal="10201102,5" vip="10201102,5"/>
+<login day="6" normal="10201102,6" vip="10201102,6"/>
+<login day="7" normal="10201102,7" vip="10201102,7"/>
+<login day="8" normal="10201102,8" vip="10201102,8"/>
+<login day="9" normal="10201102,9" vip="10201102,9"/>
+<login day="10" normal="10201102,10" vip="10201102,10"/>
+<login day="11" normal="10201102,11" vip="10201102,11"/>
+<login day="12" normal="10201102,12" vip="10201102,12"/>
+<login day="13" normal="10201102,13" vip="10201102,13"/>
+<login day="14" normal="10201102,14" vip="10201102,14"/>
+<login day="15" normal="10201102,15" vip="10201102,15"/>
+<login day="16" normal="10201102,16" vip="10201102,16"/>
+<login day="17" normal="10201102,17" vip="10201102,17"/>
+<login day="18" normal="10201102,18" vip="10201102,18"/>
+<login day="19" normal="10201102,19" vip="10201102,19"/>
+<login day="20" normal="10201102,20" vip="10201102,20"/>
+<login day="21" normal="10201102,21" vip="10201102,21"/>
+<login day="22" normal="10201102,22" vip="10201102,22"/>
+<login day="23" normal="10201102,23" vip="10201102,23"/>
+<login day="24" normal="10201102,24" vip="10201102,24"/>
+<login day="25" normal="10201102,25" vip="10201102,25"/>
+<login day="26" normal="10201102,26" vip="10201102,26"/>
+<login day="27" normal="10201102,27" vip="10201102,27"/>
+<login day="28" normal="10201102,28" vip="10201102,28"/>
+<login day="29" normal="10201102,29" vip="10201102,29"/>
+<login day="30" normal="10201102,30" vip="10201102,30"/>
+
+<vip lv="1">
+<![CDATA[1.免费领<font color="#ffd700">10绑定元宝</font>
+2.免费领<font color="#ffd700">10000绑定铜钱</font>（周六）
+3.免费筋斗云<font color="#ffd700">20次</font>
+4.免费每日复活1次
+5.免费使用远程仓库]]>
+</vip>
+<vip lv="2">
+<![CDATA[1.免费领<font color="#ffd700">15绑定元宝</font>
+2.免费领<font color="#ffd700">30000绑定铜钱</font>（周六）
+3.免费筋斗云<font color="#ffd700">40次</font>
+4.免费每日复活3次
+5.免费使用远程仓库]]>
+</vip>
+<vip lv="3">
+<![CDATA[1.免费领<font color="#ffd700">20绑定元宝</font>
+2.免费领<font color="#ffd700">50000绑定铜钱</font>（周六）
+3.免费筋斗云<font color="#ffd700">无限次</font>
+4.免费每日复活5次
+5.免费使用远程仓库]]>
+</vip>
+</gift>
+</activity>

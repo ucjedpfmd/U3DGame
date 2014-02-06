@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<qq>
+<yellow>
+	<!--礼包类 坐骑 新手 每日 年每日-->
+	<item id="1" index ="4" typeId="10404003" name="黄钻坐骑礼包"/>
+	<item id="2" index ="1" typeId="10902002" name="黄钻新手礼包"/>
+	<item id="3" index ="2" typeId="10902003" name="黄钻每日礼包"/>
+	<item id="4" index ="0" typeId="10902011" name="年费黄钻礼包"/>
+	<item id="5" index ="3" typeId="" name="黄钻神力"/>
+	<item id="6" index ="0" typeId="" name="黄钻升级礼包"/>
+	<item id="7" index ="0" typeId="" name="黄钻豪华礼包"/>
+
+	<!-- 新手礼包道具 注：reward_ids第三个字段是特效，目前没有2，3级大特效-->  
+	<!--                                        寒月飞星    10元宝金砖     铜钱符        紫色诛魔令  蓝色附魂石  绿色强化材料   藏宝图     灵气瓶   仙宠灵丹   仙宠口粮-->
+	<newGift type_id="10902002" reward_ids="10118005,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="1" category="0"/>
+	<newGift type_id="10902002" reward_ids="10118006,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="2" category="0"/>
+	
+	<!--坐骑属性 -->
+	<mount typeId="10404003" name="御龙行" desc="传说菩提祖师以灵台净光将凶兽虬龙镇为龙舟，名为“御龙行”，该龙舟需载人修行万年方可飞升为龙。" attr="29,5"/>
+	
+	<!--黄钻每日礼包-->
+	<welfare yLv="1" value="11202003,1|10103001,1" typeId="10902003"/>
+	<welfare yLv="2" value="11202003,1|10103001,1|10104001,1" typeId="10902004"/>
+	<welfare yLv="3" value="11202003,2|10103001,1|10104001,1" typeId="10902005"/>
+	<welfare yLv="4" value="11202003,2|10103001,2|10104001,1" typeId="10902006"/>
+	<welfare yLv="5" value="11202003,2|10103001,2|10104001,2" typeId="10902007"/>
+	<welfare yLv="6" value="11202003,2|10103001,2|10104001,2|10111001,1" typeId="10902008"/>
+	<welfare yLv="7" value="11202003,3|10103001,2|10104001,2|10111001,1" typeId="10902009"/>
+	<welfare yLv="8" value="11202003,3|10103001,2|10104001,2|10111001,2" typeId="10902010"/>
+	 <!-- 这一项是年费福利-->
+	<welfare yLv="19" value="11202003,5|10103001,1|10104001,1|10111001,1" typeId="10902011"/>
+	
+	<!-- 等级礼包 -->
+	<lvRewards lv="10" normal_rewards="10902111" vip_rewards="10902111"  />
+	<lvRewards lv="20" normal_rewards="10902112" vip_rewards="10902112"  />
+	<lvRewards lv="30" normal_rewards="10902113" vip_rewards="10902113"  />
+	<lvRewards lv="40" normal_rewards="10902114" vip_rewards="10902114"  />
+	<lvRewards lv="50" normal_rewards="10902115" vip_rewards="10902115"  />
+	<lvRewards lv="60" normal_rewards="10902116" vip_rewards="10902116"  />
+	
+	<!-- 黄钻神力-->
+	<buff prop_id="11" base="450" lv_value="75"/>
+	<buff prop_id="15" base="45" lv_value="7"/>	
+	<buff prop_id="13" base="30" lv_value="5"/>
+	
+</yellow>
+<blue>
+	<!--礼包类 坐骑 新手 每日 年每日-->
+	<item id="1" index ="4" typeId="10404018" name="蓝钻坐骑礼包"/>
+	<item id="2" index ="1" typeId="10902166" name="蓝钻新手礼包"/>
+	<item id="3" index ="2" typeId="10902167" name="蓝钻每日礼包"/>
+	<item id="4" index ="0" typeId="10902175" name="年费蓝钻礼包"/>
+	<item id="5" index ="3" typeId="" name="蓝钻神力"/>
+	<item id="6" index ="0" typeId="" name="蓝钻升级礼包"/>
+	<item id="7" index ="0" typeId="" name="蓝钻豪华礼包"/>
+
+	<!-- 新手礼包道具 注：reward_ids第三个字段是特效，目前没有2，3级大特效-->  
+	<!--                                        清凉一夏    10元宝金砖     铜钱符        紫色诛魔令  蓝色附魂石  绿色强化材料   藏宝图     灵气瓶   仙宠灵丹   仙宠口粮-->
+	<newGift type_id="10902166" reward_ids="10118025,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="1" category="0"/>
+	<newGift type_id="10902166" reward_ids="10118026,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="2" category="0"/>
+	
+	<!--坐骑属性 -->
+	<mount typeId="10404018" name="七彩灵鹿" desc="曾为女娲的坐骑，后奉女娲之命来到凡间，寻找身具灵根之人，助其修仙。" attr="29,5"/>
+	
+	<!--蓝钻每日礼包-->
+	<welfare yLv="1" value="11202003,1|10103001,1" typeId="10902167"/>
+	<welfare yLv="2" value="11202003,1|10103001,1|10104001,1" typeId="10902168"/>
+	<welfare yLv="3" value="11202003,2|10103001,1|10104001,1" typeId="10902169"/>
+	<welfare yLv="4" value="11202003,2|10103001,2|10104001,1" typeId="10902170"/>
+	<welfare yLv="5" value="11202003,2|10103001,2|10104001,2" typeId="10902171"/>
+	<welfare yLv="6" value="11202003,2|10103001,2|10104001,2|10111001,1" typeId="10902171"/>
+	<welfare yLv="7" value="11202003,3|10103001,2|10104001,2|10111001,1" typeId="10902172"/>
+	 <!-- 这一项是年费福利-->
+	<welfare yLv="19" value="11202003,5|10103001,1|10104001,1|10111001,1" typeId="10902175"/>
+	
+	<!-- 等级礼包 -->
+	<lvRewards lv="10" normal_rewards="10902111" vip_rewards="10902111"  />
+	<lvRewards lv="20" normal_rewards="10902112" vip_rewards="10902112"  />
+	<lvRewards lv="30" normal_rewards="10902113" vip_rewards="10902113"  />
+	<lvRewards lv="40" normal_rewards="10902114" vip_rewards="10902114"  />
+	<lvRewards lv="50" normal_rewards="10902115" vip_rewards="10902115"  />
+	<lvRewards lv="60" normal_rewards="10902116" vip_rewards="10902116"  />
+	
+	<!-- 蓝钻神力-->
+	<buff prop_id="11" base="450" lv_value="75"/>
+	<buff prop_id="15" base="45" lv_value="7"/>	
+	<buff prop_id="13" base="30" lv_value="5"/>
+	
+</blue>
+<website>
+  <!--礼包类 坐骑 新手 每日 年每日-->
+  <item id="1" index ="4" typeId="10404324" name="会员坐骑礼包"/>
+  <item id="2" index ="1" typeId="10902325" name="会员新手礼包"/>
+  <item id="3" index ="2" typeId="10902326" name="会员每日礼包"/>
+  <item id="4" index ="0" typeId="10902334" name="年费会员礼包"/>
+  <item id="5" index ="3" typeId="" name="会员神力"/>
+  <item id="6" index ="0" typeId="" name="会员升级礼包"/>
+  <item id="7" index ="0" typeId="" name="会员豪华礼包"/>
+
+  <!-- 新手礼包道具 注：reward_ids第三个字段是特效，目前没有2，3级大特效-->
+  <!--                                    水木年华    10元宝金砖     铜钱符    紫色诛魔令  蓝色附魂石  绿色强化材料  藏宝图    灵气瓶   仙宠灵丹   仙宠口粮-->
+  <newGift type_id="10902325" reward_ids="10118047,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="1" category="0"/>
+  <newGift type_id="10902325" reward_ids="10118048,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="2" category="0"/>
+
+  <!--坐骑属性 -->
+  <mount typeId="10404019" name="神尾妖狸" desc="本是兜率宫太上老君收养的千年妖狸，因偷吃丹药被打入凡间，需寻找有缘人助其修道成仙，才可重返仙界。" attr="29,5"/>
+
+  <!--会员每日礼包-->
+  <welfare yLv="1" value="11202003,1|10103001,1" typeId="10902326"/>
+  <welfare yLv="2" value="11202003,1|10103001,1|10104001,1" typeId="10902327"/>
+  <welfare yLv="3" value="11202003,2|10103001,1|10104001,1" typeId="10902328"/>
+  <welfare yLv="4" value="11202003,2|10103001,2|10104001,1" typeId="10902329"/>
+  <welfare yLv="5" value="11202003,2|10103001,2|10104001,2" typeId="10902330"/>
+  <welfare yLv="6" value="11202003,2|10103001,2|10104001,2|10111001,1" typeId="10902331"/>
+  <welfare yLv="7" value="11202003,3|10103001,2|10104001,2|10111001,1" typeId="10902332"/>
+ <!-- <welfare yLv="8" value="11202003,3|10103001,2|10104001,2|10111001,2" typeId="10902333"/> -->
+  <!-- 这一项是年费福利-->
+  <welfare yLv="19" value="11202003,5|10103001,1|10104001,1|10111001,1" typeId="10902334"/>
+
+  <!-- 等级礼包 -->
+  <lvRewards lv="10" normal_rewards="10902111" vip_rewards="10902111"  />
+  <lvRewards lv="20" normal_rewards="10902112" vip_rewards="10902112"  />
+  <lvRewards lv="30" normal_rewards="10902113" vip_rewards="10902113"  />
+  <lvRewards lv="40" normal_rewards="10902114" vip_rewards="10902114"  />
+  <lvRewards lv="50" normal_rewards="10902115" vip_rewards="10902115"  />
+  <lvRewards lv="60" normal_rewards="10902116" vip_rewards="10902116"  />
+
+  <!-- 会员神力-->
+  <buff prop_id="11" base="450" lv_value="75"/>
+  <buff prop_id="15" base="45" lv_value="7"/>
+  <buff prop_id="13" base="30" lv_value="5"/>
+</website>
+<agent>
+	<!--礼包类 坐骑 新手 每日 年每日-->
+	<item id="1" index ="4" typeId="10404003" name="坐骑礼包"/>
+	<item id="2" index ="1" typeId="10902230" name="新手礼包"/>
+	<item id="3" index ="2" typeId="10902231" name="每日礼包"/>
+	<item id="4" index ="0" typeId="10902239" name="年费礼包"/>
+	<item id="5" index ="3" typeId="" name="黄钻神力"/>
+	<item id="6" index ="0" typeId="" name="升级礼包"/>
+
+	<!-- 新手礼包道具 注：reward_ids第三个字段是特效，目前没有2，3级大特效-->  
+	<!--                                        寒月飞星    10元宝金砖     铜钱符        紫色诛魔令  蓝色附魂石  绿色强化材料   藏宝图     灵气瓶   仙宠灵丹   仙宠口粮-->
+	<newGift type_id="10902230" reward_ids="10118005,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="1" category="0"/>
+	<newGift type_id="10902230" reward_ids="10118006,1,1|11202001,5|11201001,10|11501103,10|10203102,10|10201102,10|11401004,5|10304001,5|10111001,2|10112001,50" sex="2" category="0"/>
+	
+	<!--坐骑属性 -->
+	<mount typeId="10404003" name="御龙行" desc="传说菩提祖师以灵台净光将凶兽虬龙镇为龙舟，名为“御龙行”，该龙舟需载人修行万年方可飞升为龙。" attr="29,5"/>
+	
+	<!--黄钻每日礼包-->
+	<welfare yLv="1" value="11202003,1|10103001,1" typeId="10902231"/>
+	<welfare yLv="2" value="11202003,1|10103001,1|10104001,1" typeId="10902232"/>
+	<welfare yLv="3" value="11202003,2|10103001,1|10104001,1" typeId="10902233"/>
+	<welfare yLv="4" value="11202003,2|10103001,2|10104001,1" typeId="10902234"/>
+	<welfare yLv="5" value="11202003,2|10103001,2|10104001,2" typeId="10902235"/>
+	<welfare yLv="6" value="11202003,2|10103001,2|10104001,2|10111001,1" typeId="10902236"/>
+	<welfare yLv="7" value="11202003,3|10103001,2|10104001,2|10111001,1" typeId="10902237"/>
+	<welfare yLv="8" value="11202003,3|10103001,2|10104001,2|10111001,2" typeId="10902238"/>
+	 <!-- 这一项是年费福利-->
+	<welfare yLv="19" value="11202003,5|10103001,1|10104001,1|10111001,1" typeId="10902239"/>
+	
+	<!-- 等级礼包 -->
+	<lvRewards lv="10" normal_rewards="10902111" vip_rewards="10902111"  />
+	<lvRewards lv="20" normal_rewards="10902112" vip_rewards="10902112"  />
+	<lvRewards lv="30" normal_rewards="10902113" vip_rewards="10902113"  />
+	<lvRewards lv="40" normal_rewards="10902114" vip_rewards="10902114"  />
+	<lvRewards lv="50" normal_rewards="10902115" vip_rewards="10902115"  />
+	<lvRewards lv="60" normal_rewards="10902116" vip_rewards="10902116"  />
+	
+	<buff prop_id="11" base="450" lv_value="75"/>
+	<buff prop_id="15" base="45" lv_value="7"/>	
+	<buff prop_id="13" base="30" lv_value="5"/>
+</agent>
+<qq3366>
+	<lvRewards value="11201002,1|10107001,1" minLv="1" maxLv="5"/>
+	<lvRewards value="11201002,2|10107001,1"  minLv="6" maxLv="10"/>
+	<lvRewards value="11201002,2|10107001,1|10401001,1"  minLv="11" maxLv="15"/>
+	<lvRewards value="11201002,3|10107001,1|10401001,2"  minLv="16" maxLv="20"/>
+	<lvRewards value="11201002,4|10107001,1|10401001,2"  minLv="21" maxLv="25"/>
+	<lvRewards value="11201002,5|10107001,1|10401001,2"  minLv="26" maxLv="100"/>
+</qq3366>
+  
+<qqIWan>
+	<lvRewards value="11201002,1|10401001,1" day="0"/>
+	<lvRewards value="11201002,1|10401001,1|10107001,1"  day="1"/>
+	<lvRewards value="11201002,2|10401001,1|10107001,1"  day="2"/>
+	<lvRewards value="11201002,3|10401001,1|10107001,1"  day="3"/>
+	<lvRewards value="11201002,4|10401001,1|10107001,1"  day="4"/>
+	<lvRewards value="11201002,5|10401001,2|10107001,1"  day="5"/>
+	<lvRewards value="11201002,6|10401001,2|10107001,1"  day="6"/>
+	<lvRewards value="11201002,7|10401001,2|10107001,1"  day="7"/>
+</qqIWan>
+
+<qqBox>	
+	<lvRewards value="11201002,1|10107001,1|10401001,1"  day="1"/>
+	<lvRewards value="11201002,2|10107001,1|10401001,1"  day="2"/>
+	<lvRewards value="11201002,3|10107001,1|10401001,1"  day="3"/>
+	<lvRewards value="11201002,4|10107001,1|10401001,1"  day="4"/>
+	<lvRewards value="11201002,5|10107001,1|10401001,2"  day="5"/>
+	<lvRewards value="11201002,6|10107001,1|10401001,2"  day="6"/>
+	<lvRewards value="11201002,7|10107001,1|10401001,2"  day="7"/>
+</qqBox>
+ 
+ <qqGameLogin>	
+ 	<lvRewards value="11201002,1|10401001,1" day="0"/>
+	<lvRewards value="11201002,1|10107001,1|10401001,1"  day="1"/>
+	<lvRewards value="11201002,2|10107001,1|10401001,1"  day="2"/>
+	<lvRewards value="11201002,3|10107001,1|10401001,1"  day="3"/>
+	<lvRewards value="11201002,4|10107001,1|10401001,1"  day="4"/>
+	<lvRewards value="11201002,5|10107001,1|10401001,2"  day="5"/>
+	<lvRewards value="11201002,6|10107001,1|10401001,2"  day="6"/>
+	<lvRewards value="11201002,7|10107001,1|10401001,2"  day="7"/>
+</qqGameLogin>
+ <callBack>
+<item title="召回战友" msg="怀念一起热血奋战的日子，送你一份大礼，快快回来一起玩游戏吧~"  recvPicURL="com\assets\gift\callBack\recv.jpg" sendPicURL="com\assets\gift\callBack\send.jpg"/>
+</callBack>
+ 
+<share>
+	<dialogs>
+	<dialog id="1">
+	<item content="春天我在#六界仙尊#种下了一个萝莉，等到秋天，我收获了一堆御姐！大家都来了，你还不来么？" />
+	<item content="#六界仙尊#沉鱼落雁，仙女下凡。让我领略到了天地也为之失色的唯美画面。一切震撼，尽在《六界仙尊》。" />
+	<item content="#六界仙尊#多少相思，才能换来相逢。多少险阻，才能换来拥抱。要经过何等的艰难，才能再与你在一起。无论怎样，我都在《六界仙尊》里等你。" />
+	<item content="#六界仙尊#修真炼元，伏魔降妖，战遍天下，成就神话！进入《六界仙尊》，让你体验不一样的畅快人生！" />
+	<item content="#六界仙尊#什么，什么？极品紫装、无敌萌宠、超炫坐骑统统免费送了？还等什么，快跟我一起来玩《六界仙尊》吧！" />
+	<item content="#六界仙尊#史上最多萌妹子的游戏，浪漫的邂逅，婚礼的殿堂，一世的情缘……《六界仙尊》，有你想要的一切！" />
+	</dialog>
+	<dialog id="2">
+	<item content="#六界仙尊#我新激活的仙宠|petname超级厉害哦！不要羡慕我，我永远是个传说！不服气的来《六界仙尊》切磋切磋，等着你哦！" />
+	<item content="#六界仙尊#哇！我激活了一只超可爱的|petname哦！看我把他培养成全服第一仙宠！哈哈哈，不要羡慕我，你也可以的！"/>
+	<item content="#六界仙尊#我用召唤符开出了一只|petname，哎哟，不仅长得帅气，还很能打哦！你也快来《六界仙尊》打一只带回家吧！" />
+	</dialog>
+	<dialog id="3">
+	<item content="#六界仙尊#哈哈哈，传说中的极品坐骑“|mountname“免费赠送啦！我已经领取了，你还在等什么呢？"/>
+	<item content="#六界仙尊#哇哈哈O(∩_∩)O，我骑上了传送中的坐骑“|mountname”！街上的妹子都在回头看我呢，简直帅呆啦！不要羡慕，你也可以的哦！"/>
+	<item content="#六界仙尊#哈哈哈，骑上传送中的坐骑“|mountname”，我体验到了飞一般的感觉！看，它跑得多快，你能追上我吗？"/>
+	</dialog>
+	</dialogs>
+	<summary content="高富帅，白富美陪你一起游戏，无尽快乐尽在《六界仙尊》"/>
+</share>
+
+<vipLvs>
+   <item lv="1" exp="150"/>
+   <item lv="2" exp="1000"/>
+   <item lv="3" exp="5000"/>
+   <item lv="4" exp="10000"/>
+   <item lv="5" exp="20000"/>
+   <item lv="6" exp="50000"/>
+   <item lv="7" exp="100000"/>
+   <item lv="8" exp="99999999"/>
+</vipLvs>
+</qq>

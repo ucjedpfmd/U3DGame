@@ -14,6 +14,7 @@ namespace module.scene.sceneUnit.avatar{
     public class Monster : Animal
     {
         private p_map_monster _pvo;
+        public int delayAttackKey;
         public Monster()
         {
 			init();
@@ -35,7 +36,7 @@ namespace module.scene.sceneUnit.avatar{
 
         private void initBody()
         {
-			avatar.resetSkin(0,0);
+			avatar.resetSkin(1,0);
             //body.AddComponent<CapsuleCollider>();
             //CapsuleCollider cap = body.GetComponent<CapsuleCollider>();
             //cap.radius = 10;

@@ -1,0 +1,19 @@
+<miniGame>
+	<exchanges>
+		<game id="2" name="火眼金睛" desc="前往天天爱烹饪地图寻找食材可参与“{0}”游戏">
+			<exchange id="201" cost="10000"  	reward="3"/>
+			<exchange id="202" cost="50000" 	reward="1"/>
+			<exchange id="203" cost="400000"	reward="1"/>
+			<exchange id="204" cost="480000" 	reward="2"/>
+			<exchange id="205" cost="1200000" 	reward="2"/>
+		</game>
+		<game id="3" name="水果乱舞" desc="前往寻找食材或者烹饪可参与“{0}”游戏">
+			<exchange id="301" cost="5000" 	 reward="3"/>
+			<exchange id="302" cost="55000"  reward="1"/>
+			<exchange id="303" cost="200000" reward="1"/>
+			<exchange id="304" cost="360000" reward="2"/>
+			<exchange id="305" cost="480000" reward="2"/>
+		</game>
+	
+	</exchanges>
+</miniGame>

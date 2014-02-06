@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<item id="11005" intro="仙尊玩家专属商店" condition="角色50级自动开启" rewards=""/> 
+	
+	<item id="11101" intro="每日完成活动，" condition="角色30级自动开启" rewards=""/> 
+	<item id="11102" intro="每日活动" condition="角色30级自动开启" rewards=""/> 
+	<item id="11103" intro="精彩副本" condition="角色30级自动开启" rewards=""/> 
+	<item id="11104" intro="世界BOSS" condition="角色30级自动开启" rewards=""/> 
+	<item id="11105" intro="福利领取" condition="角色30级自动开启" rewards=""/> 
+	<item id="11107" intro="更新公告" condition="角色30级自动开启" rewards=""/> 
+	
+	<item id="10604" intro="提升装备品质" condition="角色等级达到60级" rewards="10202101,2|11201001,2"/> 
+	
+	<item id="10704" intro="仙盟BOSS" condition="加入玩家创建的仙盟" rewards=""/> 
+	
+	<item id="10503" intro="坐骑进阶" condition="坐骑等级达到20级" rewards="10402101,2|10401001,2"/> 
+	<item id="10504" intro="坐骑强化" condition="坐骑等级达到50级" rewards="11202001,4|11201001,2"/> 
+	<item id="10504" intro="坐骑强化" condition="坐骑等级达到50级" rewards="11202001,4|11201001,2"/> 
+	<item id="10110" intro="角色战魂" condition="角色60级自动开启" rewards="11202001,4|11201001,2"/> 
+	<item id="10420" intro="仙宠法阵" condition="角色60级自动开启" rewards="11202001,4|11401004,3"/> 
+	<item id="10422" intro="仙宠装备" condition="角色60级自动开启" rewards="11202001,4|10203009,3"/> 
+</root>

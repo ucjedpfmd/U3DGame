@@ -1,0 +1,10 @@
+<cross>
+	<enter>
+		<lv>
+			<item id="1" minLv="60" maxLv="200" label="自由"/>
+			<item id="2" minLv="60" maxLv="69" label="低级"/>
+			<item id="3" minLv="70" maxLv="79" label="中级"/>
+			<item id="4" minLv="80" maxLv="200" label="高级"/>			
+		</lv>
+	</enter>
+</cross>

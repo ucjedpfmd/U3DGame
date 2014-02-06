@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<missions>
+
+<!--任务排序
+	在对应任务的类型，状态，模型加权后，再特殊排序（例子：诛魔令任务需在【修】这一系列中排名第一）
+-->
+	<sorts>
+		<mission id="90102"  sortValue="1"/>
+		<mission id="95000"  sortValue="790000"/>
+		<mission bigGroup="1001" sortValue="2"/>
+	</sorts>
+
+<!--任务是否快速完成 (id:需要)  (not_id: 在big_group里面的id不需要)-->
+
+<quick_finish>
+    <mission id="" not_id="" type="3" big_group="7001,5001,4001,3001,1001"  not_big_group=""/>
+</quick_finish>
+
+<!--任务小图标 icon =1经验。2灵气。3道具。4战斗。5金钱。6贡献。7药品
+				type =1打怪
+-->
+    <icon>	
+		<mission icon="1" type="3" bigGroup="1001,3001,5001,7001" id="80002,80003,80004,80005,80006,90101,80007,80010,90102" />	
+		<mission icon="3" type="3" bigGroup="70101,70201,70301,70401,70501,70601,70701,70801,70901,71001,71101,71201,71301,71401,71501" id="80008,80009,90103,95000,90198,90199,90201" />
+		<mission icon="5" type="3" bigGroup="4001" id="80001,90001,90002" />	
+		<mission icon="6" type="3" bigGroup="2001" id="" />	
+        <mission icon="1" type="1" bigGroup="" id="" />		
+        <mission icon="2" type="3" bigGroup="" id="" />	
+	    <mission icon="3" type="2" bigGroup="" id="" />		
+	<!--	<mission icon="3" type="１" bigGroup="70101,70201,70301,70401,70501,70601,70701,70801,70901,71001,71101,71201,71301,71401,71501" id="" />		-->
+	</icon>
+
+<!--任务奖励显示 msg:#分割符，每一对|之间如果为数字，均为一个道具，如果里面有多个数字，则按照职业选择
+	例子：<reward id="11005" msg="完成任务获得|10701006,10702003,10703003,10704003|我不是|31010401|，|31010402"/>
+-->	
+	<rewards>
+		<reward id="20001" msg="完成任务获得|10301018"/>
+		<reward id="20002" msg="学会附身，马上获得&lt;font color='#ffd050'&gt;5元宝&lt;/font&gt;"/>
+		<reward id="20003" msg="完成特殊事件，领取&lt;font color='#ffd050'&gt;100元宝&lt;/font&gt;"/>
+		<reward id="20004" msg="完成特殊事件，领取|10117002"/>
+		<reward id="20007" msg="增强实力，获得|10201103"/>
+		<reward id="20009" msg="完成任务，获得|10201006"/>
+		<reward id="20011" msg="完成仙珠学习，获得|10501001"/>
+		<reward id="20013" msg="学会所有仙珠技能，获得|10502001"/>
+		<reward id="20014" msg="升级仙珠技能，获得|10502001"/>
+		<reward id="20019" msg="完成任务，即可获得&lt;font color='#ffd050'&gt;10元宝&lt;/font&gt;"/>
+		<reward id="20020" msg="完成任务，即可获得&lt;font color='#ffd050'&gt;25元宝&lt;/font&gt;"/>
+		<reward id="20021" msg="完成任务，即可获得&lt;font color='#ffd050'&gt;200元宝&lt;/font&gt;"/>
+		<reward id="90101" msg="完成分享，即可获得&lt;font color='#ffd050'&gt;2元宝&lt;/font&gt;"/>
+		<reward id="90103" msg="好友邀请，终极大奖|10903001"/>
+		<reward bigGroup="3001" msg="每完成10环可获得|11401004"/>		
+		<reward bigGroup="4001" msg="每完成10环可获得|11601101"/>		
+		<reward bigGroup="7001" msg="经验奖励30000/次"/>	
+		<!--跨服任务奖励-->
+		<reward bigGroup="70101" msg="完成可获得|10125001"/>
+		<reward bigGroup="70201" msg="完成可获得|10125001"/>
+		<reward bigGroup="70301" msg="完成可获得|10125001"/>
+		<reward bigGroup="70401" msg="完成可获得|10125001"/>
+		<reward bigGroup="70501" msg="完成可获得|10125001"/>
+		<reward bigGroup="70601" msg="完成可获得|10125001"/>
+		<reward bigGroup="70701" msg="完成可获得|10125001"/>
+		<reward bigGroup="70801" msg="完成可获得|10125001"/>
+		<reward bigGroup="70901" msg="完成可获得|10125001"/>
+		<reward bigGroup="71001" msg="完成可获得|10125001"/>
+		<reward bigGroup="71101" msg="完成可获得|10125001"/>
+		<reward bigGroup="71201" msg="完成可获得|10125001"/>
+		<reward bigGroup="71301" msg="完成可获得|10125001"/>
+		<reward bigGroup="71401" msg="完成可获得|10125001"/>
+		<reward bigGroup="71501" msg="完成可获得|10125001"/>
+
+	</rewards>
+	
+<!--伪主线的配置，40级前当主线不可接，这些任务自动转变成主-->
+	<fakeMains>
+		<mission bigGroup="" id="80001,80002,80003,80004,80005,80007,80008,80009,80010" />	
+	</fakeMains>
+	
+<!--组队任务的配置-->
+	<teams>
+		<mission bigGroup="3001,4001,1001,7001" id="" />	
+	</teams>
+	
+<!--自动接的任务的配置-->
+	<autoGet>
+		<mission bigGroup="2001,2010" id="90101,90103" />	
+	</autoGet>	
+<!--不显示的任务的配置-->
+	<hide>
+		<mission bigGroup="2010" id="" />	
+	</hide>
+	
+<!--挂机地图引导-->
+	<guideMap>
+		<mission vipLv="1" roleLv="0,55,40700|56,200,40900" />	
+		<mission vipLv="0" roleLv="0,39,40300|40,49,40600|50,59,40200|60,200,40800" />	
+	</guideMap>
+	
+<!--当该mission id处于type状态（1可接，2已接，3可提交）时，出现npc-->
+	<visible>
+		<mission id="11000"  state="1" npc="10000101" />
+		<mission id="11003"  state="2" npc="10000105" />
+		<mission id="11003"  state="3" npc="10000105" />
+		<mission id="11004"  state="1" npc="10000105" />
+		<mission id="11005"  state="3" npc="10000107" />
+		<mission id="11006"  state="1" npc="10000107" />
+		<mission id="11006"  state="2" npc="10000111" />
+		<mission id="11006"  state="3" npc="10000109" />
+		<mission id="11007"  state="1" npc="10000109" />
+		<mission id="11007"  state="2" npc="10000109" />
+		<mission id="11007"  state="3" npc="10000109" />
+		<mission id="11011"  state="1" npc="10000109" />
+		<mission id="11011"  state="2" npc="10000109" />
+		<mission id="11011"  state="3" npc="10000109" />
+		<mission id="11012"  state="1" npc="10000109" />
+		<mission id="11012"  state="2" npc="10000108" />
+		<mission id="11012"  state="3" npc="10000108" />
+		<mission id="11013"  state="1" npc="10000110" />
+		<mission id="11014"  state="3" npc="10100113" />
+		<mission id="11015"  state="1" npc="10100113" />		
+		<mission id="11015"  state="3" npc="10100103" />
+		<mission id="11016"  state="1" npc="10100111" />
+		<mission id="11016"  state="2" npc="10100104" />
+		<mission id="11016"  state="3" npc="10100104" />
+		<mission id="11017"  state="1" npc="10100104" />
+		<mission id="11017"  state="2" npc="10100104" />
+		<mission id="11017"  state="3" npc="10100104" />
+		<mission id="11018"  state="1" npc="10100104" />
+		<mission id="11018"  state="2" npc="10100104" />
+		<mission id="11018"  state="3" npc="10100104" />
+		<mission id="11019"  state="1" npc="10100105" />
+		<mission id="11019"  state="3" npc="10100106" />
+		<mission id="11020"  state="1" npc="10100106" />
+		<mission id="11020"  state="3" npc="10100107" />
+		<mission id="11021"  state="1" npc="10100107" />
+		<mission id="11021"  state="2" npc="10100112" />
+		<mission id="11021"  state="3" npc="10100107" />
+		<mission id="11022"  state="1" npc="10100107" />
+		<mission id="11022"  state="2" npc="10100109" />
+		<mission id="11022"  state="3" npc="10100109" />
+		<mission id="11024"  state="2" npc="10100110" />
+		<mission id="11024"  state="3" npc="10100110" />
+		<mission id="11027"  state="2" npc="10100110" />
+		<mission id="11027"  state="3" npc="10100110" />
+		<mission id="11028"  state="1" npc="10100110" />
+		<mission id="11028"  state="2" npc="10100110" />
+		<mission id="11028"  state="3" npc="10100110" />
+		<mission id="11029"  state="1" npc="10100110" />
+		<mission id="11029"  state="2" npc="10100110" />
+		<mission id="11029"  state="3" npc="10100110" />
+		<mission id="11030"  state="1" npc="10100110" />
+		
+		
+		
+		
+		
+		
+		
+		<mission id="10002"  state="3" npc="40000104" />
+		<mission id="10003"  state="1" npc="40000104" />	
+		<mission id="10005"  state="1" npc="40000107" />
+		<mission id="10005"  state="2" npc="40000107" />
+		<mission id="10005"  state="3" npc="40000107" />
+		<mission id="10006"  state="1" npc="40000107" />
+		<mission id="10007"  state="3" npc="40000107" />		
+		<mission id="10219"  state="1" npc="40000107" />
+		<mission id="10219"  state="2" npc="40000107" />
+		<mission id="10219"  state="3" npc="40000107" />
+		<mission id="10008"  state="3" npc="40000136" />
+		<mission id="10009"  state="1" npc="40000136" />
+		<mission id="10009"  state="2" npc="40000136" />
+		<mission id="10012"  state="3" npc="40000118" />	
+		<mission id="10013"  state="1" npc="40000118" />
+		<mission id="10014"  state="3" npc="40400124" />
+		<mission id="10015"  state="1" npc="40400124" />
+		<mission id="10021"  state="3" npc="40400118" />
+		<mission id="10022"  state="2" npc="40400121" />		
+		<mission id="10022"  state="3" npc="40400116" />
+		<mission id="10023"  state="1" npc="40400116" />
+		<mission id="10023"  state="2" npc="40400116" />
+		<mission id="10023"  state="3" npc="40400116" />	
+		<mission id="10024"  state="1" npc="40400116" />	
+		<mission id="10024"  state="3" npc="40400118" />	
+		<mission id="10025"  state="1" npc="40400118" />	
+		<mission id="10027"  state="3" npc="40000110" />	
+		<mission id="10028"  state="1" npc="40000110" />
+
+		<mission id="10032"  state="3" npc="40400108" />
+		<mission id="10033"  state="1" npc="40400108" />		
+		<mission id="10033"  state="3" npc="40400119" />	
+		<mission id="10034"  state="1" npc="40400119" />	
+		<mission id="10034"  state="3" npc="40400109" />	
+		<mission id="10035"  state="1" npc="40400109" />	
+		<mission id="10035"  state="3" npc="40400110" />	
+		<mission id="10036"  state="1" npc="40400110" />	
+		<mission id="10036"  state="3" npc="40400111" />	
+		<mission id="10037"  state="1" npc="40400111" />		
+		<mission id="10037"  state="3" npc="40400126" />	
+		<mission id="10038"  state="1" npc="40400126" />
+		<mission id="10040"  state="3" npc="40400123" />
+		<mission id="10041"  state="1" npc="40400123" />
+		<mission id="10041"  state="3" npc="40400108" />
+		<mission id="10042"  state="1" npc="40400108" />
+		<mission id="10043"  state="2" npc="40400119" />	
+		<mission id="10043"  state="3" npc="40400119" />	
+		<mission id="10044"  state="1" npc="40400119" />
+		<mission id="10212"  state="3" npc="40000107" />	
+		<mission id="10048"  state="1" npc="40000107" />	
+		<mission id="10048"  state="2" npc="40000114" />	
+		<mission id="10048"  state="3" npc="40000114" />	
+		<mission id="10049"  state="1" npc="40000114" />	
+		<mission id="10049"  state="2" npc="40000114" />	
+		<mission id="10049"  state="3" npc="40000114" />	
+		<mission id="10050"  state="1" npc="40000114" />			
+		<mission id="10051"  state="2" npc="40000110" />	
+		<mission id="10051"  state="3" npc="40000110" />			
+		<mission id="10052"  state="1" npc="40000110" />
+		<mission id="10052"  state="3" npc="40000133" />
+		<mission id="10053"  state="1" npc="40000133" />
+		<mission id="10053"  state="3" npc="40000107" />	
+		<mission id="10054"  state="1" npc="40000107" />			
+		<mission id="10054"  state="2" npc="40000107" />			
+		<mission id="10054"  state="3" npc="40000107" />		
+		<mission id="10055"  state="1" npc="40000107" />			
+		<mission id="10056"  state="2" npc="40000116" />			
+		<mission id="10056"  state="3" npc="40000116" />		
+		<mission id="10057"  state="1" npc="40000116" />			
+		<mission id="10059"  state="2" npc="40100103" />			
+		<mission id="10059"  state="3" npc="40100103" />		
+		<mission id="10060"  state="1" npc="40100103" />			
+		<mission id="10060"  state="2" npc="40100104" />			
+		<mission id="10060"  state="3" npc="40100104" />
+		<mission id="10061"  state="1" npc="40100104" />			
+		<mission id="10061"  state="2" npc="40100104" />			
+		<mission id="10061"  state="3" npc="40100104" />		
+		<mission id="10062"  state="1" npc="40100104" />			
+		<mission id="10062"  state="2" npc="40100105" />		
+		<mission id="10062"  state="3" npc="40100105" />		
+		<mission id="10063"  state="1" npc="40100105" />			
+		<mission id="10064"  state="2" npc="40100107" />			
+		<mission id="10064"  state="3" npc="40100107" />			
+		<mission id="10065"  state="1" npc="40100107" />			
+		<mission id="10065"  state="2" npc="40100107" />			
+		<mission id="10065"  state="3" npc="40100107" />			
+		<mission id="10066"  state="1" npc="40100107" />			
+		<mission id="10067"  state="2" npc="40100107" />			
+		<mission id="10067"  state="3" npc="40100107" />			
+		<mission id="10068"  state="1" npc="40100107" />			
+		<mission id="10068"  state="2" npc="40100110" />			
+		<mission id="10068"  state="3" npc="40100110" />			
+		<mission id="10069"  state="1" npc="40100110" />	
+		<mission id="10076"  state="2" npc="40000118" />			
+		<mission id="10076"  state="3" npc="40000118" />	
+		<mission id="10078"  state="1" npc="40000118" />
+		
+		<mission id="10080"  state="3" npc="40500103" />
+		<mission id="10081"  state="1" npc="40500103" />
+		<mission id="10082"  state="3" npc="40500105" />
+		<mission id="10083"  state="1" npc="40500105" />
+		<mission id="10083"  state="3" npc="40500110" />
+		<mission id="10084"  state="1" npc="40500110" />
+		<mission id="10084"  state="3" npc="40500106" />
+		<mission id="10085"  state="1" npc="40500106" />
+		<mission id="10085"  state="3" npc="40500107" />
+		<mission id="10086"  state="1" npc="40500107" />
+		<mission id="10086"  state="3" npc="40500108" />
+		<mission id="10087"  state="1" npc="40500108" />
+		<mission id="10087"  state="3" npc="40500108" />
+		<mission id="10088"  state="1" npc="40500108" />
+		
+		
+		<mission id="10091"  state="3" npc="40300102" />
+		<mission id="10094"  state="1" npc="40300102" />
+		<mission id="10094"  state="2" npc="40300102" />
+		<mission id="10094"  state="3" npc="40300102" />	
+		<mission id="10095"  state="1" npc="40300102" />			
+		<mission id="10095"  state="3" npc="40300103" />		
+		<mission id="10096"  state="1" npc="40300103" />			
+		<mission id="10096"  state="3" npc="40300104" />			
+		<mission id="10097"  state="1" npc="40300104" />				
+		<mission id="10098"  state="3" npc="40300104" />			
+		<mission id="10099"  state="1" npc="40300104" />			
+		<mission id="10099"  state="3" npc="40300105" />	
+		<mission id="10100"  state="1" npc="40300105" />	
+		<mission id="10100"  state="3" npc="40300106" />	
+		<mission id="10101"  state="1" npc="40300106" />
+		<mission id="10101"  state="2" npc="40300106" />		
+		<mission id="10101"  state="3" npc="40300107" />	
+		<mission id="10102"  state="1" npc="40300107" />
+		<mission id="10102"  state="3" npc="40300108" />	
+		<mission id="10103"  state="1" npc="40300111" />	
+		<mission id="10103"  state="3" npc="40300110" />	
+		<mission id="10104"  state="1" npc="40300110" />	
+		<mission id="10104"  state="3" npc="40300113" />
+		<mission id="10105"  state="1" npc="40300113" />
+		<mission id="10105"  state="3" npc="40300112" />
+		<mission id="10106"  state="1" npc="40300112" />
+		<mission id="10106"  state="3" npc="40300109" />
+		<mission id="10107"  state="1" npc="40300109" />
+		<mission id="10107"  state="3" npc="40300112" />
+		<mission id="10108"  state="1" npc="40300112" />	
+		<mission id="10108"  state="3" npc="40300115" />	
+		<mission id="10109"  state="1" npc="40300115" />
+		<mission id="10109"  state="2" npc="40300115" />
+		<mission id="10109"  state="3" npc="40300115" />
+		<mission id="10110"  state="1" npc="40300115" />
+		<mission id="10110"  state="2" npc="40300115" />
+		<mission id="10110"  state="3" npc="40300128" />
+		<mission id="10111"  state="1" npc="40300128" />
+		<mission id="10111"  state="2" npc="40300127" />
+		<mission id="10111"  state="3" npc="40300127" />
+		<mission id="10112"  state="1" npc="40300127" />
+		<mission id="10112"  state="2" npc="40300125" />		
+		<mission id="10112"  state="3" npc="40300125" />		
+		<mission id="10113"  state="1" npc="40300125" />							
+		<mission id="10113"  state="3" npc="40300115" />				
+		<mission id="10114"  state="1" npc="40300115" />					
+		<mission id="10114"  state="3" npc="40300114" />			
+		<mission id="10115"  state="1" npc="40300114" />				
+		<mission id="10115"  state="3" npc="40300126" />			
+		<mission id="10116"  state="1" npc="40300126" />				
+		<mission id="10116"  state="3" npc="40300109" />	
+		<mission id="10117"  state="1" npc="40300109" />
+		<mission id="10117"  state="3" npc="40300115" />			
+		<mission id="10118"  state="1" npc="40300115" />					
+		<mission id="10120"  state="2" npc="40300115" />			
+		<mission id="10120"  state="3" npc="40300115" />			
+		<mission id="10121"  state="1" npc="40300115" />			
+		<mission id="10121"  state="2" npc="40300115" />			
+		<mission id="10121"  state="3" npc="40300115" />			
+		<mission id="10122"  state="1" npc="40300115" />		
+		<mission id="10123"  state="2" npc="40300117" />	
+		<mission id="10123"  state="3" npc="40300117" />	
+		<mission id="10124"  state="1" npc="40300117" />	
+		<mission id="10124"  state="2" npc="40300117" />	
+		<mission id="10124"  state="3" npc="40300117" />	
+		<mission id="10125"  state="1" npc="40300117" />		
+		<mission id="10126"  state="2" npc="40300119" />	
+		<mission id="10126"  state="3" npc="40300119" />		
+		<mission id="10128"  state="2" npc="40300124" />	
+		<mission id="10128"  state="3" npc="40300124" />	
+		<mission id="10129"  state="1" npc="40300124" />
+		<mission id="10129"  state="2" npc="40300124" />		
+		<mission id="10129"  state="3" npc="40300124" />	
+		<mission id="10130"  state="1" npc="40300124" />	
+		<mission id="10131"  state="2" npc="40300120" />	
+		<mission id="10131"  state="3" npc="40300120" />	
+		<mission id="10132"  state="1" npc="40300120" />		
+		<mission id="10133"  state="2" npc="40300120" />	
+		<mission id="10133"  state="3" npc="40300120" />	
+		<mission id="10134"  state="1" npc="40300120" />	
+		<mission id="10134"  state="2" npc="40300120" />	
+		<mission id="10134"  state="3" npc="40300120" />			
+		<mission id="10135"  state="1" npc="40300121" />	
+		<mission id="10135"  state="2" npc="40300121" />	
+		<mission id="10135"  state="3" npc="40300121" />	
+		<mission id="10136"  state="1" npc="40300120" />		
+		<mission id="10137"  state="2" npc="40300120" />	
+		<mission id="10137"  state="3" npc="40300120" />	
+		<mission id="10138"  state="1" npc="40300120" />
+		<mission id="10139"  state="3" npc="40300122" />
+		<mission id="10140"  state="1" npc="40300122" />
+		<mission id="10141"  state="3" npc="40300122" />
+		<mission id="10142"  state="1" npc="40300122" />
+		<mission id="10143"  state="2" npc="40300119" />	
+		<mission id="10143"  state="3" npc="40300119" />		
+		<mission id="10144"  state="1" npc="40300119" />		
+		<mission id="10144"  state="2" npc="40300119" />		
+		<mission id="10144"  state="3" npc="40300119" />		
+		<mission id="10145"  state="1" npc="40300119" />				
+		<mission id="10146"  state="2" npc="40300119" />		
+		<mission id="10146"  state="3" npc="40300119" />		
+		<mission id="10147"  state="1" npc="40300119" />		
+		<mission id="10147"  state="3" npc="40300122" />
+		<mission id="10148"  state="1" npc="40300122" />						
+		<mission id="10150"  state="2" npc="40300119" />	
+		<mission id="10150"  state="3" npc="40300119" />					
+		<mission id="10151"  state="1" npc="40300122" />	
+		<mission id="10151"  state="3" npc="40300119" />	
+		<mission id="10152"  state="1" npc="40300119" />				
+		<mission id="10153"  state="3" npc="40000107" />				
+		<mission id="10154"  state="1" npc="40000107" />				
+		<mission id="10155"  state="3" npc="40000107" />		
+		<mission id="10156"  state="1" npc="40000107" />		
+		
+		<mission id="10157"  state="2" npc="40400116" />	
+		<mission id="10157"  state="3" npc="40400116" />	
+		<mission id="10158"  state="1" npc="40400116" />	
+		<mission id="10158"  state="2" npc="40400104" />	
+		<mission id="10158"  state="3" npc="40400104" />	
+		<mission id="10159"  state="1" npc="40400104" />	
+		<mission id="10159"  state="2" npc="40400116" />	
+		<mission id="10159"  state="3" npc="40400116" />	
+		<mission id="10160"  state="1" npc="40400116" />	
+		<mission id="10160"  state="2" npc="40600114" />	
+		<mission id="10160"  state="3" npc="40600114" />	
+		<mission id="10161"  state="1" npc="40600114" />	
+		<mission id="10161"  state="2" npc="40600103" />	
+		<mission id="10161"  state="3" npc="40600103" />			
+		<mission id="10162"  state="1" npc="40600103" />	
+		<mission id="10162"  state="2" npc="40600104" />	
+		<mission id="10162"  state="3" npc="40600104" />	
+		<mission id="10163"  state="1" npc="40600104" />	
+		<mission id="10163"  state="2" npc="40600104" />	
+		<mission id="10163"  state="3" npc="40600104" />	
+		<mission id="10164"  state="1" npc="40600104" />	
+		<mission id="10164"  state="2" npc="40600106" />	
+		<mission id="10164"  state="3" npc="40600106" />	
+		<mission id="10165"  state="1" npc="40600106" />
+		<mission id="10165"  state="2" npc="40600107" />
+		<mission id="10165"  state="3" npc="40600107" />
+		<mission id="10166"  state="1" npc="40600107" />
+		<mission id="10166"  state="2" npc="40600104" />
+		<mission id="10166"  state="3" npc="40600104" />
+		<mission id="10167"  state="1" npc="40600104" />
+		<mission id="10167"  state="2" npc="40600107" />
+		<mission id="10167"  state="3" npc="40600107" />
+		<mission id="10168"  state="1" npc="40600107" />
+		<mission id="10168"  state="2" npc="40600102" />
+		<mission id="10168"  state="3" npc="40600102" />
+		<mission id="10169"  state="1" npc="40600102" />
+		<mission id="10169"  state="2" npc="40600102" />
+		<mission id="10169"  state="3" npc="40600102" />
+		<mission id="10170"  state="1" npc="40600102" />
+		<mission id="10170"  state="2" npc="40600107" />	
+		<mission id="10170"  state="3" npc="40600107" />		
+		<mission id="10171"  state="1" npc="40600107" />		
+		<mission id="10171"  state="2" npc="40600104" />		
+		<mission id="10171"  state="3" npc="40600104" />		
+		<mission id="10172"  state="1" npc="40600104" />		
+		<mission id="10172"  state="2" npc="40600105" />		
+		<mission id="10172"  state="3" npc="40600105" />			
+		<mission id="10173"  state="1" npc="40600105" />			
+		<mission id="10173"  state="2" npc="40600107" />		
+		<mission id="10173"  state="3" npc="40600107" />		
+		<mission id="10174"  state="1" npc="40600107" />		
+		<mission id="10174"  state="2" npc="40600118" />		
+		<mission id="10174"  state="3" npc="40600118" />			
+		<mission id="10175"  state="1" npc="40600118" />			
+		<mission id="10175"  state="2" npc="40600118" />	
+		<mission id="10175"  state="3" npc="40600117" />			
+		<mission id="10176"  state="1" npc="40600117" />				
+		<mission id="10176"  state="2" npc="40600116" />	
+		<mission id="10176"  state="3" npc="40600116" />			
+		<mission id="10177"  state="1" npc="40600116" />							
+		<mission id="10178"  state="3" npc="40600111" />	
+		<mission id="10179"  state="1" npc="40600111" />	
+		<mission id="10179"  state="2" npc="40600111" />		
+		<mission id="10179"  state="3" npc="40600111" />			
+		<mission id="10180"  state="1" npc="40600113" />				
+		<mission id="10181"  state="2" npc="40600117" />	
+		<mission id="10181"  state="3" npc="40600117" />	
+		<mission id="10182"  state="1" npc="40600117" />	
+		<mission id="10182"  state="2" npc="40600116" />	
+		<mission id="10182"  state="3" npc="40600116" />	
+		<mission id="10183"  state="1" npc="40400120" />	
+		<mission id="10183"  state="2" npc="40400107" />	
+		<mission id="10183"  state="3" npc="40400107" />	
+		<mission id="10184"  state="1" npc="40400107" />	
+		<mission id="10184"  state="2" npc="40400120" />	
+		<mission id="10184"  state="3" npc="40400120" />			
+		<mission id="10185"  state="1" npc="40400120" />	
+		<mission id="10185"  state="2" npc="40600117" />	
+		<mission id="10185"  state="3" npc="40600117" />	
+		<mission id="10186"  state="1" npc="40600117" />	
+		<mission id="10186"  state="2" npc="40600105" />	
+		<mission id="10186"  state="3" npc="40600105" />		
+		<mission id="10187"  state="2" npc="40600112" />	
+		<mission id="10187"  state="3" npc="40600112" />	
+		<mission id="10188"  state="1" npc="40600112" />
+		<mission id="10189"  state="3" npc="40600120" />
+		<mission id="10190"  state="1" npc="40600120" />
+		<mission id="10190"  state="3" npc="40600121" />
+		<mission id="10191"  state="1" npc="40600121" />
+		<mission id="10191"  state="2" npc="40600117" />
+		<mission id="10191"  state="3" npc="40600117" />
+		<mission id="10192"  state="1" npc="40600117" />
+		<mission id="10192"  state="2" npc="40600117" />
+		<mission id="10192"  state="3" npc="40600117" />
+		<mission id="10193"  state="1" npc="40600106" />
+		<mission id="10193"  state="2" npc="40600107" />	
+		<mission id="10193"  state="3" npc="40600107" />		
+		<mission id="10194"  state="1" npc="40600107" />		
+		<mission id="10194"  state="2" npc="40600108" />		
+		<mission id="10194"  state="3" npc="40600108" />		
+		<mission id="10195"  state="1" npc="40600108" />		
+		<mission id="10195"  state="2" npc="40600109" />		
+		<mission id="10195"  state="3" npc="40600109" />			
+		<mission id="10196"  state="1" npc="40600109" />			
+		<mission id="10196"  state="2" npc="40600113" />		
+		<mission id="10196"  state="3" npc="40600113" />		
+		<mission id="10197"  state="1" npc="40600113" />					
+		<mission id="10198"  state="2" npc="40600122" />	
+		<mission id="10198"  state="3" npc="40600122" />			
+		<mission id="10199"  state="1" npc="40600122" />				
+		<mission id="10199"  state="2" npc="40600123" />	
+		<mission id="10199"  state="3" npc="40600123" />			
+		<mission id="10200"  state="1" npc="40600123" />
+		<mission id="10200"  state="3" npc="40600124" />			
+		<mission id="10201"  state="1" npc="40600124" />			
+		<mission id="10201"  state="2" npc="40600125" />	
+		<mission id="10201"  state="3" npc="40600125" />	
+		<mission id="10202"  state="1" npc="40600125" />	
+		<mission id="10202"  state="2" npc="40600126" />		
+		<mission id="10202"  state="3" npc="40600126" />			
+		<mission id="10203"  state="1" npc="40600126" />			
+		<mission id="10203"  state="3" npc="40600127" />				
+		<mission id="10203"  state="1" npc="40600127" />		
+		<mission id="10204"  state="1" npc="40600127" />				
+		<mission id="10204"  state="2" npc="40600128" />	
+		<mission id="10204"  state="3" npc="40600128" />			
+		<mission id="10205"  state="1" npc="40600128" />			
+		<mission id="10205"  state="2" npc="40600129" />	
+		<mission id="10205"  state="3" npc="40600129" />	
+		<mission id="10206"  state="1" npc="40600129" />	
+		<mission id="10206"  state="2" npc="40600129" />		
+		<mission id="10206"  state="3" npc="40600129" />			
+		<mission id="10207"  state="1" npc="40600130" />			
+		<mission id="10207"  state="3" npc="40600131" />				
+		<mission id="10208"  state="1" npc="40400116" />
+		<mission id="10208"  state="3" npc="40400125" />			
+		<mission id="10209"  state="1" npc="40400125" />
+		<mission id="10209"  state="3" npc="40400120" />
+		<mission id="10213"  state="1" npc="40600134" />
+		<mission id="10213"  state="2" npc="40600135" />
+		<mission id="10213"  state="3" npc="40600134" />
+		<mission id="10214"  state="1" npc="40600134" />
+		<mission id="10214"  state="3" npc="40600132" />
+		<mission id="10215"  state="1" npc="40600132" />
+		<mission id="10215"  state="3" npc="40600133" />
+		<mission id="10216"  state="1" npc="40600133" />
+		<mission id="10216"  state="3" npc="40600134" />
+		<mission id="10217"  state="1" npc="40600134" />
+		<mission id="10218"  state="3" npc="40000107" />
+		
+		<mission id="10221"  state="1" npc="40400116" />
+		<mission id="10221"  state="3" npc="40400118" />
+		<mission id="10222"  state="1" npc="40200106" />
+		<mission id="10222"  state="2" npc="40200106" />
+		<mission id="10222"  state="3" npc="40200106" />
+		<mission id="10223"  state="1" npc="40200106" />
+		<mission id="10225"  state="3" npc="40200107" />
+		<mission id="10226"  state="1" npc="40200107" />
+		<mission id="10229"  state="3" npc="40200107" />
+		<mission id="10230"  state="1" npc="40200107" />
+		<mission id="10230"  state="3" npc="40200113" />
+		<mission id="10231"  state="1" npc="40200113" />
+		<mission id="10231"  state="2" npc="40200113" />
+		<mission id="10231"  state="3" npc="40200113" />
+		<mission id="10232"  state="1" npc="40200113" />
+		<mission id="10232"  state="2" npc="40200113" />
+		<mission id="10232"  state="3" npc="40200113" />
+		<mission id="10233"  state="1" npc="40200113" />
+		<mission id="10233"  state="3" npc="40200108" />
+		<mission id="10234"  state="1" npc="40200108" />
+		<mission id="10235"  state="1" npc="40200108" />
+		<mission id="10235"  state="3" npc="40200111" />
+		<mission id="10236"  state="1" npc="40200107" />
+		<mission id="10236"  state="3" npc="40200111" />
+		<mission id="10237"  state="1" npc="40200111" />
+		<mission id="10237"  state="3" npc="40200109" />
+		<mission id="10238"  state="1" npc="40200109" />
+		<mission id="10239"  state="3" npc="40200109" />
+		<mission id="10240"  state="1" npc="40200109" />
+		<mission id="10241"  state="3" npc="40200111" />
+		<mission id="10242"  state="3" npc="40200110" />
+		<mission id="10243"  state="1" npc="40200110" />
+		<mission id="10245"  state="3" npc="40200110" />
+		<mission id="10246"  state="1" npc="40200110" />
+		<mission id="10247"  state="3" npc="40200110" />
+		<mission id="10248"  state="1" npc="40200110" />
+		
+		<mission id="10249"  state="3" npc="40200117" />
+		<mission id="10250"  state="1" npc="40200117" />
+		<mission id="10250"  state="2" npc="40200117" />
+		<mission id="10250"  state="3" npc="40200117" />
+		<mission id="10251"  state="1" npc="40200117" />
+		<mission id="10251"  state="3" npc="40200124" />
+		<mission id="10252"  state="1" npc="40200124" />
+		<mission id="10252"  state="3" npc="40200121" />
+		<mission id="10253"  state="1" npc="40200121" />
+		<mission id="10253"  state="3" npc="40200122" />
+		<mission id="10254"  state="1" npc="40200122" />
+		<mission id="10256"  state="3" npc="40200125" />
+		<mission id="10257"  state="1" npc="40200125" />
+		<mission id="10257"  state="3" npc="40200123" />
+		<mission id="10258"  state="1" npc="40200123" />
+		<mission id="10258"  state="3" npc="40200125" />
+		<mission id="10259"  state="1" npc="40200125" />
+		<mission id="10260"  state="3" npc="40200124" />
+		<mission id="10261"  state="1" npc="40200124" />
+		<mission id="10261"  state="3" npc="40200118" />
+		<mission id="10262"  state="1" npc="40200118" />
+		<mission id="10263"  state="3" npc="40200119" />
+		<mission id="10264"  state="1" npc="40200119" />
+		<mission id="10264"  state="2" npc="40200119" />
+		<mission id="10264"  state="3" npc="40200119" />
+		<mission id="10265"  state="1" npc="40200119" />
+		<mission id="10265"  state="3" npc="40200127" />
+		<mission id="10266"  state="1" npc="40200127" />
+		<mission id="10266"  state="3" npc="40200120" />
+		<mission id="10267"  state="1" npc="40200120" />
+		<mission id="10267"  state="3" npc="40200129" />
+		<mission id="10268"  state="1" npc="40200129" />
+		<mission id="10268"  state="3" npc="40200129" />
+		<mission id="10269"  state="1" npc="40200129" />
+		<mission id="10269"  state="3" npc="40200128" />
+		<mission id="10270"  state="1" npc="40200128" />
+		<mission id="10270"  state="3" npc="40200126" />
+		<mission id="10271"  state="1" npc="40200126" />
+		<mission id="10271"  state="3" npc="40200120" />
+		<mission id="10272"  state="1" npc="40200120" />
+		<mission id="10272"  state="3" npc="40200126" />
+		<mission id="10273"  state="1" npc="40200126" />
+		<mission id="10274"  state="3" npc="40200109" />
+		
+		
+		
+		
+
+				
+		
+		
+		</visible>
+		</missions>	

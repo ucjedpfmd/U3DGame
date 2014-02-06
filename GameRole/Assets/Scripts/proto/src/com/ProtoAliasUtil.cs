@@ -12,6 +12,10 @@ namespace com
 
 		public static string getClassNameByAlias(int alias){
 			init();
+            if (aliasDic.ContainsKey(alias) == false)
+            {
+                return null;
+            }
 			return aliasDic[alias].ToString();
 		}
 		

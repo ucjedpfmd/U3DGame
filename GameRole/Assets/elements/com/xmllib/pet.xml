@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pets>
+<info>
+	<pet typeID = "40050001"  skinID="60000001"  height="195"  attrUnit="54"  skillID="10640007" attackType="2"  maxAptitude="2000"  typeName="雷霆天狮"  getWay="幻兽天境150层"    linkID="11601"  isShow="1"  />
+	<pet typeID = "40020004"  skinID="60000052"  height="115"  attrUnit="24"  skillID="10610039" attackType="2"  maxAptitude="2000"  typeName="小火妖"  	 getWay="百灵园副本"  linkID="40000105"  isShow="1" />
+	<pet typeID = "40020005"  skinID="60000005"  height="65"   attrUnit="24" skillID="10610035" attackType="2"  maxAptitude="2000"  typeName="绿叶桂灵"  getWay="百灵园副本"  linkID="40000105"  isShow="1"  />
+	<pet typeID = "40020006"  skinID="60000006"  height="65"   attrUnit="24" skillID="10610037" attackType="2"  maxAptitude="2000"  typeName="红叶桂灵"  getWay="百灵园副本"  linkID="40000105"  isShow="1"  />
+	<pet typeID = "40020007"  skinID="60000007"  height="105"  attrUnit="24"  skillID="10610036" attackType="1"  maxAptitude="2000"  typeName="花楹"  	 getWay="百灵园副本"  linkID="40000105"  isShow="1" />
+	<pet typeID = "40020008"  skinID="60000015"  height="60"   attrUnit="24" skillID="10610038" attackType="1"  maxAptitude="2000"  typeName="小狐仙"  	 getWay="百灵园副本"  linkID="40000105"  isShow="1" />
+	<pet typeID = "40020009"  skinID="60000009"  height="80"   attrUnit="24" skillID="10610040" attackType="1"  maxAptitude="2000"  typeName="小地精"	 getWay="百灵园副本"  linkID="40000105"  isShow="1"   />
+	<pet typeID = "40020010"  skinID="60000010"  height="70"   attrUnit="24" skillID="10610046" attackType="2"  maxAptitude="2000"  typeName="叶灵"  	 getWay="幻兽天境20层"  linkID="11601"  isShow="1" />
+	<pet typeID = "40020011"  skinID="60000016"  height="105"  attrUnit="24"  skillID="10610045" attackType="1"  maxAptitude="2000"  typeName="寒冰童子"	 getWay="幻兽天境10层"    linkID="11601"  isShow="1"   />
+	<pet typeID = "40020012"  skinID="60000012"  height="100"  attrUnit="24"  skillID="10610043" attackType="2"  maxAptitude="2000"  typeName="进宝小妖"	 getWay="六界寻宝"  linkID="11701"  isShow="1"   />
+	<pet typeID = "40030014"  skinID="60000014"  height="80"   attrUnit="34" skillID="10620034" attackType="1"  maxAptitude="2000"  typeName="风狸"  	 getWay="幻兽天境60层"    linkID="11601"  isShow="1" />			
+	<pet typeID = "40030015"  skinID="60000026"  height="70"   attrUnit="34" skillID="10620028" attackType="1"  maxAptitude="2000"  typeName="琉璃虎"  	 getWay="六界寻宝"  linkID="11701"  isShow="1" />
+	<pet typeID = "40030016"  skinID="60000055"  height="90"   attrUnit="34"  skillID="10620030" attackType="2"  maxAptitude="2000"  typeName="小冰灵" 	 getWay="护送寒冰"  linkID="40000101"  isShow="1" /> 
+	<pet typeID = "40030017"  skinID="60000017"  height="70"   attrUnit="34"  skillID="10620031" attackType="2"  maxAptitude="2000"  typeName="通天鼠" 	 getWay="幻兽天境30层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40030018"  skinID="60000018"  height="110"  attrUnit="34"   skillID="10620023" attackType="1"  maxAptitude="2000"  typeName="花精灵" 	 getWay="百灵园副本"  linkID="40000105"  isShow="1" /> 
+	<pet typeID = "40040019"  skinID="60000019"  height="117"  attrUnit="44"   skillID="10630013" attackType="2"  maxAptitude="2000"  typeName="夜隐精灵"  getWay="百灵园副本"    linkID="40000105"  isShow="1" 	/> 
+	<pet typeID = "40030020"  skinID="60000027"  height="75"   attrUnit="34"  skillID="10620025" attackType="1"  maxAptitude="2000"  typeName="神尾浣熊"  getWay="百灵园副本"  linkID="40000105"  isShow="1" 	/> 
+	<pet typeID = "40020021"  skinID="60000021"  height="145"  attrUnit="24"   skillID="10610041" attackType="1"  maxAptitude="2000"  typeName="青鸾" 	 getWay="六界寻宝"  linkID="11701"  isShow="1" 	/> 
+	<pet typeID = "40030022"  skinID="60000022"  height="62"   attrUnit="34"  skillID="10620032" attackType="1"  maxAptitude="2000"  typeName="竖睛虎" 	 getWay="幻兽天境40层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40030024"  skinID="60000053"  height="80"   attrUnit="34"  skillID="10620024" attackType="2"  maxAptitude="2000"  typeName="六角雪灵" 	 getWay="百灵园副本"  linkID="40000105"  isShow="1" /> 
+	<pet typeID = "40040025"  skinID="60000025"  height="147"  attrUnit="44"   skillID="10630017" attackType="2"  maxAptitude="2000"  typeName="紫玉蝶妖"  getWay="幻兽天境70层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40040026"  skinID="60000004"  height="150"  attrUnit="44"   skillID="10630015" attackType="1"  maxAptitude="2000"  typeName="仙鲤童子" 	 getWay="幻兽天境90层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40040027"  skinID="60000038"  height="155"  attrUnit="44"   skillID="10630020" attackType="2"  maxAptitude="2000"  typeName="百灵猴"  getWay="六界寻宝"  linkID="11701"  isShow="1" 	/> 
+	<pet typeID = "40030028"  skinID="60000028"  height="115"  attrUnit="34"   skillID="10620029" attackType="1"  maxAptitude="2000"  typeName="胖嘟嘟" 	 getWay="六界寻宝"  linkID="11701"  isShow="1" /> 
+	<pet typeID = "40030029"  skinID="60000029"  height="125"  attrUnit="34"   skillID="10620027" attackType="1"  maxAptitude="2000"  typeName="小花妖" 	 getWay="六界寻宝"  linkID="11701"  isShow="1" /> 
+	<pet typeID = "40040030"  skinID="60000030"  height="130"  attrUnit="44"   skillID="10630016" attackType="1"  maxAptitude="2000"  typeName="霓裳精灵"  getWay="幻兽天境100层"    linkID="11601"  isShow="1" 	/> 
+	<pet typeID = "40040031"  skinID="60000031"  height="145"  attrUnit="44"   skillID="10630019" attackType="2"  maxAptitude="2000"  typeName="天香蝶" 	 getWay="幻兽天境110层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40040032"  skinID="60000032"  height="140"  attrUnit="44"   skillID="10630022" attackType="1"  maxAptitude="2000"  typeName="飞星灵龙"  getWay="幻兽天境120层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40050033"  skinID="60000033"  height="123"  attrUnit="54"   skillID="10640009" attackType="1"  maxAptitude="2000"  typeName="剑灵蛇姬"  getWay="仙宠盟战"  linkID="10701"  isShow="1" /> 
+	<pet typeID = "40050034"  skinID="60000034"  height="160"  attrUnit="54"   skillID="10640012" attackType="2"  maxAptitude="2000"  typeName="混元神龙"  getWay="幻兽天境130层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40050035"  skinID="60000035"  height="160"  attrUnit="54"   skillID="10640006" attackType="1"  maxAptitude="2000"  typeName="焚天神龙"  getWay="幻兽天境140层"    linkID="11601"  isShow="1" /> 
+	<pet typeID = "40050036"  skinID="60000036"  height="137"  attrUnit="54"   skillID="10640005" attackType="2"  maxAptitude="2000"  typeName="醉猫熊"	 getWay="六界寻宝"  linkID="11701"  isShow="1" /> 
+	<pet typeID = "40050037"  skinID="60000037"  height="175"  attrUnit="54"   skillID="10640010" attackType="1"  maxAptitude="2000"  typeName="帝企鹅"	 getWay="仙宠盟战"  linkID="10701"  isShow="1" /> 
+	<pet typeID = "40050038"  skinID="60000054"  height="115"  attrUnit="54"   skillID="10640011" attackType="1"  maxAptitude="2000"  typeName="喵战士"	 getWay="仙宠盟战"  linkID="10701"  isShow="1" /> 
+	<pet typeID = "40060040"  skinID="60000040"  height="150"  attrUnit="64"   skillID="10650004" attackType="1"  maxAptitude="2000"  typeName="傲狠"		 getWay="仙宠盟战"  linkID="10701"  isShow="1"  /> 
+	<pet typeID = "40060041"  skinID="60000041"  height="130"  attrUnit="64"   skillID="10650002" attackType="1"  maxAptitude="2000"  typeName="穷奇"		 getWay="仙宠盟战"  linkID="10701"  isShow="1"  /> 
+	<pet typeID = "40060042"  skinID="60000042"  height="155"  attrUnit="64"   skillID="10650003" attackType="2"  maxAptitude="2000"  typeName="混沌"		 getWay="仙宠盟战"  linkID="10701"  isShow="1"  /> 
+	<pet typeID = "40060043"  skinID="60000043"  height="175"  attrUnit="64"   skillID="10650001" attackType="2"  maxAptitude="2000"  typeName="饕餮"		 getWay="仙宠盟战"  linkID="10701"  isShow="1"  /> 
+	<pet typeID = "40020044"  skinID="60000044"  height="65"   attrUnit="24"  skillID="10610042" attackType="2"  maxAptitude="2000"  typeName="招财猴" 	 getWay="六界寻宝"  linkID="11701"  isShow="1" 	/> 
+	<pet typeID = "40020045"  skinID="60000045"  height="60"   attrUnit="24"  skillID="10610044" attackType="2"  maxAptitude="2000"  typeName="小熊猫" 	 getWay="六界寻宝"  linkID="11701"  isShow="1" 	/> 
+	<pet typeID = "40030046"  skinID="60000046"  height="80"   attrUnit="34"  skillID="10620026" attackType="2"  maxAptitude="2000"  typeName="木人瓦力"  getWay="好友邀请"  linkID="10802"  isShow="1" 	/> 
+	<pet typeID = "40030047"  skinID="60000047"  height="95"   attrUnit="34"  skillID="10620033" attackType="2"  maxAptitude="2000"  typeName="灵宝宝" 	 getWay="幻兽天境50层"    linkID="11601"  isShow="1" 	/> 
+	<pet typeID = "40040048"  skinID="60000048"  height="102"  attrUnit="44"   skillID="10630014" attackType="1"  maxAptitude="2000"  typeName="银风猴" 	 getWay="百灵园副本"    linkID="40000105"  isShow="1" 	/> 
+	<pet typeID = "40040049"  skinID="60000049"  height="110"  attrUnit="44"   skillID="10630021" attackType="1"  maxAptitude="2000"  typeName="渡渡鸟" 	 getWay="六界寻宝"  linkID="11701"  isShow="1" 	/> 
+	<pet typeID = "40040050"  skinID="60000050"  height="90"   attrUnit="44"  skillID="10630018" attackType="1"  maxAptitude="2000"  typeName="火云灵龙" 	 getWay="幻兽天境80层"    linkID="11601"  isShow="1" 	/> 
+	<pet typeID = "40050051"  skinID="60000051"  height="125"  attrUnit="54"   skillID="10640008" attackType="1"  maxAptitude="2000"  typeName="五灵蛇姬"  getWay="六界寻宝"  linkID="11701"  isShow="1" 	/> 
+	<pet typeID = "40020052"  skinID="60000052"  height="115"  attrUnit="24"   skillID="10610039" attackType="2"  maxAptitude="2000"  typeName="小火妖"  	 getWay="无"  isShow="0" 	/>	
+	<pet typeID = "40030053"  skinID="60000055"  height="90"    attrUnit="34" skillID="10620030" attackType="2"  maxAptitude="2000"  typeName="小冰灵" 	 getWay="无"  isShow="0" 	/> 
+
+	<pet typeID = "40050054"  skinID="60000056"  height="90"    attrUnit="44" skillID="10640047" attackType="1"  maxAptitude="2000"  typeName="紫电仙灵" 	 getWay="仙灵幻境"  isShow="1" 	/> 
+	<pet typeID = "40050055"  skinID="60000057"  height="90"    attrUnit="44" skillID="10640048" attackType="2"  maxAptitude="2000"  typeName="雾月仙灵" 	 getWay="仙灵幻境"  isShow="1" 	/> 
+	<pet typeID = "40050056"  skinID="60000058"  height="90"    attrUnit="44" skillID="10640049" attackType="1"  maxAptitude="2000"  typeName="蓝梦仙灵" 	 getWay="仙灵幻境"  isShow="1" 	/> 
+	<pet typeID = "40050057"  skinID="60000059"  height="90"    attrUnit="44" skillID="10640050" attackType="2"  maxAptitude="2000"  typeName="赤焰仙灵" 	 getWay="仙灵幻境"  isShow="1" 	/> 
+	
+<!--仙盟食材BOSS-->	
+	<pet typeID = "40050081"  skinID="60000083"  height="90"    attrUnit="44" skillID="10640047" attackType="1"  maxAptitude="2000"  typeName="八宝蓝蚊兽" 	 getWay="无"  isShow="0" 	/> 
+	<pet typeID = "40050082"  skinID="60000084"  height="90"    attrUnit="44" skillID="10640048" attackType="2"  maxAptitude="2000"  typeName="红豆胖雪人" 	 getWay="无"  isShow="0" 	/> 
+	<pet typeID = "40050083"  skinID="60000085"  height="90"    attrUnit="44" skillID="10640049" attackType="1"  maxAptitude="2000"  typeName="莲子雪蛤妖" 	 getWay="无"  isShow="0" 	/> 
+	<pet typeID = "40050084"  skinID="60000086"  height="90"    attrUnit="44" skillID="10640050" attackType="2"  maxAptitude="2000"  typeName="西米吞天吼" 	 getWay="无"  isShow="0" 	/> 
+	<pet typeID = "40050085"  skinID="60000087"  height="90"    attrUnit="44" skillID="10640050" attackType="2"  maxAptitude="2000"  typeName="香芋紫蛟龙" 	 getWay="无"  isShow="0" 	/> 	
+	
+	
+	</info>
+<trains>
+	<trainExp lv="1,29,4850|30,39,12902|40,49,51487|50,59,71564|60,69,96056|70,79,126134|80,89,159663"/>
+	<trainRates>
+	    <trainRate star="0" rate="0"/>
+		<trainRate star="1" rate="1000"/>
+		<trainRate star="2" rate="2000"/>
+		<trainRate star="3" rate="3000"/>
+		<trainRate star="4" rate="4000"/>
+		<trainRate star="5" rate="5000"/>
+		<trainRate star="6" rate="6000"/>
+		<trainRate star="7" rate="7000"/>
+		<trainRate star="8" rate="8000"/>
+		<trainRate star="9" rate="9000"/>
+		<trainRate star="10" rate="10000"/>
+	</trainRates>
+	<trainQueue queue="0,0|1,0|2,50|3,500"/>
+</trains>
+<skills>
+	<exps>
+		<exp color="1" value="1,5000|2,15001|3,35001|4,75001|5,195001|6,445001|7,945001|8,1695001|9,2895001|10,999999999" />
+		<exp color="2" value="1,6250|2,18751|3,43751|4,93751|5,243751|6,556251|7,1181251|8,2118751|9,3618751|10,999999999" />
+		<exp color="3" value="1,7500|2,22501|3,52501|4,112501|5,292501|6,667501|7,1417501|8,2542501|9,4342501|10,999999999" />
+		<exp color="4" value="1,8750|2,26251|3,61251|4,131251|5,341251|6,778751|7,1653751|8,2966251|9,5066251|10,999999999" />
+		<exp color="5" value="1,10000|2,30001|3,70001|4,150001|5,390001|6,890001|7,1890001|8,3390001|9,5790001|10,999999999" />
+	</exps>
+</skills>
+<skillPreviews>
+	<previews>
+		<preview name="一星技能" id="1">
+	<sub typeID="10610035" petTypeID="40020005" defaultPetTypeID="10301005" uses="1" state="3" intro="健体，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610036" petTypeID="40020007" defaultPetTypeID="10301007" uses="1" state="3" intro="聚灵，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610037" petTypeID="40020006" defaultPetTypeID="10301006" uses="1" state="3" intro="混元，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610038" petTypeID="40020008" defaultPetTypeID="10301008" uses="1" state="3" intro="巨力，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610039" petTypeID="40020004" defaultPetTypeID="10301004" uses="1" state="3" intro="金刚，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610040" petTypeID="40020009" defaultPetTypeID="10301009" uses="1" state="3" intro="铁壁，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610041" petTypeID="40020021" defaultPetTypeID="10301021" uses="2" state="1" intro="长生，灵智初开之仙宠的九大普通技能之一"/>		
+	<sub typeID="10610045" petTypeID="40020011" defaultPetTypeID="10301011" uses="2" state="1" intro="强击，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610046" petTypeID="40020010" defaultPetTypeID="10301010" uses="2" state="1" intro="风袭，灵智初开之仙宠的九大普通技能之一"/>	
+	<sub typeID="10610042" petTypeID="40020044" defaultPetTypeID="10301044" uses="3" state="4" intro="招财，灵智初开之仙宠的三大稀有技能之一"/>	
+	<sub typeID="10610043" petTypeID="40020012" defaultPetTypeID="10301012" uses="3" state="4" intro="进宝，灵智初开之仙宠的三大稀有技能之一"/>	
+	<sub typeID="10610044" petTypeID="40020045" defaultPetTypeID="10301045" uses="3" state="4" intro="修行，灵智初开之仙宠的三大稀有技能之一"/>														
+			</preview>
+		<preview name="二星技能" id="2">
+	<sub typeID="10620023" petTypeID="40030018" defaultPetTypeID="10301018" uses="1" state="3" intro="御毒，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620024" petTypeID="40030024" defaultPetTypeID="10301024" uses="1" state="3" intro="避火，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620025" petTypeID="40030020" defaultPetTypeID="10301020" uses="1" state="3" intro="避雷，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620026" petTypeID="40030046" defaultPetTypeID="10301046" uses="1" state="3" intro="御寒，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620027" petTypeID="40030029" defaultPetTypeID="10301029" uses="1" state="3" intro="毒云，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620028" petTypeID="40030015" defaultPetTypeID="10301015" uses="1" state="3" intro="舞火，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620029" petTypeID="40030028" defaultPetTypeID="10301028" uses="1" state="3" intro="奔雷，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620030" petTypeID="40030016" defaultPetTypeID="10301016" uses="1" state="3" intro="冰封，通灵之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10620031" petTypeID="40030017" defaultPetTypeID="10301017" uses="1" state="3" intro="精准，通灵之境之仙宠的四大专属属性技能之一"/>	
+	<sub typeID="10620032" petTypeID="40030022" defaultPetTypeID="10301022" uses="1" state="3" intro="强韧，通灵之境之仙宠的四大专属属性技能之一"/>	
+	<sub typeID="10620033" petTypeID="40030047" defaultPetTypeID="10301047" uses="1" state="3" intro="狂暴，通灵之境之仙宠的四大专属属性技能之一"/>	
+	<sub typeID="10620034" petTypeID="40030014" defaultPetTypeID="10301014" uses="1" state="3" intro="灵敏，通灵之境之仙宠的四大专属属性技能之一"/>		
+		</preview>
+		<preview name="三星技能" id="3">
+	<sub typeID="10630013" petTypeID="40040019" defaultPetTypeID="10301019" uses="2" state="1" intro="断空击，聚灵之境之仙宠的两大群体伤害技能之一"/>	
+	<sub typeID="10630014" petTypeID="40040048" defaultPetTypeID="10301048" uses="2" state="1" intro="裂地破，聚灵之境之仙宠的两大群体伤害技能之一"/>	
+	<sub typeID="10630015" petTypeID="40040026" defaultPetTypeID="10301026" uses="2" state="1" intro="金钟罩，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630016" petTypeID="40040030" defaultPetTypeID="10301030" uses="2" state="1" intro="铁布衫，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630017" petTypeID="40040025" defaultPetTypeID="10301025" uses="2" state="1" intro="散魂诀，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630018" petTypeID="40040050" defaultPetTypeID="10301050" uses="2" state="1" intro="穿心诀，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630019" petTypeID="40040031" defaultPetTypeID="10301031" uses="2" state="1" intro="明目术，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630020" petTypeID="40040027" defaultPetTypeID="10301027" uses="2" state="1" intro="云体书，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630021" petTypeID="40040049" defaultPetTypeID="10301049" uses="2" state="1" intro="刺杀术，聚灵之境之仙宠的八大基础属性技能之一"/>	
+	<sub typeID="10630022" petTypeID="40040032" defaultPetTypeID="10301032" uses="2" state="1" intro="强身术，聚灵之境之仙宠的八大基础属性技能之一"/>		
+		</preview>
+			<preview name="四星技能" id="4">
+	<sub typeID="10640005" petTypeID="40050036" defaultPetTypeID="10301036" uses="2" state="1" intro="万毒噬天，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640006" petTypeID="40050035" defaultPetTypeID="10301035" uses="2" state="1" intro="烈火燎原，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640007" petTypeID="40050001" defaultPetTypeID="10301001" uses="2" state="1" intro="九天惊雷，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640008" petTypeID="40050051" defaultPetTypeID="10301051" uses="2" state="1" intro="冰封万里，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640009" petTypeID="40050033" defaultPetTypeID="10301033" uses="2" state="1" intro="百毒不侵，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640010" petTypeID="40050037" defaultPetTypeID="10301037" uses="2" state="1" intro="御火真诀，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640011" petTypeID="40050038" defaultPetTypeID="10301038" uses="2" state="1" intro="雷打不动，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	<sub typeID="10640012" petTypeID="40050034" defaultPetTypeID="10301034" uses="2" state="1" intro="避寒灵咒，灵变之境之仙宠的八大特殊属性技能之一"/>	
+	
+	<sub typeID="10640047" petTypeID="40050054" defaultPetTypeID="10301054" uses="2" state="1" intro="吞天灵诀，仙灵幻境之仙宠的非常稀有技能之一"/>	
+	<sub typeID="10640048" petTypeID="40050055" defaultPetTypeID="10301055" uses="2" state="1" intro="十方灵诀，仙灵幻境之仙宠的非常稀有技能之一"/>	
+	<sub typeID="10640049" petTypeID="40050056" defaultPetTypeID="10301056" uses="2" state="1" intro="移形灵诀，仙灵幻境之仙宠的非常稀有技能之一"/>	
+	<sub typeID="10640050" petTypeID="40050057" defaultPetTypeID="10301057" uses="2" state="1" intro="涅槃灵诀，仙灵幻境之仙宠的非常稀有技能之一"/>	
+
+		</preview>
+			<preview name="五星技能" id="5">
+	<sub typeID="10650001" petTypeID="40060043" defaultPetTypeID="10301043" uses="1" state="1" intro="吞天噬日，渡过天劫之仙宠的四大神级技能之一"/>	
+	<sub typeID="10650002" petTypeID="40060041" defaultPetTypeID="10301041" uses="1" state="1" intro="十方俱灭，渡过天劫之仙宠的四大神级技能之一"/>	
+	<sub typeID="10650003" petTypeID="40060042" defaultPetTypeID="10301042" uses="1" state="1" intro="移形换影，渡过天劫之仙宠的四大神级技能之一"/>	
+	<sub typeID="10650004" petTypeID="40060040" defaultPetTypeID="10301040" uses="1" state="1" intro="涅槃重生，渡过天劫之仙宠的四大神级技能之一"/>	
+		</preview>
+	</previews>
+	<rewards>
+		<reward count="6" typeID="10302001" num="1" />
+		<reward count="16" typeID="10302001" num="5" />
+		<reward count="26" typeID="10302001" num="10" />
+		<reward count="36" typeID="10302001" num="15" />
+	</rewards>
+</skillPreviews>
+</pets>

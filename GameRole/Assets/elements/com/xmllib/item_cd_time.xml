@@ -1,0 +1,25 @@
+<cds>
+	<cd id="101" time="6000" />
+	<cd id="102" time="6000" />
+	<cd id="103" time="500" />
+	<cd id="104" time="500" />
+	<cd id="105" time="500" />		
+	<cd id="107" time="1000" />		
+	<cd id="110" time="500" />		
+	<cd id="111" time="500" />		
+	<cd id="112" time="6000" />		
+	<cd id="113" time="500" />	
+	<cd id="116" time="500" />
+	<cd id="117" time="500" />
+	<cd id="118" time="500" />
+	<cd id="119" time="500" />
+	<cd id="301" time="0" />	
+	<cd id="902" time="500" />		
+	<cd id="1201" time="500" />		
+	<cd id="1202" time="500" />	
+	<cd id="1801" time="500" />	
+	<cd id="503" time="30000" />	
+	<cd id="121" time="30000" />	
+	<cd id="122" time="30000" />		
+	<cd id="123" time="30000" />			
+</cds>

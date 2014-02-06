@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<wing>	
+	<item id='10119005' lv='1'  pa="500"   pd="100"  fa="0"   fd="0"   ta="0"   td="0"   ica="0"   icd="0"   />
+	<item id='10119005' lv='2'  pa="1000"  pd="200"  fa="50"  fd="50"  ta="0"   td="0"   ica="0"   icd="0"   />
+	<item id='10119005' lv='3'  pa="1500"  pd="300"  fa="100" fd="100" ta="100" td="100" ica="0"   icd="0"   />
+	<item id='10119005' lv='4'  pa="2000"  pd="400"  fa="200" fd="200" ta="100" td="100" ica="100" icd="100" />
+	
+	<item id='10119001' lv='1'  pa="100"   pd="500"  fa="0"   fd="0"   ta="0"   td="0"   ica="0"   icd="0"   />
+	<item id='10119001' lv='2'  pa="200"   pd="1000" fa="50"  fd="50"  ta="0"   td="0"   ica="0"   icd="0"   />
+	<item id='10119001' lv='3'  pa="300"   pd="1500" fa="100" fd="100" ta="100" td="100" ica="0"   icd="0"   />
+	<item id='10119001' lv='4'  pa="400"   pd="2000" fa="200" fd="200" ta="100" td="100" ica="100" icd="100" />
+	
+	<item id='10119006' lv='1'  pa="0"     pd="0"    fa="500"   fd="100"  ta="0"  td="0"   ica="0"   icd="0"   />
+	<item id='10119006' lv='2'  pa="50"    pd="50"   fa="1000"  fd="200"  ta="0"  td="0"   ica="0"   icd="0"   />
+	<item id='10119006' lv='3'  pa="100"   pd="100"  fa="1500"  fd="300"  ta="0"  td="0"   ica="100" icd="100" />
+	<item id='10119006' lv='4'  pa="200"   pd="200"  fa="2000"  fd="400"  ta="100" td="100" ica="100" icd="100" />
+
+	<item id='10119002' lv='1'  pa="0"     pd="0"    fa="100"   fd="500"  ta="0"  td="0"   ica="0"   icd="0"   />
+	<item id='10119002' lv='2'  pa="50"    pd="50"   fa="200"   fd="1000" ta="0"  td="0"   ica="0"   icd="0"   />
+	<item id='10119002' lv='3'  pa="100"   pd="100"  fa="300"   fd="1500" ta="0"  td="0"   ica="100" icd="100" />
+	<item id='10119002' lv='4'  pa="200"   pd="200"  fa="400"   fd="2000" ta="100" td="100" ica="100" icd="100" />
+
+	<item id='10119007' lv='1'  pa="0"     pd="0"    fa="0"    fd="0"    ta="500"   td="100" ica="0"   icd="0"   />
+	<item id='10119007' lv='2'  pa="0"     pd="0"    fa="0"    fd="0"    ta="1000"  td="200" ica="50"  icd="50"  />
+	<item id='10119007' lv='3'  pa="100"   pd="100"  fa="0"    fd="0"    ta="1500"  td="300" ica="100" icd="100" />
+	<item id='10119007' lv='4'  pa="100"   pd="100"  fa="100"  fd="100"  ta="2000"  td="400" ica="200" icd="200" />
+
+	<item id='10119003' lv='1'  pa="0"    pd="0"    fa="0"    fd="0"    ta="100"  td="500"   ica="0"   icd="0"   />
+	<item id='10119003' lv='2'  pa="0"    pd="0"    fa="0"    fd="0"    ta="200"  td="1000"  ica="50"  icd="50"  />
+	<item id='10119003' lv='3'  pa="100"  pd="100"  fa="0"    fd="0"    ta="300"  td="1500"  ica="100" icd="100" />
+	<item id='10119003' lv='4'  pa="100"  pd="100"  fa="100"  fd="100"  ta="400"  td="2000"  ica="200" icd="200" />
+	
+	<item id='10119008' lv='1'  pa="0"    pd="0"    fa="0"    fd="0"    ta="0"   td="0"   ica="500"   icd="100"  />
+	<item id='10119008' lv='2'  pa="0"    pd="0"    fa="0"    fd="0"    ta="50"  td="50"  ica="1000"  icd="200"  />
+	<item id='10119008' lv='3'  pa="0"    pd="0"    fa="100"  fd="100"  ta="100" td="100" ica="1500"  icd="300"  />
+	<item id='10119008' lv='4'  pa="100"  pd="100"  fa="100"  fd="100"  ta="200" td="200" ica="2000"  icd="400"  />
+
+	<item id='10119004' lv='1'  pa="0"    pd="0"    fa="0"    fd="0"    ta="0"   td="0"   ica="100"  icd="500"  />
+	<item id='10119004' lv='2'  pa="0"    pd="0"    fa="0"    fd="0"    ta="50"  td="50"  ica="200"  icd="1000" />
+	<item id='10119004' lv='3'  pa="0"    pd="0"    fa="100"  fd="100"  ta="100" td="100" ica="300"  icd="1500" />
+	<item id='10119004' lv='4'  pa="100"  pd="100"  fa="100"  fd="100"  ta="200" td="200" ica="400"  icd="2000" />	
+</wing>
+
+<wing_lv>
+	<item lv="1" startExp="0"     exp="500"/>
+	<item lv="2" startExp="500"   exp="1000"/>
+	<item lv="3" startExp="1500"  exp="1500"/>
+	<item lv="4" startExp="3000"  exp="2000"/>
+</wing_lv>
+</root>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item id="110" name="装备基础" link_name="" link_id=""/>
+	<item id="111" name="强化战力" link_name="装备强化" link_id="10601"/>
+	<item id="112" name="附魂战力" link_name="装备附魂" link_id="10602"/>
+	<item id="113" name="灵石战力" link_name="镶嵌灵石" link_id="10603"/>
+	<item id="114" name="品质战力" link_name="提升品质" link_id="10604"/>
+	<item id="115" name="套装战力" link_name="" link_id=""/>
+	<item id="170" name="仙宠附身" link_name="仙宠附身" link_id="10405"/>
+	<item id="130" name="坐骑基础" link_name="坐骑获得" link_id="10505"/>
+	<item id="131" name="坐骑品阶" link_name="坐骑进阶" link_id="10503"/>
+	<item id="100" name="角色基础" link_name="升级指南" link_id="12400"/>
+	<item id="140" name="元神战力" link_name="修炼元神" link_id="10103"/>
+	<item id="150" name="仙珠战力" link_name="提升仙珠" link_id="10102"/>
+	<item id="160" name="称号战力" link_name="" link_id=""/>
+	<item id="120" name="BUFF战力" link_name="查看详情" link_id="1"/>
+	<item id="192" name="魂力战力" link_name="点亮魂印" link_id="99803"/>
+	<item id="180" name="时装基础" link_name="时装获得" link_id="10105"/>
+	<item id="181" name="时装淬炼" link_name="时装淬炼" link_id="10105"/>
+	<item id="190" name="羽翼基础" link_name="羽翼获得" link_id="10106"/>
+	<item id="191" name="羽翼强化" link_name="羽翼强化" link_id="10106"/>
+	<item id="210" name="战魂战力" link_name="战魂战力" link_id="10109"/>
+</root>

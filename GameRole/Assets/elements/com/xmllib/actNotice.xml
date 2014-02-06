@@ -1,0 +1,11 @@
+﻿<!--
+<actNotice id = "14"  type="竞技" content="横扫千军" event="2"（1是寻路npc，2是打开界面，3是寻路到坐标） npcID=""（npc和地图id如有国家区别，则第二位为0，自动判断玩家国家） mapID="" tx="" ty=""/>
+ -->
+<actNotices>
+<actNotice id = "303"  type="竞技"  content="天绝斗法" event="2" npcID="" mapID="" tx="" ty="" iconID="3" />
+<actNotice id = "304"  type="活动" content="答题" event="2" npcID="" mapID="" tx="" ty="" iconID="5" />
+<actNotice id = "309"  type="竞技" content="仙盟仙宠战" event="2" npcID="" mapID="" tx="" ty="" iconID="3" />
+<actNotice id = "302"  type="活动" content="仙盟日光浴" event="1" npcID="" mapID="" tx="" ty="" iconID="2" />
+<actNotice id = "306"  type="活动" content="天降横财" event="2" npcID="" mapID="40000" tx="112" ty="71" iconID="5" />
+
+</actNotices>

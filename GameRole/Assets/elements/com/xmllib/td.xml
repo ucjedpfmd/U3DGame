@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<td>
+
+
+<types>
+<type id="1" tip="对法防怪物伤害高，对物防怪物伤害低">
+<level lv="1" atk="120" cd="1.2" exp="20"/>
+<level lv="2" atk="140" cd="1.2" exp="50"/>
+<level lv="3" atk="160" cd="1.2" exp="90"/>
+<level lv="4" atk="180" cd="1.2" exp="135"/>
+<level lv="5" atk="200" cd="1.2" exp="135"/>
+</type>
+<type id="2" tip="对物防怪物伤害高，对法防怪物伤害低">
+<level lv="1" atk="120" cd="1.2" exp="20"/>
+<level lv="2" atk="140" cd="1.2" exp="50"/>
+<level lv="3" atk="160" cd="1.2" exp="90"/>
+<level lv="4" atk="180" cd="1.2" exp="135"/>
+<level lv="5" atk="200" cd="1.2" exp="135"/>
+</type>
+<type id="3" tip="可对大范围怪物造成大量伤害">
+<level lv="1" atk="200" cd="2" exp="20"/>
+<level lv="2" atk="220" cd="2" exp="50"/>
+<level lv="3" atk="240" cd="2" exp="90"/>
+<level lv="4" atk="260" cd="2" exp="135"/>
+<level lv="5" atk="280" cd="2" exp="135"/>
+</type>
+<type id="4" tip="命中怪物后可使怪物速度下降">
+<level lv="1" atk="90" cd="1" exp="20"/>
+<level lv="2" atk="110" cd="1" exp="50"/>
+<level lv="3" atk="130" cd="1" exp="90"/>
+<level lv="4" atk="150" cd="1" exp="135"/>
+<level lv="5" atk="170" cd="1" exp="135"/>
+</type>
+</types>
+
+<levels> 
+   <level lv="1" >
+	 <way id="1"  pos="0,0|20,20|40,80|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="2"  pos="0,0|240,20|220,80|160,100|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="3"  pos="0,0|520,20|440,120|440,240|540,260" />
+	 <way id="4"  pos="0,0|40,440|420,440|480,280|540,260" />
+	 
+	 <tower id="1" pos="120,40" maxNum="6"/>
+	 <tower id="2" pos="120,360" maxNum="6"/>
+	 <tower id="3" pos="330,80" maxNum="6"/>
+	 <tower id="4" pos="150,210" maxNum="6"/>
+	 <tower id="5" pos="370,330" maxNum="6"/>
+	 <tower id="6" pos="510,100" maxNum="6"/>
+	 <tower id="7" pos="520,370" maxNum="6"/>
+	 <base maxHP="10" pos="540,260" skinID="1"/>
+   </level>
+   <level lv="2" >
+	 <way id="1"  pos="0,0|20,20|40,80|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="2"  pos="0,0|240,20|220,80|160,100|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="3"  pos="0,0|520,20|440,120|440,240|540,260" />
+	 <way id="4"  pos="0,0|40,440|420,440|480,280|540,260" />
+	 
+	 <tower id="1" pos="120,40" maxNum="6"/>
+	 <tower id="2" pos="120,360" maxNum="6"/>
+	 <tower id="3" pos="330,80" maxNum="6"/>
+	 <tower id="4" pos="150,210" maxNum="6"/>
+	 <tower id="5" pos="370,330" maxNum="6"/>
+	 <tower id="6" pos="510,100" maxNum="6"/>
+	 <tower id="7" pos="520,370" maxNum="6"/>
+	 <base maxHP="10" pos="540,260" skinID="1"/>
+   </level>
+   <level lv="3" >
+	 <way id="1"  pos="0,0|20,20|40,80|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="2"  pos="0,0|240,20|220,80|160,100|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="3"  pos="0,0|520,20|440,120|440,240|540,260" />
+	 <way id="4"  pos="0,0|40,440|420,440|480,280|540,260" />
+	 
+	 <tower id="1" pos="120,40" maxNum="6"/>
+	 <tower id="2" pos="120,360" maxNum="6"/>
+	 <tower id="3" pos="330,80" maxNum="6"/>
+	 <tower id="4" pos="150,210" maxNum="6"/>
+	 <tower id="5" pos="370,330" maxNum="6"/>
+	 <tower id="6" pos="510,100" maxNum="6"/>
+	 <tower id="7" pos="520,370" maxNum="6"/>
+	 <base maxHP="10" pos="540,260" skinID="1"/>
+   </level>   
+   <level lv="4" >
+	 <way id="1"  pos="0,0|20,20|40,80|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="2"  pos="0,0|240,20|220,80|160,100|80,120|60,240|80,280|240,280|540,260" />
+	 <way id="3"  pos="0,0|520,20|440,120|440,240|540,260" />
+	 <way id="4"  pos="0,0|40,440|420,440|480,280|540,260" />
+	 
+	 <tower id="1" pos="120,40" maxNum="6"/>
+	 <tower id="2" pos="120,360" maxNum="6"/>
+	 <tower id="3" pos="330,80" maxNum="6"/>
+	 <tower id="4" pos="150,210" maxNum="6"/>
+	 <tower id="5" pos="370,330" maxNum="6"/>
+	 <tower id="6" pos="510,100" maxNum="6"/>
+	 <tower id="7" pos="520,370" maxNum="6"/>
+	 <base maxHP="10" pos="540,260" skinID="1"/>
+   </level>   
+</levels>
+
+<monsters>
+  <monster id="1" defType="1">
+  <level lv="1" hp="360" speed="40" />
+  <level lv="2" hp="400" speed="40" />
+  <level lv="3" hp="450" speed="40" />
+  <level lv="4" hp="500" speed="40" />
+  <level lv="5" hp="450" speed="40" />  
+  </monster>
+  <monster id="2" defType="2" >
+  <level lv="1" hp="360" speed="40" />
+  <level lv="2" hp="400" speed="40" />
+  <level lv="3" hp="450" speed="40" />
+  <level lv="4" hp="500" speed="40" />
+  <level lv="5" hp="450" speed="40" />  
+  </monster>
+   <monster id="3" defType="1">
+  <level lv="1" hp="360" speed="40" />
+  <level lv="2" hp="400" speed="40" />
+  <level lv="3" hp="450" speed="40" />
+  <level lv="4" hp="500" speed="40" />
+  <level lv="5" hp="450" speed="40" />  
+  </monster>
+    <monster id="4" defType="2">
+  <level lv="1" hp="360" speed="40" />
+  <level lv="2" hp="400" speed="40" />
+  <level lv="3" hp="450" speed="40" />
+  <level lv="4" hp="500" speed="40" />
+  <level lv="5" hp="450" speed="40" />  
+  </monster>
+   <monster id="5" defType="1">
+  <level lv="1" hp="360" speed="40" />
+  <level lv="2" hp="400" speed="40" />
+  <level lv="3" hp="450" speed="40" />
+  <level lv="4" hp="500" speed="40" />
+  <level lv="5" hp="450" speed="40" />  
+  </monster>
+   <monster id="6" defType="2">
+  <level lv="1" hp="410" speed="24" />
+  <level lv="2" hp="480" speed="24" />
+  <level lv="3" hp="530" speed="24" />
+  <level lv="4" hp="600" speed="24" />
+  <level lv="5" hp="730" speed="24" />  
+  </monster>
+   <monster id="7" defType="1">
+  <level lv="1" hp="410" speed="24" />
+  <level lv="2" hp="480" speed="24" />
+  <level lv="3" hp="530" speed="24" />
+  <level lv="4" hp="600" speed="24" />
+  <level lv="5" hp="730" speed="24" />  
+  </monster>
+   <monster id="8" defType="2">
+  <level lv="1" hp="410" speed="24" />
+  <level lv="2" hp="480" speed="24" />
+  <level lv="3" hp="530" speed="24" />
+  <level lv="4" hp="600" speed="24" />
+  <level lv="5" hp="730" speed="24" />  
+  </monster>
+   <monster id="9" defType="3">
+  <level lv="1" hp="130" speed="64" />
+  <level lv="2" hp="150" speed="64" />
+  <level lv="3" hp="170" speed="64" />
+  <level lv="4" hp="200" speed="64" />
+  <level lv="5" hp="410" speed="64" />
+  </monster>
+   <monster id="10" defType="3">
+  <level lv="1" hp="130" speed="64" />
+  <level lv="2" hp="150" speed="64" />
+  <level lv="3" hp="170" speed="64" />
+  <level lv="4" hp="200" speed="64" />
+  <level lv="5" hp="410" speed="64" />
+  </monster>  
+    <monster id="101" defType="1">
+  <level lv="1" hp="1350" speed="32" />
+  </monster>   
+    <monster id="102" defType="2">
+  <level lv="1" hp="1350" speed="32" />
+  </monster>   
+   <monster id="103" defType="1">
+  <level lv="1" hp="1350" speed="32" />
+  </monster>    
+    <monster id="104" defType="2">
+  <level lv="1" hp="1350" speed="32" />
+  </monster>   
+</monsters>
+
+
+<b id = "1"><msg><![CDATA[10秒后食材BOSS即将带兵攻占仙盟粮仓，快进入炮台狙击他们！
+]]></msg></b>
+<b id = "2"><msg><![CDATA[敌人开始出击，快阻止他们！
+]]></msg></b>
+<b id = "3"><msg><![CDATA[<font color='#5ca9ff'><a><u>~str</u></a></font>来袭！
+]]></msg></b>
+<b id = "4"><msg><![CDATA[BOSS5秒后来袭，大家快做好准备！
+]]></msg></b>
+<b id = "5"><msg><![CDATA[发现补给包，击中后可暂时变为补给兵
+]]></msg></b>
+<b id = "6"><msg><![CDATA[地图上出现了神秘弹，击中后可暂时变为神射手！
+]]></msg></b>
+<b id = "7"><msg><![CDATA[敌军投下支援包，快用神秘弹击坠他们
+]]></msg></b>
+<b id = "8"><msg><![CDATA[支援包成功送达，怪物血量恢复
+]]></msg></b>
+<b id = "9"><msg><![CDATA[<font color='#5ca9ff'><a><u>~str</u></a></font>成功拦截敌军支援包！
+]]></msg></b>
+<b id = "10"><msg><![CDATA[<font color='#5ca9ff'><a><u>~str</u></a><a><u>~str</u></a></font>发动天灵刃气，炮台<a><u>~num</u></a>中的成员攻击力上升
+]]></msg></b>
+<b id = "11"><msg><![CDATA[基地正在被入侵，大家小心！
+]]></msg></b>
+</td>

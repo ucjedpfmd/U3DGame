@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<goals>
+	<goal label="第一天" active="1">
+		<goalItem id="10015" name="角色30级">
+			<condition><![CDATA[角色等级到达30级]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="3"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[恭喜你到达30级，新的传奇之旅正等着你去挑战！]]></desc>
+		</goalItem>
+	    <goalItem id="10008" name="讨伐敌营">
+			<condition><![CDATA[成功挑战讨伐敌营]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[丰厚的经验奖励，冲级必打。在<a href="event:goto|1#100138">京城-讨伐敌营传送人</a>处进入，清空副本怪物，击败副本BOSS即可完成目标（建议组队挑战）。]]></desc>
+		</goalItem>
+		<goalItem id="10006" name="防沉迷认证">
+			<condition><![CDATA[完成防沉迷系统的认证。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[点击链接或面板下方按钮，<a href="event:open|OPEN_FCM_WINDOW">填写防沉迷系统</a>，轻松获得丰厚奖励。]]></desc>
+		</goalItem>
+		<goalItem id="10021" name="蓝色爱宠">
+			<condition><![CDATA[拥有一只蓝色或蓝色以上宠物。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[通过<a href="event:open|OPEN_PET_SAVVY">提悟</a>可以提升宠物资质，改变宠物颜色。]]></desc>
+		</goalItem>
+		<goalItem id="10009" name="篝火美酒">
+			<condition><![CDATA[在篝火旁边饮酒打坐，享受丰厚的经验加成。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="5"/>
+			</reward>
+			<desc><![CDATA[在京城的篝火旁边饮酒打坐可获得丰厚的经验奖励（组队奖励更多），酒可在<a href="event:open|OPEN_SHOP_PANEL">商店</a>购买或挑战鄱阳湖副本获得。]]></desc>
+		</goalItem>
+	</goal>
+	<goal label="第二天" active="2">
+		<goalItem id="10022" name="蓝色镖车">
+			<condition><![CDATA[完成一趟蓝色镖车拉镖。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[在<a href="event:goto|1#100102">京城-张将军</a>处接取镖车，使用换车令可重置镖车颜色。]]></desc>
+		</goalItem>
+		<goalItem id="10007" name="师徒同心">
+			<condition><![CDATA[成功挑战师徒副本。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[成功拜师收徒，与师门一起击败挑衅者完成副本（也可与其他师门的队伍一起挑战），副本在<a href="event:goto|1#100131">京城-师徒副本传送人</a>处进入。]]></desc>
+		</goalItem>
+		<goalItem id="10051" name="英雄副本10关">
+			<condition><![CDATA[成功挑战英雄副本第10关。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[消灭陈军侍卫击败副本BOSS陈友谅即可完成目标，副本在<a href="event:goto|1#100133">京城-大明英雄副本传送人</a>处进入。]]></desc>
+		</goalItem>
+		<goalItem id="10041" name="洞天福地">
+			<condition><![CDATA[挑战洞天福地副本，击败福地侍女。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="5"/>
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[藏有无数珍宝和秘籍的神秘之地，在<a href="event:goto|1#100137">京城-洞天福地接引人</a>处进入（建议组队挑战）。]]></desc>
+		</goalItem>
+		<goalItem id="10026" name="宗族BOSS">
+			<condition><![CDATA[击败一只绿色以上宗族BOSS。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="1" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[加入宗族后可在<a href="event:open|OPEN_FAMILY_PANEL">『宗族』</a>界面喂养宗族BOSS，提升其颜色，击败提色后的宗族BOSS即可完成目标。]]></desc>
+		</goalItem>
+		</goal>
+	<goal label="第三天" active="3">
+		<goalItem id="10036" name="捕鱼儿海">
+			<condition><![CDATA[成功挑战捕鱼儿海副本。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[挑战捕鱼儿海副本，成功击败BOSS蛮子。]]></desc>
+		</goalItem>
+		<goalItem id="10071" name="宠物3个技能">
+			<condition><![CDATA[宠物学习3个技能以上。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="5"/>
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[在宠物面板学习<a href="event:open|OPEN_PET_SKILL">宠物技能</a>。神农架BOSS和洞天福地副本会掉落宠物技能书，更高级的技能书也可在商城购买。]]></desc>
+		</goalItem>
+		<goalItem id="10032" name="宗族技能">
+			<condition><![CDATA[学习一项宗族技能。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="5"/>
+			</reward>
+			<desc><![CDATA[进入<a href="event:goto|1#100120">宗族地图</a>，在宗族研究员处可学习宗族技能：快马加鞭和落马术。]]></desc>
+		</goalItem>
+		<goalItem id="10052" name="属性点80">
+			<condition><![CDATA[角色单项属性点加至80点。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[提升角色单项<a href="event:open|OPEN_ROLE_ATTR_PANEL">属性</a>至80点。]]></desc>
+		</goalItem>
+		<goalItem id="10082" name="英雄副本15关">
+			<condition><![CDATA[挑战英雄副本第15关，击败BOSS张士诚]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="3"/>
+			</reward>
+			<desc><![CDATA[副本挑战验证自身实力，好的装备可助您轻松过关。铁匠铺和天工炉可炼造强大装备。]]></desc>
+		</goalItem>
+		</goal>
+	<goal label="第四天" active="4">
+		<goalItem id="10061" name="紫色装备">
+			<condition><![CDATA[穿上一件紫色装备。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="21000001" color="3" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[要有强横实力需有好的装备。在铁匠铺用3级附加材料易打造出紫色装备，也可在天工炉精炼装备提升颜色。]]></desc>
+		</goalItem>
+		<goalItem id="10053" name="灵石镶嵌">
+			<condition><![CDATA[在装备上镶嵌一颗灵石。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[在<a href="event:open|OPEN_EQUIP_PUNCH">天工炉</a>可完成装备打孔和灵石镶嵌。]]></desc>
+		</goalItem>
+		<goalItem id="10045" name="英雄副本20关">
+			<condition><![CDATA[挑战英雄副本第20关，击败BOSS王保保]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="30010101" color="4" quality="1" isbind="0" end_time="0" num="1"/>
+				<goods typeId="30010101" color="4" quality="1" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[副本挑战验证自身实力，好的装备可助您轻松过关。铁匠铺和天工炉可炼造强大装备。]]></desc>
+		</goalItem>
+		<goalItem id="10092" name="挑战陈友谅">
+			<condition><![CDATA[在鄱阳湖地图击败世界BOSS陈友谅]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[强大的野外BOSS，建议玩家组成多人队伍挑战，击败BOSS可获得丰厚的奖励。]]></desc>
+		</goalItem>	
+	</goal>
+	<goal label="第五天" active="5">
+		<goalItem id="10062" name="装备锁灵">
+			<condition><![CDATA[使用灵珠对装备进行锁灵。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="21000001" color="4" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[灵珠可以扩展和提升装备的绑定属性。在天工炉完成<a href="event:open|OPEN_EQUIP_BIND">装备锁灵</a>，成功扩展装备属性即可获得奖励。]]></desc>
+		</goalItem>
+		<goalItem id="10056" name="宠物神技">
+			<condition><![CDATA[通过融合提升宠物神技。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[不同等级相同种类的神技可通过<a href="event:open|OPEN_OR_CLOSE_PET_MAIN">宠物融合</a>让神技叠加从而提升神技等级，成功融合成一个3级以上神技即可完成目标。]]></desc>
+		</goalItem>
+	    <goalItem id="10093" name="角色55级">
+			<condition><![CDATA[角色等级达到55级。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[完成任务和日常活动，挑战副本可获得丰富的经验奖励，助您快速升到55级。]]></desc>
+		</goalItem>
+	</goal>
+	<goal label="第六天" active="6">
+		<!-- <goalItem id="10064" name="提升品质">
+			<condition><![CDATA[成功对装备进行品质改造]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="1" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="1" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[在<a href="event:open|OPEN_FORGESHOP_QUALITY">铁匠铺</a>可对装备进行品质改造，提升装备的属性。]]></desc>
+		</goalItem>
+		 <goalItem id="10065" name="装备融合">
+			<condition><![CDATA[把装备融合到+1]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[使用融合石在天工炉完成<a href="event:open|OPEN_FINERY_FUSE">装备融合</a>，成功融合一件+1以上装备即可获得奖励。]]></desc>
+		</goalItem>-->
+		<goalItem id="10066" name="宗族战">
+			<condition><![CDATA[协助宗族赢一场宗族战]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="5" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[宗族战于每天晚上21：05开始，族长（副族长）报名后，宗族成员可根据提示进入宗族战场参战。]]></desc>
+		</goalItem>
+		<goalItem id="10091" name="护国战功">
+			<condition><![CDATA[击败敌国玩家获得战功]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[击败不低于自身5级以上敌国玩家可获得战功（副本地图除外）。]]></desc>
+		</goalItem>
+	</goal>
+	<goal label="第七天" active="7">
+		<goalItem id="10074" name="横扫千军">
+			<condition><![CDATA[参加横扫千军战场，累计获得800积分。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="30010101" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="30010101" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[横扫千军战场于每天18：30开启，玩家可根据提示进入战场，在战场中击杀敌方仙境玩家可获得积分。]]></desc>
+		</goalItem>
+		<goalItem id="10075" name="国战显威">
+			<condition><![CDATA[单场国战斩杀敌方玩家10人以上。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="1" quality="0" isbind="0" end_time="0" num="5"/>
+				<goods typeId="21000001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[40级以上玩家可参加国战，国战期间斩杀敌方玩家10人以上即可完成目标。]]></desc>
+		</goalItem>
+		<goalItem id="10076" name="挑战张士诚">
+			<condition><![CDATA[在平江击败BOSS张士诚。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[强大的野外BOSS，建议玩家组成多人队伍前往挑战，击败BOSS可获得丰厚的奖励。]]></desc>
+		</goalItem>
+		<!--<goalItem id="10077" name="步步惊心">
+			<condition><![CDATA[挑战高级副本步步惊心，至少击败一个BOSS。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[难度较大的神器副本，玩家组成3人以上队伍在<a href="event:goto|11100001">开封-张笑笑</a>处可进入副本挑战。]]></desc>
+		</goalItem>-->
+	</goal>
+	<goal label="第八天" active="8">
+		<goalItem id="10084" name="传奇侠侣">
+			<condition><![CDATA[与一名异性角色结为侠侣。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[在商城购买晶钻对戒，与心仪的异性角色前往<a href="event:goto|1#100142">京城-月老</a>处结为侠侣。]]></desc>
+		</goalItem>
+		<goalItem id="10085" name="神兵上榜">
+			<condition><![CDATA[至少一件60级以上的装备在排行榜上榜。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="21000001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[至少有一件60级以上装备在<a href="event:open|OPEN_RANK_SHENBING">神兵总分榜、强化排行榜或镶嵌排行榜</a>上榜，可通过提色、镶嵌或强化等操作提升装备品级。]]></desc>
+		</goalItem>
+		<goalItem id="10057" name="英雄副本25关">
+			<condition><![CDATA[挑战英雄副本第25关，击败BOSS卜颜帖木儿]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+				<goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="21000001" color="1" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[副本挑战验证自身实力，好的装备可助您轻松过关。铁匠铺和天工炉可炼造强大装备。]]></desc>
+		</goalItem>
+	</goal>
+	<goal label="第九天" active="9">
+		<goalItem id="10094" name="升到65级">
+			<condition><![CDATA[角色等级达到65级。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+			    <goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="2"/>
+				<goods typeId="11100001" color="3" quality="0" isbind="0" end_time="0" num="1"/>
+			</reward>
+			<desc><![CDATA[完成任务和日常活动，挑战副本可获得丰富的经验奖励，助您快速升到65级。]]></desc>
+		</goalItem>
+		<goalItem id="10095" name="挑战瓦剌劫匪头目">
+			<condition><![CDATA[在大漠击败强大的BOSS瓦剌劫匪头目。]]></condition>
+			<reward bindGold="0" gold="0" bindSilver="0" silver="0" exp="0" muti_choose="0">
+			    <goods typeId="11100001" color="4" quality="0" isbind="0" end_time="0" num="1"/>
+				<goods typeId="11100001" color="2" quality="0" isbind="0" end_time="0" num="2"/>
+			</reward>
+			<desc><![CDATA[强大的野外BOSS，建议玩家组成多人队伍前往挑战，击败BOSS可获得大量的银票。]]></desc>
+		</goalItem>
+	</goal>
+</goals>

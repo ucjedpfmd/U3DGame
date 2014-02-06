@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using module;
+using com.net.manager;
 
 class NPCModule : BaseModule 
 {

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<drivers>
+	<!--昆仑墟-->
+	<driver id="40300101" name="传送仙师">
+		<target targetID="1" min="1" cost="1000" name="前往璇玑城（1000铜钱）"/>
+	</driver>
+	<driver id="50300101" name="传送仙师">
+		<target targetID="2" min="1" cost="1000" name="前往璇玑城（1000铜钱）"/>
+	</driver>
+	<driver id="60300101" name="传送仙师">
+		<target targetID="3" min="1" cost="1000" name="前往璇玑城（1000铜钱）"/>
+	</driver>
+	
+	<!--星月阁-->
+	<driver id="40500109" name="传送仙师">
+		<target targetID="4" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="50500109" name="传送仙师">
+		<target targetID="5" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="60500109" name="传送仙师">
+		<target targetID="6" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	
+	<!--幻雪域-->
+	<driver id="40600101" name="传送仙师">
+		<target targetID="7" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="50600101" name="传送仙师">
+		<target targetID="8" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="60600101" name="传送仙师">
+		<target targetID="9" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	
+	<!--太虚境-->
+	<driver id="40800101" name="传送仙师">
+		<target targetID="19" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="50800101" name="传送仙师">
+		<target targetID="20" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="60800101" name="传送仙师">
+		<target targetID="21" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	
+	<!--炼魂鬼域-->
+	<driver id="43000101" name="传送仙师">
+		<target targetID="25" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="53000101" name="传送仙师">
+		<target targetID="26" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	<driver id="63000101" name="传送仙师">
+		<target targetID="27" min="1" cost="2000" name="前往璇玑城（2000铜钱）"/>
+	</driver>
+	
+	<!--璇玑城-->
+	<driver id="40000121" name="传送仙师">
+		<target targetID="10" min="25" cost="2000" name="前往星月阁（2000铜钱）"/>
+		<target targetID="11" min="30" cost="1000" name="前往昆仑墟（1000铜钱）"/>
+		<target targetID="12" min="40" cost="2000" name="前往幻雪域（2000铜钱）"/>
+		<target targetID="22" min="60" cost="2000" name="前往太虚境（2000铜钱）"/>
+		<target targetID="28" min="70" cost="2000" name="前往炼魂鬼域（2000铜钱）"/>
+	</driver>
+	<driver id="50000121" name="传送仙师">
+		<target targetID="13" min="25" cost="2000" name="前往星月阁（2000铜钱）"/>
+		<target targetID="14" min="30" cost="1000" name="前往昆仑墟（1000铜钱）"/>
+		<target targetID="15" min="40" cost="2000" name="前往幻雪域（2000铜钱）"/>
+		<target targetID="23" min="60" cost="2000" name="前往太虚境（2000铜钱）"/>
+		<target targetID="29" min="70" cost="2000" name="前往炼魂鬼域（2000铜钱）"/>
+	</driver>
+	<driver id="60000121" name="传送仙师">
+		<target targetID="16" min="25" cost="2000" name="前往星月阁（2000铜钱）"/>
+		<target targetID="17" min="30" cost="1000" name="前往昆仑墟（1000铜钱）"/>
+		<target targetID="18" min="40" cost="2000" name="前往幻雪域（2000铜钱）"/>
+		<target targetID="24" min="60" cost="2000" name="前往太虚境（2000铜钱）"/>
+		<target targetID="30" min="70" cost="2000" name="前往炼魂鬼域（2000铜钱）"/>
+	</driver>
+</drivers>

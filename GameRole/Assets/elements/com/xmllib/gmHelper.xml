@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gm>
+<!-- GM命令的前端配置
+id 每一个gm命令前端使用的唯一id，以id从小到大排序 共四位 abcd a=type bcd =序号
+type 1 直接输入code 2 输入code+value（value = 文本输入）
+label 按扭显示文字
+code GM命令
+tooltip 浮动提示
+-->
+	<item id="1001" label="上帝命令" code="m10_god=1" tooltip="直接升级到50级并加50000货币" />
+	<item id="1002" label="获得坐骑" code="m10_mount=1" tooltip="获得坐骑，开启坐骑功能" />
+	<item id="1003" label="学习所有技能" code="m10_skill=1" tooltip="学习所有技能" />
+	<item id="1004" label="清理背包" code="m10_clear_bag=1" tooltip="清理背包" />
+	<item id="1005" label="重置循环任务" code="m10_mission_set_time=1" tooltip="重置循环任务次数（刷新）" />
+	<item id="1006" label="重置任务" code="m10_mission_reload=1" tooltip="重置任务配置" />
+	<item id="1007" label="放弃最后任务" code="m10_miss_back=1" tooltip="放弃最后任务" />
+	<item id="1008" label="重置仙盟BOSS" code="m10_f_boss=1" tooltip="重置仙盟BOSS状态" />
+	<item id="1009" label="重置寒冰次数" code="m10_reset_ice=1" tooltip="重置寒冰次数" />
+	<item id="1010" label="重置回魂仙梦" code="m10_reset_scopy=1" tooltip="重置回魂仙梦" />
+	<item id="1011" label="重置副本次数" code="m10_cp_clr=1" tooltip="重置所有副本次数" />
+	<item id="1012" label="清理副本怪物" code="m10_kill=1" tooltip="副本中秒杀所有敌方怪物" />
+	<item id="1013" label="退出关闭副本" code="m10_cp_quit=1" tooltip="退出关闭副本" />
+	<item id="1014" label="更新排行榜" code="m10_rank=1" tooltip="立刻更新排行榜" />
+	
+	<item id="1015" label="开启所有功能" code="m10_func=1" tooltip="立即开启所有功能" />
+	<item id="1016" label="开启仙珠功能" code="m10_pearl=1" tooltip="立即开启仙珠功能" />
+	<item id="1017" label="开启元神功能" code="m10_anima=1" tooltip="立即开启元神功能" />
+	<item id="1018" label="开始答题活动" code="m10_answer_begin=1" tooltip="开始答题活动" />
+	<item id="1019" label="重置答题活动" code="m10_answer_reset=1" tooltip="重新开始答题活动" />
+	<item id="1020" label="开启天绝斗法" code="m10_bstart=1" tooltip="开启天绝斗法战场入口" />
+	<item id="1021" label="关闭天绝斗法" code="m10_bend=1" tooltip="关闭天绝斗法战场入口" />
+	<item id="1022" label="开启仙宠战" code="m10_fpfight=1" tooltip="在宠物仙盟战开启后，点击开打则立即进入战斗" />
+	<item id="1023" label="开启仙盟树" code="m10_f_shake=1" tooltip="开启仙盟树摇钱（只能自己本次登录生效）" />
+	<item id="1024" label="技能CD清零" code="m10_cd=1" tooltip="使用后可清除当前玩家所有技能CD" />
+	<item id="1025" label="开启收藏图标" code="m10_open_collect=1" tooltip="只开启收藏图标，后端不做更改" />
+	<item id="1026" label="绑定背包道具" code="m10_bind=1" tooltip="把背包所有的道具都变成绑定" />
+	<item id="1027" label="所有信件过期" code="m10_letter_over=1" tooltip="点击后所有的信件立刻过期" />
+	<item id="1028" label="全部指令" code="m10_hexie=1" tooltip="可以查看所有GM指令" />
+	
+	<item id="2001" label="修改角色等级" code="m10_lv=" tooltip="直接修改角色等级，只能增加不能降低，最高80级" />
+	<item id="2002" label="增加角色经验" code="m10_addexp=" tooltip="增加角色经验" />
+	<item id="2003" label="设置职业" code="m10_category=" tooltip="设置职业0:无职业；1:霸刀；2:飞羽；3:舞天；4:碧落" />
+	<item id="2004" label="设置基础属性" code="m10_baseattr=" tooltip="设置角色所有基础属性" />
+	<item id="2005" label="增加移动速度" code="m10_add_sp=" tooltip="增加移动速度（0-500）0为原速" />
+	<item id="2006" label="显示隐藏内容" code="m10_mask=" tooltip="1，把场景所有的隐藏内容都显示，0则恢复正常" />
+	<item id="2008" label="设置不绑元宝" code="m10_gold=" tooltip="设置不绑元宝" />
+	<item id="2009" label="设置绑定元宝" code="m10_bgold=" tooltip="设置绑定元宝" />
+	<item id="2010" label="设置不绑铜钱" code="m10_silver=" tooltip="设置不绑铜钱" />
+	<item id="2011" label="设置绑定铜钱" code="m10_bsilver=" tooltip="设置绑定铜钱" />
+	<item id="2012" label="设置宠物等级" code="m10_pet_level=" tooltip="设置出战宠物等级" />
+	<item id="2013" label="模拟充值" code="m10_pay=" tooltip="模拟人民币充值" />
+	<item id="2014" label="增加离线天数" code="m10_add_offday=" tooltip="设置连续离线天数" />
+	<item id="2015" label="设置登陆天数" code="m10_set_conlogin=" tooltip="设置连续登陆天数" />
+
+	<item id="2016" label="修改猎魂灵气" code="m10_spirit=" tooltip="可修改宠物猎魂的灵气值" />
+	<item id="2017" label="修改兽魂经验" code="m10_add_soul_exp=" tooltip="可增加宠物兽魂经验瓶子的经验" />
+	<item id="2018" label="仙珠技能怒气" code="m10_rage=" tooltip="可修改当前仙珠技能怒气值（1~10000），10000为怒气值满" />
+	<item id="2019" label="仙尊过期设置" code="m10_vip_time=" tooltip="可修改仙尊的过期时间，单位为1分钟，比如输入5 ，则5分钟后过期，系统每5分钟循环一次" />
+	<item id="2020" label="查询任务ID" code="fuck_mission" tooltip="查询任务ID" />
+	<item id="2021" label="查询道具ID" code="fuck_item" tooltip="查询道具ID" />
+	<item id="2022" label="接受任务" code="m10_miss=" tooltip="接受任务，输入任务ID" />
+	<item id="2023" label="完成任务" code="m10_finish_mission=" tooltip="完成任务，输入 0 时完成当前面板所有任务;输入任务id时完成具体的任务" />
+	<item id="2024" label="进入副本" code="m10_temp_fb" tooltip="输入副本ID进入副本格式（60500=1=1=1=1）地图ID=lineID=extraID=是否多倍=是否组队（注：不需要的参数可不输入）" />
+	<item id="2024" label="传送地图" code="m10_trans" tooltip="输入副本ID传送地图格式（60500=1=1）地图ID=lineID=changeType" />
+	<item id="2025" label="设置回魂关卡" code="m10_scopy=" tooltip="设置回魂关卡（1-50）" />
+	<item id="2026" label="开启天降横财" code="m10_wc=" tooltip="输入参数值N后可在N分钟后开启天降横财" />
+	<item id="2027" label="开启日光浴" code="m10_sun=" tooltip="输入“H=M”H是小时，M是分钟，表示在H点M分打开日光浴，如果输入时间小于现在时间，则会在明天打开，如果输入的是负数，则默认按配置的时间打开日光浴。" />
+	<item id="2028" label="开启仙宠战" code="m10_fpstart=" tooltip="开启宠物仙盟战，输入战场时间，单位：分" />
+	<item id="2029" label="上帝+职业" code="m10_god=" tooltip="直接升级到50级并加50000货币，输入1、2、3、4分别代表霸刀、飞羽、舞天、碧落" />
+	<item id="2030" label="强化装备" code="m10_reinforce=" tooltip="输入“x=y”前面是x级后面是y星，使用后需要强化一次才能有属性加成，且下一次强化成功率提升到100%" />
+	<item id="2031" label="BOSS出生" code="m10_boss=" tooltip="输入“MapID=Num”，MapID 是boss出生的地图ID，分别为41000,41100,41200,41300,41400,41500，Num 是该地图的第几个boss，目前Num=1" />
+	<item id="2032" label="生成激活码" code="m10_ac=" tooltip="输入“Key=Code”，key 是活动类型，目前有xs，xs2，xs3，sj，sj2，sj3，sj4，m1 ~ m9，fm1 ~ fm9，Code是增加激活码，可任意数字" />
+	<item id="2033" label="修改挂单时间" code="m10_market=" tooltip="输入“nth=min”，nth为挂单编号[在挂单界面从上数起的是第1个单],min为分钟数，输入正数为增加挂售时间，最大不能超过24小时；输入负数为缩小挂售时间，无限制" />
+	<item id="2034" label="QQ好友邀请" code="m10_qq_invite=" tooltip="输入未创建过角色的账号" />
+	<item id="2035" label="信件过期" code="m10_letter_over=" tooltip="修改所有信件的过期时间，单位：分钟" />
+	<item id="2036" label="修罗战场" code="m10_sawlu=" tooltip="表示多少秒后开启，负数是关闭" />
+	<item id="2037" label="情缘活动" code="m10_race=" tooltip="表示多少秒后开启，负数是关闭" />
+	<item id="2038" label="平台特权" code="m10_qq_vip=" tooltip="【type=level=是否年费=是否豪华】type；黄钻为1、蓝钻为2、3366为3、红钻为4、会员为5、粉钻为6、繁体为7、通用平台为9；level年贵族等级（1-8）是否年费及是否豪华（1、0）" />
+
+	
+</gm>

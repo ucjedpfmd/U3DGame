@@ -36,7 +36,7 @@ namespace module.scene.sceneUnit{
         {
             _pvo = value as p_map_role;
             //myObj.name = "MyRole" + _pvo.role_id;
-            resetSkin(0, 0);
+            resetSkin(2, 0);
         }
 
         override public void resetSkin(int skinID, int sex)
@@ -59,7 +59,7 @@ namespace module.scene.sceneUnit{
 			isInit = true;
 		}
 
-        override public void play(string act, string dir = null)
+        override public void play(string act, int dir = -1)
         {
             avatar.body.animation.Play(act);
         }

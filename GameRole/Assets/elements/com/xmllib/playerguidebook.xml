@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  配置表说明
+id：（数字）一级分支，分别是"我要升级","我要变强","我要赚钱","我很无聊"，设置id相同即可在同一个界面；
+title：二级分支，主要是链接的分类，如：经验副本、循环任务等；
+link_name：三级分支，最终显示的功能、玩法链接；
+type：寻路目标的分类，npc、map、module(功能界面);
+total_times：每个功能玩法的每天可玩次数；
+position：链接的位置，参数为wrap或者follow，follow不换行，wrap则是另起一行；
+minLvl：（数字）最低参与等级；
+maxlevel：（数字）最高参与等级
+npc_1、npc_2、npc_3：功能NPC的ID，1~3分别指三个国家；
+disc：鼠标滑过链接时的浮动提示内容；
+map_id：地图ID，只填后面三位；
+-->
+
+<data>
+
+   	<node>
+	<id>1</id>
+		<title>经验副本</title> 
+		<son name="" link_name="守护女娲神殿" type="npc" total_times="5"  position=""  minLvl="33" maxlevel="100"  npc_1="11100107" npc_2="12100107" npc_3="13100107" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>
+	
+	<node>
+	<id>1</id>
+		<title>循环任务</title> 
+		<son name="" link_name="凡尘炼仙" type="npc" total_times="10"  position=""  minLvl="31"  maxlevel="400"  npc_1="11100110" npc_2="12100110" npc_3="13100110" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="仙盟助凡" type="npc" total_times="5"  position="follow"  minLvl="36"  maxlevel="400"  npc_1="11100117" npc_2="12100117" npc_3="13100117" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="斩妖除魔" type="npc" total_times="40"  position="follow"  minLvl="32"  maxlevel="400"  npc_1="11100130" npc_2="12100130" npc_3="13100130" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="灵药天成" type="npc" total_times="10"  position="follow"  minLvl="33"  maxlevel="400"  npc_1="11100108" npc_2="12100108" npc_3="13100108" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	
+	<node>
+	<id>1</id>
+		<title>休闲经验</title> 
+		<son name="" link_name="护送寒冰" type="npc" total_times="3"  position=""  minLvl="30"  maxlevel="400"  npc_1="11100104" npc_2="12100104" npc_3="13100104" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="沙滩日光浴" type="npc" total_times=""  position="follow"  minLvl="30" maxlevel="400"  npc_1="11100120" npc_2="12100120" npc_3="13100120" winName="" map_id="" x="" y="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="普通挂机" type="npc" total_times=""  position="wrap"  minLvl="20"  maxlevel="400"  npc_1="11105100" npc_2="12105100" npc_3="13105100" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="钻石vip专属挂机" type="npc" total_times=""  position="follow"  minLvl="20"  maxlevel="400"  npc_1="11105100" npc_2="12105100" npc_3="13105100" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="六界试炼" type="npc" total_times=""  position="wrap"  minLvl="30"  maxlevel="80"  npc_1="11100127" npc_2="12100127" npc_3="13100127" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>
+
+
+    <node>
+	<id>2</id>
+		<title>玩家变强</title> 
+		<son name="炼制" link_name="轩辕鼎" type="module" total_times=""  position=""  minLvl="1" maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openComposeView" map_id="">
+		<disc></disc>
+		</son>
+		<son name="仙珠" link_name="傲视六界" type="module" total_times="2"  position="wrap"  minLvl="25"  maxlevel="100"  npc_1="" npc_2="" npc_3="" winName="openASLJ" map_id="">
+		<disc></disc>
+		</son>
+		<son name="装备" link_name="梦境天阶" type="npc" total_times="5"  position="wrap"  minLvl="30"  maxlevel="55"  npc_1="11100115" npc_2="12100115" npc_3="13100115" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="九幽迷城" type="npc" total_times="3"  position="follow"  minLvl="35" maxlevel="100"  npc_1="11100124" npc_2="12100124" npc_3="13100124" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="诛魔苍龙岭" type="npc" total_times="5"  position="follow"  minLvl="56" maxlevel="69"  npc_1="11100114" npc_2="12100114" npc_3="13100114" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="妖冥海" type="npc" total_times="3"  position="follow"  minLvl="45" maxlevel="100"  npc_1="10200101" npc_2="10200101" npc_3="10200101" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="其它" link_name="北天门诛仙" type="npc" total_times="3"  position="wrap"  minLvl="32" maxlevel="100"  npc_1="11100123" npc_2="12100123" npc_3="13100123" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="神眠谷" type="npc" total_times="2"  position="follow"  minLvl="48" maxlevel="100"  npc_1="11100128" npc_2="12100128" npc_3="13100128" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+    <node>
+	<id>2</id>
+		<title>宠物变强</title> 
+		<son name="功能" link_name="技能" type="module" total_times=""  position=""  minLvl="1" maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openPetSkill" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="提悟" type="module" total_times=""  position="follow"  minLvl="1"  maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openPetSavvy" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="洗炼" type="module" total_times=""  position="follow"  minLvl="1"  maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openPetAptitude" map_id="">
+		<disc></disc>
+		</son>
+		<son name="相关" link_name="幻兽天境" type="npc" total_times="3"  position="wrap"  minLvl="34" maxlevel="100"  npc_1="11100122" npc_2="12100122" npc_3="13100122" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="祖龙幻境" type="npc" total_times="1"  position="follow"  minLvl="46" maxlevel="400"  npc_1="11100121" npc_2="12100121" npc_3="13100121" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="三炼奇书" type="npc" total_times="5"  position="follow"  minLvl="40" maxlevel="400"  npc_1="10200102" npc_2="10200102" npc_3="10200102" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	
+	
+	<node>
+	<id>3</id>
+		<title>银子副本</title> 
+		<son name="" link_name="冰火炼金洞" type="npc" total_times="3"  position=""  minLvl="35" maxlevel="100"  npc_1="11100118" npc_2="12100118" npc_3="13100118" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	<node>
+	<id>3</id>
+		<title>轻松赚钱</title> 
+		<son name="" link_name="护送寒冰" type="npc" total_times="3"  position=""  minLvl="30" maxlevel="400"  npc_1="11100104" npc_2="12100104" npc_3="13100104" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	<node>
+	<id>3</id>
+		<title>自己动手</title> 
+		<son name="" link_name="市场" type="module" total_times=""  position=""  minLvl="1" maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openMarketView" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="摆摊" type="module" total_times=""  position="follow"  minLvl="1" maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openStallPanel" map_id="">
+		<disc></disc>
+		</son>
+	</node>		
+
+
+	<node>
+	<id>4</id>
+		<title>解放双手</title> 
+		<son name="" link_name="普通挂机" type="npc" total_times=""  position=""  minLvl="20"  maxlevel="400"  npc_1="11105100" npc_2="12105100" npc_3="13105100" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="钻石vip专属挂机" type="npc" total_times=""  position="follow"  minLvl="20"  maxlevel="400"  npc_1="11105100" npc_2="12105100" npc_3="13105100" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	<node>
+	<id>4</id>
+		<title>激情无限</title> 
+		<son name="" link_name="吞噬星空战场" type="map" total_times=""  position=""  minLvl="40"  maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="混沌战场" type="npc" total_times=""  position="follow"  minLvl="1"  maxlevel="400"  npc_1="11100152" npc_2="12100152" npc_3="13100152" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="天绝斗法" type="npc" total_times=""  position="follow"  minLvl="1"  maxlevel="400"  npc_1="11100129" npc_2="12100129" npc_3="13100129" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="世界boss" type="module" total_times=""  position="wrap"  minLvl="1"  maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="openWorldBoss" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	<node>
+	<id>4</id>
+		<title>轻松一刻</title> 
+		<son name="" link_name="智力问答" type="module" total_times="1"  position=""  minLvl="30"  maxlevel="400"  npc_1="" npc_2="" npc_3="" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="沙滩日光浴" type="npc" total_times=""  position="follow"  minLvl="30" maxlevel="400"  npc_1="11100120" npc_2="12100120" npc_3="13100120" winName="" map_id="" x="" y="">
+		<disc></disc>
+		</son>
+	</node>	
+	<node>
+	<id>4</id>
+		<title>休闲仙盟</title> 
+		<son name="" link_name="鲲鹏飞天" type="npc" total_times="1"  position=""  minLvl="35"  maxlevel="400"  npc_1="11100109" npc_2="12100109" npc_3="13100109" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="仙盟聚灵" type="npc" total_times=""  position="follow"  minLvl="30"  maxlevel="400"  npc_1="11100117" npc_2="12100117" npc_3="13100117" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+	<node>
+	<id>4</id>
+		<title>仙侣奇缘</title> 
+		<son name="" link_name="求婚" type="npc" total_times=""  position=""  minLvl="1"  maxlevel="400"  npc_1="11100111" npc_2="12100111" npc_3="13100111" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="婚礼" type="npc" total_times=""  position="follow"  minLvl="1"  maxlevel="400"  npc_1="11100111" npc_2="12100111" npc_3="13100111" winName="" map_id="">
+		<disc></disc>
+		</son>
+		<son name="" link_name="游行" type="npc" total_times=""  position="follow"  minLvl="1"  maxlevel="400"  npc_1="11100111" npc_2="12100111" npc_3="13100111" winName="" map_id="">
+		<disc></disc>
+		</son>
+	</node>	
+</data>

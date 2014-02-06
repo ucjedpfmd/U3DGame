@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<embattle>
+	<skills max="19"><!--typeID:10102:101代表单体，102代表群体，01代表怒气，02代表非怒气-->
+	<skill id="1" typeID="10201" sortID="6" name="扫荡" skinName="embattle_saodang" effect="4"  	attTime="20"   hurtTime="27" isTop="1" hasAtt="1" isNoramlAtt="1" angerAtt="怒气技，全体攻击，伤害增加50%" commonAtt="" hurtDeepen="" />
+	<skill id="2" typeID="10101" sortID="14" name="夺魄" skinName="embattle_duopo" effect="1"  	attTime="15"   hurtTime="35" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="怒气技，单体攻击，伤害增加110%，附带晕眩效果1回合" commonAtt="" hurtDeepen="" />
+	<skill id="3" typeID="10201" sortID="5" name="连横" skinName="embattle_lianheng" effect="3"   attTime="20"   hurtTime="35" isTop="0" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，横排攻击，伤害增加140%" commonAtt="" hurtDeepen="" />
+	<skill id="4" typeID="10101" sortID="13" name="威压" skinName="embattle_weiya" effect="1"   	attTime="30"   hurtTime="35" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="怒气技，单体攻击，伤害增加110%，并清空目标怒气值" commonAtt="" hurtDeepen="" />
+	<skill id="5" typeID="10201" sortID="4" name="长驱" skinName="embattle_changqu" effect="2"    attTime="20"   hurtTime="35" isTop="0" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，纵列攻击，伤害增加140%" commonAtt="" hurtDeepen="" />
+	<skill id="6" typeID="10101" sortID="18" name="破碎" skinName="embattle_posui" effect="1"  	attTime="20"   hurtTime="32" isTop="0" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，一次强力的单体攻击，伤害增加200%" commonAtt="" hurtDeepen="" />
+	<skill id="7" typeID="10101" sortID="17" name="顽抗" skinName="embattle_wangkang" effect="1"  	attTime="35"   hurtTime="20" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="怒气技，单体攻击，伤害降低40%，使用后自身免疫普通攻击与怒气攻击" commonAtt="" hurtDeepen="" />
+	<skill id="8" typeID="10101" sortID="16" name="狂战" skinName="embattle_kuangzhan" effect="1"  attTime="20"   hurtTime="17" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，单体攻击，伤害增加110%，使用后维持满怒气不清零" commonAtt="" hurtDeepen="" />
+	<skill id="9" typeID="10101" sortID="12" name="毒攻" skinName="embattle_dugong" effect="1"     attTime="20"   hurtTime="35" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，单体攻击，伤害增加140%，附带中毒、灼伤效果" commonAtt="" hurtDeepen="" />
+	<skill id="10" typeID="10101" sortID="11" name="攻心" skinName="embattle_gongxin" effect="1" 	attTime="19"    hurtTime="29" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="怒气技，单体攻击，伤害增加140%，并吸取敌方50%当前怒气" commonAtt="" hurtDeepen="" />
+	<skill id="11" typeID="10201" sortID="1" name="摄魂" skinName="embattle_shehun" effect="4" 	attTime="20"   hurtTime="35" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，全体攻击，伤害增加20%，概率附带晕眩效果1回合" commonAtt="" hurtDeepen="" />
+	<skill id="12" typeID="10101" sortID="10" name="暗袭" skinName="embattle_anxi" effect="5"  	attTime="20"   hurtTime="26" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，单体攻击，伤害增加110%，优先攻击后排目标，并附带晕眩效果1回合" commonAtt="" hurtDeepen="" />
+	<skill id="13" typeID="10201" sortID="3" name="株连" skinName="embattle_zhulian" effect="6" 	attTime="20"   hurtTime="25" isTop="0" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，攻击敌方及其四周的单位，伤害增加125%" commonAtt="" hurtDeepen="" />
+	<skill id="14" typeID="10201" sortID="2" name="振奋" skinName="embattle_zhenfen" effect="4"	attTime="20"   hurtTime="12" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，使用后我方全体进入满怒气状态（仙灵幻境闯关中必须满怒后才能产生效果）" commonAtt="" hurtDeepen="" />
+	<skill id="15" typeID="10101" sortID="15" name="追击" skinName="embattle_zhuiji" effect="1"  	attTime="20"   hurtTime="27" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，单体攻击，伤害增加95%，70%概率额外一次攻击" commonAtt="" hurtDeepen="" />
+	<skill id="16" typeID="10102" sortID="19" name="精准" skinName="embattle_jingzhun" effect="1"	attTime="19"   hurtTime="35" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="单体攻击，伤害增加100%，无需怒气，但自身受创时伤害会增加20%" hurtDeepen="" />
+	<skill id="17" typeID="10202" sortID="8" name="横扫" skinName="embattle_hengsao" effect="3"  	attTime="19"   hurtTime="29" isTop="0" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="横排攻击，伤害增加70%，无需怒气，但自身受创时伤害会增加20%" hurtDeepen="" />
+	<skill id="18" typeID="10202" sortID="7" name="贯穿" skinName="embattle_guanchuan" effect="2" attTime="19"   hurtTime="29" isTop="0" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="纵列攻击，伤害增加70%，无需怒气，但自身受创时伤害会增加20%" hurtDeepen="" />
+	<skill id="19" typeID="10202" sortID="9" name="旋风" skinName="embattle_xuanfeng" effect="4" 	attTime="19"   hurtTime="17" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="全体攻击，伤害增加40%，无需怒气，但自身受创时伤害会增加20%" hurtDeepen="" />
+	<skill id="20" typeID="10101" name="振奋" skinName="embattle_zhenfen" effect="4"	attTime="20"   hurtTime="12" isTop="1" hasAtt="1" isNoramlAtt="1"  angerAtt="怒气技，使用后我方全体进入满怒气状态（仙灵幻境闯关中必须满怒后才能产生效果）" commonAtt="" hurtDeepen="" />
+	<skill id="20001" name="阵法补充" skinName="" effect="" 	attTime=""   hurtTime="" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="全体攻击，伤害增加40%，无需怒气，但自身受创时伤害会增加20%" hurtDeepen="" />
+	<skill id="20002" name="单体补充怪物" skinName="" effect="" 	attTime=""   hurtTime="" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="" hurtDeepen="" />
+	<skill id="20003" name="群体补充怪物" skinName="" effect="" 	attTime=""   hurtTime="" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="" hurtDeepen="" />
+	<skill id="20004" name="Boss召唤" skinName="Boss召唤" effect="" 	attTime=""   hurtTime="" isTop="1" hasAtt="1" isNoramlAtt="0"  angerAtt="" commonAtt="" hurtDeepen="" />
+	</skills>
+	
+	<statusEffects>
+		<effect id="10010001" numImg="poison3" buffID="26000000" effectUrl="hurt_embattle_zhongdu" desc="中毒：攻防降低&lt;font color='#fdeab9'&gt;24%&lt;/font&gt;，&lt;font color='#fff000'&gt;持续{0}回合&lt;/font&gt;"/>
+		<effect id="10020001"  numImg="burning3" buffID="26100000" effectUrl="hurt_embattle_ranshao" desc="灼伤：持续掉血&lt;font color='#fdeab9'&gt;10%&lt;/font&gt;，&lt;font color='#fff000'&gt;持续{0}回合&lt;/font&gt;"/>
+		<effect id="10030001"  numImg="dizzy3" buffID="26200000" effectUrl="hurt_embattle_yunxuan" desc="麻痹：无法攻击，&lt;font color='#fff000'&gt;持续{0}回合&lt;/font&gt;"/>
+		<effect id="10040001"  numImg="freeze3" buffID="26300000" effectUrl="bingdong" desc="冰冻：承受伤害提高&lt;font color='#fdeab9'&gt;8%&lt;/font&gt;，出手速度降至最低，&lt;font color='#fff000'&gt;持续{0}回合&lt;/font&gt;"/>
+	</statusEffects>
+	
+	<pks>
+		<titles>
+			<title id="1" winPlays="20" totalRate="30" nameID="210101"/>
+			<title id="2" winPlays="40" totalRate="35" nameID="210102"/>
+			<title id="3" winPlays="80" totalRate="40" nameID="210103"/>
+			<title id="4" winPlays="160" totalRate="45" nameID="210104"/>
+			<title id="5" winPlays="320" totalRate="50" nameID="210105"/>
+			<title id="6" winPlays="640" totalRate="55" nameID="210106"/>
+			<title id="7" winPlays="1280" totalRate="60" nameID="210107"/>
+			<title id="8" winPlays="2560" totalRate="65" nameID="210108"/>
+		</titles>
+	</pks>
+	
+	<barrierCondition maxBarrierTimes="3">
+		<item id="11601101" startBarrier="1" againTimes="1" />
+		<item id="11601102" startBarrier="1,50" againTimes="2" />
+		<item id="11601003" startBarrier="1,50,100" againTimes="3" />
+	</barrierCondition>
+	
+	<barrierInfo maxBarrier="150">
+      <barrier id="1" barrierStr="第1关"		exp="100"  	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="2" barrierStr="第2关"		exp="200" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="3" barrierStr="第3关"		exp="300" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="4" barrierStr="第4关"		exp="400" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="5" barrierStr="第5关"		exp="500" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="6" barrierStr="第6关"		exp="600" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="7" barrierStr="第7关"		exp="700" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="8" barrierStr="第8关"		exp="800" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="9" barrierStr="第9关"		exp="900" 	roleExp="6000"	> 		<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="10" barrierStr="第10关"		exp="1000" 	roleExp="6000"	>      <item id="10120005"  num="1"/>	<item id="10301011"  num="1"/> </barrier> 
+      <barrier id="11" barrierStr="第11关"		exp="1100" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="12" barrierStr="第12关"		exp="1200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="13" barrierStr="第13关"		exp="1300" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="14" barrierStr="第14关"		exp="1400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="15" barrierStr="第15关"		exp="1500" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="16" barrierStr="第16关"		exp="1600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="17" barrierStr="第17关"		exp="1700" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="18" barrierStr="第18关"		exp="1800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="19" barrierStr="第19关"		exp="1900" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="20" barrierStr="第20关"		exp="2000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301010"  num="1"/> </barrier> 
+      <barrier id="21" barrierStr="第21关"		exp="2100" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="22" barrierStr="第22关"		exp="2200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="23" barrierStr="第23关"		exp="2300" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="24" barrierStr="第24关"		exp="2400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="25" barrierStr="第25关"		exp="2500" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="26" barrierStr="第26关"		exp="2600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="27" barrierStr="第27关"		exp="2700" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="28" barrierStr="第28关"		exp="2800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="29" barrierStr="第29关"		exp="2900" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="30" barrierStr="第30关"		exp="3000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301017"  num="1"/> </barrier> 
+      <barrier id="31" barrierStr="第31关"		exp="3100" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="32" barrierStr="第32关"		exp="3200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="33" barrierStr="第33关"		exp="3300" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="34" barrierStr="第34关"		exp="3400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="35" barrierStr="第35关"		exp="3500" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="36" barrierStr="第36关"		exp="3600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="37" barrierStr="第37关"		exp="3700" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="38" barrierStr="第38关"		exp="3800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="39" barrierStr="第39关"		exp="3900" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="40" barrierStr="第40关"		exp="4000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301022"  num="1"/> </barrier> 
+      <barrier id="41" barrierStr="第41关"		exp="4100" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="42" barrierStr="第42关"		exp="4200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="43" barrierStr="第43关"		exp="4300" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="44" barrierStr="第44关"		exp="4400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="45" barrierStr="第45关"		exp="4500" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="46" barrierStr="第46关"		exp="4600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="47" barrierStr="第47关"		exp="4700" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="48" barrierStr="第48关"		exp="4800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="49" barrierStr="第49关"		exp="4900" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="50" barrierStr="第50关"		exp="5000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301047"  num="1"/> </barrier> 
+      <barrier id="51" barrierStr="第51关"		exp="200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="52" barrierStr="第52关"		exp="400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="53" barrierStr="第53关"		exp="600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="54" barrierStr="第54关"		exp="800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="55" barrierStr="第55关"		exp="1000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="56" barrierStr="第56关"		exp="1200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="57" barrierStr="第57关"		exp="1400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="58" barrierStr="第58关"		exp="1600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="59" barrierStr="第59关"		exp="1800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="60" barrierStr="第60关"		exp="2000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301014"  num="1"/> </barrier> 
+      <barrier id="61" barrierStr="第61关"		exp="2200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="62" barrierStr="第62关"		exp="2400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="63" barrierStr="第63关"		exp="2600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="64" barrierStr="第64关"		exp="2800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="65" barrierStr="第65关"		exp="3000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="66" barrierStr="第66关"		exp="3200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="67" barrierStr="第67关"		exp="3400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="68" barrierStr="第68关"		exp="3600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="69" barrierStr="第69关"		exp="3800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="70" barrierStr="第70关"		exp="4000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301025"  num="1"/> </barrier> 
+      <barrier id="71" barrierStr="第71关"		exp="4200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="72" barrierStr="第72关"		exp="4400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="73" barrierStr="第73关"		exp="4600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="74" barrierStr="第74关"		exp="4800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="75" barrierStr="第75关"		exp="5000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="76" barrierStr="第76关"		exp="5200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="77" barrierStr="第77关"		exp="5400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="78" barrierStr="第78关"		exp="5600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="79" barrierStr="第79关"		exp="5800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="80" barrierStr="第80关"		exp="6000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301050"  num="1"/> </barrier> 
+      <barrier id="81" barrierStr="第81关"		exp="6200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="82" barrierStr="第82关"		exp="6400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="83" barrierStr="第83关"		exp="6600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="84" barrierStr="第84关"		exp="6800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="85" barrierStr="第85关"		exp="7000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="86" barrierStr="第86关"		exp="7200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="87" barrierStr="第87关"		exp="7400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="88" barrierStr="第88关"		exp="7600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="89" barrierStr="第89关"		exp="7800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="90" barrierStr="第90关"		exp="8000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/><item id="10301026"  num="1"/> </barrier> 
+      <barrier id="91" barrierStr="第91关"		exp="8200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="92" barrierStr="第92关"		exp="8400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="93" barrierStr="第93关"		exp="8600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="94" barrierStr="第94关"		exp="8800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="95" barrierStr="第95关"		exp="9000" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="96" barrierStr="第96关"		exp="9200" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="97" barrierStr="第97关"		exp="9400" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="98" barrierStr="第98关"		exp="9600" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="99" barrierStr="第99关"		exp="9800" 	roleExp="6000"	>  	<item id="10120005"  num="1"/> </barrier> 
+      <barrier id="100" barrierStr="第100关"	exp="10000"	roleExp="6000"	>  <item id="10120005"  num="1"/><item id="10301030"   num="1"/> </barrier> 
+      <barrier id="101" barrierStr="第101关"	exp="500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="102" barrierStr="第102关"	exp="1000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="103" barrierStr="第103关"	exp="1500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="104" barrierStr="第104关"	exp="2000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="105" barrierStr="第105关"	exp="2500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="106" barrierStr="第106关"	exp="3000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="107" barrierStr="第107关"	exp="3500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="108" barrierStr="第108关"	exp="4000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="109" barrierStr="第109关"	exp="4500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="110" barrierStr="第110关"	exp="5000"	roleExp="6000"	>  <item id="10120005"  num="1"/><item id="10301031"   num="1"/> </barrier> 
+      <barrier id="111" barrierStr="第111关"	exp="5500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="112" barrierStr="第112关"	exp="6000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="113" barrierStr="第113关"	exp="6500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="114" barrierStr="第114关"	exp="7000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="115" barrierStr="第115关"	exp="7500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="116" barrierStr="第116关"	exp="8000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="117" barrierStr="第117关"	exp="8500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="118" barrierStr="第118关"	exp="9000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="119" barrierStr="第119关"	exp="9500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="120" barrierStr="第120关"	exp="10000"	roleExp="6000"	>  <item id="10120005"  num="1"/><item id="10301032"   num="1"/> </barrier> 
+      <barrier id="121" barrierStr="第121关"	exp="10500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="122" barrierStr="第122关"	exp="11000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="123" barrierStr="第123关"	exp="11500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="124" barrierStr="第124关"	exp="12000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="125" barrierStr="第125关"	exp="12500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="126" barrierStr="第126关"	exp="13000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="127" barrierStr="第127关"	exp="13500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="128" barrierStr="第128关"	exp="14000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="129" barrierStr="第129关"	exp="14500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="130" barrierStr="第130关"	exp="15000"	roleExp="6000"	> <item id="10120005"  num="1"/> <item id="10301034"   num="1"/> </barrier> 
+      <barrier id="131" barrierStr="第131关"	exp="15500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="132" barrierStr="第132关"	exp="16000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="133" barrierStr="第133关"	exp="16500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="134" barrierStr="第134关"	exp="17000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="135" barrierStr="第135关"	exp="17500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="136" barrierStr="第136关"	exp="18000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="137" barrierStr="第137关"	exp="18500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="138" barrierStr="第138关"	exp="19000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="139" barrierStr="第139关"	exp="19500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="140" barrierStr="第140关"	exp="20000"	roleExp="6000"	> <item id="10120005"  num="1"/> <item id="10301035"   num="1"/> </barrier> 
+      <barrier id="141" barrierStr="第141关"	exp="20500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="142" barrierStr="第142关"	exp="21000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="143" barrierStr="第143关"	exp="21500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="144" barrierStr="第144关"	exp="22000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="145" barrierStr="第145关"	exp="22500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="146" barrierStr="第146关"	exp="23000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="147" barrierStr="第147关"	exp="23500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="148" barrierStr="第148关"	exp="24000"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="149" barrierStr="第149关"	exp="24500"	roleExp="6000"	>  <item id="10120005"  num="1"/> </barrier> 
+      <barrier id="150" barrierStr="第150关"	exp="25000"	roleExp="6000"	>  <item id="10120005"  num="1"/><item id="10301001"   num="1"/> </barrier> 
+
+	</barrierInfo>
+</embattle>

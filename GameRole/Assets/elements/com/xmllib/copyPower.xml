@@ -1,0 +1,496 @@
+<power maxlevel="90" secret="46:51" maxTimes="3" vipTimes="2,3,5" timesCost="40,80,120,160,200">
+	  <level id="1" name="北门之乱" mapid="90001" type="151" desc="数万万年的修行，造就了绝世魔头：蚩尤。&#x0A;将助他修行的各路妖魔统统铲除吧！&#x0A;决不可让魔头成为无敌的存在！" fightlvl="1" level="25" tipPower = "366">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>				
+	  </level>
+	  <level id="2"  name="众仙发狂" mapid="90002" type="152"  desc="魔尊护法狐青丘作为蚩尤的得力助手，带领魔军横扫仙凡两界。&#x0A;在震天阁内，你与狐青丘首次遭遇，展开大战！" fightlvl="1" level="27" tipPower = "403">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714022" num="1" ></award>	 
+	  </level>
+	  <level id="3"  name="天香蝶后" mapid="90003" type="153" desc="蚩尤手下有员大将，练就一身钢筋铁骨，非常人不能破也。&#x0A;作为魔军先锋，他一路如入无人之境，该你去和他过过招了。" fightlvl="3" level="27" tipPower = "450">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>		
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="4"  name="天阴童子" mapid="90004" type="154" desc="共工原是司雨之师，跟随蚩尤反抗人神，堕入魔道，乃蚩尤的左膀右臂。&#x0A;欲破蚩尤，先拿共工！" fightlvl="3" level="27" tipPower = "510">
+		    <award itemId="10705101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+		    <award itemId="10203101" num="1" ></award>	
+	  </level>
+	  <level id="5"  name="击退共工" mapid="90005" type="155" desc="祝融乃是上古司火之师，脾气暴躁，得罪奸人，被诬告陷害，一怒之下投诚蚩尤，堕入魔道，成为蚩尤护法。&#x0A;然而共工已降，祝融又有何难？" fightlvl="3" level="27" tipPower = "575">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="6"  name="岩蛇拦路" mapid="90006" type="156" desc="魔尊蚩尤率领魑魅魍魉，气势汹汹直捣仙界大殿！必须把他拦截在路上。&#x0A;魑魅魍魉随侍在侧，为蚩尤增加魔力，若不先将他们击败，与蚩尤这一仗，恐怕难有胜算。" fightlvl="5" level="27" tipPower = "638">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>		
+	  </level>
+	  <level id="7"  name="天绝阵法" mapid="90007" type="157" desc="与蚩尤恶战，剑气无意刺破天穹，六界霎时堕入黑暗。&#x0A;司掌幽冥的玄武真君一直怀有叛逆之心，趁破天之际攻上仙界，欲占领天宫。&#x0A;千万不能让他得逞！" fightlvl="5" level="27" tipPower = "698">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="8"  name="力敌青丘" mapid="90008" type="158" desc="天香蝶是蚩尤侍女，忠心耿耿，得知你击杀蚩尤，立即便来蛊惑你的心性，妄想复仇。" fightlvl="5" level="27" tipPower = "755">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="9"  name="魅惑魔女" mapid="90009" type="159" desc="七重天上豢养着仙兽燮牛，因天穹破裂而产生异变，不断增生，大乱仙兽园。&#x0A;切记：将他和分身同时击杀。若死亡时间相差5秒以上，后果将会很严重。" fightlvl="6" level="27" tipPower = "821">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="10"  name="斗魔破天" mapid="90010" type="160" desc="趁天穹破裂，天地混乱，各类妖魔群起而攻，千万小心！&#x0A;他们之中，有一个内鬼，适当利用他，会帮助你快速清光其他妖魔。" fightlvl="6" level="27" tipPower = "1014">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>
+		    <award itemId="11714022" num="1" ></award>				
+	  </level>
+	
+	  <level id="11" name="妖魔作乱" mapid="90011" type="171" desc="山中有猛虎为患，请前去为民除害！" fightlvl="8" level="30" tipPower = "1186"> 
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="12"  name="刀下救人" mapid="90012" type="172"  desc="林中不知发生什么事，不少人进入后都未曾归来，去打探清楚吧。" fightlvl="8" level="30" tipPower = "1281">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="13"  name="怒斩树妖" mapid="90013" type="173" desc="东海最近不太平，渔民外出遭遇连天海浪，而且海岸边的房屋也被海啸摧毁。" fightlvl="9" level="30" tipPower = "1375">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="14"  name="横扫叶妖" mapid="90014" type="174" desc="人身死后魂归冥府，乃天地轮回。但有的恶灵却以活人为其修炼的助力，对于这种恶灵，解决方法只有一个—灭之！" fightlvl="9" level="30" tipPower = "1470">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="15"  name="打入巢穴" mapid="90015" type="175" desc="前往极地冰境寻找寒冰道人布下结界抵御炽炎魔窟对村子的影响，在这之前你得先取得红莲业火护身。" fightlvl="9" level="30" tipPower = "1564">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="16"  name="剧毒妖将" mapid="90016" type="176" desc="寒冰道人洞府处于一片冰天雪地，常人根本无法忍受，幸亏你有红莲业火，可抵御寒气，但是要他帮忙似乎没那么容易。" fightlvl="9" level="30" tipPower = "1659">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="17"  name="巡逻花妖" mapid="90017" type="177" desc="寒冰道人出手相助，村子重归安宁，难得安然入梦，梦里进入了一片熟悉的场景。" fightlvl="10" level="30" tipPower = "1753">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="18"  name="拦路蝶妖" mapid="90018" type="178" desc="剑冢，一片肃杀之气。你要从中领悟自己的道。" fightlvl="10" level="30" tipPower = "1848">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="19"  name="搜寻妖王" mapid="90019" type="179" desc="前往证道仙人处开启你的记忆，在此之前，你必须先打败赤焰麒麟才能获得认可。" fightlvl="10" level="30" tipPower = "1942">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714022" num="1" ></award>	
+	  </level>
+	  <level id="20"  name="万年树妖" mapid="90020" type="180" desc="证道仙人，开启过去记忆的关键，你的过往将在此处唤醒。成或败，放手一搏吧！少年！" fightlvl="10" level="30" tipPower = "2415">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>
+		    <award itemId="11714017" num="1" ></award>
+		    <award itemId="11714022" num="1" ></award>				
+		</level>
+	
+	   <level id="21"  name="试炼之路" mapid="90021" type="101" desc="你前往妖界搜集补天石，大大削弱了妖精的法力。瞧，花妖上门寻仇来了。" fightlvl="14" level="35" tipPower = "2735">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="22"  name="混世魔灵" mapid="90022" type="102" desc="花妖刚平，树妖又起。一举歼灭他们吧！" fightlvl="14" level="35" tipPower = "3056">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="23"  name="混世修罗" mapid="90023" type="103" desc="深入极北妖界搜寻补天石，沿途遭受各种妖精的袭击，力量一波比一波厉害，怎么回事？" fightlvl="14" level="35" tipPower = "3376">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>			
+		    <award itemId="11714023" num="1" ></award>		
+	   </level>
+	   <level id="24"  name="混世魔兵" mapid="90024" type="104" desc="酒色财气四妖，欲迷乱你的心智，阻止你搜集补天石，一定要把持住！" fightlvl="16" level="35" tipPower = "3696">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="25"  name="混世刀客" mapid="90025" type="105" desc="越往妖界深处走去，越感到压力巨大。妖精渐渐由有形转为无形，炼心修仙，你能否坚持？" fightlvl="16" level="35" tipPower = "4017">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="26"  name="混世魔将" mapid="90026" type="106" desc="无极道人炼仙失败，堕入妖界，吸取妖物精魄修炼，凶残至极。&#x0A;好在有为道人心地善良，靠近他，他会暗中帮助你。" fightlvl="18" level="35" tipPower = "4337">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="27"  name="混世魔女" mapid="90027" type="107" desc="妖界深处有一赤练妖王，修炼九九八十一万年，是妖界七大妖王之一。&#x0A;据说他手下魔怪搜得补天石无数，藏于妖宫，快去清光守卫妖物吧！" fightlvl="18" level="35" tipPower = "4657">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="28"  name="混世魔修" mapid="90028" type="108" desc="与妖宫守卫的激烈战斗惊动了赤练妖王，和他来场生死决战吧！" fightlvl="18" level="35" tipPower = "4978">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="29"  name="混世魔姬" mapid="90029" type="109" desc="原来赤练妖王数万年来不断以妖魔精魄冲击天门结界，企图强行侵入！&#x0A;必须阻止他们！若闯入天门的妖魔超过5人，天门结界即被破坏，闯关失败。" fightlvl="18" level="35" tipPower = "5298">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   <level id="30"  name="混世魔皇" mapid="90030"   type="110" desc="这是天门结界内最后一只飞龙！&#x0A;只有降服它，它才会甘心带你飞升仙界。" fightlvl="18" level="35" tipPower = "6900">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10705102" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>				
+		    <award itemId="11714023" num="1" ></award>	
+	   </level>
+	   
+	  <level id="31" name="又兴风浪" mapid="90031" type="161" desc="刚入仙界，众仙皆在议论蚩尤残部拼死反扑一事，你再次被派往战场扫荡蚩尤余部，将祸害断绝于此。" fightlvl="22" level="40" tipPower = "7284">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="32"  name="斩杀蛟蛇" mapid="90032" type="162"  desc="打头阵的似乎只是一些小魔小怪，那些强大的邪魔却不知所踪。" fightlvl="22" level="40" tipPower = "7668">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="33"  name="赤蛟龙王 " mapid="90033" type="163" desc="风伯飞廉，蚩尤忠心手下，发誓要将你挫骨扬灰。" fightlvl="22" level="40" tipPower = "8052">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="34"  name="拦路虾兵 " mapid="90034" type="164" desc="果然不出所料，风伯出现的地方就会有雨师，雨师已陷入狂暴状态 ，请小心。" fightlvl="25" level="40" tipPower = "8436">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="35"  name="蛟鱼侍女" mapid="90035" type="165" desc="螣蛇这等魔物在魔界也难觅其踪，这次大量出现，看来前方有重要邪魔降临。" fightlvl="25" level="40" tipPower = "8820">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="36"  name="弱水麒麟" mapid="90036" type="166" desc="后卿上次大战身陨，竟化为魔星无人能制。唯有协同女娲后人封印他，免得他再祸害六界！" fightlvl="25" level="40" tipPower = "9204">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="37"  name="迷魂蚌精" mapid="90037" type="167" desc="遁神银灵子是蚩尤手下大将，当初大战幸存下来，看来这次动乱时是他主导的，消灭他，魔物军心必散。" fightlvl="28" level="40" tipPower = "9588">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="38"  name="噬魂灵龟" mapid="90038" type="168" desc="仙魔战场为何会有鬼界参与，看来事情没有那么简单！" fightlvl="28" level="40" tipPower = "9972">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>		
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="39"  name="青蛟护法" mapid="90039" type="169" desc="什么？妖界难道也参与进来了？天界众仙看来还不知道此事！" fightlvl="28" level="40" tipPower = "10356">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>	
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	  <level id="40"  name="青蛟龙王" mapid="90040" type="170" desc="一群蒙面的刺客挡在了你回天界的道路上，不能让他们拖延时间了，速战速决。" fightlvl="28" level="40" tipPower = "12275">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203102" num="1" ></award>
+		    <award itemId="11714003" num="1" ></award>			
+		    <award itemId="11714023" num="1" ></award>	
+	  </level>
+	   
+	   <level id="41"  name="神秘结界" mapid="90041" type="111" desc="你由天门飞升仙界，不料遭到太乙仙尊的袭击！&#x0A;这位仙界元老发生了什么事？" fightlvl="32" level="45" tipPower = "12782">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="42"  name="虎狮喽啰" mapid="90042" type="112" desc="战胜太乙仙尊，却被他瞬移到仙殿之中。三圣兽围攻而上，差点措手不及！" fightlvl="32" level="45" tipPower = "13288">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="43"  name="精英雷力" mapid="90043" type="113" desc="虚空梦魇厉害之极，你能否解除这次危机？" fightlvl="35" level="45" tipPower = "13795">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="44"  name="虎狮小妖" mapid="90044" type="114" desc="虚空至仙紧追而至，原来竟是贰负神妄想抢夺仙帝之位！你能将他们一一击败吗？" fightlvl="35" level="45" tipPower = "14301">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="45"  name="斩杀小妖" mapid="90045" type="115" desc="危跟随贰负神多年，贰负神强占仙界一事，必定有他推波助澜。" fightlvl="40" level="45" tipPower = "14807">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="46"  name="力敌雷武" mapid="90046" type="116" desc="贰负神仙法高强。若在不恰当的时候攻击他，只会让他越来越强。看准他的破绽，一举将他击败！" fightlvl="40" level="45" tipPower = "15314">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="47"  name="虎狮密探" mapid="90047" type="117" desc="劈开混沌，澄清仙界！" fightlvl="41" level="45" tipPower = "15820">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="48"  name="寻找阵眼" mapid="90048" type="118" desc="地王被贰负神所害，困在熔岩之地受炽千年。他的怨恨受贰负神操控，已冲破云霄，抵达仙界。" fightlvl="41" level="45" tipPower = "16327">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="49"  name="大战雷宵" mapid="90049" type="119" desc="通过女娲的试炼，往鬼界进发！解救地王！" fightlvl="45" level="45" tipPower = "16833">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714024" num="1" ></award>	
+	   </level>
+	   <level id="50"  name="两虎相争" mapid="90050" type="120" desc="五行相生相克，只有掌握了他们此消彼长的规律，才能顺利过关。" fightlvl="45" level="45" tipPower = "19365">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>
+		    <award itemId="10202101" num="1" ></award>			
+		    <award itemId="11714004" num="1" ></award>
+		    <award itemId="11714024" num="1" ></award>	
+		</level>
+
+	   <level id="51"  name="虎狮护卫" mapid="90051" type="121" desc="鬼门关前，守界孟婆阻止一切非鬼族类进入。" fightlvl="47" level="50" tipPower = "20036">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="52"  name="一路追击" mapid="90052" type="122" desc="鬼门关前重重守将，除了击败孟婆，还需击败七煞鬼将！" fightlvl="47" level="50" tipPower = "20707">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="53"  name="合战雷高" mapid="90053" type="123" desc="鬼界最著名的三途河，聚集了许多孤魂野鬼，千万小心。" fightlvl="47" level="50" tipPower = "21377">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="54"  name="虎狮阴谋" mapid="90054" type="124" desc="鬼界使者勾魂蝶魅，专门拘拿兽界之魂。" fightlvl="50" level="50" tipPower = "22048">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="55"  name="青丘之计" mapid="90055" type="125" desc="鬼界桀骜不驯的邪魂佞魄，全丢给嗜尸鸟处理。" fightlvl="50" level="50" tipPower = "22719">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="56"  name="护法雷虎" mapid="90056" type="126" desc="秦广王司人间寿夭生死册籍，可不是什么善主。" fightlvl="50" level="50" tipPower = "23390">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="57"  name="虎狮高手" mapid="90057" type="127" desc="转轮王专司鬼魂投胎之所。硬闯地府，必须先应付十殿转轮王！" fightlvl="53" level="50" tipPower = "24061">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="58"  name="横扫虎狮" mapid="90058" type="128" desc="炎魔受命贰负神，炼出地狱之火，围困地王，先将他击败吧！" fightlvl="53" level="50" tipPower = "24732">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="59"  name="长老雷清" mapid="90059" type="129" desc="地狱之火炙烤地王千年，尽快熄灭它们吧！" fightlvl="55" level="50" tipPower = "25402">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="60"  name="力战雷霸" mapid="90060" type="130" desc="地王被地狱之火折磨得失去常性，必须让他清醒过来！" fightlvl="55" level="50" tipPower = "28756">
+		    <award itemId="10705102" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>
+		    <award itemId="10202101" num="1" ></award>			
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+
+	   <level id="61"  name="红玉虾妖" mapid="90061" type="131" desc="拯救地王之后，你回到凡间，遭到一批怪物的袭击。卢尚枫告诉你，北海出事了！" fightlvl="58" level="55" tipPower = "29291">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="62"  name="紫鳞鱼妖" mapid="90062" type="132" desc="一路飞奔向北海，众多妖魔拦路，似乎是冲着你来的？" fightlvl="58" level="55" tipPower = "29826">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="63"  name="蛇尾妖王" mapid="90063" type="133" desc="好不容易到达北海之滨，天冷地寒，一大群尸鬼却从海中浮现，阻你道路！" fightlvl="58" level="55" tipPower = "30361">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="64"  name="蒙面刀魔" mapid="90064" type="134" desc="下潜不过百里，一群巨大蛟龙将你团团围住！" fightlvl="61" level="55" tipPower = "30896">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="65"  name="清音魔女" mapid="90065" type="135" desc="一路披荆斩棘，不在话下！" fightlvl="61" level="55" tipPower = "31430">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="66"  name="月夜魔皇" mapid="90066" type="136" desc="终于到达北海水君的琉璃宫，然而里面空无一人，只剩下大批妖魔。" fightlvl="65" level="55" tipPower = "31965">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="67"  name="蓝灵鬼火" mapid="90067" type="137" desc="你击败琉璃宫的妖魔，一路前进到琉璃宫中的珊瑚园，惊见一群侍女打扮的人物守在院中。原来她们竟是西沙老祖的侍女。这一切居然与西沙老祖有关？" fightlvl="65" level="55" tipPower = "32500">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="68"  name="骷髅恶鬼" mapid="90068" type="138" desc="老祖侍女负责看守鲛人公主，你将她解救，继而继续寻找北海水君的下落。途中却被一群看似无害实则被操控了的金龟所偷袭！" fightlvl="68" level="55" tipPower = "33035">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="69"  name="魔焰鬼王" mapid="90069" type="139" desc="潜至海沟，一个表情木然的人形娃娃矗立在路上。竟是西沙老祖所操控的冰丝木偶！" fightlvl="68" level="55" tipPower = "33570">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+	   </level>
+	   <level id="70"  name="幽冥鬼王" mapid="90070" type="140" desc="终于找到了藏匿地心涡流的西沙老祖！他正准备吸取水君元神，赶紧阻止他！" fightlvl="68" level="55" tipPower = "36244">
+		    <award itemId="10705102" num="1" ></award>
+		    <award itemId="10203103" num="1" ></award>
+		    <award itemId="10202101" num="1" ></award>	
+		    <award itemId="11714005" num="1" ></award>	
+		    <award itemId="11714025" num="1" ></award>	
+		</level>	 
+
+	   <level id="71"  name="祈天道士" mapid="90071" type="141" desc="从小妖口中得知仙帝遗物落于修罗狱，为了一探究竟，你决定前往地府寻找地王帮助！" fightlvl="70" level="60" tipPower = "37007">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="72"  name="蒙面刀客" mapid="90072" type="142" desc="地王得知你的来意后，提出必须先通过他的试炼，才能带你前往修罗之地。" fightlvl="70" level="60" tipPower = "37771">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="73"  name="永恒人王" mapid="90073" type="143" desc="修罗狱入口，有天界守卫挡道，多年守卫此地。他们神智早已迷失，脑海中只有一条信念：擅闯修罗狱者，杀！" fightlvl="75" level="60" tipPower = "38534">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203104" num="1" ></award>		
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="74"  name="飞天仙子" mapid="90074" type="144" desc="顺利通过入口，刚进入修罗狱，竟遇上同样前往修罗狱寻找仙帝遗物的上古大妖，于是爆发一场恶战！" fightlvl="75" level="60" tipPower = "39298">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="75"  name="沉默童子" mapid="90075" type="145" desc="昔年仙帝为镇压修罗狱而设三才阵，&#x0A;只有破了此阵才能深入修罗狱腹地！" fightlvl="75" level="60" tipPower = "40062">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="76"  name="镇宫天王" mapid="90076" type="146" desc="糟糕，被修罗哨兵发现了，他们将你团团围住，为免打草惊蛇，迅速消灭他们！" fightlvl="75" level="60" tipPower = "40825">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="10203104" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="77"  name="烈焰神牛" mapid="90077" type="147" desc="在修罗狱深处惟实力独尊，他们通过不断的杀戮来提升自身实力，一个个都非等闲之辈。" fightlvl="78" level="60" tipPower = "41589">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="78"  name="诸天神女" mapid="90078" type="148" desc="飞天夜叉只是修罗狱里面邪魔的冰山一角，令人恐惧的嗜血罗刹十分的强大，别担心，女娲后人听闻你的举动特地前来相助。" fightlvl="78" level="60" tipPower = "42352">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="79"  name="护天神王" mapid="90079" type="149" desc="修罗之王手下聚集了一大堆实力高超的护卫，他们对修罗之王有着狂热的崇拜，愿意用生命去守卫修罗王。" fightlvl="78" level="60" tipPower = "43116">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203104" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   <level id="80"  name="伏羲化身" mapid="90080" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "46934">
+		    <award itemId="10705102" num="1" ></award>
+		    <award itemId="10203005" num="1" ></award>
+		    <award itemId="10202101" num="1" ></award>	
+		    <award itemId="11714006" num="1" ></award>	
+		    <award itemId="11714026" num="1" ></award>	
+	   </level>
+	   
+	   <level id="81"  name="冥海侍女" mapid="90081" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "49824">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+	   <level id="82"  name="阴阳鳞鱼" mapid="90082" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "52717">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+	   <level id="83"  name="冥海绫鱼" mapid="90083" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "55610">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203005" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+
+	   <level id="84"  name="艳影魔踪" mapid="90084" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "58503">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+
+	   <level id="85"  name="七霞天女" mapid="90085" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "61396">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+
+	   <level id="86"  name="紫蛟龙王" mapid="90086" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "64289">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203005" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+	   <level id="87"  name="白尾狐妖" mapid="90087" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "67182">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+	   <level id="88"  name="千影玄龟" mapid="90088" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "70075">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203101" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+
+	   <level id="89"  name="千影妖将" mapid="90089" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "72968">
+		    <award itemId="10705101" num="1" ></award>
+		    <award itemId="10203005" num="1" ></award>
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+
+	   <level id="90"  name="千影金乌" mapid="90090" type="150" desc="原来这一切都是修罗之王的预谋，将你引诱来此地，妄想吞噬你而突破修罗狱的桎梏为祸六界，不能让他得逞。" fightlvl="80" level="60" tipPower = "75861">
+		    <award itemId="10705102" num="1" ></award>
+		    <award itemId="10203005" num="1" ></award>
+		    <award itemId="10202101" num="1" ></award>	
+		    <award itemId="11714042" num="1" ></award>	
+		    <award itemId="11714041" num="1" ></award>	
+	   </level>
+
+
+
+
+</power>

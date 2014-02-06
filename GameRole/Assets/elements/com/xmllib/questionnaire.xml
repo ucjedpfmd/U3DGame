@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questionnaires>
+	<questionnaire id="100000" title="宠物融合的情况调查" opentime="2011/08/01 12:00:00" closetime="2011/08/17 12:00:00" openlevel="30" closelevel="200" desc="">
+		<question id="100100" seq="1" type="0" content=" 1.您觉得宠物融合的理解难易度是?">
+			<choice id="100101" seq="1" subtype="0" content="A.还好,很快就弄明白了">
+			</choice>
+ 			<choice id="100102" seq="2" subtype="0" content="B.恩,琢磨了一会才弄明白">
+			</choice>
+			<choice id="100103" seq="3" subtype="0" content="C.坑爹啊,看到现在还看不懂">
+			</choice>
+		</question>
+		<question id="100200" seq="2" type="0" content="2.请选出您较喜欢的宠物神技:">
+			<choice id="100201" seq="1" subtype="0" content="A.养精蓄锐、复活、迷乱、净化">
+			</choice>
+ 			<choice id="100202" seq="2" subtype="0" content="B.回天、益气、延年益寿、内力祝福">
+			</choice>
+			<choice id="100203" seq="3" subtype="0" content="C.长生术、石肤、铁胆、肉墙">
+			</choice>
+			<choice id="100204" seq="4" subtype="0" content="D.尼玛，都是垃圾，有木有啊亲！">
+			</choice>
+		</question>
+		<question id="100300" seq="3" type="0" content="3.您对竞技场的看法是？">
+			<choice id="100301" seq="1" subtype="0" content="A.几秒钟就结束战斗了，没感觉">
+			</choice>
+ 			<choice id="100302" seq="2" subtype="0" content="B.每天都会去参加，挺好玩的">
+			</choice>
+			<choice id="100303" seq="3" subtype="0" content="C.奖励太烂了，不想去">
+			</choice>
+			<choice id="100304" seq="4" subtype="0" content="D.竞技场是神马东东？没参加过">
+			</choice>
+		</question>
+		<question id="100400" seq="4" type="1" content="4.请选择您最想我们改进的内容(不定项选择）">
+			<choice id="100401" seq="1" subtype="0" content="A.装备。弄一套好装备太累了">
+			</choice>
+			<choice id="100402" seq="2" subtype="0" content="B.宠物。防低血少，太垃圾">
+			</choice>
+			<choice id="100403" seq="3" subtype="0" content="C.副本。现在的副本都没什么意思">
+			</choice>
+			<choice id="100404" seq="4" subtype="0" content="D.画面。人物和地图太丑啦">
+			</choice>
+		</question>
+	</questionnaire>
+</questionnaires>
+
+
